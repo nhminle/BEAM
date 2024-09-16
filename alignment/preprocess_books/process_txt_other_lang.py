@@ -32,15 +32,14 @@ def extract_sentences(input_file, output_file, lang):
 
 
 if __name__ == "__main__":
-    # language = 'vi'
-    # input_dir = f'/home/nhatminhle_umass_edu/preprocess_books/raw/{language}'
-    # output_dir = f'/home/nhatminhle_umass_edu/preprocess_books/processed/{language}_processed'
-    # for filename in os.listdir(input_dir):
-    #     if filename.endswith(".txt"):
-    #         input_path = os.path.join(input_dir, filename)
-    #         output_path = os.path.join(output_dir, filename.replace(".txt", "_processed.txt"))
+    language = '' # choose lang
+    input_dir = f''
+    output_dir = f''
+    for filename in os.listdir(input_dir):
+        if filename.endswith(".txt"):
+            input_path = os.path.join(input_dir, filename)
+            output_path = os.path.join(output_dir, filename.replace(".txt", "_processed.txt"))
 
-    #         print(f"Starting {input_path}")
-    #         extract_sentences(input_path, output_path, language)
-    #         print(f"Sentences extracted from {input_path} and written to {output_path} as a single paragraph.")
-    extract_sentences('/home/nhatminhle_umass_edu/preprocess_books/raw/vi/A_Tale_of_Two_Cities_vi.txt', '/home/nhatminhle_umass_edu/preprocess_books/processed/vi_processed/A_Tale_of_Two_Cities_vi_processed.txt', 'vi')
+            print(f"Starting {input_path}")
+            extract_sentences(input_path, output_path, language)
+            print(f"Sentences extracted from {input_path} and written to {output_path} as a single paragraph.")

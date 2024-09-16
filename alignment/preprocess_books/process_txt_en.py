@@ -29,14 +29,13 @@ def extract_sentences(input_file, output_file):
         f.write("\n".join(sentences))
 
 if __name__ == "__main__":
-    # input_dir = f'/home/nhatminhle_umass_edu/preprocess_books/raw/en'
-    # output_dir = f'/home/nhatminhle_umass_edu/preprocess_books/processed/en_processed'
-    # for filename in os.listdir(input_dir):
-    #     if filename.endswith(".txt"):
-    #         input_path = os.path.join(input_dir, filename)
-    #         output_path = os.path.join(output_dir, filename.replace(".txt", "_processed.txt"))
+    input_dir = f''
+    output_dir = f''
+    for filename in os.listdir(input_dir):
+        if filename.endswith(".txt"):
+            input_path = os.path.join(input_dir, filename)
+            output_path = os.path.join(output_dir, filename.replace(".txt", "_processed.txt"))
 
-    #         print(f"Starting {input_path}")
-    #         extract_sentences(input_path, output_path)
-    #         print(f"Sentences extracted from {input_path} and written to {output_path} as a single paragraph.")
-    extract_sentences('/home/nhatminhle_umass_edu/preprocess_books/raw/en/Animal_Farm_en.txt', '/home/nhatminhle_umass_edu/preprocess_books/processed/en_processed/Animal_Farm_en_processed.txt')
+            print(f"Starting {input_path}")
+            extract_sentences(input_path, output_path)
+            print(f"Sentences extracted from {input_path} and written to {output_path} as a single paragraph.")

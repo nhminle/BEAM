@@ -1,23 +1,0 @@
-loading libiconv version 1.16
-loading xz version 5.2.5
-loading zlib version 1.2.11
-loading libxml2 version 2.9.12
-loading cuda version 11.8.0
-Downloading https://raw.githubusercontent.com/stanfordnlp/stanza-resources/main/resources_1.8.0.json:   0%|          | 0.00/47.9k [00:00<?, ?B/s]Downloading https://raw.githubusercontent.com/stanfordnlp/stanza-resources/main/resources_1.8.0.json: 386kB [00:00, 68.2MB/s]                    
-2024-08-24 23:44:15 INFO: Downloaded file to /home/nhatminhle_umass_edu/stanza_resources/resources.json
-2024-08-24 23:44:15 INFO: Downloading default packages for language: vi (Vietnamese) ...
-2024-08-24 23:44:16 INFO: File exists: /home/nhatminhle_umass_edu/stanza_resources/vi/default.zip
-2024-08-24 23:44:20 INFO: Finished downloading models and saved to /home/nhatminhle_umass_edu/stanza_resources
-2024-08-24 23:44:20 INFO: Checking for updates to resources.json in case models have been updated.  Note: this behavior can be turned off with download_method=None or download_method=DownloadMethod.REUSE_RESOURCES
-Downloading https://raw.githubusercontent.com/stanfordnlp/stanza-resources/main/resources_1.8.0.json:   0%|          | 0.00/47.9k [00:00<?, ?B/s]Downloading https://raw.githubusercontent.com/stanfordnlp/stanza-resources/main/resources_1.8.0.json: 386kB [00:00, 117MB/s]                     
-2024-08-24 23:44:20 INFO: Downloaded file to /home/nhatminhle_umass_edu/stanza_resources/resources.json
-2024-08-24 23:44:20 INFO: Loading these models for language: vi (Vietnamese):
-=======================
-| Processor | Package |
------------------------
-| tokenize  | vtb     |
-=======================
-
-2024-08-24 23:44:20 INFO: Using device: cuda
-2024-08-24 23:44:20 INFO: Loading: tokenize
-2024-08-24 23:44:22 INFO: Done loading processors!
