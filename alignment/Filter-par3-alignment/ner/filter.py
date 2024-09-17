@@ -25,6 +25,6 @@ def get_folder_names(directory):
     return folder_names
 
 if __name__ == '__main__':
-    titles = get_folder_names('/home/nhatminhle_umass_edu/aligner/ner')
+    titles = get_folder_names('/aligner/ner')
     for title in titles:
-        filter(path=f'/home/nhatminhle_umass_edu/Filter-par3-alignment/ner/{title}/{title}_para_ner.csv')
+        filter(path=f'/Filter-par3-alignment/ner/{title}/{title}_para_ner.csv')
