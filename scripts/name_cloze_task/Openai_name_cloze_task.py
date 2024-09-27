@@ -91,14 +91,15 @@ def predict(lang, passage):
         print(completion.choices[0].message.content)
     return completion.choices[0].message.content
 
-def eval_guess(ent, guess):
-    print(f'ent: {ent} <-> guess: {guess}')
-    ent = ent.strip().lower()
+def eval_guess(correct, guess):
+    correct = correct.strip().lower()
     guess = unidecode(guess.strip().lower())
-    if ent in guess or guess in ent:
-        print('correct')
+    
+    correct_pattern = re.compile(rf'\b{re.escape(correct)}\b', re.IGNORECASE)
+    guess_pattern = re.compile(rf'\b{re.escape(guess)}\b', re.IGNORECASE)
+
+    if correct_pattern.search(guess) or guess_pattern.search(correct):
         return "Correct"
-    print('incorrect')
     return "Incorrect"
 
 def name_cloze_task(csv_file_name, book_title):
