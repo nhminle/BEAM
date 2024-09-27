@@ -97,9 +97,9 @@ def direct_probe(csv_file_name):
         print(f"Average tokens per line in {title}: {round(avg_tokens_per_line)}")
         print(f'Projected token output per line in {title}: {round(avg_tokens_per_line/2)}')
         print(f"Total lines in {title}: {total_lines}")
-        print(f'Projected cost: {(total_token*5/1000000+(20)*15/1000000)/2}')
+        print(f'Projected cost: {(total_token*5/1000000+(20)*15/1000000)}')
         print('\n')
-        return (total_token*5/1000000+(20)*15/1000000)/2
+        return (total_token*5/1000000+(20)*15/1000000)
     except:
         print(f'{title} is missing\n')
         return 0
