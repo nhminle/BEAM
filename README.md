@@ -15,12 +15,11 @@ This repository contains the research conducted for the paper titled **"Beyond E
 - **Follow-up Question:** Can LLMs memorize translations into languages not present in their pre-training dataset, and will their performance remain strong for out-of-distribution languages?
 
 ## 👩🏻‍💻 Contributors
-
-### Special Thanks 🌟
 | ![Alisha Srivastava](https://avatars.githubusercontent.com/alishasrivas?s=100) | ![Nhat Minh Le](https://avatars.githubusercontent.com/nhminhle?s=100) | ![Emir Korukluogu](https://avatars.githubusercontent.com/emirkaan5?s=100) |
 |:---:|:---:|:---:|
 | [Alisha Srivastava](https://github.com/alishasrivas) | [Nhat Minh Le](https://github.com/nhminhle) | [Emir Korukluogu](https://github.com/emirkaan5) |
 
+### Special Thanks 🌟
 - **Chau Minh Pham** - For guiding our research and being our research mentor.
 - **Dr. Marzena Karpinska** - For guiding our research and for her invaluable expertise. 
 - **Dr. Mohit Iyyer** - For guiding our research and being our research advisor.
