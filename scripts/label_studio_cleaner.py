@@ -20,7 +20,7 @@ def run_filter(directory, filename):
 
     # Filter the rows where the 'sentiment' column contains 'Aligned 😊'
     filtered_df = df[df['sentiment'].apply(lambda x: aligned_label in x if isinstance(x, str) else False)]
-    filtered_df = filtered_df[['en', 'es', 'tr', 'vi']]
+    filtered_df = filtered_df[['Single_ent', 'en', 'es', 'tr', 'vi']]
 
     # Define the output directory and ensure it exists
     output_directory = os.path.join(directory, 'filtered')
