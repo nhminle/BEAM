@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import random
 
 def get_folder_names(directory):
     folder_names = []
@@ -11,6 +12,11 @@ def get_folder_names(directory):
             folder_names.append(item)
     return folder_names
 
+def shuffle_words(prompt):
+    words = prompt.split()
+    random.shuffle(words)
+    return ' '.join(words)
+
 def run_filter(directory, filename):
     csv_file = os.path.join(directory, filename)  # Create the full path to the file
     df = pd.read_csv(csv_file)
@@ -21,6 +27,12 @@ def run_filter(directory, filename):
     # Filter the rows where the 'sentiment' column contains 'Aligned 😊'
     filtered_df = df[df['sentiment'].apply(lambda x: aligned_label in x if isinstance(x, str) else False)]
     filtered_df = filtered_df[['Single_ent', 'en', 'es', 'tr', 'vi']]
+    
+    # Shuffle words in the prompt columns
+    filtered_df['en_prompts_shuffled'] = filtered_df['en_prompts'].apply(lambda x: shuffle_words(x) if isinstance(x, str) else x)
+    filtered_df['es_prompts_shuffled'] = filtered_df['es_prompts'].apply(lambda x: shuffle_words(x) if isinstance(x, str) else x)
+    filtered_df['tr_prompts_shuffled'] = filtered_df['tr_prompts'].apply(lambda x: shuffle_words(x) if isinstance(x, str) else x)
+    filtered_df['vi_prompts_shuffled'] = filtered_df['vi_prompts'].apply(lambda x: shuffle_words(x) if isinstance(x, str) else x)
 
     # Define the output directory and ensure it exists
     output_directory = os.path.join(directory, 'filtered')
