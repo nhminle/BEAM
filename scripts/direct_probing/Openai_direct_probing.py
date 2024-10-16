@@ -11,74 +11,49 @@ client = OpenAI(
 
 
 def extract_output(html):
-    # Parse the HTML
     soup = BeautifulSoup(html, 'html.parser')
-
-    # Find the <translation> tag and extract its text
     translation_tag = soup.find('output')
-
-    # If the <translation> tag is found, return its text
     if translation_tag:
         return translation_tag.decode_contents()
-
-    # If the <translation> tag is not found, return None or an appropriate message
+    
     return None
 
 
-# replace the prompt with the correct language when running experiments
 def predict(lang, passage):
-    if lang == "es":
-        text = f"""
-            You are provided with a passage in {lang}. Your task is to carefully read the passage and identify the book it originated from and the book's author.
+    few_shot_examples = {
+        "es": {
+            "example_passage": "Lord Henry alzó las cejas y lo miró con asombro a través de las delgadas volutas de humo que, al salir de su cigarrillo con mezcla de opio, se retorcían adoptando extrañas formas.",
+            "example_output": '"title": "The Picture of Dorian Gray","author": "Oscar Wilde"'
+        },
+        "tr": {
+            "example_passage": "Kendimden pek çok şey kattım buna.” Lord Henry divana boylu boyunca uzanarak güldü.",
+            "example_output": '"title": "The Picture of Dorian Gray","author": "Oscar Wilde"'
+        },
+        "vi": {
+            "example_passage": "Oliver không hề thích thú kiểu đùa giỡn này và chuẩn bị thổ lộ sự bất bình của mình với hai anh bạn",
+            "example_output": '"title": "Oliver Twist","author": "Charles Dickens"'
+        },
+        "en": {
+            "example_passage": "I am afraid I must be going, Basil.",
+            "example_output": '"title": "The Picture of Dorian Gray", "author": "Oscar Wilde"'
+        }
+    }
 
-            Example:
-            <passage>Lord Henry alzó las cejas y lo miró con asombro a través de las delgadas volutas de humo que, al salir de su cigarrillo con mezcla de opio, se retorcían adoptando extrañas formas.</passage>
-            <answer>"title": "The Picture of Dorian Gray","author": "Oscar Wilde"</answer>
+    example = few_shot_examples.get(lang)
 
-            Now, here is the passage. Please provide the book title and its author:
-            <passage>{passage}</passage>
-            You must format your output exactly as follows:
-            <output>"title": "Book title","author": "author name"</output>
-        """
-    elif lang == "tr":
-        text = f"""
-            You are provided with a passage in {lang}. Your task is to carefully read the passage and identify the book it originated from and the book's author.
+    text_template = """
+        You are provided with a passage in {lang}. Your task is to carefully read and determine which book this passage originates from and who the author is. You must make a guess, even if you are uncertain.
 
-            Example:
-            <passage>Kendimden pek çok şey kattım buna.” Lord Henry divana boylu boyunca uzanarak güldü.</passage>
-            <answer>"title": "The Picture of Dorian Gray","author": "Oscar Wilde"</answer>
+        Here is an example:
+        <passage>{example_passage}</passage>
+        <output>{example_output}</output>
 
-            Now, here is the passage. Please provide the book title and its author:
-            <passage>{passage}</passage>
-            You must format your output exactly as follows:
-            <output>"title": "Book title","author": "author name"</output>
-        """
-    elif lang == "vi":
-        text = f"""
-            You are provided with a passage in {lang}. Your task is to carefully read the passage and identify the book it originated from and the book's author.
+        Here is the passage:
+        <passage>{passage}</passage>
 
-            Example:
-            <passage>Oliver không hề thích thú kiểu đùa giỡn này và chuẩn bị thổ lộ sự bất bình của mình với hai anh bạn</passage>
-            <answer>"title": "Oliver Twist","author": "Charles Dickens"</answer>
-
-            Now, here is the passage. Please provide the book title and its author:
-            <passage>{passage}</passage>
-            You must format your output exactly as follows:
-            <output>"title": "Book title","author": "author name"</output>
-        """
-    else:
-        text = f"""
-            You are provided with a passage in {lang}. Your task is to carefully read the passage and identify the book it originated from and the book's author.
-
-            Example:
-            <passage>I am afraid I must be going, Basil.</passage>
-            <answer>"title": "The Picture of Dorian Gray", "author": "Oscar Wilde"</answer>
-            
-            Now, here is the passage. Please provide the book title and its author:
-            <passage>{passage}</passage>
-            You must format your output exactly as follows:
-            <output>"title": "Book title","author": "author name"</output>
-        """
+        Use the following format as output:
+       <output>"title": "Book name","author": "author name"</output>
+    """
 
     completion = client.chat.completions.create(
         model="gpt-4o",
@@ -86,7 +61,12 @@ def predict(lang, passage):
         max_tokens=100,
 
         messages=[
-            {"role": "user", "content": text}
+            {"role": "user", "content": text_template.format(
+                lang=lang,
+                example_passage=example["example_passage"],
+                example_output=example["example_output"],
+                passage=passage
+            )}
         ],
         temperature=0.0
     )
@@ -99,19 +79,6 @@ def predict(lang, passage):
     return completion.choices[0].message.content
 
 
-def eval_guess(correct, guess):
-    correct = correct.strip().lower()
-    guess = unidecode(guess.strip().lower())
-
-    # Use regex to check for whole word match
-    correct_pattern = re.compile(rf'\b{re.escape(correct)}\b', re.IGNORECASE)
-    guess_pattern = re.compile(rf'\b{re.escape(guess)}\b', re.IGNORECASE)
-
-    if correct_pattern.search(guess) or guess_pattern.search(correct):
-        return "Correct"
-    return "Incorrect"
-
-
 def direct_probe(csv_file_name, book_title, book_author):
     try:
         df = pd.read_csv(csv_file_name)
@@ -120,27 +87,16 @@ def direct_probe(csv_file_name, book_title, book_author):
             if language != 'Entity':
                 print(f'Running {language}')
                 output = []
-                eval_title = []
-                eval_author = []
                 passage_no = 0
                 for i in range(len(df)):
                     passage = df[language].iloc[i]
                     content = predict(language, passage)
                     output.append(content)
-                    title_eval = eval_guess(book_title, content)
-                    author_eval = eval_guess(book_author, content)
-                    eval_title.append(title_eval)
-                    eval_author.append(author_eval)
                     print(f'{passage_no}: {content}')
-                    print(f'title eval: {title_eval}, author eval: {author_eval}')
                     passage_no += 1
                 index_of_language = df.columns.get_loc(language)
                 output_col = pd.Series(output)
                 df.insert(index_of_language + 1, f"{language}_results", output_col)
-                title_col = pd.Series(eval_title)
-                df.insert(index_of_language + 2, f"{language}_title", title_col)
-                author_col = pd.Series(eval_author)
-                df.insert(index_of_language + 3, f"{language}_author", author_col)
 
         df.to_csv(f"/direct_probing/out/{title.replace(' ', '_')}_direct-probe_gpt4o", index=False, encoding='utf-8')
     except:
