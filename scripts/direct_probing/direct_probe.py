@@ -98,7 +98,7 @@ def direct_probe(csv_file_name, book_title, llm, model_name):
 
         df.to_csv(f"{book_title}_direct_probe_{model_name}.csv", index=False, encoding='utf-8')
     except Exception as e:
-        print(f'Error: {e}, {csv_file_name} is missing')
+        print(f'Error: {e}')
 
 def get_folder_names(directory):
     folder_names = []
@@ -117,8 +117,6 @@ if __name__ == "__main__":
 
     llm = LLM(model=args.model, tensor_parallel_size=1, max_model_len=2048)
     
-    skip_list = ['raw']
     for title in titles:
-        if title not in skip_list:
-            print(f'----------------- running {title} -----------------')
-            direct_probe(csv_file_name=f"/Prompts/{title}/{title}_filtered.csv", book_title=title, llm=llm, model_name=args.model.split('/')[1])
+        print(f'----------------- running {title} -----------------')
+        direct_probe(csv_file_name=f"/Prompts/{title}/{title}_filtered.csv", book_title=title, llm=llm, model_name=args.model.split('/')[1])
