@@ -115,4 +115,4 @@ if __name__ == "__main__":
     titles = get_folder_names('/Prompts')
     for title in titles:
         print(f'----------------- running {title} -----------------')
-        name_cloze_task(csv_file_name=f"/Prompts/{title}/{title}_ner_masked.csv", book_title=title)
+        name_cloze_task(csv_file_name=f"/Prompts/{title}/{title}_filtered_masked.csv", book_title=title)
