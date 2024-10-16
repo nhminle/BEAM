@@ -98,9 +98,9 @@ def direct_probe(csv_file_name, book_title, book_author):
                 output_col = pd.Series(output)
                 df.insert(index_of_language + 1, f"{language}_results", output_col)
 
-        df.to_csv(f"/direct_probing/out/{title.replace(' ', '_')}_direct-probe_gpt4o", index=False, encoding='utf-8')
-    except:
-        print(f'{csv_file_name} is missing')
+        df.to_csv(f"{book_title}_direct_probe_gpt4o.csv", index=False, encoding='utf-8')
+    except Exception as e:
+        print(f'Error: {e}')
 
 def get_folder_names(directory):
     folder_names = []
@@ -117,9 +117,8 @@ def read_txt_file(file_path):
 
 if __name__ == "__main__":
     titles = get_folder_names('/Prompts')
-    skip_list = ['raw']
+    
     for title in titles:
-        if title not in skip_list:
-            print(f'----------------- running {title} -----------------')
-            direct_probe(csv_file_name=f"/Prompts/{title}/{title}_ner.csv", book_title=title.replace('_', ' '), book_author=read_txt_file(f'/Prompts/{title}/author.txt'))
+        print(f'----------------- running {title} -----------------')
+        direct_probe(csv_file_name=f"/Prompts/{title}/{title}_ner.csv", book_title=title, book_author=read_txt_file(f'/Prompts/{title}/author.txt'))
             
