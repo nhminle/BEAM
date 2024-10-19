@@ -125,10 +125,9 @@ def longest_common_subsequence(str1, str2):
 
 
 def split_sentence_in_half(sentence):
-    words = sentence.split()  # Split the sentence into words
-    midpoint = len(words) // 2  # Find the midpoint
+    words = sentence.split()  
+    midpoint = len(words) // 2  
 
-    # Split the list of words into two halves
     first_half = ' '.join(words[:midpoint])
     second_half = ' '.join(words[midpoint:])
 
@@ -189,13 +188,7 @@ def prefixProbe(csv_file_name, book_title, rouge, bleurt):
                     completion = predict(first_half, book_title, language, word_count)
                     trimmed_completion = slice_full_words(trim_starting_similarity(first_half, completion), len(second_half))
                     print(trimmed_completion)
-                    rougel = rouge.compute(predictions=[trimmed_completion], references=[second_half], rouge_types=['rougeL'])['rougeL']
-                    if not rougel: rougel = 0
-                    print(rougel)
-                    bleurt_score = bleurt.compute(predictions=[trimmed_completion], references=[second_half])['scores'][0]
-                    if not bleurt_score: bleurt_score = -1
-                    print(bleurt_score)
-                    row.extend([first_half, second_half, trimmed_completion, longest_common_subsequence(second_half, trimmed_completion), rougel, bleurt_score])
+                    row.extend([first_half, second_half, trimmed_completion])
                 except Exception as e:
                     row.extend([first_half, str(e), False])
             results.append(row)
@@ -204,7 +197,7 @@ def prefixProbe(csv_file_name, book_title, rouge, bleurt):
             writer = csv.writer(f)
             header = []
             for lang in languages:
-                header.extend([f'{lang} first half', f'{lang} second half', f'{lang} Completion', f'{lang} lcs', f'{lang} rougeL score', f'{lang} bleurt_score'])
+                header.extend([f'{lang} first half', f'{lang} second half', f'{lang} Completion'])
             writer.writerow(header)
             writer.writerows(results)
 
