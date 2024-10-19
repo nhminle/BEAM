@@ -1,8 +1,7 @@
-import csv
+import pandas as pd
 from bs4 import BeautifulSoup
 from openai import OpenAI
 import os
-import evaluate
 
 
 client = OpenAI(
@@ -21,58 +20,41 @@ def extract_output(text):
 
 
 def predict(passage, bookname, lang, word_count):
-    if lang == "es":
-        text = f"""
-            You are provided with a passage in {lang} from {bookname}. Your task is to complete this passage according to {bookname} within {word_count} words.
 
-            Example:
-            <passage>Ciertamente, si había algo de lo que estaban completamente seguros los animales, era de no</passage>
-            <continuation>querer la vuelta de Jones. Cuando se les presentaba de esta forma, no sabían qué decir.</continuation>
+    few_shot_examples = {
+        "es": {
+            "example_passage": "Ciertamente, si había algo de lo que estaban completamente seguros los animales, era de no",
+            "example_output": "Ciertamente, si había algo de lo que estaban completamente seguros los animales, era de no querer la vuelta de Jones. Cuando se les presentaba de esta forma, no sabían qué decir."
+        },
+        "tr": {
+            "example_passage": "Hayvanların en küçük bir kuşku duymadıkları tek bir",
+            "example_output": "Hayvanların en küçük bir kuşku duymadıkları tek bir şey varsa, o da Jones'un geri dönmesini istemedikleriydi."
+        },
+        "vi": {
+            "example_passage": "Rõ ràng đây là điều rất bình thường, chẳng có ai ăn bánh mà lại bị to ra hay bé đi cả, nhưng Alice đang quá trông chờ",
+            "example_output": "Rõ ràng đây là điều rất bình thường, chẳng có ai ăn bánh mà lại bị to ra hay bé đi cả, nhưng Alice đang quá trông chờ vào những điều bất thường nên khi cái điều bình thường đó xảy ra đã khiến cô cảm thấy cuộc đời sao mà ảm đạm và đáng chán"
+        },
+        "en": {
+            "example_passage": "As Gregor Samsa awoke one morning from uneasy dreams",
+            "example_output": "As Gregor Samsa awoke one morning from uneasy dreams he found himself transformed in his bed into a gigantic insect."
+        }
+    }
 
-            Here is the passage. Please provide its continuation in {lang} according to {bookname}:
-            <passage>{passage}</passage>
-            You must format your output exactly as follows:
-            <continuation>your continuation</continuation>
-        """
-    elif lang == "tr":
-        text = f"""
-            You are provided with a passage in {lang} from {bookname}. Your task is to complete this passage according to {bookname} within {word_count} words.
+    example = few_shot_examples.get(lang)
 
-            Example:
-            <passage>Hayvanların en küçük bir kuşku duymadıkları tek bir</passage>
-            <continuation>şey varsa, o da Jones'un geri dönmesini istemedikleriydi.</continuation>
+    text_template = """
+        You are provided with an incomplete passage from {book_name}. Your task is to complete the passage in the SAME LANGUAGE with {word_count} words. Return the entire completed passage, including the original input passage.
 
-            Here is the passage. Please provide its continuation in {lang} according to {bookname}:
-            <passage>{passage}</passage>
-            You must format your output exactly as follows:
-            <continuation>your continuation</continuation>
-        """
-    elif lang == "vi":
-        text = f"""
-            You are provided with a passage in {lang} from {bookname}. Your task is to complete this passage according to {bookname} within {word_count} words.
+        Here is an example:
+        <passage>{example_passage}</passage>
+        <passage>{example_output}</passage>
 
-            Example:
-            <passage>Rõ ràng đây là điều rất bình thường, chẳng có ai ăn bánh mà lại bị to ra hay bé đi cả, nhưng Alice đang quá trông chờ</passage>
-            <continuation>vào những điều bất thường nên khi cái điều bình thường đó xảy ra đã khiến cô cảm thấy cuộc đời sao mà ảm đạm và đáng chán.</continuation>
+        Here is the passage:
+        <passage>{passage}</passage>
 
-            Here is the passage. Please provide its continuation in {lang} according to {bookname}:
-            <passage>{passage}</passage>
-            You must format your output exactly as follows:
-            <continuation>your continuation</continuation>
-        """
-    else:
-        text = f"""
-            You are provided with a passage in {lang} from {bookname}. Your task is to complete this passage according to {bookname} within {word_count} words.
-            
-            Example:
-            <passage>As Gregor Samsa awoke one morning from uneasy dreams</passage>
-            <continuation>he found himself transformed in his bed into a gigantic insect.</continuation>
-            
-            Here is the passage. Please provide its continuation in {lang} according to {bookname}:
-            <passage>{passage}</passage>
-            You must format your output exactly as follows:
-            <continuation>your continuation</continuation>
-        """
+        You must format your output exactly as follows:
+       <passage>Completed passage here</passage>
+    """
 
     completion = client.chat.completions.create(
 
@@ -80,8 +62,14 @@ def predict(passage, bookname, lang, word_count):
 
         max_tokens=250,
 
-        messages=[
-            {"role": "user", "content": text}
+       messages=[
+            {"role": "user", "content": text_template.format(
+                book_name=bookname,
+                word_count=word_count,
+                example_passage=example["example_passage"],
+                example_output=example["example_output"],
+                passage=passage
+            )}
         ],
         temperature=0.0
     )
@@ -162,45 +150,30 @@ def slice_full_words(text, limit):
             return text[:next_space]
 
 
-def prefixProbe(csv_file_name, book_title, rouge, bleurt):
+def prefixProbe(csv_file_name, book_title):
     try:
+        df = pd.read_csv(csv_file_name)
+
         languages = ["en", "vi", "es", "tr"]
-        full_passages_by_language = {lang: [] for lang in languages}
+        for lang in languages:
+            if lang in df.columns:
+                print(f'///running {lang}///')
+                output = []
+                for i in range(len(df)):
+                    full_passage = df[lang].iloc[i]
+                    first_half, second_half, word_count = split_sentence_in_half(full_passage)
+                    try:
+                        print(f"Running prompt for {lang}: {first_half}")
+                        completion = predict(first_half, book_title, lang, word_count)
+                        trimmed_completion = slice_full_words(trim_starting_similarity(first_half, completion), len(second_half))
+                        output.append([first_half, second_half, trimmed_completion])
+                    except Exception as e:
+                        output.append([first_half, str(e), False])
+                
+                output_df = pd.DataFrame(output, columns=[f'{lang}_first_half', f'{lang}_second_half', f'{lang}_Completion'])
+                df = pd.concat([df, output_df], axis=1)
 
-        with open(csv_file_name, newline='', encoding='utf-8') as csvfile:
-            reader = csv.DictReader(csvfile)
-            for row in reader:
-                for lang in languages:
-                    full_passages_by_language[lang].append(row[lang])
-
-        
-        results = []
-
-        num_passages = len(full_passages_by_language["en"])  
-        for i in range(num_passages):
-            print(f'---- {i} ----')
-            row = []
-            for language in languages:
-                full_passage = full_passages_by_language[language][i]
-                first_half, second_half, word_count = split_sentence_in_half(full_passage)
-                try:
-                    print(f"Running prompt for {language}: {first_half}")
-                    completion = predict(first_half, book_title, language, word_count)
-                    trimmed_completion = slice_full_words(trim_starting_similarity(first_half, completion), len(second_half))
-                    print(trimmed_completion)
-                    row.extend([first_half, second_half, trimmed_completion])
-                except Exception as e:
-                    row.extend([first_half, str(e), False])
-            results.append(row)
-
-        with open(f"/prefix_probing/out/{book_title.replace(' ', '_')}_prefix_probe_gpt4o.csv", 'w', newline='', encoding='utf-8') as f:
-            writer = csv.writer(f)
-            header = []
-            for lang in languages:
-                header.extend([f'{lang} first half', f'{lang} second half', f'{lang} Completion'])
-            writer.writerow(header)
-            writer.writerows(results)
-
+        df.to_csv(f"{book_title}_prefix_probe_gpt4o.csv", index=False, encoding='utf-8')
     except Exception as e:
         print(e)
 
@@ -219,11 +192,9 @@ def read_txt_file(file_path):
     return content.strip()
 
 if __name__ == "__main__":
-    rouge = evaluate.load('rouge')
-    bleurt = evaluate.load("bleurt", module_type="metric")
     titles = get_folder_names('/Prompts')
     skip_list = ['raw']
     for title in titles:
         if title not in skip_list:
             print(f'----------------- running {title} -----------------')
-            prefixProbe(csv_file_name=f"/Prompts/{title}/{title}_ner.csv", book_title=title.replace('_', ' '), rouge=rouge, bleurt=bleurt)
+            prefixProbe(csv_file_name=f"/Prompts/{title}/{title}_ner.csv", book_title=title.replace('_', ' '))
