@@ -114,35 +114,37 @@ def eval_guess(correct, guess):
 
 def direct_probe(csv_file_name, book_title, book_author):
     try:
-        df = pd.read_csv(csv_file_name)
+        if os.path.exists(csv_file_name):
+            df = pd.read_csv(csv_file_name)
 
-        for language in df.columns:
-            if language != 'Entity':
-                print(f'Running {language}')
-                output = []
-                eval_title = []
-                eval_author = []
-                passage_no = 0
-                for i in range(len(df)):
-                    passage = df[language].iloc[i]
-                    content = predict(language, passage)
-                    output.append(content)
-                    title_eval = eval_guess(book_title, content)
-                    author_eval = eval_guess(book_author, content)
-                    eval_title.append(title_eval)
-                    eval_author.append(author_eval)
-                    print(f'{passage_no}: {content}')
-                    print(f'title eval: {title_eval}, author eval: {author_eval}')
-                    passage_no += 1
-                index_of_language = df.columns.get_loc(language)
-                output_col = pd.Series(output)
-                df.insert(index_of_language + 1, f"{language}_results", output_col)
-                title_col = pd.Series(eval_title)
-                df.insert(index_of_language + 2, f"{language}_title", title_col)
-                author_col = pd.Series(eval_author)
-                df.insert(index_of_language + 3, f"{language}_author", author_col)
+            for language in df.columns:
+                if language != 'Entity':
+                    print(f'Running {language}')
+                    output = []
+                    eval_title = []
+                    eval_author = []
+                    passage_no = 0
+                    for i in range(len(df)):
+                        passage = df[language].iloc[i]
+                        content = predict(language, passage)
+                        output.append(content)
+                        title_eval = eval_guess(book_title, content)
+                        author_eval = eval_guess(book_author, content)
+                        eval_title.append(title_eval)
+                        eval_author.append(author_eval)
+                        print(f'{passage_no}: {content}')
+                        print(f'title eval: {title_eval}, author eval: {author_eval}')
+                        passage_no += 1
+                    index_of_language = df.columns.get_loc(language)
+                    output_col = pd.Series(output)
+                    df.insert(index_of_language + 1, f"{language}_results", output_col)
+                    title_col = pd.Series(eval_title)
+                    df.insert(index_of_language + 2, f"{language}_title", title_col)
+                    author_col = pd.Series(eval_author)
+                    df.insert(index_of_language + 3, f"{language}_author", author_col)
 
-        df.to_csv(f"/direct_probing/out/{title.replace(' ', '_')}_direct-probe_gpt4o", index=False, encoding='utf-8')
+            df.to_csv(f"scripts/direct_probing/out/{title.replace(' ', '_')}_direct-probe_gpt4o", index=False, encoding='utf-8')
+        print("Book not found : " + str(csv_file_name))
     except:
         print(f'{csv_file_name} is missing')
 
@@ -160,10 +162,10 @@ def read_txt_file(file_path):
     return content.strip()
 
 if __name__ == "__main__":
-    titles = get_folder_names('/Prompts')
-    skip_list = ['raw']
+    titles = get_folder_names('scripts/Prompts')
+    skip_list = ['Adventures_of_Huckleberry_Finn']
     for title in titles:
-        if title not in skip_list:
+        if title in skip_list:
             print(f'----------------- running {title} -----------------')
-            direct_probe(csv_file_name=f"/Prompts/{title}/{title}_ner.csv", book_title=title.replace('_', ' '), book_author=read_txt_file(f'/Prompts/{title}/author.txt'))
+            direct_probe(csv_file_name=f"scripts/Prompts/{title}/{title}_filtered_masked.csv", book_title=title.replace('_', ' '), book_author=read_txt_file(f'scripts/Prompts/{title}/author.txt'))
             
