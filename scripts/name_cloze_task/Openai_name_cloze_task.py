@@ -9,7 +9,6 @@ client = OpenAI(
 )
 
 def extract_output(html):
-    # Parse the HTML
     soup = BeautifulSoup(html, 'html.parser')
 
     name_tag = soup.find('name')
