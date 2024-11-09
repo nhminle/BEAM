@@ -17,7 +17,7 @@ def extract_sentences(input_file, output_file, lang):
     text = re.sub(r'\.(\w)', r'. \1', text)
     text = re.sub(r'\*+\s*\*+\s*\*+', ' ', text)
 
-    # Process text to extract sentencesy
+    # Process text to extract sentences
     doc = nlp(text)
     offset = 0
     for i, sentence in enumerate(doc.sentences):
