@@ -80,7 +80,7 @@ def predict(lang, passages, llm):
 
     return batch_results
 
-def direct_probe(csv_file_name, book_title, llm, model_name):
+def name_cloze(csv_file_name, book_title, llm, model_name):
     try:
         df = pd.read_csv(csv_file_name)
 
@@ -118,4 +118,4 @@ if __name__ == "__main__":
     for title in titles:
         if title not in skip_list:
             print(f'----------------- running {title} -----------------')
-            direct_probe(csv_file_name=f"/home/nhatminhle_umass_edu/Prompts/{title}/{title}_filtered_masked.csv", book_title=title, llm=llm, model_name=args.model.split('/')[1])
+            name_cloze(csv_file_name=f"/home/nhatminhle_umass_edu/Prompts/{title}/{title}_filtered_masked.csv", book_title=title, llm=llm, model_name=args.model.split('/')[1])
