@@ -1,0 +1,49 @@
+Single_ent,en_masked_results,en_exact_match,en_highest_fuzzy_match,en_correct
+['eager beaver'],twelve,0,0.5,incorrect
+['hannah'],schoolhate,0,0.25,incorrect
+['kalpana chawla'],lecture,0,0.19,incorrect
+['floyd'],dysfunction,0,0.25,incorrect
+['floyd'],assignment,0,0.0,incorrect
+['mara'],"in the given passage, the sentence ""i sent you my cousin-or-something’s contact info a while ago,” [mask] tells me one night. we’re at the cheapest grad bar we’ve been able to find. she’s on her second midori sour of the night. “did you get it?”"" suggests that the person speaking is sharing information with the narrator about someone they know, and the person they are referring to is a cousin or something like that.",0,0.0,incorrect
+['mara'],john,0,0.0,incorrect
+['floyd'],family,0,0.55,incorrect
+['python'],i,0,0.0,incorrect
+['let'],get together,0,0.27,incorrect
+['fuck'],ian,0,0.0,incorrect
+['hannah'],alex,0,0.2,incorrect
+['mara'],reflection,0,0.14,incorrect
+['merel'],dr. møller,0,0.4,incorrect
+['hannah'],name&lt;/,0,0.27,incorrect
+['mara'],tina,0,0.25,incorrect
+['mara'],she,0,0.0,incorrect
+['merel'],dr. rishi,0,0.14,incorrect
+['karl'],officemate,0,0.14,incorrect
+['haven'],feedback,0,0.15,incorrect
+['arroyo'],dr. rasmussen,0,0.11,incorrect
+['arroyo'],dr._name,0,0.14,incorrect
+['merel'],dr. sagan,0,0.14,incorrect
+['floyd'],colleagues,0,0.13,incorrect
+['merel'],dr. sorenson,0,0.24,incorrect
+['hannah'],harry,0,0.36,incorrect
+['merel'],he,0,0.29,incorrect
+['hannah'],eirik,0,0.0,incorrect
+['merel'],brett,0,0.4,incorrect
+['floyd'],he,0,0.0,incorrect
+['hannah'],assumpta,0,0.29,incorrect
+['hannah'],they,0,0.2,incorrect
+['merel'],ian,0,0.0,incorrect
+['mara'],someone,0,0.18,incorrect
+['mara'],question,0,0.0,incorrect
+['floyd'],sally,0,0.4,incorrect
+['mara'],hos,0,0.0,incorrect
+['mara'],she,0,0.0,incorrect
+['great'],aunt delphina,0,0.22,incorrect
+['hannah'],guys,0,0.0,incorrect
+['hannah'],tobin,0,0.18,incorrect
+['hannah'],friend(s),0,0.13,incorrect
+['hannah'],david,0,0.18,incorrect
+['hannah'],yes,0,0.0,incorrect
+['mara'],groceries,0,0.15,incorrect
+['hannah'],tobin,0,0.18,incorrect
+['hannah'],he,0,0.25,incorrect
+['hannah'],oceans,0,0.33,incorrect

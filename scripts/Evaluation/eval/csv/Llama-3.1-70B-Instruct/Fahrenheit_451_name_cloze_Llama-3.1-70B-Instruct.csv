@@ -1,0 +1,26 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+['montag'],him,gabriel,erkek,anh,0,0.22,0,0.15,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],raskol,marcel,erkek,nam,0,0.17,0,0.33,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],miss,maría,abraham,người đàn bà,0,0.2,0,0.36,0,0.15,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],montag,la,ali,anh,1,1.0,0,0.25,0,0.22,0,0.22,correct,incorrect,incorrect,incorrect
+['mildred'],heathcliff,alguien,ali,nàng,0,0.12,0,0.29,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['faber', 'faber—']",granger,gandalf,dean,đức,0,0.5,0,0.17,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['montag'],henry,don quijote,alice,đông,0,0.18,0,0.35,0,0.18,0,0.6,incorrect,incorrect,incorrect,incorrect
+['montag'],jo,marcel,bayleef,nguyên,0,0.25,0,0.33,0,0.15,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],winston,ortega,atlas,em,0,0.31,0,0.5,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+['montag'],montag,gregor,dostoyevski,không,1,1.0,0,0.17,0,0.24,0,0.55,correct,incorrect,incorrect,incorrect
+['faber'],heathcliff,él,bay,nam,0,0.13,0,0.29,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['bowles', 'bayan bowles']",wilson,ms,god,đông,0,0.18,0,0.25,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['phelps', 'bayan phelps']",black,ms,bay,điệp,0,0.4,0,0.25,0,0.75,0,0.2,incorrect,incorrect,correct,incorrect
+['montag'],montag,gabriel,orhan,nguyễn,1,1.0,0,0.15,0,0.36,0,0.33,correct,incorrect,incorrect,incorrect
+['montag'],montag,don quijote,özdemir,anh,1,1.0,0,0.35,0,0.15,0,0.22,correct,incorrect,incorrect,incorrect
+['montag'],greaser,él,bug,nhân vật chính,0,0.15,0,0.0,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],holden,el,hamza,anh,0,0.33,0,0.0,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],heathcliff,algún,heathcliff,anh,0,0.12,0,0.18,0,0.12,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],montag,él,adam,anh,1,1.0,0,0.0,0,0.2,0,0.22,correct,incorrect,incorrect,incorrect
+['montag'],fahrenheit,helios,montag,trái đất,0,0.25,0,0.17,1,1.0,0,0.29,incorrect,incorrect,correct,incorrect
+"['montag', 'montag tiến']",steinbeck,alguien,bayard,nó,0,0.46,0,0.56,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],he,él,ali,anh,0,0.0,0,0.0,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],god,enola,hersey,đức,0,0.22,0,0.36,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['montag'],god,todo,herkes,đất,0,0.22,0,0.2,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['granger'],okonkwo,job,odysseus,ông,0,0.14,0,0.0,0,0.13,0,0.4,incorrect,incorrect,incorrect,incorrect

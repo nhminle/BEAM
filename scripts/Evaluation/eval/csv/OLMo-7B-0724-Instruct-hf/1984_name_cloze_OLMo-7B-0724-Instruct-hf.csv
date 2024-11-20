@@ -1,0 +1,61 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+['winston smith'],enbarr,rafaga,zafer,cẩm,0,0.15,0,0.0,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['winston'],big,gran,büyükerdi,anh,0,0.2,0,0.18,0,0.12,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['winston', 'wiston']",doorknob,sabía,deter,alvin,0,0.29,0,0.18,0,0.18,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['señora parsons', 'parsons', 'bayan parsons']",mrsmullins,la,dedi,bà [mask],0,0.47,0,0.29,0,0.2,0,0.43,incorrect,incorrect,incorrect,incorrect
+['tom'],tom,manuel,bakar,anh,1,1.0,0,0.22,0,0.0,0,0.0,correct,incorrect,incorrect,incorrect
+"['winston', 'eurasia']",chocolate,choco,avrasya,winston,0,0.12,0,0.17,0,0.57,1,1.0,incorrect,incorrect,incorrect,correct
+['winston'],tim,somozu,memurlar,anh,0,0.2,0,0.31,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın"", 'winston’s']",london,name,londra,london,0,0.38,0,0.18,0,0.31,0,0.38,incorrect,incorrect,incorrect,incorrect
+['winston'],tube,colchester,hava,anh,0,0.18,0,0.24,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['winston'],subscription,paro,seben,tai,0,0.42,0,0.18,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['smith', 'smit']",rudolph,garcía,i̇smet,anh,0,0.17,0,0.2,0,0.67,0,0.25,incorrect,incorrect,incorrect,incorrect
+['winston'],stallkeeper,name,proleterler,anh,0,0.22,0,0.18,0,0.11,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['winston', 'winston’s']",kreutz,krema,siberya,canada,0,0.15,0,0.0,0,0.14,0,0.15,incorrect,incorrect,incorrect,incorrect
+['winston'],door,sommer,kahve,anh,0,0.18,0,0.31,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['winston'],proles,proles,roket,anh,0,0.15,0,0.15,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['winston'],george,proles,aylin,hánh văn,0,0.15,0,0.15,0,0.33,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['winston', 'winston—']",george,name,londra,cụ,0,0.15,0,0.18,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+['winston'],capitalist,capitalistas,sapkan,tư,0,0.35,0,0.32,0,0.15,0,0.22,incorrect,incorrect,incorrect,incorrect
+['winston'],vonnegut,partido,partinin,lãogiai,0,0.27,0,0.29,0,0.4,0,0.14,incorrect,incorrect,incorrect,incorrect
+['winston'],henry,arturo,lamba,anh,0,0.17,0,0.31,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['winston'],oldman,cristal,eski,alice,0,0.15,0,0.43,0,0.18,0,0.17,incorrect,incorrect,incorrect,incorrect
+['winston'],bed, chimeneas,lamba,anh,0,0.0,0,0.38,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın"", 'winston’s']",emma,gacela,man,alice,0,0.0,0,0.0,0,0.2,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'a"", 'winston.']",prisoner,ancient,winslow,binh,0,0.53,0,0.43,0,0.71,0,0.36,incorrect,incorrect,correct,incorrect
+['winston'],girl,la muchacha,name,cô,0,0.18,0,0.0,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['winston'],pasture,aragon,chay,suoi,0,0.29,0,0.31,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['julia—', 'julia']",hideout,produjes,hepp,two,0,0.17,0,0.15,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['katherine', ""katharine'in"", 'katharine']",ceremonymaster,heine,week,anh,0,0.35,0,0.71,0,0.15,0,0.33,incorrect,correct,incorrect,incorrect
+"['julia', 'here’s']",shelia,mural,deli,lucy,0,0.55,0,0.4,0,0.44,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['julia—', 'julia']",harry,pizna,dedi,em,0,0.2,0,0.4,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",friend,esta,speechless,vanphong,0,0.62,0,0.18,0,0.12,0,0.27,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",ministries,hablescribe,diktat,he,0,0.35,0,0.44,0,0.15,0,0.22,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",he,alcade,garas,lơ,0,0.22,0,0.15,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['huynh đệ', 'goldstein']",brotherhood,kafka,düşünce,goldstein,0,0.32,0,0.0,0,0.44,1,1.0,incorrect,incorrect,incorrect,correct
+"[""o'brien"", 'o’brien']",he,gala,interviewer,anh,0,0.22,0,0.0,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['winston'],twelve,ministry,bakanlık,alice,0,0.15,0,0.53,0,0.13,0,0.17,incorrect,incorrect,incorrect,incorrect
+['julia'],wake,sanchez,"in the given passage, the sentence ""nefret şarkısından daha çok tutulmuştu. [mask] şarkının sesiyle uyandı, uzun uzun gerindi ve kalktı."" contains the phrase ""[mask] şarkının sesiyle uyandı"", which means ""[mask] sang with the sound of the song"". the only proper name that fits this context is ""songwriter"". therefore",tiếng hát,0,0.22,0,0.17,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın""]",here,dolores&lt;/,"in the given passage, the sentence ""ses, 'vedalaşsanız fena olmayacak,' dedi. sonra, [mask] sanki daha önce duyduğu daha değişik bir ses işitildi. 'yeri gelmişken şunu söyleyim: seni yatırmaya bir mum geliyor, başını kesmeye cellât g",kia,0,0.0,0,0.21,0,0.01,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['smith', 'smit']",woman's name,yo,garip,ta,0,0.25,0,0.0,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['parsons'],julian,kafka,sadece,alice,0,0.31,0,0.17,0,0.15,0,0.17,incorrect,incorrect,incorrect,incorrect
+['parsons'],patty,kafka,gurur,alice,0,0.33,0,0.17,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'i""]",alex,preso,robin,hán,0,0.0,0,0.33,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",guard,guardia,gardiyan,anh,0,0.17,0,0.29,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",he,forte,dedi,bóu,0,0.22,0,0.5,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",teacher,profsorio,teacher,anh,0,0.14,0,0.38,0,0.14,0,0.2,incorrect,incorrect,incorrect,incorrect
+['winston'],fingers,dedos,acı,anh,0,0.43,0,0.17,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['winston'],bella,fonoza,ses,alice,0,0.0,0,0.31,0,0.2,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['winston', ""o 'brien"", ""o'brien'ın"", 'o’brien']",arguments,pablo,yanitsız,name,0,0.4,0,0.33,0,0.27,0,0.2,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",he,kizo,dedi,mike,0,0.22,0,0.18,0,0.18,0,0.36,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",galileo,solamente,sunset,hờ hững,0,0.14,0,0.38,0,0.15,0,0.29,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",vonnegut,kurzweil,miras,anh,0,0.27,0,0.27,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",hans,tarso,uzun,anh,0,0.18,0,0.17,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",rats,kafka,ermen,chuot,0,0.18,0,0.0,0,0.5,0,0.17,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",rat,rata,fareler,alice,0,0.2,0,0.18,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'a""]",groan,pablo,farelerin,rit,0,0.17,0,0.17,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",antipholus,kafka,mandala,alice,0,0.12,0,0.0,0,0.14,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın"", 'tim winston', 'winston’s']",george,elcabot,afrika,oceania,0,0.15,0,0.2,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['winston'],portman, orwell ,duvardakikoskocaman,anh,0,0.14,0,0.15,0,0.15,0,0.2,incorrect,incorrect,incorrect,incorrect
+['winston'],sister,name,annesi,alice,0,0.46,0,0.18,0,0.15,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['winston', 'winston,']",winston,bello,garson,anh,1,1.0,0,0.17,0,0.46,0,0.2,correct,incorrect,incorrect,incorrect

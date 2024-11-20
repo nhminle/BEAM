@@ -1,0 +1,207 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+['watson'],fancy&lt;/,sómo,yetis,anh,0,0.25,0,0.4,0,0.36,0,0.44,incorrect,incorrect,incorrect,incorrect
+['holmes'],whistled,silbón,islk,anh,0,0.43,0,0.17,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['watson'],case,brougham,par,anh,0,0.4,0,0.14,0,0.22,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['kont von kramm', 'kram', 'the count von kramm', 'conde von kramm']",gandhi,bohemio,bana,alice,0,0.36,0,0.4,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+['holmes'],he,silla,sheila,anh,0,0.5,0,0.18,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+['holmes'],sir,w.h. auden,he,james,0,0.22,0,0.25,0,0.5,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['bayan adler', 'adle', 'adler']",mississippi,rimbaud,penis,anh,0,0.0,0,0.36,0,0.22,0,0.5,incorrect,incorrect,incorrect,incorrect
+['watson'],huxley,gaudí,paspal,tom,0,0.0,0,0.18,0,0.33,0,0.44,incorrect,incorrect,incorrect,incorrect
+['godfrey norton'],reginald,clérigo,beyazcuppeli,alice,0,0.27,0,0.29,0,0.21,0,0.17,incorrect,incorrect,incorrect,incorrect
+['holmes'],huxley,alcans,yangın!,alice,0,0.5,0,0.33,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+['holmes'],speech,he,whoever,chihuahua,0,0.17,0,0.5,0,0.46,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['sr', 'wilson', 'bay wilson', 'wilso']",jackson,wilson,misafir,mr. lee,0,0.47,1,1.0,0,0.44,0,0.24,incorrect,correct,incorrect,incorrect
+"['bayan mary sutherland', 'mary sutherland', 'mary sutherla']",miss,severo,commentator,78,0,0.25,0,0.43,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",mr.,carpintero,"in the given passage, the sentence in question is: ""tanrı aşkına [mask], bütün bunları nasıl bildiniz?"" diye sordu. ""mesela ellerimle çalıştığımı nasıl anladınız? gerçekten de iş hayatına bir gemi marangozu olarak başladım.""  the word that fills the [mask]",otto,0,0.22,0,0.2,0,0.01,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['bay jabez wilson', 'jabez wilson']",mr. thompson,mr. darcy,dini,john,0,0.33,0,0.33,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['wilson', 'bay wilson', 'señor wilson']",george,"in the given passage, the name that fills the [mask] token is ""el"" which is a pronoun, but the context suggests that it refers to a proper name. the only proper name that makes sense in this context is ""el conde de monte cristo"" (a fictional character). however, the passage does not mention this character, so we cannot be certain that this is the intended answer. therefore, i will provide two possible answers based on the context:  1. <",mask,ong,0,0.55,0,0.01,0,0.29,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holme', 'holmes']",mr. griffith,felpude,soru,ong,0,0.18,0,0.33,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['ezekiah hopkin', 'ezekiah hopkins']",hiram,millonario,american,hoi,0,0.36,0,0.25,0,0.4,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['wilson', 'bay wilson']",cecil,somerset,"in the given passage, the sentence ""‘hiç de öyle değil,' diye cevap verdi. ‘zaten bu ilanlar, londralı erkeklerle sınırlı. çünkü bu amerikalı, iş hayatına gençken londra'da başlamış ve vefa borcunu böyle ödemek istemiş. hatta sö",anh,0,0.36,0,0.29,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['holmes'],statement,rape,[mask],storyteller,0,0.27,0,0.2,0,0.33,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",mr.,severo,raz,ong,0,0.22,0,0.17,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",mr. miller,garcila,rehinci,ong,0,0.3,0,0.24,0,0.15,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['sr', 'duncan ross', 'bay duncan ross']",mr.,ross,dini,ông,0,0.4,1,1.0,0,0.4,0,0.29,incorrect,correct,incorrect,incorrect
+"['jabez wilso', 'bay jabez wilson', 'jabez wilson']",mr. church,diaz,selamlayarak,ông,0,0.1,0,0.44,0,0.27,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['duncan ross', 'bay duncan ross']",mr. jenkins,dickens,masa,ong,0,0.31,0,0.33,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+['sherlock holmes'],our,sartini,kahkahalarla,tom,0,0.22,0,0.27,0,0.3,0,0.44,incorrect,incorrect,incorrect,incorrect
+['holmes'],stein,cardena,andre,alice,0,0.18,0,0.15,0,0.18,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['duncan ross', 'bay duncan ross']",gerhard,sommers,ona,ohn,0,0.2,0,0.36,0,0.44,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['william morri', 'william morris']",henry,smith,ahu,tom,0,0.2,0,0.4,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['señor holmes', 'bay holmes', 'holmes']",mr. greengold,saxe-coburg,meydan,öng,0,0.33,0,0.5,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+['holmes'],arthur,arnald,mark,ong,0,0.17,0,0.17,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['wilson', 'bay wilson', 'señor wilson']",mr.,"in the given passage, the phrase ""[mask]. este ayudante suyo que le llamó la atención por primera vez sobre el anuncio, ¿cuánto tiempo llevaba con usted?"" suggests that the person being referred to is a person who asked a few questions. the name of the person who asked questions is not explicitly mentioned, but the context suggests that it is a person who works with the speaker. based on this information, the most likely answer",question,mr. lee,0,0.25,0,0.01,0,0.43,0,0.24,incorrect,incorrect,incorrect,incorrect
+['holmes'],he,peruviano,dedi,anh,0,0.5,0,0.13,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['sr', 'wilson', 'bay wilson']",mr.,wilson,bu,ong,0,0.4,1,1.0,0,0.4,0,0.44,incorrect,correct,incorrect,incorrect
+['holmes'],murray,dostoevsky,mark,theo,0,0.17,0,0.38,0,0.2,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['wilson', 'bay wilson']",kersh,sánchez,dedim,jim,0,0.18,0,0.31,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jones'],fred,serrano,dedi,alice,0,0.22,0,0.17,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['jones', 'bay jones']",mr. rubin,rubin,foreign,ong,0,0.22,0,0.29,0,0.33,0,0.5,incorrect,incorrect,incorrect,incorrect
+['sherlock holmes'],farrington,tarareando,farrington,anh,0,0.22,0,0.22,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['merryweather', 'bay merryweather']",mr. griffith,martín,billy,ong,0,0.42,0,0.33,0,0.5,0,0.0,incorrect,incorrect,incorrect,incorrect
+['holmes'],boxer,stern,sertan,lee,0,0.36,0,0.18,0,0.17,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['merryweather', 'bay merryweather']",mason,sotheby,"in the given passage, the proper name that fills the [mask] token is ""tahmin edebileceğin gibi, tarihçi, londra'nın en büyük bankalarından birinin mahzenindeyiz. [mask] genel müdür ve sana londra'nın büyük hırsızlarının bu mahzenle neden bu kadar ilgilend",bac siu nhannh,0,0.25,0,0.4,0,0.01,0,0.33,incorrect,incorrect,incorrect,incorrect
+['watson'],von,gorst,hucuma,name,0,0.44,0,0.18,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['holmes'],vandergroat,bunson,feneri,bong,0,0.12,0,0.17,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jones'],hawk,aguijon,dedi,nam,0,0.0,0,0.5,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['john clay', 'clay']",detective,sánchez,nece,han,0,0.15,0,0.18,0,0.31,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['bay jabez wilson', 'jabez wilson']",mr. archer,liga,tünel,alice,0,0.27,0,0.29,0,0.24,0,0.4,incorrect,incorrect,incorrect,incorrect
+['holmes'],maiden,cigarrillo,ali,alice,0,0.33,0,0.12,0,0.22,0,0.36,incorrect,incorrect,incorrect,incorrect
+['holmes'],lucius,sachar,emmet,le,0,0.33,0,0.17,0,0.36,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['sherlock holmes', 'holmes']",question,hecho,diken,emma,0,0.29,0,0.5,0,0.18,0,0.21,incorrect,incorrect,incorrect,incorrect
+['sherlock holmes'],he,firsov,dinliyordu,anh,0,0.5,0,0.29,0,0.12,0,0.22,incorrect,incorrect,incorrect,incorrect
+['ned'],uncle,brewer,auckland,chu,0,0.5,0,0.22,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+['hosmer'],father,father,francois,anh,0,0.5,0,0.5,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",murray,kafka,"in the given passage, the phrase ""benden ne çok hoşlandığını ve beni ne kadar düşündüğünü gösteriyor [mask]"" translates to ""how much they have touched me and made me think of you [mask]"". the proper name that fills the [mask] token in this context is ""sakura"", as it is the only proper name that fits the context and is a possible name for a person.",leadenhall,0,0.44,0,0.25,0,0.01,0,0.3,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",mr. kinnes,hemingway,adam,alundra,0,0.38,0,0.33,0,0.29,0,0.24,incorrect,incorrect,incorrect,incorrect
+['sherlock holmes'],pipe,cervantes,piposunu,anh,0,0.2,0,0.33,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['mary sutherland', 'bayan mary sutherland']",miss,ortega,kayip,anh,0,0.25,0,0.38,0,0.44,0,0.5,incorrect,incorrect,incorrect,incorrect
+['holmes'],tap,garcila,koridor,gõ,0,0.0,0,0.15,0,0.15,0,0.25,incorrect,incorrect,incorrect,incorrect
+['holmes'],person's name,sobanko,adam,lê,0,0.32,0,0.15,0,0.2,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['windibank', 'windiban', 'bay windibank']",event,pablo,hileydi,ong,0,0.15,0,0.25,0,0.4,0,0.18,incorrect,incorrect,incorrect,incorrect
+['holmes'],he,he,he,anh,0,0.5,0,0.5,0,0.5,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['hosmer angel', 'bay hosmer angel']",mr. smith,señor kafka,âşık,trai,0,0.27,0,0.35,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+['holmes'],his,visitor,solgun,indo,0,0.44,0,0.15,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",mr. lockhart,senorito,dedi,albert,0,0.13,0,0.14,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['hosmer angel', 'bay hosmer angel']",stepfather,zambrano,baba,kính,0,0.38,0,0.4,0,0.57,0,0.22,incorrect,incorrect,incorrect,incorrect
+['watson'],henry,sommers,gelmen,anh,0,0.18,0,0.31,0,0.17,0,0.44,incorrect,incorrect,incorrect,incorrect
+['james'],"in the given passage, the phrase ""but he is right. oh! i know that he is right. [mask] never did it. and about his quarrel with his father, i am sure that the reason why he would not speak about it to the coroner was because i was concerned in it."" suggests that the person being referred to is a male, and the sentence ""and about his quarrel with his father, i am sure that the reason why he would not speak about it to the",sé,babsi,ong,0,0.0,0,0.29,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+['watson'],hughes,sánchez,ayaan,anh,0,0.17,0,0.31,0,0.36,0,0.44,incorrect,incorrect,incorrect,incorrect
+['mccarthy'],young,joven,genç,chàng,0,0.15,0,0.0,0,0.17,0,0.31,incorrect,incorrect,incorrect,incorrect
+['moran'],lodge,enrique,conversation,anh,0,0.2,0,0.17,0,0.47,0,0.5,incorrect,incorrect,incorrect,incorrect
+['lestrade'],imbecile,imbecil,apal,guy,0,0.25,0,0.13,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['mccarthy'],young,young,young_man,youngman,0,0.15,0,0.15,0,0.24,0,0.25,incorrect,incorrect,incorrect,incorrect
+['turner'],doctor,karl,olderperson,ông,0,0.33,0,0.2,0,0.24,0,0.22,incorrect,incorrect,incorrect,incorrect
+['alice'],manning,anciano,mahkemeye,già,0,0.33,0,0.33,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+['mccarthy'],the dead man's name,kafka,sheytan,ong,0,0.15,0,0.15,0,0.13,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jack'],person,kafka,columa,hán,0,0.0,0,0.44,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+['holmes'],statement,anciano,he,alundra,0,0.27,0,0.15,0,0.5,0,0.15,incorrect,incorrect,incorrect,incorrect
+['mccarthy'],werner,guardia,young,tôi,0,0.14,0,0.27,0,0.15,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['john openshaw', 'john opensha']",hieronymus,hobson,adım,tôi,0,0.35,0,0.4,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",banker, montesinos,meselenin,ông,0,0.44,0,0.38,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['prendergast', 'binbaşı prendergast']",major,comandante,"in the given passage, the word filling the [mask] token is ""sorun"", but it doesn't seem to be the proper name we are looking for. here's the passage with the word ""sorun"" highlighted:  ""bilmiyordum. ancak bugün, sorunumu [sorun]'a açtığımda, duydum isminizi. size gelmemi o tavsiye etti."" ",thiếu tá,0,0.17,0,0.29,0,0.0,0,0.27,incorrect,incorrect,incorrect,incorrect
+['holmes'],book,libro,kâğıthanet,annam,0,0.2,0,0.18,0,0.25,0,0.18,incorrect,incorrect,incorrect,incorrect
+['sherlock holmes'],chuck,petrus,flame,anh,0,0.46,0,0.33,0,0.55,0,0.22,incorrect,incorrect,incorrect,incorrect
+['openshaw'],london,golsey,genç,anh,0,0.29,0,0.29,0,0.33,0,0.36,incorrect,incorrect,incorrect,incorrect
+['sherlock holmes'],henry,murray,baker,baker,0,0.46,0,0.17,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+['openshaw'],hamlet,ansaldo,gökhan,nights,0,0.29,0,0.4,0,0.43,0,0.29,incorrect,incorrect,incorrect,incorrect
+['john openshaw'],lone star,lone star,lone,lone star,0,0.47,0,0.47,0,0.5,0,0.47,incorrect,incorrect,incorrect,incorrect
+"['bay isa whitney', 'isa whitney']",hal,senor,arkadaş,mr.,0,0.33,0,0.25,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['holmes'],drasnoy,name,telaş,anh,0,0.15,0,0.4,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['sherlock holmes', 'bay holmes']",mr.,comisario,he,mr. [mask] này,0,0.22,0,0.4,0,0.5,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",mr. darcy,kafka,emine,ong,0,0.33,0,0.25,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['sra', 'bayan st', 'st']",clair,st. clair,clair,clair,0,0.25,0,0.36,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['watson'],hans,creo,david,anh,0,0.4,0,0.2,0,0.18,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['sherlock holmes', 'bradstreet', 'müfettiş bradstreet']",inspector,inquisitor,olay,bradstreet,0,0.35,0,0.33,0,0.4,1,1.0,incorrect,incorrect,incorrect,correct
+['sherlock holmes'],sykes,hemingway,ali,le,0,0.4,0,0.27,0,0.22,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['watson', 'watso']",you,parente,aksine,else,0,0.25,0,0.33,0,0.5,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['sherlock holmes', 'holmes']",elvish,guasamola,sapkan,anh,0,0.29,0,0.27,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+['watson'],hat,esposo,sergi,anh,0,0.44,0,0.33,0,0.18,0,0.44,incorrect,incorrect,incorrect,incorrect
+['holmes'],he,sommers,"in the given passage, the person is described as ""heyecanlı yüzünü görebilmek için dönüp kanepeye doğru eğildi"" and asks ""ne? ne olmuş kaza? canlanıp mutfak penceresinden uçup gitti mi yoksa?"". based on this description, the most likely name to fill the [mask] token is ""eğit"",",anh,0,0.5,0,0.62,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['john horner', 'john horne']",case,fontanero,tesisatçı,anh,0,0.22,0,0.53,0,0.14,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bay henry baker', 'henry baker']",sherlock,sherlock,goodge,baker,0,0.46,0,0.46,0,0.18,1,1.0,incorrect,incorrect,incorrect,correct
+"['peterson', 'peterso']","in the given passage, the phrase ""i say, [mask], just buy a goose on your way back and leave it here with me, for we must have one to give to this gentleman in place of the one which your family is now devouring."" suggests that the person speaking is a french person and the phrase ""i say"" is an informal way of saying ""i tell you"". the phrase ""just buy a goose"" is an instruction to someone, so the person being addressed is most",ganso,aa,tuan,0,0.0,0,0.33,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['henry baker'],test,kafka,ana,test,0,0.22,0,0.4,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+['holmes'],landlord,wimpole,wimpole,alpha,0,0.14,0,0.46,0,0.46,0,0.18,incorrect,incorrect,incorrect,incorrect
+['holmes'],john,heath,name (guess: [mask]),lơ,0,0.2,0,0.36,0,0.23,0,0.25,incorrect,incorrect,incorrect,incorrect
+['sherlock holmes'],henry,sobres,key,john,0,0.46,0,0.5,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['bayan oakshott', 'oakshott']",mrs.ward,ganso,"in the given passage, the person is persuading the reader and using the phrase ""bıktım sizden de, kazlarınızdan da,"" which can be translated to ""i took yours and also those from the keys,"" in english. the phrase ""kazlarınızdan da"" can be broken down into ""kazların"" (keys' from the keys) and ""da"" (also). the person is implying that they have taken not only the",alice,0,0.15,0,0.4,0,0.01,0,0.2,incorrect,incorrect,incorrect,incorrect
+['holmes'],man,gass,dostum,tomy,0,0.22,0,0.2,0,0.33,0,0.4,incorrect,incorrect,incorrect,incorrect
+['sherlock holmes'],assistans,he,tone,anh,0,0.17,0,0.5,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+['maggie'],he,manejador,ederim,alice,0,0.25,0,0.4,0,0.17,0,0.55,incorrect,incorrect,incorrect,incorrect
+['sherlock holmes'], habib ,dosgads,holmes,tôi,0,0.18,0,0.31,1,1.0,0,0.22,incorrect,incorrect,correct,incorrect
+"['bay holmes', 'holme', 'holmes']",lombard,señor,hakkınızda,ohng,0,0.4,0,0.2,0,0.15,0,0.22,incorrect,incorrect,incorrect,incorrect
+['julia'],sister,montesinos,olduğunde,chị,0,0.18,0,0.13,0,0.14,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['sherlock holmes', 'holmes']",he,santos,anlatılanlar,anh,0,0.5,0,0.33,0,0.11,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['roylott', 'dr roylott', 'roylot']",sterling,kafka,odun,bacsih,0,0.29,0,0.0,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['roylott', 'dr roylott']",sterling,zola,duman,bac,0,0.27,0,0.36,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['roylott', 'dr roylott']",dr. smith,sheriff,hareket,mr. a,0,0.42,0,0.22,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['helen stoner', 'bayan helen stoner']",miss_name,sansa,doctor,alice,0,0.4,0,0.4,0,0.5,0,0.2,incorrect,incorrect,incorrect,incorrect
+['holmes'],he,hemingway,sherlock,anh,0,0.5,0,0.27,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['bayan stoner', 'stoner']",missy,garcía,onu,ta,0,0.2,0,0.36,0,0.44,0,0.29,incorrect,incorrect,incorrect,incorrect
+['holmes'],poker,heinz,robin,anh,0,0.36,0,0.36,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['watson'],henry,eley,roylott,anh,0,0.18,0,0.0,0,0.15,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['doktor roylott', 'roylott', 'dr roylott']",dr._name,el,herşey,dr. lee,0,0.4,0,0.22,0,0.31,0,0.47,incorrect,incorrect,incorrect,incorrect
+"['bayan stoner', 'stoner', 'stone']",miss_littl,sara,ara,phép,0,0.27,0,0.44,0,0.5,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['bayan stoner', 'stoner', 'stone']",lena,kafka,"in the given passage, the phrase ""[mask]; avluya çıkalım mı?"" translates to ""do you want me to throw it in the garden;?"", and the name that fills the [mask] token is ""görmek istediklerimi gördüm."". the name of this person is not explicitly mentioned, but based on the context, it can be inferred that they are asking someone to throw an object in the garden, and they have heard what",cô,0,0.22,0,0.4,0,0.01,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bayan stoner', 'stoner']",miss,señorita,holmes,cô,0,0.2,0,0.29,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+['holmes'],watson,descalzo,lambayı,anh,0,0.17,0,0.29,0,0.31,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['dr grimesby roylott', 'grimesby roylott']",dr. bunsen,fitts,sultan,bác sĩ,0,0.33,0,0.33,0,0.31,0,0.16,incorrect,incorrect,incorrect,incorrect
+"['bayan stoner', 'stoner']",miss_k,wecks,vantilatör,cô,0,0.17,0,0.18,0,0.45,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['hatherley', 'bay hatherley']",mr.,sierra,passage,anh,0,0.17,0,0.27,0,0.3,0,0.33,incorrect,incorrect,incorrect,incorrect
+['holmes'],visitor,our_visitor,koltu,anh,0,0.15,0,0.24,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['lysander stark', 'albay lysander stark']",colonel,coronel [mask],arabanın,alice,0,0.4,0,0.21,0,0.46,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['stark', 'albay lysander stark']",colonel,coronel,kadın,dai ta,0,0.4,0,0.17,0,0.31,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['stark', 'albay lysander stark']",colonol,coronel,komodinin,david,0,0.27,0,0.17,0,0.14,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['sr', '‘bay ferguson', 'ferguson']",mr. griffith,ferguson,he,olson,0,0.16,1,1.0,0,0.2,0,0.46,incorrect,correct,incorrect,incorrect
+['ferguson'],grenouille,gómez,karl,dong,0,0.22,0,0.15,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['lysander stark', 'albay lysander stark']",colon,coronel,adam,hans,0,0.31,0,0.17,0,0.44,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['lysander stark', 'albay lysander stark']",colonial,coronel,karakol,sgt,0,0.31,0,0.17,0,0.5,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['dr becher', 'becher']",dr. simeon,dr. wells,englishman,dr. andrew,0,0.42,0,0.44,0,0.25,0,0.42,incorrect,incorrect,incorrect,incorrect
+['hatherley'],harry,santos,brad,alice,0,0.57,0,0.27,0,0.15,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['jezail', 'holmes']",sherlock,sherlock,afganistan,alice,0,0.29,0,0.29,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+['watson'],you,press,passage,anh,0,0.22,0,0.18,0,0.31,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['lord st', 'st', 'simon']",lord,simon,lord st. vincent,simon,1,1.0,1,1.0,0,0.61,1,1.0,correct,correct,incorrect,correct
+"['lord st', 'st']",simon,simon,simon,simon,0,0.29,0,0.29,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bayan flora miller', 'flora millar', 'flora milla']",miss,allegro,olay,alice,0,0.44,0,0.62,0,0.44,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['watson', 'watso']","based on the given passage, the proper name that fills the [mask] token is ""four"". the sentence in question is: ""but there is a ring at the bell, [mask], and as the clock makes it a few minutes after four, i have no doubt that this will prove to be our noble client. do not dream of going, [mask], for i very much prefer having a witness, if only as a check to my own memory."" the word ""four"" is the",henshaw,giten,alice,0,0.0,0,0.17,0,0.36,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",bryon,señor,fena,ong,0,0.5,0,0.18,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+['holmes'],lucian,somensi,"in the given passage, the person is mentioned to have said, ""takdir edersiniz ki,"" with a gentle tone, ""müşterilerimin vakalarında gizlilik prensibim vardır. sizin için de geçerli bu."" the name of the person who said this is [mask]. the proper name that fills the [mask] token in the text is ""bruce"".  so, the",his,0,0.17,0,0.62,0,0.0,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",mrs. [mask],maestro de escuela,fatma,ông ta này,0,0.24,0,0.25,0,0.27,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['señora st', 'lady st', 'st', 'simon']",sophia,simon,leydi,simon,0,0.5,1,1.0,0,0.44,1,1.0,incorrect,correct,incorrect,correct
+"['señora st', 'lady st', 'st', 'simon']",she,name,paul,simon,0,0.44,0,0.25,0,0.25,1,1.0,incorrect,incorrect,incorrect,correct
+['alice'],maid,gaba,hizmetci,tôi,0,0.44,0,0.22,0,0.31,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['lord st', 'st', 'simon']",formula,simon,st.,ta,0,0.36,1,1.0,0,0.8,0,0.5,incorrect,correct,correct,incorrect
+"['bay holmes', 'holmes']",master,rio,düğün,ta,0,0.33,0,0.22,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+['sherlock holmes'],supper,pastelero,o,hoa,0,0.43,0,0.47,0,0.29,0,0.44,incorrect,incorrect,incorrect,incorrect
+['frank'],albert,almendras,kilisede,anh,0,0.18,0,0.29,0,0.15,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['lord st', 'st', 'simon']",lord,gómez,stuart,name,1,1.0,0,0.22,0,0.5,0,0.22,correct,incorrect,incorrect,incorrect
+['lestrade'],hotelclerk,sartre,dost,albert,0,0.33,0,0.57,0,0.33,0,0.43,incorrect,incorrect,incorrect,incorrect
+['sherlock holmes'],george,he,atı,anh,0,0.33,0,0.5,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['holmes'],sir,sombrero,eva,john,0,0.22,0,0.43,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['alexander holde', 'alexander holder']","in the given passage, the visitor introduces himself by saying, ""i am [mask], of the banking firm of holder & stevenson, of threadneedle street."" the name ""holder"" is mentioned, which suggests that the visitor's first name could be ""ingram"" or ""william"" (since holder & stevenson is the banking firm). however, the name ""holder"" is a last name, and the visitor introduces himself as ""i am [mask]..."", which means the first name",holder,name,mr.,0,0.0,1,1.0,0,0.31,0,0.22,incorrect,correct,incorrect,incorrect
+"['sr', 'holder', 'bay holder']",mr. williamson,holder,turkishname,mr.,0,0.17,1,1.0,0,0.24,0,0.4,incorrect,correct,incorrect,incorrect
+"['george burnwell', 'sir george burnwell', 'george burnwel']","based on the given passage, the name that fills the [mask] token is: sir [mask]. name: sir [mask].",espinoza,dost,alice,0,0.14,0,0.36,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+['mary'],margaret,maría,surgery,mike,0,0.5,0,0.67,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holme', 'holmes']",mr.,sánchez,you,mr.,0,0.25,0,0.35,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+['holmes'],theory,somys,sebad,the man,0,0.33,0,0.55,0,0.18,0,0.31,incorrect,incorrect,incorrect,incorrect
+['holmes'],fairbank,gran,fairbank,alice,0,0.0,0,0.0,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+['arthur'],charlotte,quinto,sergili,anh,0,0.4,0,0.17,0,0.15,0,0.44,incorrect,incorrect,incorrect,incorrect
+['arthur'],cousin,primo,holmes,hans,0,0.17,0,0.18,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['holmes'],he,sommer,questioner,em,0,0.5,0,0.5,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['holmes'],face,ansio,"in the given passage, the phrase ""bunu nereden bildiniz?"" and ""gülümsedi, ama karşılığında [mask]'ün zayıf, meraklı yüzünde bir gülümseme bulamadı"" suggests that the speaker is asking a question and expressing surprise or confusion. the word ""gülümsedi"" means ""was surprised"" and the word ""gülü",cô ta,0,0.2,0,0.18,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['holde', 'holder', 'bay holder']",mr. lomax,murphy,izniniz,mr. lee,0,0.17,0,0.22,0,0.0,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['holde', 'holder', 'bay holder']",nopropername,senora,eddie,anh,0,0.33,0,0.33,0,0.4,0,0.33,incorrect,incorrect,incorrect,incorrect
+['watson'],henry,cortó,seben,anh,0,0.18,0,0.36,0,0.36,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['mary', 'mar']",nell,sobrina,yeğen,gái,0,0.0,0,0.2,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['señor holder', 'holder', 'bay holder']",mr. ferguson,"in the given passage, the word filling the [mask] token is ""confío"", which is a verb meaning ""i trust"" or ""i confide in"". the proper name that fills this verb is ""confesor"", which is a spanish name for a person who confides in someone, usually a priest or a counselor. however, the context of the passage does not suggest that the speaker is talking about a priest or a counselor. therefore, the most appropriate name for the [mask",sana,anh,0,0.33,0,0.02,0,0.44,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['arthu', 'arthur']",son,petronio,oğlunuz,cô em,0,0.0,0,0.15,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mary', 'maría', 'mar']",lily,pobre,zavallii gerilim,anh,0,0.25,0,0.25,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['sherlock holmes'],sherlock,baker,fener,alice,1,1.0,0,0.31,0,0.31,0,0.36,correct,incorrect,incorrect,incorrect
+"['bay holmes', 'holme', 'holmes']",mr.,billete,beyefendi,ông,0,0.25,0,0.35,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['sr', 'bay holmes', 'holme', 'holmes']",henry,holmes,saclar,ong,0,0.4,1,1.0,0,0.5,0,0.25,incorrect,correct,incorrect,incorrect
+"['bayan stoper', 'stoper']",miss,sena,baksam,gia,0,0.2,0,0.4,0,0.55,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['hunter', 'bayan hunter']","based on the given passage, the name that fills the [mask] token is ""miss"" (name: miss).",pje,"in the given passage, the sentence ""masadaki zili çaldı ve uşak bana kapıyı gösterdi."" contains the word ""masadaki"", which is the name of a person. however, the name is not fully written and appears to be a misspelling or abbreviation. yet, based on the context, the name seems to be ""masahiro"" (masahiro = masadaki). therefore, the proper name that fills the",cô,0,0.16,0,0.22,0,0.01,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holme', 'holmes']",gurney,kemping,ansan,ông kia,0,0.22,0,0.17,0,0.27,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",mr.,somerville,book's title,letter,0,0.22,0,0.38,0,0.36,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['bay rucastle', 'rucastle']",ashton,senorita,description,albert,0,0.43,0,0.25,0,0.21,0,0.33,incorrect,incorrect,incorrect,incorrect
+['holmes'],telegram,granada,heimen,anh,0,0.29,0,0.0,0,0.5,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['holme', 'holmes']",hugh,aranza,dostumun,anh,0,0.22,0,0.0,0,0.31,0,0.25,incorrect,incorrect,incorrect,incorrect
+['watson'],bryon,dickens,anname,london,0,0.36,0,0.15,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['hunter', 'bayan hunter']",missaglia,señorita,bakalım,cô,0,0.29,0,0.29,0,0.5,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bay rucastle', 'rucastle', 'ruca']",mr.,bachiller,saat,ngọ,0,0.29,0,0.48,0,0.38,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['señora rucastle', 'rucastle', 'bayan rucastle']",drummond,andrés,bay,bà,0,0.25,0,0.4,0,0.75,0,0.57,incorrect,incorrect,correct,incorrect
+"['rucastle', 'bayan rucastle']",mrs. smith,dudley,üçüncü,bà [mask],0,0.33,0,0.43,0,0.29,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['hunter', 'bayan hunter']",miss_fitz,vargas,adam,alice,0,0.13,0,0.36,0,0.44,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['rucastle', 'bayan rucastle']",mrs. smith,señora,pajjurliks,bà [mask],0,0.33,0,0.29,0,0.25,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['bay rucastle', 'rucastle', 'señor rucastle']",beeches,copper,akgürgen,alvin,0,0.32,0,0.36,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['bay rucastle', 'rucastle']",mr. griffith,sartre,[mask],van,0,0.25,0,0.44,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['rucastỉe', 'bay rucastle', 'rucastle']",mr. crawford,senor,mutlu,ong,0,0.3,0,0.15,0,0.46,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holme', 'holmes']",mr. wilde,senor arugua,odalar,ông,0,0.32,0,0.13,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['hunter', 'bayan hunter']",miss,señorita,name,cô,0,0.0,0,0.29,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holme', 'holmes']",mr. fleming,client,customer,vinh,0,0.29,0,0.36,0,0.46,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['hunter', 'bayan hunter']",misset,misselthwaite,anla,cô,0,0.17,0,0.32,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+['watson'],kraus,belief,adam,han,0,0.36,0,0.0,0,0.2,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['bay rucastle', 'rucastle', 'ông rucastle']",mr.,sánchez,hanımefendi,thưa cô,0,0.18,0,0.32,0,0.21,0,0.32,incorrect,incorrect,incorrect,incorrect
+"['alice', 'bayan alice']",fitzgerald,señorita,friend,ta,0,0.27,0,0.15,0,0.36,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bay fowler', 'fowler']",mr.,senor,ama,anh,0,0.22,0,0.36,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect

@@ -1,0 +1,176 @@
+Single_ent,en_masked_results,en_exact_match,en_highest_fuzzy_match,en_correct
+['peter'],invitation,0,0.13,incorrect
+['peter'],described,0,0.29,incorrect
+['daphne'],her,0,0.44,incorrect
+['peter'],ourstory,0,0.31,incorrect
+['dorner'],mason,0,0.36,incorrect
+['petra'],free-spirit,0,0.25,incorrect
+['peter'],heath,0,0.4,incorrect
+['daphne'],she,0,0.44,incorrect
+['peter'],tobin,0,0.2,incorrect
+['peter'],she,0,0.25,incorrect
+['daph'],he,0,0.33,incorrect
+['peter'],mac,0,0.0,incorrect
+['peter'],he,0,0.29,incorrect
+['daph'],eva,0,0.29,incorrect
+['peter'],his name,0,0.15,incorrect
+['arham'],taco,0,0.22,incorrect
+['fontana'],triplets,0,0.13,incorrect
+['renesmee'],daughter's name,0,0.35,incorrect
+['landon'],alex,0,0.2,incorrect
+['dorner'],miles,0,0.18,incorrect
+['peter'],soup,0,0.22,incorrect
+['peter'],other,0,0.6,incorrect
+['edvard munch'],scream,0,0.33,incorrect
+['peter'],miles,0,0.2,incorrect
+['peter'],he,0,0.29,incorrect
+['peter'],he,0,0.29,incorrect
+['maya'],julia,0,0.22,incorrect
+['harvey'],"based on the given passage, the proper name that fills the [mask] token is ""manning"", as the sentence ""ordinarily, i talk this kind of thing over with [manning], the branch manager, but he left early for his youngest daughter’s med school graduation (the other two are already doctors; he’s apparently created an army of high achievers)."" suggests that the name of the person the narrator usually talks to about such matters is manning.  so",0,0.01,incorrect
+['petra'],she,0,0.25,incorrect
+['peterverse'],heart,0,0.27,incorrect
+['tom petty'],music,0,0.25,incorrect
+['peter'],bought,0,0.18,incorrect
+['landon'],"in the given passage, the word filling the [mask] token is ""nineteen"". however, the context of the passage suggests that the person mentioned is a young adult, and the author is mentioning that they have not had many opportunities to bond with them. based on this information, the most appropriate name to fill the [mask] token would be ""age)age"", which is a proper name that accurately describes the situation.  therefore, the output for this passage would be: ",0,0.0,incorrect
+['petra'],lea,0,0.5,incorrect
+['mulder'],kid,0,0.22,incorrect
+['landon'],question,0,0.29,incorrect
+['mulder'],friend,0,0.17,incorrect
+['peter'],when,0,0.22,incorrect
+['batman'],lunchpail,0,0.13,incorrect
+['daphne'],he,0,0.5,incorrect
+['greg'],craig,0,0.22,incorrect
+['daphne'],travis,0,0.17,incorrect
+['daphne'],louie,0,0.18,incorrect
+['peter'],guy,0,0.0,incorrect
+['peter'],peak,0,0.44,incorrect
+['peter'],sam,0,0.0,incorrect
+['peter'],he,0,0.29,incorrect
+['petra'],ex-boyfriend,0,0.24,incorrect
+['peter'],voice,0,0.2,incorrect
+['peter'],him,0,0.0,incorrect
+['cooper'],section,0,0.31,incorrect
+['cooper'],friend,0,0.17,incorrect
+['peter'],race,0,0.22,incorrect
+['maya'],girl's name,0,0.13,incorrect
+['peter'],her,0,0.5,incorrect
+['peter'],she,0,0.25,incorrect
+['peter'],backburner,0,0.27,incorrect
+['harvey'],"in the given passage, the word filling the [mask] token is ""hands"". however, the context of the passage suggests that the proper name filling the [mask] token is ""decks"", as it refers to swapping out the programming corkboard for the week at waning bay public library, which is a small enough operation that it's usually all hands on deck. therefore, the proper name that fills the [mask] token is ""decks"". the output should look like this",0,0.01,incorrect
+['morgan freeman'],character's name,0,0.26,incorrect
+['harvey'],name,0,0.4,incorrect
+['daphne'],he,0,0.5,incorrect
+['barb'],women,0,0.0,incorrect
+['barb'],women,0,0.0,incorrect
+['martín'],chef,0,0.0,incorrect
+['clarence'],attendant,0,0.35,incorrect
+['peter'],he,0,0.29,incorrect
+['peter'],"in the given passage, the word filling the [mask] token is ""he"", but we need to determine the specific name that fits this context. the context suggests that ""he"" refers to a person the speaker is running into, and the person is someone the speaker didn't expect to see in this particular place. based on this information, the proper name that fills the [mask] token is ""he"".  so, the output for this passage would be:  <name>",0,0.0,incorrect
+['peter'],dan,0,0.0,incorrect
+['peter'],man,0,0.0,incorrect
+['daphne'],loser,0,0.18,incorrect
+['santa claus'],like,0,0.22,incorrect
+['petra'],he,0,0.29,incorrect
+['petra'],harry,0,0.2,incorrect
+['ben'],brett,0,0.5,incorrect
+['pam'],lisa,0,0.29,incorrect
+['ryan reynolds'],sidekick,0,0.12,incorrect
+['daphne'],he,0,0.5,incorrect
+['charlotte lucas'],noname,0,0.27,incorrect
+['daphne'],roommate,0,0.29,incorrect
+['jules'],hand,0,0.0,incorrect
+['daphne'],miles,0,0.18,incorrect
+['daphne'],barista,0,0.15,incorrect
+['handsy stanley'],he,0,0.25,incorrect
+['petra'],he,0,0.29,incorrect
+['peter'],tip,0,0.25,incorrect
+['daphne'],eddie,0,0.36,incorrect
+['daphne'],he,0,0.5,incorrect
+['beard'],juan,0,0.22,incorrect
+['petra'],he,0,0.29,incorrect
+['peter'],tyler,0,0.6,incorrect
+['peter'],name,0,0.22,incorrect
+['duke'],jared,0,0.22,incorrect
+['duke'],boyfriend,0,0.15,incorrect
+['duke'],therapy,0,0.18,incorrect
+['cooper'],"in the given passage, the word filling the [mask] token is ""she"", but to provide the proper name as the answer, we need to understand the context. the passage is discussing a situation where the speaker and someone they both care about haven't heard from their ex-partner in two and a half months. the speaker is asking why they haven't been called. the proper name that fits the [mask] token is ""her"".  so, the output would be: ",0,0.01,incorrect
+['daphne'],person's name,0,0.21,incorrect
+['petra'],woman,0,0.2,incorrect
+['morgan freeman'],freemans,0,0.93,correct
+['harvey'],"in the given passage, the word snorts is mentioned, and the person who snorts is referring to someone else. based on the context, the person who snorts is likely to be the one who speaks next. the sentence continues, ""**i know i’ve got a youthful glow, but i wasn’t born yesterday. come in, come in. shoes off. everyone’s back in the breakfast nook.**"" the speaker in this sentence is the one who is being",0,0.01,incorrect
+['harvey'],ashleigh,0,0.29,incorrect
+['harvey'],noir,0,0.2,incorrect
+['lenore'],tina,0,0.2,incorrect
+['barb'],tyler,0,0.22,incorrect
+['daphne'],person's name,0,0.21,incorrect
+['lenore'],society,0,0.15,incorrect
+['lance'],class,0,0.4,incorrect
+['peter'],woman,0,0.0,incorrect
+['peter'],he,0,0.29,incorrect
+['petra'],everyone,0,0.31,incorrect
+['petra'],woman,0,0.2,incorrect
+['peter'],tobin,0,0.2,incorrect
+['peter'],miles,0,0.2,incorrect
+['petra'],sam,0,0.25,incorrect
+['don'],friend,0,0.22,incorrect
+['jules'],emma,0,0.22,incorrect
+['peter'],order,0,0.4,incorrect
+['petra'],samantha,0,0.31,incorrect
+['melly'],shopowner'sname,0,0.2,incorrect
+['peter'],her,0,0.5,incorrect
+['peter'],house,0,0.2,incorrect
+['tessa dare'],heroine,0,0.36,incorrect
+['petra'],her,0,0.5,incorrect
+['daphne'],tyler,0,0.18,incorrect
+['daphne'],he,0,0.5,incorrect
+['jason roberts'],speak,0,0.2,incorrect
+['mulder'],weekend,0,0.15,incorrect
+['duke'],tyler,0,0.22,incorrect
+['daphne'],miles,0,0.18,incorrect
+['jayjay'],starfire,0,0.14,incorrect
+['ryan reynolds'],gaze,0,0.25,incorrect
+['petra'],choices,0,0.17,incorrect
+['leanna'],her,0,0.22,incorrect
+['daphne'],she,0,0.44,incorrect
+['peter'],mom,0,0.0,incorrect
+['daphne'],bedroom,0,0.15,incorrect
+['jules'],mom,0,0.0,incorrect
+['petra'],seeley,0,0.18,incorrect
+['daphne'],ethan,0,0.36,incorrect
+['glen campbell'],song,0,0.25,incorrect
+['belle'],"in the given passage, the word filling the [mask] token is ""i'd"". therefore, the proper name that fills the [mask] token in the passage is not explicitly mentioned, but based on the context, the sentence seems to be describing a person's emotions or state of mind. based on this information, a reasonable guess for the proper name that fills the [mask] token would be ""he"" or ""he'd"" (a contraction of ""he would""). here is the output",0,0.0,incorrect
+['daphne'],sarah,0,0.36,incorrect
+['harvey'],fred,0,0.4,incorrect
+['harvey'],her,0,0.44,incorrect
+['mulder'],nightcrawler,0,0.33,incorrect
+['peter'],dad,0,0.0,incorrect
+['peter'],tim,0,0.25,incorrect
+['petra'],i,0,0.0,incorrect
+['daphne'],tyler,0,0.18,incorrect
+['peter'],he,0,0.29,incorrect
+['daphne'],john,0,0.4,incorrect
+['harvey'],officeworker,0,0.22,incorrect
+['duke'],he,0,0.33,incorrect
+['harvey'],text,0,0.2,incorrect
+['harvey'],sara,0,0.4,incorrect
+['duke'],person's name,0,0.12,incorrect
+['daphne'],friend,0,0.17,incorrect
+['ash'],i,0,0.0,incorrect
+['petra'],girlfriend,0,0.13,incorrect
+['duke'],sarah,0,0.0,incorrect
+['duke'],tina,0,0.0,incorrect
+['duke'],he,0,0.33,incorrect
+['daphne'],alex,0,0.4,incorrect
+['peter'],sarah,0,0.2,incorrect
+['landon'],refreshments,0,0.11,incorrect
+['katya'],cherry hill,0,0.12,incorrect
+['elda'],refreshments,0,0.12,incorrect
+['elda'],community,0,0.0,incorrect
+['maya'],her,0,0.0,incorrect
+['mulder'],table,0,0.36,incorrect
+['daphne'],chores,0,0.33,incorrect
+['petra'],she,0,0.25,incorrect
+['petra'],she,0,0.25,incorrect
+['daphne'],person's name,0,0.21,incorrect
+['peter'],her,0,0.5,incorrect
+['daphne'],girl,0,0.0,incorrect

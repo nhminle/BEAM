@@ -1,0 +1,74 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+"['henry wotton', 'lord henry wotton']",suliman,name,lord henry,alice,0,0.18,0,0.22,0,0.74,0,0.22,incorrect,incorrect,correct,incorrect
+"['basil hallwar', 'basil hallward']",artur,artista,anomaly,sang,0,0.33,0,0.33,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",george,gómara,güneş,huân,0,0.4,0,0.4,0,0.2,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",horvath,cervantes,elindeki,huân,0,0.36,0,0.29,0,0.33,0,0.44,incorrect,incorrect,incorrect,incorrect
+['agatha'],aunt maria,tía,halam,dì,0,0.38,0,0.22,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'doria']",lad,chico,ressam,họa sỹ,0,0.25,0,0.2,0,0.36,0,0.36,incorrect,incorrect,incorrect,incorrect
+['basil'],james,amigo,dorian,anh,0,0.4,0,0.4,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+['harry'],john,halagado,poz,alice,0,0.22,0,0.31,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—']",grenouille,somens,name,huân,0,0.3,0,0.38,0,0.22,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'dorian gray']",convolvulus,abeja,arı,onyung,0,0.24,0,0.25,0,0.44,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—']",art,klimt,dudu,huân,0,0.29,0,0.22,0,0.25,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—']",henry,contes,açıksözlülüğün,huân,1,1.0,0,0.25,0,0.17,0,0.44,correct,incorrect,incorrect,incorrect
+"['fermor', 'lord fermor']",harry,name,parvuz,huân,0,0.36,0,0.2,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",kafka,kafka,pain,huân,0,0.0,0,0.0,0,0.22,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",science,kanza,david,y,0,0.33,0,0.2,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['erskine', 'mr erskine', 'erskine—']",mr. thompson,sobron,gocken,albert,0,0.45,0,0.31,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",margaret,sara,kocası,em,0,0.22,0,0.25,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['henr', 'harry']",liza,gatsby,philippa,sara,0,0.22,0,0.36,0,0.31,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['basil', 'sibyl']",vonswift,shaw,sibyl,anh,0,0.31,0,0.22,1,1.0,0,0.25,incorrect,incorrect,correct,incorrect
+['basil'],grenville,"in the given passage, the sentence ""tiene que ser a las siete. ningún caballero cena antes de las siete. ¿he de ver a [mask] de aquí a mañana? ¿o bastará con que le escriba?"" suggests that the person is discussing a dinner or meal appointment with someone. the phrase ""ningún caballero cena antes de las siete"" is a spanish idiom that translates to """,george,tôi,0,0.29,0,0.01,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['sibyl'],hugh,teatro,name,tang,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['sibyl'],allan,aristócrata,aristokrat,con,0,0.2,0,0.12,0,0.13,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—']",leathers,butler,alan,alice,0,0.46,0,0.4,0,0.29,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",guy,mendoza,arnaud,huân,0,0.25,0,0.33,0,0.4,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",presents, montesinos,cupid,cupid,0,0.33,0,0.3,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",answeringperson,guerra,turkishman,huân,0,0.3,0,0.36,0,0.3,0,0.44,incorrect,incorrect,incorrect,incorrect
+['harry'],author,epifanio,"in the given passage, the text that needs to be filled in the [mask] token is: ""ha evet! daha okumamıştım [mask]. hoşuma gitmeyecek bir şey yazmışsındır, diye korktum. sen şu özdeyişlerinle hayatı lokma lokma doğruyorsun da.""  the sentence is in turkish, and a",anh,0,0.36,0,0.15,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",grenouille,name,seyir,y thấy,0,0.3,0,0.22,0,0.4,0,0.38,incorrect,incorrect,incorrect,incorrect
+['dorian'],inquest,tosco,adımı,ava,0,0.31,0,0.18,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'dorian gray']",fred,sartre,yap,anh,0,0.25,0,0.24,0,0.29,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['george petit4', 'george petit', 'georges petit']",exhibition,zweifel,portre,"based on the given passage, the proper name that fills the [mask] token is ""alice"" (but in the given passage, the name is not ""alice,"" it is ""vâng; tôi không nghĩ là anh sẽ phản đối việc ấy. [name] sắp thu thập mọi bức tranh đẹp nhấ",0,0.4,0,0.33,0,0.5,0,0.01,incorrect,incorrect,incorrect,incorrect
+['hallward'],lucius,murmón,mısır,alice,0,0.14,0,0.14,0,0.15,0,0.31,incorrect,incorrect,incorrect,incorrect
+['dorian'],canova, sábano ,venedik,alice,0,0.33,0,0.33,0,0.31,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['hubbard', 'mr hubbard']",mr. jenkins,rembrant,james,mít-tơ,0,0.31,0,0.4,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['hubbard', 'hubbar', 'mr hubbard']",curtis,sánchez,zahmet,mit,0,0.33,0,0.15,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+['dorian'],david,sobreviviente,keykavus,khoa,0,0.36,0,0.42,0,0.14,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",hedonism,profecía,hedonizm,chủ nghĩa khoái lạc,0,0.46,0,0.22,0,0.46,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'dorian gray']",lucien,alcade,name: söylentilere,alice,0,0.33,0,0.2,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'dorian gray']",historians,teatro del mundo,name: dünya (world),cau,0,0.62,0,0.18,0,0.24,0,0.29,incorrect,incorrect,incorrect,incorrect
+['dorian'],he,sartre,question,alice,0,0.0,0,0.17,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'doria']",you,dios del cielo,ressam,y,0,0.25,0,0.32,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'doria']",question,peele,gelirim,eva,0,0.29,0,0.0,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+['dorian gray'],george,sartre,ezerek,alice,0,0.4,0,0.24,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['dorian'],sam,cristóbal,ali,sô-cô-la,0,0.22,0,0.4,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['dorian gray'],hand,he,dorian,the person,0,0.4,0,0.0,1,1.0,0,0.25,incorrect,incorrect,correct,incorrect
+"['henry wotton', 'lord henry wotton', 'henry wotto']",walter,somensi,dostlar,alice,0,0.4,0,0.33,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'doria']",ward,párretes,tanrım,alice,0,0.22,0,0.15,0,0.36,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['campbell', 'y run']",henry,carrera,sinek,ruoi,0,0.33,0,0.4,0,0.25,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'dorian gray']",portrait,abalanos,doğram,an,0,0.43,0,0.29,0,0.67,0,0.5,incorrect,incorrect,incorrect,incorrect
+['campbell'],he,borges,solgun,y,0,0.2,0,0.29,0,0.14,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",he,sartre,düpedüz,y,0,0.57,0,0.25,0,0.24,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['madam ferrol', 'ferroll', 'ferrol', 'madame de ferrol']",hostess,"in the given passage, the word filling the [mask] token is ""anfitriona"" which means ""hostess"" or ""anhostess"". however, the context of the passage suggests that the speaker is referring to a woman, and the sentence ""pero si todos ustedes adoran a [mask] de esa manera tan ridícula, tendré que volver a casarme para estar a la moda."" (but if all of you ad",hepiniz,bà chủ tiệc,0,0.22,0,0.0,0,0.22,0,0.26,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",lady,sartre,elbette,huân tước,0,0.5,0,0.25,0,0.24,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['ruxton', 'leydi ruxton', 'lady ruxton']",she,maría,aziz,bai,0,0.25,0,0.25,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—']",character's name,sartre,mark,y,0,0.29,0,0.25,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'doria']",you,páez,hursh,anh,0,0.25,0,0.22,0,0.2,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'dorian gray']",socrates,trifulca,name: ruhsal,alice,0,0.43,0,0.43,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['dorian'],xu,opió,sebad,thanh,0,0.0,0,0.4,0,0.18,0,0.36,incorrect,incorrect,incorrect,incorrect
+['dorian'],she,hyp,kadın,mue,0,0.0,0,0.0,0,0.55,0,0.0,incorrect,incorrect,incorrect,incorrect
+['dorian gray'],he,severo,el,alice,0,0.0,0,0.2,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['dorian gray'],he,somens,adama,aua,0,0.0,0,0.33,0,0.38,0,0.29,incorrect,incorrect,incorrect,incorrect
+['james vane'],ethier,cristal,tepeden,amy,0,0.25,0,0.18,0,0.24,0,0.5,incorrect,incorrect,incorrect,incorrect
+['dorian'],jean-luc,pinar,sound,do,0,0.29,0,0.18,0,0.18,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['sir geoffrey—', 'geoffrey', 'sir geoffrey']",beater,ojeador,hey,ngài,0,0.29,0,0.4,0,0.36,0,0.29,incorrect,incorrect,incorrect,incorrect
+['dorian'],henry,kafka,kuzum,bà ấy,0,0.18,0,0.18,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['harry'],gogol,kafka,gülmez,alice,0,0.0,0,0.2,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",my dear fellow,kafka,ali,y,0,0.22,0,0.0,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—', 'henry cười']",elvira,rio,she,huân,0,0.4,0,0.31,0,0.5,0,0.44,incorrect,incorrect,incorrect,incorrect
+['dorian'],body,alba,mesut,cái,0,0.2,0,0.2,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",louis,cobre,tasa,huân,0,0.44,0,0.44,0,0.0,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",grammarcell,gómez,dostum,tôi's son,0,0.13,0,0.27,0,0.2,0,0.32,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'doria']",gambini,kafka,cinayet,annam,0,0.31,0,0.2,0,0.33,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",galswells,kafka,pygmalion,alice,0,0.21,0,0.0,0,0.32,0,0.27,incorrect,incorrect,incorrect,incorrect

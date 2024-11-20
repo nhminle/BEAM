@@ -1,0 +1,77 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+['cassie hiney'],friend's name,culo,ali,dám,0,0.4,0,0.2,0,0.44,0,0.22,incorrect,incorrect,incorrect,incorrect
+['chuck parson'],tyrone,silvio,steroit,lee,0,0.5,0,0.33,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+['chuck'],tom,menendez,fern,alice,0,0.0,0,0.0,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['chuc', 'chuck']",amour,nothing,müşterek,easily,0,0.22,0,0.18,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+['angela'],elves,santa,noel,noel,0,0.36,0,0.55,0,0.6,0,0.6,incorrect,incorrect,incorrect,incorrect
+['margo'],sara,kafka,sordum,alice,0,0.44,0,0.2,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+['margo'],sentence,papá,question,tai,0,0.0,0,0.22,0,0.15,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['margo', 'margo—']",answering,mejora,mark,le,0,0.43,0,0.36,0,0.67,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],jefferson,jefferson,car,alice,0,0.29,0,0.29,0,0.5,0,0.2,incorrect,incorrect,incorrect,incorrect
+['margo'],liz,name,sema,alice,0,0.0,0,0.22,0,0.44,0,0.2,incorrect,incorrect,incorrect,incorrect
+['margo'],she,bocino,kornayı,cô,0,0.0,0,0.18,0,0.17,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo'],she,bello,david,cô,0,0.0,0,0.2,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo'],i,sara,itiraf,tôi,0,0.0,0,0.44,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+['margo'],boyfriend,guapo,beceriyor,alice,0,0.14,0,0.4,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+['margo'],she,name,arkada,cùng,0,0.0,0,0.22,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],emma,cielo,yanp,michael,0,0.44,0,0.2,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['margo'],catfish,pesquisa,worthington,worthington,0,0.17,0,0.15,0,0.38,0,0.38,incorrect,incorrect,incorrect,incorrect
+['jase'],question,amiga,ben,nàng,0,0.17,0,0.22,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+['margo'],she,mequilla,john,xuân,0,0.0,0,0.31,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],she,descanso,robin,liên,0,0.0,0,0.31,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['margo', 'marg']",her,kristen,alex,toi,0,0.29,0,0.18,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['chuck parson'],you,sierra,crown,crown,0,0.25,0,0.17,0,0.55,0,0.55,incorrect,incorrect,incorrect,incorrect
+['margo'],emma,chaveiro,atil,alice,0,0.44,0,0.46,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['margo'],dan,gass,pencere,cửa sổ,0,0.25,0,0.22,0,0.17,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['chuck parso', 'chuck parson']",guy,viejo,old,bac,0,0.25,0,0.2,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['chuck parson'],why,"amherst(name)  the passage states, ""amherst, 422. oye, ¿para qué necesitas la dirección de [mask] a las cuatro y doce de la mañana?"" the name ""amherst"" is mentioned in the passage, and it fills the [mask] token.",422,amherst,0,0.25,0,0.04,0,0.0,0,0.46,incorrect,incorrect,incorrect,incorrect
+['margo'],ethan,sartre,attı,an,0,0.2,0,0.36,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo'],emi,sheita,ninjas,ninja,0,0.25,0,0.18,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+['margo'],drainage,seaworld,seaworld,seaworld,0,0.31,0,0.31,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+['margo'],she,pater,sebze,từ,0,0.0,0,0.4,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],duke,ninjas,yasin,ninja,0,0.0,0,0.18,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['margo'],man,type,adam,anh,0,0.5,0,0.0,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['margo'],tank,tíos,adam,anh,0,0.22,0,0.22,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['margo'],emma,seaworld,seaworld,name,0,0.44,0,0.31,0,0.31,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo roth spiegelman'],girl,beats,"in the given passage, the phrase ""birikaç saat önce bir ihtimal yılan tarafından sokulmuş [mask]'la dans etmiş olabilir inisin?"" suggests that the person has danced with someone who was suspected to have fallen from the magical land of ""esrar âleminden"". based on the context, the most plausible answer for the [mask] token is ""yılan"" (frog).",bé,0,0.29,0,0.23,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['ben'],tyler,marañas,teneffüs,vet,0,0.25,0,0.2,0,0.36,0,0.33,incorrect,incorrect,incorrect,incorrect
+['margo roth spiegelman'],hope,control,yorgun,evn,0,0.29,0,0.36,0,0.36,0,0.31,incorrect,incorrect,incorrect,incorrect
+['margo'],matt,alguien,ahmet,amung,0,0.44,0,0.33,0,0.2,0,0.4,incorrect,incorrect,incorrect,incorrect
+['margo'],voice,girsi,karşı saldın,hắn,0,0.2,0,0.2,0,0.24,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['quenti', 'quentin']",person,chicos de primero,other,ta,0,0.33,0,0.17,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+['margo'],image,detector,jefferson,"based on the given passage, the proper name that fills the [mask] token is ""alice"" (but it should be noted that the text is in vietnamese, and the translation is: ""i like the image of a bullet flying, but it seems in the current surge of poetry, the listener has seen quite a lot of worry within me, more than the movements i am truly feeling. i know [alice] will come back. she will gather herself and return to jefferson park.",0,0.6,0,0.15,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo roth spiegelman'],student,a,dersleri,hai,0,0.35,0,0.33,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo'],hope,albergaba,belki,alice,0,0.22,0,0.43,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['bay jiminez', 'jiminez']",mr.vandermeulen,señor,math,thuy,0,0.27,0,0.17,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+['ben starling'],sam,bailarín,otuzyedinci,jig,0,0.36,0,0.5,0,0.32,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['margo', 'marg']",eddie,name,annem,alice,0,0.0,0,0.25,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],norma,típico,name: gizemin,alice,0,0.4,0,0.18,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['margo'],mall,asfalto,florida,new york,0,0.44,0,0.33,0,0.17,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['margo', 'whitman']","in the given passage, the proper name that fills the [mask] token is ""i"". the line ""for a moment, i feel a flash of hope when i think about the last line of the poem: “i stop some where waiting for you.” but then i think that the i does not need to be a person. the i can also be a body."" suggests that the ""i"" in the poem could refer to a body, but the speaker also considers the possibility that the """,kafka,margo,margo,0,0.01,0,0.2,1,1.0,1,1.0,incorrect,incorrect,correct,correct
+['ben'],tobey,sacha,levha,alley,0,0.5,0,0.0,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['margo'],nothing,no,,,0,0.17,0,0.29,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['margo', 'marg']",her,golpes,sebzepin,tôi,0,0.29,0,0.36,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['margo'],sheila,prendes,i,alice,0,0.18,0,0.17,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['margo roth spiegelman'],girlfriend's,"in the given passage, the phrase ""noya quisiera que nuestro baile de graduación fuera bonito"" can be broken down into ""noya"" (pronoun for ""noya,"" which is the correct spelling of the name ""noah"" in this context), and ""quisiera"" (verb ""wished"" or ""wanted""). therefore, the name that fills the [mask] token in the passage is ""noah"".  the corrected passage",kız,cô bạn gái,0,0.3,0,0.01,0,0.15,0,0.27,incorrect,incorrect,incorrect,incorrect
+['dennis mcmahon'],david,tal,notebook,vincent,0,0.36,0,0.2,0,0.18,0,0.31,incorrect,incorrect,incorrect,incorrect
+['margo'],she,mountaindew,gofretler,alice,0,0.0,0,0.25,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+['whitman'],he,noventa,söz,an,0,0.22,0,0.29,0,0.0,0,0.44,incorrect,incorrect,incorrect,incorrect
+['margo'],books,peckinpah,gidecek,"tôi (which means ""i"" in vietnamese)",0,0.2,0,0.14,0,0.17,0,0.1,incorrect,incorrect,incorrect,incorrect
+['lacey'],she,gómez,o,margo,0,0.25,0,0.2,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['ben'],guy,los,kid(s),milwaukee,0,0.0,0,0.0,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['lacey'],ace,el,gus,gus,0,0.75,0,0.29,0,0.0,0,0.0,correct,incorrect,incorrect,incorrect
+['margo'],grass,mapas,haritalar,alice,0,0.2,0,0.4,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+['margo'],she,sartre,ilgi,tai,0,0.0,0,0.36,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['margo roth spiegelma', 'margo roth spiegelman']",find,concharobata,eyluz,tam,0,0.29,0,0.38,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo'],fate,kafka,haziran,alice,0,0.22,0,0.2,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['margo', 'margo—']",graduation day,parents,belki,tin,0,0.21,0,0.33,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],"in the given passage, the proper name that fills the [mask] token is ""something"". the corrected sentence would be: ""but is it the kind of thing she likes to actually do? no. because [something] knows the secret of leaving, the secret i have only just now learned: leaving feels good and pure only when you leave something important, something that mattered to you. pulling life out by the roots. but you can’t do that until your life has",no,terk,alice,0,0.0,0,0.29,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lacey'],she,barrita,"gofast(name) the given passage is in turkish, and the sentence in question is: ""gofreti alıp isteksizce ısırıyor. gofast tatmanın doğasmda yatan orgazma benzeyen zevki saklamak için gözlerini kapamak için gözlerini kapamak zorunda kalıyor. “ah. tanrım. tad",gofast,0,0.25,0,0.17,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['margo'],samantha,sierra,david,mình,0,0.31,0,0.18,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],lisa,kafka,ona,tôi,0,0.22,0,0.2,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['margo'],tobin,buto,ben,an,0,0.2,0,0.22,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo'],little,pobrecita,little,alice,0,0.0,0,0.14,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['margo'],"in the given passage, the word filling the [mask] token is ""unresolved"". however, the context of the passage suggests that the name the author is trying to remember or mention is that of a person. the author mentions ""my mom"" earlier, and the tone of the passage suggests that they are talking about a difficult conversation with someone. therefore, the name that fills the [mask] token is ""unresolved issues"", but the name of the person involved in the",name,vermeyi,toi,0,0.0,0,0.22,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+['lacey'],you,sartre,gaddafi,von,0,0.25,0,0.36,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['margo', 'marg']",relationship,orlando,uzun,tôi,0,0.24,0,0.33,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['margo'],she,agloe,agloe,alice,0,0.0,0,0.6,0,0.6,0,0.2,incorrect,incorrect,incorrect,incorrect

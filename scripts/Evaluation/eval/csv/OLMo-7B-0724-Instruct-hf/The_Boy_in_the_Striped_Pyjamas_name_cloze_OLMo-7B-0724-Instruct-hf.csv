@@ -1,0 +1,108 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+['bruno'],emma,estrago,makeup,ana,0,0.0,0,0.33,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+['gretel'],four,tucán,he,bà bảo,0,0.2,0,0.18,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,brahms,nefes,cua,0,0.0,0,0.36,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],house,mario,fal,new house,0,0.2,0,0.4,0,0.0,0,0.14,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,sommer,tekrar,casa,0,0.0,0,0.18,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['maria', 'maría']",tina,sartre,o,casau,0,0.22,0,0.36,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['maria', 'maría']",bag,mom,usulca,meg,0,0.25,0,0.25,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],bag,sartre,tuba,tui,0,0.25,0,0.18,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],monster,monstruo,canavar,kia,0,0.17,0,0.46,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],jimmie,dios,sebad,alice,0,0.0,0,0.22,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gretel'],question,,burası,he,0,0.29,0,0.0,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],sam,berlin,lea,he,0,0.0,0,0.55,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gretel'],bales, rolmos ,tel,alice,0,0.18,0,0.33,0,0.67,0,0.18,incorrect,incorrect,incorrect,incorrect
+['gretel'],girl,campo,sebiha,alice,0,0.6,0,0.0,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],charlie,anselm,mask,muong,0,0.17,0,0.18,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+['gretel'],mouth,escudriño,pencere,an,0,0.18,0,0.13,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bruno—', 'bruno']",farmhand,caballos,"in the given passage, the person is describing a group of animals, and the phrase ""i̇nekler, domuzlar, koyunlar ve atlar olmalı,"" is used to describe them. the words ""i̇nekler,"" ""domuzlar,"" ""koyunlar"" and ""atlar"" translate to ""birds,"" ""ducks,"" ""trees"" and ""animals,"" respectively. the person describing this group is referring to themselves, so the proper name","bò, lợn, cừu và ngựa",0,0.31,0,0.31,0,0.01,0,0.24,incorrect,incorrect,incorrect,incorrect
+['gretel'],she,he,aptal,anh,0,0.22,0,0.25,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],stand,alambrada,gözlümse,ma,0,0.2,0,0.29,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gretel'],sister,serna,ermen,alice,0,0.33,0,0.18,0,0.36,0,0.18,incorrect,incorrect,incorrect,incorrect
+['gretel'],lady,seen,odama,cô,0,0.2,0,0.4,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],sam,conti,name,ai,0,0.0,0,0.2,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],ergon,berlín,akilca,cáu,0,0.4,0,0.55,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],david,karo,"in the given passage, the person speaking is responding to the question ""hoşlanmak mı?"" by saying ""elbette hoşlanmıyorum. berbat bir yer. yapacak hiçbir şey yok, konuşacak kimse yok, beraber oynayacak kimse yok. buraya taşındığımız için mutlu olduğunu söyleme",alice,0,0.0,0,0.44,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],alex,legró,giorgio,he,0,0.0,0,0.4,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,masculló,gözlüm,alice,0,0.0,0,0.31,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],person's name,gacela,dog,chú ấy,0,0.22,0,0.0,0,0.25,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,rubén,rüzgar,alice,0,0.0,0,0.6,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],bob,ellos,sara,anhta,0,0.5,0,0.2,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['pavel'],voice,sachs,emre,lea,0,0.4,0,0.2,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['pavel', 'pavel—']",harry,bell,mark,alice,0,0.2,0,0.44,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+['bruno'],david,martín,he,he,0,0.0,0,0.36,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],guy,mercer,fena,alice,0,0.25,0,0.18,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],waiter,médico,usulca,anh,0,0.18,0,0.18,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],person's name,esquiva,sarah,chau,0,0.22,0,0.17,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['pavel'],boy,he,doctor,sỹ bình,0,0.0,0,0.29,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bruno—', 'bruno']",berlin,kafka,hatir,berlin,0,0.55,0,0.0,0,0.2,0,0.55,incorrect,incorrect,incorrect,incorrect
+['pavel'],he,garcía,ali,alvin,0,0.29,0,0.18,0,0.5,0,0.4,incorrect,incorrect,incorrect,incorrect
+['bruno'],argument,aurora,sorun,chau,0,0.46,0,0.36,0,0.6,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['liszt', 'herr liszt', 'herr liszt—', 'bay liszt']",person's name,abuela,bense,onn,0,0.26,0,0.44,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['liszt', 'herr liszt', 'bay liszt']",he,sobrezna,voice,albert,0,0.67,0,0.36,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,sánchez,ana,alice,0,0.0,0,0.17,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],desert,entrecórrago,on,anh,0,0.18,0,0.24,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],explorer,américa,kâşif,alice,0,0.15,0,0.17,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],boy,minoro,yürümeye,bé,0,0.5,0,0.36,0,0.31,0,0.29,incorrect,incorrect,incorrect,incorrect
+['bruno'],boy,goya,tel,little boy,0,0.5,0,0.22,0,0.0,0,0.27,incorrect,incorrect,incorrect,incorrect
+['bruno'],boy,flaco,he,thang,0,0.5,0,0.2,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,heinrich,question,linh,0,0.0,0,0.15,0,0.31,0,0.22,incorrect,incorrect,incorrect,incorrect
+['shmuel'],nine,nueve,dokuz,nó,0,0.2,0,0.36,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,alemania,dedi,david,0,0.0,0,0.15,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['“không', 'bruno']",lucas,,ertuğrul,bruno,0,0.2,0,0.25,0,0.31,1,1.0,incorrect,incorrect,incorrect,correct
+['bruno'],david,sommer,mask,alice,0,0.0,0,0.18,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],explorer,explorer,mask,alice,0,0.15,0,0.15,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['huy', 'bruno']",explorer,armenta,david,alice,0,0.15,0,0.33,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gretel'],journalist,terciaría,hava,kiều,0,0.25,0,0.27,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['gretel'],emma,blaise,mark,em,0,0.2,0,0.17,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['brun', 'bruno']",sarah,madrid,gülümsemiş,alice,0,0.22,0,0.2,0,0.14,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bruno—', 'bruno']",design,braulete,[mask],alice,0,0.18,0,0.46,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['padre', 'bruno']",sam,su,mark,alice,0,0.25,0,0.29,0,0.44,0,0.4,incorrect,incorrect,incorrect,incorrect
+['shmuel'],storyteller,sánchez,eski,alun,0,0.35,0,0.46,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],sam,furioso,fury,cáu,0,0.0,0,0.33,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],schulz,zwickau,tren,albert,0,0.18,0,0.17,0,0.44,0,0.36,incorrect,incorrect,incorrect,incorrect
+['shmuel'],carriage,vázquez,alice,alundra,0,0.14,0,0.31,0,0.18,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['bruno—', 'bruno']",door,after,gulen,cửa,0,0.22,0,0.2,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,he,dudu,luồng,0,0.0,0,0.0,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+['bruno'],boy,hemingway,child,a small boy,0,0.5,0,0.14,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],sisters,orensanz,david,kim,0,0.17,0,0.31,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['maria', 'maría']",emma,"in the given passage, the name that fills the [mask] token is ""dijo"" which is a verb, not a proper name. the sentence is in spanish, and the sentence structure suggests that the missing word should be a proper name. the context of the sentence suggests that the speaker is trying to make a conversation, and the other person has not eaten anything. therefore, the proper name that fills the [mask] token is ""dijo"" (the person who said) — """,emre,"in the given passage, the person being referred to with the phrase ""chắc không phải cậu lại ăn nữa đấy chứ?"" is a female, as the phrase ""mỉm cười hỏi"" suggests a smile and inquiry, which is more likely to be made by a female. based on this information, the proper name that fills the [mask] token in the passage",0,0.44,0,0.0,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],david,mueve,mask,alice,0,0.0,0,0.2,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['pavel'],she,he,"in the given passage, the phrase ""hakkında [mask]'in bana anlattıklarını sana söyersem,"" suggests that the person is sharing something about [mask] with the other person. the phrase ""anlıyor musun?"" at the end indicates that the speaker expects the other person to understand or agree. based on this context, the proper name that fills the [mask] token is ""sina"". here is the output:",gia,0,0.25,0,0.29,0,0.01,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],person's name,secreto,dedi,alex,0,0.22,0,0.33,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['maria', 'maría']",lucas,estaban,sara,si,0,0.2,0,0.33,0,0.67,0,0.29,incorrect,incorrect,incorrect,incorrect
+['shmuel'],sam,sellars,dedi,le,0,0.44,0,0.46,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],question,she,ablan,nam,0,0.31,0,0.0,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['kotler', 'lieutenant kotler', 'teğmen kotler']",professor,teniente,name (guess: mark),trung uy,0,0.4,0,0.57,0,0.26,0,0.29,incorrect,incorrect,incorrect,incorrect
+['gretel'],friend,bala,cagatay,cô,0,0.33,0,0.2,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],sam,esquivó,ablasin,alice,0,0.0,0,0.33,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gretel'],ted,sobran,gulen,em,0,0.44,0,0.17,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+['gretel'],she,sarcoso,ali,lee,0,0.22,0,0.15,0,0.22,0,0.44,incorrect,incorrect,incorrect,incorrect
+['gretel'],person's name,he,adam,ngoại,0,0.21,0,0.25,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],daisy,kreuz,bunu,phòng,0,0.0,0,0.4,0,0.67,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],island,torres,adam,lính,0,0.18,0,0.18,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['bruno'],swipe,sánchez,elinden,anh ta,0,0.0,0,0.17,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],chang,he,tasa,miếng,0,0.2,0,0.0,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],boy,el niño,karar,chú bé,0,0.5,0,0.33,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],when,berlín,berlin,berlin,0,0.22,0,0.55,0,0.55,0,0.55,incorrect,incorrect,incorrect,incorrect
+['gretel'],sarah,garcía,gunnar,tom,0,0.18,0,0.33,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['bruno', 'do thái']",jewish,judías,dedi,bruno,0,0.2,0,0.31,0,0.36,1,1.0,incorrect,incorrect,incorrect,correct
+['gretel'],opposite,somos,gideon,answer,0,0.29,0,0.0,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+['bruno'],harry,judíos,mask,do,0,0.2,0,0.36,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['bruno'],reflection,mirno,gozleri,soi,0,0.27,0,0.6,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],friend,yor,friend,conan,0,0.36,0,0.25,0,0.36,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],author's name,pijama,peter,pyjama,0,0.22,0,0.0,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['shmuel'],john,elmo,eva,he,0,0.2,0,0.4,0,0.22,0,0.5,incorrect,incorrect,incorrect,incorrect
+['shmuel'],harry,insieme,"in the given passage, the person is speaking in turkish, and the sentence translates to: ""they were eating,"" said [mask], looked forward, puffed up his cheeks, and shook his hips. ""but the problem isn't that; i'm also worried about them. i'm worried about them!"" it was repeated in a stern tone.""  based on the context, the proper name that fills the [mask] token is ""duygu"".  here is the output:",emma,0,0.18,0,0.46,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['shmuel'],tom,sánchez,mark,he,0,0.22,0,0.46,0,0.2,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['shmuel', 'shmuel—']",person's name,león,name,casa,0,0.32,0,0.2,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],george,dios,peter,pyjama,0,0.18,0,0.22,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],harry,explorador,dedi,an,0,0.2,0,0.27,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['bruno'],foot,barro,ayakları,an,0,0.22,0,0.6,0,0.15,0,0.29,incorrect,incorrect,incorrect,incorrect
+['shmuel'],boy,alambrada,tel,hao,0,0.0,0,0.13,0,0.44,0,0.22,incorrect,incorrect,incorrect,incorrect
+['bruno'],hut,abrió,gokhan,alice,0,0.25,0,0.6,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],"in the given passage, the sentence ""he had promised his friend that and he wasn’t the sort to go back on a promise, especially when it was the last time they were to see each other. ‘all right,’ he said, although he felt a lot less confident now than he had before. ‘but where should we look?’"" suggests that the person who promised his friend is the subject of the sentence. the subject of the sentence is ""he"", and based on the context,",bueno,evan,emma,0,0.0,0,0.8,0,0.22,0,0.0,incorrect,correct,incorrect,incorrect
+['bruno'],explorer,sobhan,kampi,alice,0,0.15,0,0.36,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['shmuel'],friend,alambrada,yusuf,mai,0,0.17,0,0.13,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+['bruno'],andre,arandej,kumandan,alice,0,0.2,0,0.33,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],family,sobrevís,elbette,story,0,0.0,0,0.31,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
