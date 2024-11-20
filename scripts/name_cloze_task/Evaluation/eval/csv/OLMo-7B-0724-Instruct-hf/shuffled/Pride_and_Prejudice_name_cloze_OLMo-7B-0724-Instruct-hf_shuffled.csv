@@ -1,0 +1,132 @@
+Single_ent,en_masked_shuffled_results,es_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+"['bingley', 'mr bingley']",mr.,como,yet,bà,0,0.8,0,0.33,0,0.2,0,0.22,correct,incorrect,incorrect,incorrect
+"['mr bennet', 'bennet', 'señor bennet']",her,rara,tesellisi,bà,0,0.5,0,0.33,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['señora long', 'mrs long', 'long']",a,celebra,ben,hai,0,0.29,0,0.46,0,0.44,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['mrs bennet', 'bennet', 'señora bennet']",the,albors,ilk,hằng,0,0.22,0,0.44,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['mr bennet', 'bennet']",joke,pero,aya,kể,0,0.2,0,0.33,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['lizzy'],butler,pero,seymi,hắn,0,0.18,0,0.0,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lucas', 'lucas–', 'miss lucas']",fortune,es,adam,anh,0,0.17,0,0.33,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['mary'],vanity,el,insan,phù,0,0.4,0,0.0,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['miss eliza', 'eliz', 'eliza']",gentleman,baleares,harikalar,anh,0,0.43,0,0.31,0,0.32,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mrs bennet', 'bennet––', 'bennet']",you,sánchez,seker,tôi,0,0.0,0,0.24,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+['louisa'],montaigne,si,yemeğini,thân,0,0.27,0,0.25,0,0.14,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['mr jones', 'jones']",a,pérez,bakan,chihu,0,0.0,0,0.31,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mary', 'mary––']",i,produtiva,he,em,0,0.0,0,0.15,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['', 'jane bennet']",she,garcía,kız,bó,0,0.29,0,0.2,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'darcy–']",screen,abarcan,hanımlar,anh,0,0.18,0,0.5,0,0.31,0,0.25,incorrect,incorrect,incorrect,incorrect
+['darcy'],meanness,zorba,"in the given passage, the term ""cevapadı [mask], herşey yöntemlerde bu kullandıkları çekmek"" suggests that the person gave a response to kurnazlığa, and the phrase ""bayagılık diye ona"" implies that the response was simple. based on this context, the most appropriate name to fill the [mask] token is ""cevap"".  so,",chắc,0,0.15,0,0.2,0,0.01,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['mrs bennet', 'bennet', 'señora bennet']",neighbour,campo,şekine,bà,0,0.4,0,0.25,0,0.5,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['bingley', 'señor bingley', 'mr bingley']",part,el,question,london,0,0.33,0,0.29,0,0.31,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",poetry,pérez,segisini,con,0,0.27,0,0.44,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bennet', 'miss bennet']",plan,desea,plan,cô,0,0.2,0,0.36,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bennet', 'miss bennet']",arguments,sánchez,tartışma,anh,0,0.4,0,0.22,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jane'],hours,se,umuyduk,đi,0,0.0,0,0.33,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],sister,salazar,sebzun,nghệ,0,0.13,0,0.38,0,0.27,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['bennet', 'miss bennet', 'jane']",yawned,entonces,kitab'a,anh,0,0.6,0,0.57,0,0.22,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['charles', 'netherfield', 'charle']",would,martín,charles,anh,0,0.25,0,0.33,1,1.0,0,0.29,incorrect,incorrect,correct,incorrect
+"['elizabeth', 'elizabeth–']",whims,uy,ahmak,tôi,0,0.14,0,0.0,0,0.29,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'darcy–']",channing,carácter,insanların,tôi,0,0.15,0,0.46,0,0.27,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'elizabeth–']",sentence,gacela,emre,thói,0,0.24,0,0.4,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['mr bennet', 'bennet']",party,suarez,ekmek,ghé,0,0.29,0,0.27,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+['charlotte lucas'],hope,vega,future,an,0,0.46,0,0.22,0,0.27,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['mr collins', 'collins', 'collin', 'señor collins']",case,pensé,yeğenim,anh,0,0.44,0,0.4,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mrs bennet', 'señora bennet––', 'bennet']",she,garcía,beyefendi,tất,0,0.44,0,0.33,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['mr bennet', 'bennet', 'bennet––']",impulse,severo,ayrca,hai,0,0.25,0,0.33,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mrs bennet', 'bennet', 'señora bennet']",she,hernán,elma,chíu,0,0.44,0,0.5,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mrs philips', 'señora philips', 'philips']",mrs.,le,insan,chiều,0,0.86,0,0.25,0,0.36,0,0.33,correct,incorrect,incorrect,incorrect
+"['wickham––', 'wickham']",he,me,formuz,anh,0,0.22,0,0.22,0,0.15,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'mr darcy']",a,no,serefli,anh,0,0.33,0,0.0,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],favourite,alcobendas,gence,theo,0,0.11,0,0.32,0,0.29,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'darc', 'wickham']",elizabeth,darcy,ama,giáo viên,0,0.25,1,1.0,0,0.4,0,0.25,incorrect,correct,incorrect,incorrect
+"['darcy', 'mr darcy']",deserts,butra,servet,du_phong,0,0.33,0,0.31,0,0.25,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['catherine de bourgh', 'lady catherine de bourgh', 'catherine bourg']",madam,afortunadamente,beşir,phu,0,0.44,0,0.42,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['wickham––', 'wickham']",she,hesper,mevki,bà,0,0.2,0,0.15,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jane'],text,díaz,onlar,báy,0,0.25,0,0.25,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],posterity,enemigos,cevap zaman,tính,0,0.33,0,0.24,0,0.3,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['ngài william', 'william', 'sir william']",subject,tornaldo,"in the given passage, the two names that have been mentioned as part of a conversation are ""bulamazdı"" and ""zaten iki [mask] denedik"". the context of the conversation suggests that these names refer to the people involved in the conversation. therefore, the proper name that fills the [mask] token in the sentence ""zaten iki [mask] denedik"" is ""two"".  so, the output for this passage would be:  ",chuyện,0,0.2,0,0.33,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['anh darcy', 'señor darcy', 'darcy', 'mr darcy']",mr.,obligadas,aşkına,anh,0,0.8,0,0.33,0,0.44,1,1.0,correct,incorrect,incorrect,correct
+"['señor collins', 'collins', 'mr collins']",word,no,mazur,xin,0,0.44,0,0.57,0,0.57,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'cô elizabeth']",hertfordshire,créame,ama,alice,0,0.27,0,0.44,0,0.17,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['collins', 'mr collins']",wave,tolstoy,"in the given passage, the word filling the [mask] token is ""verdi"". the full sentence reads: ""hemen kırmıyor; yüzden sallayarak, üçüncü içersinden sözleriniz o çıkaracağımı geçmeden hanımların, adamın resmi bile teklifini seferinde sizi asla bazen red ettikleri verdi hat",anh,0,0.0,0,0.43,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['de bourgh', 'de bourg', 'bourgh']",susanna,anselmo,name,hoàn,0,0.17,0,0.27,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'darc', 'mr darcy']",i,al,iyi,mike,0,0.0,0,0.33,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+['charles'],hertfordshire,gales,hertfordshire,chị,0,0.3,0,0.67,0,0.3,0,0.4,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],mark,macbeth,herbert,em,0,0.15,0,0.62,0,0.5,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jane'],a,nada,"in the given passage, the phrase ""ya –elbette dönerek, kınamamı şeyim zaman demek şey olarak korkacak acının düzelmeye"" can be broken down into the following words: ""ya"" (a conjunction), ""elbette"" (an adverb), ""dönerek"" (a verb in the past tense, meaning ""i would have gone"" or ""i would have come",chih,0,0.4,0,0.25,0,0.01,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'elizabeth–']",a,no,tesadüz,gia,0,0.2,0,0.0,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['bingley', 'señor bingley', 'mr bingley']",attachment,lobato,yarım,nó,0,0.27,0,0.21,0,0.29,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['lizz', 'lizzy']",sylvain,vayas,delikanli,anh,0,0.36,0,0.2,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['wi', 'mr wickham', 'wickham']",mr.,sí,telaş,anh,0,0.8,0,0.5,0,0.17,0,0.2,correct,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",it,sensato,ama,anh,0,0.36,0,0.38,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],her,espinoza,"in the given passage, the phrase ""olağandışı ve vermenin [mask] sonra yengesi teşekkür uyarılarındaki konuda gücendirmemenin bir olduğunu örneği"" can be translated to english as ""but he also mentioned an example of not wanting to praise him after taking advantage and giving in, in the context of yengesi's thank you remarks."" the word """,hai,0,0.17,0,0.47,0,0.01,0,0.17,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],sister,sánchez,relax,miene,0,0.13,0,0.25,0,0.43,0,0.29,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],randall,hunsford,lojman,rosings,0,0.12,0,0.12,0,0.27,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['maría', 'maria']",she,siguiente,gelen,tiếng,0,0.0,0,0.14,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],cross,la,uygun,cô,0,0.0,0,0.36,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['william––', 'william', 'sir william']",court,cortés,"in the given passage, the phrase ""ben diye görülür, bu hayattaki vermiştir"" can be translated to ""he seems like 'he' is living here, i've heard. i couldn't bear the big disappointments"" in english. the word ""he"" in this context is a pronoun, and the only proper name that fits in this context is ""he"".  based on this analysis, the name that fills the [mask] token in",nói,0,0.25,0,0.22,0,0.01,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['catherine–', 'catherine', 'lady catherine']",account,me,diki,dì,0,0.29,0,0.18,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['señor darcy', 'darcy', 'darc', 'mr darcy']",gentleman,se,eş,anh,0,0.3,0,0.57,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'darcy–']",tone,personas,görünemiyor,tham,0,0.0,0,0.15,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'elizabeth–']",fingers,rozanov,pratik,luong,0,0.12,0,0.25,0,0.13,0,0.14,incorrect,incorrect,incorrect,incorrect
+['darcy'],can,ninguno,"in the given passage, the proper name that fills the [mask] token is ""kazanmış"". the complete sentence reads: ""çalmayız. ""çok herhangi gülümsedi kullanmışsınız. kazanmış bir dedi, bulamaz. sizi [kazanmış] biz daha kimse iyi şöyle hiç zamanınızı kusur ayr",cô gì,0,0.25,0,0.0,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['bingley', 'mr bingley']",netherfield,bentley,aile,tôi,0,0.29,0,0.71,0,0.55,0,0.2,incorrect,correct,incorrect,incorrect
+"['collins', 'mrs collins']",butler,distancia,sarma,bà,0,0.22,0,0.3,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'mr darcy']",choice,lo,option,anh,0,0.18,0,0.0,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",earl,milan,ellli,anh,0,0.5,0,0.29,0,0.67,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'darc']",young,delsal,veli,lúc,0,0.2,0,0.4,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'mr darcy']",mr.,sabio,ayrinti,anh,0,0.8,0,0.2,0,0.33,0,0.25,correct,incorrect,incorrect,incorrect
+"['fitzwilliam', 'albay fitzwilliam']",colonel,abogado,güçlü,london,0,0.22,0,0.5,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['darcy'],calhoun,kafka,demek,anh,0,0.17,0,0.2,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'darc', 'mr darcy']",man,se,yanli,anh,0,0.4,0,0.0,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['wickha', 'mr wickham', 'wickham']",astonishment,ante,hepsine,chuyện,0,0.32,0,0.2,0,0.15,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'lydia––']",bonnet,garcía,ekin,em,0,0.0,0,0.36,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lydia'],news,"in the given passage, the word filling the [mask] token is ""noticias"" which doesn't make sense in the context. the correct name that fills the [mask] token is ""es"", which is the spanish word for ""it"" or ""they"" in this context. here's the corrected passage with the name filled in:  <passage>imaginaros; que a creéis? cuando una noticias ––tengo daros se acerca",bilin,chị,0,0.0,0,0.01,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],harboured,other,"in the given passage, the phrase ""elinden bunu kullanmak ifadeleri de"" suggests that the person is using expressions or phrases from removing the coat. the phrase ""de bulmuş böyle duyguları tür kendisinin vaktiyle ve beslemiş gelmese kaba göğsünde bu"" describes the person's feelings after removing the coat. based on this context, the proper name that fills the [mask",dù,0,0.11,0,0.29,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['mary'],female,seráns,göre,thú,0,0.4,0,0.2,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'elizabeth––']",he,cierto,ulan,chứ,0,0.18,0,0.27,0,0.31,0,0.17,incorrect,incorrect,incorrect,incorrect
+['jane'],uncomfortable,gómez,fatih,em,0,0.24,0,0.22,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['longbourn'],good,sueldo,çekmezler,họ,0,0.31,0,0.27,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",evens,zaratustra,yuzul,tuy,0,0.29,0,0.32,0,0.22,0,0.17,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],she,matrimonio,unutmaya,tuy,0,0.17,0,0.11,0,0.12,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['señora gardiner', 'mrs gardiner', 'gardiner']",mrs.,contiene,"in the given passage, the phrase ""umursamazdım; ormanlarından ilgisizliğine güzel bir de [mask] dedi,"" suggests that the speaker is referring to a person who said something that surprised them in the forests. the phrase ""güzel bir de"" means ""slightly"" or ""a little,"" which indicates that the surprise was not complete. based on the context, the most likely name that fills the [mask]",no,0,0.86,0,0.38,0,0.0,0,0.5,correct,incorrect,incorrect,incorrect
+['pemberley'],question,veronese,tedirgin,bao,0,0.12,0,0.35,0,0.24,0,0.17,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],chambermaid,bajaron,kopruy,tri,0,0.3,0,0.12,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['reynolds', 'mrs reynolds', 'señora reynolds']",thesis,pablo,öteki,bà một,0,0.29,0,0.18,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['señora gardiner', 'mrs gardiner', 'gardiner']",scruggs,a,yorgun,hai,0,0.4,0,0.29,0,0.38,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'mr darcy']",address,viva,bronze age,bingley,0,0.33,0,0.22,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],opening,sana,mektubu,thư,0,0.25,0,0.15,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],calling,ortega,efendisi,rứy,0,0.25,0,0.27,0,0.24,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jane'],uncle,paco,babam,tom,0,0.44,0,0.25,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],from,alivio,süre,tam,0,0.0,0,0.27,0,0.15,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['señor gardiner', 'mr gardiner', 'gardiner']",after,conversó,ifade,alice,0,0.46,0,0.38,0,0.46,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'elizabeth––', 'eliz']",distress,no,tatmin,daang,0,0.17,0,0.0,0,0.2,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['mr bennet', 'bennet', 'señor bennet']",phrase,habló,cesaretli,các,0,0.36,0,0.2,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],her,pérez,cem,vao,0,0.17,0,0.29,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['lizz', 'lizzy']",shakespeare,después,david,lí,0,0.0,0,0.0,0,0.22,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'elizabeth––']",uncle,gala,borçları,anh,0,0.14,0,0.31,0,0.24,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['mr bennet', 'bennet']",mr.,silvio,yaz,ông,0,0.8,0,0.0,0,0.0,0,0.22,correct,incorrect,incorrect,incorrect
+"['bennet', 'bà benne', 'mrs']",mrs. reenie,bourn,"in the given passage, the phrase ""bu ya 'mrs konuşmasına etmeden ödüllendirmeyeceğim. kabul eve dedi, kızınız onları asla hepsini da konuda zaman ona bir birini şöyle [mask], oğlunuz müdahale longbourn'da çekildikleri ederek' "" suggests that the subject is mrs.",longbourn,0,0.43,0,0.4,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['mrs bennet', 'bennet', 'señora bennet']",daughters,salazar,ciddi,hai,0,0.33,0,0.31,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['mrs bennet', 'bennet', 'señora bennet', 'benne']",daughter,corta,olanlar,bà,0,0.29,0,0.55,0,0.31,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['wickha', 'mr wickham', 'wickham']",do,now,bil,anh,0,0.0,0,0.22,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['lydia'],no,mejora,terketti,gần,0,0.0,0,0.18,0,0.15,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['lizz', 'elizabeth', 'lizzy']",aunt,meya,sadece,chị,0,0.31,0,0.31,0,0.27,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['mrs bennet', 'bennet', 'señora bennet']",mrs.[/name],hernandez,sofre,bà,0,0.43,0,0.53,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mrs bennet', 'bennet', 'señora bennet']",finished,la,yarı,cô,0,0.29,0,0.25,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mrs bennet', 'bennet']",his,alcobendas,ava,anh,0,0.33,0,0.38,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['cô benne', 'bennet', 'miss bennet']",sentence,soy,david,quen,0,0.62,0,0.4,0,0.22,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['anh darcy', 'darcy', 'mr darcy']",lennie,matrimonio,doğru,baotao,0,0.22,0,0.33,0,0.4,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['cô benne', 'bennet', 'miss bennet']",obstinate,ha,senden,gia,0,0.35,0,0.0,0,0.55,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['cô benne', 'bennet', 'miss bennet', 'señorita bennet']",confuse,pienso,shock,cầu,0,0.44,0,0.43,0,0.31,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['cô benne', 'bennet', 'miss bennet']",word,señorita,demir,toi,0,0.33,0,0.43,0,0.44,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['anh darc', 'darcy', 'mr darcy']",sakura,si,brother,nếu,0,0.4,0,0.0,0,0.27,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'elizabeth quá']",you,erre,duygu,tư,0,0.33,0,0.31,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'elizabeth đỏ']",abusing,franqueza,kadar,anh,0,0.25,0,0.33,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'elizabeth–']",quorm,barros,succu,buổi,0,0.0,0,0.13,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+['darcy'],had,kafka,akşamması,anh,0,0.25,0,0.2,0,0.14,0,0.25,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],famu,sánchez,akşam,buổi,0,0.15,0,0.25,0,0.14,0,0.15,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],approbation,sobran,tufan,bà,0,0.1,0,0.13,0,0.14,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'mr darcy']",dearest,gómez,bizzat,em,0,0.5,0,0.29,0,0.18,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['catherine', 'lady catherine']",aunt,atormenta,teyzemin,tam,0,0.31,0,0.44,0,0.47,0,0.29,incorrect,incorrect,incorrect,incorrect
+['bingley'],confession,name (pronoun),ifade,anh,0,0.24,0,0.19,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['miss darcy', 'darcy']",sister,hermano,ayni,sau,0,0.4,0,0.24,0,0.44,0,0.31,incorrect,incorrect,incorrect,incorrect

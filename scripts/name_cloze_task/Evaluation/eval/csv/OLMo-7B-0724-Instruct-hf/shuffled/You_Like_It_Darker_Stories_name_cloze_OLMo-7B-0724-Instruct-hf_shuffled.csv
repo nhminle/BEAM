@@ -1,0 +1,508 @@
+Single_ent,en_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,en_correct
+['ruth crawford'],proposal,0,0.25,incorrect
+['mark'],one,0,0.0,incorrect
+['butch'],dirt-road,0,0.14,incorrect
+['crawford'],she,0,0.0,incorrect
+['dave'],hands,0,0.22,incorrect
+['butch'],friend,0,0.0,incorrect
+['alden'],fellas,0,0.18,incorrect
+['carmody'],lightning,0,0.0,incorrect
+['ruth crawford'],pop,0,0.18,incorrect
+['ruth crawford'],she,0,0.29,incorrect
+['crawford'],street,0,0.14,incorrect
+['dave'],old,0,0.29,incorrect
+['dave'],money,0,0.22,incorrect
+['uncle butch'],work,0,0.0,incorrect
+['hathaway'],mother,0,0.29,incorrect
+['butch'], trip,0,0.22,incorrect
+['robert johnson'],maybe,0,0.36,incorrect
+['ruth'],corolla,0,0.18,incorrect
+['carmody'],kup,0,0.0,incorrect
+['ruth'],fence,0,0.0,incorrect
+['ruth crawford'],me,0,0.0,incorrect
+['mark'],darkness,0,0.5,incorrect
+['pop'],she,0,0.0,incorrect
+['butch'],jilasi,0,0.0,incorrect
+['ruth'],friendship,0,0.29,incorrect
+['ruth crawford'],uncle,0,0.22,incorrect
+['mark'],box,0,0.0,incorrect
+['tommy'],lightning,0,0.14,incorrect
+['ruth'],box,0,0.0,incorrect
+['jack elway'],lightning,0,0.14,incorrect
+['uncle butch'],pop,0,0.0,incorrect
+['ruth crawford'],outliers,0,0.33,incorrect
+['benson'],day,0,0.0,incorrect
+['patel'],he,0,0.29,incorrect
+['butch'],gash,0,0.22,incorrect
+['mark'],deer,0,0.25,incorrect
+['nellybelle'],cop,0,0.0,incorrect
+['butch'],bootheels,0,0.43,incorrect
+['butch'],nellybelle,0,0.13,incorrect
+['butch'],pies,0,0.0,incorrect
+['butch'],frosting,0,0.15,incorrect
+['butch'],halloween,0,0.14,incorrect
+['butch'],they,0,0.44,incorrect
+['butch'],terrible,0,0.15,incorrect
+['butch'],trick,0,0.4,incorrect
+['butch'],squawk,0,0.18,incorrect
+['butch'],said,0,0.0,incorrect
+['butch'],kid,0,0.0,incorrect
+['butch'],tim,0,0.25,incorrect
+['bud'],we,0,0.0,incorrect
+['butch'],woods,0,0.0,incorrect
+['butch'],leaf,0,0.0,incorrect
+['butch'],phone,0,0.2,incorrect
+['butch'],leftovers,0,0.14,incorrect
+['butch'],we,0,0.0,incorrect
+['butch'],black,0,0.4,incorrect
+['butch'],pants,0,0.2,incorrect
+['butch'],armpits,0,0.17,incorrect
+['butch'],rose,0,0.0,incorrect
+['butch'],knees,0,0.0,incorrect
+['butch'],her,0,0.25,incorrect
+['butch'],she,0,0.25,incorrect
+['butch'],her,0,0.25,incorrect
+['butch'],she,0,0.25,incorrect
+['butch'],hand,0,0.22,incorrect
+['butch'],question,0,0.31,incorrect
+['butch'],young,0,0.2,incorrect
+['butch'],planet,0,0.18,incorrect
+['bud'],downeast,0,0.18,incorrect
+['ylla'],lid,0,0.29,incorrect
+['yella'],he,0,0.29,incorrect
+['butch'],problems,0,0.15,incorrect
+['ylla'],key,0,0.29,incorrect
+['butch'],except,0,0.18,incorrect
+['butch'],he,0,0.29,incorrect
+['butch'],byron,0,0.2,incorrect
+['butch'],skeets,0,0.18,incorrect
+['butch'],thing,0,0.4,incorrect
+['butch'],me,0,0.0,incorrect
+['ylla'],poseurs,0,0.0,incorrect
+['jack'],boomer,0,0.0,incorrect
+['butch'],tri,0,0.25,incorrect
+['pop'],or,0,0.4,incorrect
+['uncle butch'],pop,0,0.0,incorrect
+['susan'],superintendent,0,0.32,incorrect
+['mark carmody'],"""the""",0,0.0,incorrect
+['stanhope'],congo,0,0.31,incorrect
+['joan jett'],beethoven's,0,0.27,incorrect
+['albert ammons'],woogie,0,0.17,incorrect
+['jack'],steps,0,0.0,incorrect
+['randy'],desperation,0,0.38,incorrect
+['jack'],marks,0,0.44,incorrect
+['randy'],park,0,0.22,incorrect
+['ralph'],von,0,0.0,incorrect
+['brown'],coke,0,0.22,incorrect
+['james'],grandfather,0,0.25,incorrect
+['rox'],mother,0,0.22,incorrect
+['danny'],but,0,0.0,incorrect
+['danny'],cunt,0,0.22,incorrect
+['danny'],bonlike,0,0.17,incorrect
+['danny'],nothing,0,0.33,incorrect
+['danny'],prices,0,0.0,incorrect
+['danny'],word,0,0.22,incorrect
+['danny'],havoline,0,0.31,incorrect
+['danny'],dog,0,0.25,incorrect
+['danny'],lots,0,0.0,incorrect
+['danny'],gum,0,0.0,incorrect
+['jesse'],black,0,0.0,incorrect
+['pat'],room,0,0.0,incorrect
+['jesse jackson'],wilder,0,0.18,incorrect
+['danny'],detroit,0,0.17,incorrect
+['danny'],hilltop,0,0.0,incorrect
+['danny'],tim,0,0.0,incorrect
+['danny'],drives,0,0.18,incorrect
+['danny'],he,0,0.0,incorrect
+['danny'],lincoln,0,0.33,incorrect
+['becky'],civic,0,0.2,incorrect
+['gunnel'],road,0,0.0,incorrect
+['danny'],tarmac,0,0.18,incorrect
+['danny'],truck,0,0.0,incorrect
+['danny'],limp,0,0.0,incorrect
+['danny'],jarrett,0,0.17,incorrect
+['danny'],but,0,0.0,incorrect
+['danny'],batter,0,0.18,incorrect
+['danny'],driver,0,0.18,incorrect
+['thompson'],tracfone,0,0.38,incorrect
+['danny'],wallet,0,0.18,incorrect
+['danny'],abandoned,0,0.43,incorrect
+['danny'],tracfone,0,0.31,incorrect
+['danny'],wilder,0,0.18,incorrect
+['danny'],story,0,0.2,incorrect
+['becky'],burgers,0,0.33,incorrect
+['pete'],gunnel,0,0.2,incorrect
+['danny'],he,0,0.0,incorrect
+['danny'],shelby,0,0.18,incorrect
+['danny'],or,0,0.0,incorrect
+['danny'],a,0,0.33,incorrect
+['danny'],jumbo,0,0.0,incorrect
+['danny'],guys,0,0.22,incorrect
+['danny'],word,0,0.22,incorrect
+['danny'],word,0,0.22,incorrect
+['danny'],road,0,0.22,incorrect
+['jalbert'],might,0,0.17,incorrect
+['danny'],cunt,0,0.22,incorrect
+['danny'],supposed,0,0.15,incorrect
+['jalbert'],danny,0,0.17,incorrect
+['jalbert'],shake,0,0.33,incorrect
+['jalbert'],custodian,0,0.12,incorrect
+['danny'],plant,0,0.4,incorrect
+['jalbert'],you,0,0.0,incorrect
+['jalbert'],pegs,0,0.18,incorrect
+['danny'],hate,0,0.22,incorrect
+['jalbert'],reading,0,0.14,incorrect
+['gunnel'],north,0,0.18,incorrect
+['danny'],truck,0,0.0,incorrect
+['danny'],tyler,0,0.2,incorrect
+['danny'],shakes,0,0.18,incorrect
+['becky'],dj,0,0.0,incorrect
+['jalbert'],city,0,0.18,incorrect
+['jalbert'],wicker,0,0.31,incorrect
+['beck'],payments,0,0.17,incorrect
+['darla jean'],she,0,0.29,incorrect
+['danny'],says,0,0.44,incorrect
+['jalbert'],time,0,0.18,incorrect
+['gunnel'],there,0,0.18,incorrect
+['jalbert'],car,0,0.4,incorrect
+['jalbert'],george,0,0.31,incorrect
+['jalbert'],he,0,0.22,incorrect
+['jalbert'],she,0,0.2,incorrect
+['john q'],he's,0,0.25,incorrect
+['danny'],cop,0,0.0,incorrect
+['danny'],he,0,0.0,incorrect
+['jalbert'],station,0,0.29,incorrect
+['danny'],coffee,0,0.0,incorrect
+['ball'],be,0,0.33,incorrect
+['ball'],i’ve,0,0.0,incorrect
+['ball'],answer,0,0.2,incorrect
+['danny'],phone,0,0.2,incorrect
+['ball'],colleague,0,0.31,incorrect
+['danny'],reverse,0,0.0,incorrect
+['danny'],otherwise,0,0.0,incorrect
+['danny'],fuse,0,0.0,incorrect
+['danny'],girl,0,0.0,incorrect
+['danny'],it guy,0,0.18,incorrect
+['jalbert'],danny,0,0.17,incorrect
+['danny'],i'm,0,0.0,incorrect
+['ball'],you're,0,0.0,incorrect
+['ella'],he,0,0.33,incorrect
+['danny'],was,0,0.25,incorrect
+['jalbert'],grind,0,0.17,incorrect
+['jesse'],is,0,0.29,incorrect
+['pat'],he,0,0.0,incorrect
+['jesse'],ether,0,0.4,incorrect
+['pat'],didn't,0,0.22,incorrect
+['sarah'],rant,0,0.44,incorrect
+['susan eggers'],superintendent,0,0.32,incorrect
+['danny'],gym,0,0.25,incorrect
+['danny'],sentences,0,0.29,incorrect
+['danny'],word,0,0.22,incorrect
+['danny'],employer,0,0.15,incorrect
+['susan eggers'],he,0,0.25,incorrect
+['jesse jackson'],tom,0,0.2,incorrect
+['danny'],summer,0,0.0,incorrect
+['jalbert'],past,0,0.36,incorrect
+['yvonne'],miss,0,0.0,incorrect
+['danny'],jalbert,0,0.17,incorrect
+['jalbert'],poly.,0,0.17,incorrect
+['danny'],embarrassed,0,0.12,incorrect
+['danny'],wire,0,0.0,incorrect
+['danny'],you,0,0.25,incorrect
+['can'],pick,0,0.29,incorrect
+['danny'],she,0,0.0,incorrect
+['frank jalbert'],she,0,0.2,incorrect
+['danny'],tom,0,0.0,incorrect
+['danny'],bo-banny,0,0.62,incorrect
+['frank'],word,0,0.22,incorrect
+['jalbert'],glock,0,0.17,incorrect
+['jalbert'],troop,0,0.17,incorrect
+['calten'],you,0,0.0,incorrect
+['calten'],kp,0,0.0,incorrect
+['jalbert'],hotelclerk,0,0.35,incorrect
+['jalbert'],hard,0,0.36,incorrect
+['calten'],trooper,0,0.31,incorrect
+['danny'],muffler,0,0.0,incorrect
+['danny'],pen,0,0.25,incorrect
+['danny'],smile,0,0.0,incorrect
+['jalbert'],answers,0,0.43,incorrect
+['danny'],wreckage,0,0.15,incorrect
+['jalbert'],headline,0,0.4,incorrect
+['danny'],do,0,0.29,incorrect
+['danny'],boy,0,0.25,incorrect
+['danny'],envelope,0,0.15,incorrect
+['jalbert'],charges,0,0.29,incorrect
+['danny'],she,0,0.0,incorrect
+['danny'],blurp,0,0.0,incorrect
+['danny'],zinger,0,0.18,incorrect
+['danny'],a,0,0.33,incorrect
+['uncle red'],even,0,0.29,incorrect
+['danny'],sheila,0,0.18,incorrect
+['danny'],wish,0,0.0,incorrect
+['jalbert'],thing,0,0.17,incorrect
+['jalbert'],trap,0,0.18,incorrect
+['jalbert'],five,0,0.18,incorrect
+['jalbert'],colorado,0,0.13,incorrect
+['jalbert'],her,0,0.4,incorrect
+['jalbert'],he,0,0.22,incorrect
+['jalbert'],chairs,0,0.31,incorrect
+['jalbert'],four,0,0.18,incorrect
+['jalbert'],thoughts,0,0.13,incorrect
+['yvonne'],text,0,0.2,incorrect
+['yvonne'],miss,0,0.0,incorrect
+['beer pong'],she,0,0.29,incorrect
+['danny'],reason,0,0.36,incorrect
+['danny'],chickenshit,0,0.12,incorrect
+['jesse'],go,0,0.0,incorrect
+['jesse'],atwood,0,0.0,incorrect
+['jalbert'],if,0,0.0,incorrect
+['danny'],a should already about this doesn’t.,0,0.15,incorrect
+['danny'],online,0,0.36,incorrect
+['yvonne'],missus,0,0.0,incorrect
+['jalbert'],wilder,0,0.46,incorrect
+['danny'],yell-o.,0,0.17,incorrect
+['andersson'],he,0,0.18,incorrect
+['danny'],oak,0,0.25,incorrect
+['ma'],dj,0,0.0,incorrect
+['danny'],hot,0,0.0,incorrect
+['danny'],hulk,0,0.0,incorrect
+['ma'],ghost,0,0.0,incorrect
+['andersson'],highway,0,0.12,incorrect
+['wolf lumber'],shoestring,0,0.29,incorrect
+['shakespeare'],cloud,0,0.0,incorrect
+['andersson'],he,0,0.18,incorrect
+['peter andersson'],her,0,0.5,incorrect
+['calten'],trooper,0,0.31,incorrect
+['yvonne'],gas-n-go,0,0.14,incorrect
+['jalbert'],vehicle,0,0.29,incorrect
+['peter andersson'],got,0,0.25,incorrect
+['andersson'],him,0,0.0,incorrect
+['jalbert'],her[name],0,0.25,incorrect
+['ella'],convinced,0,0.15,incorrect
+['frank'],she,0,0.0,incorrect
+['ella'],she's,0,0.22,incorrect
+['ella'],she,0,0.29,incorrect
+['jalbert'],sharp,0,0.33,incorrect
+['jesse'],problem,0,0.17,incorrect
+['ball'],telescope,0,0.15,incorrect
+['ball'],says,0,0.25,incorrect
+['frank jalbert'],she,0,0.2,incorrect
+['jesse'],but,0,0.0,incorrect
+['danny'],squeak,0,0.18,incorrect
+['ball'],i'm,0,0.0,incorrect
+['ball'],drugs,0,0.0,incorrect
+['bastard'],pocket,0,0.15,incorrect
+['danny'],tundra,0,0.36,incorrect
+['danny'],dabney,0,0.73,correct
+['jesse'],dope,0,0.22,incorrect
+['broder'],doc,0,0.22,incorrect
+['ball'],powers,0,0.0,incorrect
+['danny'],nurse,0,0.2,incorrect
+['ball'],bike,0,0.25,incorrect
+['jalbert'],becker,0,0.46,incorrect
+['ball'],word,0,0.0,incorrect
+['hank allard'],his,0,0.29,incorrect
+['jalbert'],piece,0,0.17,incorrect
+['jalbert'],shakes,0,0.31,incorrect
+['allard'],buddy,0,0.18,incorrect
+['frank'],andy,0,0.44,incorrect
+['ella'],her,0,0.29,incorrect
+['jalbert'],poster,0,0.31,incorrect
+['jalbert'],clothing,0,0.27,incorrect
+['charles beeson'],third,0,0.33,incorrect
+['danny'],battery's,0,0.29,incorrect
+['danny'],i,0,0.0,incorrect
+['jalbert'],phone,0,0.17,incorrect
+['h'],sounds,0,0.0,incorrect
+['chuck'],signs,0,0.0,incorrect
+['ella'],jalbert,0,0.18,incorrect
+['jalbert'],you,0,0.0,incorrect
+['bobby feeney'],folder,0,0.33,incorrect
+['bobby feeney'],men,0,0.44,incorrect
+['bobby'],question,0,0.15,incorrect
+['ludlum'],the,0,0.0,incorrect
+['ludlum'],at,0,0.0,incorrect
+['ludlum'],finny,0,0.0,incorrect
+['ludlum'],over,0,0.0,incorrect
+['roll'],rocky,0,0.44,incorrect
+['marm'],want,0,0.25,incorrect
+['doc'],mushrooms,0,0.17,incorrect
+['pando'],shite,0,0.0,incorrect
+['pando'],kid,0,0.25,incorrect
+['doc'],squat,0,0.0,incorrect
+['doc'],laddie,0,0.22,incorrect
+['pando'],from,0,0.22,incorrect
+['bobby feeney'],wad,0,0.0,incorrect
+['brown'],duke,0,0.0,incorrect
+['frank'],another,0,0.33,incorrect
+['brown'],buick,0,0.2,incorrect
+['frank'],wonder,0,0.18,incorrect
+['frank'],bird,0,0.22,incorrect
+['frank'],crevasse,0,0.31,incorrect
+['frank brown'],gay,0,0.25,incorrect
+['frank'],hair,0,0.22,incorrect
+['frank'],ones,0,0.22,incorrect
+['frank'],day,0,0.25,incorrect
+['mary'],she,0,0.0,incorrect
+['galen'],want,0,0.44,incorrect
+['frank'],ugly,0,0.0,incorrect
+['frank'],guin,0,0.22,incorrect
+['galen'],men,0,0.5,incorrect
+['frank'],toy,0,0.0,incorrect
+['frank'],apiece,0,0.18,incorrect
+['galen'],boy,0,0.0,incorrect
+['frank'],lip,0,0.0,incorrect
+['nan'],she,0,0.0,incorrect
+['pete'],purple,0,0.4,incorrect
+['galen'],if,0,0.0,incorrect
+['galen'],sis,0,0.0,incorrect
+['frank'],mark,0,0.44,incorrect
+['crocker'],penny,0,0.17,incorrect
+['alvarez'],not,0,0.0,incorrect
+['alvarez'],he,0,0.22,incorrect
+['alvarez'],intake,0,0.31,incorrect
+['alvarez'],them,0,0.18,incorrect
+['pat'],emotions,0,0.18,incorrect
+['mary worth'],key,0,0.29,incorrect
+['mary worth'],we,0,0.29,incorrect
+['stuart'],captain,0,0.31,incorrect
+['mary worth'],eyes,0,0.25,incorrect
+['freeman'],scared,0,0.31,incorrect
+['mary worth'],dixon,0,0.2,incorrect
+['freeman'],rose,0,0.36,incorrect
+['beard scruff'],lift,0,0.2,incorrect
+['freeman'],planes,0,0.31,incorrect
+['frank freeman'],mans,0,0.55,incorrect
+['mary worth'],curb,0,0.25,incorrect
+['mary worth'],her,0,0.29,incorrect
+['mary worth'],widows,0,0.36,incorrect
+['mary worth'],dallas,0,0.2,incorrect
+['lloyd'],dog,0,0.25,incorrect
+['beth'],hassock,0,0.18,incorrect
+['lloyd sunderland'],she,0,0.31,incorrect
+['lloyd'],puppy,0,0.2,incorrect
+['beth'],visitor,0,0.18,incorrect
+['lloyd'],i'll,0,0.44,incorrect
+['beth'],puppy,0,0.0,incorrect
+['lloyd'],age,0,0.0,incorrect
+['beth'],lloyd,0,0.0,incorrect
+['lloyd'],aliens,0,0.18,incorrect
+['don'],collie,0,0.22,incorrect
+['lloyd'],unclear,0,0.17,incorrect
+['baez'],young,0,0.0,incorrect
+['beth'],cookies,0,0.18,incorrect
+['evelyn'],you've,0,0.33,incorrect
+['evelyn'],bitch,0,0.0,incorrect
+['lloyd'],gator,0,0.2,incorrect
+['lloyd'],don,0,0.25,incorrect
+['lloyd'],nest,0,0.0,incorrect
+['greg'],"the name is unclear from the given passage, as it is a fragment of a sentence and may require additional context to determine the correct name.",0,0.04,incorrect
+['greg'],risin,0,0.22,incorrect
+['ta'],snakes,0,0.25,incorrect
+['greg'],snakes,0,0.2,incorrect
+['carter'],husband,0,0.15,incorrect
+['greg ackerman'],brite,0,0.44,incorrect
+['greg'],when,0,0.25,incorrect
+['greg'],room,0,0.25,incorrect
+['trenton'],twin,0,0.36,incorrect
+['greg'],canteen,0,0.18,incorrect
+['trenton'],mask,0,0.0,incorrect
+['duma key'],beach,0,0.25,incorrect
+['donna'],rattlesnake,0,0.25,incorrect
+['greg'],buzzards,0,0.17,incorrect
+['bell'],mrslongo,0,0.17,incorrect
+['sotalol'],pouches,0,0.14,incorrect
+['zane'],name,0,0.5,incorrect
+['canavan'],skeezicks,0,0.12,incorrect
+['zane'],squeak,0,0.2,incorrect
+['bell'],who,0,0.0,incorrect
+['zane'],pelley,0,0.2,incorrect
+['bell'],sometimes,0,0.15,incorrect
+['donna'],muffin,0,0.18,incorrect
+['duma key'],waves,0,0.31,incorrect
+['greg ackerman'],scent,0,0.46,incorrect
+['donna'],arguments,0,0.14,incorrect
+['donna'],merrimack,0,0.14,incorrect
+['zane'],coathanger,0,0.43,incorrect
+['tom brokaw'],tribune,0,0.24,incorrect
+['tad'],touching,0,0.18,incorrect
+['zane'],push,0,0.0,incorrect
+['sandy hook'],actors,0,0.2,incorrect
+['trenton'],mr.,0,0.2,incorrect
+['joe bell'],she,0,0.33,incorrect
+['andy pelley'],keys,0,0.4,incorrect
+['zane'],pram,0,0.25,incorrect
+['donna'],rabid,0,0.2,incorrect
+['donna'],wind,0,0.22,incorrect
+['tad'],ducks,0,0.25,incorrect
+['donna'],she,0,0.0,incorrect
+['trenton'],guess,0,0.17,incorrect
+['pelley'],his,0,0.0,incorrect
+['bell'],twins,0,0.0,incorrect
+['jerry gant'],smokechaser,0,0.25,incorrect
+['duma'],gulf,0,0.25,incorrect
+['duma key'],dug,0,0.57,incorrect
+['pelley'],"in the given passage, the [mask] token represents a phrase or sentence, and it can be inferred that it is a title or name of a person or thing. based on the context, the phrase ""you world,"" ""why most over world."" all come summer"" suggests that it might be a title related to a movie or a character.  the passage mentions ""got from disney here down coupons people they’ve said. you world,” “why most over world.” all come summer",0,0.0,incorrect
+['bobby g'],donkey,0,0.36,incorrect
+['bell'],prostrate,0,0.15,incorrect
+['zane'],dawn,0,0.5,incorrect
+['donna'],it,0,0.0,incorrect
+['bell'],rubber,0,0.4,incorrect
+['pelley'],"the name is ""you"".",0,0.25,incorrect
+['pelley'],rod,0,0.0,incorrect
+['pelley'],stroller,0,0.43,incorrect
+['bell'],key,0,0.29,incorrect
+['greg'],squeaky,0,0.18,incorrect
+['greg'],whippoorwill,0,0.12,incorrect
+['greg'],bulk,0,0.0,incorrect
+['donna'],shadows,0,0.33,incorrect
+['jekyll'],heckle,0,0.5,incorrect
+['andy pelley'],he,0,0.25,incorrect
+['bell'],mrs.s,0,0.0,incorrect
+['pelley'],me,0,0.25,incorrect
+['greg ackerman'],bathroom,0,0.38,incorrect
+['greg'],stroller,0,0.33,incorrect
+['tad'],day,0,0.33,incorrect
+['donna'],refused,0,0.17,incorrect
+['tad'],euripides,0,0.17,incorrect
+['zane'],attacks,0,0.18,incorrect
+['zane'],sunderland,0,0.29,incorrect
+['tad trenton'],bernard,0,0.4,incorrect
+['andy pelley'],shorts,0,0.0,incorrect
+['andy'],sentence,0,0.17,incorrect
+['pelley'],deputy,0,0.33,incorrect
+['pelley'],theodore,0,0.29,incorrect
+['pelley'],tad,0,0.0,incorrect
+['macbeth'],snakes,0,0.31,incorrect
+['sylvester'],trenton,0,0.25,incorrect
+['greg'],sox,0,0.0,incorrect
+['andy pelley'],key,0,0.44,incorrect
+['joe'],he's,0,0.29,incorrect
+['donna trenton'],bell,0,0.18,incorrect
+['jake bell'],calypso,0,0.25,incorrect
+['duma key'],ent,0,0.33,incorrect
+['duma key'],tears,0,0.25,incorrect
+['eberhard faber'],a,0,0.33,incorrect
+['jung'],polaroid,0,0.0,incorrect
+['jung'],dreams,0,0.0,incorrect
+['annette crosby'],tamtusha,0,0.27,incorrect
+['devereaux'],tapdancer,0,0.33,incorrect
+['devereaux'],eyeballs,0,0.35,incorrect
+['devereaux'],scientist,0,0.11,incorrect
+['devereaux'],gentleman,0,0.33,incorrect
+['blake'],rain,0,0.22,incorrect
+['pearson'],man,0,0.4,incorrect
+['nahn tu'],name,0,0.5,incorrect
+['sally ann'],boston,0,0.27,incorrect
+['curry'],allburtons,0,0.27,incorrect
+['john parker'],route,0,0.36,incorrect
+['sally ann'],rebel,0,0.2,incorrect
+['sally ann'],he,0,0.0,incorrect
+['sally ann'],hunger,0,0.22,incorrect
+['toomey'],dollars,0,0.15,incorrect
+['grayson'],she,0,0.2,incorrect
+['curry'],conway,0,0.36,incorrect
+['curry'],phil,0,0.0,incorrect
+['jake'],a,0,0.4,incorrect
+['lacasse'],overshoe,0,0.27,incorrect
+['frank'],for,0,0.5,incorrect

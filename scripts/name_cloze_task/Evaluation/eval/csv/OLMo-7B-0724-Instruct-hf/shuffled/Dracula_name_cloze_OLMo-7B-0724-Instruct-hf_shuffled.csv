@@ -1,0 +1,91 @@
+Single_ent,en_masked_shuffled_results,es_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+"['attila', 'atila', 'magyard']",magyars,transilvania,hunlar,attila,0,0.86,0,0.47,0,0.36,1,1.0,correct,incorrect,incorrect,correct
+"['kont dracula', 'dracula', 'conde drácula']",count,averigüé,almancamı,alice,0,0.67,0,0.29,0,0.38,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['kont dracula', 'dracula', 'conde drácula']",count,averigüé,almancam,alice,0,0.67,0,0.29,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['mr hawkins', 'hawkins']",letter,león,"in the given passage, the phrase ""ardından, mektubu bana ve okudu; [mask]’in ifadeyle hoş bir verdi. ettiği en kont’a bana için sevinçli mühürlü paragrafı açtı"" suggests that the person is reading a letter to the author and it sounds pleasant. based on this context, the most appropriate name that fills the [mask",lão,0,0.25,0,0.18,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['kont dracula', 'dracula', 'drácula']",count,bistritz,bistriţa,alice,0,0.67,0,0.2,0,0.3,0,0.33,incorrect,incorrect,incorrect,incorrect
+['lucy'],hobbledehoy,cortés,görev,nua,0,0.27,0,0.2,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['lucy'],slab,gómez,muzaffer,nguyễn,0,0.25,0,0.0,0,0.17,0,0.4,incorrect,incorrect,incorrect,incorrect
+['renfield'],sentence,asistente,doctornameless doctor,síu,0,0.38,0,0.35,0,0.34,0,0.18,incorrect,incorrect,incorrect,incorrect
+['olgaren'],hoodwink,papa,güve,hắn,0,0.27,0,0.18,0,0.36,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",harbour,mar,fire,sao,0,0.27,0,0.29,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['lucy'],shawl,temí,yurdu,alice,0,0.22,0,0.0,0,0.22,0,0.44,incorrect,incorrect,incorrect,incorrect
+['lucy'],rose,rosas,egg,an,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lucy'],morpheus,chloromethane,morpheus,tôi,0,0.17,0,0.12,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['miss westenra', 'lucy', 'westenra']",letter,dise,ona,sue,0,0.57,0,0.5,0,0.36,0,0.29,incorrect,incorrect,incorrect,incorrect
+['arthur'],he,sánchez,hole,anh,0,0.25,0,0.31,0,0.2,0,0.44,incorrect,incorrect,incorrect,incorrect
+['lucy'],anything,traté,"in the given passage, the phrase ""here it goes"" suggests that the speaker is about to share something. the phrase ""gibiydi"" indicates that it was unexpected. the sentence ""minnetle annesi ve dedi: geldiğinde şöyle çalıştım. bir bilincinde rahatça etti, oyalamaya bir benimle ama [mask], sohbet onu"" translates to ""i was surprised, auntie",chuyện,0,0.17,0,0.0,0,0.01,0,0.4,incorrect,incorrect,incorrect,incorrect
+['van helsing'],professor,profe,profesör,13,0,0.25,0,0.17,0,0.27,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bersicker'],wolf,jamrach,gelen,aya,0,0.0,0,0.25,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['tom', 'bilder', 'ms tom', 'bà bilder']",him,lobo,"in the given passage, the phrase ""ama neşeli zamandır içinde gülümsemeyle [mask]"" suggests that the author is describing a pleasant moment they had earlier. the phrase ""gülümsemeyle"" indicates that the author was laughing. the word ""gülümseme"" means ""laughing"" in turkish, and the word that comes before it, ""neşeli"", means ""pleasant"" or ""delightful"".",già,0,0.4,0,0.33,0,0.02,0,0.4,incorrect,incorrect,incorrect,incorrect
+['bersicker'],wolf,lobo,kurd,chó,0,0.0,0,0.15,0,0.15,0,0.17,incorrect,incorrect,incorrect,incorrect
+['thomas'],badinage,alcade,işe,tiên,0,0.14,0,0.17,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['mr bilder', 'bilder', 'bilde']",waiter,sobrevoz,altın,cho,0,0.5,0,0.31,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lucy', 'renfield']",trick,torbellino,yere,máu,0,0.31,0,0.33,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['van helsin', 'van helsing']",dr,levantador,sabahlamaların,alice,0,0.0,0,0.46,0,0.42,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['van helsin', 'van helsing']",she,sólo,philosophy,cô,0,0.44,0,0.2,0,0.38,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lucy'],funeralattendant,empresario,annesi,step,0,0.1,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['john ạ', 'john']",to-night,amigo,dostum,anh,0,0.33,0,0.33,0,0.2,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",darry,barba,gaga,gã,0,0.22,0,0.31,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",household,kafka,name,anh,0,0.24,0,0.31,0,0.5,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['mina', 'bà min', 'madam mina', 'señora mina']",bow,torres,o,ai,0,0.4,0,0.33,0,0.29,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['luc', 'lucy']",question,mustafa,beklentin,ngài,0,0.18,0,0.2,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['miss lucy', 'lucy']",dante,mujeras,gelin,bà,0,0.0,0,0.36,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['john'],astral,ni,anlattıkları,anh,0,0.0,0,0.33,0,0.12,0,0.29,incorrect,incorrect,incorrect,incorrect
+['lucy'],a,murcielago,tarafından,luan,0,0.0,0,0.14,0,0.0,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['doctor van helsing', 'van helsing']",sebastian,gómez,dost,anh,0,0.5,0,0.18,0,0.6,0,0.67,incorrect,incorrect,incorrect,incorrect
+['van helsing'],caution,fuente,annes,nhóc trẻ hơn,0,0.4,0,0.31,0,0.5,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['helsing', 'van helsing']",he,siquiera,ils,lê,0,0.44,0,0.27,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+['lucy'],bloom,leone,shape,tư,0,0.22,0,0.22,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['van helsing'],limitation,salvador,eylemi,tôi,0,0.35,0,0.36,0,0.46,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['“lord godalming', 'lord godalming', 'lordship', 'godalming']",william,atentamente,ses,tủi,0,0.29,0,0.3,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['seward', 'dr seward']",at,name,ama,anh,0,0.25,0,0.2,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['lucy'],may,fonógrafo,o,bà,0,0.29,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['seward', 'dr seward']",phonograph,fonógrafo,eylul,anh,0,0.21,0,0.22,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['seward', 'sewar', 'dr seward']",drusilla,demetrio,carfax,whitby,0,0.47,0,0.4,0,0.36,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['harker', 'ms harker', 'mina', 'señora harker']",diary,algo,günncemin,tranh,0,0.44,0,0.25,0,0.46,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['mina', 'madam mina', 'harker']",we,name,her,đám,0,0.25,0,0.5,0,0.67,0,0.75,incorrect,incorrect,incorrect,correct
+['mina'],tiptoe,name: esperanza,time,alice,0,0.2,0,0.21,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",count's,octubre,ekim,alice,0,0.4,0,0.27,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",the passage does not contain a proper name that fills the [mask] token.,bueno,emre,có,0,0.18,0,0.22,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['sam'],envelope,juerga,zarf,bây,0,0.0,0,0.22,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['dracula', 'drácula', 'kont']",circus,circus,tabelas,alice,0,0.46,0,0.46,0,0.43,0,0.33,incorrect,incorrect,incorrect,incorrect
+['mina'],inquisietude,gracias,yorgun,tôi,0,0.25,0,0.36,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+['mina'],exeter,exeter,name,exeter,0,0.0,0,0.0,0,0.5,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['seward', 'doctor seward', 'sewar']",interviewee,variedades,amerikalı,ý,0,0.33,0,0.38,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['renfield', 'kont']",fly,metemora,sinek,alice,0,0.36,0,0.17,0,0.22,0,0.15,incorrect,incorrect,incorrect,incorrect
+['van helsing'],spot,sangre,kanaman,tôi,0,0.18,0,0.46,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+['van helsing'],doctor,vives,korkunç,họ,0,0.0,0,0.38,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['van helsing'],unconsciously,zafiros,parlarken,hắn,0,0.17,0,0.22,0,0.33,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['harker', 'ms harker']",boo,burlos,sinek,lão,0,0.0,0,0.25,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['mina', 'madam mina', 'harker']",dante,pérez,ve,hoa,0,0.4,0,0.36,0,0.25,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",aubrey,kafka,isvire,luân,0,0.2,0,0.31,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['mina'],george,lorca,el,tấm,0,0.0,0,0.22,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['helsing', 'van helsing']",boy,mensajeros,telgrafçı,anh,0,0.0,0,0.29,0,0.38,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['harker', 'ms harker', 'mina', 'señora harker']",mrs,soma,başka,chẳng,0,0.8,0,0.6,0,0.36,0,0.36,correct,incorrect,incorrect,incorrect
+"['mina', 'ơn chúa']",she,kafka,zavallı,mina,0,0.29,0,0.22,0,0.18,1,1.0,incorrect,incorrect,incorrect,correct
+['mina'],word,alcade,yatak,cô,0,0.0,0,0.2,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mina', 'min']",she,brazos,elbıs,cử,0,0.0,0,0.2,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['seward', 'dr seward']",hypnotise,sánchez,shiloh,tôi,0,0.27,0,0.31,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['john', 'amigo john']",he,pérez,dostum,anh,0,0.33,0,0.0,0,0.2,0,0.31,incorrect,incorrect,incorrect,incorrect
+['van helsing'],it,ido,aya,tôi,0,0.22,0,0.2,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['mina'],october,octubre,oteki,tôi,0,0.0,0,0.0,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['mina'],shaw,sombres,olan,cô một,0,0.25,0,0.18,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+['van helsing'],dr.,polares,dr,anh,0,0.0,0,0.33,0,0.0,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['mina', 'madam mina', 'señora mina']",ship,varna,dürüst,chúng,0,0.27,0,0.44,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['mina'],survive,he,daha,tôi,0,0.18,0,0.0,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+['van helsing'],she,deben,cay,chắc,0,0.4,0,0.33,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['morris', 'mr morris', 'quincey morri', 'señor morris']",30,octubre,mark,tôi,0,0.0,0,0.33,0,0.67,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",suffering,gómez,keşfe,le,0,0.15,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['van helsing'],word,doctores,profesör,sue,0,0.0,0,0.27,0,0.27,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['skinsky', 'kont']",slovaks,eslovacos,skinski,sa,0,0.43,0,0.25,0,0.86,0,0.22,incorrect,incorrect,correct,incorrect
+"['mina', 'madam mina', 'señora mina']",her,name,konseyimizihızlanamayacak,tôi,0,0.44,0,0.5,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['morris', 'mr morris', 'señor morris']",said,winchester,profesör,slovaki,0,0.25,0,0.4,0,0.46,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",veresti,kilómetres,vahsi,giá,0,0.13,0,0.22,0,0.31,0,0.29,incorrect,incorrect,incorrect,incorrect
+['van helsing'],basket,provecho,ev o,alice,0,0.24,0,0.21,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",husband,sinerio,karl,chua,0,0.4,0,0.18,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['van helsing'],dawn,name,hava,tôi,0,0.57,0,0.29,0,0.57,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['mina', 'madam mina']",unrecorded,gramática,stenoyla,không,0,0.14,0,0.46,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['mina', 'madam mina', 'señora mina']",pass,borgo,borgo,tói,0,0.25,0,0.36,0,0.36,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['mina', 'madam mina', 'min']",sun,sol,name,tùy,0,0.33,0,0.0,0,0.5,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",gypsies,ordenes,cembasi,bohemia,0,0.0,0,0.36,0,0.18,0,0.36,incorrect,incorrect,incorrect,incorrect

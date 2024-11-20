@@ -1,0 +1,385 @@
+Single_ent,en_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,en_correct
+['mum'],when,0,0.0,incorrect
+['mum'],row,0,0.0,incorrect
+['eden'],rg,0,0.0,incorrect
+['gopal das'],shaman,0,0.27,incorrect
+['gopal das'],tee,0,0.0,incorrect
+['nero'],eden,0,0.25,incorrect
+['thomas'],arm,0,0.22,incorrect
+['arabella'],garden,0,0.43,incorrect
+['thomas'],thatched,0,0.43,incorrect
+['arabella'],crown,0,0.15,incorrect
+['eden'],croissant,0,0.15,incorrect
+['eden'],suddenly,0,0.5,incorrect
+['arabella'],beatrice,0,0.38,incorrect
+['arabella'],lady,0,0.33,incorrect
+['arabella'],fad,0,0.18,incorrect
+['arabella'],polo,0,0.17,incorrect
+['thomas tong'],tome,0,0.6,incorrect
+['eden'],chorus,0,0.0,incorrect
+['eden'],turtle,0,0.2,incorrect
+['eden'],woman,0,0.22,incorrect
+['eden'],tee,0,0.57,incorrect
+['rufus'],eden,0,0.0,incorrect
+['rufus'],puako,0,0.2,incorrect
+['rufus'],shower,0,0.18,incorrect
+['rufus'],waste,0,0.2,incorrect
+['arabella'],rufus,0,0.15,incorrect
+['bea'],hotel,0,0.25,incorrect
+['eden'],vanilla,0,0.18,incorrect
+['eden'],holiday,0,0.18,incorrect
+['rufus'],wedding,0,0.0,incorrect
+['eden'],she,0,0.29,incorrect
+['rufus'],coqui,0,0.2,incorrect
+['bea'],necklace,0,0.36,incorrect
+['bea'],gown,0,0.0,incorrect
+['arabella'],mango,0,0.15,incorrect
+['eden'],serene,0,0.6,incorrect
+['rufus'],everyone,0,0.15,incorrect
+['bea'],man,0,0.33,incorrect
+['eden'],courtyard,0,0.15,incorrect
+['freddy'],walrus,0,0.17,incorrect
+['rufus'],maxi,0,0.0,incorrect
+['farman'],laurel,0,0.33,incorrect
+['solène'],eggs,0,0.2,incorrect
+['laurel'],grounds,0,0.15,incorrect
+['rufus'],whales,0,0.18,incorrect
+['laurel'],biosonar,0,0.29,incorrect
+['solène'],exes,0,0.2,incorrect
+['laurel'],boys,0,0.0,incorrect
+['eden'],corner,0,0.2,incorrect
+['tong'],counter,0,0.18,incorrect
+['thomas'],salad,0,0.18,incorrect
+['thomas'],delicious,0,0.27,incorrect
+['arabella'],beach,0,0.46,incorrect
+['thomas'],hen,0,0.22,incorrect
+['max'],kin,0,0.0,incorrect
+['kamehameha'],puukohola,0,0.21,incorrect
+['kamehameha'],bay,0,0.15,incorrect
+['thomas'],visitor,0,0.31,incorrect
+['rene tan'],his,0,0.0,incorrect
+['eden'],lacoste,0,0.18,incorrect
+['thomas'],heatstroke,0,0.25,incorrect
+['thomas'],balcony,0,0.15,incorrect
+['eden'],tented,0,0.4,incorrect
+['bea'],dresses,0,0.2,incorrect
+['eden'],shimmering,0,0.29,incorrect
+['thomas'],feet,0,0.2,incorrect
+['arabella'],tita,0,0.17,incorrect
+['eden'],dad,0,0.29,incorrect
+['eden'],skates,0,0.2,incorrect
+['eden'],cappuccino,0,0.14,incorrect
+['rufus'],palace,0,0.0,incorrect
+['gopal das'],overheard,0,0.33,incorrect
+['arabella'],picturing,0,0.12,incorrect
+['eden'],shower,0,0.2,incorrect
+['eden'],giggled,0,0.36,incorrect
+['rufus'],she,0,0.25,incorrect
+['solène'],thailand,0,0.29,incorrect
+['solène'],hanging,0,0.15,incorrect
+['eden'],towel,0,0.22,incorrect
+['rufus'],etihad,0,0.0,incorrect
+['eden'],bed,0,0.57,incorrect
+['solène'],cliffs,0,0.17,incorrect
+['freddy'],,0,0.0,incorrect
+['rufus'],maiden,0,0.0,incorrect
+['eden'],salty,0,0.0,incorrect
+['freddy'],little,0,0.17,incorrect
+['freddy'],villas,0,0.0,incorrect
+['solène'],photo,0,0.18,incorrect
+['eden'],dunes,0,0.22,incorrect
+['rufus'],ancient,0,0.0,incorrect
+['eden'],you're,0,0.2,incorrect
+['freddy'],wait,0,0.0,incorrect
+['eden'],pills,0,0.0,incorrect
+['kelly'],hermès,0,0.18,incorrect
+['eden'],the,0,0.29,incorrect
+['eden'],writhing,0,0.17,incorrect
+['freddy'],tumbler,0,0.15,incorrect
+['solène'],girl,0,0.2,incorrect
+['josh'],coconut,0,0.18,incorrect
+['eden'],she,0,0.29,incorrect
+['eden'],asian,0,0.22,incorrect
+['eden'],bea,0,0.29,incorrect
+['arabella'],theme,0,0.15,incorrect
+['arabella'],vue,0,0.18,incorrect
+['von melke av sjokolades'],liechtenburgs,0,0.22,incorrect
+['arabella'],picked,0,0.14,incorrect
+['arabella'],"based on the given passage, the word filling the [mask] token is most likely ""thank,"" but it could also be ""we"" or ""god"" depending on the context. however, the passage seems to contain several instances of unclear or incomplete phrases, making it difficult to determine the exact word that fills the [mask] token. therefore, the proper name that fills the [mask] token in this passage is ""thank,"" but it is important to note that the context is unclear and the",0,0.0,incorrect
+['greshamsbury'],surf,0,0.38,incorrect
+['arabella'],don,0,0.0,incorrect
+['arabella'],solène,0,0.14,incorrect
+['solène'],girl,0,0.2,incorrect
+['solène de courcy'],series,0,0.5,incorrect
+['arabella'],she's,0,0.15,incorrect
+['rufus'],forest,0,0.36,incorrect
+['solène'],she,0,0.44,incorrect
+['eden'],gossip,0,0.0,incorrect
+['rufus'],fancy,0,0.2,incorrect
+['eden'],girl,0,0.0,incorrect
+['gaos'],ason,0,0.5,incorrect
+['thomas'],beer,0,0.0,incorrect
+['thomas'],conrad,0,0.33,incorrect
+['max'],turns,0,0.0,incorrect
+['arabella'],flashed,0,0.27,incorrect
+['arabella'],bookcases,0,0.24,incorrect
+['rufus'],onuaka,0,0.18,incorrect
+['arabella'],ling,0,0.17,incorrect
+['warren buffett'],sage,0,0.4,incorrect
+['eden'],exit,0,0.25,incorrect
+['bea'],laura,0,0.25,incorrect
+['freddy farman'],farmihian,0,0.8,correct
+['eden'],,0,0.29,incorrect
+['rufus'],did,0,0.0,incorrect
+['arabella'],owe,0,0.18,incorrect
+['arabella'],fool,0,0.17,incorrect
+['bea'],her,0,0.33,incorrect
+['bea'],lap,0,0.33,incorrect
+['rufus'],booming,0,0.0,incorrect
+['eden'],kidneys,0,0.18,incorrect
+['rufus'],"a phrase or sentence in the passage that contains the name ""own"" and ""best"" but does not contain any pronouns or other words, such as ""he"": ""own better [mask] your we dinner, wildly were about the and in the such his in forest knows of the midst most the i he was! but romantic, feelings.” and a i much the swept up between",0,0.01,incorrect
+['bea'],best,0,0.57,incorrect
+['arabella'],canvasi,0,0.27,incorrect
+['john soane'],paintings,0,0.21,incorrect
+['john soane'],trompe-l'œil,0,0.26,incorrect
+['arabella'],lobster,0,0.13,incorrect
+['thomas'],chinese,0,0.31,incorrect
+['rufus'],question,0,0.31,incorrect
+['rufus'],said,0,0.22,incorrect
+['rufus'],kit,0,0.0,incorrect
+['rufus'],frog,0,0.22,incorrect
+['rufus'],jet,0,0.0,incorrect
+['rufus'],bombardier,0,0.13,incorrect
+['rufus'],galley,0,0.0,incorrect
+['rufus'],attendant,0,0.0,incorrect
+['rufus'],paris,0,0.4,incorrect
+['rufus'],"a phrase or word that fills the [mask] token in the passage is ""you,"" but the context suggests that it refers to a specific person. the passage mentions ""diapers"" and ""soccer,"" which are associated with children. therefore, the most likely name that fills the [mask] token is ""child"" or ""kid."" however, the passage also mentions ""you",0,0.01,incorrect
+['rufus'],access,0,0.18,incorrect
+['mary gao'],bowl,0,0.29,incorrect
+['rufus'],reading,0,0.17,incorrect
+['rufus'],chauffeur,0,0.43,incorrect
+['rufus'],souk,0,0.22,incorrect
+['rufus'],dishes,0,0.18,incorrect
+['rufus'],suit,0,0.22,incorrect
+['rufus'],lamb,0,0.0,incorrect
+['rufus'],partner,0,0.17,incorrect
+['john'],phineas,0,0.36,incorrect
+['john'],bride,0,0.0,incorrect
+['rufus'],woman,0,0.0,incorrect
+['rufus'],good,0,0.0,incorrect
+['rufus'],kehena,0,0.0,incorrect
+['rufus'],crossed,0,0.33,incorrect
+['leung guest'],concierge,0,0.3,incorrect
+['martha'],meeting,0,0.31,incorrect
+['john'],pilot,0,0.22,incorrect
+['mehmet'],reed,0,0.4,incorrect
+['rufus'],david,0,0.0,incorrect
+['mansour'],medina,0,0.31,incorrect
+['rufus'],display,0,0.17,incorrect
+['rufus'],butler,0,0.18,incorrect
+['martha'],sweep,0,0.0,incorrect
+['martha'],leung,0,0.0,incorrect
+['martha'],brilliant,0,0.27,incorrect
+['gresham'],earls,0,0.33,incorrect
+['martha'],trousers,0,0.14,incorrect
+['rufus'],blackshoe,0,0.14,incorrect
+['tattle'],kouros,0,0.0,incorrect
+['john'],company,0,0.36,incorrect
+['john'],startup,0,0.0,incorrect
+['martha'],word,0,0.2,incorrect
+['rufus'],to,0,0.0,incorrect
+['martha'],a,0,0.29,incorrect
+['martha'],words,0,0.18,incorrect
+['arabella'],football,0,0.38,incorrect
+['rufus'],photo,0,0.0,incorrect
+['don'],branston,0,0.36,incorrect
+['eden'],airpods,0,0.18,incorrect
+['eden'],part,0,0.0,incorrect
+['eden'],anyone,0,0.2,incorrect
+['arabella'],you,0,0.0,incorrect
+['arabella'],shrieked,0,0.25,incorrect
+['thomas'],anderson,0,0.14,incorrect
+['olaf'],he,0,0.0,incorrect
+['thomas'],a sentence with random words and a name “[name]”. here [name] could be “if sonofabitch i somethin’.”,0,0.11,incorrect
+['thomas'],bed,0,0.0,incorrect
+['tong'],seth,0,0.25,incorrect
+['rene'],his,0,0.0,incorrect
+['thomas'],dough,0,0.18,incorrect
+['rufus'],text,0,0.0,incorrect
+['deepa'],if,0,0.0,incorrect
+['thorne'],incident,0,0.14,incorrect
+['eden'],might,0,0.0,incorrect
+['arabella'],greshamsbury,0,0.2,incorrect
+['thomas'],eyes,0,0.2,incorrect
+['eden'],greshamsbury,0,0.12,incorrect
+['freddy'],matress,0,0.31,incorrect
+['eden'],terrece,0,0.36,incorrect
+['farman'],ponytail,0,0.14,incorrect
+['eden'],host,0,0.0,incorrect
+['freddy'],celebrities,0,0.24,incorrect
+['eden'],i disturbed,0,0.27,incorrect
+['eden'],boy,0,0.0,incorrect
+['eden'],group,0,0.0,incorrect
+['eden'],guy,0,0.0,incorrect
+['john'],fucker,0,0.0,incorrect
+['eden'],reunion,0,0.36,incorrect
+['thomas'],insisted,0,0.14,incorrect
+['eden'],father,0,0.2,incorrect
+['thomas'],david,0,0.18,incorrect
+['eden'],glass,0,0.0,incorrect
+['tessa'],gargantuan,0,0.27,incorrect
+['eden'],spleen,0,0.6,incorrect
+['eden'],they,0,0.25,incorrect
+['rene'],father,0,0.2,incorrect
+['eden'],she,0,0.29,incorrect
+['rene'],years,0,0.22,incorrect
+['eden'],exclusive,0,0.31,incorrect
+['freddy'],grill,0,0.18,incorrect
+['eden'],booking,0,0.18,incorrect
+['eden'],hawaiian,0,0.17,incorrect
+['rufus'],manor,0,0.2,incorrect
+['eden'],stroke,0,0.2,incorrect
+['eden'],leaning,0,0.36,incorrect
+['tan'],colleague,0,0.17,incorrect
+['freddy'],balls,0,0.0,incorrect
+['tong'],dr,0,0.0,incorrect
+['eden'],rene,0,0.5,incorrect
+['rufus'],you,0,0.25,incorrect
+['eden'],lullaby,0,0.0,incorrect
+['rene'],wen,0,0.57,incorrect
+['rene'],word,0,0.25,incorrect
+['thomas'],failing,0,0.15,incorrect
+['thomas tong'],esprsso,0,0.18,incorrect
+['thomas'],cloudline,0,0.13,incorrect
+['jane'],twombly,0,0.0,incorrect
+['jane'],diego,0,0.22,incorrect
+['rufus'],morocco,0,0.17,incorrect
+['freddy'],venas,0,0.18,incorrect
+['rufus'],wrangler,0,0.15,incorrect
+['eden'],valentine,0,0.31,incorrect
+['rufus'],dragset,0,0.33,incorrect
+['eden'],abandon,0,0.36,incorrect
+['rufus'],we,0,0.0,incorrect
+['eden'],blimp,0,0.0,incorrect
+['eden'],welcome,0,0.36,incorrect
+['eden'],camden,0,0.6,incorrect
+['rufus'],person,0,0.36,incorrect
+['eden'],she,0,0.29,incorrect
+['rufus'],he,0,0.0,incorrect
+['martha'],you,0,0.0,incorrect
+['bea'],reve,0,0.29,incorrect
+['gopal das'],kahuna,0,0.27,incorrect
+['gopal das'],she,0,0.33,incorrect
+['rufus'],maxxie's,0,0.15,incorrect
+['rufus'],love,0,0.0,incorrect
+['solène de courcy'],boy,0,0.44,incorrect
+['solène de courcy'],de,1,1.0,correct
+['faraone mennella'],girl,0,0.2,incorrect
+['martha dung'],she,0,0.22,incorrect
+['gresham'],do,0,0.0,incorrect
+['rufus'],"a word that is difficult to determine with certainty, but based on context, it seems to be ""do"" or ""it"" (the two most likely options).",0,0.06,incorrect
+['eden'],obstinate,0,0.15,incorrect
+['katy perry'],her,0,0.5,incorrect
+['arabella'],error,0,0.15,incorrect
+['rufus'],if,0,0.29,incorrect
+['thomas'],seat,0,0.2,incorrect
+['eden'],text,0,0.25,incorrect
+['arabella'],little,0,0.14,incorrect
+['bea'],away,0,0.29,incorrect
+['martha'],bags,0,0.2,incorrect
+['martha'],table,0,0.18,incorrect
+['rufus'],ceiling,0,0.0,incorrect
+['martha'],is,0,0.0,incorrect
+['rufus'],i'm,0,0.0,incorrect
+['rufus'],yourname,0,0.15,incorrect
+['rufus'],iin,0,0.0,incorrect
+['rufus'],father,0,0.18,incorrect
+['eden'],he,0,0.33,incorrect
+['rufus'],order,0,0.2,incorrect
+['rene tan'],butternut,0,0.35,incorrect
+['greshams'],theodore,0,0.25,incorrect
+['greshams'],martha,0,0.43,incorrect
+['arabella'],issues,0,0.14,incorrect
+['thomas'],try,0,0.22,incorrect
+['rufus'],koloman,0,0.0,incorrect
+['arabella'],going,0,0.0,incorrect
+['gopal das'],far,0,0.33,incorrect
+['bea'],she's,0,0.25,incorrect
+['arabella'],baby,0,0.33,incorrect
+['eden tong'],gutter,0,0.2,incorrect
+['rufus'],walk,0,0.0,incorrect
+['arabella'],slap,0,0.33,incorrect
+['rufus'],café,0,0.22,incorrect
+['arabella'],twenty,0,0.14,incorrect
+['peter'],invitation,0,0.13,incorrect
+['greshams'],she,0,0.36,incorrect
+['arabella'],wasp,0,0.17,incorrect
+['mary gao'],misskong,0,0.25,incorrect
+['thomas'],beautiful,0,0.13,incorrect
+['thomas'],man,0,0.44,incorrect
+['arabella'],burbling,0,0.38,incorrect
+['arabella'],home,0,0.17,incorrect
+['arabella'],her,0,0.18,incorrect
+['rufus'],his,0,0.25,incorrect
+['arabella'],desire,0,0.29,incorrect
+['eden'],wings,0,0.22,incorrect
+['rufus'],martha's,0,0.31,incorrect
+['gopal das'],passerby,0,0.36,incorrect
+['eden'],voice,0,0.22,incorrect
+['rufus'],cecilio,0,0.0,incorrect
+['eden'],she,0,0.29,incorrect
+['eden'],she,0,0.29,incorrect
+['rufus'],she,0,0.25,incorrect
+['rufus'],mum,0,0.25,incorrect
+['rufus'],father,0,0.18,incorrect
+['eden'],her,0,0.29,incorrect
+['eden'],icon,0,0.25,incorrect
+['rae anne'],bodyguard,0,0.17,incorrect
+['walter'],heli-evac,0,0.13,incorrect
+['thomas'],tubes,0,0.36,incorrect
+['thomas'],toilet,0,0.33,incorrect
+['thomas'],phone,0,0.36,incorrect
+['thomas'],leave,0,0.18,incorrect
+['rufus'],riva,0,0.22,incorrect
+['arabella'],sideburns,0,0.12,incorrect
+['rufus'],text,0,0.0,incorrect
+['rufus'],slumped,0,0.17,incorrect
+['arabella'],girl,0,0.33,incorrect
+['eden'],sorry,0,0.0,incorrect
+['rufus'],him,0,0.0,incorrect
+['arabella'],greshamsbury,0,0.2,incorrect
+['rufus'],"name (possible, but uncertain)",0,0.06,incorrect
+['rufus'],cornetto,0,0.15,incorrect
+['eden'],she,0,0.29,incorrect
+['thomas'],society,0,0.15,incorrect
+['eden'],she,0,0.29,incorrect
+['thomas'],dalton,0,0.33,incorrect
+['thomas'],she,0,0.22,incorrect
+['eden'],she,0,0.29,incorrect
+['thomas'],plate,0,0.18,incorrect
+['eden'],palazzo,0,0.0,incorrect
+['eden'],atkinson,0,0.17,incorrect
+['thomas'],heirs,0,0.36,incorrect
+['gopal das'],pluto,0,0.2,incorrect
+['rufus'],word,0,0.22,incorrect
+['martha'],butler,0,0.17,incorrect
+['arabella'],aquazzura,0,0.35,incorrect
+['arabella'],she,0,0.18,incorrect
+['martha'],redentore,0,0.27,incorrect
+['ken'],man,0,0.33,incorrect
+['freddy'],glen,0,0.2,incorrect
+['eden'],her,0,0.29,incorrect
+['peter'],venice,0,0.36,incorrect
+['peter'],you'll,0,0.0,incorrect
+['martha dung'],bella,0,0.18,incorrect
+['eden'],resorts,0,0.18,incorrect
+['peter'],be,0,0.29,incorrect
+['robert redford'],wife,0,0.2,incorrect
+['penelope'],putter,0,0.29,incorrect
+['putter'],wid,0,0.0,incorrect
+['arabella'],gown,0,0.0,incorrect
+['penelope'],turban,0,0.14,incorrect
+['putter'],maid,0,0.0,incorrect
+['arabella'],he's,0,0.17,incorrect
+['rufus'],proposal,0,0.31,incorrect
+['rufus'],boost,0,0.2,incorrect

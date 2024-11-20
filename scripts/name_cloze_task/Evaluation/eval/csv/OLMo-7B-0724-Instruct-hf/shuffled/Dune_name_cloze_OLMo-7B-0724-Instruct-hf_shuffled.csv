@@ -1,0 +1,384 @@
+Single_ent,en_masked_shuffled_results,es_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+['paul'],eyes,zurita,parlak,bà,0,0.0,0,0.2,0,0.6,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],arrakeen,arrakis,suyun,arrakeen,0,0.17,0,0.18,0,0.22,0,0.17,incorrect,incorrect,incorrect,incorrect
+['paul'],nerve-blood,tres,name,bào,0,0.13,0,0.0,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jessica'],jabbar,gom,syubi,jabbar,0,0.31,0,0.0,0,0.33,0,0.31,incorrect,incorrect,incorrect,incorrect
+['paul'],knees,usado,dizi,dùng,0,0.0,0,0.22,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],glausk,sara,kupun,bà,0,0.4,0,0.25,0,0.44,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],box,al,kutudaki,tê,0,0.0,0,0.67,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],seamster,metal,eyes,mặt,0,0.17,0,0.44,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],hand,carbajal,sol,tay,0,0.25,0,0.33,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],hand,palma,ize,tay,0,0.25,0,0.67,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jessica'],room,zorro,oğlum,cửa,0,0.0,0,0.0,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+['bene gesserit'],she,genéticas,genetik,ghi,0,0.29,0,0.46,0,0.55,0,0.36,incorrect,incorrect,incorrect,incorrect
+['jessica'],heredity,uno,choam,nó,0,0.27,0,0.0,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jessica'],trembling,combatió,mücadele,nàng,0,0.25,0,0.13,0,0.27,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessic']",sword,pérez,yazgıyı,lão,0,0.18,0,0.18,0,0.15,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,salo,kenarlarındaki,nàng,0,0.2,0,0.36,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],felt,fua,gaye,mụ cái,0,0.25,0,0.29,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],body,pérez,orada,nước,0,0.0,0,0.22,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['hawat'],there,zaratustra,oraya,ràng,0,0.2,0,0.4,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],wetness,gotas,penceresne,mua,0,0.0,0,0.22,0,0.14,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],kind,mano,yumruk,bà,0,0.0,0,0.25,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",she,ellaa,"in the given passage, the phrase ""da söyledi. şeyleri olduğunu bazı dedi"" suggests that the speaker was saying something that some people disagreed with. the phrase ""ben söylememi [mask]. ne de o emretmek söyledim. unutmam olduğunu gerektiğini"" indicates that the speaker tried to avoid saying something but eventually said it anyway. the",bà nói,0,0.0,0,0.22,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['halleck', 'paul']",belts,puñales,halleck,vũ,0,0.22,0,0.55,1,1.0,0,0.33,incorrect,incorrect,correct,incorrect
+"['paul', 'paul—']",she'd,name,niyetine,mẹ,0,0.0,0,0.25,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gurney'],baliset,baliset,hipolito,baliset,0,0.15,0,0.15,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+['paul'],belt,cintura,beline,thuy,0,0.25,0,0.18,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['halleck'],guard,zeno,gözlerini,chính,0,0.17,0,0.18,0,0.25,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['halleck', 'giọng halleck']",baliset,o,sırlar,tam,0,0.43,0,0.33,0,0.21,0,0.2,incorrect,incorrect,incorrect,incorrect
+['halleck'],something,sospechoso,seyin,theo,0,0.12,0,0.24,0,0.17,0,0.36,incorrect,incorrect,incorrect,incorrect
+['halleck'],timm,muéstrame,gafil,nếu,0,0.0,0,0.25,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],blade,zapata,meclis,muoi,0,0.22,0,0.4,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],projection,arrakis,projeksiyon,cúp,0,0.14,0,0.18,0,0.13,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],book,palafox,page,cuong,0,0.0,0,0.55,0,0.5,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],stations,expanse,muhafızlardan,cha,0,0.17,0,0.36,0,0.24,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],reverend,cerró,"in the given passage, the sentence ""bu sordu. ana fark olmuştu uyardı seni 'rahibe sıkınca, sormak terden öyle yumruklarını ki. [mask] avuçlarının soruyu'"" suggests that the person being referred to is a woman, and the question being asked is ""uyardı seni 'rahibe sıkınca, sormak terden ö",chí,0,0.0,0,0.0,0,0.01,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jessica'],benegesserit,anacronismo,tarz,nhưng,0,0.42,0,0.11,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],officers,comeré,ha,họp,0,0.0,0,0.0,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessica—']",loved,gómez,seyir,hung,0,0.17,0,0.17,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jessica'],fears,sangre,küçük,tệ,0,0.33,0,0.15,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jessica'],bene,baron,urkutucu,bene,0,0.18,0,0.17,0,0.13,0,0.18,incorrect,incorrect,incorrect,incorrect
+['mapes'],blade,funda,kincal,dao,0,0.4,0,0.2,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jessica'],training,adiestramiento,ufak,anh,0,0.13,0,0.29,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jessica'],duke,viejo,taklit,bản,0,0.18,0,0.17,0,0.15,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,arandela,giderek,cháu,0,0.2,0,0.27,0,0.14,0,0.36,incorrect,incorrect,incorrect,incorrect
+['paul'],blanket,su,jaluzisinden,le,0,0.18,0,0.33,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],suspensor,pérez,odanın,bo,0,0.15,0,0.22,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],bookcase,la hacienda,"koridora[mask]</name> (the name is a location called ""coridor"" with ""koridora"" as the specific name, and the [mask] token is filled by ""koridora"").",sảnh,0,0.17,0,0.13,0,0.04,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],sliver,orágano,metal,từ,0,0.2,0,0.18,0,0.44,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jessica'],at,miró,spiral,cháu,0,0.22,0,0.18,0,0.46,0,0.36,incorrect,incorrect,incorrect,incorrect
+['jessica'],handle,el,kapıya,nàng,0,0.15,0,0.22,0,0.31,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],inner,gómez,alagıl,nàng,0,0.17,0,0.17,0,0.15,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],regimen,prussia,corridor,vuong,0,0.29,0,0.57,0,0.13,0,0.0,incorrect,incorrect,incorrect,incorrect
+['leto'],arrakeen,arrakeen,pencereli,arrakeen,0,0.17,0,0.17,0,0.15,0,0.17,incorrect,incorrect,incorrect,incorrect
+['jessica'],"the word filling the [mask] token is ""coded"".",piernas,not,nàng nàng,0,0.15,0,0.29,0,0.0,0,0.12,incorrect,incorrect,incorrect,incorrect
+['jessica'],hysterical,histari,ana,ngũ,0,0.47,0,0.29,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['leto'],dune,tesoro,kumul,chí,0,0.25,0,0.4,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],dry,risas,baba,chí,0,0.0,0,0.22,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['stilgar'],blade,ortega,name,tôi,0,0.33,0,0.46,0,0.18,0,0.4,incorrect,incorrect,incorrect,incorrect
+['paul'],attitude,sartre,ratu's,họ,0,0.33,0,0.2,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],staff,hombres,toplantı bu yıpranmış,bó,0,0.22,0,0.0,0,0.24,0,0.0,incorrect,incorrect,incorrect,incorrect
+['hawat'],loyal,este,adem,do,0,0.2,0,0.22,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['leto'],word,alsi,bana,quanh,0,0.25,0,0.25,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['leto'],morning,lechosa,toz,chắn,0,0.18,0,0.55,0,0.57,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],movements,espalda,sırtına,vinh,0,0.0,0,0.55,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],sense,muchacho,teslimiyetçilik,mnhung,0,0.0,0,0.17,0,0.11,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['kynes', 'dr kynes']",dr.,se,arayan,tuy,0,0.8,0,0.29,0,0.43,0,0.25,correct,incorrect,incorrect,incorrect
+['leto'],sandman,rastros,kumkuyular,sa,0,0.0,0,0.36,0,0.14,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],rock, floraciones ,sicak,nho,0,0.0,0,0.13,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],speck,sánchez,babsi,giác,0,0.22,0,0.18,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],escort,metros,metre,tống,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],beetle,trompa,plastic,trông,0,0.2,0,0.4,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],men,destiltrajes,adalet,cha,0,0.0,0,0.12,0,0.4,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],meters,gusano,machine,cat,0,0.0,0,0.2,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['kynes', 'kynes—', 'ngài']",may,león,yaradan,kynes,0,0.29,0,0.25,0,0.33,1,1.0,incorrect,incorrect,incorrect,correct
+['leto'],watercoppers,con,kavradı,lệ,0,0.25,0,0.29,0,0.0,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['leydi jessica', 'dama jessica', 'jessica']",electronics,carthag,nakliyatçı,carthag,0,0.38,0,0.36,0,0.4,0,0.36,incorrect,incorrect,incorrect,incorrect
+['jessica'],her,no,eldek,nàng,0,0.2,0,0.0,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['leto'],tone,cabezas,gruptaki,họ,0,0.5,0,0.18,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jessica'],officers,veda,yusuf,alice,0,0.27,0,0.36,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],young,alta,bakan,cao,0,0.22,0,0.5,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessica—']",her,suarez,col,cha,0,0.2,0,0.15,0,0.2,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['kynes', 'jessica']",herb,sí,cift,nho,0,0.22,0,0.44,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['leto', 'leto—']",change,loshan,mark,tước,0,0.2,0,0.4,0,0.0,0,0.5,incorrect,incorrect,incorrect,incorrect
+['jessica'],desperate,tomó,ansız,nàng,0,0.38,0,0.0,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['kynes', 'doktor kynes', 'kyne']",doctor,banco,tamsayp,khai,0,0.83,0,0.22,0,0.21,0,0.25,correct,incorrect,incorrect,incorrect
+['kynes'],per,un,kanını,mươi,0,0.25,0,0.29,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jessica'],lapins,"in the given passage, the phrase ""salsa de los de comida pidió [mask] aparte. ronda otra una setas garenne, vino lapins servida tinto de y bebida. con servidores"" contains the word ""aparte"". the word ""aparte"" can be a possible answer, but it could also be a misspelling of ""adjunto"". to determine which one is the correct name, we need more",pasteur,garenne,0,0.15,0,0.01,0,0.14,0,0.14,incorrect,incorrect,incorrect,incorrect
+['jessica'],masks,sobresaliente,adam,onyung,0,0.33,0,0.3,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],knowing,alzate,gidip,cha,0,0.0,0,0.4,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],message,codigomela,saldırı,anh,0,0.18,0,0.14,0,0.36,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],fisherman,volvió,cesdin,anh,0,0.15,0,0.2,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],the banker,banquero,yapmasının,vinh,0,0.14,0,0.33,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul atreides'],lad,name,ali,bé,0,0.36,0,0.33,0,0.57,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['dama', 'jessica']",banker,habéis,pis,vị,0,0.2,0,0.31,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jessica'],thought,qué,batıl,họ,0,0.0,0,0.2,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jessica'],no,suelo,laser,bé,0,0.0,0,0.17,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jessica'],time,luz,sesler,dong,0,0.18,0,0.0,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+['duncan idaho'],loled,a,idaho,hổn,0,0.2,0,0.33,1,1.0,0,0.5,incorrect,incorrect,correct,incorrect
+['jessica'],supposed,su,işler,anh,0,0.13,0,0.22,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessica schlag']",chairs,schlag,ekmiys,nang,0,0.5,1,1.0,0,0.31,0,0.4,incorrect,correct,incorrect,incorrect
+"['leydi jessica', 'dama jessica', 'jessica']",moment,espoña,derin,ông,0,0.22,0,0.46,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+['leto'],passage,silvio,bice,cong,0,0.18,0,0.4,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['leto'],his,lásmers,laser,doanh,0,0.0,0,0.36,0,0.44,0,0.22,incorrect,incorrect,incorrect,incorrect
+['yueh'],door,luz,adam,mặt,0,0.0,0,0.29,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jessica'],stayed,narziso,zihni,nàng,0,0.15,0,0.14,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessic']",trooper,aviles,siz,phù nàng,0,0.15,0,0.33,0,0.44,0,0.13,incorrect,incorrect,incorrect,incorrect
+['jessica'],athopter,muralla,topter,con,0,0.13,0,0.14,0,0.15,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",someone,los,name,tu,0,0.33,0,0.25,0,0.86,0,0.0,incorrect,incorrect,correct,incorrect
+['jessica'],sandblast,arenosas,glaz,sóng,0,0.25,0,0.4,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],clamped,madre,ses,buộc,0,0.18,0,0.22,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],knife,cortó,sırt,cáu,0,0.0,0,0.0,0,0.0,0,0.57,incorrect,incorrect,incorrect,incorrect
+['yueh'],press,vergara,kaskatı,nếu,0,0.22,0,0.18,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['harkonnen', 'yueh']",guards,aragón,harkonnen,hàng,0,0.27,0,0.53,1,1.0,0,0.46,incorrect,incorrect,correct,incorrect
+"['the duke leto atreides', 'dük leto atreides', 'leto atreides', 'duque leto atreides']",caladan,caladan,meteor,caladan,0,0.3,0,0.3,0,0.6,0,0.3,incorrect,incorrect,incorrect,incorrect
+"['ùng', 'barón', 'baron']",chomping,nave,gomin,ngài,0,0.36,0,0.29,0,0.4,0,0.57,incorrect,incorrect,incorrect,incorrect
+['leto'],thirst,zorro,bu,song,0,0.2,0,0.22,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['leto'],mei-ling,gruo,masan,anh,0,0.17,0,0.25,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['leto'],capsule,él,zehirli,hình,0,0.36,0,0.33,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['leto'],not,zapata,ama,công,0,0.29,0,0.2,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",surgeon,secalo,busalı,ý,0,0.5,0,0.36,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+['leto'],man,torres,oyuncak,tôm,0,0.0,0,0.4,0,0.18,0,0.57,incorrect,incorrect,incorrect,incorrect
+['leto'],shapes,escobar,name: ifade,do,0,0.2,0,0.36,0,0.13,0,0.33,incorrect,incorrect,incorrect,incorrect
+['piter'],his,alba,moleküler,tấm,0,0.25,0,0.0,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['nefu', 'nefud']",captain,primer,muhafız,le,0,0.18,0,0.2,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],thopter,toptero,arac,tau,0,0.18,0,0.18,0,0.25,0,0.57,incorrect,incorrect,incorrect,incorrect
+['paul'],he,duque,muhur,y,0,0.0,0,0.22,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],enterted,casanova,basini,cha,0,0.0,0,0.17,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],sphincter-seal,idaho,idaho,van,0,0.33,0,0.22,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],satellites,santos,irak,nhỏ hình,0,0.29,0,0.2,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],machines,fremen,fremen,zori,0,0.17,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],manual,se,meyal,bây,0,0.6,0,0.0,0,0.44,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",him,ti,message,ep,0,0.0,0,0.0,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],inability,name (unclear),annesinin,tại,0,0.31,0,0.33,0,0.15,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],futures,sínido,izni,thấy,0,0.18,0,0.0,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],globe,bruscamente,kürenin sanki,cau,0,0.22,0,0.13,0,0.12,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",i,tú,sayene,dược,0,0.0,0,0.33,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['pau', 'paul']",dim,sobres,açlık,đôi,0,0.0,0,0.0,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],ducal,torres,hiddetle,chung,0,0.44,0,0.0,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['thufir hawat—', 'thufir hawat']",you,vanagloriado,david,mentat,0,0.22,0,0.24,0,0.2,0,0.36,incorrect,incorrect,incorrect,incorrect
+['hawat'],lasguns,roca,gecenin,sung,0,0.17,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['hawat'],men,torres,taşıyan,kịp,0,0.0,0,0.18,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['hawat'],barked,escobar,"in the given passage, the word filling the [mask] token is ""olur"", which is the past tense form of the verb ""ol"" which means ""to die"" in turkish. however, the context of the passage suggests that the author is describing a tragic event where people are dying. therefore, the most appropriate word to fill the [mask] token is ""olur"", but based on the context, it seems that the author is referring to the people who have died. so,",tập,0,0.18,0,0.17,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['fremen'],bat,se,yarasan,bé,0,0.0,0,0.25,0,0.31,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['fremen', 'hawat', 'hawat—']",fremen,hombres,zarar,fremen,1,1.0,0,0.31,0,0.4,1,1.0,correct,incorrect,incorrect,correct
+['jessica'],senses,gesserit,gesserit,gesserit,0,0.31,0,0.53,0,0.53,0,0.53,incorrect,incorrect,incorrect,incorrect
+['paul'],glass,alinados,duvarlardan,gridex,0,0.22,0,0.33,0,0.27,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],automatic,pardos,gördü,dơi,0,0.31,0,0.4,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jessica'],golden,su,koruer,dang,0,0.15,0,0.22,0,0.15,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],chains,sobresaliente,suspansör,kim,0,0.2,0,0.24,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],cabinet,parpadeo,lock,khí,0,0.18,0,0.33,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",loyal,osez,sena,bac,0,0.44,0,0.0,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],faces,rosstros,kapı,samson,0,0.22,0,0.0,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],his,empuñaduras,annesini,khoa,0,0.0,0,0.4,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",we,ha,gruba,huy,0,0.0,0,0.33,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],luminous,salvador,duyuldu,bay,0,0.17,0,0.33,0,0.36,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],jetpod,león,topter,tàu,0,0.2,0,0.25,0,0.2,0,0.57,incorrect,incorrect,incorrect,incorrect
+['paul'],wing,alas,kanatlar,vào,0,0.0,0,0.5,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],wings,espinoza,mücadele,sai,0,0.0,0,0.33,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],thopter,aparato,topter,tao,0,0.18,0,0.36,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jessica'],flowing,detenido,akıntı,an,0,0.14,0,0.27,0,0.15,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",tiger,tendremos,"in the given passage, the sentence ""aşağı **burada** fısıldadı. kurtulabileceğimizi kaldık,"" [mask], inemeyiz, sanmıyorum."" contains the phrase ""burada fısıldadı,"" which can be translated to ""here stopped"" in english. the proper name that fills the [mask] token in this sentence is ""burak.""  so,",tau,0,0.0,0,0.0,0,0.0,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['baron vladimir harkonnen', 'the baron vladimir harkonnen', 'vladimir harkonnen', 'barón vladimir harkonnen']",frigate,arrakis,firkateyn,bens,0,0.4,0,0.38,0,0.33,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",thesis,afilados,devlet,quốc,0,0.0,0,0.31,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",chicken,estoy,başlar,ngũ,0,0.2,0,0.2,0,0.55,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['harkonnen', 'baron', 'harkonne']",doorfield,acarrear,short,quay,0,0.24,0,0.38,0,0.31,0,0.22,incorrect,incorrect,incorrect,incorrect
+['rabban'],he,penetró,baron,anh,0,0.0,0,0.15,0,0.55,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",overriding,uno,derebeylik,luong,0,0.27,0,0.33,0,0.13,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",nephew,sobrino,anlatamadı,thang,0,0.22,0,0.5,0,0.46,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",grinned,galileo,homurdandı,alice,0,0.33,0,0.33,0,0.27,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['barón', 'baron', 'padishah uy nghi']",emperor,pashas,paisiyo,ta,0,0.33,0,0.71,0,0.53,0,0.29,incorrect,correct,incorrect,incorrect
+['paul'],mentat,vórtice,ısravlar,trang,0,0.2,0,0.0,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],pillar,gris,firtina,kéo,0,0.4,0,0.0,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],arm,cubierta,sağ,tay,0,0.29,0,0.17,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",worm,gusanos,lonca,hiệp,0,0.0,0,0.18,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],shingle,ajuste,parapuş,lô,0,0.18,0,0.4,0,0.55,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],dunes,dunes,ayla,lô,0,0.22,0,0.22,0,0.5,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",energy,water,dinç,của,0,0.0,0,0.22,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],his,gacela,burnu,cáu,0,0.0,0,0.4,0,0.22,0,0.57,incorrect,incorrect,incorrect,incorrect
+['paul'],fremd,león,fremkit,fremkit,0,0.0,0,0.25,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],windward,plza,kuzey,qua,0,0.17,0,0.5,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jessica'],matter,sosa,"in the given passage, the proper name that fills the [mask] token is ""da"" but as per the context, it is not the subject of the sentence. the subject of the sentence is ""süspansörlerimiz kalkanlar kullanmak tehlikelidir"" which means ""our oxygen tanks are dangerous to use"". therefore, the proper name that fills the [mask] token is ""none"" as there is no proper name in the sentence",mac,0,0.15,0,0.55,0,0.01,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],shadows,pérez,loş,họ,0,0.18,0,0.22,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'paul']",fissure,zapata,kumlar,me,0,0.29,0,0.4,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],fissure,sobre,kumlar,nen,0,0.18,0,0.0,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],instrument,avanzadumbre,parapuslama,cat,0,0.14,0,0.25,0,0.53,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],mistake,calculo,yanlış,hỏi,0,0.18,0,0.55,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],sand,los,dedi,quai,0,0.25,0,0.29,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],strap,más,bayram,cat,0,0.22,0,0.29,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jessica'],sand,la,"in the given passage, the phrase ""sıcaklık kayalık hava diğer şimdi başlamıştı"" can be translated to ""the temperature suddenly dropped, as if it were getting colder and colder. dingindi, it started to get colder and colder; as the coldness increased, it seemed as if the eyes in the ice were getting bigger and bigger."" the proper name that fills the [mask] token in this",sung,0,0.36,0,0.22,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['halleck'],gesture,pulgar,turkish,theo,0,0.14,0,0.15,0,0.14,0,0.36,incorrect,incorrect,incorrect,incorrect
+['halleck'],feel,efuerzo,adamlar,kim,0,0.18,0,0.14,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+['tuek'],cutteray,cavidad,dahili,trần,0,0.33,0,0.0,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['halleck'],her,ramo,adam,người chiếc sĩ,0,0.4,0,0.18,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",minutes,torres,gümleyici,cắm,0,0.18,0,0.0,0,0.31,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],desert,oyó,geri,an,0,0.0,0,0.0,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],mechanical,dolor,gümbürtüsü,vách,0,0.29,0,0.22,0,0.14,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jessica'],awedh,suleyman,sesler,anh,0,0.17,0,0.27,0,0.31,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],he,penetró,düzlüğe,suýt,0,0.0,0,0.18,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],he,olá,karl,lão,0,0.0,0,0.29,0,0.5,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['paul', 'liet']",spice,kynes,liet-kynes,kynes,0,0.44,0,0.22,0,0.57,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],cliff,correos,tirman,cau,0,0.22,0,0.0,0,0.2,0,0.57,incorrect,incorrect,incorrect,incorrect
+['paul'],crevasse,santos,annesini,bóng,0,0.17,0,0.2,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],saw,neuberg,yukarıya,họ,0,0.29,0,0.18,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],tugged,sánchez,name,ao,0,0.2,0,0.18,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],weeds,uni,ettiğini,chú trảng,0,0.0,0,0.29,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+['paul'],run,dijo,ziyan,hữi,0,0.29,0,0.0,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],muscles,ofuscado,atılma,thái,0,0.36,0,0.17,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+['harkonnen'],troopers,gusano,yavaş,lính,0,0.35,0,0.27,0,0.14,0,0.15,incorrect,incorrect,incorrect,incorrect
+['kynes'],direction,rosseau,seskavisli,quỷ,0,0.14,0,0.17,0,0.27,0,0.25,incorrect,incorrect,incorrect,incorrect
+['kynes'],desert,zaragoza,elgin,mac,0,0.36,0,0.0,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['kynes'],bird,pájaro,kutluadı,chằm,0,0.0,0,0.0,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],his,gala,kaslar,huấn,0,0.0,0,0.5,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jessica'],werewolf,zorba,yandan,tấm,0,0.13,0,0.17,0,0.15,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,aquella,sakacı,sự,0,0.2,0,0.29,0,0.31,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jessica'],manner, ducal ,david,vua,0,0.15,0,0.33,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jessica'],basin,somos five,adem,phoc,0,0.33,0,0.12,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['stilgar'],hand,otra,anneme,thời,0,0.18,0,0.36,0,0.15,0,0.36,incorrect,incorrect,incorrect,incorrect
+['stilgar'],wormheaded,name,kafalı,chấy,0,0.12,0,0.18,0,0.15,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],word,alcobendas,"in the given passage, the phrase ""ona 'başka arkasındaki indirsin; da gebertirim. silahını konuştu: önce söyle tartışmayacağız. ama yoktu, çalının yoksa seni, [mask] sonra bunu' "" can be broken down into several parts:  * ""ona 'başka arkasındaki indirsin""",bây,0,0.0,0,0.24,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessica—']",wish,cometas,aptalca,tôi,0,0.18,0,0.29,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],crack,sombra,sound,innocent,0,0.22,0,0.2,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],view,sombra,gölge,goi,0,0.0,0,0.2,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessica—']",dusten,los,olgum,thang,0,0.15,0,0.2,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['paul'],athena,rocas,karánlık,ghềnh,0,0.2,0,0.22,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['stilgar—', 'stilgar']",manling,nihma,evlat,mihna,0,0.29,0,0.33,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jessica'],elation,fremen,fremen,fremen,0,0.29,0,0.15,0,0.15,0,0.15,incorrect,incorrect,incorrect,incorrect
+['paul'],cleft,suave,grimsi,khe,0,0.22,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jessica'],cliff,guadarrama,havzan,bức,0,0.17,0,0.12,0,0.15,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jessica'],guild,rostro,ceviri,ngọ,0,0.17,0,0.15,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+['stilgar'],he,somocotas,kadınları,cô,0,0.0,0,0.38,0,0.5,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],the passage does not contain a proper name that fills the [mask] token.,sobresaliente,ateş,dừng,0,0.08,0,0.24,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jessica'],conflict,misionaria,missionaria,mia,0,0.27,0,0.35,0,0.44,0,0.4,incorrect,incorrect,incorrect,incorrect
+['jessica'],word,solá,birden,nàng,0,0.0,0,0.36,0,0.15,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,enuncia,"in the given passage, the sentence ""dedi inildercesine sesle, [mask]; 'başta sesini vereceksin,' konuşurken dedi inildercesine sesle,"" suggests that the speaker is speaking into a recording, and the phrase ""inildercesine sesle"" indicates that they are speaking into a recording for a reason, such as a recording message or announcement. the phrase ""inildercesine sesle"" is a verb",chừng,0,0.2,0,0.43,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['jamis'],fist,cerró,ankle,anh,0,0.44,0,0.0,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['gurney halleck'],blade,elmento,ucunu,mũi binh thể dao thì thể dao dao đến thể phương.,0,0.33,0,0.29,0,0.36,0,0.11,incorrect,incorrect,incorrect,incorrect
+['paul'],ring,crys,bica,giá,0,0.0,0,0.0,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jamis'],shield,se,kalkan,huấn,0,0.18,0,0.29,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jamis'],hand,fintó,darbe,bàn,0,0.22,0,0.2,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jessica'],seawall,hediondas,tuhaf,phíanàngtrai,0,0.29,0,0.25,0,0.17,0,0.21,incorrect,incorrect,incorrect,incorrect
+['paul'],perched,solamente,yaşamıştı,cau,0,0.18,0,0.15,0,0.15,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['jamis', 'chani']",came,jamis,etik,xác,0,0.44,1,1.0,0,0.22,0,0.25,incorrect,correct,incorrect,incorrect
+['jessica'],turned,un,ufuk,dương,0,0.15,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],thought,perenne,ezgi,doi,0,0.18,0,0.18,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['stilgar—', 'stilgar']",moon,luna,eder,khi,0,0.0,0,0.36,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],bladeless,pequeño,torba,mewo,0,0.31,0,0.36,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],scorn,salvador,name,và,0,0.0,0,0.33,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],baliset,mientras,jamis,an,0,0.36,0,0.17,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jessica'],experience,se,gözyaşları,nahm,0,0.35,0,0.22,0,0.24,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],baliset,sobrenatural,balisetin,kinh,0,0.36,0,0.38,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['pau', 'paul']",he,sintió,anlas,cuong,0,0.0,0,0.0,0,0.44,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jessica'],song,son,kıza,tai,0,0.18,0,0.2,0,0.36,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],she,jihad,annem,bà,0,0.0,0,0.22,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['dama fenring', 'fenring']",muscles,he,leydı,nhưng,0,0.21,0,0.22,0,0.33,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",himself,santos,sakin,hán,0,0.2,0,0.36,0,0.4,0,0.5,incorrect,incorrect,incorrect,incorrect
+['feyd'],crablike,rautha,rautha,rautha,0,0.17,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],blunderings,ramos,anasayna,sietch,0,0.13,0,0.22,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],bodies,turbulencia,kuşlar,gia,0,0.0,0,0.27,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],they,saludó,arda,ta,0,0.0,0,0.4,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],chamber,men,telaşlı,ong,0,0.18,0,0.0,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],fragment,mal,anlam,tien,0,0.17,0,0.57,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",she,trabajo,harah,nhà,0,0.0,0,0.18,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],chanting,somos,violins,an,0,0.17,0,0.0,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],outlet,aire,ortanı,au,0,0.4,0,0.25,0,0.2,0,0.67,incorrect,incorrect,incorrect,incorrect
+['paul'],he,sofocardo,ses,cau,0,0.0,0,0.15,0,0.0,0,0.57,incorrect,incorrect,incorrect,incorrect
+['harah'],he,zarattini,elsa,cáu,0,0.29,0,0.43,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],misgivings,pono,yetişen,nhưm,0,0.0,0,0.25,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],boys,name,çocuklar,vên,0,0.0,0,0.25,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['chani'],hajra,fondo,boynuzun,sâu thầm,0,0.4,0,0.2,0,0.15,0,0.31,incorrect,incorrect,incorrect,incorrect
+['chani'],sack,sacco,borun,tui,0,0.22,0,0.2,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['duncan idah', 'duncan idaho']",spice,embyegoos,liquor,nàng,0,0.22,0,0.14,0,0.36,0,0.6,incorrect,incorrect,incorrect,incorrect
+['jessica'],sack,sabor,yanaklarında,nàng,0,0.36,0,0.33,0,0.21,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,duarte,"in the given passage, the proper name that fills the [mask] token is ""baskısını"". the corrected and complete sentence would be: ""bunun uyuşturucunun bulandırdığını değiştirilmiş zihnini çalışırken, şey zorlayıcı [baskısını] baskısını gereken karşılık",nàng,0,0.2,0,0.15,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessic']",end,reveendas,rahibe,chí,0,0.22,0,0.27,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,corredor,cetin,fremen,0,0.2,0,0.13,0,0.33,0,0.15,incorrect,incorrect,incorrect,incorrect
+['chani'],led,almohadones,carafes,cau,0,0.0,0,0.38,0,0.33,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['baron vlamidir', 'barón vladimir harkonnen', 'vladimir harkonnen']",baron,flór,harkonnen,ngài,1,1.0,0,0.33,1,1.0,0,0.33,correct,incorrect,correct,incorrect
+"['iakin nefud', 'iakin nefu']",semuta,maullido,adem,y,0,0.4,0,0.31,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['nefud'],semuta,puso,semut,túy,0,0.36,0,0.22,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",blemish,mancha,olan,thể,0,0.2,0,0.44,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",chamber,sabata,ceset,ngài,0,0.4,0,0.36,0,0.0,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam tước', 'baron']",garrote,inepto,garrote,nô,0,0.5,0,0.43,0,0.5,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam tước', 'baron']",,esas,cesedi,quang,0,0.67,0,0.29,0,0.2,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",word,other,dersini,và,0,0.22,0,0.2,0,0.33,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam tước', 'baron']",women,espinoza,seyredecek,nô,0,0.4,0,0.36,0,0.14,0,0.4,incorrect,incorrect,incorrect,incorrect
+['thufir hawat'],ruler,cerdo,onca,dai,0,0.36,0,0.18,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['sardaukar', 'salusa secundus']",house,bajo,mazur,secundus,0,0.36,0,0.2,0,0.36,1,1.0,incorrect,incorrect,incorrect,correct
+"['barón', 'nam', 'baron']",he,gentes,belki,graben,0,0.0,0,0.22,0,0.2,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['paul muad', 'paul']",muad'dib,esencia,baharatli,dib,0,0.67,0,0.18,0,0.31,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['pau', 'paul']",they,suerte,sadece,chàng,0,0.0,0,0.22,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['alia', 'paul']",she,viva,alia,sinh,0,0.0,0,0.25,1,1.0,0,0.25,incorrect,incorrect,correct,incorrect
+['paul'],guard,loran,loşluk,chang,0,0.22,0,0.22,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['şeyh hulud', 'shai']",hulud,dumas,name,hulud,1,1.0,0,0.22,0,0.25,1,1.0,correct,incorrect,incorrect,correct
+['paul'],thumper,duna,titreşim,doan,0,0.18,0,0.25,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],thumper, gusano ,kancalar,chàng,0,0.18,0,0.2,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],pogrom,sietch,way,seth,0,0.2,0,0.0,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],lump,brusca,tkmak,kiên,0,0.25,0,0.2,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['chani'],hide,debes,peler,alice,0,0.44,0,0.0,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessica—']","the phrase in the passage does not contain a proper name that matches the given format. however, the closest word that can be inferred to fill the [mask] token is ""it"".",nadie,lidi,con,0,0.07,0,0.17,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['harah', 'harah—']",,agua,annene,chúng,0,0.25,0,0.44,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jessica'],her,nuestros,anlalar,bà,0,0.2,0,0.4,0,0.14,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jessica'],muttering,"based on the context of the passage, the proper name that fills the [mask] token is ""oyeron"". the corrected sentence would be: ""silencio presencia gente numerosas palabras, de ropas. de estas estancia. su entrada el rumor a penoso que siguió de en el notó cerraba que oyeron [oyeron] los roce tras la cortinajes alguien de la y el"". the",cuppe,thầm,0,0.25,0,0.02,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],waiting,sabemos,düşündü,thận,0,0.14,0,0.29,0,0.14,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],must,pérez,devasa,khổng,0,0.25,0,0.22,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],segment,gusano,halatlar,chàng,0,0.0,0,0.2,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['paul nhận', 'paul']",worm,gusano,solucan,thien,0,0.0,0,0.4,0,0.38,0,0.22,incorrect,incorrect,incorrect,incorrect
+['stilgar'],monsters, gusanos ,kancayi,chàng,0,0.4,0,0.29,0,0.14,0,0.17,incorrect,incorrect,incorrect,incorrect
+['paul'],hook,zona_h,taktık,chắc,0,0.0,0,0.2,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['stilgar'],handle,uno,sert,ói,0,0.15,0,0.0,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],worm, gusano ,solucan,vảy,0,0.0,0,0.2,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],flankers,línea,solucan,chàng,0,0.17,0,0.22,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],their, gusano ,solucan,cat,0,0.0,0,0.2,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],streaks,vía,yol,mùa,0,0.18,0,0.29,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],habbanya,fabellas,dek,không,0,0.17,0,0.33,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['paul ngoảnh phắt', 'paul']",azon,lejano,iskon,phủ,0,0.25,0,0.33,0,0.18,0,0.57,incorrect,incorrect,incorrect,incorrect
+['paul'],goads,aguijones,kumulun,chàng,0,0.22,0,0.31,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",sand,trujillo,kaçakçıları,tau,0,0.25,0,0.33,0,0.27,0,0.57,incorrect,incorrect,incorrect,incorrect
+['gurney halleck'],lens,fitts,yuvarlak,rang su,0,0.36,0,0.0,0,0.4,0,0.31,incorrect,incorrect,incorrect,incorrect
+['gurney'],warrior,desplegaban,dövüşçüler,ong,0,0.15,0,0.24,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['gurney'],sand,ordenes,yüzündeki,ong,0,0.2,0,0.46,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+['gurney'],fremen,cyril,sol,rojo,0,0.33,0,0.18,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['gurney'],there,crys,silahlar,chỉ,0,0.36,0,0.4,0,0.14,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gurney'],his,guevea,bıçak,bên,0,0.0,0,0.5,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['gurney'],ornithopters,arrakis,benden,chang,0,0.33,0,0.15,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['gurney'],worm,gusanos,name not found,ong,0,0.2,0,0.46,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['gurney'],sandfish,garfios,solucan,suan,0,0.14,0,0.31,0,0.31,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",creature,zola,çöl,nó,0,0.33,0,0.25,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],wind,viento,south,huong,0,0.0,0,0.0,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['gurney', 'gurney—']",he,extranjeros,bazıları,kẻ,0,0.25,0,0.35,0,0.14,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],lieutenant,novelas,subay,name,0,0.14,0,0.18,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['pau', 'paul']",captain,tropezino,saldırgan,khỉ,0,0.4,0,0.17,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],tinge,globo,platformun,tranh,0,0.0,0,0.22,0,0.43,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],man,pasos,işler,tiến,0,0.29,0,0.44,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],coughs,bóveda,sesler,no,0,0.2,0,0.2,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],sash,cintura,cup,bocconotti,0,0.25,0,0.18,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,esto,bu,ta,0,0.2,0,0.36,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jessica'],reverend,gesserit,rahibe,gesserit,0,0.13,0,0.53,0,0.15,0,0.53,incorrect,incorrect,incorrect,incorrect
+['paul'],passage,plataformas,kalabalık,chuan,0,0.36,0,0.27,0,0.31,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jessica'],emotions,cimas,düşündü,khá,0,0.27,0,0.17,0,0.14,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],mother,name: atravesó,kapı,i,0,0.0,0,0.11,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['gurney', 'gurney—']",reflex,no,monoton,mụ,0,0.33,0,0.25,0,0.15,0,0.25,incorrect,incorrect,incorrect,incorrect
+['gurney'],warrens,enfundo,izler,trật,0,0.31,0,0.31,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",idiot,imbecilo,david,le,0,0.0,0,0.17,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['gurney', 'gurney—']",passage,balisillas,kapı,nó,0,0.31,0,0.0,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['gurney'],baliset,balisiera,doors,sotong,0,0.15,0,0.13,0,0.18,0,0.17,incorrect,incorrect,incorrect,incorrect
+['chani'],won,topero,laf,sao,0,0.25,0,0.0,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessica—']",techniques,zukerman,saptanabiliyor,dưới,0,0.24,0,0.27,0,0.19,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessica—']",word,todo,gelen,thế,0,0.0,0,0.0,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jessica'],raid,cada,okay,phước,0,0.18,0,0.36,0,0.18,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",little,león,male,anh,0,0.2,0,0.25,0,0.5,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['chani tránh', 'paul', 'chani']",he,arrakis,lonca,chandler,0,0.29,0,0.33,0,0.4,0,0.62,incorrect,incorrect,incorrect,incorrect
+['paul'],lay,dels,arsh,tìm,0,0.29,0,0.25,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],shield,arrakeen,tarafan,arrakeen,0,0.2,0,0.17,0,0.18,0,0.17,incorrect,incorrect,incorrect,incorrect
+['paul'],insect,leona,böcek,chàng,0,0.0,0,0.22,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",reason,motivo,determination,phá,0,0.2,0,0.0,0,0.12,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",shield,grandes,karşı,tòa,0,0.2,0,0.18,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['muad'],partridge,halcón,shahin,dib,0,0.31,0,0.2,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+['gurney'],speech,homa,orayı,quan,0,0.17,0,0.0,0,0.36,0,0.4,incorrect,incorrect,incorrect,incorrect
+['paul'],sand,zorba,fırtına,hình,0,0.25,0,0.22,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],way,orden,"in the given passage, the sentence ""tüneli [mask], sordu. diye açık bağırdı."" contains the word ""tüneli"" which is the subject of the sentence. the word ""tüneli"" is a proper noun, and it appears to be the name of the road that was blocked. based on the context, the most likely name that fills the [mask] token is ""tüneli"".  so, the output for this",sūn,0,0.29,0,0.0,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['fedaykin'],engineers,abierto,laser,quay,0,0.35,0,0.13,0,0.15,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",equipment,los,"""device"" name",thiết,0,0.15,0,0.29,0,0.12,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",ahead,no,plan,không,0,0.22,0,0.0,0,0.5,0,0.0,incorrect,incorrect,incorrect,incorrect
+['muad'],dib,suerte,kız,dib,0,0.29,0,0.2,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",thought,pérez,stuff,nhưng,0,0.17,0,0.2,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['bene gesserit', 'bene gesserit truthsayer']",drew,un,kız,rong,0,0.29,0,0.33,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",statement,launa,bir,no,0,0.29,0,0.5,0,0.5,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['shadda', 'shaddam']",dais,siento,kid,bé,0,0.4,0,0.17,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['alia', 'alia—', 'ali']","the phrase in the passage ""an or out at [mask]. mind!"" suggests that the name is a proper name, most likely a person's name. the only name in the passage that fits this context is ""her"".",muerte,kadın,mụ,0,0.04,0,0.0,0,0.5,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['alia', 'matadla']",throne,se,yaşlı,mắt vàng đôi,0,0.15,0,0.0,0,0.67,0,0.53,incorrect,incorrect,incorrect,incorrect
+['muad'],emperor,dibu,lonca,dihn,0,0.18,0,0.25,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['gurney', 'gurney halleck']",caves,cavernas,beden,an ngày,0,0.33,0,0.29,0,0.18,0,0.31,incorrect,incorrect,incorrect,incorrect
+['paul'],jihad,al-aqsa,cordor,chàng,0,0.22,0,0.36,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",fall,planeta,geçit,nguyen,0,0.5,0,0.36,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],messages,cervantes,iksir,phi,0,0.17,0,0.15,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",navigator,navarra,lonca,tuan,0,0.15,0,0.18,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",guild,cofradía,kes,thíp,0,0.44,0,0.17,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",jabbar,jabbar,cadı,jabbar,0,0.2,0,0.2,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],but,elloa,elder,trừng,0,0.29,0,0.22,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",worm,humana,kadar,alice,0,0.0,0,0.2,0,0.22,0,0.44,incorrect,incorrect,incorrect,incorrect
+['jessica'],text,he,demek,con,0,0.18,0,0.22,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],knife,crys,kolunun,dao,0,0.0,0,0.0,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],crysknife,crys,"in the given passage, the sentence ""yavaş uyku kalmış gibi kolu [mask] etkisindeymiş ilacının gibi"" suggests that the subject of the sentence is experiencing a slow, heavy feeling in their legs, similar to how a person might feel after taking a sleeping pill. the only name that fits this context is ""pill"". therefore, the proper name that fills the [mask] token in the passage is ""pill",chàng,0,0.0,0,0.0,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
