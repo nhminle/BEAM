@@ -1,0 +1,508 @@
+Single_ent,en_masked_results,en_exact_match,en_highest_fuzzy_match,en_correct
+['ruth crawford'],proposal,0,0.25,incorrect
+['mark'],response,0,0.17,incorrect
+['butch'],hickman,0,0.17,incorrect
+['crawford'],ms,0,0.0,incorrect
+['dave'],nowheresville,0,0.24,incorrect
+['butch'],friend's name,0,0.0,incorrect
+['alden'],he,0,0.29,incorrect
+['carmody'],macomber,0,0.27,incorrect
+['ruth crawford'],korner,0,0.29,incorrect
+['ruth crawford'],sarah,0,0.44,incorrect
+['crawford'],ms. miller,0,0.11,incorrect
+['dave'],bob,0,0.0,incorrect
+['dave'],davidson,0,0.5,incorrect
+['uncle butch'],he,0,0.29,incorrect
+['hathaway'],mrs. miller,0,0.0,incorrect
+['butch'],father,0,0.36,incorrect
+['robert johnson'],she,0,0.22,incorrect
+['ruth'],she,0,0.29,incorrect
+['carmody'],mr. mitchell,0,0.11,incorrect
+['ruth'],sam,0,0.0,incorrect
+['ruth crawford'],name,0,0.17,incorrect
+['mark'],woman,0,0.44,incorrect
+['pop'],her,0,0.0,incorrect
+['butch'],huntinginthethirtymile,0,0.22,incorrect
+['ruth'],"in the given passage, the word filling the [mask] token is ""she"", but to fill the mask token with a proper name, we need to understand the context of the sentence. the sentence is: ""she looked like she was afraid to break the spell (the one he’d cast over himself as well as her), so i spoke up.""  the subject of the sentence is ""she"", and the verb is ""looked"". the sentence implies that ""she"" was",0,0.01,incorrect
+['ruth crawford'],butch,0,0.67,incorrect
+['mark'],john,0,0.0,incorrect
+['tommy'],notebook,0,0.31,incorrect
+['ruth'],notebooks,0,0.15,incorrect
+['jack elway'],boy,0,0.25,incorrect
+['uncle butch'],dump,0,0.22,incorrect
+['ruth crawford'],benson,0,0.14,incorrect
+['benson'],29th street,0,0.12,incorrect
+['patel'],he,0,0.29,incorrect
+['butch'],"in the given passage, the phrase ""[mask] said, "" contains the name of a person. after analyzing the context, it is clear that the proper name that fills the [mask] token is ""he"" or ""he said"". however, the text also mentions ""we should give em a day to do it when we can watch out for em for them and make sure some juicer or pothead doesn’t gash a leg and get gangrene."" here, ""we"" refers",0,0.01,incorrect
+['mark'],hugh,0,0.0,incorrect
+['nellybelle'],willys,0,0.38,incorrect
+['butch'],he,0,0.29,incorrect
+['butch'],harper,0,0.18,incorrect
+['butch'],billy,0,0.2,incorrect
+['butch'],andrew,0,0.0,incorrect
+['butch'],speech,0,0.36,incorrect
+['butch'],he,0,0.29,incorrect
+['butch'],lare,0,0.0,incorrect
+['butch'],photographer's,0,0.21,incorrect
+['butch'],i,0,0.0,incorrect
+['butch'],name,0,0.0,incorrect
+['butch'],sue,0,0.25,incorrect
+['butch'],george,0,0.0,incorrect
+['bud'],cans,0,0.0,incorrect
+['butch'],driver,0,0.0,incorrect
+['butch'],breeze,0,0.18,incorrect
+['butch'],david,0,0.0,incorrect
+['butch'],"in the given passage, the word filling the [mask] token is ""we."" however, the context of the passage suggests that the author is describing what [mask] did, so the proper name that fills the [mask] token is the name of the person [mask] (the subject of the sentence) refers to. based on the context, the most logical answer is ""he."" here's the corrected passage with the name filled in:  <passage>that night he threw",0,0.01,incorrect
+['butch'],aid,0,0.0,incorrect
+['butch'],bridge,0,0.18,incorrect
+['butch'],girl,0,0.0,incorrect
+['butch'],he,0,0.29,incorrect
+['butch'],he,0,0.29,incorrect
+['butch'],she,0,0.25,incorrect
+['butch'],she,0,0.25,incorrect
+['butch'],hand,0,0.22,incorrect
+['butch'],pocket,0,0.18,incorrect
+['butch'],she,0,0.25,incorrect
+['butch'],scream,0,0.18,incorrect
+['butch'],her,0,0.25,incorrect
+['butch'],lateron,0,0.17,incorrect
+['butch'],old man,0,0.0,incorrect
+['bud'],can,0,0.0,incorrect
+['ylla'],fred,0,0.0,incorrect
+['yella'],he,0,0.29,incorrect
+['butch'],he,0,0.29,incorrect
+['ylla'],her,0,0.0,incorrect
+['butch'],case,0,0.22,incorrect
+['butch'],john,0,0.22,incorrect
+['butch'],harry,0,0.2,incorrect
+['butch'],man,0,0.0,incorrect
+['butch'],tobin,0,0.2,incorrect
+['butch'],art,0,0.25,incorrect
+['ylla'],savage,0,0.2,incorrect
+['jack'],rooster,0,0.0,incorrect
+['butch'],frank,0,0.0,incorrect
+['pop'],manuscript,0,0.15,incorrect
+['uncle butch'],brewer,0,0.18,incorrect
+['susan'],george,0,0.0,incorrect
+['mark carmody'],david,0,0.33,incorrect
+['stanhope'],mrsmullins,0,0.22,incorrect
+['joan jett'],air guitarists,0,0.35,incorrect
+['albert ammons'],norman,0,0.33,incorrect
+['jack'],sponsor,0,0.0,incorrect
+['randy'],aas,0,0.25,incorrect
+['jack'],he,0,0.0,incorrect
+['randy'],ask,0,0.25,incorrect
+['ralph'],guy,0,0.0,incorrect
+['brown'],advisor,0,0.17,incorrect
+['james'],grandfather,0,0.25,incorrect
+['rox'],he,0,0.0,incorrect
+['danny'],"in the given passage, the proper name that fills the [mask] token is ""pennies"". the corrected sentence would be: ""it’s a bad dream. he’s had a few before, everyone has a nightmare from time to time, but this is the worst one ever. nothing bad is happening at first, but that doesn’t help; the sense of impending doom is so strong it’s an actual taste in his mouth, like sucking on a clump of penn",0,0.0,incorrect
+['danny'],road,0,0.22,incorrect
+['danny'],building,0,0.31,incorrect
+['danny'],terrifiedname,0,0.22,incorrect
+['danny'],kyle,0,0.22,incorrect
+['danny'],station,0,0.33,incorrect
+['danny'],dog,0,0.25,incorrect
+['danny'],charlie,0,0.17,incorrect
+['danny'],head custodian,0,0.32,incorrect
+['danny'],august,0,0.18,incorrect
+['jesse'],tyrone,0,0.18,incorrect
+['pat'],task,0,0.29,incorrect
+['jesse jackson'],12,0,0.0,incorrect
+['danny'],blacktop,0,0.15,incorrect
+['danny'],damon,0,0.6,incorrect
+['danny'],truck,0,0.0,incorrect
+['danny'],frank,0,0.4,incorrect
+['danny'],tobey,0,0.2,incorrect
+['danny'],gunnel,0,0.36,incorrect
+['becky'],terry,0,0.4,incorrect
+['gunnel'],kansas,0,0.17,incorrect
+['danny'],timm,0,0.0,incorrect
+['danny'],he,0,0.0,incorrect
+['danny'],dog,0,0.25,incorrect
+['danny'],the stray,0,0.29,incorrect
+['danny'],dog,0,0.25,incorrect
+['danny'],chunks,0,0.18,incorrect
+['danny'],driver,0,0.18,incorrect
+['thompson'],walmart,0,0.13,incorrect
+['danny'],he&lt;/,0,0.0,incorrect
+['danny'],ted,0,0.25,incorrect
+['danny'],caller,0,0.18,incorrect
+['danny'],kansas,0,0.36,incorrect
+['danny'],ward,0,0.22,incorrect
+['becky'],trailer,0,0.17,incorrect
+['pete'],gunnel,0,0.2,incorrect
+['danny'],anonymous,0,0.57,incorrect
+['danny'],kansas,0,0.36,incorrect
+['danny'],tipster,0,0.0,incorrect
+['danny'],they,0,0.22,incorrect
+['danny'],john,0,0.22,incorrect
+['danny'],question,0,0.15,incorrect
+['danny'],"his name is mentioned as ""he'll have to do some 'splainin,"" which suggests that the person in question is a person who needs to explain something. therefore, the name is ""he.""",0,0.04,incorrect
+['danny'],dog,0,0.25,incorrect
+['danny'],he,0,0.0,incorrect
+['jalbert'],sam,0,0.2,incorrect
+['danny'],dalton,0,0.55,incorrect
+['danny'],he,0,0.0,incorrect
+['jalbert'],danny,0,0.17,incorrect
+['jalbert'],one-time-only-psychic-janitor,0,0.17,incorrect
+['jalbert'],pickup,0,0.0,incorrect
+['danny'],terry,0,0.2,incorrect
+['jalbert'],he,0,0.22,incorrect
+['jalbert'],person's name,0,0.2,incorrect
+['danny'],"in the given passage, the sentence is: ""i have no doubt.[mask] hesitates a moment, then says, ""if this is how you guys act when someone does you a solid, i'd hate to see how you act when someone does you dirt."" the name that fills the [mask] token is ""he"" or ""his name is"". based on the context, the most appropriate answer is ""he"".  so, the output for this passage would be:  ",0,0.0,incorrect
+['jalbert'],trailer,0,0.57,incorrect
+['gunnel'],her name,0,0.29,incorrect
+['danny'],person's name,0,0.11,incorrect
+['danny'],james,0,0.2,incorrect
+['danny'],dwight,0,0.18,incorrect
+['becky'],dj,0,0.0,incorrect
+['jalbert'],carrie,0,0.31,incorrect
+['jalbert'],he,0,0.22,incorrect
+['beck'],dj,0,0.0,incorrect
+['darla jean'],dj,0,0.33,incorrect
+['danny'],sam,0,0.25,incorrect
+['jalbert'],call,0,0.36,incorrect
+['gunnel'],truck,0,0.18,incorrect
+['jalbert'],alex,0,0.55,incorrect
+['jalbert'],clean,0,0.17,incorrect
+['jalbert'],prophylactic,0,0.21,incorrect
+['jalbert'],susan,0,0.17,incorrect
+['john q'],citizen,0,0.18,incorrect
+['danny'],cop,0,0.0,incorrect
+['danny'],cop,0,0.0,incorrect
+['jalbert'],driver,0,0.31,incorrect
+['danny'],officer,0,0.0,incorrect
+['ball'],inspector,0,0.0,incorrect
+['ball'],fee,0,0.0,incorrect
+['ball'],person's name,0,0.12,incorrect
+['danny'],phone,0,0.2,incorrect
+['ball'],inspectors,0,0.0,incorrect
+['danny'],backup,0,0.18,incorrect
+['danny'],i,0,0.0,incorrect
+['danny'],he,0,0.0,incorrect
+['danny'],john,0,0.22,incorrect
+['danny'],no it guy,0,0.29,incorrect
+['jalbert'],partner,0,0.43,incorrect
+['danny'],he,0,0.0,incorrect
+['ball'],veronica,0,0.17,incorrect
+['ella'],you're,0,0.2,incorrect
+['danny'],he,0,0.0,incorrect
+['jalbert'],chase,0,0.33,incorrect
+['jesse'],person's name,0,0.44,incorrect
+['pat'],he,0,0.0,incorrect
+['jesse'],keys,0,0.44,incorrect
+['pat'],tru,0,0.33,incorrect
+['sarah'],eddie,0,0.0,incorrect
+['susan eggers'],name,0,0.25,incorrect
+['danny'],gym,0,0.25,incorrect
+['danny'],he,0,0.0,incorrect
+['danny'],tobin,0,0.2,incorrect
+['danny'],my employer's name,0,0.09,incorrect
+['susan eggers'],zooms,0,0.2,incorrect
+['jesse jackson'],kid,0,0.2,incorrect
+['danny'],hans,0,0.44,incorrect
+['jalbert'],market,0,0.46,incorrect
+['yvonne'],miss,0,0.0,incorrect
+['danny'],jalbert,0,0.17,incorrect
+['jalbert'],poly,0,0.18,incorrect
+['danny'],embarrassed,0,0.12,incorrect
+['danny'],speech,0,0.0,incorrect
+['danny'],leak,0,0.22,incorrect
+['can'],he,0,0.0,incorrect
+['danny'],she,0,0.0,incorrect
+['frank jalbert'],trailer,0,0.57,incorrect
+['danny'],he,0,0.0,incorrect
+['danny'],boobie,0,0.0,incorrect
+['frank'],word,0,0.22,incorrect
+['jalbert'],he,0,0.22,incorrect
+['jalbert'],guy,0,0.0,incorrect
+['calten'],person's name,0,0.21,incorrect
+['calten'],kevin,0,0.36,incorrect
+['jalbert'],hotelguest,0,0.35,incorrect
+['jalbert'],clerk,0,0.5,incorrect
+['calten'],trooper,0,0.31,incorrect
+['danny'],harry,0,0.4,incorrect
+['danny'],note,0,0.22,incorrect
+['danny'],character's name,0,0.19,incorrect
+['jalbert'],greatbend,0,0.38,incorrect
+['danny'],wreckage,0,0.15,incorrect
+['jalbert'],john,0,0.18,incorrect
+['danny'],speech,0,0.0,incorrect
+['danny'],jalbert,0,0.17,incorrect
+['danny'],kansas,0,0.36,incorrect
+['jalbert'],he,0,0.22,incorrect
+['danny'],"in the given passage, the sentence ""by trusting me just a little.[mask] tells her what he wants her to do. she doesn’t say yes… but she doesn’t say no, either."" suggests that the person speaking to the woman is a male, and the woman is not responding with a clear ""yes"" or ""no"" to his request. based on this information, the most likely name that fills the [mask] token is ""tom."" here is the output:",0,0.0,incorrect
+['danny'],he,0,0.0,incorrect
+['danny'],lawyer,0,0.36,incorrect
+['danny'],risk,0,0.0,incorrect
+['uncle red'],liar,0,0.31,incorrect
+['danny'],waitress,0,0.15,incorrect
+['danny'],dream,0,0.4,incorrect
+['jalbert'],tobin,0,0.17,incorrect
+['jalbert'],troop,0,0.17,incorrect
+['jalbert'],caller,0,0.62,incorrect
+['jalbert'],brush,0,0.33,incorrect
+['jalbert'],shout,0,0.17,incorrect
+['jalbert'],chase,0,0.33,incorrect
+['jalbert'],chase,0,0.33,incorrect
+['jalbert'],clerk,0,0.5,incorrect
+['jalbert'],inspector,0,0.25,incorrect
+['yvonne'],miss,0,0.0,incorrect
+['yvonne'],miss_name,0,0.27,incorrect
+['beer pong'],she,0,0.29,incorrect
+['danny'],he,0,0.0,incorrect
+['danny'],he,0,0.0,incorrect
+['jesse'],speech,0,0.36,incorrect
+['jesse'],sawyer,0,0.18,incorrect
+['jalbert'],she,0,0.2,incorrect
+['danny'],you,0,0.25,incorrect
+['danny'],tobin,0,0.2,incorrect
+['yvonne'],miss_name,0,0.27,incorrect
+['jalbert'],tobin,0,0.17,incorrect
+['danny'],young,0,0.2,incorrect
+['andersson'],he,0,0.18,incorrect
+['danny'],david,0,0.4,incorrect
+['ma'],tiffany,0,0.22,incorrect
+['danny'],emma,0,0.22,incorrect
+['danny'],predecessor,0,0.12,incorrect
+['ma'],she,0,0.0,incorrect
+['andersson'],he,0,0.18,incorrect
+['wolf lumber'],inspector,0,0.27,incorrect
+['shakespeare'],cloud,0,0.0,incorrect
+['andersson'],guy,0,0.0,incorrect
+['peter andersson'],message,0,0.38,incorrect
+['calten'],trooper,0,0.31,incorrect
+['yvonne'],miss,0,0.0,incorrect
+['jalbert'],vehicle,0,0.29,incorrect
+['peter andersson'],recording,0,0.29,incorrect
+['andersson'],he,0,0.18,incorrect
+['jalbert'],he,0,0.22,incorrect
+['ella'],person's name,0,0.24,incorrect
+['frank'],he,0,0.0,incorrect
+['ella'],cords,0,0.0,incorrect
+['ella'],henry,0,0.22,incorrect
+['jalbert'],thumb,0,0.17,incorrect
+['jesse'],sam,0,0.25,incorrect
+['ball'],telescope,0,0.15,incorrect
+['ball'],sam,0,0.29,incorrect
+['frank jalbert'],rumor,0,0.22,incorrect
+['jesse'],young,0,0.0,incorrect
+['danny'],person's name,0,0.11,incorrect
+['ball'],danny,0,0.22,incorrect
+['ball'],he,0,0.0,incorrect
+['bastard'],kid,0,0.2,incorrect
+['danny'],kid,0,0.25,incorrect
+['danny'],kyle,0,0.22,incorrect
+['jesse'],hand,0,0.0,incorrect
+['broder'],hugh,0,0.0,incorrect
+['ball'],doctor,0,0.0,incorrect
+['danny'],pal,0,0.25,incorrect
+['ball'],bikerider,0,0.15,incorrect
+['jalbert'],sunflower,0,0.38,incorrect
+['ball'],john,0,0.0,incorrect
+['hank allard'],voicemail,0,0.27,incorrect
+['jalbert'],table,0,0.5,incorrect
+['jalbert'],james,0,0.5,incorrect
+['allard'],buddy,0,0.18,incorrect
+['frank'],she,0,0.0,incorrect
+['ella'],belief,0,0.4,incorrect
+['jalbert'],he's,0,0.18,incorrect
+['jalbert'],retired officer,0,0.18,incorrect
+['charles beeson'],an orderly,0,0.35,incorrect
+['danny'],phone,0,0.2,incorrect
+['danny'],contacts,0,0.15,incorrect
+['jalbert'],caller,0,0.62,incorrect
+['h'],answers,0,0.0,incorrect
+['chuck'],james,0,0.0,incorrect
+['ella'],she,0,0.29,incorrect
+['jalbert'],he,0,0.22,incorrect
+['bobby feeney'],not,0,0.25,incorrect
+['bobby feeney'],fella,0,0.36,incorrect
+['bobby'],question,0,0.15,incorrect
+['ludlum'],doc,0,0.22,incorrect
+['ludlum'],mr. jenkins,0,0.12,incorrect
+['ludlum'],mr.abbott,0,0.13,incorrect
+['ludlum'],mr.,0,0.22,incorrect
+['roll'],fetal,0,0.22,incorrect
+['marm'],he,0,0.0,incorrect
+['doc'],gram,0,0.0,incorrect
+['pando'],john,0,0.22,incorrect
+['pando'],tyler,0,0.0,incorrect
+['doc'],he,0,0.0,incorrect
+['doc'],lad,0,0.33,incorrect
+['pando'],front,0,0.2,incorrect
+['bobby feeney'],peeke,0,0.55,incorrect
+['brown'],murph,0,0.2,incorrect
+['frank'],alex,0,0.22,incorrect
+['brown'],mary,0,0.22,incorrect
+['frank'],david,0,0.2,incorrect
+['frank'],lisa,0,0.22,incorrect
+['frank'],crevasse,0,0.31,incorrect
+['frank brown'],tim,0,0.0,incorrect
+['frank'],jesus,0,0.0,incorrect
+['frank'],dad,0,0.25,incorrect
+['frank'],dad,0,0.25,incorrect
+['mary'],girl,0,0.25,incorrect
+['galen'],voice,0,0.2,incorrect
+['frank'],men,0,0.25,incorrect
+['frank'],guys,0,0.0,incorrect
+['galen'],calls,0,0.4,incorrect
+['frank'],car,0,0.25,incorrect
+['frank'],"in the given passage, the sentence is:   ""[mask] chooses to ignore this. “but tell you what, we’ll stop and send someone back first place we see. in the meantime, how does ten apiece sound? for helping us out.”""  the name that fills the [mask] token is ""we'll"". the speaker is offering to send someone back first place they see, as a way of thanking the others for their help. the phrase """,0,0.0,incorrect
+['galen'],walter,0,0.55,incorrect
+['frank'],dad,0,0.25,incorrect
+['nan'],sister,0,0.0,incorrect
+['pete'],name (guess): harry,0,0.17,incorrect
+['galen'],tobin,0,0.2,incorrect
+['galen'],question,0,0.31,incorrect
+['frank'],dad,0,0.25,incorrect
+['crocker'],light,0,0.0,incorrect
+['alvarez'],captains,0,0.27,incorrect
+['alvarez'],boss,0,0.0,incorrect
+['alvarez'],intake,0,0.31,incorrect
+['alvarez'],he,0,0.22,incorrect
+['pat'],sister,0,0.22,incorrect
+['mary worth'],terry,0,0.44,incorrect
+['mary worth'],chatterton,0,0.3,incorrect
+['stuart'],captain,0,0.31,incorrect
+['mary worth'],sara,0,0.5,incorrect
+['freeman'],he,0,0.22,incorrect
+['mary worth'],turbulence,0,0.14,incorrect
+['freeman'],he,0,0.22,incorrect
+['beard scruff'],mr. williams,0,0.17,incorrect
+['freeman'],green,0,0.67,incorrect
+['frank freeman'],person's name,0,0.23,incorrect
+['mary worth'],sarah,0,0.44,incorrect
+['mary worth'],precog,0,0.25,incorrect
+['mary worth'],driver,0,0.25,incorrect
+['mary worth'],sarah,0,0.44,incorrect
+['lloyd'],dog,0,0.25,incorrect
+['beth'],leash,0,0.44,incorrect
+['lloyd sunderland'],he,0,0.17,incorrect
+['lloyd'],puppy,0,0.2,incorrect
+['beth'],lucas,0,0.0,incorrect
+['lloyd'],sister,0,0.0,incorrect
+['beth'],alligatoralley,0,0.11,incorrect
+['lloyd'],eva,0,0.0,incorrect
+['beth'],turd,0,0.25,incorrect
+['lloyd'],path,0,0.0,incorrect
+['don'],watacallit,0,0.0,incorrect
+['lloyd'],cry,0,0.25,incorrect
+['baez'],singing person's name,0,0.16,incorrect
+['beth'],lloyd,0,0.0,incorrect
+['evelyn'],dog's name,0,0.12,incorrect
+['evelyn'],cocky,0,0.18,incorrect
+['lloyd'],gator,0,0.2,incorrect
+['lloyd'],don,0,0.25,incorrect
+['lloyd'],veronica,0,0.15,incorrect
+['greg'],stroller,0,0.33,incorrect
+['greg'],sarah,0,0.22,incorrect
+['ta'],shelby,0,0.0,incorrect
+['greg'],he,0,0.33,incorrect
+['carter'],presidential,0,0.11,incorrect
+['greg ackerman'],frank,0,0.46,incorrect
+['greg'],august,0,0.2,incorrect
+['greg'],he,0,0.33,incorrect
+['trenton'],carrie,0,0.31,incorrect
+['greg'],son,0,0.0,incorrect
+['trenton'],mr.,0,0.2,incorrect
+['duma key'],key,1,1.0,correct
+['donna'],mark,0,0.22,incorrect
+['greg'],birds,0,0.22,incorrect
+['bell'],mrs.,0,0.0,incorrect
+['sotalol'],emt,0,0.2,incorrect
+['zane'],"in the given passage, the word at the [mask] token that fills the sentence best is ""he"". here's the sentence with the word ""he"" in place of the [mask] token: ""he scratched his chin. “she must have been handy. some women are. just because you think your kids are still alive forty years later doesn’t mean you can’t replace a washer or a windowpane.”""  here's the output with the name ""he",0,0.0,incorrect
+['canavan'],greene,0,0.15,incorrect
+['zane'],squeak,0,0.2,incorrect
+['bell'],mrs. kinsolving,0,0.11,incorrect
+['zane'],pelley,0,0.2,incorrect
+['bell'],twins,0,0.0,incorrect
+['donna'],eggs,0,0.0,incorrect
+['duma key'],orm,0,0.29,incorrect
+['greg ackerman'],home,0,0.25,incorrect
+['donna'],david,0,0.4,incorrect
+['donna'],jane,0,0.22,incorrect
+['zane'],dave,0,0.5,incorrect
+['tom brokaw'],news,0,0.2,incorrect
+['tad'],bell,0,0.0,incorrect
+['zane'],watson,0,0.4,incorrect
+['sandy hook'],9/11,0,0.0,incorrect
+['trenton'],mr. smith,0,0.12,incorrect
+['joe bell'],terry,0,0.25,incorrect
+['andy pelley'],keys,0,0.4,incorrect
+['zane'],i,0,0.0,incorrect
+['donna'],lisa,0,0.22,incorrect
+['donna'],mother,0,0.18,incorrect
+['tad'],question,0,0.18,incorrect
+['donna'],eliza,0,0.2,incorrect
+['trenton'],questioner,0,0.35,incorrect
+['pelley'],mask,0,0.0,incorrect
+['bell'],margaret,0,0.17,incorrect
+['jerry gant'],fire chief,0,0.2,incorrect
+['duma'],water,0,0.22,incorrect
+['duma key'],eddy,0,0.57,incorrect
+['pelley'],person's name,0,0.32,incorrect
+['bobby g'],he,0,0.0,incorrect
+['bell'],murphy,0,0.0,incorrect
+['zane'],officer,0,0.18,incorrect
+['donna'],lisa,0,0.22,incorrect
+['bell'],mrs.fitzgerald,0,0.22,incorrect
+['pelley'],it,0,0.0,incorrect
+['pelley'],prankster,0,0.27,incorrect
+['pelley'],george,0,0.33,incorrect
+['bell'],mrs. zweibel,0,0.38,incorrect
+['greg'],lucy,0,0.0,incorrect
+['greg'],twins,0,0.0,incorrect
+['greg'],stroller,0,0.33,incorrect
+['donna'],elsa,0,0.22,incorrect
+['jekyll'],tobin,0,0.0,incorrect
+['andy pelley'],andre,0,0.67,incorrect
+['bell'],mrs. jenkins,0,0.12,incorrect
+['pelley'],deputy,0,0.33,incorrect
+['greg ackerman'],bed,0,0.29,incorrect
+['greg'],guestquarters,0,0.35,incorrect
+['tad'],mask,0,0.29,incorrect
+['donna'],sheila,0,0.18,incorrect
+['tad'],jane,0,0.29,incorrect
+['zane'],he,0,0.33,incorrect
+['zane'],seth,0,0.25,incorrect
+['tad trenton'],st. bernard,0,0.43,incorrect
+['andy pelley'],alex,0,0.4,incorrect
+['andy'],detective,0,0.15,incorrect
+['pelley'],deputy,0,0.33,incorrect
+['pelley'],gulf,0,0.2,incorrect
+['pelley'],plank,0,0.36,incorrect
+['macbeth'],seth,0,0.55,incorrect
+['sylvester'],kit,0,0.17,incorrect
+['greg'],galoshes,0,0.33,incorrect
+['andy pelley'],js,0,0.0,incorrect
+['joe'],suspicion,0,0.17,incorrect
+['donna trenton'],carla,0,0.22,incorrect
+['jake bell'],tanner,0,0.4,incorrect
+['duma key'],man,0,0.57,incorrect
+['duma key'],he,0,0.4,incorrect
+['eberhard faber'],pen,0,0.25,incorrect
+['jung'],sigmund,0,0.36,incorrect
+['jung'],psychology,0,0.14,incorrect
+['annette crosby'],woman,0,0.33,incorrect
+['devereaux'],,0,0.17,incorrect
+['devereaux'],elgin,0,0.14,incorrect
+['devereaux'],gentlemanscientist,0,0.22,incorrect
+['devereaux'],wolfclaw,0,0.12,incorrect
+['blake'],mrs. smith,0,0.0,incorrect
+['pearson'],story,0,0.17,incorrect
+['nahn tu'],danny,0,0.44,incorrect
+['sally ann'],boston,0,0.27,incorrect
+['curry'],allburtons,0,0.27,incorrect
+['john parker'],david,0,0.18,incorrect
+['sally ann'],alex,0,0.44,incorrect
+['sally ann'],he,0,0.0,incorrect
+['sally ann'],sam,0,0.5,incorrect
+['toomey'],mr.,0,0.22,incorrect
+['grayson'],dr.,0,0.2,incorrect
+['curry'],conway,0,0.36,incorrect
+['curry'],phil,0,0.0,incorrect
+['jake'],leukemia,0,0.33,incorrect
+['lacasse'],mrs. sands,0,0.24,incorrect
+['frank'],driver,0,0.18,incorrect

@@ -1,0 +1,48 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+"['jalil', 'yalil', 'celil']",lucas,este,contract,an,0,0.2,0,0.22,0,0.15,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['mariam jo', 'mariam', 'meryem co']",kai,tú,ahmet,em,0,0.44,0,0.0,0,0.36,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['faizulá', 'faizu', 'molla feyzullah', 'mullah faizullah']",emma,"in the given passage, the ulema is asking a question and is referring to someone else with the [mask] token. the context suggests that the ulema is a religious figure, and the person being referred to is likely a person of importance or authority. based on this information, the most appropriate answer for the [mask] token is ""ulema,"" which is the proper name of the religious figure in the passage.  therefore, the output for the given passage is: ",elma,teacher,0,0.44,0,0.0,0,0.46,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['mil', 'jalil', 'yalil', 'celil']",wife,"in the given passage, the phrase ""las mujeres de [mask]"" suggests that the name of the group of women is to be filled in the [mask] token. the context of the sentence also suggests that the name is a proper name, not a pronoun. the name of the group of women in the passage is ""canteras"". therefore, the proper name that fills the [mask] token in the passage is ""canteras"". the output for this passage would be:",name,bà,0,0.29,0,0.0,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['lili lili', 'lili', 'lili mi']",minnow,minnow,hawk,tuế,0,0.5,0,0.5,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mariam jo', 'mariam', 'meryem co']",present,"in the given passage, the proper name that fills the [mask] token is ""me parece que"". the corrected sentence would be: ""me parece que tu madre tiene razón. será mejor que pienses en otro regalo, [me parece que] yo."" the name ""me parece que"" is a phrase, not a proper name, so it cannot be filled in the [mask] token. the correct name that fills the [mask] token is ""none"" or """,armağan,mẹ con,0,0.31,0,0.01,0,0.46,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['meryem gari', 'mariam']",sohail,garcía,cayevler,gari,0,0.4,0,0.8,0,0.33,1,1.0,incorrect,correct,incorrect,correct
+"['celil han', 'chính jalil khan', 'jalil khan', 'yalil jan']",he,chofer,instruction,jalil,0,0.4,0,0.36,0,0.3,1,1.0,incorrect,incorrect,incorrect,correct
+['nana'],mother,sara,hakan,meg,0,0.0,0,0.5,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mariam jo', 'mariam', 'meryem co']",guest,leon,giorgio,ong,0,0.18,0,0.33,0,0.38,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['bibi', 'bibi co', 'bibi jo']",jo,martí,david,"the name is ""bà"" (which means ""aunt"" in vietnamese).",1,1.0,0,0.22,0,0.22,0,0.14,correct,incorrect,incorrect,incorrect
+"['nergis', 'nargis']",his,massey,dahası,alice,0,0.44,0,0.33,0,0.33,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['jalil', 'yalil', 'celil']",he,joven,muhammad,alice,0,0.29,0,0.2,0,0.15,0,0.6,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",woman,cuerpo,fotografa,alice,0,0.2,0,0.18,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",her,martín,ali,otto,0,0.4,0,0.36,0,0.5,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",she,she,battaniye,anna,0,0.6,0,0.6,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",jan,yan,cenazelere,baa,0,0.25,0,0.5,0,0.27,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['peştun', 'tariq']",mandolin,le,tarık,mohammad,0,0.31,0,0.25,0,0.8,0,0.15,incorrect,incorrect,correct,incorrect
+['alyona'],marry,"in the given passage, the word filling the [mask] token is ""oficiales"" which means ""officials"". however, the proper name that would fit in this context is ""oficiales"" a collective term for officials, not a single name. therefore, the proper name that fills the [mask] token is ""oficiales"" and not a single name.  output: oficiales",kaptan baba,phó,0,0.36,0,0.0,0,0.35,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'tariq']",guy,name,ahmet,emma,0,0.0,0,0.22,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['abdül şerif', 'abdul sharif']",nurses,peshawar,robin,rizwan,0,0.36,0,0.57,0,0.4,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['meryem', 'mariam']","in the given passage, the word filling the [mask] token is ""her"", but we need to find the proper name that is exactly one word long and is a proper name (not a pronoun or any other word). the passage states that ""she understood with a dread that was like a blinding whack to the side of her head that what she was witnessing was nothing less than a courtship."" the proper name in this sentence is ""she"", which is the subject of the sentence. therefore",cortes,biden,miệng,0,0.02,0,0.17,0,0.18,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",diwana,benz,ali,otto,0,0.18,0,0.18,0,0.5,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'tariq']",laila,bilis,bacakları,laila,0,0.4,0,0.2,0,0.43,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",claire,garcilaso,babeklar,em,0,0.55,0,0.57,0,0.46,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",rose,patty,karl,mai,0,0.22,0,0.2,0,0.22,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",john,garcía,havuz,tuans,0,0.2,0,0.36,0,0.2,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['meryem', 'mariam']",field,kabul,sultan,cô,0,0.18,0,0.18,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mariam hiểu', 'meryem', 'mariam']",she,sommer,kadın,bà,0,0.57,0,0.5,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",banvi,talibanes,sökülen,taliban,0,0.4,0,0.29,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",mosque,mezquita,mask,bé,0,0.31,0,0.31,0,0.44,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",he,esquina,onunki,mo,0,0.44,0,0.17,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['jalil', 'yalil', 'celil']",letter,rojas,mektubu,"bà (which means ""mrs"" in vietnamese)",0,0.18,0,0.4,0,0.17,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['zalmay', 'zalmai']",jerry,berreaba,meryem,bà,0,0.18,0,0.29,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",tina,rozema,cığlıkatma,run,0,0.22,0,0.36,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'iariq', 'tariq']",cousin,primo,kuzeni,anh,0,0.18,0,0.4,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'tariq']",abdul, khwaja,işar,alice,0,0.2,0,0.18,0,0.44,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'tariq']",shopkeeper,tendero,gül,anh,0,0.13,0,0.33,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['zalmay', 'zalmai', 'zalma']",little boy,karl,neyse,ai,0,0.25,0,0.44,0,0.18,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila', 'lail']",you,oh,anne,alice,0,0.25,0,0.0,0,0.25,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",smiley,kafka,dağılma,cô,0,0.55,0,0.4,0,0.67,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['meryem', 'mariam']",women, menendez ,gulen,roommate,0,0.36,0,0.43,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",hubert,heinrich,erkek,alundra,0,0.18,0,0.15,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['hamza', 'hamza uzunca']",turner,tesla,tabağı,lee,0,0.33,0,0.2,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['celil han', 'jalil khan', 'yalil jan']",guzman,matrimonio,meryem,bố,0,0.44,0,0.32,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['laila', 'leyla co']",kolba,kolba,leyla,kolba,0,0.4,0,0.4,1,1.0,0,0.4,incorrect,incorrect,correct,incorrect
+"['leyla', 'laila']",children,aula,karma,alice,0,0.31,0,0.44,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect

@@ -1,0 +1,52 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+['caroline beaufort'],eva,garcía,soldat,con,0,0.36,0,0.43,0,0.35,0,0.55,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],sophie,our nearby march&lt;/,canim,ingolstadt,0,0.13,0,0.2,0,0.14,0,0.32,incorrect,incorrect,incorrect,incorrect
+"['krempe', 'thần hủy hoạ', 'señor krempe', 'm']",hegeler,somerville,profesör,krempe,0,0.33,0,0.4,0,0.46,1,1.0,incorrect,incorrect,incorrect,correct
+"['waldman', 'm', 'profesör waldman']",professors,schoen,gönderdi,thuy,0,0.89,0,0.29,0,0.17,0,0.0,correct,incorrect,incorrect,incorrect
+"['krempe', 'señor krempe', 'm']",professor,eliseo,professor,professor xích's father,0,0.43,0,0.55,0,0.43,0,0.29,incorrect,incorrect,incorrect,incorrect
+['dante'],even,engendro,mumya,anh,0,0.22,0,0.15,0,0.2,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['frankenstein', 'clerval']",henry,name,dolunay,frankenstein,0,0.33,0,0.25,0,0.29,1,1.0,incorrect,incorrect,incorrect,correct
+['clerval'],george,sorrok,gürültü,anh,0,0.31,0,0.15,0,0.14,0,0.2,incorrect,incorrect,incorrect,incorrect
+['henry'],event,sacharhoff,sozluk,bạn tôi,0,0.4,0,0.27,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['clerval', 'querido clerval']",letter,pablo,sefil,alice,0,0.46,0,0.17,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['henry'],ludwig,pablo,friend,alice,0,0.0,0,0.0,0,0.36,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",hussein,kafka,oryantalist,alice,0,0.15,0,0.18,0,0.33,0,0.36,incorrect,incorrect,incorrect,incorrect
+['clerval'],jean,kafka,cenevre,alice,0,0.36,0,0.17,0,0.43,0,0.33,incorrect,incorrect,incorrect,incorrect
+['clerval'],friend,name,dingin,alice,0,0.15,0,0.18,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",fred,tirzah,mektubu,tôi,0,0.2,0,0.33,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['william'],fravart,secheron,zavallii,emma,0,0.14,0,0.0,0,0.4,0,0.18,incorrect,incorrect,incorrect,incorrect
+['justine'],leo,ligotti,ben,anh,0,0.2,0,0.29,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['justine'],defence,garcía,gözyaşları,rịa,0,0.29,0,0.15,0,0.24,0,0.2,incorrect,incorrect,incorrect,incorrect
+['justine'],she,almendres,yanına,cô,0,0.4,0,0.12,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+['justine'],desparcelle,kafka,pişmanlık,alice,0,0.22,0,0.0,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],dusable,name,cilvekeş,alice,0,0.38,0,0.15,0,0.24,0,0.43,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],sara,kafka,üzgün,nàng,0,0.15,0,0.14,0,0.14,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",season,enero,sunay,tôi,0,0.18,0,0.2,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",society,kafka,mülkiyet,alice,0,0.17,0,0.2,0,0.15,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",juliette,franco,mektuplar,nàng,0,0.31,0,0.18,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['de lacey', 'de lace']", blindman ,anciano,ihtiyar,cụ,0,0.33,0,0.36,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['de lacey', 'de lacey—']",sid,mendoza,birazkan,john,0,0.4,0,0.27,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['de lacey'],"in the given passage, the proper name that fills the [mask] token is ""cottage"". the corrected sentence would be: ""i had certainly acted imprudently. it was apparent that my conversation had interested the father in my behalf, and i was a fool in having exposed my person to the horror of his children. i ought to have familiarised the old man (at the) cottage to me, and by degrees to have discovered myself to the rest of his family, when they should",anciano,ihtiyar,cụ,0,0.0,0,0.33,0,0.17,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",horvath, gómez ,beni,eva,0,0.0,0,0.2,0,0.44,0,0.25,incorrect,incorrect,incorrect,incorrect
+['henry'],leo,gómara,gömülen,anh,0,0.25,0,0.18,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['clerval', 'ren']",morland,morrison,name,alice,0,0.4,0,0.36,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['henry'],fred,scotsman,ricarda,alice,0,0.22,0,0.15,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],lucas,maria,ezgi,alice,0,0.29,0,0.29,0,0.31,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",mr. wells,magistrado,beyefendi,them,0,0.44,0,0.33,0,0.13,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['daniel nugent', 'daniel nugen']",antonio,cuylovo,oğul,anh ta,0,0.46,0,0.17,0,0.22,0,0.42,incorrect,incorrect,incorrect,incorrect
+['daniel'],rubin,boticario,adam,bà,0,0.18,0,0.27,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['señor kirwin', 'mr kirwin', 'kirwin']",magistrate,magistrado,hana,ông,0,0.33,0,0.33,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",hobson,meyer,dr,"based on the given passage, the name that fills the [mask] token is ""mr."" the passage states, ""tuy nhiên sau đó tôi mau chóng được biết ông [mask] đối với tôi tốt vô cùng."" the speaker is trying to describe a gentleman who was very kind to them, and the gentleman's name is not mentioned in the passage. the",0,0.17,0,0.57,0,0.5,0,0.01,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",mask,tolstoy,yüzüme,sát,0,0.2,0,0.15,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['señor kirwin', 'mr kirwin', 'kirwin']",mr. thompson,el,delikanli,ong,0,0.38,0,0.29,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",griggs, salazar,savunma,ông,0,0.27,0,0.22,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['henry', 'henr']",monster,monstruo,karanci,alice,0,0.36,0,0.33,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],levent, kafka ,hakkımdaki,hắn,0,0.4,0,0.14,0,0.21,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",father,demonio,dad,tôi,0,0.4,0,0.36,0,0.17,0,0.29,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],distraction,esquivel,dalgınlaşıyordu,nana,0,0.3,0,0.24,0,0.25,0,0.15,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],lucifer,melchior,efendim,alice,0,0.12,0,0.35,0,0.25,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['margaret', 'margare']",eugene,reloso,volkan,anh,0,0.31,0,0.31,0,0.15,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['margaret', 'margare']",shelley,kafka,kardeş,chị,0,0.14,0,0.33,0,0.46,0,0.0,incorrect,incorrect,incorrect,incorrect
+['frankenstein'],the ice,severn,uyuklama,thủy,0,0.21,0,0.22,0,0.1,0,0.12,incorrect,incorrect,incorrect,incorrect
+['frankenstein'],he,señor,vicdan,mi,0,0.14,0,0.24,0,0.22,0,0.14,incorrect,incorrect,incorrect,incorrect
+['clerval'],corpi,meimpondrillos,cesedi,alice,0,0.33,0,0.19,0,0.31,0,0.33,incorrect,incorrect,incorrect,incorrect

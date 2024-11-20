@@ -1,0 +1,263 @@
+Single_ent,en_masked_results,en_exact_match,en_highest_fuzzy_match,en_correct
+['jake'],forgetting,0,0.14,incorrect
+['jake'],west,0,0.25,incorrect
+['anna'],west,0,0.0,incorrect
+['anna'],tamara,0,0.4,incorrect
+['john wayne'],destination,0,0.27,incorrect
+['anna'],hand,0,0.5,incorrect
+['anna'],west,0,0.0,incorrect
+['conan'],he,0,0.0,incorrect
+['anna'],focus,0,0.0,incorrect
+['jake'],charlie,0,0.36,incorrect
+['jake'],weston,0,0.2,incorrect
+['conan'],sound,0,0.4,incorrect
+['jake'],he,0,0.33,incorrect
+['anna'],wife,0,0.0,incorrect
+['anna'],kermit,0,0.0,incorrect
+['anna'],her,0,0.0,incorrect
+['anna'],emma,0,0.25,incorrect
+['anna'],he,0,0.0,incorrect
+['anna'],ava,0,0.57,incorrect
+['anna'],societay,0,0.17,incorrect
+['jake'],photograph,0,0.14,incorrect
+['jenny nelson'],nose,0,0.4,incorrect
+['anna'],tyler,0,0.0,incorrect
+['anna'],trip,0,0.0,incorrect
+['anna'],hobnob,0,0.2,incorrect
+['babe'],she,0,0.29,incorrect
+['anna'],card,0,0.25,incorrect
+['anna green'],airport-goers,0,0.26,incorrect
+['anna'],she,0,0.0,incorrect
+['anna'],lisa,0,0.25,incorrect
+['anna'],emma,0,0.25,incorrect
+['anna'],she,0,0.0,incorrect
+['anna green'],character's name&lt;/,0,0.26,incorrect
+['anna'],eva,0,0.29,incorrect
+['anna'],sarah,0,0.44,incorrect
+['anna'],she,0,0.0,incorrect
+['anna'],she,0,0.0,incorrect
+['jake'],sibling's name,0,0.22,incorrect
+['anna'],sarah,0,0.44,incorrect
+['kellan mckellan'],weston,0,0.33,incorrect
+['anna'],attendant,0,0.31,incorrect
+['anna'],west,0,0.0,incorrect
+['gede'],islandname,0,0.14,incorrect
+['janet'],carla,0,0.2,incorrect
+['anna'],woman,0,0.44,incorrect
+['janet'],mother,0,0.18,incorrect
+['anna'],lucas,0,0.22,incorrect
+['gede'],cookies,0,0.18,incorrect
+['anna'],karma,0,0.44,incorrect
+['anna'],alex,0,0.25,incorrect
+['anna'],worriedwife,0,0.0,incorrect
+['anna'],weston,0,0.2,incorrect
+['jake'],tobin,0,0.0,incorrect
+['jake'],alex,0,0.5,incorrect
+['anna'],sara,0,0.5,incorrect
+['anna'],family,0,0.2,incorrect
+['jake'],tray,0,0.25,incorrect
+['jake'],shaw,0,0.25,incorrect
+['jake'],name,0,0.5,incorrect
+['anna'],mia,0,0.29,incorrect
+['anna'],bliss,0,0.0,incorrect
+['janet'],professor,0,0.14,incorrect
+['perfect'],mr.,0,0.2,incorrect
+['alex'],you,0,0.0,incorrect
+['alex'],dean,0,0.25,incorrect
+['alex'],therapist's,0,0.13,incorrect
+['alex'],hank,0,0.25,incorrect
+['alex'],if,0,0.0,incorrect
+['alex'],west,0,0.25,incorrect
+['anna'],jessica,0,0.18,incorrect
+['anna'],sarah,0,0.44,incorrect
+['anna'],emma,0,0.25,incorrect
+['anna'],bedroom,0,0.0,incorrect
+['anna'],fine,0,0.25,incorrect
+['anna'],she,0,0.0,incorrect
+['alex'],anna,0,0.25,incorrect
+['anna'],she,0,0.0,incorrect
+['eko'],she,0,0.33,incorrect
+['alex'],sam,0,0.29,incorrect
+['alex'],tobey,0,0.22,incorrect
+['anna'],girl,0,0.0,incorrect
+['alex'],alex,1,1.0,correct
+['alex'],she,0,0.29,incorrect
+['anna'],she,0,0.0,incorrect
+['anna'],our father's,0,0.12,incorrect
+['alex'],brother,0,0.18,incorrect
+['anna'],sara,0,0.5,incorrect
+['golden boy'],fontana,0,0.31,incorrect
+['jake'],sam,0,0.29,incorrect
+['anna'],wendy,0,0.22,incorrect
+['anna'],finger,0,0.2,incorrect
+['jake'],leg,0,0.29,incorrect
+['anna'],annie,0,0.67,incorrect
+['godda'],dick,0,0.22,incorrect
+['anna'],hot,0,0.0,incorrect
+['mel'],roommate,0,0.36,incorrect
+['janet'],shelby,0,0.18,incorrect
+['jake'],table,0,0.44,incorrect
+['lemon'],mr.,0,0.25,incorrect
+['anna'],girl,0,0.0,incorrect
+['anna'],sue,0,0.0,incorrect
+['anna'],person's name,0,0.35,incorrect
+['anna'],summer,0,0.0,incorrect
+['anna'],guy,0,0.0,incorrect
+['anna'],mom,0,0.0,incorrect
+['anna'],trip,0,0.0,incorrect
+['anna'],friend's name,0,0.35,incorrect
+['anna'],her,0,0.0,incorrect
+['anna'],sarah,0,0.44,incorrect
+['ray'],west's father,0,0.12,incorrect
+['alex'],his name,0,0.33,incorrect
+['alex'],chon,0,0.0,incorrect
+['alex'],west,0,0.25,incorrect
+['alex'],west,0,0.25,incorrect
+['anna'],thought,0,0.0,incorrect
+['anna'],fake,0,0.25,incorrect
+['jake'],brother,0,0.18,incorrect
+['jake'],he,0,0.33,incorrect
+['alex'],henry,0,0.22,incorrect
+['kellan mckellan'],daughter,0,0.14,incorrect
+['alex'],dad,0,0.29,incorrect
+['jake'],he,0,0.33,incorrect
+['anna'],her,0,0.0,incorrect
+['anna green'],person's name,0,0.35,incorrect
+['tom ford'],dress,0,0.22,incorrect
+['janet'],unfold,0,0.18,incorrect
+['jake'],groom's,0,0.0,incorrect
+['jake'],west,0,0.25,incorrect
+['jake'],sam,0,0.29,incorrect
+['jake'],west,0,0.25,incorrect
+['jake'],foot,0,0.0,incorrect
+['bern'],mark,0,0.25,incorrect
+['janet'],samantha,0,0.46,incorrect
+['boone'],mount,0,0.4,incorrect
+['janet'],west,0,0.44,incorrect
+['janet'],she,0,0.25,incorrect
+['anna'],prospect,0,0.0,incorrect
+['anna'],her,0,0.0,incorrect
+['mckellans'],wealthy,0,0.25,incorrect
+['anna'],ian,0,0.57,incorrect
+['anna'],bridge,0,0.0,incorrect
+['anna'],sarah,0,0.44,incorrect
+['jack lemmon'],dress,0,0.18,incorrect
+['anna'],sarah,0,0.44,incorrect
+['anna'],emma,0,0.25,incorrect
+['anna'],wezi,0,0.0,incorrect
+['janet'],ava,0,0.25,incorrect
+['legolas'],wig,0,0.2,incorrect
+['anna'],committed,0,0.0,incorrect
+['anna'],wedding,0,0.18,incorrect
+['anna'],familymember,0,0.12,incorrect
+['anna'],florence,0,0.17,incorrect
+['anna'],alex,0,0.25,incorrect
+['anna'],sister,0,0.0,incorrect
+['jake'],dance,0,0.44,incorrect
+['eko'],didi,0,0.0,incorrect
+['reagan'],sarah,0,0.36,incorrect
+['reagan'],uncle,0,0.18,incorrect
+['reagan'],her,0,0.22,incorrect
+['reagan'],west,0,0.2,incorrect
+['reagan'],show,0,0.0,incorrect
+['anna'],tobin,0,0.22,incorrect
+['alex'],west,0,0.25,incorrect
+['alex'],he,0,0.33,incorrect
+['anna'],she,0,0.0,incorrect
+['alex'],sibling,0,0.18,incorrect
+['anna'],person's name,0,0.35,incorrect
+['anna'],askar,0,0.44,incorrect
+['anna'],guess,0,0.0,incorrect
+['anna'],he,0,0.0,incorrect
+['anna'],she,0,0.0,incorrect
+['anna green'],her,0,0.25,incorrect
+['anna'],relax,0,0.22,incorrect
+['anna'],emma,0,0.25,incorrect
+['anna'],creature,0,0.17,incorrect
+['anna'],her,0,0.0,incorrect
+['anna'],tuck,0,0.0,incorrect
+['anna'],tim,0,0.0,incorrect
+['anna'],stretching,0,0.14,incorrect
+['anna'],sarah,0,0.44,incorrect
+['anna green'],sara,0,0.5,incorrect
+['ray'],she,0,0.0,incorrect
+['anna'],her,0,0.0,incorrect
+['anna'],scheme,0,0.0,incorrect
+['anna'],lust,0,0.0,incorrect
+['anna'],eva,0,0.29,incorrect
+['anna'],eva,0,0.29,incorrect
+['anna'],ava,0,0.57,incorrect
+['anna'],tyler,0,0.0,incorrect
+['anna'],she,0,0.0,incorrect
+['grandpa'],ewing,0,0.17,incorrect
+['alex'],sibling's name,0,0.22,incorrect
+['alex'],siblings,0,0.17,incorrect
+['anna'],name,0,0.5,incorrect
+['anna'],emma,0,0.25,incorrect
+['anna'],girl,0,0.0,incorrect
+['janet'],drawls,0,0.18,incorrect
+['anna'],name,0,0.5,incorrect
+['mel'],callan,0,0.22,incorrect
+['ray'],tobin,0,0.0,incorrect
+['ray'],janet,0,0.25,incorrect
+['janet'],woman,0,0.4,incorrect
+['reagan'],emma,0,0.4,incorrect
+['ray'],sean,0,0.29,incorrect
+['ray'],finn,0,0.0,incorrect
+['ray'],he,0,0.0,incorrect
+['anna'],person's name,0,0.35,incorrect
+['anna'],wendy,0,0.22,incorrect
+['anna'],island,0,0.4,incorrect
+['jake'],groomsmen,0,0.15,incorrect
+['anna'],jerry,0,0.0,incorrect
+['anna green'],alex,0,0.29,incorrect
+['anna'],she,0,0.0,incorrect
+['alex'],he,0,0.33,incorrect
+['alex'],person's name,0,0.24,incorrect
+['alex'],character's name,0,0.2,incorrect
+['jake'],person's name,0,0.24,incorrect
+['alex'],conor,0,0.0,incorrect
+['alex'],hand,0,0.25,incorrect
+['anna'],my brother,0,0.0,incorrect
+['anna'],ethan,0,0.44,incorrect
+['anna green'],wes,0,0.25,incorrect
+['anna green'],isabella,0,0.33,incorrect
+['alex'],emma,0,0.25,incorrect
+['anna'],intention,0,0.31,incorrect
+['alex'],he,0,0.33,incorrect
+['alex'],shane,0,0.44,incorrect
+['ray'],adam,0,0.29,incorrect
+['kellan'],husband,0,0.31,incorrect
+['jake'],witness,0,0.18,incorrect
+['jake'],character's name,0,0.2,incorrect
+['janet'],stranger,0,0.46,incorrect
+['mel'],he,0,0.4,incorrect
+['mel'],buermeyer,0,0.33,incorrect
+['anna'],frustration,0,0.27,incorrect
+['anna'],ex boyfriend,0,0.12,incorrect
+['anna'],business,0,0.17,incorrect
+['anna'],eva,0,0.29,incorrect
+['anna'],she,0,0.0,incorrect
+['anna'],john,0,0.25,incorrect
+['anna'],lettinggo,0,0.15,incorrect
+['jake'],name,0,0.5,incorrect
+['anna'],artwork,0,0.18,incorrect
+['anna'],ethan,0,0.44,incorrect
+['anna glow'],"in the given passage, the word filling the [mask] token is ""way"". however, based on the context, the word that best fits the sentence and makes sense is ""looks"". here's the corrected passage:  <passage>dad shakes his head, laughing. “i just want what’s best for you, and when you were talking about your time on the island, you had that looks. you never talk about guys this way with me.”</passage>",0,0.0,incorrect
+['anna'],friend,0,0.2,incorrect
+['ray'],boy,0,0.33,incorrect
+['kasey'],court,0,0.0,incorrect
+['jake'],this,0,0.0,incorrect
+['alex'],television,0,0.29,incorrect
+['grandpa'],"in the given passage, the word filling the [mask] token is ""mask"". however, it is important to note that ""mask"" in this context is not a proper name, but rather a placeholder for a person or thing that needs to be kept anonymous or protected. therefore, the proper name that fills the [mask] token is ""name"", as it is the most appropriate answer based on the context of the passage.  so, the output would be:  <name>",0,0.0,incorrect
+['alex'],he,0,0.33,incorrect
+['anna'],person's name,0,0.35,incorrect
+['anna'],mask,0,0.25,incorrect
+['anna'],emma,0,0.25,incorrect
+['anna'],kermit,0,0.0,incorrect
+['anna'],david,0,0.22,incorrect
+['anna'],community,0,0.15,incorrect
+['anna'],girlfriend,0,0.14,incorrect
+['anna'],woman,0,0.44,incorrect
+['alex'],amber,0,0.44,incorrect
+['anna'],tye,0,0.0,incorrect

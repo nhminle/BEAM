@@ -1,0 +1,49 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+['george'],bindle,hatillo,pekem,tao,0,0.17,0,0.15,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+['george'],he,sujeto,ermi,anh,0,0.25,0,0.33,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lennie'],he,silvio,ben,từ,0,0.25,0,0.33,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lennie'],he,canturreó,whisper,lí,0,0.25,0,0.13,0,0.15,0,0.5,incorrect,incorrect,incorrect,incorrect
+['george'],tobey,dio,sert,tong,0,0.18,0,0.22,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+['george'],harry,fernando,ata,vung,0,0.18,0,0.29,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lennie'],advantage,cebo,yutmadı,tom,0,0.13,0,0.2,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['george', 'geroge']",guys,no,"in the given passage, the proper name that fills the [mask] token is ""devam etti: 'bize gelince iş değişir. bizim umduğumuz var. bizim konuşacak, bize ilgi gösterecek bir kimsez var. gidecek başka yeri olmadığı için, bir meyhanede oturup bütün parasın",mình,0,0.2,0,0.25,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lenni', 'lennie']",bronson,"in the given passage, the phrase ""yea, oye, [mask]..."" suggests that the speaker is giving a suggestion or recommendation to the person they are talking to. the word ""yea"" is usually used to emphasize a statement, and ""oye"" is a common way to say ""oh yes"" or ""yes, you know"" in spanish. the word ""matorral"" means ""thicket"" or ""scrubland"", and it seems to be the place",dinle,hao,0,0.33,0,0.0,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],box,cajarez,sam,cụ,0,0.22,0,0.15,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lennie'],man,cox,adam,tam,0,0.22,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],walk,conductor,shofor,gia,0,0.0,0,0.27,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+['george'],worker,klosne,turk,nó,0,0.5,0,0.17,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['lenni', 'lennie']",you,ése,ermiş,may,0,0.0,0,0.44,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],hal,lavandaso,gidip,chu,0,0.0,0,0.13,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],hand,letter,mallar,sun,0,0.0,0,0.33,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['george', 'george—']",person's name,no,aile,nguyễn,0,0.32,0,0.25,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+['lennie'],person's name,garcía,yururak,ao,0,0.42,0,0.17,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['carlson'],hobart,luger,luger,hannibal,0,0.31,0,0.17,0,0.17,0,0.27,incorrect,incorrect,incorrect,incorrect
+['george'],tobin, montesinos,sebi,tôi,0,0.18,0,0.25,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['lennie'],hawk,gurney,"kuwetle (the snore) [mask] - the name of the person or thing snoring is ""kuwetle"". the proper name in this context is not a pronoun, but the name of the activity of snoring. the passage states, ""kuwetle nefes alıyordu. 'hele bir kapmaya kalksınlar, dünyanın kaç köşesi olduğunu gösteririm on",hoàng,0,0.0,0,0.17,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['candy'],tobey,sobresaltillo,david,lão,0,0.2,0,0.11,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+['george'],he,los dos viejos,burnu,lão,0,0.25,0,0.2,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['candy'],tobin,foca,suzanne,bác,0,0.2,0,0.44,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['carlson—', 'carlson']",he,carrao,karacaso,le,0,0.0,0,0.62,0,0.53,0,0.22,incorrect,incorrect,incorrect,incorrect
+['crooks'],buck,ansari,koşumluk,alice,0,0.4,0,0.17,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+['george'],month,name: césar,tam,name,0,0.18,0,0.24,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['curley'],sheila,mujer,il,vô,0,0.17,0,0.36,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lennie'],chains,horses,name,may,0,0.17,0,0.17,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lennie'],puppy,zeno,ahir,hán,0,0.0,0,0.4,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['george'],he,matorral,söylendi,anh,0,0.25,0,0.29,0,0.14,0,0.0,incorrect,incorrect,incorrect,incorrect
+['curley'],friend,amigo&lt;/name,benimse,anh,0,0.33,0,0.2,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lennie'],pup,rato,unutkar,hán,0,0.0,0,0.0,0,0.15,0,0.22,incorrect,incorrect,incorrect,incorrect
+['lennie'],he,rats,ihtiyatla,phuong,0,0.25,0,0.0,0,0.13,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['curley', 'vợ curley']",mrs. [surname],ana,kerem,sun,0,0.35,0,0.0,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['curley', 'curle']",mrs. jenkins,gómez,kopek,vom,0,0.24,0,0.2,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['curley'],wife,hernán,pudral,nàng,0,0.2,0,0.17,0,0.5,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],person's name,gómez,karl,rơi_hắn,0,0.32,0,0.36,0,0.2,0,0.15,incorrect,incorrect,incorrect,incorrect
+['george'],he,galt,uluc,khanh,0,0.25,0,0.2,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],bob,he,pekari,"here is the passage with the proper name filled in the [mask] token:  ""chờ tôi hai phút đi. rồi bác chạy ra và nói với họ là bác vừa thấy ả xong. tôi chuồn đây. [bác] quay mình và đi nhanh ra kh",0,0.22,0,0.25,0,0.33,0,0.05,incorrect,incorrect,incorrect,incorrect
+['george'],tim,name,güney,nó,0,0.0,0,0.2,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+['lennie'],snake,la,birdenbire,sông,0,0.18,0,0.25,0,0.5,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['lennie im', 'lennie']",sam,borde,kuş,alice,0,0.4,0,0.18,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+['george'],"in the given passage, the text ""you'd forget 'em and let 'em go hungry. that's what you'd do. an' then what would [mask] think?"" suggests that the character is discussing someone who is not fit to take care of rabbits. the phrase ""you'd forget 'em and let 'em go hungry"" implies that the character is referring to a person who is not responsible or reliable.   based on this context, the proper name that fills the [mask",burlonario,tavşan,bác,0,0.0,0,0.25,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],sam,se,ses,nó,0,0.0,0,0.25,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['george', 'george—']",he,gala,he,dan,0,0.25,0,0.2,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lennie'],brush,matorrales,ruzgar,wind,0,0.0,0,0.25,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['george'],gun,armonía,fırlat,tôi,0,0.22,0,0.15,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect

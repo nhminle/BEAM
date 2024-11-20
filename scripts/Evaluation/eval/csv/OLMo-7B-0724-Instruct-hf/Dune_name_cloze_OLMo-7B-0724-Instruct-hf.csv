@@ -1,0 +1,384 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+['paul'],oldwoman,sobres,alevlendiricisiz,ai,0,0.17,0,0.0,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],arrakeen,kafka,arrakis,arrakeen,0,0.17,0,0.22,0,0.18,0,0.17,incorrect,incorrect,incorrect,incorrect
+['paul'],meditation,name,gerginliği,alice,0,0.14,0,0.25,0,0.14,0,0.44,incorrect,incorrect,incorrect,incorrect
+['jessica'],saya,suybi,syubi,nàng,0,0.36,0,0.33,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],command,leone,kirbaci,bà,0,0.18,0,0.22,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],cube,metal,cups,baa-ta,0,0.25,0,0.44,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],hand,liso,parmak,mask,0,0.25,0,0.25,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],face,dentes,"in the given passage, the subject that describes a person who couldn't feel their eyes despite making efforts to listen to the sound, despite having a deafening noise in their ears from blowing their horn, and despite having old and wrinkled face, is ""kadının yaşlı ve kırışıklı yüzünden, ışıldayan gözlerinden ve konuşurken parlayan, gümüş rengi metal",bà ta,0,0.25,0,0.0,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],hand,heat,yanmasokak,alice,0,0.25,0,0.25,0,0.14,0,0.44,incorrect,incorrect,incorrect,incorrect
+['paul'],old,markova,ermeniz,là,0,0.29,0,0.18,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jessica'],eva,sommer,olgum,anng,0,0.4,0,0.15,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bene gesserit'],genetic,"in the given passage, the word filling the [mask] token is ""ascendencia"" which means ""heritage"" or ""ascendance"". however, the context suggests that the correct name should be the person who is mentioned in the sentence, ""tu madre sabe que es de ascendencia [mask],"". the only name that fits in this context is ""ascendencia"" itself, which means ""heritage"". therefore, the proper name that fills the [mask",annen,lines,0,0.55,0,0.01,0,0.44,0,0.44,incorrect,incorrect,incorrect,incorrect
+['jessica'],flotsam,imperio,genetik,choam,0,0.29,0,0.29,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,sobres,gözkerler,nàng,0,0.2,0,0.31,0,0.12,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessic']",son,name,father,lão,0,0.22,0,0.2,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,brusco,fısıl,nàng,0,0.2,0,0.31,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],platitudes,tópicos,birden,bà ta,0,0.43,0,0.18,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],he,ramos,duygu,an,0,0.0,0,0.22,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['hawat'],cution,sterne,söz,anh,0,0.18,0,0.18,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],water,metaglass,name,nước,0,0.22,0,0.31,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],hand,peterson,kadın,cái,0,0.25,0,0.17,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",eurich,sobres,name,he,0,0.2,0,0.0,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['halleck', 'paul']",weapons,santiago,odanın,nguyễn thị minh khải,0,0.18,0,0.17,0,0.2,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",gawain,madre,fred,le,0,0.2,0,0.22,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['gurney'],baliset,baliset,song,eva,0,0.15,0,0.15,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],tobin,cintron,dedi,"the name is ""thy"".",0,0.0,0,0.0,0,0.0,0,0.09,incorrect,incorrect,incorrect,incorrect
+['halleck'],hellfiend,demonio,zeban,quỷ sứ,0,0.5,0,0.14,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['halleck', 'giọng halleck']",you,balisi,sesini,alice,0,0.25,0,0.31,0,0.36,0,0.5,incorrect,incorrect,incorrect,incorrect
+['halleck'],emotions,ayer,hand,john,0,0.13,0,0.36,0,0.36,0,0.18,incorrect,incorrect,incorrect,incorrect
+['halleck'],he,gambara,trainer,alice,0,0.44,0,0.14,0,0.29,0,0.5,incorrect,incorrect,incorrect,incorrect
+['paul'],rapier,muñeco,mankene,ana,0,0.2,0,0.2,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],projection,dune,arrakis,arrakis,0,0.14,0,0.25,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],notch,mark,book,ana,0,0.0,0,0.25,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],father,his,muhafızlardan,cann,0,0.2,0,0.0,0,0.24,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],questioner,reverenda madre,yumrukat,em,0,0.14,0,0.11,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jessica'],hall,anacronismo,salon,alundra,0,0.18,0,0.11,0,0.33,0,0.14,incorrect,incorrect,incorrect,incorrect
+['paul'],guardcar,coche,dük,ong,0,0.17,0,0.0,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessica—']",spiders,name,answer,storyteller,0,0.29,0,0.18,0,0.15,0,0.11,incorrect,incorrect,incorrect,incorrect
+['jessica'],character's name,proudho,dedi,alice,0,0.26,0,0.0,0,0.36,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,elio,bene,nadira,0,0.2,0,0.36,0,0.18,0,0.31,incorrect,incorrect,incorrect,incorrect
+['mapes'],blade,kindjal,kincal,an,0,0.4,0,0.17,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,shelley,güçlü,nàng,0,0.2,0,0.14,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],bull,duque,tone,alert,0,0.0,0,0.17,0,0.18,0,0.17,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,sobrevís,giderek,an,0,0.2,0,0.27,0,0.14,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],bedroom,cama,yatağı,bed,0,0.0,0,0.25,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],wave,pez,odanın,sung,0,0.25,0,0.29,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],dwight,ornithopter,ortotok,anh,0,0.0,0,0.13,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],hand,cazador-buscador,suikast,kim,0,0.25,0,0.2,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,oliveira,door,nàng,0,0.2,0,0.4,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],depression,palmer,oyuk,vinh,0,0.47,0,0.15,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],wheelman,karma,kolay,nàng,0,0.27,0,0.17,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,duch,ortubey,alina,0,0.2,0,0.18,0,0.14,0,0.33,incorrect,incorrect,incorrect,incorrect
+['leto'],deli,polvo,"in the given passage, the word filling the [mask] token is ""capalı"" which means ""doors"". however, the context of the passage suggests that the author refers to the fact that the doors and windows in many homes in arrakeen were closed to prevent the sand from entering, which is unusual. based on this context, the proper name that fills the [mask] token is ""evin sahipleri"" which means ""owners of the house"". here is the",arrakeen,0,0.25,0,0.44,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['jessica'],pad,borde,note,nàng,0,0.2,0,0.17,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],seeker,tello,ana,nàng,0,0.15,0,0.17,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['leto'],discretion,kagna,gulen,alice,0,0.43,0,0.0,0,0.44,0,0.44,incorrect,incorrect,incorrect,incorrect
+['paul'],father,señor,babsi,alfred,0,0.2,0,0.0,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+['stilgar'],andre,kafka,dedi,john,0,0.33,0,0.17,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],father,padre,babsi,view,0,0.2,0,0.44,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],argument,antes,staff,ban,0,0.33,0,0.22,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['hawat'],character's name,severo,adem,anh,0,0.38,0,0.0,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['leto'],guard,pila,speech,điều,0,0.0,0,0.25,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['leto'],shield,escudo,ufuk,tường,0,0.2,0,0.4,0,0.0,0,0.44,incorrect,incorrect,incorrect,incorrect
+['paul'],father,padre,yorgun,father,0,0.2,0,0.44,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],father,fatmos,baba,nuong,0,0.2,0,0.2,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['kynes', 'dr kynes']",dr.,doctor,insanlarla,tiến sĩ,0,0.8,0,0.5,0,0.27,0,0.33,correct,incorrect,incorrect,incorrect
+['leto'],eck,gandhi,adam,mr. wang,0,0.29,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],desert,somora,vaca,ai,0,0.0,0,0.2,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],father,padre,babsi,chim,0,0.2,0,0.44,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],altus,ornitoptero,"gölgeli[mask] dinledi. asağı düz gibi görünen gölgelerin girdiği şekiller bunu yalanlıyordu. (the bird-like drone hovered above the ground. the owl [mask] saw the two tractors moving along, despite appearing flat from below. they claimed that the shapes in which the tractors entered were false.)  based on the given passage, the",tau,0,0.44,0,0.13,0,0.0,0,0.57,incorrect,incorrect,incorrect,incorrect
+['paul'],beetle,trompa,burn,cat,0,0.2,0,0.4,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],men,men,adamlar,alice,0,0.0,0,0.0,0,0.36,0,0.44,incorrect,incorrect,incorrect,incorrect
+['paul'],turbulence,sandberg,fabrikan,bó,0,0.29,0,0.17,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['kynes', 'kynes—', 'ngài']",ezra,buyero,mısır,kynes,0,0.25,0,0.36,0,0.22,1,1.0,incorrect,incorrect,incorrect,correct
+['leto'],shelley,somozu,besbelli,alice,0,0.36,0,0.2,0,0.17,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['leydi jessica', 'dama jessica', 'jessica']",lady astor,carthag,dük,lady,0,0.35,0,0.36,0,0.29,0,0.44,incorrect,incorrect,incorrect,incorrect
+['jessica'],sara,santoro,açik,alice,0,0.36,0,0.29,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+['leto'],hear,grupo,adam,ong,0,0.25,0,0.22,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jessica'],shaw,gorky,subay,alice,0,0.36,0,0.0,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],passer,lanz,kadın,cha,0,0.4,0,0.25,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessica—']",seth,su padre,efendim,cha,0,0.18,0,0.13,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['kynes', 'jessica']",her,comas,dük,ông,0,0.25,0,0.2,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['leto', 'leto—']",custom,somerville,dedi,cong,0,0.4,0,0.29,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jessica'],desperate,tenedor,umutsuz,ong,0,0.38,0,0.14,0,0.14,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['kynes', 'doktor kynes', 'kyne']",doctor,gusano,kynes,ngân hàng hiệp hội,0,0.83,0,0.2,1,1.0,0,0.18,correct,incorrect,correct,incorrect
+['kynes'],water,kafka,kaniniz,alundra,0,0.2,0,0.2,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+['jessica'],servants,servidores,service,gia,0,0.27,0,0.24,0,0.43,0,0.4,incorrect,incorrect,incorrect,incorrect
+['jessica'],masks,gambaro,adnan,ong,0,0.33,0,0.14,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],father,padre,basil,luong,0,0.2,0,0.44,0,0.44,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],guard,guardia,ortada,em,0,0.22,0,0.18,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],fisherman,kafka,cesedin,anh,0,0.15,0,0.22,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],banker,banqueter,bankacı,alice,0,0.2,0,0.31,0,0.18,0,0.44,incorrect,incorrect,incorrect,incorrect
+['paul atreides'],young,joven,boy,ta,0,0.22,0,0.15,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['dama', 'jessica']",my lady,vintner,"in the given passage, the bankacı (bank clerk) is addressing [mask], the person he is scolding. the bankacı is speaking in turkish, and the phrase ""bankacı, [mask]’ya bakıp pis pis sırıtarak"" can be translated to ""the bank clerk, [mask] came and scolded me, 'i cheated you too much,' said he. 'i'm not interested in harsh drinks.'""  ",lê,0,0.18,0,0.14,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,sommer,düşündü,alice,0,0.2,0,0.15,0,0.14,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jessica'],lasgun,,böbürlenmiş,thằng bé,0,0.15,0,0.2,0,0.22,0,0.13,incorrect,incorrect,incorrect,incorrect
+['jessica'],her,reloj,sonsuzses,ngọ,0,0.2,0,0.17,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['duncan idaho'],guards,escuadras,idaho,người lính 1,0,0.18,0,0.29,1,1.0,0,0.25,incorrect,incorrect,correct,incorrect
+['jessica'],lisa,vidal,sertce,cáu kỉnh,0,0.36,0,0.33,0,0.31,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessica schlag']",sara,carzo,koltuk,alice,0,0.4,0,0.36,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['leydi jessica', 'dama jessica', 'jessica']",lady,sobanov,name,lệnh bà,0,0.44,0,0.29,0,0.5,0,0.4,incorrect,incorrect,incorrect,incorrect
+['leto'],passage,cuchillo,servis,cong,0,0.18,0,0.33,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['leto'],shield,cargamos,hareketlerini,laze,0,0.2,0,0.17,0,0.24,0,0.5,incorrect,incorrect,incorrect,incorrect
+['yueh'],generaatorroominformer,generador,jeneratör,ong,0,0.08,0,0.15,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jessica'],annie,poe,agzında,nàng,0,0.17,0,0.2,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessic']",trooper,soldado,captain,kia,0,0.15,0,0.29,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+['jessica'],shaw,tóptero,canad,tường chắn,0,0.36,0,0.14,0,0.33,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",watchers,"in the given passage, the phrase ""los que ha enviado el [mask] para vigilar a estos dos"" suggests that the subject of the sentence is a person who sent someone to watch these two individuals. the sentence structure also implies that this person is responsible for the people who are watching the two individuals. based on this information, the proper name that fills the [mask] token is ""enviador"" (the person who sent someone to watch the two individuals).  so",kim,thach,0,0.31,0,0.0,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jessica'],sandblast,caracolada,çöl,sonya,0,0.25,0,0.24,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],mother,madre,annesi,sua,0,0.0,0,0.22,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],foot,sanchez,adem,doanh,0,0.0,0,0.18,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['yueh'],stiffened,sobran,kaskatı,cứng người,0,0.15,0,0.0,0,0.0,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['harkonnen', 'yueh']",palms,guards,agaç,among,0,0.14,0,0.27,0,0.15,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['the duke leto atreides', 'dük leto atreides', 'leto atreides', 'duque leto atreides']",caladan,meteoro,meteor,caladan,0,0.3,0,0.55,0,0.6,0,0.3,incorrect,incorrect,incorrect,incorrect
+"['ùng', 'barón', 'baron']",broom,bruijin,buuzes,tuan,0,0.6,0,0.5,0,0.22,0,0.57,incorrect,incorrect,incorrect,incorrect
+['leto'],shaw,sobran,sounds,y,0,0.0,0,0.2,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['leto'],chains,mesa,adam,béo,0,0.0,0,0.25,0,0.0,0,0.57,incorrect,incorrect,incorrect,incorrect
+['leto'],tooth,nervio,weapon,cong,0,0.44,0,0.4,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+['leto'],thought,sartre,muhl,cong,0,0.36,0,0.2,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",fools,cirujano,cerrah,ngài,0,0.2,0,0.31,0,0.22,0,0.57,incorrect,incorrect,incorrect,incorrect
+['leto'],everything,títere,metronom,do chơi,0,0.29,0,0.2,0,0.5,0,0.18,incorrect,incorrect,incorrect,incorrect
+['leto'],thesis,pablo,etinbebe&lt;/name,công,0,0.2,0,0.44,0,0.19,0,0.25,incorrect,incorrect,incorrect,incorrect
+['piter'],guard,jadeo,kalkan,tên đội trưởng,0,0.2,0,0.2,0,0.0,0,0.32,incorrect,incorrect,incorrect,incorrect
+"['nefu', 'nefud']",preacher,dreger,"in the given passage, the sentence ""her şeyden önce seni kutlamak istiyorum [mask]. yeni muhafız subayım sensin. umarım selefinin başına gelenden ders alırsın."" contains the word ""yeni"" which is the adjective form of ""new"" and the word ""sensin"" which is the imperative form of ""sit"" or ""sit down"". the subject of",le,0,0.17,0,0.2,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],he,fulmar,control,alice,0,0.0,0,0.4,0,0.18,0,0.44,incorrect,incorrect,incorrect,incorrect
+['paul'],thought,el,afallattı,nghĩ,0,0.18,0,0.33,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],father,gómez,booktitle,alice,0,0.2,0,0.0,0,0.15,0,0.44,incorrect,incorrect,incorrect,incorrect
+['paul'],ennis,cervantes,cook,idaho,0,0.0,0,0.15,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],he,sartre,jessica,cáu,0,0.0,0,0.2,0,0.18,0,0.57,incorrect,incorrect,incorrect,incorrect
+['paul'],technicalterm,fremen,parapush,fremen,0,0.24,0,0.0,0,0.5,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],manual,manuel,father,alundra,0,0.6,0,0.6,0,0.2,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",my father,padre,she,cha,0,0.15,0,0.44,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],mother,tara,annie,anh,0,0.0,0,0.25,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],mind,kafka,zihni,mind,0,0.0,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],attention,kafka,eraktir,cau,0,0.15,0,0.22,0,0.18,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",spice,soria,murad,alice,0,0.22,0,0.22,0,0.22,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['pau', 'paul']",children,desastres,gölgeler,anh,0,0.17,0,0.17,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],signet,tolstoy,birden,lơ,0,0.0,0,0.18,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['thufir hawat—', 'thufir hawat']",mentat,asimov,veriler,paul,0,0.36,0,0.18,0,0.31,0,0.22,incorrect,incorrect,incorrect,incorrect
+['hawat'],basin,laser,topter,lê,0,0.2,0,0.2,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['hawat'],turn,rocky,cüppe,run,0,0.22,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['hawat'],commander,gómez,hakan,alundra,0,0.14,0,0.0,0,0.6,0,0.33,incorrect,incorrect,incorrect,incorrect
+['fremen'],batman,murciélago,adam,nguyễn,0,0.33,0,0.25,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['fremen', 'hawat', 'hawat—']",chbandi,name,topter,fremen,0,0.33,0,0.4,0,0.18,1,1.0,incorrect,incorrect,incorrect,correct
+['jessica'],chlara,labyrinth,laboratory,paul,0,0.31,0,0.12,0,0.12,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],mother,ozono,ozon,alice,0,0.0,0,0.0,0,0.0,0,0.44,incorrect,incorrect,incorrect,incorrect
+['paul'],bats,almendras,automaton,mang,0,0.25,0,0.31,0,0.31,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jessica'],hand,plastiacero,gate,theo,0,0.18,0,0.11,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],chandler,dreher,kapini,an,0,0.33,0,0.0,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],exit,archivadores,exit,alice,0,0.0,0,0.12,0,0.0,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",quote,dios,david,sai,0,0.22,0,0.0,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],passage,la puerta,kılıç,cánh cửa,0,0.36,0,0.31,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],person's name,someone,annesini,john,0,0.24,0,0.0,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",guerrilla,jefe,leila,"the name is ""he"".",0,0.15,0,0.0,0,0.22,0,0.1,incorrect,incorrect,incorrect,incorrect
+['paul'],bryon,sandberg,topterin,apo,0,0.0,0,0.17,0,0.17,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],jetpods,kafka,topter,tau,0,0.18,0,0.22,0,0.2,0,0.57,incorrect,incorrect,incorrect,incorrect
+['paul'],wings,wings,kanatları,kéo,0,0.0,0,0.0,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],instruments,cruz,topter,dan,0,0.13,0,0.25,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],crew,toptero,topter,tu,0,0.0,0,0.18,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jessica'],hiss,silvio,panels,anng,0,0.36,0,0.31,0,0.31,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",tiger,tigre,"in the given passage, the person is mentioned to have said ""burada kaldık,"" which can be translated to ""we stayed here,"" in english. the only name that fits in the [mask] token is ""sekiz"", which is the turkish word for ""eight"". however, the context of the sentence suggests that the speaker is expressing uncertainty or disbelief, which doesn't fit the name ""sekiz"". therefore, the proper name that fills the [mask] token in this",lai,0,0.0,0,0.0,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['baron vladimir harkonnen', 'the baron vladimir harkonnen', 'vladimir harkonnen', 'barón vladimir harkonnen']",quatchnobreak,fragata,arrakis,paul,0,0.38,0,0.2,0,0.38,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",minister,el,devlet,ta,0,0.18,0,0.0,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",chicken,gallina,gagalam,congaa,0,0.2,0,0.4,0,0.4,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['harkonnen', 'baron', 'harkonne']",fat,barón,harkonnen,voc,0,0.25,1,1.0,1,1.0,0,0.25,incorrect,correct,correct,incorrect
+['rabban'],ethan,penel pérear,baron,anh,0,0.36,0,0.22,0,0.55,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",author,elche,mask,law,0,0.36,0,0.0,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",uncle,sobrino,kendin,tước,0,0.25,0,0.5,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",uncle,orwell,homer,alice,0,0.25,0,0.18,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['barón', 'baron', 'padishah uy nghi']",padishah,emperador padishah,organizan,hoang,1,1.0,0,0.62,0,0.35,0,0.44,correct,incorrect,incorrect,incorrect
+['paul'],technicalterm,mentat,konuş,loki,0,0.24,0,0.2,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],udraft,wind,rüzgár,ai,0,0.2,0,0.0,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],carver,guijarros,kesik,tam,0,0.2,0,0.15,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",ship,gusanos,sonya,"the name is ""theo"".",0,0.25,0,0.18,0,0.22,0,0.09,incorrect,incorrect,incorrect,incorrect
+['paul'],pack,aconcagua,parapusa,stephen,0,0.5,0,0.31,0,0.5,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],distance,duna,gölgeleri,cáu,0,0.17,0,0.25,0,0.15,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",guan,axioma,dedi,em,0,0.25,0,0.2,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],filter,filster,burnu,em,0,0.2,0,0.18,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],eddie,fremochila,dehşete,alice,0,0.0,0,0.14,0,0.0,0,0.44,incorrect,incorrect,incorrect,incorrect
+['paul'],face,grietas,sona,le,0,0.25,0,0.18,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jessica'],worm,desierto,süspansörlerimiz,day,0,0.0,0,0.4,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],fissure,hendricks,gölgeler,alice,0,0.18,0,0.0,0,0.17,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'paul']",seth,shelley,kumaş,me,0,0.18,0,0.18,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],fissure,hendiura,kurd,le,0,0.18,0,0.17,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],slan, torn,parapusulan,an,0,0.25,0,0.0,0,0.53,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],himself,mathis,math,tinh,0,0.18,0,0.2,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],she,arañas,kayış,cáu,0,0.0,0,0.2,0,0.22,0,0.57,incorrect,incorrect,incorrect,incorrect
+['paul'],strap,sanchez,kayış,họ,0,0.22,0,0.18,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jessica'],face,rock,diğer,samac,0,0.18,0,0.18,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['halleck'],he,sura,sağ,truyền thống,0,0.44,0,0.18,0,0.2,0,0.11,incorrect,incorrect,incorrect,incorrect
+['halleck'],quints,sobran,dedi,john,0,0.0,0,0.15,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['tuek'],cutter's,panoplias,odanın,quan,0,0.33,0,0.0,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['halleck'],lyds,cogiendo,doktor,bac,0,0.18,0,0.13,0,0.15,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",tobin,martilleador,dedi,luong,0,0.0,0,0.25,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],desert, saldian ,sebzat,cáu,0,0.0,0,0.36,0,0.2,0,0.57,incorrect,incorrect,incorrect,incorrect
+['paul'],beckoning,villa,karşıdaki,các,0,0.0,0,0.22,0,0.15,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jessica'],will,sobanos,yudum,bo sa phục,0,0.18,0,0.29,0,0.0,0,0.24,incorrect,incorrect,incorrect,incorrect
+['paul'],foot,penetró,"in the given passage, the word filling the [mask] token is ""kum"" which is the turkish word for clay. however, the context of the passage suggests that the author is describing a situation where a bird-like creature was able to lift a large lump of clay in its beak. in this context, the proper name that fits the description is ""birhan"" which is the turkish word for clay bird or clay pigeon. so, the output should be:  ",mount,0,0.0,0,0.18,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],landscape,santos,vitis,an,0,0.15,0,0.2,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['paul', 'liet']",kynes,kynes&lt;/,liet-kynes,kynes,0,0.22,0,0.29,0,0.57,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],cliff,farallón,kayalı,alou,0,0.22,0,0.33,0,0.4,0,0.5,incorrect,incorrect,incorrect,incorrect
+['paul'],corner,sobanon,yavaş,an,0,0.0,0,0.18,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],mother,luis,işık,em,0,0.0,0,0.25,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],he,peldaño,ayağı,bèn,0,0.0,0,0.36,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],slab,sobresalida,küçük,cát,0,0.25,0,0.27,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],intruder,señor,says,vang lên khi,0,0.17,0,0.0,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],muscles,enseñanzas,anni,me,0,0.36,0,0.14,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harkonnen'],troopers,desiertos,askerleri,lính,0,0.35,0,0.22,0,0.33,0,0.15,incorrect,incorrect,incorrect,incorrect
+['kynes'],dune,dunes,"in the given passage, the sentence ""ses sağından gelir gibiydi. [mask] kuma yasladığı yüzünü o tarafa çevirip baktı..."", the word ""ses"" is the one that comes before the word ""kuma"" and it is the subject of the sentence. the proper name that fills the [mask] token in this sentence is ""seslijourney"" (a",ong,0,0.44,0,0.6,0,0.01,0,0.25,incorrect,incorrect,incorrect,incorrect
+['kynes'],bird, birds ,leş,chim,0,0.0,0,0.2,0,0.5,0,0.0,incorrect,incorrect,incorrect,incorrect
+['kynes'],hawk,pájaro,shahin,chim,0,0.22,0,0.0,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],man,man,annesine,gan,0,0.29,0,0.29,0,0.17,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jessica'],hood,gandhi,adam,gao,0,0.0,0,0.15,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jessica'],command,bachmann,kumandan,han,0,0.29,0,0.27,0,0.13,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jessica'],man,duque,analizedememişti,vua,0,0.2,0,0.17,0,0.26,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jessica'],defile,oyó,sustu,họ,0,0.31,0,0.0,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['stilgar'],fellow,madre,annem,hoa,0,0.15,0,0.33,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['stilgar'],voices,gómez,"in the given passage, the sentence ""[mask]’ın gür sesiyle haykırdığını işitti: “geri çekilin, solucan kafalı bitler! yaklaşırsanız boynumu kıracak!"" contains the word ""gür"" which means ""roar"" in english. the proper name that fills the [mask] token in this sentence is ""tiger"".  so",gám,0,0.15,0,0.17,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+['jessica'],man,gómez,speech,nguyễn,0,0.2,0,0.17,0,0.31,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessica—']",he,ghent,mark,nguyễn,0,0.22,0,0.17,0,0.18,0,0.15,incorrect,incorrect,incorrect,incorrect
+['paul'],rocky,señor,sound,anh,0,0.0,0,0.0,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],shadow,shakespeare,gölge,dòng,0,0.2,0,0.27,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessica—']",kylo,my son,david,dai,0,0.0,0,0.15,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],gazelle,gacela,yüz,cô gái,0,0.36,0,0.4,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['stilgar—', 'stilgar']",manling,nosotros,erman,mihna,0,0.29,0,0.4,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jessica'],chiriz,fremen,commanders,yzma,0,0.15,0,0.15,0,0.24,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],cleft,"in the given passage, the sentence ""[mask] volvió la mirada hacia arriba, observando la suave luz gris azul del cielo que la montaña parecía parte en dos."" contains the word ""cielo"" which can be translated to ""sky"" in english. the context of the sentence suggests that the speaker is looking up at the sky. therefore, the proper name that fills the [mask] token in this sentence is """,kocaman,sky,0,0.22,0,0.0,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jessica'],basin,farrallones,havzada,vùng,0,0.33,0,0.22,0,0.14,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jessica'],guild,severo,loncak,nàng,0,0.17,0,0.15,0,0.31,0,0.18,incorrect,incorrect,incorrect,incorrect
+['stilgar'],sam,concepcion,dedi,albert,0,0.4,0,0.12,0,0.18,0,0.15,incorrect,incorrect,incorrect,incorrect
+['paul'],food,bocanada,ali,me,0,0.0,0,0.17,0,0.57,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jessica'],missionaria protectiva,preguntó,missionaria protectiva,anh,0,0.34,0,0.13,0,0.34,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,vonkleist,durak,anh,0,0.2,0,0.25,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,sobran,"in the given passage, the person is speaking and the sentence structure suggests that the subject of the sentence is a person. the sentence also contains the phrase ""hesap vereceksin,"" which can be translated to ""you will account to me"" in english. the only name that fits this context is ""mehmet,"" so the proper name that fills the [mask] token in the passage is ""mehmet"".  the output for this passage would be:  <",name,0,0.2,0,0.31,0,0.01,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jamis'],he,silencio,sue,anh ta,0,0.0,0,0.15,0,0.25,0,0.18,incorrect,incorrect,incorrect,incorrect
+['gurney halleck'],"in the given passage, the text ""here [mask]’s words were there to remember: …"" suggests that the text is quoting someone's words. the phrase ""the good knife fighter thinks on point and blade and shearing-guard simultaneously"" contains technical terms related to knife fighting, which suggests that the speaker is an expert in this field.  based on this context, the proper name that fills the [mask] token is ""ernst"". here is the output: ",kafka,verse,words,0,0.01,0,0.33,0,0.36,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],blade,crispín,billur,dao,0,0.22,0,0.18,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jamis'],man,no,kalkan,cau,0,0.25,0,0.0,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jamis'],left,crys,billur,anh,0,0.0,0,0.22,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jessica'],back,hedionda,cüppeli,trai,0,0.18,0,0.4,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],abyss,sommers,yutkundu,vực thẳm,0,0.22,0,0.0,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['jamis', 'chani']",jamisa,jamis,jamis,chan,0,0.91,1,1.0,1,1.0,0,0.89,correct,correct,correct,correct
+['jessica'],sensation, sol ,güneş,hoang,0,0.38,0,0.2,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+['paul'],thought,sobek,zorluk,think,0,0.18,0,0.0,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['stilgar—', 'stilgar']",shen,luna,ay,văn,0,0.18,0,0.36,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],baliset,sartre,baliset,passage,0,0.36,0,0.2,0,0.36,0,0.36,incorrect,incorrect,incorrect,incorrect
+['paul'],mother,asensio,"horgorulu(the person who was interviewed after the father's arrest recalled how [mask] had spoken in a suspicious manner. ""how could he become a murderer?"")]  the proper name that fills the [mask] token in the passage is ""horgorulu"" which is the name of the person who was interviewed. the name is a proper name (not a pronoun or any other word).",mother,0,0.0,0,0.18,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],baliset,sobek,jamis,annie,0,0.36,0,0.0,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,verdias,gözyaşlar,nước mắt,0,0.2,0,0.29,0,0.25,0,0.27,incorrect,incorrect,incorrect,incorrect
+['paul'],faces,baliset,baliset,ana,0,0.22,0,0.36,0,0.36,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['pau', 'paul']",he,sobek,kendin,with,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jessica'],song,lesión,father,nàng,0,0.18,0,0.46,0,0.15,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],mother,madre,cihana,bà,0,0.0,0,0.22,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['dama fenring', 'fenring']",lady,portes,işte,phu,0,0.25,0,0.15,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",he,gabriel,suspens,hán,0,0.0,0,0.33,0,0.2,0,0.5,incorrect,incorrect,incorrect,incorrect
+['feyd'],rautha,rautha,kölenin,arha,0,0.0,0,0.0,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],troop,sonso,sesler,thor,0,0.22,0,0.0,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],odors,acre,nahoş,dược,0,0.0,0,0.25,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],passerby,tela,boys,chị,0,0.33,0,0.25,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],chamber,arcaña,telaşlı,ngoài,0,0.18,0,0.2,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],himself,ansaldo,kasaplar,alice,0,0.18,0,0.36,0,0.33,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",sue,moroso,harah,chị,0,0.29,0,0.0,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],room,ales,ottoman,oan,0,0.0,0,0.5,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],outlet,tapices,deli,an,0,0.4,0,0.18,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],caller,horas,"in the given passage, the sentence in question is: ""aynı ses biraz daha uzaktan geldi. sonra bir kez daha tekrarlandı. [mask] birinin saati söylediğini fark etti. burada hiç saat görmemişti.""  the word that fills the [mask] token is ""saati"", which means ""clock"" in turkish. therefore, the proper name that",tim,0,0.4,0,0.22,0,0.02,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harah'],boys,crys,beller,cậu,0,0.0,0,0.22,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],excuses,ana,option,anh,0,0.18,0,0.29,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],children,duran,cocuklar,nng,0,0.17,0,0.22,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['chani'],hajra,andré,suleski,hajra,0,0.4,0,0.4,0,0.17,0,0.4,incorrect,incorrect,incorrect,incorrect
+['chani'],maker,hacedor,dedi,ai,0,0.2,0,0.33,0,0.22,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['duncan idah', 'duncan idaho']",tam,cielo,sarhoashun,nàng,0,0.29,0,0.4,0,0.4,0,0.6,incorrect,incorrect,incorrect,incorrect
+['jessica'],sack,bella,sivri,viewer,0,0.36,0,0.33,0,0.33,0,0.15,incorrect,incorrect,incorrect,incorrect
+['jessica'],memory,abu,uzunçakık,nàng,0,0.15,0,0.2,0,0.25,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessic']",reverendmothers,reveendas madres,rahibe,nàng,0,0.19,0,0.18,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,corrino,cordor,lang,0,0.2,0,0.14,0,0.15,0,0.18,incorrect,incorrect,incorrect,incorrect
+['chani'],apartment,coben,yatağı,an,0,0.29,0,0.4,0,0.36,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['baron vlamidir', 'barón vladimir harkonnen', 'vladimir harkonnen']",the baron,flóres,harkonnen,nam,0,0.71,0,0.29,1,1.0,0,0.36,correct,incorrect,correct,incorrect
+"['iakin nefud', 'iakin nefu']",caption,martí,muhafız,y,0,0.33,0,0.2,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['nefud'],fez,somozu,semuta,y,0,0.25,0,0.18,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",vizier,"in the given passage, the word filling the [mask] token is ""el"" which is an article, not a proper name. the sentence is in spanish, and the correct proper name that fills the [mask] token is ""el"" (he). here's the corrected passage with the proper name filled in:  —entonces, ¿es que no has visto la mancha en el muslo del que me has enviado esta tarde? —pregunt",mike,tuan,0,0.18,0,0.0,0,0.29,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",von,caballero,david,nga,0,0.5,0,0.57,0,0.25,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam tước', 'baron']",slavemaster,maestro,garrote,mi,0,0.32,0,0.5,0,0.5,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam tước', 'baron']",keller,echeverría,gordon,mi,0,0.18,0,0.15,0,0.55,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",master,he,sara,good,0,0.36,0,0.0,0,0.44,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam tước', 'baron']",master,rufián,hans,alvin,0,0.36,0,0.36,0,0.44,0,0.4,incorrect,incorrect,incorrect,incorrect
+['thufir hawat'],lord,porcione,onca,từng,0,0.2,0,0.14,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['sardaukar', 'salusa secundus']",sardaukar,soldados,rütbeli,solshen,1,1.0,0,0.43,0,0.25,0,0.46,correct,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",sovereign,esbatar,zulmun,albert,0,0.29,0,0.5,0,0.22,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['paul muad', 'paul']",muad'dib,specia,baharatli,tuan,0,0.67,0,0.4,0,0.31,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['pau', 'paul']","the name is ""he"".",butler,din,but,0,0.1,0,0.4,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['alia', 'paul']",she,ella,mark,con,0,0.0,0,0.25,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],guard,cervantes,muhafız,chang,0,0.22,0,0.15,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['şeyh hulud', 'shai']",hulud,hulud,"in the given passage, the phrase ""dünya bir enkazdır,"" which translates to ""it's a world penalty"" in english, suggests that the subject is a person who has committed a crime and is facing punishment. the phrase ""dua okudu"" means ""prayed"" in turkish, and the phrase ""ölüm meleği'nden kim kaçabilir?"" translates to ""who can survive from the death maiden's hand",khổng,1,1.0,1,1.0,0,0.01,0,0.22,correct,correct,incorrect,incorrect
+['paul'],husain,hamlet,durup,chào,0,0.2,0,0.4,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],worm, gusano,solucan,ngài tạo,0,0.0,0,0.2,0,0.18,0,0.17,incorrect,incorrect,incorrect,incorrect
+['paul'],tw twenty-thumper,prog,katliam,alvar,0,0.1,0,0.25,0,0.36,0,0.44,incorrect,incorrect,incorrect,incorrect
+['paul'],thumper,péndulo,gümleyici,hao,0,0.18,0,0.55,0,0.31,0,0.29,incorrect,incorrect,incorrect,incorrect
+['chani'],sand,bocanora,peler,chàng,0,0.44,0,0.46,0,0.0,0,0.8,incorrect,incorrect,incorrect,correct
+"['jessica', 'jessica—']",character's name,sartre,dedi,alundra,0,0.26,0,0.15,0,0.36,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['harah', 'harah—']",elena,murmó,murad,ambush,0,0.2,0,0.2,0,0.4,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],memories,nuestros,eram,bai,0,0.27,0,0.4,0,0.36,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jessica'],someone,noto,odan,rèm,0,0.14,0,0.0,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jessica'],thought,pena,düşündü,hannah,0,0.0,0,0.36,0,0.14,0,0.15,incorrect,incorrect,incorrect,incorrect
+['paul'],waiter,desierto,collar,samac,0,0.2,0,0.0,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],ring,gusano,sıçra,chàng,0,0.0,0,0.2,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['paul nhận', 'paul']",worm,guzman,imparator,chàng,0,0.0,0,0.4,0,0.33,0,0.67,incorrect,incorrect,incorrect,incorrect
+['stilgar'],worm,garfios,djivan,chàng,0,0.18,0,0.43,0,0.31,0,0.17,incorrect,incorrect,incorrect,incorrect
+['paul'],sweep,hacedor,kancalar,chàng,0,0.22,0,0.18,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+['stilgar'],ethan,gacela,sue,alfred,0,0.33,0,0.31,0,0.2,0,0.31,incorrect,incorrect,incorrect,incorrect
+['paul'],scale, gusano ,pulları,chàng,0,0.44,0,0.2,0,0.55,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],steersman,garcía,serdümen,chàng,0,0.15,0,0.2,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],gaders, gusano,solucan,sau,0,0.2,0,0.2,0,0.18,0,0.57,incorrect,incorrect,incorrect,incorrect
+['paul'],cliff,andean,route,road,0,0.22,0,0.2,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],sandman,habbanya,habbana,habbanya,0,0.18,0,0.17,0,0.18,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['paul ngoảnh phắt', 'paul']",spice,especia,işıl,sun,0,0.22,0,0.36,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],worm,gusanos,solucan,chàng,0,0.0,0,0.18,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",said,tractor,fabrika,tu,0,0.25,0,0.18,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+['gurney halleck'],factoryworker,ortiz,ali,tàu,0,0.21,0,0.18,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+['gurney'],fighters,universe,eğitimçiler,lau,0,0.29,0,0.43,0,0.24,0,0.22,incorrect,incorrect,incorrect,incorrect
+['gurney'],climber,gurney,giysili,alice,0,0.15,1,1.0,0,0.31,0,0.18,incorrect,correct,incorrect,incorrect
+['gurney'],fremen, dune ,gozel,fremen,0,0.33,0,0.6,0,0.36,0,0.33,incorrect,incorrect,incorrect,incorrect
+['gurney'],grunt,ruidos,roket,dao,0,0.55,0,0.17,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gurney'],man,hombre,adam,anh,0,0.22,0,0.33,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['gurney'],paul,fremen,birden,aladdin,0,0.2,0,0.33,0,0.33,0,0.15,incorrect,incorrect,incorrect,incorrect
+['gurney'],desert,gusano,solucan,fremen,0,0.17,0,0.5,0,0.31,0,0.33,incorrect,incorrect,incorrect,incorrect
+['gurney'],worm,gusano,solucan,con,0,0.2,0,0.5,0,0.31,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",desertpower,desierto,peter,alundra,0,0.13,0,0.0,0,0.22,0,0.36,incorrect,incorrect,incorrect,incorrect
+['paul'],sky,kafka,ruzgar,viewer,0,0.0,0,0.22,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['gurney', 'gurney—']",offworlders,extranjeros,dışdünyalılar,lê văn cử,0,0.24,0,0.35,0,0.21,0,0.13,incorrect,incorrect,incorrect,incorrect
+['paul'],lieutenant,lugarteniente,subay,sihong,0,0.14,0,0.12,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['pau', 'paul']",the man at the captain's left,capitán,bıckan,huy,0,0.18,0,0.4,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],men,caverna,tabu,alex,0,0.0,0,0.18,0,0.5,0,0.5,incorrect,incorrect,incorrect,incorrect
+['paul'],man,héctor,platform,people,0,0.29,0,0.0,0,0.33,0,0.4,incorrect,incorrect,incorrect,incorrect
+['paul'],waiter,aguayo,sound,hua,0,0.2,0,0.4,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],message,shiga,tel,shigawire,0,0.18,0,0.22,0,0.29,0,0.15,incorrect,incorrect,incorrect,incorrect
+['jessica'],sophia,sobrevís,hatırlayan,bà,0,0.46,0,0.27,0,0.24,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,unasurro,söylenenleri,paulat,0,0.2,0,0.13,0,0.21,0,0.15,incorrect,incorrect,incorrect,incorrect
+['paul'],prospect,sobania,erholungsbau,chang,0,0.17,0,0.18,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jessica'],sensei,les,düşündü,bà,0,0.46,0,0.4,0,0.14,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],side,"in the given passage, the sentence ""en la estancia interior, [mask] indicó una silla a su madre. —espera aquí —dijo. y atravesó las cortinas en dirección al corredor."" contains the word ""mas"", which is a possible answer for the [mask] token. however, ""mas"" can also refer to the spanish word for ""more"", which is not the intended answer.   after analyzing the context,",dad,in,0,0.0,0,0.02,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['gurney', 'gurney—']",witch,salem,cadre,mụ,0,0.0,0,0.18,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+['gurney'],issue,contabandistas,"in the given passage, the proper name that fills the [mask] token is ""bıraktığı"". the full sentence reads: ""göğsünde kaçakçıların siyeçlerde sattığı türden bir damıtıcı-giysinin bıraktığı izler vardı."" the name of the item that was taken off (""bıraktığı"") is",hang,0,0.36,0,0.1,0,0.02,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",character's name,duro,adam,thuy,0,0.1,0,0.25,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['gurney', 'gurney—']",baliset,baliset,"in the given passage, the person speaking says, ""ben... balisetimi getireyim,"" which can be translated to ""i'll bring my bassoon, [mask]."" the proper name that fills the [mask] token is ""bassoon,"" but we can also infer that the person is referring to their instrument, which is a type of stringed bass instrument. therefore, the name that fills the [mask] token is ""bassoonist."" here is the output:",an,0,0.15,0,0.15,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['gurney'],muslime,baliset,baliseti,rèm,0,0.31,0,0.15,0,0.14,0,0.44,incorrect,incorrect,incorrect,incorrect
+['chani'],won,sartre,paddy,em,0,0.25,0,0.18,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessica—']",doctor,neumann,mark,alice,0,0.15,0,0.29,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessica—']",author's name,he,mike,john,0,0.1,0,0.22,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],ceremony,many,voice,con,0,0.13,0,0.18,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",he,sartre,speech,alundra,0,0.0,0,0.2,0,0.2,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['chani tránh', 'paul', 'chani']",guild,arraki,chani,chàng,0,0.44,0,0.36,1,1.0,0,0.8,incorrect,incorrect,correct,correct
+['paul'],present,specia,tim,yen,0,0.18,0,0.4,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],atreides,fremen,arrakeen,arrakeen,0,0.17,0,0.0,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['paul'],glan,shelby,böcek,chàng,0,0.25,0,0.2,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",glenn,atomos,dedi,vong,0,0.22,0,0.2,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",shield,gran,seth,tòa,0,0.2,0,0.25,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['muad'],dib,dib,"in the given passage, the phrase ""hareketlenme var [mask]'dib,"" suggests that the subject of the sentence is a man who has been mentioned earlier in the text. the metal structure mentioned in the sentence is described as ""şu büyük metal çadırla,"" which indicates that the man entered the large metal structure. the man is also described as ""kaya kekliğinin yuvasına dalan şahin gibiy",dib,0,0.29,0,0.29,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['gurney'],man,gormaz,teleskopun,vinh,0,0.22,0,0.33,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],cover,gómez,rüzgâr,im,0,0.0,0,0.0,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],order,bellini,sebastian,mask,0,0.0,0,0.18,0,0.15,0,0.25,incorrect,incorrect,incorrect,incorrect
+['fedaykin'],explorer,engineers,laser,laze,0,0.12,0,0.35,0,0.15,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",spencer,gekko,adami,device,0,0.18,0,0.0,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",captain,sommers,david,plan,0,0.36,0,0.0,0,0.22,0,0.5,incorrect,incorrect,incorrect,incorrect
+['muad'],dib,dib,dib,dib,0,0.29,0,0.29,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",he,pena,nothing,ta,0,0.0,0,0.57,0,0.33,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['bene gesserit', 'bene gesserit truthsayer']",witch,verdad,gercek,nưới,0,0.31,0,0.29,0,0.43,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",child,niña,sinir,young,0,0.0,0,0.57,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['shadda', 'shaddam']",child,pérez,he,bài,0,0.36,0,0.0,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['alia', 'alia—', 'ali']",oldwoman,sanchez,parmazk,mụ già,0,0.18,0,0.2,0,0.36,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['alia', 'matadla']",she,name,cökük,chòng,0,0.0,0,0.25,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['muad'],dib,dib,amas,dib,0,0.29,0,0.29,0,0.5,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['gurney', 'gurney halleck']",george,padre,david,han,0,0.5,0,0.36,0,0.17,0,0.4,incorrect,incorrect,incorrect,incorrect
+['paul'],corridors,jihad,deliklerin,chàng,0,0.0,0,0.22,0,0.14,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",sera,galáctica,annem,emma,0,0.25,0,0.31,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],commandant,flota,mark,hai,0,0.14,0,0.22,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",navigator,cofradía,lonca,alice,0,0.15,0,0.17,0,0.22,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",guild,zamora,ali,alundra,0,0.44,0,0.2,0,0.57,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",von,booran,elden,phù_thủy,0,0.0,0,0.2,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],she,restallan,kadın,muh,0,0.0,0,0.31,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",kai,krafft-ebing,mask,alice,0,0.29,0,0.22,0,0.25,0,0.44,incorrect,incorrect,incorrect,incorrect
+['jessica'],"in the given passage, the word snapping by the character and the word meant to remind us indicates that the [mask] token represents a character's name or title. the only character in the passage who snapped is the one who snapped, ""i see the signs!"" and snapped, ""my question was meant to remind you that you should not try to teach me those matters in which i instructed you."" the name of this character is ""heinrich"". however, based on the context and the",singer,ted,le,0,0.0,0,0.31,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],cousin,crys,kedi,anh,0,0.2,0,0.0,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],arm,crys,dona,chang,0,0.29,0,0.0,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect

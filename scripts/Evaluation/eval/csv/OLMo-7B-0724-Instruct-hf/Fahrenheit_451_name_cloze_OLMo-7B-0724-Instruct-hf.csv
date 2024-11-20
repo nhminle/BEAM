@@ -1,0 +1,26 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+['montag'],girl,gómez,kız,nàng,0,0.2,0,0.18,0,0.0,0,0.6,incorrect,incorrect,incorrect,incorrect
+['montag'],chick,he,nebi,bà,0,0.0,0,0.0,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['montag'],she,sobres,kadın,amna,0,0.0,0,0.17,0,0.18,0,0.6,incorrect,incorrect,incorrect,incorrect
+['montag'],hand,prestidigitador,alcohol,anh,0,0.2,0,0.19,0,0.15,0,0.22,incorrect,incorrect,incorrect,incorrect
+['mildred'],uncle,tíos,door,ona,0,0.33,0,0.18,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['faber', 'faber—']",three,kafka,rumi,alice,0,0.2,0,0.4,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+['montag'],duck,name,denham,denham,0,0.0,0,0.2,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['montag'],he,printer,booktitle,hoa,0,0.0,0,0.31,0,0.27,0,0.44,incorrect,incorrect,incorrect,incorrect
+['montag'],patience,centrífuga,sabah,kiên,0,0.14,0,0.38,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],hands,gómez,erki,anh,0,0.18,0,0.18,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['faber'],david,sobran,koltuğa,mike,0,0.2,0,0.18,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['bowles', 'bayan bowles']",mrs. sleichman,"based on the given passage, the proper name that fills the [mask] token is ""ms"". the sentence in question is: ""—ms [mask] rió entre dientes—. son tan capaces de besarme como de pegarme una patada. ¡gracias a dios, yo también sé pegarlas!"". the word ""ms"" is a common way to write ""más"" which means ""more"" in spanish. the sentence is translated to: """,sebnem,bà [mask],0,0.21,0,0.03,0,0.36,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['phelps', 'bayan phelps']",murphy,parpadeo,david,bà [mask],0,0.33,0,0.31,0,0.2,0,0.43,incorrect,incorrect,incorrect,incorrect
+['montag'],books,calderón,garip,alice,0,0.18,0,0.29,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],body,furioso,ruhhat,anh,0,0.2,0,0.15,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],beetle,el,gitmişti,anh,0,0.17,0,0.0,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],beetle,motor,giti,anh,0,0.17,0,0.55,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],he,perro,tel,anh,0,0.0,0,0.18,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],he,mojara,ihtiyar,alice,0,0.0,0,0.5,0,0.31,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],guild,gremio,elbette,amiang,0,0.18,0,0.33,0,0.15,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['montag', 'montag tiến']",silence,félez,sessizlik,im_lặng,0,0.55,0,0.22,0,0.15,0,0.46,incorrect,incorrect,incorrect,incorrect
+['montag'],bud,café,yudum,anh,0,0.0,0,0.2,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],bombs,hitler,jet,tau dich,0,0.18,0,0.17,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['montag'],shouting,hombres,fethi,group of old men,0,0.43,0,0.15,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['granger'],bob,arroyo,yağmur,leo,0,0.0,0,0.31,0,0.31,0,0.2,incorrect,incorrect,incorrect,incorrect
