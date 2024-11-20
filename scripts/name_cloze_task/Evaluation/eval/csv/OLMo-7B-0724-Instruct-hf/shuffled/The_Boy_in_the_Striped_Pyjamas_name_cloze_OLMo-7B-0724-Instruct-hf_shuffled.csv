@@ -1,0 +1,108 @@
+Single_ent,en_masked_shuffled_results,es_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+['bruno'],dining,la,in,bà,0,0.18,0,0.0,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+['gretel'],,vas,an,cả,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,berlín,almaya,berlin,0,0.0,0,0.55,0,0.0,0,0.55,incorrect,incorrect,incorrect,incorrect
+['bruno'],owen,ortega,leyla,tay,0,0.22,0,0.18,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],added,metodo,fikir,con,0,0.0,0,0.18,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['maria', 'maría']",box,mascullón,gyysilerinin,róa,0,0.0,0,0.29,0,0.24,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['maria', 'maría']",his,venga,annem,chí,0,0.25,0,0.2,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],home,le,çamaşırlarıyla,long,0,0.22,0,0.0,0,0.11,0,0.22,incorrect,incorrect,incorrect,incorrect
+['bruno'],monster,mañana,exerciser,mét,0,0.17,0,0.18,0,0.14,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],jumped,salvador,,nó,0,0.18,0,0.15,0,0.25,0,0.57,incorrect,incorrect,incorrect,incorrect
+['gretel'],brother,sómsema,forman,em,0,0.31,0,0.15,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],sentence,berlín,mark,sung,0,0.15,0,0.55,0,0.22,0,0.44,incorrect,incorrect,incorrect,incorrect
+['gretel'],spikes,alambrada,tur,gai,0,0.17,0,0.13,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['gretel'],staring,torres,ii,cô,0,0.15,0,0.33,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],animals,proust,hakli,chị,0,0.17,0,0.36,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gretel'],she,albéniz,hayvanları,thay,0,0.22,0,0.15,0,0.12,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['bruno—', 'bruno']",chickens,cerdos,domuzlar,ý,0,0.15,0,0.36,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gretel'],argument,asintió,tartışma,rang,0,0.43,0,0.15,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],stood,martín,adım,em,0,0.2,0,0.36,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gretel'],she,espeto,kardeş,kiểu ngẩn,0,0.22,0,0.33,0,0.33,0,0.13,incorrect,incorrect,incorrect,incorrect
+['gretel'],dolly,palancas,odama,khung,0,0.18,0,0.14,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],thought,vacilar,bence,an,0,0.17,0,0.17,0,0.4,0,0.29,incorrect,incorrect,incorrect,incorrect
+['bruno'],berlin,berlín,büyükanne,cha,0,0.55,0,0.55,0,0.43,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],terry,jugar,kimse,chuyển,0,0.2,0,0.2,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+['bruno'],marching,garcía,yap,chí,0,0.31,0,0.18,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],tam,criada,hem,chị,0,0.0,0,0.18,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],invited,chiflado,davet,ong,0,0.17,0,0.15,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],lieutenant,raya,zamana,alice,0,0.27,0,0.22,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],word,vega,sesindeki,âm,0,0.22,0,0.0,0,0.14,0,0.0,incorrect,incorrect,incorrect,incorrect
+['pavel'],voice,si,nazik,dui,0,0.4,0,0.0,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['pavel', 'pavel—']",let,dentro,yara,và,0,0.25,0,0.18,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,al,david,vien,0,0.0,0,0.0,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['bruno'],man,úndar,karşısındaki,soc,0,0.25,0,0.4,0,0.24,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],waiter,médico,mehmet,ngo,0,0.18,0,0.18,0,0.0,0,0.5,incorrect,incorrect,incorrect,incorrect
+['bruno'],hospital,trabaja,neden,tai,0,0.15,0,0.17,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['pavel'],boy,médico,doctor,tu,0,0.0,0,0.18,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bruno—', 'bruno']",berlin,zweig,vardı,cháu berlin,0,0.55,0,0.0,0,0.2,0,0.38,incorrect,incorrect,incorrect,incorrect
+['pavel'],mom,zanahoria,alçak,nghĩa,0,0.0,0,0.14,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,claro,tartışma,dĩ,0,0.0,0,0.4,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['liszt', 'herr liszt', 'herr liszt—', 'bay liszt']",teacher,maestro,bense,onn,0,0.55,0,0.38,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['liszt', 'herr liszt', 'bay liszt']",sentence,sobre,dşilerin,tôi,0,0.31,0,0.25,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],ever,se,terk,chắn,0,0.22,0,0.0,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['bruno'],desi,cuando,adam,ông,0,0.0,0,0.55,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],mouse,otras,kashif,yên,0,0.2,0,0.2,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],boy,alambrada,gördüğüne,thận,0,0.5,0,0.29,0,0.43,0,0.22,incorrect,incorrect,incorrect,incorrect
+['bruno'],pyjamas,gala,corap,oto,0,0.0,0,0.0,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],skinnier,el,he,snafo,0,0.15,0,0.0,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+['bruno'],boy,nariz,yüz,chắc,0,0.5,0,0.2,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['shmuel'],april,nací,dört,nguyan,0,0.18,0,0.0,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,anschluss,cevap,đức,0,0.0,0,0.14,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['“không', 'bruno']",language,menos,gergin,bruno,0,0.29,0,0.4,0,0.36,1,1.0,incorrect,incorrect,incorrect,correct
+['bruno'],dark,vysotsky,değişmiş,nhưng,0,0.22,0,0.15,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+['bruno'],explorer,exploradores,ben,nhưng,0,0.15,0,0.24,0,0.5,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['huy', 'bruno']",waiting,y nadie,olan,châu,0,0.17,0,0.2,0,0.22,0,0.57,incorrect,incorrect,incorrect,incorrect
+['gretel'],idiot,eran,ülky,tướng,0,0.18,0,0.2,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['gretel'],had,yvgeny,o,marie,0,0.0,0,0.33,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['brun', 'bruno']",shoes,te,"in the given passage, the phrase ""ayağın sıkıyorlarsa ama [mask], ayakkabılarını sana ekleyip"" suggests that the subject is experiencing discomfort due to their legs, but they still put on their shoes and boots for [mask]. based on the context, the most logical answer for the [mask] token is ""putting"", as it makes sense for someone to put on their shoes and boots despite feeling discomfort in their legs",cháu,0,0.2,0,0.0,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['bruno—', 'bruno']",design,comartí,parlak,öng,0,0.18,0,0.17,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['padre', 'bruno']",one,preferiría,tane,but,0,0.25,0,0.4,0,0.44,0,0.5,incorrect,incorrect,incorrect,incorrect
+['shmuel'],shoah,sobani,hikâyesine,gần,0,0.36,0,0.17,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],fury,furias,fury,bé,0,0.22,0,0.18,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['bruno'],that's,trenes,"in the given passage, the proper name that fills the [mask] token is ""trene"". the full sentence reads: ""nedeni bindik. kimse dedi ona trene istasyonda tren ayrılırken “biz [trene], “bunun binmeliydiniz. yığılması,” siz biz treni daha tarafında bir sanki buraya ama platformun gördü",khỏi,0,0.0,0,0.36,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['shmuel'],we said,vagon,bahset,toa,0,0.15,0,0.0,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bruno—', 'bruno']",section,cafetería,"in the given passage, the sentence ""tarafta,” kapı tekrarladı, “lokanta “arka “elbette vardı!” diye çekerek. [mask] bölümünü dedi"" suggests that the person speaking is repeating the door knock and then saying, ""the section [mask] said [...]""  based on the context, the most likely name to fill the [mask] token is ""s",thở,0,0.17,0,0.14,0,0.01,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],nothing,seis,tim,mấy,0,0.33,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],lift,se,ortada,daycotgow,0,0.0,0,0.0,0,0.18,0,0.14,incorrect,incorrect,incorrect,incorrect
+['bruno'],family,ortega,dad,cha,0,0.0,0,0.18,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['maria', 'maría']",andy,name,herhalde,cậu,0,0.22,0,0.22,0,0.15,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],oak,rodri,karşı,mấy,0,0.25,0,0.4,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['pavel'],trouble,tendríamos,sayer,cau,0,0.17,0,0.13,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],word,nadie,kaçırmazd,lu,0,0.22,0,0.2,0,0.14,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['maria', 'maría']",bits,almendras,dilerim,name,0,0.22,0,0.29,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+['shmuel'],sentence,pan,general,thích,0,0.29,0,0.0,0,0.31,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],,oído,ablan,gái,0,0.25,0,0.22,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['kotler', 'lieutenant kotler', 'teğmen kotler']",professor,silenciosas,professor,xã,0,0.4,0,0.38,0,0.4,0,0.17,incorrect,incorrect,incorrect,incorrect
+['gretel'],friend,eres,puzo,em,0,0.33,0,0.4,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],trick,gacela,ablas,xấu thể viên,0,0.2,0,0.0,0,0.2,0,0.24,incorrect,incorrect,incorrect,incorrect
+['gretel'],she,así,aceliele,không,0,0.22,0,0.0,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+['gretel'],height,sarcasmo,yakın,thú,0,0.33,0,0.14,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['gretel'],sam,yo,me,nếu,0,0.0,0,0.0,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['bruno'],thesis,zorro,koridorun,quang,0,0.0,0,0.4,0,0.43,0,0.4,incorrect,incorrect,incorrect,incorrect
+['bruno'],said,isla,bir var,andy,0,0.0,0,0.0,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+['bruno'],pull,segunda,ekmeden,anh,0,0.22,0,0.33,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],supposed,pollo,sadece,ly,0,0.31,0,0.2,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],boy,zamponi,dolu,be,0,0.5,0,0.17,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['bruno'],window,berlín,eski,ngang,0,0.36,0,0.55,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['gretel'],what,voy,nedir?,ít,0,0.2,0,0.0,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['bruno', 'do thái']",side,judíos,yahudi,bruno,0,0.33,0,0.5,0,0.4,1,1.0,incorrect,incorrect,incorrect,correct
+['gretel'],answering,somos,answer,chúng,0,0.13,0,0.0,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],andre,judíos,jews,duy,0,0.2,0,0.36,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],bald,casilla,buyuk,sau,0,0.22,0,0.0,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],"a word that is difficult to identify, but it could possibly be ""he"" or ""he whom"" depending on the context of the sentence.",ningún,secret,chính,0,0.06,0,0.36,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],trouble,los,pijamalar,pyjama,0,0.17,0,0.25,0,0.14,0,0.0,incorrect,incorrect,incorrect,incorrect
+['shmuel'],if,ello,"in the given passage, the word filling the [mask] token is ""umrayam"". however, the context of the sentence suggests that the speaker is expressing uncertainty or surprise, and the phrase ""ağlamaya"" (which means ""i hope not"") suggests that the speaker does not actually want to see the person starting something. based on this information, a more appropriate guess for the name would be ""umarım"" (which means ""i hope not"" or ""i wish not",wan,0,0.0,0,0.4,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['shmuel'],he,labios,eğildi,quyết,0,0.5,0,0.17,0,0.33,0,0.36,incorrect,incorrect,incorrect,incorrect
+['shmuel'],fence,el,yaş,vậy,0,0.18,0,0.5,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['shmuel', 'shmuel—']",hatch,el,yere,cau,0,0.18,0,0.5,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['bruno'],pyjamas,pijama,unutma,pyjama,0,0.0,0,0.0,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],stubbly,barro,çamurlanmasını,cậu,0,0.17,0,0.6,0,0.21,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],boots,sánchez,botlar,cáu,0,0.4,0,0.17,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+['shmuel'],boys,serrano,tel,giáy,0,0.2,0,0.31,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],elders,mecedoras,hayal,gia,0,0.18,0,0.14,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,somozu,tamam,chúng,0,0.0,0,0.18,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+['bruno'],explorer,pista,kamp,vậy,0,0.15,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['shmuel'],expected,ensenanza,aşk,nó,0,0.14,0,0.27,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],boy,examinado,kumandan,alice,0,0.5,0,0.29,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],end,todo,too,story,0,0.25,0,0.22,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
