@@ -30,13 +30,16 @@ def create_heatmap(directory, model, release_date_csv, save_path, shuffled=False
     # Extract accuracies for each file in the directory
     for filename in os.listdir(directory):
         if filename.endswith('.csv'):
+            print(filename)
             file_path = os.path.join(directory, filename)
             accuracies = extract_accuracy_from_csv(file_path)
             if accuracies is not None:
                 if shuffled: 
-                    book_title = filename.replace(f'_name_cloze_{model}_shuffled.csv', '')
+                    book_title = filename.replace(f'_nct_{model}_shuffled.csv', '')
+
                 else:
-                    book_title = filename.replace(f'_name_cloze_{model}.csv', '')
+                    book_title = filename.replace(f'_nct_{model}.csv', '')
+
                 all_accuracies[book_title] = accuracies
 
     if not all_accuracies:
@@ -98,11 +101,11 @@ def create_heatmap(directory, model, release_date_csv, save_path, shuffled=False
 
 
 
-models = ['OLMo-7B-0724-Instruct-hf', 'Llama-3.1-70B-Instruct', 'Meta-Llama-3.1-8B-Instruct']
+models = ['llama405b']
 for model in models:
-    create_heatmap(directory=f'/Users/minhle/Umass/ersp/Evaluation/eval/csv/{model}/shuffled', 
+    create_heatmap(directory=f'/Users/emir/Desktop/BEAM/scripts/name_cloze_task/Evaluation/llm_out/fireworks_out/shuffled', 
                    model=model, 
-                   release_date_csv='/Users/minhle/Umass/ersp/Evaluation/eval/csv/release_date.csv',
-                   save_path='/Users/minhle/Umass/ersp/Evaluation/eval',
+                   release_date_csv='/Users/emir/Desktop/BEAM/scripts/name_cloze_task/Evaluation/eval/csv/release_date.csv',
+                   save_path='/Users/emir/Desktop/BEAM/scripts/name_cloze_task/plots/heatmap/',
                    shuffled=True
                    )

@@ -114,7 +114,7 @@ if __name__ == "__main__":
 
     llm = LLM(model=args.model, tensor_parallel_size=1, max_model_len=2048)
     
-    skip_list = ['raw']
+    skip_list = ['raw','Adventures_of_Huckleberry_Finn']
     for title in titles:
         if title not in skip_list:
             print(f'----------------- running {title} -----------------')
