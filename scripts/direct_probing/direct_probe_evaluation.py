@@ -4,6 +4,8 @@ from fuzzywuzzy import fuzz
 import matplotlib.pyplot as plt
 import os
 import numpy as np
+from matplotlib.colors import LinearSegmentedColormap
+import seaborn as sns
 
 def run_exact_match(correct_author, correct_title_list, returned_author, returned_title, lang):
     returned_author = str(returned_author) if pd.notna(returned_author) else ''
@@ -40,7 +42,7 @@ def extract_title_author(results_column):
 
 def evaluate(csv_file_name, book_title):
     # Load book names and CSV data
-    print(book_title)
+    # print(book_title)
     book_names = pd.read_csv('book_names.csv')
     df = pd.read_csv(csv_file_name)
     available_langs = [col.split('_')[0] for col in df.columns if col.endswith('_masked_results')]
@@ -48,12 +50,12 @@ def evaluate(csv_file_name, book_title):
     filtered_df = df.loc[:, df.columns.str.contains('results', case=False)]
     book_title = book_title.replace('_direct_probe_gpt4o', '')
     book_title = book_title.replace('_',' ')
-    print(book_title)
+    # print(book_title)
     # Find the matching row for the given book title
     matching_row = book_names[book_names.isin([book_title]).any(axis=1)].values.flatten().tolist()
     author = matching_row[0]
-    print(author)
-    print(f"Matching row titles: {matching_row}")
+    # print(author)
+    # print(f"Matching row titles: {matching_row}")
     results_all = pd.DataFrame()
     # Iterate through each filtered column
     for column in filtered_df.columns:
@@ -200,29 +202,86 @@ def list_csv_files(directory):
         print(f"Error: Permission denied for accessing '{directory}'.")
         return []
 
-def create_heatmap(df,title,shuffled,release_date_csv):
+def create_heatmap(df,release_date_csv,model,shuffled):
     release_dates = pd.read_csv(release_date_csv)
     release_dates['Release Date'] = pd.to_datetime(release_dates['Release Date'])  # Ensure datetime format
+    df= df.loc[:, df.columns.str.contains('_both_match')]
+    merged_df = pd.merge(df, release_dates, on='Title', how='inner')
+    print(f"Merged DataFrame shape: {merged_df.shape}")
+        # Exit early if no matching data
+    if merged_df.empty:
+        print("No matching titles between accuracies and release dates.")
+        return
+
+    # Sort by release date
+    sorted_df = merged_df.sort_values('Release Date')
+    print(f"Sorted DataFrame shape: {sorted_df.shape}")
 
 
+    # Prepare heatmap data
+    heatmap_data = sorted_df.set_index('Title').drop(columns=['Release Date'])
+    print(f"Heatmap Data shape: {heatmap_data.shape}")
 
-if __name__ == "__main__":
-    titles = list_csv_files('./Evaluation/gpt4o/')
-    unshuffled_accuracy_list = {}
-    shuffled_accuracy_list = {}
+    # Exit early if heatmap data is empty
+    if heatmap_data.empty:
+        print("Heatmap data is empty. Cannot generate heatmap.")
+        return
     
-    for title in titles:
-        # if title == 'A_thousand_splendid_suns_direct_probe_gpt4o':
-        print(f'----------------- Running {title} -----------------')    
-        results_evaluated =evaluate(csv_file_name=f'./Evaluation/gpt4o/{title}.csv', book_title=title)
-        shuffled, unshuffled = split_data(results_evaluated)
-        save_data(title,shuffled,True)
-        save_data(title,unshuffled,False)
-        unshuffled_acc_df = guess_accuracy(unshuffled)
-        shuffled_acc_df = guess_accuracy(shuffled)
-        print(unshuffled_acc_df.keys)
-        # unshuffled_accuracy_list.append(unshuffled_acc_df)
-        # shuffled_accuracy_list.apend(shuffled_acc_df)
-        plot(unshuffled_acc_df,title,False) 
-        plot(shuffled_acc_df,title,True)    
+    custom_cmap = LinearSegmentedColormap.from_list(
+    'custom_bupu', ['#f7fcfd', '#bfd3e6', '#8c96c6', '#8c6bb1', '#88419d', '#810f7c', '#4d004b'], N=256
+    )
 
+    # Plot the heatmap
+    plt.figure(figsize=(12, 8)) 
+    sns.heatmap(heatmap_data, annot=True, cmap=custom_cmap, cbar=True, fmt='.1f', linewidths=.5, vmin=0, vmax=100)
+    
+    if shuffled:
+        plt.title(f'{model}_shuffled', fontsize=16)
+    else:
+        plt.title(f'{model}', fontsize=16)
+    plt.xlabel('Language', fontsize=16)
+    plt.ylabel('Books (Sorted by Release Date)', fontsize=16)
+    plt.tight_layout()
+    if shuffled:
+        plt.savefig(f'./Evaluation/plots/{model}_shuffled_heatmap.png', dpi=300, bbox_inches='tight')
+    else:
+        plt.savefig(f'./Evaluation/plots/{model}_shuffled_heatmap.png', dpi=300, bbox_inches='tight')
+    plt.show()
+if __name__ == "__main__":
+    # titles = list_csv_files('./Evaluation/gpt4o/')
+    # unshuffled_accuracy_list = {}
+    # shuffled_accuracy_list = {}
+    
+    # for title in titles:
+    #     # if title == 'A_thousand_splendid_suns_direct_probe_gpt4o':
+    #     print(f'----------------- Running {title} -----------------')   
+    #     book_title = title.replace('_direct_probe_gpt4o', '')
+    #     book_title = book_title.replace('_',' ') 
+    #     results_evaluated =evaluate(csv_file_name=f'./Evaluation/gpt4o/{title}.csv', book_title=title)
+    #     shuffled, unshuffled = split_data(results_evaluated)
+    #     save_data(title,shuffled,True)
+    #     save_data(title,unshuffled,False)
+    #     unshuffled_acc_df = guess_accuracy(unshuffled)
+    #     shuffled_acc_df = guess_accuracy(shuffled)
+    #     # print(unshuffled_acc_df.keys)
+    #     unshuffled_accuracy_list[book_title]=(unshuffled_acc_df)
+    #     shuffled_accuracy_list[book_title] =(shuffled_acc_df)
+    #     plot(unshuffled_acc_df,title,False) 
+    #     plot(shuffled_acc_df,title,True)    
+
+
+    # # Save unshuffled accuracy list
+    # u_df = pd.DataFrame.from_dict(unshuffled_accuracy_list, orient='index')
+    # u_df.index.name = 'Title'
+    # u_df.reset_index(inplace=True)
+    # u_df.to_csv('unshuffled.csv', index=False, encoding='utf-8')
+
+    # # Save shuffled accuracy list
+    # s_df = pd.DataFrame.from_dict(shuffled_accuracy_list, orient='index')
+    # s_df.index.name = 'Title'
+    # s_df.reset_index(inplace=True)
+    # s_df.to_csv('shuffled.csv', index=False, encoding='utf-8')
+    s_df = pd.read_csv('./shuffled.csv')
+    print(s_df.shape)
+    create_heatmap(s_df,"./release_date.csv","gpt4o",True)
+    
