@@ -7,7 +7,7 @@ import ast
 import seaborn as sns
 
 def main(title):
-    df1 = pd.read_csv(f'/Users/emir/Desktop/BEAM/scripts/name_cloze_task/Evaluation/llm_out/fireworks_out/{title}.csv')
+    df1 = pd.read_csv(f'/Users/emir/Desktop/BEAM/scripts/name_cloze_task/Evaluation/llm_out/4o/{title}.csv')
     df = pd.DataFrame()
     df_shuffled = pd.DataFrame()
 
@@ -94,12 +94,13 @@ def main(title):
         assess(lang, df)
         assess(lang, df_shuffled)
     # print(df)
-    models = ['llama405b']
-    for model in models:
-        if model in title:
-            df.to_csv(f'/Users/emir/Desktop/BEAM/scripts/name_cloze_task/Evaluation/llm_out/fireworks_out/eval/{title}.csv', index=False, encoding='utf-8')
-            df_shuffled.to_csv(f'/Users/emir/Desktop/BEAM/scripts/name_cloze_task/Evaluation/llm_out/fireworks_out/shuffled/{title}_shuffled.csv', index=False, encoding='utf-8')
-
+    # models = ['gpt4o']
+    # for model in models:
+    #     if model in title:
+    #         df.to_csv(f'/Users/emir/Desktop/BEAM/scripts/name_cloze_task/Evaluation/llm_out/4o/eval/{title}.csv', index=False, encoding='utf-8')
+    #         df_shuffled.to_csv(f'/Users/emir/Desktop/BEAM/scripts/name_cloze_task/Evaluation/llm_out/4o/shuffled/{title}_shuffled.csv', index=False, encoding='utf-8')
+    
+    df = df_shuffled
     guess_accuracy = {
         lang: df[f'{lang}_correct'].value_counts(normalize=True).get('correct', 0) * 100
         for lang in available_langs if f'{lang}_correct' in df
@@ -114,14 +115,14 @@ def main(title):
 
     plt.xlabel('Language', fontsize=16)
     plt.ylabel('Accuracy (%)', fontsize=16)
-    plt.title('Name Cloze Prediction Accuracy by Language - GPT4o', fontsize=16)
+    plt.title('Name Cloze Prediction Accuracy by Language (Shuffled) - GPT4o', fontsize=16)
 
     for bar in bars:
         height = bar.get_height()
         plt.text(bar.get_x() + bar.get_width() / 2, 5, f'{height:.1f}%', ha='center', va='bottom', fontsize=14, fontweight='bold')  # Bold formatting added here
 
     plt.ylim(0, 100)
-    plt.savefig(f'/Users/emir/Desktop/BEAM/scripts/name_cloze_task/Evaluation/llm_out/fireworks_out/plots/{title}.png', dpi=300, bbox_inches='tight')
+    plt.savefig(f'/Users/emir/Desktop/BEAM/scripts/name_cloze_task/plots/{title}_shuffled.png', dpi=300, bbox_inches='tight')
     # plt.show()
 
 def list_csv_files(directory):
@@ -138,10 +139,11 @@ def list_csv_files(directory):
         print(f"Error: Permission denied for accessing '{directory}'.")
         return []
 
-titles = list_csv_files('/Users/emir/Desktop/BEAM/scripts/name_cloze_task/Evaluation/llm_out/fireworks_out/')
+if __name__ == '__main__':
+    titles = list_csv_files('/Users/emir/Desktop/BEAM/scripts/name_cloze_task/Evaluation/llm_out/4o/')
 
-for t in titles:
-    print(f'----------------running {t}----------------')
-    main(t)
+    for t in titles:
+        print(f'----------------running {t}----------------')
+        main(t)
 
 # main('1984_name_cloze_Llama-3.1-70B-Instruct')
