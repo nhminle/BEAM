@@ -16,15 +16,15 @@ def run_exact_match(correct_author, correct_title_list, returned_author, returne
 
     # Check if the returned title matches any of the titles in the correct_title_list using fuzzy matching
     title_match = any(
-        fuzz.ratio(unidecode.unidecode(str(returned_title)).lower(), unidecode.unidecode(str(title)).lower()) >= 70
+        fuzz.ratio(unidecode.unidecode(str(returned_title)).lower(), unidecode.unidecode(str(title)).lower()) >= 90
         for title in correct_title_list
     )
 
     # Check if the authors match using fuzzy matching
-    author_match = fuzz.ratio(unidecode.unidecode(correct_author).lower(), unidecode.unidecode(returned_author).lower()) >= 70
+    author_match = fuzz.ratio(unidecode.unidecode(correct_author).lower(), unidecode.unidecode(returned_author).lower()) >= 90
 
     # Check if both title and author match
-    both_match = title_match and author_match
+    both_match = True if title_match == author_match == True else False
 
     result = {
         f"{lang}_title_match": title_match,
@@ -205,8 +205,8 @@ def list_csv_files(directory):
 def create_heatmap(df,release_date_csv,model,shuffled):
     release_dates = pd.read_csv(release_date_csv)
     release_dates['Release Date'] = pd.to_datetime(release_dates['Release Date'])  # Ensure datetime format
-    df= df.loc[:, df.columns.str.contains('_both_match')]
     merged_df = pd.merge(df, release_dates, on='Title', how='inner')
+    # merged_df= merged_df.loc[:, merged_df.columns.str.contains('_both_match')]
     print(f"Merged DataFrame shape: {merged_df.shape}")
         # Exit early if no matching data
     if merged_df.empty:
@@ -220,6 +220,12 @@ def create_heatmap(df,release_date_csv,model,shuffled):
 
     # Prepare heatmap data
     heatmap_data = sorted_df.set_index('Title').drop(columns=['Release Date'])
+    heatmap_data= heatmap_data.loc[:, heatmap_data.columns.str.contains('_both_match')]
+    print(heatmap_data)
+    for column in heatmap_data.columns:
+        heatmap_data = heatmap_data.rename(columns={f'{column}' : f'{column.split('_')[0]}'})
+        
+    print(heatmap_data.columns)
     print(f"Heatmap Data shape: {heatmap_data.shape}")
 
     # Exit early if heatmap data is empty
@@ -248,40 +254,46 @@ def create_heatmap(df,release_date_csv,model,shuffled):
         plt.savefig(f'./Evaluation/plots/{model}_shuffled_heatmap.png', dpi=300, bbox_inches='tight')
     plt.show()
 if __name__ == "__main__":
-    # titles = list_csv_files('./Evaluation/gpt4o/')
-    # unshuffled_accuracy_list = {}
-    # shuffled_accuracy_list = {}
+    titles = list_csv_files('./Evaluation/gpt4o/')
+    unshuffled_accuracy_list = {}
+    shuffled_accuracy_list = {}
     
-    # for title in titles:
-    #     # if title == 'A_thousand_splendid_suns_direct_probe_gpt4o':
-    #     print(f'----------------- Running {title} -----------------')   
-    #     book_title = title.replace('_direct_probe_gpt4o', '')
-    #     book_title = book_title.replace('_',' ') 
-    #     results_evaluated =evaluate(csv_file_name=f'./Evaluation/gpt4o/{title}.csv', book_title=title)
-    #     shuffled, unshuffled = split_data(results_evaluated)
-    #     save_data(title,shuffled,True)
-    #     save_data(title,unshuffled,False)
-    #     unshuffled_acc_df = guess_accuracy(unshuffled)
-    #     shuffled_acc_df = guess_accuracy(shuffled)
-    #     # print(unshuffled_acc_df.keys)
-    #     unshuffled_accuracy_list[book_title]=(unshuffled_acc_df)
-    #     shuffled_accuracy_list[book_title] =(shuffled_acc_df)
-    #     plot(unshuffled_acc_df,title,False) 
-    #     plot(shuffled_acc_df,title,True)    
+    for title in titles:
+        # if title == 'A_thousand_splendid_suns_direct_probe_gpt4o':
+        print(f'----------------- Running {title} -----------------')   
+        book_title = title.replace('_direct_probe_gpt4o', '')
+        book_title = book_title.replace('_',' ') 
+        results_evaluated =evaluate(csv_file_name=f'./Evaluation/gpt4o/{title}.csv', book_title=title)
+        shuffled, unshuffled = split_data(results_evaluated)
+        save_data(title,shuffled,True)
+        save_data(title,unshuffled,False)
+        unshuffled_acc_df = guess_accuracy(unshuffled)
+        shuffled_acc_df = guess_accuracy(shuffled)
+        # print(unshuffled_acc_df.keys)
+        unshuffled_accuracy_list[book_title]=(unshuffled_acc_df)
+        shuffled_accuracy_list[book_title] =(shuffled_acc_df)
+        plot(unshuffled_acc_df,title,False) 
+        plot(shuffled_acc_df,title,True)    
 
 
-    # # Save unshuffled accuracy list
-    # u_df = pd.DataFrame.from_dict(unshuffled_accuracy_list, orient='index')
-    # u_df.index.name = 'Title'
-    # u_df.reset_index(inplace=True)
-    # u_df.to_csv('unshuffled.csv', index=False, encoding='utf-8')
+    # Save unshuffled accuracy list
+    u_df = pd.DataFrame.from_dict(unshuffled_accuracy_list, orient='index')
+    u_df.index.name = 'Title'
+    u_df.reset_index(inplace=True)
+    u_df.to_csv('unshuffled.csv', index=False, encoding='utf-8')
 
-    # # Save shuffled accuracy list
-    # s_df = pd.DataFrame.from_dict(shuffled_accuracy_list, orient='index')
-    # s_df.index.name = 'Title'
-    # s_df.reset_index(inplace=True)
-    # s_df.to_csv('shuffled.csv', index=False, encoding='utf-8')
-    s_df = pd.read_csv('./shuffled.csv')
-    print(s_df.shape)
+    # Save shuffled accuracy list
+    s_df = pd.DataFrame.from_dict(shuffled_accuracy_list, orient='index')
+    s_df.index.name = 'Title'
+    s_df.reset_index(inplace=True)
+    s_df.to_csv('shuffled.csv', index=False, encoding='utf-8')
+    # s_df = pd.read_csv('./shuffled.csv')
+    # print(s_df.shape)
     create_heatmap(s_df,"./release_date.csv","gpt4o",True)
+    create_heatmap(u_df,"./release_date.csv","gpt4o",False)
     
+
+    #Instructions
+    #Run the code inside direct_probing folder.
+    #Rename your alice in wonderland to Alice_s_Adventures_in_Wonderland, and Percy_Jackson_the_Lightning_Thief to The_Lightning_Thief only.
+    #Put your results inside Evalutation/modelanme/ then modify the code accordingly.
