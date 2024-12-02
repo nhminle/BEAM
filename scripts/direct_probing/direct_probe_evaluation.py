@@ -9,6 +9,7 @@ import os
 import numpy as np
 from matplotlib.colors import LinearSegmentedColormap
 import seaborn as sns
+from collections import Counter
 
 def run_exact_match(correct_author, correct_title_list, returned_author, returned_title, lang):
     returned_author = str(returned_author) if pd.notna(returned_author) else ''
@@ -53,13 +54,17 @@ def evaluate(csv_file_name, book_title,model):
     filtered_df = df.loc[:, df.columns.str.contains('results', case=False)]
     book_title = book_title.replace(f'_direct_probe_{model}', '')
     book_title = book_title.replace('_',' ')
-    print(book_title)
+    # print(book_title)
     # Find the matching row for the given book title
     matching_row = book_names[book_names.isin([book_title]).any(axis=1)].values.flatten().tolist()
     author = matching_row[0]
     # print(author)
     # print(f"Matching row titles: {matching_row}")
     results_all = pd.DataFrame()
+    true_author =[]
+    true_title = []
+    false_author = []
+    false_title=[]
     # Iterate through each filtered column
     for column in filtered_df.columns:
         # print(f"Running: {column}")
@@ -75,6 +80,19 @@ def evaluate(csv_file_name, book_title,model):
 
             # Run exact match evaluation
             eval_result = run_exact_match(author, matching_row, returned_author, returned_title,column)
+            if eval_result[f'{column}_title_match']:
+                true_title.append(returned_title)
+                # print(type(returned_title))
+                # print(i)
+                # print(returned_title)
+            else:
+                false_title.append(returned_title)
+            
+            if eval_result[f'{column}_author_match']:
+                true_author.append(returned_author)
+            else:
+                false_author.append(returned_author)
+                
             #print(f"Evaluation result for passage {i}: {eval_result}")
 
             # Store the result
@@ -82,7 +100,13 @@ def evaluate(csv_file_name, book_title,model):
         #add results to the results_all   
         lang_results_df = pd.DataFrame(lang_results)
         results_all =pd.concat([results_all,lang_results_df],axis =1)
-    
+    freq_true_author = str(Counter(true_author))
+    freq_false_author =str(Counter(false_author))
+    freq_false_title = str(Counter(false_title))
+    freq_true_title = str(Counter(true_title))
+    #print(f"Frequency results:\n\nTrue author= {freq_true_author}\n\nFalse author ={freq_false_author}\n\n False title= {freq_false_title}\n\n True title={freq_true_title}\n\n")
+    print(f"Frequency results:\n\nTrue author= {freq_true_author}\n\nTrue title={freq_true_title}\n\n")
+
     results_all.to_csv('testing.csv', index=False, encoding='utf-8')
     return results_all
 
@@ -265,21 +289,21 @@ if __name__ == "__main__":
     shuffled_accuracy_list = {}
     
     for title in titles:
-        # if title == 'A_thousand_splendid_suns_direct_probe_gpt4o':
-        print(f'----------------- Running {title} -----------------')   
-        book_title = title.replace(f'_direct_probe_{model}', '')
-        book_title = book_title.replace('_',' ') 
-        results_evaluated =evaluate(csv_file_name=f'./Evaluation/{model}/{title}.csv', book_title=title,model=model)
-        shuffled, unshuffled = split_data(results_evaluated)
-        save_data(title,shuffled,True)
-        save_data(title,unshuffled,False)
-        unshuffled_acc_df = guess_accuracy(unshuffled)
-        shuffled_acc_df = guess_accuracy(shuffled)
-        # print(unshuffled_acc_df.keys)
-        unshuffled_accuracy_list[book_title]=(unshuffled_acc_df)
-        shuffled_accuracy_list[book_title] =(shuffled_acc_df)
-        plot(unshuffled_acc_df,title,False) 
-        plot(shuffled_acc_df,title,True)    
+        # if title == 'First_Lie_Wins_direct_probe_llama405b':
+            print(f'----------------- Running {title} -----------------')   
+            book_title = title.replace(f'_direct_probe_{model}', '')
+            book_title = book_title.replace('_',' ') 
+            results_evaluated =evaluate(csv_file_name=f'./Evaluation/{model}/{title}.csv', book_title=title,model=model)
+            shuffled, unshuffled = split_data(results_evaluated)
+            save_data(title,shuffled,True)
+            save_data(title,unshuffled,False)
+            unshuffled_acc_df = guess_accuracy(unshuffled)
+            shuffled_acc_df = guess_accuracy(shuffled)
+            # print(unshuffled_acc_df.keys)
+            unshuffled_accuracy_list[book_title]=(unshuffled_acc_df)
+            shuffled_accuracy_list[book_title] =(shuffled_acc_df)
+            plot(unshuffled_acc_df,title,False) 
+            plot(shuffled_acc_df,title,True)    
 
 
     # Save unshuffled accuracy list
