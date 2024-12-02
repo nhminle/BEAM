@@ -1,0 +1,74 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+"['henry wotton', 'lord henry wotton']",dorian,dorian,dorian,henry,0,0.4,0,0.4,0,0.4,1,1.0,incorrect,incorrect,incorrect,correct
+"['basil hallwar', 'basil hallward']",basil,basil,basil,basil,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['lord henry', 'henry']",lord,dorian,oscar,henry,1,1.0,0,0.4,0,0.44,1,1.0,correct,incorrect,incorrect,correct
+"['lord henry', 'henry']",oscar,alicia,alice,goring,0,0.44,0,0.2,0,0.27,0,0.4,incorrect,incorrect,incorrect,incorrect
+['agatha'],augusta,agatha,mary,agatha,0,0.62,1,1.0,0,0.2,1,1.0,incorrect,correct,incorrect,correct
+"['dorian', 'doria']",dorian,dorian,ahmet,dorian,1,1.0,1,1.0,0,0.2,1,1.0,correct,correct,incorrect,correct
+['basil'],dorian,dorian,lord,dorian,0,0.18,0,0.18,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+['harry'],dorian,dorian,ressam,dorian,0,0.18,0,0.18,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—']",lord,oscar,dorian,henry,1,1.0,0,0.44,0,0.4,1,1.0,correct,incorrect,incorrect,correct
+"['dorian', 'dorian gray']",dorian,dorian,clarissa,dorian,1,1.0,1,1.0,0,0.43,1,1.0,correct,correct,incorrect,correct
+"['lord henry', 'henry', 'lord henry—']",dorian,picasso,ahmet,henry,0,0.4,0,0.18,0,0.4,1,1.0,incorrect,incorrect,incorrect,correct
+"['lord henry', 'henry', 'lord henry—']",dorian,dorian,dorian,henry,0,0.4,0,0.4,0,0.4,1,1.0,incorrect,incorrect,incorrect,correct
+"['fermor', 'lord fermor']",lord,holmes,ahmet,voldemort,1,1.0,0,0.24,0,0.18,0,0.6,correct,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",lord henry,wilde,dorian,henry,1,1.0,0,0.44,0,0.4,1,1.0,correct,incorrect,incorrect,correct
+"['lord henry', 'henry']",lord,oscar,oscar,henry,1,1.0,0,0.44,0,0.44,1,1.0,correct,incorrect,incorrect,correct
+"['erskine', 'mr erskine', 'erskine—']",bennet,bennet,stevens,watson,0,0.46,0,0.46,0,0.29,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",holmes,gatsby,ahmet,henry,0,0.36,0,0.18,0,0.4,1,1.0,incorrect,incorrect,incorrect,correct
+"['henr', 'harry']",algernon,oscar,nietzsche,gatsby,0,0.33,0,0.4,0,0.31,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['basil', 'sibyl']",basil,holmes,dorian,dorian,1,1.0,0,0.18,0,0.18,0,0.18,correct,incorrect,incorrect,incorrect
+['basil'],mr. darcy,smith,holmes,tom,0,0.14,0,0.4,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['sibyl'],sibyl,mamá,ann,emily,1,1.0,0,0.0,0,0.0,0,0.4,correct,incorrect,incorrect,incorrect
+['sibyl'],cosette,emma,jane,dorian,0,0.17,0,0.0,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—']",lord,oscar,tom,henry,1,1.0,0,0.44,0,0.29,1,1.0,correct,incorrect,incorrect,correct
+"['lord henry', 'henry']",henry,maría,ahmet,henry,1,1.0,0,0.22,0,0.4,1,1.0,correct,incorrect,incorrect,correct
+"['lord henry', 'henry']",dorian,dorian,dorian,henry,0,0.4,0,0.4,0,0.4,1,1.0,incorrect,incorrect,incorrect,correct
+"['lord henry', 'henry']",dorian,emma,mary,henry,0,0.4,0,0.22,0,0.44,1,1.0,incorrect,incorrect,incorrect,correct
+['harry'],oscar,oscar,socrates,oscar,0,0.4,0,0.4,0,0.15,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",lord,lord,lord,henry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['dorian'],basil,holmes,john,gatsby,0,0.18,0,0.17,0,0.4,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'dorian gray']",dorian,dorian,dorian,dorian,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['george petit4', 'george petit', 'georges petit']",basil,durand,claude,durand,0,0.22,0,0.17,0,0.18,0,0.17,incorrect,incorrect,incorrect,incorrect
+['hallward'],basil,dorian,dorian,vincent,0,0.31,0,0.14,0,0.14,0,0.0,incorrect,incorrect,incorrect,incorrect
+['dorian'],dorian,dorian,dorian,dorian,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['hubbard', 'mr hubbard']",dorian,smith,holmes,brown,0,0.25,0,0.29,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['hubbard', 'hubbar', 'mr hubbard']",holmes,smith,bay,holmes,0,0.25,0,0.29,0,0.44,0,0.25,incorrect,incorrect,incorrect,incorrect
+['dorian'],dorian,víctor,john,dorian,1,1.0,0,0.33,0,0.4,1,1.0,correct,incorrect,incorrect,correct
+"['lord henry', 'henry']",lord,wilde,oscar,henry,1,1.0,0,0.44,0,0.44,1,1.0,correct,incorrect,incorrect,correct
+"['dorian', 'dorian gray']",dorian,dorian,dorian,dorian,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['dorian', 'dorian gray']",dorian,dorian,don,dorian,1,1.0,1,1.0,0,0.67,1,1.0,correct,correct,incorrect,correct
+['dorian'],dorian,juan,harry,dorian,1,1.0,0,0.4,0,0.18,1,1.0,correct,incorrect,incorrect,correct
+"['dorian', 'doria']",dorian,dorian,dorian,dorian,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['dorian', 'doria']",watson,julio,ahmet,harry,0,0.33,0,0.2,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['dorian gray'],dorian,dorian,dorian,dorian,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['dorian'],dorian,julio,charles,julien,1,1.0,0,0.18,0,0.15,0,0.33,correct,incorrect,incorrect,incorrect
+['dorian gray'],dorian,él,basil,dorian,1,1.0,0,0.0,0,0.22,1,1.0,correct,incorrect,incorrect,correct
+"['henry wotton', 'lord henry wotton', 'henry wotto']",basil,freud,freud,henry,0,0.22,0,0.44,0,0.44,1,1.0,incorrect,incorrect,incorrect,correct
+"['dorian', 'doria']",holmes,raskolnikov,raskolnikov,raskolnikov,0,0.18,0,0.35,0,0.35,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['campbell', 'y run']",dorian,juan,john,raskolnikov,0,0.44,0,0.57,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'dorian gray']",dorian,dorian,dorian,dorian,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['campbell'],dorian,javier,ahmet,nguyễn,0,0.14,0,0.29,0,0.46,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",algernon,oscar,ahmet,henry,0,0.33,0,0.44,0,0.4,1,1.0,incorrect,incorrect,incorrect,correct
+"['madam ferrol', 'ferroll', 'ferrol', 'madame de ferrol']",constance,beethoven,emma,pompadour,0,0.27,0,0.27,0,0.44,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",gwendolen,emma,ahmet,goring,0,0.32,0,0.22,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['ruxton', 'leydi ruxton', 'lady ruxton']",watson,alicia,holmes,jenkins,0,0.5,0,0.4,0,0.36,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—']",lord henry,gatsby,oscar,henry,1,1.0,0,0.18,0,0.44,1,1.0,correct,incorrect,incorrect,correct
+"['dorian', 'doria']",dorian,juan,ali,dorian,1,1.0,0,0.4,0,0.25,1,1.0,correct,incorrect,incorrect,correct
+"['dorian', 'dorian gray']",dorian,dorian,dorian,dorian,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['dorian'],dorian,holmes,sherlock,dorian,1,1.0,0,0.17,0,0.14,1,1.0,correct,incorrect,incorrect,correct
+['dorian'],dorian,dorian,adam,john,1,1.0,1,1.0,0,0.4,0,0.4,correct,correct,incorrect,incorrect
+['dorian gray'],hyde,raskolnikov,faust,raskolnikov,0,0.25,0,0.35,0,0.22,0,0.35,incorrect,incorrect,incorrect,incorrect
+['dorian gray'],holmes,holmes,sherlock,edmond,0,0.17,0,0.17,0,0.17,0,0.5,incorrect,incorrect,incorrect,incorrect
+['james vane'],dorian,raskolnikov,emma,dorian,0,0.4,0,0.29,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+['dorian'],basil,ivan,ali,anna,0,0.18,0,0.6,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['sir geoffrey—', 'geoffrey', 'sir geoffrey']",jeeves,watson,tom,quincy,0,0.29,0,0.22,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['dorian'],dorian,harry,dorian,dorian,1,1.0,0,0.18,1,1.0,1,1.0,correct,incorrect,correct,correct
+['harry'],dorian,dorian,ivan,dorian,0,0.18,0,0.18,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",dorian,holmes,mary,henry,0,0.4,0,0.36,0,0.44,1,1.0,incorrect,incorrect,incorrect,correct
+"['lord henry', 'henry', 'lord henry—', 'henry cười']",lord,gatsby,ahmet,henry,1,1.0,0,0.18,0,0.4,1,1.0,correct,incorrect,incorrect,correct
+['dorian'],watson,holmes,ali,harry,0,0.33,0,0.17,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",lord,dorian,dorian,henry,1,1.0,0,0.4,0,0.4,1,1.0,correct,incorrect,incorrect,correct
+"['lord henry', 'henry']",lord,lord,oscar,henry,1,1.0,1,1.0,0,0.44,1,1.0,correct,correct,incorrect,correct
+"['dorian', 'doria']",dorian,basil,dorian,dorian,1,1.0,0,0.2,1,1.0,1,1.0,correct,incorrect,correct,correct
+"['lord henry', 'henry']",wilde,dorian,sherlock,henry,0,0.44,0,0.4,0,0.46,1,1.0,incorrect,incorrect,incorrect,correct

@@ -1,0 +1,108 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+['bruno'],he,gregorio,ali,harry,0,0.0,0,0.31,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['gretel'],john,juan,anne,anna,0,0.0,0,0.0,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],bruno,anna,ali,bruno,1,1.0,0,0.22,0,0.0,1,1.0,correct,incorrect,incorrect,correct
+['bruno'],tommy,ana,alice,harry,0,0.2,0,0.25,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,alicia,ali,harry,0,0.0,0,0.0,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['maria', 'maría']",sheila,maría,anne,mẹ,0,0.36,1,1.0,0,0.22,0,0.29,incorrect,correct,incorrect,incorrect
+"['maria', 'maría']",father,juan,babası,chị,0,0.36,0,0.22,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],harry,alicia,ali,harry,0,0.2,0,0.0,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],george,juan,jack,pinocchio,0,0.18,0,0.44,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['bruno'],max,alicia,harry,harry,0,0.0,0,0.0,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['gretel'],lucy,alicia,harry,anna,0,0.2,0,0.17,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],harry,hans,alice,anne,0,0.2,0,0.22,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['gretel'],bruno,bruno,bruno,bruno,0,0.18,0,0.18,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['gretel'],matilda,alicia,hermione,hermione,0,0.31,0,0.17,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+['bruno'],christopher,juan,ali,tom,0,0.25,0,0.44,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['gretel'],mary,juan,ali,alice,0,0.2,0,0.0,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['bruno—', 'bruno']",winnie,tom,charlotte,charlotte,0,0.18,0,0.25,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+['gretel'],elizabeth,ana,ali,emma,0,0.27,0,0.0,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],john,bruno,ali,anna,0,0.22,1,1.0,0,0.0,0,0.22,incorrect,correct,incorrect,incorrect
+['gretel'],hermione,maría,tom,mary,0,0.29,0,0.18,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['gretel'],clara,alicia,mary,anna,0,0.18,0,0.17,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],harry,juan,harry,harry,0,0.2,0,0.44,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],bruno,bruno,bruno,bruno,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['bruno'],tom,emily,tom,tom,0,0.25,0,0.0,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],hermione,gregor,harry,mary,0,0.31,0,0.36,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['bruno'],john,tom,adam,harry,0,0.22,0,0.25,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],john,juan,ahmet,tom,0,0.22,0,0.44,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],percy,maría,ahmet,paul,0,0.2,0,0.2,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['bruno'],winston,gregor,john,scrooge,0,0.33,0,0.36,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['pavel'],gandalf,anna,mary,aslan,0,0.33,0,0.22,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['pavel', 'pavel—']",hagrid,maría,ali,tom,0,0.18,0,0.2,0,0.5,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],arthur,smith,harry,harry,0,0.36,0,0.0,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],frodo,juan,ahmet,harry,0,0.4,0,0.44,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],harry,juan,ali,harry,0,0.2,0,0.44,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],john,javier,ali,mary,0,0.22,0,0.18,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['pavel'],hassan,juan,ali,ông,0,0.18,0,0.22,0,0.5,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bruno—', 'bruno']",bruno,hans,hans,hans,1,1.0,0,0.22,0,0.22,0,0.22,correct,incorrect,incorrect,incorrect
+['pavel'],christopher,alicia,alice,christopher,0,0.25,0,0.36,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],hamlet,javier,ali,harry,0,0.0,0,0.18,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['liszt', 'herr liszt', 'herr liszt—', 'bay liszt']",miss,snape,öğretmen,nguyễn,0,0.44,0,0.25,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['liszt', 'herr liszt', 'bay liszt']",snape,don,ali,snape,0,0.25,0,0.0,0,0.5,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],harry,harry,ali,harry,0,0.2,0,0.2,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,juan,ali,robinson,0,0.0,0,0.44,0,0.0,0,0.46,incorrect,incorrect,incorrect,incorrect
+['bruno'],christopher,julio,columbus,alice,0,0.25,0,0.4,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],christopher,juan,ali,harry,0,0.25,0,0.44,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],bruno,shmuel,shmuel,bruno,1,1.0,0,0.18,0,0.18,1,1.0,correct,incorrect,incorrect,correct
+['bruno'],tom,juan,mary,harry,0,0.25,0,0.44,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],harry,juan,ahmet,alice,0,0.2,0,0.44,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['shmuel'],christopher,juan,harry,bruno,0,0.35,0,0.2,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],hans,hans,hans,hans,0,0.22,0,0.22,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['“không', 'bruno']",harry,maría,ali,shmuel,0,0.2,0,0.2,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],bilbo,garcía,ahmet,tom,0,0.4,0,0.18,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],christopher,tom,tom,tom,0,0.25,0,0.25,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['huy', 'bruno']",christopher,colón,columbus,columbus,0,0.25,0,0.2,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+['gretel'],gretel,emma,ayşe,hermione,1,1.0,0,0.2,0,0.2,0,0.29,correct,incorrect,incorrect,incorrect
+['gretel'],jane,lucía,mary,jane,0,0.2,0,0.18,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['brun', 'bruno']",cinderella,alicia,ayşe,cinderella,0,0.14,0,0.0,0,0.0,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['bruno—', 'bruno']",bruno,bruno,bruno,bruno,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['padre', 'bruno']",edmund,kafka,alice,ron,0,0.36,0,0.2,0,0.4,0,0.5,incorrect,incorrect,incorrect,incorrect
+['shmuel'],hugo,hugo,ali,pinocchio,0,0.4,0,0.4,0,0.22,0,0.13,incorrect,incorrect,incorrect,incorrect
+['bruno'],bruno,harry,peter,ron,1,1.0,0,0.2,0,0.2,0,0.5,correct,incorrect,incorrect,incorrect
+['bruno'],bruno,hans,harry,bruno,1,1.0,0,0.22,0,0.2,1,1.0,correct,incorrect,incorrect,correct
+['shmuel'],harry,juan,harry,harry,0,0.18,0,0.2,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['bruno—', 'bruno']",gandalf,alice,harry,harry,0,0.17,0,0.0,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],jeeves,juan,ahmet,harry,0,0.0,0,0.44,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],tom,tomás,ali,bruno,0,0.25,0,0.2,0,0.0,1,1.0,incorrect,incorrect,incorrect,correct
+['bruno'],holden,freud,harry,tom,0,0.18,0,0.4,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['maria', 'maría']",mary,maría,ahmet,john,0,0.67,1,1.0,0,0.2,0,0.0,incorrect,correct,incorrect,incorrect
+['bruno'],christopher,peter,harry,anne,0,0.25,0,0.2,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['pavel'],he,juan,hikmet,gatsby,0,0.29,0,0.22,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],gossip,gossip,harry,harry,0,0.18,0,0.18,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['maria', 'maría']",gandalf,bruno,ali,hermione,0,0.33,0,0.2,0,0.5,0,0.31,incorrect,incorrect,incorrect,incorrect
+['shmuel'],katniss,kafka,gandalf,chí,0,0.15,0,0.0,0,0.15,0,0.22,incorrect,incorrect,incorrect,incorrect
+['bruno'],harry,maría,harry,harry,0,0.2,0,0.2,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['kotler', 'lieutenant kotler', 'teğmen kotler']",smith,garcía,ahmet,dan,0,0.27,0,0.25,0,0.36,0,0.31,incorrect,incorrect,incorrect,incorrect
+['gretel'],lucy,juan,tom,mary,0,0.2,0,0.0,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],tom,javier,ali,harry,0,0.25,0,0.18,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['gretel'],hermione,lucía,peter,mary,0,0.29,0,0.18,0,0.55,0,0.2,incorrect,incorrect,incorrect,incorrect
+['gretel'],matilda,juan,harry,emily,0,0.31,0,0.0,0,0.18,0,0.36,incorrect,incorrect,incorrect,incorrect
+['gretel'],gollum,ana,harry,mary,0,0.33,0,0.0,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],mary,alicia,anne,alice,0,0.22,0,0.0,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],jim,jim,jim,jim,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],harry,josef,alice,alice,0,0.2,0,0.2,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],frodo,maría,mary,harry,0,0.4,0,0.2,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],oliver,su madre,oliver,oliver,0,0.18,0,0.15,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],bruno,hans,hans,bruno,1,1.0,0,0.22,0,0.22,1,1.0,correct,incorrect,incorrect,correct
+['gretel'],hermione,maría,ahmet,mary,0,0.29,0,0.18,0,0.36,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['bruno', 'do thái']",bruno,bruno,bruno,do thái,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['gretel'],lyra,alice,kafka,người,0,0.2,0,0.18,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],bruno,bruno,bruno,bruno,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['bruno'],charlie,juan,harry,harry,0,0.17,0,0.44,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],bilbo,juan,ali,harry,0,0.4,0,0.44,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],bruno,bruno,bruno,harry,1,1.0,1,1.0,1,1.0,0,0.2,correct,correct,correct,incorrect
+['shmuel'],harry,maría,mary,harry,0,0.18,0,0.18,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['shmuel'],draco,napoleón,harry,ron,0,0.0,0,0.14,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['shmuel'],christopher,hans,mary,christopher,0,0.35,0,0.2,0,0.2,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['shmuel', 'shmuel—']",harry,voldemort,harry,ron,0,0.18,0,0.13,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],bruno,maría,ali,harry,1,1.0,0,0.2,0,0.0,0,0.2,correct,incorrect,incorrect,incorrect
+['bruno'],arthur,fogg,ali,tom,0,0.36,0,0.22,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],frodo,juan,ahmet,tom,0,0.4,0,0.44,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['shmuel'],tom,juan,bruno,tom,0,0.22,0,0.2,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['bruno'],bruno,tom,ali,tom,1,1.0,0,0.25,0,0.0,0,0.25,correct,incorrect,incorrect,incorrect
+['bruno'],john,juan,ahmet,harry,0,0.22,0,0.44,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],tom,sherlock,sherlock,tom,0,0.25,0,0.31,0,0.31,0,0.25,incorrect,incorrect,incorrect,incorrect
+['shmuel'],charlie,bruno,ali,harry,0,0.31,0,0.18,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],bruno,bruno,komutan,peter,1,1.0,1,1.0,0,0.33,0,0.2,correct,correct,incorrect,incorrect
+['bruno'],rip,hansel,hansel,harry,0,0.25,0,0.18,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect

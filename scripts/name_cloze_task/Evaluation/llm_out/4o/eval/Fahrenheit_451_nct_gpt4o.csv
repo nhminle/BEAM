@@ -1,0 +1,26 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+['montag'],montag,montag,harry,tom,1,1.0,1,1.0,0,0.18,0,0.22,correct,correct,incorrect,incorrect
+['montag'],he,él,ahmet,anna,0,0.0,0,0.0,0,0.36,0,0.4,incorrect,incorrect,incorrect,incorrect
+['montag'],clarissa,montag,john,clarissa,0,0.14,1,1.0,0,0.4,0,0.14,incorrect,correct,incorrect,incorrect
+['montag'],montag,raskolnikov,ali,winston,1,1.0,0,0.24,0,0.22,0,0.31,correct,incorrect,incorrect,incorrect
+['mildred'],tom,juan,ali,ngọc,0,0.2,0,0.0,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['faber', 'faber—']",faber,faber,faber,faber,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['montag'],faber,montag,mustafa,clarissa,0,0.18,1,1.0,0,0.46,0,0.14,incorrect,correct,incorrect,incorrect
+['montag'],gutenberg,él,john,gulliver,0,0.27,0,0.0,0,0.4,0,0.14,incorrect,incorrect,incorrect,incorrect
+['montag'],faber,montag,john,john,0,0.18,1,1.0,0,0.4,0,0.4,incorrect,correct,incorrect,incorrect
+['montag'],montag,montag,john,john,1,1.0,1,1.0,0,0.4,0,0.4,correct,correct,incorrect,incorrect
+['faber'],winston,emma,harry,john,0,0.0,0,0.22,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bowles', 'bayan bowles']",bowles,watson,anne,smith,1,1.0,0,0.36,0,0.44,0,0.18,correct,incorrect,incorrect,incorrect
+"['phelps', 'bayan phelps']",montag,montag,montag,smith,0,0.18,0,0.18,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],montag,juan,ahmet,anna,1,1.0,0,0.2,0,0.36,0,0.4,correct,incorrect,incorrect,incorrect
+['montag'],simon,pedro,oğuz,greg,0,0.55,0,0.18,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],montag,gregorio,gregor,anh,1,1.0,0,0.14,0,0.17,0,0.22,correct,incorrect,incorrect,incorrect
+['montag'],frodo,kafka,ali,gatsby,0,0.18,0,0.18,0,0.22,0,0.17,incorrect,incorrect,incorrect,incorrect
+['montag'],he,juan,sherlock,john,0,0.0,0,0.2,0,0.14,0,0.4,incorrect,incorrect,incorrect,incorrect
+['montag'],montag,juan,ali,gatsby,1,1.0,0,0.2,0,0.22,0,0.17,correct,incorrect,incorrect,incorrect
+['montag'],montag,faber,montag,montag,1,1.0,0,0.18,1,1.0,1,1.0,correct,incorrect,correct,correct
+"['montag', 'montag tiến']",montag,montag,ali,clarisse,1,1.0,1,1.0,0,0.29,0,0.33,correct,correct,incorrect,incorrect
+['montag'],heathcliff,smith,ali,anh,0,0.12,0,0.36,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],montag,montag,montag,clarisse,1,1.0,1,1.0,1,1.0,0,0.14,correct,correct,correct,incorrect
+['montag'],montag,orwell,adam,clarisse,1,1.0,0,0.17,0,0.2,0,0.14,correct,incorrect,incorrect,incorrect
+['granger'],gollum,gregor,john,ông,0,0.15,0,0.62,0,0.18,0,0.4,incorrect,incorrect,incorrect,incorrect

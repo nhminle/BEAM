@@ -1,0 +1,61 @@
+Single_ent,en_masked_shuffled_results,es_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+['winston smith'],victory,victoria,nisan,tháng,0,0.43,0,0.4,0,0.5,0,0.4,incorrect,incorrect,incorrect,incorrect
+['winston'],winston,hitler,özdemir,nguyễn,1,1.0,0,0.31,0,0.14,0,0.31,correct,incorrect,incorrect,incorrect
+"['winston', 'wiston']",diary,diario,özdemir,nguyễn,0,0.18,0,0.33,0,0.15,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['señora parsons', 'parsons', 'bayan parsons']",travers,maría,çocuklar,ngọc,0,0.43,0,0.4,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+['tom'],god,maría,ali,nguyễn,0,0.33,0,0.25,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['winston', 'eurasia']",stalin,stalin,stalin,winston,0,0.46,0,0.46,0,0.46,1,1.0,incorrect,incorrect,incorrect,correct
+['winston'],winston,winston,tele,đảng,1,1.0,1,1.0,0,0.18,0,0.18,correct,correct,incorrect,incorrect
+"['winston', ""winston'ın"", 'winston’s']",orwell,churchill,winston,britain,0,0.15,0,0.12,1,1.0,0,0.47,incorrect,incorrect,correct,incorrect
+['winston'],colchester,colchester,colchester,colchester,0,0.24,0,0.24,0,0.24,0,0.24,incorrect,incorrect,incorrect,incorrect
+['winston'],impossible,maría,ali,nguyễn,0,0.24,0,0.17,0,0.2,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['smith', 'smit']",plenty,ministerio,ali,ấm,0,0.2,0,0.43,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['winston'],winston,marx,proleterler,tim,1,1.0,0,0.0,0,0.11,0,0.2,correct,incorrect,incorrect,incorrect
+"['winston', 'winston’s']",general,stalin,julian,canada,0,0.14,0,0.46,0,0.31,0,0.15,incorrect,incorrect,incorrect,incorrect
+['winston'],victory,victoria,i̇stanbul,nguyễn,0,0.43,0,0.4,0,0.53,0,0.31,incorrect,incorrect,incorrect,incorrect
+['winston'],winston,winston,george,nguyễn,1,1.0,1,1.0,0,0.15,0,0.31,correct,correct,incorrect,incorrect
+['winston'],winston,diario,galip,nguyễn,1,1.0,0,0.31,0,0.17,0,0.31,correct,incorrect,incorrect,incorrect
+"['winston', 'winston—']",marx,marx,charles,london,0,0.0,0,0.0,0,0.14,0,0.46,incorrect,incorrect,incorrect,incorrect
+['winston'],marx,marx,fransız,canada,0,0.0,0,0.0,0,0.29,0,0.15,incorrect,incorrect,incorrect,incorrect
+['winston'],winston,comunista,george,nguyễn,1,1.0,0,0.38,0,0.15,0,0.31,correct,incorrect,incorrect,incorrect
+['winston'],curios,al,antikacı,đông,0,0.31,0,0.0,0,0.27,0,0.36,incorrect,incorrect,incorrect,incorrect
+['winston'],steinbeck,marx,emily,nguyễn,0,0.38,0,0.0,0,0.17,0,0.31,incorrect,incorrect,incorrect,incorrect
+['winston'],heathcliff,van gogh,heidi,nguyễn,0,0.12,0,0.27,0,0.17,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın"", 'winston’s']",frankenstein,maría,adam,ngọc,0,0.45,0,0.17,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'a"", 'winston.']",emily,maría,winston,ngọc,0,0.17,0,0.29,1,1.0,0,0.36,incorrect,incorrect,correct,incorrect
+['winston'],london,shakespeare,emily,chính,0,0.46,0,0.11,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['winston'],severn,adán,shok,phong,0,0.31,0,0.18,0,0.36,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['julia—', 'julia']",hideout,marx,i̇stanbul,nguyễn,0,0.17,0,0.22,0,0.31,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['katherine', ""katharine'in"", 'katharine']",elizabeth,shakespeare,shakespeare,ngọc,0,0.33,0,0.4,0,0.4,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['julia', 'here’s']",brute,una,michelangelo,chuột,0,0.36,0,0.5,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['julia—', 'julia']",harry,marx,harry,giả,0,0.2,0,0.22,0,0.2,0,0.5,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",frankenstein,chomsky,uzman,nguyễn,0,0.32,0,0.14,0,0.17,0,0.31,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",winston,hitler,özdemir,nguyễn,0,0.29,0,0.31,0,0.29,0,0.31,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",marlowe,marlboro,ali,thuốc,0,0.29,0,0.27,0,0.2,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['huynh đệ', 'goldstein']",winston,hermandad,assassins,winston,0,0.38,0,0.35,0,0.33,0,0.38,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",god,mar,harry,ngọc,0,0.2,0,0.2,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['winston'],winston,winston,ordusu,nguyễn,1,1.0,1,1.0,0,0.15,0,0.31,correct,correct,incorrect,incorrect
+['julia'],emily,odio,beatles,nguyễn,0,0.2,0,0.22,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın""]",heathcliff,shakespeare,cellât,nghe,0,0.2,0,0.11,0,0.15,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['smith', 'smit']",janie,maría,özdemir,ngọc,0,0.22,0,0.44,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+['parsons'],winston,winston,pinokyo,nguyễn,0,0.43,0,0.43,0,0.29,0,0.15,incorrect,incorrect,incorrect,incorrect
+['parsons'],heidi,hitler,perşembe,ngọc,0,0.0,0,0.15,0,0.4,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'i""]",winston,hitler,jack,nguyễn,1,1.0,0,0.31,0,0.0,0,0.31,correct,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",constable,hitler,yana,nguyễn,0,0.38,0,0.31,0,0.18,0,0.31,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",will,hitler,shakespeare,ngọc,0,0.18,0,0.31,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",emma,marx,bay,nguyễn,0,0.18,0,0.18,0,0.2,0,0.31,incorrect,incorrect,incorrect,incorrect
+['winston'],god,god,acı,nguyễn,0,0.2,0,0.2,0,0.2,0,0.31,incorrect,incorrect,incorrect,incorrect
+['winston'],stephen,el,patlama,đức,0,0.43,0,0.0,0,0.14,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['winston', ""o 'brien"", ""o'brien'ın"", 'o’brien']",god,hamlet,platon,nguyễn,0,0.5,0,0.17,0,0.46,0,0.33,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",elizabeth,freud,öğrenme,nguyễn,0,0.25,0,0.33,0,0.57,0,0.31,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",galileo,galaxias,galileo,trái,0,0.29,0,0.13,0,0.29,0,0.36,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",god,adán,i̇sa,nguyễn,0,0.2,0,0.18,0,0.2,0,0.31,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",it,al,özgür,nguyễn,0,0.22,0,0.0,0,0.33,0,0.31,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",gregor,shakespeare,stephen,thâm,0,0.31,0,0.22,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",london,hammett,albert,chuột,0,0.31,0,0.14,0,0.31,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'a""]",gregor,hamelin,çığlıkları,chuột,0,0.15,0,0.29,0,0.21,0,0.17,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",beast,hammett,mask,chuột,0,0.33,0,0.14,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın"", 'tim winston', 'winston’s']",hitler,inglaterra,hitler,đảng,0,0.31,0,0.35,0,0.31,0,0.18,incorrect,incorrect,incorrect,incorrect
+['winston'],winston,áfrica,tele,phi,1,1.0,0,0.15,0,0.18,0,0.2,correct,incorrect,incorrect,incorrect
+['winston'],woolworth,al,alice,thanh,0,0.25,0,0.0,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['winston', 'winston,']",winston,marx,adam,nguyễn,1,1.0,0,0.0,0,0.0,0,0.31,correct,incorrect,incorrect,incorrect

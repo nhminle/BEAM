@@ -1,0 +1,61 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+['winston smith'],winston,winston,winston,winston,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['winston'],winston,winston,winston,winston,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['winston', 'wiston']",winston,winston,winston,winston,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['señora parsons', 'parsons', 'bayan parsons']",smith,mujer,anne,smith,0,0.18,0,0.36,0,0.44,0,0.18,incorrect,incorrect,incorrect,incorrect
+['tom'],father,juan,macgyver,brown,0,0.22,0,0.0,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['winston', 'eurasia']",winston,winston,winston,eurasia,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['winston'],winston,winston,winston,winston,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['winston', ""winston'ın"", 'winston’s']",winston,winston,julia,winston,1,1.0,1,1.0,0,0.17,1,1.0,correct,correct,incorrect,correct
+['winston'],winston,winston,winston,winston,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['winston'],winston,juan,ali,anna,1,1.0,0,0.18,0,0.2,0,0.36,correct,incorrect,incorrect,incorrect
+"['smith', 'smit']",winston,winston,winston,harry,0,0.36,0,0.36,0,0.36,0,0.2,incorrect,incorrect,incorrect,incorrect
+['winston'],winston,winston,winston,anh,1,1.0,1,1.0,1,1.0,0,0.2,correct,correct,correct,incorrect
+"['winston', 'winston’s']",winston,winston,winston,winston,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['winston'],winston,winston,ahmet,winston,1,1.0,1,1.0,0,0.17,1,1.0,correct,correct,incorrect,correct
+['winston'],winston,winston,winston,anh,1,1.0,1,1.0,1,1.0,0,0.2,correct,correct,correct,incorrect
+['winston'],winston,winston,winston,winston,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['winston', 'winston—']",winston,winston,winston,winston,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['winston'],snowball,orwell,lenin,raskolnikov,0,0.27,0,0.15,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['winston'],winston,winston,winston,winston,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['winston'],winston,holmes,holmes,john,1,1.0,0,0.15,0,0.15,0,0.36,correct,incorrect,incorrect,incorrect
+['winston'],winston,winston,winston,winston,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['winston'],holmes,holmes,ahmet,watson,0,0.15,0,0.15,0,0.17,0,0.62,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın"", 'winston’s']",winston,raskolnikov,ali,john,1,1.0,0,0.38,0,0.2,0,0.36,correct,incorrect,incorrect,incorrect
+"['winston', ""winston'a"", 'winston.']",winston,él,o'brien,anh,1,1.0,0,0.0,0,0.29,0,0.2,correct,incorrect,incorrect,incorrect
+['winston'],winston,él,clarissa,he,1,1.0,0,0.0,0,0.27,0,0.0,correct,incorrect,incorrect,incorrect
+['winston'],stephen,orwell,ahmet,nguyễn,0,0.43,0,0.15,0,0.17,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['julia—', 'julia']",gandalf,tomás,robin,harry,0,0.17,0,0.2,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['katherine', ""katharine'in"", 'katharine']",julia,emma,emily,anna,0,0.14,0,0.15,0,0.29,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['julia', 'here’s']",look,alicia,sherlock,alice,0,0.22,0,0.55,0,0.43,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['julia—', 'julia']",bilbo,alice,sherlock,anna,0,0.2,0,0.4,0,0.15,0,0.22,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",holmes,borges,holmes,holmes,0,0.31,0,0.46,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",winston,winston,winston,winston,0,0.29,0,0.29,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",john,jorge,ahmet,holmes,0,0.36,0,0.5,0,0.17,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['huynh đệ', 'goldstein']",o'brien,o'brien,o'brien,brotherhood,0,0.38,0,0.38,0,0.38,0,0.32,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",o'brien,o'brien,gandalf,winston,1,1.0,1,1.0,0,0.14,0,0.29,correct,correct,incorrect,incorrect
+['winston'],winston,winston,winston,winston,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['julia'],julia,gregor,ali,mai,1,1.0,0,0.0,0,0.5,0,0.25,correct,incorrect,incorrect,incorrect
+"['winston', ""winston'ın""]",winston,alice,azrail,woland,1,1.0,0,0.17,0,0.15,0,0.46,correct,incorrect,incorrect,incorrect
+"['smith', 'smit']",mary,maría,anna,mary,0,0.25,0,0.44,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['parsons'],parsons,parsons,parsons,parsons,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['parsons'],parsons,parsons,smith,winston,1,1.0,1,1.0,0,0.17,0,0.43,correct,correct,incorrect,incorrect
+"['winston', ""winston'i""]",winston,raskolnikov,winston,winston,1,1.0,0,0.4,1,1.0,1,1.0,correct,incorrect,correct,correct
+"[""o'brien"", 'o’brien']",winston,k.,raskolnikov,winston,0,0.29,0,0.0,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",o'brien,o'brien,o'brien,o'brien,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"[""o'brien"", 'o’brien']",gandalf,juan,ahmet,anna,0,0.14,0,0.18,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['winston'],winston,winston,winston,gregor,1,1.0,1,1.0,1,1.0,0,0.15,correct,correct,correct,incorrect
+['winston'],winston,winston,winston,winston,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['winston', ""o 'brien"", ""o'brien'ın"", 'o’brien']",o'brien,gregorio,sartre,sartre,1,1.0,0,0.4,0,0.33,0,0.33,correct,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",o'brien,o'brien,john,ngọc,1,1.0,1,1.0,0,0.36,0,0.18,correct,correct,incorrect,incorrect
+"[""o'brien"", 'o’brien']",calvin,galileo,galileo,galileo,0,0.31,0,0.29,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",o'brien,o'brien,o'brien,adam,1,1.0,1,1.0,1,1.0,0,0.0,correct,correct,correct,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",o'brien,ratched,doktor,randle,1,1.0,0,0.29,0,0.31,0,0.31,correct,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",winston,o'brien,julia,winston,0,0.29,1,1.0,0,0.17,0,0.29,incorrect,correct,incorrect,incorrect
+"[""o'brien"", 'o’brien']",winston,orwell,winston,winston,0,0.29,0,0.46,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'a""]",winston,gregor,ses,winston,1,1.0,0,0.15,0,0.2,1,1.0,correct,incorrect,incorrect,correct
+"[""o'brien—"", ""o'brien"", 'o’brien']",o'brien,o'brien,o'brien,o'brien,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['winston', ""winston'ın"", 'tim winston', 'winston’s']",winston,winston,winston,winston,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['winston'],winston,winston,winston,winston,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['winston'],winston,julio,ali,anh,1,1.0,0,0.33,0,0.2,0,0.2,correct,incorrect,incorrect,incorrect
+"['winston', 'winston,']",winston,winston,winston,winston,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct

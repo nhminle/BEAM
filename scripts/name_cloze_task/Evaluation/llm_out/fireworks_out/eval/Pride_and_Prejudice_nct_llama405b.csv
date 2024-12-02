@@ -1,0 +1,132 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+"['bingley', 'mr bingley']",darcy,godoy,paris,edward,0,0.29,0,0.33,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mr bennet', 'bennet', 'señor bennet']",bennet,coronel,mr. bennet,bennet,1,1.0,0,0.42,0,0.95,1,1.0,correct,incorrect,correct,correct
+"['señora long', 'mrs long', 'long']",long,señora,valmont,ngọc,1,1.0,1,1.0,0,0.55,0,0.5,correct,correct,incorrect,incorrect
+"['mrs bennet', 'bennet', 'señora bennet']",bennet,condesa,elizabeth,elizabeth,1,1.0,0,0.31,0,0.45,0,0.45,correct,incorrect,incorrect,incorrect
+"['mr bennet', 'bennet']",bennet,don,elizabeth,god,1,1.0,0,0.22,0,0.4,0,0.0,correct,incorrect,incorrect,incorrect
+['lizzy'],darcy,darcy,mr. darcy,elizabeth,0,0.2,0,0.2,0,0.14,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['lucas', 'lucas–', 'miss lucas']",elizabeth,elizabeth,elizabeth,elizabeth,0,0.29,0,0.29,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+['mary'],mary,jane,darcy,elizabeth,1,1.0,0,0.25,0,0.67,0,0.15,correct,incorrect,incorrect,incorrect
+"['miss eliza', 'eliz', 'eliza']",elizabeth,elizabeth,elizabeth,elizabeth,0,0.71,0,0.71,0,0.71,0,0.71,correct,correct,correct,correct
+"['mrs bennet', 'bennet––', 'bennet']",bennet,palmer,elizabeth,ngọc,1,1.0,0,0.44,0,0.4,0,0.2,correct,incorrect,incorrect,incorrect
+['louisa'],elizabeth,maría,elizabeth,elizabeth,0,0.4,0,0.36,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['mr jones', 'jones']",woodhouse,woodhouse,dr. watson,nguyễn,0,0.29,0,0.29,0,0.44,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['mary', 'mary––']",elizabeth,don,spock,minh,0,0.15,0,0.0,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['', 'jane bennet']",elizabeth,emma,elizabeth,elizabeth,0,0.4,0,0.25,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'darcy–']",darcy,elizabeth,elizabeth,elizabeth,1,1.0,0,0.14,0,0.14,0,0.14,correct,incorrect,incorrect,incorrect
+['darcy'],darcy,valmont,darcy,đức,1,1.0,0,0.17,1,1.0,0,0.5,correct,incorrect,correct,incorrect
+"['mrs bennet', 'bennet', 'señora bennet']",bennet,marquesa,bay,nguyễn,1,1.0,0,0.55,0,0.22,0,0.33,correct,incorrect,incorrect,incorrect
+"['bingley', 'señor bingley', 'mr bingley']",darcy,emma,bay,edward,0,0.29,0,0.33,0,0.4,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",elizabeth,shakespeare,shakespeare,emma,1,1.0,0,0.3,0,0.3,0,0.31,correct,incorrect,incorrect,incorrect
+"['bennet', 'miss bennet']",edward,warren,bay,elizabeth,0,0.17,0,0.33,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['bennet', 'miss bennet']",thornton,warren,elizabeth,elizabeth,0,0.29,0,0.33,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+['jane'],elizabeth,emma,frodo,elizabeth,0,0.31,0,0.25,0,0.0,0,0.31,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],elizabeth,emma,elizabeth,elizabeth,1,1.0,0,0.31,1,1.0,1,1.0,correct,incorrect,correct,correct
+"['bennet', 'miss bennet', 'jane']",lydia,woodhouse,netherfield,emma,0,0.22,0,0.2,0,0.35,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['charles', 'netherfield', 'charle']",netherfield,parís,netherfield,nhà thờ,1,1.0,0,0.5,1,1.0,0,0.33,correct,incorrect,correct,incorrect
+"['elizabeth', 'elizabeth–']",elizabeth,elizabeth,elizabeth,elizabeth,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['darcy', 'darcy–']",darcy,werther,elizabeth,elizabeth,1,1.0,0,0.17,0,0.14,0,0.14,correct,incorrect,incorrect,incorrect
+"['elizabeth', 'elizabeth–']",elizabeth,heathcliff,hamlet,elizabeth,1,1.0,0,0.42,0,0.4,1,1.0,correct,incorrect,incorrect,correct
+"['mr bennet', 'bennet']",bennet,woodhouse,adam,smith,1,1.0,0,0.13,0,0.33,0,0.29,correct,incorrect,incorrect,incorrect
+['charlotte lucas'],lady,maría,bay,elizabeth,0,0.44,0,0.3,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['mr collins', 'collins', 'collin', 'señor collins']",collins,marqués,mr. collins,edward,1,1.0,0,0.44,0,0.95,0,0.36,correct,incorrect,correct,incorrect
+"['mrs bennet', 'señora bennet––', 'bennet']",bennet,condesa,elizabeth,elizabeth,1,1.0,0,0.31,0,0.42,0,0.42,correct,incorrect,incorrect,incorrect
+"['mr bennet', 'bennet', 'bennet––']",darcy,valentino,valmont,nguyễn,0,0.29,0,0.4,0,0.38,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['mrs bennet', 'bennet', 'señora bennet']",bennet,condesa,bay,bennet,1,1.0,0,0.31,0,0.22,1,1.0,correct,incorrect,incorrect,correct
+"['mrs philips', 'señora philips', 'philips']",phillips,marquesa,bay,nguyễn,0,0.93,0,0.55,0,0.22,0,0.33,correct,incorrect,incorrect,incorrect
+"['wickham––', 'wickham']",elizabeth,wickham,mr. bennet,elizabeth,0,0.25,1,1.0,0,0.12,0,0.25,incorrect,correct,incorrect,incorrect
+"['darcy', 'mr darcy']",woodhouse,dr. grant,john,edward,0,0.14,0,0.35,0,0.0,0,0.55,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],elizabeth,monte cristo,monte,emma,1,1.0,0,0.29,0,0.14,0,0.31,correct,incorrect,incorrect,incorrect
+"['darcy', 'darc', 'wickham']",georgiana,elizabeth,darcy,elliot,0,0.25,0,0.25,1,1.0,0,0.15,incorrect,incorrect,correct,incorrect
+"['darcy', 'mr darcy']",darcy,darcy,darcy,darcy,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['catherine de bourgh', 'lady catherine de bourgh', 'catherine bourg']",lady,fortuna,god,brandon,1,1.0,0,0.33,0,0.4,0,0.36,correct,incorrect,incorrect,incorrect
+"['wickham––', 'wickham']",lady catherine,lady,mr. darcy,elizabeth,0,0.19,0,0.18,0,0.12,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jane'],emma,maruja,watson,ngọc,0,0.25,0,0.4,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],elizabeth,hamlet,heathcliff,sheldon,1,1.0,0,0.4,0,0.42,0,0.25,correct,incorrect,incorrect,incorrect
+"['ngài william', 'william', 'sir william']",mr. darcy,usted,godot,elizabeth,0,0.3,0,0.25,0,0.22,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['anh darcy', 'señor darcy', 'darcy', 'mr darcy']",darcy,diablo,hitler,edward,1,1.0,0,0.36,0,0.36,0,0.55,correct,incorrect,incorrect,incorrect
+"['señor collins', 'collins', 'mr collins']",darcy,señor,bay,minh,0,0.29,1,1.0,0,0.0,0,0.43,incorrect,correct,incorrect,incorrect
+"['elizabeth', 'cô elizabeth']",elizabeth,elizabeth,elizabeth,elizabeth,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['collins', 'mr collins']",darcy,mr. darcy,mr. collins,edward,0,0.29,0,0.42,0,0.95,0,0.25,incorrect,incorrect,correct,incorrect
+"['de bourgh', 'de bourg', 'bourgh']",darcy,de,woodhouse,longbourn,0,0.31,1,1.0,0,0.36,0,0.57,incorrect,correct,incorrect,incorrect
+"['darcy', 'darc', 'mr darcy']",darcy,emma,willoughby,edward,1,1.0,0,0.33,0,0.13,0,0.6,correct,incorrect,incorrect,incorrect
+['charles'],darcy,mr. bingley,christmas,edward,0,0.33,0,0.33,0,0.5,0,0.31,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],elizabeth,georgiana,mr. collins,elizabeth,1,1.0,0,0.33,0,0.2,1,1.0,correct,incorrect,incorrect,correct
+['jane'],elizabeth,emma,elizabeth,elizabeth,0,0.31,0,0.25,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'elizabeth–']",darcy,elizabeth,philip,ngọc,0,0.14,1,1.0,0,0.27,0,0.0,incorrect,correct,incorrect,incorrect
+"['bingley', 'señor bingley', 'mr bingley']",darcy,werther,elizabeth,đức,0,0.29,0,0.33,0,0.27,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lizz', 'lizzy']",elizabeth,elizabeth,lizzy,elizabeth,0,0.46,0,0.46,1,1.0,0,0.46,incorrect,incorrect,correct,incorrect
+"['wi', 'mr wickham', 'wickham']",darcy,emma,elizabeth,minh,0,0.29,0,0.33,0,0.25,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",willoughby,maría,elizabeth,minh,0,0.21,0,0.29,1,1.0,0,0.31,incorrect,incorrect,correct,incorrect
+['elizabeth'],elizabeth,emma,bay,ngọc,1,1.0,0,0.31,0,0.17,0,0.0,correct,incorrect,incorrect,incorrect
+['elizabeth'],elizabeth,elizabeth,elizabeth,elizabeth,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['elizabeth'],elizabeth,elizabeth,rosings,elizabeth,1,1.0,1,1.0,0,0.12,1,1.0,correct,correct,incorrect,correct
+"['maría', 'maria']",jane,maría,heathcliff,emma,0,0.22,1,1.0,0,0.27,0,0.44,incorrect,correct,incorrect,incorrect
+['elizabeth'],mr. woodhouse,emma,elizabeth,emma,0,0.09,0,0.31,1,1.0,0,0.31,incorrect,incorrect,correct,incorrect
+"['william––', 'william', 'sir william']",darcy,beaumarchais,d'artagnan,nguyễn,0,0.25,0,0.21,0,0.19,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['catherine–', 'catherine', 'lady catherine']",darcy,beethoven,beethoven,nguyễn,0,0.44,0,0.44,0,0.44,0,0.3,incorrect,incorrect,incorrect,incorrect
+"['señor darcy', 'darcy', 'darc', 'mr darcy']",darcy,werther,darcy,darcy,1,1.0,0,0.33,1,1.0,1,1.0,correct,incorrect,correct,correct
+"['darcy', 'darcy–']",elizabeth,elizabeth,holden,lincoln,0,0.14,0,0.14,0,0.18,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'elizabeth–']",elizabeth,emma,offred,elizabeth,1,1.0,0,0.31,0,0.13,1,1.0,correct,incorrect,incorrect,correct
+['darcy'],elizabeth,chopin,valmont,beethoven,0,0.14,0,0.18,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bingley', 'mr bingley']",bingley,bingley,bingley,darcy,1,1.0,1,1.0,1,1.0,0,0.29,correct,correct,correct,incorrect
+"['collins', 'mrs collins']",wickham,smith,elizabeth,smith,0,0.2,0,0.25,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'mr darcy']",darcy,hitler,harry,edward,1,1.0,0,0.25,0,0.6,0,0.55,correct,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",elizabeth,darcy,edward,elizabeth,1,1.0,0,0.14,0,0.27,1,1.0,correct,incorrect,incorrect,correct
+"['darcy', 'darc']",darcy,woodhouse,atatürk,elizabeth,1,1.0,0,0.15,0,0.36,0,0.15,correct,incorrect,incorrect,incorrect
+"['darcy', 'mr darcy']",darcy,werther,emma,đông,1,1.0,0,0.27,0,0.33,0,0.22,correct,incorrect,incorrect,incorrect
+"['fitzwilliam', 'albay fitzwilliam']",brandon,brandon,bay,watson,0,0.33,0,0.33,0,0.75,0,0.24,incorrect,incorrect,correct,incorrect
+['darcy'],darcy,darcy,elizabeth,mr. darcy,1,1.0,1,1.0,0,0.14,0,0.71,correct,correct,incorrect,correct
+"['darcy', 'darc', 'mr darcy']",darcy,werther,darcy,edward,1,1.0,0,0.27,1,1.0,0,0.6,correct,incorrect,correct,incorrect
+"['wickha', 'mr wickham', 'wickham']",darcy,wickham,heathcliff,edward,0,0.29,1,1.0,0,0.25,0,0.33,incorrect,correct,incorrect,incorrect
+"['lydia', 'lydia––']",lydia,charlotte,bay,elizabeth,1,1.0,0,0.14,0,0.25,0,0.43,correct,incorrect,incorrect,incorrect
+['lydia'],mr. gardiner,emma,harry,elizabeth,0,0.24,0,0.22,0,0.2,0,0.43,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],emma,emma,bay,emily,0,0.31,0,0.31,0,0.17,0,0.29,incorrect,incorrect,incorrect,incorrect
+['mary'],caroline,elizabeth,elizabeth,elizabeth,0,0.33,0,0.15,0,0.15,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'elizabeth––']",elizabeth,elizabeth,elizabeth,ngọc,1,1.0,1,1.0,1,1.0,0,0.0,correct,correct,correct,incorrect
+['jane'],estella,amiga,kimse,ngọc,0,0.18,0,0.22,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['longbourn'],netherfield,netherfield,i̇stanbul,longfield,0,0.2,0,0.2,0,0.35,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",elinor,emma,elizabeth,elizabeth,0,0.6,0,0.31,1,1.0,1,1.0,incorrect,incorrect,correct,correct
+['elizabeth'],mary,emma,fanny,elizabeth,0,0.15,0,0.31,0,0.14,1,1.0,incorrect,incorrect,incorrect,correct
+"['señora gardiner', 'mrs gardiner', 'gardiner']",ferrars,condesa,elizabeth,elizabeth,0,0.46,0,0.31,0,0.27,0,0.27,incorrect,incorrect,incorrect,incorrect
+['pemberley'],netherfield,netherfield,netherfield,netherfield,0,0.4,0,0.4,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],elizabeth,emma,bay,elizabeth,1,1.0,0,0.31,0,0.17,1,1.0,correct,incorrect,incorrect,correct
+"['reynolds', 'mrs reynolds', 'señora reynolds']",reed,marquesa,watson,elizabeth,0,0.5,0,0.55,0,0.33,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['señora gardiner', 'mrs gardiner', 'gardiner']",thornton,señora,madame,elizabeth,0,0.29,1,1.0,0,0.44,0,0.27,incorrect,correct,incorrect,incorrect
+"['darcy', 'mr darcy']",darcy,don quijote,bay,darcy,1,1.0,0,0.12,0,0.5,1,1.0,correct,incorrect,incorrect,correct
+['elizabeth'],elinor,emma,elizabeth,elizabeth,0,0.4,0,0.31,1,1.0,1,1.0,incorrect,incorrect,correct,correct
+['elizabeth'],catherine,don,adam,elizabeth,0,0.33,0,0.0,0,0.15,1,1.0,incorrect,incorrect,incorrect,correct
+['jane'],lydia,maría,annem,sherlock,0,0.22,0,0.22,0,0.67,0,0.17,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],elizabeth,emma,heathcliff,emma,1,1.0,0,0.31,0,0.42,0,0.31,correct,incorrect,incorrect,incorrect
+"['señor gardiner', 'mr gardiner', 'gardiner']",palmer,doctor,bay,palmer,0,0.5,0,0.36,0,0.18,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'elizabeth––', 'eliz']",elizabeth,job,bay,elizabeth,1,1.0,0,0.17,0,0.17,1,1.0,correct,incorrect,incorrect,correct
+"['mr bennet', 'bennet', 'señor bennet']",bennet,padre,bay,mr.,1,1.0,0,0.29,0,0.22,0,0.8,correct,incorrect,incorrect,correct
+['elizabeth'],edward,emma,elizabeth,heathcliff,0,0.27,0,0.31,1,1.0,0,0.42,incorrect,incorrect,correct,incorrect
+"['lizz', 'lizzy']",elizabeth,carlos,arthur,minh,0,0.46,0,0.2,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'elizabeth––']",elizabeth,tom,monte,ngọc,1,1.0,0,0.17,0,0.14,0,0.0,correct,incorrect,incorrect,incorrect
+"['mr bennet', 'bennet']",bennet,salvatierra,bay,john,1,1.0,0,0.15,0,0.22,0,0.2,correct,incorrect,incorrect,incorrect
+"['bennet', 'bà benne', 'mrs']",bennet,bennet,bennet,elizabeth,1,1.0,1,1.0,1,1.0,0,0.4,correct,correct,correct,incorrect
+"['mrs bennet', 'bennet', 'señora bennet']",bennet,madre,elizabeth,elizabeth,1,1.0,0,0.5,0,0.45,0,0.45,correct,incorrect,incorrect,incorrect
+"['mrs bennet', 'bennet', 'señora bennet', 'benne']",palmer,condesa,bay,elizabeth,0,0.44,0,0.33,0,0.25,0,0.45,incorrect,incorrect,incorrect,incorrect
+"['wickha', 'mr wickham', 'wickham']",heathcliff,carlos,elizabeth,minh,0,0.25,0,0.33,0,0.27,0,0.43,incorrect,incorrect,incorrect,incorrect
+['lydia'],lydia,emma,anna,ngọc,1,1.0,0,0.22,0,0.22,0,0.0,correct,incorrect,incorrect,incorrect
+"['lizz', 'elizabeth', 'lizzy']",elizabeth,adrián,elizabeth,elizabeth,1,1.0,0,0.27,1,1.0,1,1.0,correct,incorrect,correct,correct
+"['mrs bennet', 'bennet', 'señora bennet']",bennet,señora,bay,emma,1,1.0,1,1.0,0,0.22,0,0.4,correct,correct,incorrect,incorrect
+"['mrs bennet', 'bennet', 'señora bennet']",bennet,condesa,madam,smith,1,1.0,0,0.31,0,0.25,0,0.27,correct,incorrect,incorrect,incorrect
+"['mrs bennet', 'bennet']",bennet,warren,bay,elizabeth,1,1.0,0,0.38,0,0.22,0,0.4,correct,incorrect,incorrect,incorrect
+"['cô benne', 'bennet', 'miss bennet']",monk,heathcliff,bay,elizabeth,0,0.33,0,0.25,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['anh darcy', 'darcy', 'mr darcy']",darcy,monte,edward,edward,1,1.0,0,0.29,0,0.55,0,0.55,correct,incorrect,incorrect,incorrect
+"['cô benne', 'bennet', 'miss bennet']",elizabeth,woodhouse,elizabeth,elizabeth,0,0.4,0,0.24,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['cô benne', 'bennet', 'miss bennet', 'señorita bennet']",mr. collins,señora,elizabeth,emily,0,0.4,0,0.86,0,0.5,0,0.44,incorrect,correct,incorrect,incorrect
+"['cô benne', 'bennet', 'miss bennet']",elizabeth,shelby,heathcliff,elizabeth,0,0.4,0,0.24,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['anh darc', 'darcy', 'mr darcy']",darcy,godfrey,elizabeth,elizabeth,1,1.0,0,0.5,0,0.33,0,0.33,correct,incorrect,incorrect,incorrect
+"['elizabeth', 'elizabeth quá']",elizabeth,elizabeth,elizabeth,ngọc,1,1.0,1,1.0,1,1.0,0,0.0,correct,correct,correct,incorrect
+"['elizabeth', 'elizabeth đỏ']",elizabeth,elizabeth,elizabeth,ngọc,1,1.0,1,1.0,1,1.0,0,0.33,correct,correct,correct,incorrect
+"['elizabeth', 'elizabeth–']",darcy,maría,elizabeth,elizabeth,0,0.14,0,0.29,1,1.0,1,1.0,incorrect,incorrect,correct,correct
+['darcy'],colonel,carlos,özdemir,emma,0,0.17,0,0.36,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],elizabeth,emma,elizabeth,elizabeth,1,1.0,0,0.31,1,1.0,1,1.0,correct,incorrect,correct,correct
+['elizabeth'],elinor,emma,noah,emma,0,0.4,0,0.31,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'mr darcy']",darcy,mr. bingley,lord,henry,1,1.0,0,0.42,0,0.33,0,0.4,correct,incorrect,incorrect,incorrect
+"['catherine', 'lady catherine']",darcy,alfonso,wickham,ellen,0,0.44,0,0.25,0,0.25,0,0.32,incorrect,incorrect,incorrect,incorrect
+['bingley'],edward,maría,willoughby,nguyễn,0,0.15,0,0.17,0,0.35,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['miss darcy', 'darcy']",jane,emma,ali,elizabeth,0,0.22,0,0.29,0,0.29,0,0.21,incorrect,incorrect,incorrect,incorrect

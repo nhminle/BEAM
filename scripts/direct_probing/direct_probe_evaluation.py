@@ -1,4 +1,7 @@
+import time
+start = time.time()
 import pandas as pd
+print("Pandas:", time.time() - start)
 import unidecode
 from fuzzywuzzy import fuzz
 import matplotlib.pyplot as plt
@@ -40,7 +43,7 @@ def extract_title_author(results_column):
     return results_column.str.extract(r'"title":\s*"(.*?)",\s*"author":\s*"(.*?)"')
 
 
-def evaluate(csv_file_name, book_title):
+def evaluate(csv_file_name, book_title,model):
     # Load book names and CSV data
     # print(book_title)
     book_names = pd.read_csv('book_names.csv')
@@ -48,9 +51,9 @@ def evaluate(csv_file_name, book_title):
     available_langs = [col.split('_')[0] for col in df.columns if col.endswith('_masked_results')]
     # Filter columns containing 'results'
     filtered_df = df.loc[:, df.columns.str.contains('results', case=False)]
-    book_title = book_title.replace('_direct_probe_gpt4o', '')
+    book_title = book_title.replace(f'_direct_probe_{model}', '')
     book_title = book_title.replace('_',' ')
-    # print(book_title)
+    print(book_title)
     # Find the matching row for the given book title
     matching_row = book_names[book_names.isin([book_title]).any(axis=1)].values.flatten().tolist()
     author = matching_row[0]
@@ -253,17 +256,20 @@ def create_heatmap(df,release_date_csv,model,shuffled):
     else:
         plt.savefig(f'./Evaluation/plots/{model}_shuffled_heatmap.png', dpi=300, bbox_inches='tight')
     plt.show()
+
+
 if __name__ == "__main__":
-    titles = list_csv_files('./Evaluation/gpt4o/')
+    model = 'llama405b' #PUT YOUR MODEL NAME HERE!!!!!!!!
+    titles = list_csv_files(f'./Evaluation/{model}/')
     unshuffled_accuracy_list = {}
     shuffled_accuracy_list = {}
     
     for title in titles:
         # if title == 'A_thousand_splendid_suns_direct_probe_gpt4o':
         print(f'----------------- Running {title} -----------------')   
-        book_title = title.replace('_direct_probe_gpt4o', '')
+        book_title = title.replace(f'_direct_probe_{model}', '')
         book_title = book_title.replace('_',' ') 
-        results_evaluated =evaluate(csv_file_name=f'./Evaluation/gpt4o/{title}.csv', book_title=title)
+        results_evaluated =evaluate(csv_file_name=f'./Evaluation/{model}/{title}.csv', book_title=title,model=model)
         shuffled, unshuffled = split_data(results_evaluated)
         save_data(title,shuffled,True)
         save_data(title,unshuffled,False)
@@ -280,17 +286,17 @@ if __name__ == "__main__":
     u_df = pd.DataFrame.from_dict(unshuffled_accuracy_list, orient='index')
     u_df.index.name = 'Title'
     u_df.reset_index(inplace=True)
-    u_df.to_csv('unshuffled.csv', index=False, encoding='utf-8')
+    u_df.to_csv(f'unshuffled_{model}.csv', index=False, encoding='utf-8')
 
     # Save shuffled accuracy list
     s_df = pd.DataFrame.from_dict(shuffled_accuracy_list, orient='index')
     s_df.index.name = 'Title'
     s_df.reset_index(inplace=True)
-    s_df.to_csv('shuffled.csv', index=False, encoding='utf-8')
+    s_df.to_csv(f'shuffled_{model}.csv', index=False, encoding='utf-8')
     # s_df = pd.read_csv('./shuffled.csv')
     # print(s_df.shape)
-    create_heatmap(s_df,"./release_date.csv","gpt4o",True)
-    create_heatmap(u_df,"./release_date.csv","gpt4o",False)
+    create_heatmap(s_df,"./release_date.csv",model,True)
+    create_heatmap(u_df,"./release_date.csv",model,False)
     
 
     #Instructions

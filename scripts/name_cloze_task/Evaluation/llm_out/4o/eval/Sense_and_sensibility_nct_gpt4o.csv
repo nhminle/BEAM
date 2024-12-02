@@ -1,0 +1,130 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+"['john dashwood', 'mr john dashwood', 'john daswood']",woodhouse,smith,edward,heathcliff,0,0.5,0,0.31,0,0.46,0,0.26,incorrect,incorrect,incorrect,incorrect
+"['john dashwood', 'john daswood', 'mrs john dashwood']",ferrars,bennet,karısı,emma,0,0.4,0,0.2,0,0.44,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['henry', 'harry']",mr. bennet,smith,ali,scrooge,0,0.27,0,0.2,0,0.25,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['dashwood', 'señora dashwood', 'daswood', 'mrs dashwood norland']",dashwood,dashwood,norland,dashwood,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['elinor—', 'elinor']",emma,darcy,emma,emma,0,0.2,0,0.18,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['elinor'],elizabeth,maría,ahmet,elizabeth,0,0.4,0,0.18,0,0.18,0,0.4,incorrect,incorrect,incorrect,incorrect
+['edward'],darcy,darcy,john,edward,0,0.55,0,0.55,0,0.0,1,1.0,incorrect,incorrect,incorrect,correct
+"['brandon', 'albay brandon']",brandon,aureliano,babam,pickering,1,1.0,0,0.5,0,0.6,0,0.25,correct,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",emma,watson,watson,emma,0,0.33,0,0.29,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['marianne'],emma,emma,watson,emma,0,0.33,0,0.33,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['elino', 'elinor']",mary,jane,babaları,mary,0,0.2,0,0.22,0,0.31,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['john', 'sir john']",bingley,willoughby,mary,pickwick,0,0.27,0,0.33,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['mariann', 'marianne']",emma,darcy,edward,rochester,0,0.36,0,0.33,0,0.31,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",thornton,collins,emma,emma,0,0.38,0,0.27,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['elinor'],elizabeth,emma,ahmet,emma,0,0.4,0,0.2,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",brandon,aureliano,ahmet,brandon,1,1.0,0,0.5,0,0.2,1,1.0,correct,incorrect,incorrect,correct
+"['elino', 'elinor']",emma,raskolnikov,sherlock,jane,0,0.22,0,0.38,0,0.46,0,0.22,incorrect,incorrect,incorrect,incorrect
+['elinor'],emma,juan,john,anna,0,0.2,0,0.2,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['willoughby'],darcy,darcy,john,darcy,0,0.13,0,0.13,0,0.29,0,0.13,incorrect,incorrect,incorrect,incorrect
+['elinor'],emma,emma,holmes,holmes,0,0.2,0,0.2,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['willoughby', 'willoughb']",darcy,darcy,john,darcy,0,0.13,0,0.13,0,0.31,0,0.13,incorrect,incorrect,incorrect,incorrect
+['willoughby'],willoughby,él,sevgi,anh,1,1.0,0,0.17,0,0.13,0,0.15,correct,incorrect,incorrect,incorrect
+['marianne'],elizabeth,emma,emma,aramis,0,0.35,0,0.33,0,0.33,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",fanny,emma,emma,anna,0,0.46,0,0.33,0,0.33,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['edward', 'elinor']",elizabeth,elizabeth,marianne,elizabeth,0,0.4,0,0.4,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+['elinor'],emma,scrooge,darcy,dorian,0,0.2,0,0.15,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",john,darcy,emma,emma,0,0.17,0,0.31,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",emma,emma,holmes,emma,0,0.2,0,0.2,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'không']",elizabeth,darcy,john,elizabeth,0,0.35,0,0.31,0,0.44,0,0.35,incorrect,incorrect,incorrect,incorrect
+['elinor'],elizabeth,maría,john,emma,0,0.4,0,0.18,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['elinor quan', 'elinor']",emma,elizabeth,emma,elizabeth,0,0.27,0,0.4,0,0.27,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",mr. knightley,elizabeth,dorian,người,0,0.38,0,0.35,0,0.57,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['edward—', 'edward']",edward,darcy,elizabeth,darcy,1,1.0,0,0.55,0,0.27,0,0.55,correct,incorrect,incorrect,incorrect
+"['john', 'sir john']",willoughby,willoughby,john,middleton,0,0.33,0,0.33,1,1.0,0,0.35,incorrect,incorrect,correct,incorrect
+"['mariann', 'marianne']",marianne,elinor,elinor,elizabeth,1,1.0,0,0.31,0,0.31,0,0.35,correct,incorrect,incorrect,incorrect
+"['señora palmer', 'mrs palmer', 'palmer']",bennet,emma,jane,anna,0,0.33,0,0.4,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+['marianne'],emma,emma,mary,emma,0,0.33,0,0.33,0,0.5,0,0.33,incorrect,incorrect,incorrect,incorrect
+['elinor'],elizabeth,elizabeth,elizabeth,emma,0,0.4,0,0.4,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['palmer—', 'mrs palmer', 'palmer']",bennet,bennet,emma,eliza,0,0.17,0,0.17,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['charlotte', 'señora jennings']",sophia,tía,fortunata,rebecca,0,0.5,0,0.22,0,0.4,0,0.31,incorrect,incorrect,incorrect,incorrect
+['elinor'],mr. bennet,elizabeth,emma,darcy,0,0.25,0,0.4,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",fitzwilliam,mustard,john,pickering,0,0.25,0,0.3,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['señor palmer', 'anh palmer', 'palmer', 'mr palmer']",knightley,coronel,john,ông,0,0.42,0,0.33,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['lucy'],emma,emma,emma,mary,0,0.0,0,0.0,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['annamaria'],lucy,emily,mary,jane,0,0.0,0,0.29,0,0.46,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",emma,holmes,holmes,holmes,0,0.33,0,0.29,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+['elinor'],mr. bennet,sancho,emma,humpty,0,0.25,0,0.33,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lucy', 'lucy—']",elinor,marianne,elinor,marianne,0,0.2,0,0.0,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['ferrars', 'mrs ferrars', 'señora ferrars']",smith,persona,emma,smith,0,0.25,0,0.46,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['ferrars', 'mrs ferrars', 'señora ferrars']",smith,mujer,ona,bovary,0,0.25,0,0.5,0,0.44,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['lucy', 'lucy—']",emma,dorian,emma,emma,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",elinor,holmes,holmes,holmes,1,1.0,0,0.17,0,0.17,0,0.17,correct,incorrect,incorrect,incorrect
+['lucy'],emma,scrooge,ali,alice,0,0.0,0,0.18,0,0.29,0,0.44,incorrect,incorrect,incorrect,incorrect
+['lucy'],miss,emma,emma,anna,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mr ferrars', 'ferrars', 'señor ferrars']",ferrars,futuro,çocuk,edward,1,1.0,0,0.31,0,0.2,0,0.46,correct,incorrect,incorrect,incorrect
+['edward'],edward,edward,elizabeth,edward,1,1.0,1,1.0,0,0.27,1,1.0,correct,correct,incorrect,correct
+"['ferrars', 'mrs ferrars']",ferrars,ferrars,hamlet,ferrars,1,1.0,1,1.0,0,0.24,1,1.0,correct,correct,incorrect,correct
+['elinor'],elizabeth,darcy,ahmet,anna,0,0.4,0,0.18,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lucy'],elizabeth,darcy,holmes,holmes,0,0.15,0,0.44,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['elinor'],elizabeth,smith,ahmet,emma,0,0.4,0,0.18,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['middleton', 'lady middleton']",mr. darcy,emma,john,de winter,0,0.31,0,0.25,0,0.31,0,0.35,incorrect,incorrect,incorrect,incorrect
+['elinor'],elizabeth,emma,elizabeth,emma,0,0.4,0,0.2,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['anh palmer', 'palmer', 'mr palmer']",bennet,smith,babam,john,0,0.25,0,0.29,0,0.4,0,0.29,incorrect,incorrect,incorrect,incorrect
+['marianne'],emma,holmes,robin,sherlock,0,0.33,0,0.29,0,0.46,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['mariann', 'marianne']",elizabeth,emma,ahmet,jane,0,0.35,0,0.36,0,0.31,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jenning', 'jennings', 'señora jennings']",smith,señora,holmes,bennet,0,0.25,1,1.0,0,0.44,0,0.46,incorrect,correct,incorrect,incorrect
+"['willoughby', 'elinor']",willoughby,darcy,edward,anna,1,1.0,0,0.18,0,0.33,0,0.2,correct,incorrect,incorrect,incorrect
+"['marianne', 'miss marianne']",marianne,bennet,jane,jane,1,1.0,0,0.43,0,0.5,0,0.5,correct,incorrect,incorrect,incorrect
+['marianne'],darcy,anne,elizabeth,elizabeth,0,0.31,0,0.67,0,0.35,0,0.35,incorrect,incorrect,incorrect,incorrect
+['marianne'],victor,juan,juliet,anna,0,0.14,0,0.33,0,0.29,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['edvvard', 'edward']",edward,julieta,edward,romeo,1,1.0,0,0.31,1,1.0,0,0.18,correct,incorrect,correct,incorrect
+['marianne'],marianne,marianne,jane,elizabeth,1,1.0,1,1.0,0,0.5,0,0.35,correct,correct,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",smith,reina,smith,smith,0,0.25,0,0.55,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",jennings,madre,mrs. bennet,bennet,1,1.0,0,0.5,0,0.61,0,0.43,correct,incorrect,incorrect,incorrect
+['marianne'],jane,jane,baynes,jane,0,0.5,0,0.5,0,0.43,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['willoughby', 'mr willoughby']",wickham,willoughby,john,willoughby,0,0.35,1,1.0,0,0.29,1,1.0,incorrect,correct,incorrect,correct
+['willoughby'],emma,raskolnikov,darcy,anna,0,0.0,0,0.19,0,0.13,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",smith,señora,darcy,smith,0,0.25,1,1.0,0,0.25,0,0.25,incorrect,correct,incorrect,incorrect
+['eliza'],georgiana,georgiana,eliza,jane,0,0.43,0,0.43,1,1.0,0,0.22,incorrect,incorrect,correct,incorrect
+['marianne'],anne,emma,emma,emma,0,0.67,0,0.33,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['elinor'],she,juan,ahmet,anna,0,0.22,0,0.2,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+['edward'],sir john,collins,emma,edmund,0,0.14,0,0.0,0,0.4,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['elino', 'elinor']",fanny,emma,emma,romeo,0,0.2,0,0.22,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['', 'fanny']",emma,emma,ahmet,emma,0,0.22,0,0.22,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['harry'],tom,tomás,alice,gulliver,0,0.0,0,0.2,0,0.2,0,0.15,incorrect,incorrect,incorrect,incorrect
+['marianne'],elizabeth,emma,jane,elizabeth,0,0.35,0,0.33,0,0.5,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['', 'ferrars', 'señora ferrars']",reed,señora,smith,reed,0,0.22,1,1.0,0,0.18,0,0.22,incorrect,correct,incorrect,incorrect
+"['edward', 'edwar']",mr. collins,emma,ahmet,darcy,0,0.12,0,0.44,0,0.2,0,0.6,incorrect,incorrect,incorrect,incorrect
+['marianne'],fanny,emma,anna,anna,0,0.46,0,0.33,0,0.5,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['robert', 'elinor']",emma,emma,marianne,emma,0,0.2,0,0.2,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['middleton', 'lady middleton']",elizabeth,emma,emma,catherine,0,0.35,0,0.25,0,0.25,0,0.26,incorrect,incorrect,incorrect,incorrect
+['lucy'],jane,maría,ahmet,anne,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",jane,gregor,edmund,vân,0,0.2,0,0.5,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",elinor,emma,anna,anna,0,0.29,0,0.33,0,0.5,0,0.5,incorrect,incorrect,incorrect,incorrect
+['edward'],darcy,smith,ahmet,heathcliff,0,0.55,0,0.0,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+['edward'],frank,lydia,jane,heathcliff,0,0.18,0,0.36,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",micawber,señora,fagin,march,0,0.36,1,1.0,0,0.31,0,0.5,incorrect,correct,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",bennet,madre,babür,figg,0,0.43,0,0.5,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+['elinor'],elizabeth,emma,elizabeth,emma,0,0.4,0,0.2,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+['edward'],collins,collins,edward,edward,0,0.0,0,0.0,1,1.0,1,1.0,incorrect,incorrect,correct,correct
+"['mrs jennings', 'jennings', 'señora jennings']",forster,duquesa,marianne,smith,0,0.46,0,0.31,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mr ferrars', 'ferrars']",elton,collins,elton,elton,0,0.17,0,0.14,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings—']",weston,señora,emma,marple,0,0.33,1,1.0,0,0.4,0,0.44,incorrect,correct,incorrect,incorrect
+"['brandon', 'albay brandon']",fitzwilliam,brandon,mr. collins,brandon,0,0.25,1,1.0,0,0.33,1,1.0,incorrect,correct,incorrect,correct
+"['elinor—', 'elinor']",darcy,elizabeth,emma,emma,0,0.18,0,0.4,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['elinor'],emma,emma,emma,elizabeth,0,0.2,0,0.2,0,0.2,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings']",allen,smith,emma,smith,0,0.31,0,0.25,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+['robert'],edward,tom,edward,tom,0,0.33,0,0.22,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['robert', 'elinor']",elizabeth,elizabeth,marianne,elizabeth,0,0.4,0,0.4,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+['edward'],frank,willoughby,edward,willoughby,0,0.18,0,0.12,1,1.0,0,0.12,incorrect,incorrect,correct,incorrect
+['marianne'],marianne,marianne,jane,em gái,1,1.0,1,1.0,0,0.5,0,0.43,correct,correct,incorrect,incorrect
+['elinor'],emma,emma,elizabeth,emma,0,0.2,0,0.2,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['willoughby', 'mr willoughby', 'anh willoughb']",darcy,smith,artık,anna,0,0.29,0,0.33,0,0.29,0,0.57,incorrect,incorrect,incorrect,incorrect
+['elinor'],emma,él,marianne,emma,0,0.2,0,0.5,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+['margaret'],jane,emma,tom,emma,0,0.33,0,0.33,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+['marianne'],marianne,clara,marianne,beth,1,1.0,0,0.46,1,1.0,0,0.17,correct,incorrect,correct,incorrect
+['elinor'],anne,emma,heathcliff,jane,0,0.2,0,0.2,0,0.38,0,0.2,incorrect,incorrect,incorrect,incorrect
+['marianne'],elizabeth,raskolnikov,emma,anna,0,0.35,0,0.32,0,0.33,0,0.5,incorrect,incorrect,incorrect,incorrect
+['marianne'],marianne,emma,anna,anna,1,1.0,0,0.33,0,0.5,0,0.5,correct,incorrect,incorrect,incorrect
+['elinor'],darcy,jane,emma,jane,0,0.18,0,0.2,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['marianne'],emma,hija,elinor,constance,0,0.33,0,0.33,0,0.29,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",elinor,emma,anna,emma,1,1.0,0,0.2,0,0.2,0,0.2,correct,incorrect,incorrect,incorrect
+"['elino', 'elinor']",elizabeth,emma,ali,anna,0,0.43,0,0.22,0,0.5,0,0.22,incorrect,incorrect,incorrect,incorrect
+['edward'],willoughby,josé,jane,heathcliff,0,0.12,0,0.2,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['marianne'],marianne,gregor,elizabeth,emma,1,1.0,0,0.29,0,0.35,0,0.33,correct,incorrect,incorrect,incorrect
+"['edward—', 'edward']",mr. knightley,darcy,emma,darcy,0,0.11,0,0.55,0,0.4,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",brandon,brandon,patron,brandon,1,1.0,1,1.0,0,0.46,1,1.0,correct,correct,incorrect,correct
+"['luc', 'lucy']",frank,emma,frank,emma,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",elinor,maría,mary,nguyễn,1,1.0,0,0.18,0,0.2,0,0.33,correct,incorrect,incorrect,incorrect

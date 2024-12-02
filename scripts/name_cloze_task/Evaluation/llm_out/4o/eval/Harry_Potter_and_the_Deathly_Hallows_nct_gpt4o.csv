@@ -1,0 +1,249 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+"['snape—', 'snape']",snape,snape,snape,snape,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['snape—', 'snape']",moody,hermione,sirius,hermione,0,0.0,0,0.31,0,0.18,0,0.31,incorrect,incorrect,incorrect,incorrect
+['lucius malfoy'],gollum,juan,dracula,snape,0,0.33,0,0.24,0,0.31,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['lucius', 'luciu']",prospero,juan,john,prospero,0,0.14,0,0.22,0,0.0,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['malfoys', 'malfoy']",people,nobles,vampir,voldemort,0,0.17,0,0.31,0,0.17,0,0.27,incorrect,incorrect,incorrect,incorrect
+['draco malfoy'],tom,gregor,mary,tom,0,0.27,0,0.36,0,0.6,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['hermione‘ye', 'hermione']",hermione,hermione,hermione,hermione,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['harry'],john,juan,ahmet,harry,0,0.22,0,0.22,0,0.2,1,1.0,incorrect,incorrect,incorrect,correct
+['harry'],john,juan,vernon,tom,0,0.22,0,0.22,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['albus dumbledore‘un', 'albus dumbledore']",dumbledore,john,dumbledore,dumbledore,1,1.0,0,0.24,1,1.0,1,1.0,correct,incorrect,correct,correct
+"['harry', 'harry—']",harry,hermione,michael,hà,1,1.0,0,0.31,0,0.33,0,0.57,correct,incorrect,incorrect,incorrect
+"['kuera', 'vernon']",vernon,finalmente,ali,ba,1,1.0,0,0.25,0,0.25,0,0.29,correct,incorrect,incorrect,incorrect
+"['harry', 'harry—']",gandalf,sirius,dracula,ron,0,0.17,0,0.18,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harr', 'vernon dursley', 'harry‘ye']",john,juan,harry,người,0,0.4,0,0.25,1,1.0,0,0.36,incorrect,incorrect,correct,incorrect
+['dudley'],christopher,einstein,ahmet,alice,0,0.12,0,0.14,0,0.18,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['hagri', 'hayalbozan', 'hagrid']",hagrid,hagrid,görünmezlik,hagrid,1,1.0,1,1.0,0,0.38,1,1.0,correct,correct,incorrect,correct
+"['pius thi', 'pius thicknesse']",voldemort,voldemort,takip,valentine,0,0.17,0,0.17,0,0.5,0,0.42,incorrect,incorrect,incorrect,incorrect
+['moody'],merlin,él,hagrid,snape,0,0.18,0,0.0,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],snape,hermione,rapunzel,hermione,0,0.2,0,0.31,0,0.15,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['moody—', 'moody']",harry,harry,harry,hagrid,0,0.2,0,0.2,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['hagrid‘in', 'hagrid']",harry,john,frankenstein,hagrid,0,0.55,0,0.31,0,0.29,1,1.0,incorrect,incorrect,incorrect,correct
+"['señora weasley', 'ms weasley', 'weasley']",weasley,maría,ahmet,weasley,1,1.0,0,0.36,0,0.33,1,1.0,correct,incorrect,incorrect,correct
+"['mr weasley', 'weasley—', 'weasley']",ollivander,ollivander,harry,dumbledore,0,0.24,0,0.24,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['harry'],harry,harry,john,harry,1,1.0,1,1.0,0,0.22,1,1.0,correct,correct,incorrect,correct
+['hermione'],hermione,john,john,hermione,1,1.0,0,0.33,0,0.33,1,1.0,correct,incorrect,incorrect,correct
+['hermione'],hermione,hermione,hermione,hermione,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['ron—', 'ron']",ron,ron,harry,ron,1,1.0,1,1.0,0,0.25,1,1.0,correct,correct,incorrect,correct
+['hermione'],hermione,hermione,hermione,hermione,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['ron—', 'ron']",ron,ron,harry,violet,1,1.0,1,1.0,0,0.25,0,0.22,correct,correct,incorrect,incorrect
+['ron'],hermione,ron,snape,ron,0,0.55,1,1.0,0,0.25,1,1.0,incorrect,correct,incorrect,correct
+['ron'],lyra,hermione,john,harry,0,0.29,0,0.55,0,0.57,0,0.25,incorrect,incorrect,incorrect,incorrect
+['ginny'],ginny,ginny,tom,ginny,1,1.0,1,1.0,0,0.0,1,1.0,correct,correct,incorrect,correct
+['hermione'],hermione,juan,hermione,harry,1,1.0,0,0.17,1,1.0,0,0.31,correct,incorrect,correct,incorrect
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['harry'],harry,harry,harry,frodo,1,1.0,1,1.0,1,1.0,0,0.2,correct,correct,correct,incorrect
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['harry'],snape,javier,ahmet,someone,0,0.2,0,0.36,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mr weasley‘nin', 'señor weasley', 'weasley']",weasley,mago,aslan,weasley,1,1.0,0,0.33,0,0.5,1,1.0,correct,incorrect,incorrect,correct
+['hermione'],hermione,kafka,hukukçu,hermione,1,1.0,0,0.0,0,0.13,1,1.0,correct,incorrect,incorrect,correct
+['hermione'],hermione,hermione,hermione,harry,1,1.0,1,1.0,1,1.0,0,0.31,correct,correct,correct,incorrect
+"['ms weasley', 'weasley']",dursley,niños,smith,weasley,0,0.57,0,0.29,0,0.29,1,1.0,incorrect,incorrect,incorrect,correct
+['harry'],harry,maría,harry,harry,1,1.0,0,0.4,1,1.0,1,1.0,correct,incorrect,correct,correct
+['dumbledore'],dumbledore,juan,dumbledore,dumbledore,1,1.0,0,0.14,1,1.0,1,1.0,correct,incorrect,correct,correct
+"['ron—', 'ron']",holmes,harry,sherlock,ron,0,0.22,0,0.25,0,0.36,1,1.0,incorrect,incorrect,incorrect,correct
+['fred'],ron,fred,ron,ron,0,0.29,1,1.0,0,0.29,0,0.29,incorrect,correct,incorrect,incorrect
+['george'],ron,ron,ron,ron,0,0.22,0,0.22,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['luna'],luna,alicia,luna,luna,1,1.0,0,0.4,1,1.0,1,1.0,correct,incorrect,correct,correct
+"['fred', 'fred—']",fred,dumbledore,sirius,gatsby,1,1.0,0,0.29,0,0.2,0,0.0,correct,incorrect,incorrect,incorrect
+['muriel'],marge,petunia,ron,petunia,0,0.55,0,0.31,0,0.22,0,0.31,incorrect,incorrect,incorrect,incorrect
+['harry'],ron,maría,john,john,0,0.25,0,0.4,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['harry'],holmes,holmes,mary,dumbledore,0,0.18,0,0.18,0,0.67,0,0.13,incorrect,incorrect,incorrect,incorrect
+['muriel'],umbridge,snape,bellatrix,petunia,0,0.57,0,0.18,0,0.27,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harry—']",harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['ron—', 'ron']",hermione,hermione,harry,hermione,0,0.55,0,0.55,0,0.25,0,0.55,incorrect,incorrect,incorrect,incorrect
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['hermione'],hermione,hermione,hermione,hermione,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['hermione'],lucy,juan,ali,ly,0,0.0,0,0.17,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['hermione', 'hermione‘nin']",ron,hermione,harry,ron,0,0.55,1,1.0,0,0.31,0,0.55,incorrect,correct,incorrect,incorrect
+['harry'],harry,victor,raskolnikov,harry,1,1.0,0,0.18,0,0.12,1,1.0,correct,incorrect,incorrect,correct
+"['sirius', 'harry']",harry,dumbledore,harry,harry,1,1.0,0,0.13,1,1.0,1,1.0,correct,incorrect,correct,correct
+"['harry‘nin', 'harry', 'dumbledore harry']",harry,él,raskolnikov,harry,1,1.0,0,0.17,0,0.3,1,1.0,correct,incorrect,incorrect,correct
+"['hermione', 'hermione—']",hermione,hermione,hermione,hermione,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['ron—', 'ron']",hermione,dobby,hermione,hermione,0,0.55,0,0.25,0,0.55,0,0.55,incorrect,incorrect,incorrect,incorrect
+['voldemort'],voldemort,malfoy,draco,voldemort,1,1.0,0,0.27,0,0.29,1,1.0,correct,incorrect,incorrect,correct
+['hermione'],gandalf,gandalf,gandalf,nguyễn,0,0.13,0,0.13,0,0.13,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['hermione', 'hermione—']",julia,raskolnikov,jane,hermione,0,0.15,0,0.32,0,0.33,1,1.0,incorrect,incorrect,incorrect,correct
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['harry', 'harr', 'harry—', 'harry‘ye']",harry,k.,john,harry,1,1.0,0,0.0,0,0.25,1,1.0,correct,incorrect,incorrect,correct
+['voldemort'],voldemort,voldemort,voldemort,voldemort,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['lupin'],gandalf,él,john,snape,0,0.17,0,0.29,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lupin'],snape,gandalf,john,dumbledore,0,0.2,0,0.17,0,0.22,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['lupin', 'lupin—']",hermione,éowyn,harry,snape,0,0.31,0,0.2,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['ron—', 'ron', 'ron‘dan']",harry,snape,voldemort,hagrid,0,0.25,0,0.33,0,0.25,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['mundungus', 'mundungus—', 'lão mundungus']",hagrid,scrooge,ali,chí,0,0.22,0,0.2,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['ron', 'ron‘a']",harry,harry,ron,harry,0,0.25,0,0.25,1,1.0,0,0.25,incorrect,incorrect,correct,incorrect
+['harry'],gandalf,juan,harry,john,0,0.17,0,0.22,1,1.0,0,0.22,incorrect,incorrect,correct,incorrect
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['ron—', 'ron']",hermione,hermione,harry,hermione,0,0.55,0,0.55,0,0.25,0,0.55,incorrect,incorrect,incorrect,incorrect
+['harry'],voldemort,voldemort,voldemort,harry,0,0.14,0,0.14,0,0.14,1,1.0,incorrect,incorrect,incorrect,correct
+['ron'],hagrid,gandalf,henry,hùng,0,0.22,0,0.2,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['hermione', '“rồi']",hermione,sherlock,harry,hermione,1,1.0,0,0.5,0,0.31,1,1.0,correct,incorrect,incorrect,correct
+['hermione'],hermione,hermione,harry,hermione,1,1.0,1,1.0,0,0.31,1,1.0,correct,correct,incorrect,correct
+['hermione'],gandalf,hermione,gandalf,harry,0,0.13,1,1.0,0,0.13,0,0.31,incorrect,correct,incorrect,incorrect
+"['hermione', 'hermione‘nin']",hermione,juan,merlin,fred,1,1.0,0,0.17,0,0.57,0,0.33,correct,incorrect,incorrect,incorrect
+['hermione'],hermione,molly,hermione,hermione,1,1.0,0,0.31,1,1.0,1,1.0,correct,incorrect,correct,correct
+['ron'],wormtail,colin,harry,snape,0,0.18,0,0.5,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['harry'],harry,orfeo,gandalf,aslan,1,1.0,0,0.2,0,0.17,0,0.2,correct,incorrect,incorrect,incorrect
+"['umbridge', 'harry']",hermione,harry,harry,umbridge,0,0.38,1,1.0,1,1.0,1,1.0,incorrect,correct,correct,correct
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['arkie alderto', 'arkie alderton']",fletcher,flamel,potter,cleaver,0,0.4,0,0.36,0,0.31,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['umbridge', 'aberforth', 'umbridge‘in']",harry,umbridge,hermione,umbridge,0,0.43,1,1.0,0,0.38,1,1.0,incorrect,correct,incorrect,correct
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['harry', 'harry‘nin patronus']",harry,harry,ali,harry,1,1.0,1,1.0,0,0.33,1,1.0,correct,correct,incorrect,correct
+"['albert', 'alber']",harry,señor,harry,harry,0,0.4,0,0.4,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['ron'],johnny,él,john,harry,0,0.44,0,0.0,0,0.57,0,0.25,incorrect,incorrect,incorrect,incorrect
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['hermione'],ron,harry,harry,tom,0,0.55,0,0.31,0,0.31,0,0.18,incorrect,incorrect,incorrect,incorrect
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['dumbledore', 'vol…”']",dumbledore,dumbledore,harry,snape,1,1.0,1,1.0,0,0.13,0,0.13,correct,correct,incorrect,incorrect
+['hermione'],hermione,hermione,hermione,hermione,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['harry'],ron,harry,gollum,harry,0,0.25,1,1.0,0,0.0,1,1.0,incorrect,correct,incorrect,correct
+['harry'],harry,harry,bilbo,harry,1,1.0,1,1.0,0,0.0,1,1.0,correct,correct,incorrect,correct
+"['dean—', 'dean']",harry,harry,harry,harry,0,0.22,0,0.22,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['dirk', 'dirk—', 'dirk ağırca']",hagrid,smith,sirius,moody,0,0.5,0,0.22,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['professor black', 'blac', 'black', 'hermione']",dumbledore,arthur,arthur,binns,0,0.33,0,0.29,0,0.29,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['nigellus', 'phineas nige', 'phineas nigellus']",dumbledore,garcía,harry,dumbledore,0,0.18,0,0.31,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['harry'],frodo,dorian,harry,harry,0,0.2,0,0.18,1,1.0,1,1.0,incorrect,incorrect,correct,correct
+"['ron—', 'ron']",ford,john,robinson,frodo,0,0.29,0,0.57,0,0.55,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harry—']",ron,ron,aslan,hương,0,0.25,0,0.25,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['harry'],harry,ana,emily,harry,1,1.0,0,0.25,0,0.2,1,1.0,correct,incorrect,incorrect,correct
+['hermione'],harry,holmes,frodo,harry,0,0.31,0,0.43,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+['hermione'],luna,maría,harry,anne,0,0.17,0,0.31,0,0.31,0,0.33,incorrect,incorrect,incorrect,incorrect
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['hermione'],harry,él,john,họ,0,0.31,0,0.2,0,0.33,0,0.4,incorrect,incorrect,incorrect,incorrect
+['harry'],jonas,harry,dracula,harry,0,0.2,1,1.0,0,0.17,1,1.0,incorrect,correct,incorrect,correct
+['hermione'],john,john,harry,harry,0,0.33,0,0.33,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+['dumbledore'],albus,dumbledore,dumbledore,dumbledore,0,0.13,1,1.0,1,1.0,1,1.0,incorrect,correct,correct,correct
+"['albus dumbledore‘un', 'dumbledore', 'albus dumbledore']",werther,napoleón,harry,werther,0,0.35,0,0.38,0,0.2,0,0.35,incorrect,incorrect,incorrect,incorrect
+['harry'],heathcliff,pedro,john,nam,0,0.27,0,0.2,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['hermione'],hermione,maría,ayşe,mary,1,1.0,0,0.31,0,0.17,0,0.17,correct,incorrect,incorrect,incorrect
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['harry‘nin', 'harry']",arthur,arturo,arthur,arthur,0,0.55,0,0.55,0,0.55,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harry‘de']",heathcliff,harry,ali,frodo,0,0.27,1,1.0,0,0.25,0,0.31,incorrect,correct,incorrect,incorrect
+"['tom riddle‘ın', 'tom riddle', 'tom ryddle']",sauron,gollum,dracula,voldemort,0,0.27,0,0.44,0,0.31,0,0.33,incorrect,incorrect,incorrect,incorrect
+['ronald weasley'],harry,arturo,senin,harry,0,0.33,0,0.33,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['hermione', 'ron', 'ron‘un']",hermione,ella,mary,ron,1,1.0,0,0.17,0,0.29,1,1.0,correct,incorrect,incorrect,correct
+"['ron—', 'ron']",lucy,harry,harry,harry,0,0.0,0,0.25,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['ron—', 'ron']",john,juan,ali,tom,0,0.57,0,0.29,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['ron'],harry,kafka,harry,harry,0,0.25,0,0.0,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['hermione'],dumbledore,juan,ali,hermione,0,0.33,0,0.17,0,0.18,1,1.0,incorrect,incorrect,incorrect,correct
+"['ron—', 'ron']",ron,hans,ali,john,1,1.0,0,0.29,0,0.0,0,0.57,correct,incorrect,incorrect,incorrect
+['xenophilius'],xenophilius,hermione,luna,dumbledore,1,1.0,0,0.21,0,0.27,0,0.19,correct,incorrect,incorrect,incorrect
+['xenophilius'],gollum,holmes,ali,weasley,0,0.35,0,0.35,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['ron—', 'ron']",ron,hermione,gandalf,ron,1,1.0,0,0.55,0,0.2,1,1.0,correct,incorrect,incorrect,correct
+['ron'],tom,javier,ali,ron,0,0.33,0,0.22,0,0.0,1,1.0,incorrect,incorrect,incorrect,correct
+['ron'],sam,alguien,ayşe,tom,0,0.0,0,0.2,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['hermione', 'hermione—']",alice,juan,ahmet,anna,0,0.31,0,0.17,0,0.46,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['the elder wand', 'hermione', 'asa‘nın']",luna,hermione,lord,hermione,0,0.25,1,1.0,0,0.44,1,1.0,incorrect,correct,incorrect,correct
+"['hermione', 'hermione—']",hermione,hermione,hermione,harry,1,1.0,1,1.0,1,1.0,0,0.31,correct,correct,correct,incorrect
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['ron'],ron,ron,harry,ron,1,1.0,1,1.0,0,0.25,1,1.0,correct,correct,incorrect,correct
+"['bill', 'bill‘in', 'hội']",dumbledore,sherlock,sherlock,bill,0,0.29,0,0.36,0,0.36,1,1.0,incorrect,incorrect,incorrect,correct
+"['lee', 'lee—']",gilderoy,sherlock,sherlock,smith,0,0.36,0,0.18,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lee', 'lee‘nin', 'lee—']",lee,hermione,hermione,harry,1,1.0,0,0.4,0,0.4,0,0.0,correct,incorrect,incorrect,incorrect
+"['scabior', 'scabior—', 'hogwarts']",hagrid,hermione,harry,hagrid,0,0.43,0,0.27,0,0.46,0,0.43,incorrect,incorrect,incorrect,incorrect
+['scabior'],filch,snape,snape,harry,0,0.17,0,0.33,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harry—']",moaning myrtle,hermione,harry,tom,0,0.21,0,0.31,1,1.0,0,0.0,incorrect,incorrect,correct,incorrect
+['harry'],harry,hermione,hermione,harry,1,1.0,0,0.31,0,0.31,1,1.0,correct,incorrect,incorrect,correct
+['greyback'],griphook,gandalf,gandalf,gollum,0,0.38,0,0.27,0,0.27,0,0.14,incorrect,incorrect,incorrect,incorrect
+['harry'],john,javier,harry,harry,0,0.22,0,0.36,1,1.0,1,1.0,incorrect,incorrect,correct,correct
+['harry'],harry,sirius,dorian,harry,1,1.0,0,0.18,0,0.18,1,1.0,correct,incorrect,incorrect,correct
+"['bella', 'bellatrix']",bellatrix,fred,harry,bellatrix,1,1.0,0,0.22,0,0.29,1,1.0,correct,incorrect,incorrect,correct
+"['greyback', 'grey']",filch,bellatrix,dracula,gollum,0,0.15,0,0.24,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['hermione', 'hermione—']",griphook,gollum,pinocchio,ron,0,0.38,0,0.14,0,0.35,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['voldemort', 'voldemor']",voldemort,voldemort,ali,gollum,1,1.0,1,1.0,0,0.18,0,0.43,correct,correct,incorrect,incorrect
+['harry'],john,juan,john,harry,0,0.22,0,0.22,0,0.22,1,1.0,incorrect,incorrect,incorrect,correct
+['harry'],frodo,holmes,john,harry,0,0.2,0,0.18,0,0.22,1,1.0,incorrect,incorrect,incorrect,correct
+"['dobby', 'doby‘nin', 'harry']",dobby,harry,dobby,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['miró', 'harry']",stephen,miguel,mary,anna,0,0.17,0,0.4,0,0.67,0,0.22,incorrect,incorrect,incorrect,incorrect
+['harry'],harry,gregor,draco,harry,1,1.0,0,0.36,0,0.2,1,1.0,correct,incorrect,incorrect,correct
+"['harry', 'ladrón']",bilbo,gollum,ali,bilbo,0,0.36,0,0.17,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['ron—', 'ron']",griphook,gandalf,gandalf,gandalf,0,0.36,0,0.2,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['ollivander', 'ollivander—']",ollivander,ollivander,ollivander,ollivander,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['ollivander', 'ollivander—', 'ông ollivander']",ollivander,dumbledore,harry,ollivander,1,1.0,0,0.3,0,0.27,1,1.0,correct,incorrect,incorrect,correct
+['harry'],frodo,juan,john,harry,0,0.2,0,0.22,0,0.22,1,1.0,incorrect,incorrect,incorrect,correct
+"['ron—', 'ron']",ron,hermione,ron,harry,1,1.0,0,0.55,1,1.0,0,0.25,correct,incorrect,correct,incorrect
+"['ravenclaw', 'ravenclaw‘ın']",ravenclaw,luna,merlin,medusa,1,1.0,0,0.31,0,0.44,0,0.27,correct,incorrect,incorrect,incorrect
+['lupin'],gandalf,juan,frodo,dumbledore,0,0.17,0,0.44,0,0.0,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harr']",hermione,harry,gandalf,hermione,0,0.33,1,1.0,0,0.18,0,0.33,incorrect,correct,incorrect,incorrect
+"['griphook', 'griphook‘un']",griphook,griphook,griphook,hermione,1,1.0,1,1.0,1,1.0,0,0.42,correct,correct,correct,incorrect
+"['hermione', 'ron']",dumbledore,dumbledore,dumbledore,hermione,0,0.33,0,0.33,0,0.33,1,1.0,incorrect,incorrect,incorrect,correct
+"['lestrange', 'madam lestrange', 'leng']",lestrange,smith,griphook,griphook,1,1.0,0,0.29,0,0.17,0,0.17,correct,incorrect,incorrect,incorrect
+"['señora lestrange', 'lestrange', 'madam lestrange']",lestrange,condesa,gringotts,weasley,1,1.0,0,0.38,0,0.33,0,0.38,correct,incorrect,incorrect,incorrect
+['harry'],bilbo,harry,harry,harry,0,0.0,1,1.0,1,1.0,1,1.0,incorrect,correct,correct,correct
+"['harry‘nin', 'harry']",eragon,juan,ejder,eragon,0,0.27,0,0.31,0,0.2,0,0.27,incorrect,incorrect,incorrect,incorrect
+['ron'],ron,juan,john,ron,1,1.0,0,0.29,0,0.57,1,1.0,correct,incorrect,incorrect,correct
+"['harry‘nin', 'harry']",frodo,pedro,ali,ron,0,0.2,0,0.2,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['dumbledore'],oliver,tom,oliver,harry,0,0.38,0,0.15,0,0.38,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harry—']",snape,snape,harry,snape,0,0.2,0,0.2,1,1.0,0,0.2,incorrect,incorrect,correct,incorrect
+"['harry', 'hogwarts']",harry,harry,harry,hogwarts,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['harry'],harry,juan,robin,harry,1,1.0,0,0.22,0,0.2,1,1.0,correct,incorrect,incorrect,correct
+"['harry', 'harry‘ye']",frodo,harry,harry,harry,0,0.2,1,1.0,1,1.0,1,1.0,incorrect,correct,correct,correct
+['harry'],harry,kafka,harry,harry,1,1.0,0,0.2,1,1.0,1,1.0,correct,incorrect,correct,correct
+"['mcgonagall', 'profesör mcgonagall']",mcgonagall,mcgonagall,holmes,snape,1,1.0,1,1.0,0,0.43,0,0.31,correct,correct,incorrect,incorrect
+"['mcgonagall', 'profesör mcgonagall']",snape,mcgonagall,snape,mcgonagall,0,0.31,1,1.0,0,0.31,1,1.0,incorrect,correct,incorrect,correct
+['minerva mcgonagall'],mr. jones,señor,john,granger,0,0.38,0,0.33,0,0.29,0,0.43,incorrect,incorrect,incorrect,incorrect
+['snape'],heathcliff,juan,john,snape,0,0.13,0,0.22,0,0.22,1,1.0,incorrect,incorrect,incorrect,correct
+['sprout'],mcgonagall,snape,dumbledore,mcgonagall,0,0.12,0,0.36,0,0.12,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['nick‘in', 'nick']",aslan,don,harry,snape,0,0.22,0,0.29,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['harry'],harry,harry,helena,harry,1,1.0,1,1.0,0,0.36,1,1.0,correct,correct,incorrect,correct
+['helena ravenclaw'],helena,cenicienta,aladdin,gollum,1,1.0,0,0.5,0,0.38,0,0.18,correct,incorrect,incorrect,incorrect
+['harry'],harry,frankenstein,sherlock,harry,1,1.0,0,0.12,0,0.31,1,1.0,correct,incorrect,incorrect,correct
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['harry'],hermione,hermione,hermione,hermione,0,0.31,0,0.31,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+['snape'],ron,snape,snape,harry,0,0.25,1,1.0,1,1.0,0,0.2,incorrect,correct,correct,incorrect
+['petunia'],lucy,harry,harry,lyra,0,0.18,0,0.17,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['lily'],hermione,laura,john,hermione,0,0.17,0,0.22,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['dumbledore'],holmes,él,john,ông,0,0.25,0,0.17,0,0.14,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['thầy snape', 'snape']",snape,smith,john,winston,1,1.0,0,0.44,0,0.29,0,0.33,correct,incorrect,incorrect,incorrect
+['dumbledore'],dumbledore,dumbledore,dumbledore,dumbledore,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['severus', 'severu']",snape,severus,harry,snape,0,0.36,1,1.0,0,0.18,0,0.36,incorrect,correct,incorrect,incorrect
+['harry'],harry,gregor,ali,harry,1,1.0,0,0.36,0,0.25,1,1.0,correct,incorrect,incorrect,correct
+['neville'],john,raskolnikov,john,gollum,0,0.18,0,0.22,0,0.18,0,0.31,incorrect,incorrect,incorrect,incorrect
+['harry'],aslan,orfeo,odin,harry,0,0.2,0,0.2,0,0.0,1,1.0,incorrect,incorrect,incorrect,correct
+"['harry', 'riddle', 'ryddle']",tom,personaje,harry,tom,0,0.0,0,0.27,1,1.0,0,0.0,incorrect,incorrect,correct,incorrect
+['lupin'],gatsby,juan,ahmet,snape,0,0.0,0,0.44,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['lupin', 'lupin—']",regina,gatsby,john,dumbledore,0,0.36,0,0.0,0,0.22,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['the elder wand', 'voldemort', 'señor tenebroso']",wand,voldemort,voldemort,voldemort,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['voldemort', 'señor tenebroso']",gandalf,hombre,jane,dumbledore,0,0.17,0,0.4,0,0.31,0,0.42,incorrect,incorrect,incorrect,incorrect
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['harry', 'hagrid']",gulliver,goliat,harry,hagrid,0,0.29,0,0.33,1,1.0,1,1.0,incorrect,incorrect,correct,correct
+['dumbledore'],wolsey,holmes,gandalf,dumbledore,0,0.25,0,0.25,0,0.24,1,1.0,incorrect,incorrect,incorrect,correct
+"['piénsalo', 'dumbledore']",gandalf,caín,gandalf,dumbledore,0,0.4,0,0.33,0,0.4,1,1.0,incorrect,incorrect,incorrect,correct
+['harry'],gandalf,alicia,mary,alice,0,0.17,0,0.18,0,0.67,0,0.2,incorrect,incorrect,incorrect,incorrect
+['harry'],arthur,papá,anne,harry,0,0.55,0,0.22,0,0.22,1,1.0,incorrect,incorrect,incorrect,correct
+"['ignotus peverell', 'ignotus peverell‘in']",ignotus,dumbledore,dumbledore,dumbledore,1,1.0,0,0.33,0,0.33,0,0.33,correct,incorrect,incorrect,incorrect
+['james'],james,james,dumbledore,james,1,1.0,1,1.0,0,0.27,1,1.0,correct,correct,incorrect,correct
+['harry'],albus,hamlet,narcissus,dumbledore,0,0.2,0,0.36,0,0.29,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['dumbledore mỉm', 'dumbledore']",dumbledore,harry,dumbledore,dumbledore,1,1.0,0,0.13,1,1.0,1,1.0,correct,incorrect,correct,correct
+['harry'],harry,dumbledore,harry,harry,1,1.0,0,0.13,1,1.0,1,1.0,correct,incorrect,correct,correct
+"['voldemort‘un', 'voldemort']",everyone,frodo,john,harry,0,0.4,0,0.43,0,0.25,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['voldemort—', 'voldemort']",grendel,drácula,robin,napoleon,0,0.25,0,0.25,0,0.14,0,0.47,incorrect,incorrect,incorrect,incorrect
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['“harry potter', 'harry potter']",aslan,arturo,achilles,caesar,0,0.2,0,0.55,0,0.2,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['mi', 'neville longbottom']",draco,malfoy,draco,draco,0,0.13,0,0.25,0,0.13,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['bà weasley', 'señora weasley', 'ms weasley', 'weasley']",smith,profesora,harry,harry,0,0.29,0,0.53,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['harry'],harry,jesús,john,harry,1,1.0,0,0.0,0,0.22,1,1.0,correct,incorrect,incorrect,correct
+"['harry', 'harry—']",harry,juan,harry,harry,1,1.0,0,0.22,1,1.0,1,1.0,correct,incorrect,correct,correct
+['harry'],gatsby,él,romeo,holmes,0,0.36,0,0.0,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['voldemort—', 'voldemort']",gandalf,merlín,gandalf,merlin,0,0.12,0,0.27,0,0.12,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harry—']",marley,scrooge,john,scrooge,0,0.55,0,0.17,0,0.22,0,0.17,incorrect,incorrect,incorrect,incorrect
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['harry'],harry,juan,harry,harry,1,1.0,0,0.22,1,1.0,1,1.0,correct,incorrect,correct,correct
+['dumbledore'],dumbledore,gandalf,dumbledore,dumbledore,1,1.0,0,0.24,1,1.0,1,1.0,correct,incorrect,correct,correct
+['james'],ron,juan,emma,lan,0,0.0,0,0.44,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harry—']",ron,juan,mary,hà,0,0.25,0,0.22,0,0.67,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['profesör longbottom', 'longbottom', 'longbotto']",sprout,sprout,hermione,snape,0,0.43,0,0.43,0,0.38,0,0.31,incorrect,incorrect,incorrect,incorrect
+['james'],harry,juan,harry,nam,0,0.2,0,0.44,0,0.2,0,0.5,incorrect,incorrect,incorrect,incorrect

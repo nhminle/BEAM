@@ -1,0 +1,55 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+['gatsby'],gatsby,gatsby,gatsby,gatsby,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['tom buchanan'],tom,tom,tom,tom,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['tom', 'tom buchanan']",tom,gatsby,daisy,daisy,1,1.0,0,0.22,0,0.15,0,0.15,correct,incorrect,incorrect,incorrect
+['daisy'],daisy,clara,ahmet,emma,1,1.0,0,0.2,0,0.2,0,0.22,correct,incorrect,incorrect,incorrect
+"['miss baker', 'baker', 'bayan baker']",daisy,maría,ali,alice,0,0.44,0,0.44,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['baker', 'bayan baker']",baker,brooks,anna,cô,1,1.0,0,0.36,0,0.44,0,0.0,correct,incorrect,incorrect,incorrect
+['daisy'],daisy,daisy,ahmet,hermione,1,1.0,1,1.0,0,0.2,0,0.15,correct,correct,incorrect,incorrect
+"['tom', 'tom”']",tom,pedro,othello,tom,1,1.0,0,0.25,0,0.4,1,1.0,correct,incorrect,incorrect,correct
+['daisy'],daisy,emma,elif,anna,1,1.0,0,0.22,0,0.22,0,0.22,correct,incorrect,incorrect,incorrect
+['tom'],tom,gatsby,tom,tom,1,1.0,0,0.22,1,1.0,1,1.0,correct,incorrect,correct,correct
+"['ton buchanan', 'tom buchanan']",tom,gatsby,gatsby,gatsby,1,1.0,0,0.22,0,0.22,0,0.22,correct,incorrect,incorrect,incorrect
+['tom'],tom,gatsby,gatsby,tom,1,1.0,0,0.22,0,0.22,1,1.0,correct,incorrect,incorrect,correct
+"['wilso', 'bayan wilson', 'mistress wilson', 'wilson']",wilson,watson,bob,mary,1,1.0,0,0.67,0,0.27,0,0.44,correct,incorrect,incorrect,incorrect
+"['bayan wilson', 'myrtle', 'mistress wilson', 'wilson']",wilson,gatsby,gatsby,gatsby,1,1.0,0,0.36,0,0.36,0,0.36,correct,incorrect,incorrect,incorrect
+['catherine'],myrtle,greta,elena,jordan,0,0.27,0,0.29,0,0.29,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['mckee', 'bay mckee', 'mister mckee']",gatsby,humbert,ahmet,john,0,0.44,0,0.46,0,0.43,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jordan baker'],gatsby,gatsby,ahmet,gatsby,0,0.22,0,0.22,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jordan'],gatsby,nosotros,ahmet,holmes,0,0.17,0,0.29,0,0.18,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['bay gatsby', 'gatsby']",gatsby,gatsby,john,john,1,1.0,1,1.0,0,0.0,0,0.0,correct,correct,incorrect,incorrect
+['jordan'],jordan,gatsby,gatsby,jordan,1,1.0,0,0.17,0,0.17,1,1.0,correct,incorrect,incorrect,correct
+"['von hindenburg', 'van hindenburg']",von,al capone,dracula,beelzebub,1,1.0,0,0.35,0,0.24,0,0.32,correct,incorrect,incorrect,incorrect
+['gatsby'],gatsby,gatsby,gatsby,gatsby,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['gatsby'],gatsby,gatsby,gatsby,gatsby,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['bayan wilson', 'mistress wilson', 'wilson']",wilson,gatsby,gatsby,wilson,1,1.0,0,0.36,0,0.36,1,1.0,correct,incorrect,incorrect,correct
+"['wolfsheim hỉnh', 'bay wolfsheim', 'wolfshiem']",wolfsheim,smith,ahmet,gatsby,1,1.0,0,0.44,0,0.33,0,0.44,correct,incorrect,incorrect,incorrect
+['daisy'],jordan,daisy,daisy,gatsby,0,0.36,1,1.0,1,1.0,0,0.55,incorrect,correct,correct,incorrect
+['daisy'],daisy,daisy,daisy,daisy,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['jordan', 'jordan baker', '“jordan baker']",gatsby,gatsby,gatsby,gatsby,0,0.22,0,0.22,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['daisy'],daisy,gatsby,jane,daisy,1,1.0,0,0.55,0,0.22,1,1.0,correct,incorrect,incorrect,correct
+"['bay sloane', 'sloane', 'mister sloane']",buchanan,él,ahmet,gatsby,0,0.44,0,0.27,0,0.36,0,0.44,incorrect,incorrect,incorrect,incorrect
+['tom'],gatsby,juan,ahmet,john,0,0.22,0,0.0,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+['daisy'],gatsby,maría,ahmet,gatsby,0,0.55,0,0.4,0,0.2,0,0.55,incorrect,incorrect,incorrect,incorrect
+['daisy'],jordan,mercedes,maria,sheherazade,0,0.36,0,0.31,0,0.4,0,0.12,incorrect,incorrect,incorrect,incorrect
+['gatsby'],gatsby,gatsby,ev sahibi,gatsby,1,1.0,1,1.0,0,0.27,1,1.0,correct,correct,incorrect,correct
+['daisy'],daisy,daisy,anna,daisy,1,1.0,1,1.0,0,0.22,1,1.0,correct,correct,incorrect,correct
+['gatsby'],gatsby,gatsby,ahmet,gatsby,1,1.0,1,1.0,0,0.36,1,1.0,correct,correct,incorrect,correct
+['gatsby'],heathcliff,él,john,holmes,0,0.25,0,0.0,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['tom'],gatsby,javier,mary,gatsby,0,0.22,0,0.0,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+['tom'],tom,fermín,fogg,gatsby,1,1.0,0,0.22,0,0.29,0,0.22,correct,incorrect,incorrect,incorrect
+['gatsby'],gatsby,gatsby,ahmet,người,1,1.0,1,1.0,0,0.36,0,0.18,correct,correct,incorrect,incorrect
+"['jordan', 'jordan—']",jordan,gatsby,holly,gatsby,1,1.0,0,0.17,0,0.18,0,0.17,correct,incorrect,incorrect,incorrect
+['tom'],gatsby,john,john,holmes,0,0.22,0,0.29,0,0.29,0,0.44,incorrect,incorrect,incorrect,incorrect
+['daisy'],daisy,gatsby,mary,mary,1,1.0,0,0.55,0,0.44,0,0.44,correct,incorrect,incorrect,incorrect
+['walter'],tom,gatsby,tom,gatsby,0,0.22,0,0.33,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jordan'],watson,juan,ali,ngọc,0,0.33,0,0.6,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['tom'],gatsby,juan,ali,gatsby,0,0.22,0,0.0,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['daisy'],daisy,daisy,john,gatsby,1,1.0,1,1.0,0,0.0,0,0.55,correct,correct,incorrect,incorrect
+"['george', 'georg']",gatsby,tom,john,john,0,0.18,0,0.25,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['gatsby'],gatsby,gatsby,ali,gatsby,1,1.0,1,1.0,0,0.22,1,1.0,correct,correct,incorrect,correct
+"['meyer wolfsheim', 'meyer wolfshiem']",gatsby,gatsby,smith,gatsby,0,0.18,0,0.18,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['gatz', 'bay gatz']",gatz,smith,ahmet,abraham,1,1.0,0,0.22,0,0.44,0,0.4,correct,incorrect,incorrect,incorrect
+['gatsby'],gatsby,pedro,gatsby,gatsby,1,1.0,0,0.0,1,1.0,1,1.0,correct,incorrect,correct,correct
+['gatsby'],gatsby,oriente,babam,gatsby,1,1.0,0,0.15,0,0.36,1,1.0,correct,incorrect,incorrect,correct
+['jordan baker'],rebecca,maría,ahmet,linda,0,0.33,0,0.4,0,0.4,0,0.36,incorrect,incorrect,incorrect,incorrect
