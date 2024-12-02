@@ -1,0 +1,112 @@
+Single_ent,en_masked_shuffled_results,es_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+"['mauricio lorry', 'jarvis lorr', 'mr jarvis lorry', 'jarvis lorry']",bank,manette,tellson,tellson,0,0.2,0,0.27,0,0.36,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['mr lorry', 'lorry']",david,dover,dover,dover,0,0.0,0,0.4,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['miss manette', 'manette']",holmes,smith,ali,thưa,0,0.4,0,0.44,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['mr lorry', 'lorry']",macbeth,don,odysseus,ông,0,0.22,0,0.25,0,0.31,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mr lorry', 'lorry']",scrooge,hamlet,ahmet,người,0,0.27,0,0.29,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['señora defarge', 'madame defarge', 'defarge', 'madam defarge']",mrs.,tabernero,adam,chị,0,0.24,0,0.4,0,0.89,0,0.0,incorrect,incorrect,correct,incorrect
+"['señora defarge', 'madame defarge', 'defarge', 'madam defarge']",christian,juan,ali,hà,0,0.27,0,0.22,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['mösyö defarge', 'defarge', 'monsieur defarge']",madame,don,ahmet,ba,0,0.46,0,0.36,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+['defarge'],devil,dante,tanrı,quỷ,0,0.33,0,0.5,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mr lorry', 'lorry']",darcy,señor,anna,hai,0,0.4,0,0.4,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mr lorry', 'lorry']",darcy,emma,lucie,ông,0,0.4,0,0.33,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['defarge'],heathcliff,gregorio,ahmet,hồ,0,0.24,0,0.27,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['miss manette', 'mane', 'manette']",holmes,rochester,ali,thế,0,0.4,0,0.38,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['madame defarge', 'defarge', 'madam defarge']",madame,soledad,adam,nguyễn,1,1.0,0,0.33,0,0.89,0,0.31,correct,incorrect,correct,incorrect
+"['', 'lorr', 'lorry']",lorry,quijote,smith,nguyễn,1,1.0,0,0.18,0,0.0,0,0.18,correct,incorrect,incorrect,incorrect
+"['miss manette', 'manette', 'señorita manette']",raskolnikov,kafka,sanık,tiểu,0,0.32,0,0.19,0,0.46,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['jerry', 'jeremías lapa']",narcissus,jekyll,salonun,narcissus,0,0.35,0,0.55,0,0.2,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['darna', 'darnay', 'mr darnay']",jekyll,hernández,kafka,phong,0,0.17,0,0.43,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['carton—replicó lorry', 'mr lorry', 'lorry']",scrooge,hombres,ahmet,ông,0,0.36,0,0.44,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['carlos darnay', 'charles darnay']",gatsby,kafka,raskolnikov,hoang,0,0.33,0,0.36,0,0.35,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['darnay', 'mr darnay']",john,fortuna,adam,carton,0,0.2,0,0.46,0,0.4,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['mane', 'manette', 'doktor manette']",frankenstein,watson,hippocrates,kiến,0,0.53,0,0.4,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mr lorry', 'lorry']",doctor,emma,doktor,lucie,0,0.36,0,0.33,0,0.36,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['manette', 'doktor manette']",manette,kafka,frankenstein,thì,1,1.0,0,0.21,0,0.53,0,0.22,correct,incorrect,incorrect,incorrect
+"['pross', 'miss pross']",emma,emma,dante,chị,0,0.25,0,0.25,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['darnay'],gatsby,garcía,ahmet,cháu,0,0.33,0,0.5,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['darnay', 'mr darnay']",darcy,don,mehmet,em,0,0.73,0,0.44,0,0.25,0,0.5,correct,incorrect,incorrect,incorrect
+"['monsieur the marquis', 'marqués', 'mösyö marki', 'ngài hầu']",mr. lorry,sol,ali,rồi,0,0.43,0,0.5,0,0.57,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['monsieur gabelle', 'mösyö gabelle', 'gabelle', 'gambelle']",smith,garcía,ali,tống,0,0.31,0,0.31,0,0.4,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['carlos darnay', 'charles darnay']",adam,hemingway,dante,đông,0,0.4,0,0.43,0,0.55,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['manette', 'doktor manette']",manette,freud,juliet,kiều,1,1.0,0,0.21,0,0.31,0,0.22,correct,incorrect,incorrect,incorrect
+"['manette', 'doktor manette']",manette,fausto,tanrı,quang,1,1.0,0,0.33,0,0.36,0,0.33,correct,incorrect,incorrect,incorrect
+"['miss manette', 'lucía', 'manette']",darcy,don,ümit,cháu,0,0.2,0,0.2,0,0.5,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['stryver', 'mr stryver', 'sydney']",carton,julio,carton,sydney,0,0.25,0,0.0,0,0.25,1,1.0,incorrect,incorrect,incorrect,correct
+"['stryver', 'mr stryver']",temple,smith,perry,temple,0,0.31,0,0.33,0,0.4,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['stryver', 'mr stryver']",smith,pedro,ali,cam,0,0.33,0,0.33,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['lorr', 'mr lorry', 'lorry']",emma,don,emma,văn,0,0.33,0,0.29,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['miss manette', 'mane', 'lucía', 'manette']",elizabeth,emma,inanın,anna,0,0.43,0,0.5,0,0.4,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['miss manette', 'lucía', 'manette']",elizabeth,inés,victor,anna,0,0.43,0,0.5,0,0.22,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['defarge', 'madam defarge']",defarge,aburrimiento,arthur,domino,1,1.0,0,0.32,0,0.31,0,0.36,correct,incorrect,incorrect,incorrect
+['defarge'],hamlet,quijote,napoleon,cho,0,0.31,0,0.14,0,0.27,0,0.0,incorrect,incorrect,incorrect,incorrect
+['defarge'],rochester,pedro,ahmet,chí,0,0.25,0,0.33,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['señora defarge', 'madame defarge', 'defarge', 'madam defarge']",madame,tabernera,adam,nguyễn,1,1.0,0,0.53,0,0.89,0,0.33,correct,incorrect,correct,incorrect
+"['señora defarge', 'madame defarge', 'defarge', 'madam defarge']",madame,garcía,james,chị,1,1.0,0,0.36,0,0.55,0,0.0,correct,incorrect,incorrect,incorrect
+"['señora defarge', 'madame defarge', 'defarge', 'madam defarge']",watson,emma,hans,hà,0,0.33,0,0.44,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['señora defarge', 'madame defarge', 'defarge', 'madam defarge']",elizabeth,borges,marie,như,0,0.38,0,0.46,0,0.55,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['charles', 'carlos']",heathcliff,fausto,mehmet,ông,0,0.35,0,0.33,0,0.31,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['lucía', 'luci', 'lucie']",consolation,neruda,ne,trăng,0,0.27,0,0.36,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['lucía', 'luci', 'lucie']",bertha,hamlet,freud,alice,0,0.18,0,0.36,0,0.22,0,0.6,incorrect,incorrect,incorrect,incorrect
+"['lucía', 'lucie']",scrooge,juan,doktor,hồ,0,0.33,0,0.44,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lorr', 'mr lorry', 'señor lorry', 'lorry']",lucie,paris,paris,paris,0,0.22,0,0.29,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['mr lorry', 'lorry']",lorry,jekyll,lorry,tellson,1,1.0,0,0.18,1,1.0,0,0.33,correct,incorrect,correct,incorrect
+"['mr lorry', 'lorry']",lorry,freud,frankenstein,băng,1,1.0,0,0.29,0,0.14,0,0.0,correct,incorrect,incorrect,incorrect
+"['mr lorry', 'lorry']",scrooge,kafka,doktor,bác,0,0.27,0,0.0,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mr lorry', 'lorry']",mr.,don,ali,nguyễn,0,0.8,0,0.25,0,0.25,0,0.18,correct,incorrect,incorrect,incorrect
+"['mr lorry', 'señor lorry', 'lorry']",lorry,rip,gregor,kafka,1,1.0,0,0.4,0,0.55,0,0.0,correct,incorrect,incorrect,incorrect
+"['mane', 'manette']",holmes,sherlock,ahmet,nguyễn,0,0.4,0,0.17,0,0.5,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['mane', 'manette', 'doktor manette']",frankenstein,freud,hastalık,freud,0,0.53,0,0.22,0,0.27,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['darna', 'darnay', 'mr darnay']",darcy,usted,ahmet,lại,0,0.73,0,0.2,0,0.29,0,0.25,correct,incorrect,incorrect,incorrect
+['darnay'],heathcliff,don,amacım,don,0,0.12,0,0.44,0,0.33,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['lucía', 'luci', 'lucie']",mother,maría,mary,maria,0,0.18,0,0.4,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['lucía', 'lucie']",lucie,maría,gabriel,thiên,1,1.0,0,0.4,0,0.33,0,0.4,correct,incorrect,incorrect,incorrect
+"['darna', 'darnay']",tellson,tellson,tellson,tellson,0,0.17,0,0.17,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['lucía', 'luci', 'lucie']",jekyll,alice,ali,trà,0,0.2,0,0.6,0,0.57,0,0.25,incorrect,incorrect,incorrect,incorrect
+['defarge'],ahab,ulises,prometheus,nguyễn,0,0.18,0,0.15,0,0.24,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['lucie darnay', 'lucía darnay']",defarge,defarge,defarge,defarge,0,0.46,0,0.46,0,0.46,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['señora defarge', 'madame defarge', 'defarge', 'madam defarge']",emma,garcía,adam,lan,0,0.44,0,0.36,0,0.89,0,0.25,incorrect,incorrect,correct,incorrect
+"['mösyö gabelle', 'gabelle']",defarge,don,gabelle,nguyễn,0,0.29,0,0.25,1,1.0,0,0.31,incorrect,incorrect,correct,incorrect
+"['monsieur gabelle', 'mösyö gabelle', 'gabelle', 'señor gabelle']",village,don,john,thiếu,0,0.43,0,0.36,0,0.33,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['lucía', 'lucie']",earth,penélope,poseidon,đã,0,0.2,0,0.31,0,0.15,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['mr lorry', 'lorry']",jarvis,napoleón,napoleon,pháp,0,0.25,0,0.31,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mr lorry', 'lorry']",speaker,don,müdür,nguyễn,0,0.22,0,0.25,0,0.57,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['darna', 'darnay', 'mr darnay']",hyde,faust,faust,quang,0,0.22,0,0.2,0,0.2,0,0.4,incorrect,incorrect,incorrect,incorrect
+['darnay'],temple,raskolnikov,temple,gabelle,0,0.0,0,0.24,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['lucía', 'lucie']",heathcliff,donoso,hamlet,anh,0,0.27,0,0.0,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['carlos darnay', 'charles darnay']",manette,napoleón,napoleon,paris,0,0.31,0,0.43,0,0.43,0,0.55,incorrect,incorrect,incorrect,incorrect
+['darnay'],paul,sancho,john,quốc,0,0.2,0,0.33,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['carlos darnay', 'charles darnay']",napoleon,jean,jean,hoàn,0,0.43,0,0.4,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['carlos darnay', 'charles darnay']",defarge,napoleón,darnay,vô,0,0.46,0,0.43,1,1.0,0,0.25,incorrect,incorrect,correct,incorrect
+"['carlos darnay', 'charles darnay']",scrooge,dante,dorian,hồn,0,0.46,0,0.55,0,0.5,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mr lorry', 'dios—dijo lorry', 'lorry']",utterson,dios,allah,chúa,0,0.25,0,0.57,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lucía', 'lucie']",heathcliff,kafka,ali,nguyễn,0,0.27,0,0.2,0,0.5,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['mr lorry', 'lorry']",la,force,luke,force,0,0.29,0,0.4,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['señora defarge', 'madame defarge', 'defarge', 'madam defarge']",mary,edgar,freud,chị,0,0.44,0,0.5,0,0.5,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lucía', 'lucie']",desdemona,madre,tanrı,anna,0,0.14,0,0.2,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['lucía', 'lucie']",jerry,kafka,john,đạt,0,0.2,0,0.2,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['lucía', 'lucie']",lucie,robespierre,carmagnole,carmagnole,1,1.0,0,0.25,0,0.27,0,0.27,correct,incorrect,incorrect,incorrect
+"['señora defarge', 'madame defarge', 'defarge', 'madam defarge']",manette,rieux,watson,chị,0,0.46,0,0.33,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['charles', 'carlos']",romeo,salvador,ali,củng,0,0.36,0,0.43,0,0.44,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['carlos darnay', 'charles darnay']",paris,conciergerie,charles,darnay,0,0.55,0,0.32,1,1.0,1,1.0,incorrect,incorrect,correct,correct
+"['dr manette', 'mane', 'manette']",jekyll,watson,ali,bác,0,0.2,0,0.4,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['pross', 'miss pross']",asher,don,ali,john,0,0.27,0,0.25,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['lucía', 'lucie']",paris,napoleón,paris,paris,0,0.2,0,0.31,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['mane', 'manette']",manette,hannibal,frankenstein,hùng,1,1.0,0,0.33,0,0.53,0,0.25,correct,incorrect,incorrect,incorrect
+"['lucía', 'lucie']",judges,maría,mahkeme,tiến,0,0.36,0,0.4,0,0.17,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['mane', 'manette', 'doktor manette']",jekyll,smith,hakim,ông,0,0.2,0,0.33,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['mane', 'manette', 'doktor manette']",president,garcía,mehmet,chánh,0,0.27,0,0.2,0,0.46,0,0.44,incorrect,incorrect,incorrect,incorrect
+['defarge'],watson,voltaire,frankenstein,tiêu,0,0.15,0,0.4,0,0.32,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['carlos darnay', 'charles darnay']",winston,kafka,kafka,kafka,0,0.2,0,0.36,0,0.36,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['lucía', 'luci', 'lucie']",jekyll,soho,soho,soho,0,0.2,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['carton'],fagin,escriba,kafka,nguyễn,0,0.36,0,0.31,0,0.18,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['evrémonde', 'yurttaş evremonde', 'evrémond']",citizen,sócrates,frankenstein,hòa,0,0.27,0,0.4,0,0.38,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['mauricio lorry', 'jarvis lorry']",smith,smith,napoleon,nguyễn,0,0.31,0,0.31,0,0.36,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['santiago tercero', 'jacques', 'jacques ba']",scrooge,don,hamlet,công,0,0.43,0,0.2,0,0.31,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['señora defarge', 'madame defarge', 'defarge', 'madam defarge']",madame,venganza,ali,chị,1,1.0,0,0.43,0,0.25,0,0.0,correct,incorrect,incorrect,incorrect
+"['cruncher', 'mr cruncher', 'jeremías lapa']",micawber,emma,adam,bà,0,0.42,0,0.5,0,0.5,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['pross', 'miss pross']",gatsby,emma,sherlock,chị,0,0.2,0,0.25,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['pross', 'miss pross']",lucie,emma,jack,anh,0,0.22,0,0.25,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['pross', 'miss pross']",alice,smith,ali,chị,0,0.22,0,0.44,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['pross', 'miss pross']",elizabeth,emma,kapı,mừng,0,0.15,0,0.25,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['evrémonde', 'evremonde']",penelope,salomé,ali,john,0,0.47,0,0.27,0,0.0,0,0.31,incorrect,incorrect,incorrect,incorrect

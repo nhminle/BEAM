@@ -1,0 +1,26 @@
+Single_ent,en_masked_shuffled_results,es_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+['montag'],phoenix,shakespeare,yeşil,ngọc,0,0.31,0,0.12,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+['montag'],god,su,elif,ngọc,0,0.22,0,0.0,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+['montag'],james,maría,shakespeare,nguyễn,0,0.18,0,0.36,0,0.12,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],look,merlín,pinokyo,nguyễn,0,0.2,0,0.33,0,0.15,0,0.33,incorrect,incorrect,incorrect,incorrect
+['mildred'],estella,maría,dayı,ngọc,0,0.14,0,0.33,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['faber', 'faber—']",des,platón,harry,nguyễn,0,0.25,0,0.18,0,0.4,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],denham,denham,denham,denham,0,0.33,0,0.33,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],lincoln,shakespeare,öğleden,trần,0,0.31,0,0.12,0,0.31,0,0.4,incorrect,incorrect,incorrect,incorrect
+['montag'],orwell,hitler,uygarlığımız,nguyễn,0,0.17,0,0.17,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],god,marx,elleri,đức,0,0.22,0,0.4,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['faber'],tom,quién,kitap,harry,0,0.0,0,0.2,0,0.2,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['bowles', 'bayan bowles']",god,maría,ayda,chúa,0,0.22,0,0.4,0,0.67,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['phelps', 'bayan phelps']",montag,marx,stephen,harry,0,0.18,0,0.22,0,0.46,0,0.4,incorrect,incorrect,incorrect,incorrect
+['montag'],shakespeare,montaigne,shakespeare,nguyễn,0,0.12,0,0.8,0,0.12,0,0.33,incorrect,correct,incorrect,incorrect
+['montag'],paul,quixote,i̇sa,đông,0,0.2,0,0.31,0,0.22,0,0.6,incorrect,incorrect,incorrect,incorrect
+['montag'],beetle,carlos,böcek,đông,0,0.17,0,0.17,0,0.18,0,0.6,incorrect,incorrect,incorrect,incorrect
+['montag'],elm,taxi,gece,nguyễn,0,0.22,0,0.4,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],heathcliff,maría,bay,đêm,0,0.12,0,0.36,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],john,maría,john,nguyễn,0,0.4,0,0.36,0,0.4,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],virginia,marx,lonca,nguyễn,0,0.29,0,0.4,0,0.55,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['montag', 'montag tiến']",gold,hitler,odysseus,nguyễn,0,0.2,0,0.4,0,0.21,0,0.47,incorrect,incorrect,incorrect,incorrect
+['montag'],heathcliff,marx,ali,nguyễn,0,0.12,0,0.4,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],guernica,dios,hitler,nguyễn,0,0.29,0,0.2,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],god,dios,adam,nguyễn,0,0.22,0,0.2,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+['granger'],finny,amazonas,john,lặng,0,0.17,0,0.27,0,0.18,0,0.55,incorrect,incorrect,incorrect,incorrect

@@ -1,0 +1,52 @@
+Single_ent,en_masked_shuffled_results,es_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+['caroline beaufort'],elizabeth,emma,ali,vương,0,0.38,0,0.33,0,0.55,0,0.31,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],victor,victor,victor,victor,0,0.27,0,0.27,0,0.27,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['krempe', 'thần hủy hoạ', 'señor krempe', 'm']",victor,aristóteles,faust,krempe,0,0.36,0,0.35,0,0.25,1,1.0,incorrect,incorrect,incorrect,correct
+"['waldman', 'm', 'profesör waldman']",aristotle,aristóteles,aristoteles,socrates,0,0.35,0,0.42,0,0.42,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['krempe', 'señor krempe', 'm']",victor,nietzsche,faust,từ,0,0.36,0,0.29,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['dante'],frankenstein,frankenstein,frankenstein,frankenstein,0,0.47,0,0.47,0,0.47,0,0.47,incorrect,incorrect,incorrect,incorrect
+"['frankenstein', 'clerval']",watson,hamlet,don,frankenstein,0,0.33,0,0.33,0,0.13,1,1.0,incorrect,incorrect,incorrect,correct
+['clerval'],victor,gregorio,jane,kim,0,0.31,0,0.27,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['henry'],frankenstein,frankenstein,frankenstein,kafka,0,0.24,0,0.24,0,0.24,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['clerval', 'querido clerval']",dearest,juan,anna,nguyễn,0,0.29,0,0.21,0,0.18,0,0.31,incorrect,incorrect,incorrect,incorrect
+['henry'],romeo,shakespeare,ahmet,romeo,0,0.2,0,0.38,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",victor,león,edward,hy,0,0.33,0,0.4,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['clerval'],victor,ginebra,i̇sviçre,geneva,0,0.31,0,0.43,0,0.29,0,0.46,incorrect,incorrect,incorrect,incorrect
+['clerval'],victor,victor,mevsim,người,0,0.31,0,0.31,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",frankenstein,juan,ali,thư,0,0.22,0,0.2,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+['william'],mont,ginebra,victor,geneva,0,0.18,0,0.29,0,0.15,0,0.15,incorrect,incorrect,incorrect,incorrect
+['justine'],faith,juan,anna,alice,0,0.17,0,0.55,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+['justine'],elizabeth,juan,kızın,ngạc,0,0.25,0,0.55,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['justine'],frankenstein,poe,victor,ai,0,0.42,0,0.2,0,0.15,0,0.22,incorrect,incorrect,incorrect,incorrect
+['justine'],frankenstein,dorian,dante,vậy,0,0.42,0,0.31,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],victor,ginebra,victor,victor,0,0.27,0,0.25,0,0.27,0,0.27,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],elizabeth,padre,hamlet,cha,1,1.0,0,0.29,0,0.4,0,0.17,correct,incorrect,incorrect,incorrect
+"['félix', 'felix']",victor,robinson,kış,thức,0,0.18,0,0.15,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",frankenstein,ali,ali,rập,0,0.35,0,0.5,0,0.5,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",emma,jean,julien,emma,0,0.22,0,0.22,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['de lacey', 'de lace']",frankenstein,frankenstein,jack,nguyễn,0,0.25,0,0.25,0,0.5,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['de lacey', 'de lacey—']",scrooge,juan,ahmet,godot,0,0.33,0,0.22,0,0.4,0,0.29,incorrect,incorrect,incorrect,incorrect
+['de lacey'],frankenstein,padre,ali,holmes,0,0.24,0,0.57,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",frankenstein,edipo,hamlet,ý,0,0.35,0,0.4,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['henry'],pardon,borges,ahmet,nguyễn,0,0.18,0,0.18,0,0.4,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['clerval', 'ren']",victor,byron,victor,wordsworth,0,0.31,0,0.5,0,0.31,0,0.15,incorrect,incorrect,incorrect,incorrect
+['henry'],watson,watson,watson,scotland,0,0.18,0,0.18,0,0.18,0,0.15,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],elizabeth,edgar,frankenstein,viễn,1,1.0,0,0.29,0,0.29,0,0.31,correct,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",judge,smith,ahmet,phúc,0,0.0,0,0.29,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['daniel nugent', 'daniel nugen']",robinson,hemingway,oğuz,nguyễn,0,0.31,0,0.29,0,0.22,0,0.73,incorrect,incorrect,incorrect,correct
+['daniel'],elizabeth,pedro,adam,anna,0,0.27,0,0.18,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['señor kirwin', 'mr kirwin', 'kirwin']",hyde,poe,sherlock,ông,0,0.22,0,0.25,0,0.46,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",frankenstein,raskolnikov,victor,ông,0,0.38,0,0.3,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",frankenstein,fausto,frankenstein,quỷ,0,0.22,0,0.17,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['señor kirwin', 'mr kirwin', 'kirwin']",darcy,kafka,heathcliff,ông,0,0.29,0,0.18,0,0.18,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",victor,orcadas,orkney,orkney,0,0.33,0,0.22,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['henry', 'henr']",victor,frankenstein,frankenstein,frankenstein,0,0.2,0,0.25,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],frankenstein,fausto,azrail,hỡi,0,0.29,0,0.27,0,0.27,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",victor,padre,frankenstein,romeo,0,0.27,0,0.29,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],elizabeth,kafka,ahmet,tuyết,1,1.0,0,0.14,0,0.43,0,0.29,correct,incorrect,incorrect,incorrect
+['elizabeth'],frankenstein,frankenstein,frankenstein,ác,0,0.29,0,0.29,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['margaret', 'margare']",frankenstein,victor,frankenstein,đôi,0,0.4,0,0.15,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['margaret', 'margare']",elizabeth,juan,tanrı,trời,0,0.35,0,0.18,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['frankenstein'],frankenstein,frankenstein,i̇ngiltere,thủy,1,1.0,1,1.0,0,0.29,0,0.12,correct,correct,incorrect,incorrect
+['frankenstein'],dorian,hamlet,faust,giả,0,0.33,0,0.33,0,0.47,0,0.13,incorrect,incorrect,incorrect,incorrect
+['clerval'],frankenstein,dante,frankenstein,tim,0,0.21,0,0.17,0,0.21,0,0.0,incorrect,incorrect,incorrect,incorrect

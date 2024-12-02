@@ -1,0 +1,26 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+['montag'],will,paul,harry,harry,0,0.0,0,0.2,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],he,alberto,adam,john,0,0.0,0,0.15,0,0.2,0,0.4,incorrect,incorrect,incorrect,incorrect
+['montag'],montag,stephen,offred,emma,1,1.0,0,0.15,0,0.17,0,0.4,correct,incorrect,incorrect,incorrect
+['montag'],montag,roberto,adam,đức,1,1.0,0,0.31,0,0.2,0,0.0,correct,incorrect,incorrect,incorrect
+['mildred'],jo,maría,ali,ngọc,0,0.0,0,0.33,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['faber', 'faber—']",faber,fahrenheit,faber,ray,1,1.0,0,0.4,1,1.0,0,0.25,correct,incorrect,correct,incorrect
+['montag'],denham,denham,bay,denham,0,0.33,0,0.33,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],emerson,stephen,harry,harry,0,0.46,0,0.15,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],paul,orwell,paul,arthur,0,0.2,0,0.17,0,0.2,0,0.17,incorrect,incorrect,incorrect,incorrect
+['montag'],george,gregor,stephen,harry,0,0.33,0,0.17,0,0.15,0,0.18,incorrect,incorrect,incorrect,incorrect
+['faber'],winston,stephen,harry,harry,0,0.0,0,0.17,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['bowles', 'bayan bowles']",wiggin,maría,shirley,trang,0,0.18,0,0.4,0,0.31,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['phelps', 'bayan phelps']",beatty,asimov,montag,ngọc,0,0.55,0,0.22,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],clarissa,gregor,bay,harry,0,0.14,0,0.17,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],holden,god,god,nguyễn,0,0.33,0,0.22,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],casey,carlos,james,nguyễn,0,0.18,0,0.17,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],beetle,él,özgür,harry,0,0.17,0,0.0,0,0.36,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],montag,maría,jack,nguyễn,1,1.0,0,0.36,0,0.2,0,0.33,correct,incorrect,incorrect,incorrect
+['montag'],holden,charlie,john,harry,0,0.33,0,0.15,0,0.4,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],guy,fahrenheit,fahrenheit,fahrenheit,0,0.22,0,0.25,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['montag', 'montag tiến']",macomber,steinbeck,joe,ngọn lửa,0,0.32,0,0.46,0,0.29,0,0.43,incorrect,incorrect,incorrect,incorrect
+['montag'],he,robinson,strider,john,0,0.0,0,0.29,0,0.15,0,0.4,incorrect,incorrect,incorrect,incorrect
+['montag'],montag,hersey,guam,henry,1,1.0,0,0.0,0,0.2,0,0.18,correct,incorrect,incorrect,incorrect
+['montag'],henry,henry,bay,henry,0,0.18,0,0.18,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+['granger'],george,job,john,nguyễn,0,0.62,0,0.0,0,0.18,0,0.46,incorrect,incorrect,incorrect,incorrect
