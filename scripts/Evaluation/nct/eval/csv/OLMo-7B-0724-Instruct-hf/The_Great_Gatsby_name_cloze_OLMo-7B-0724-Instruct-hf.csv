@@ -1,0 +1,55 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+['gatsby'],greene,name,namus,alice,0,0.17,0,0.2,0,0.36,0,0.18,incorrect,incorrect,incorrect,incorrect
+['tom buchanan'],tru, fitzgerald ,george,ethel,0,0.33,0,0.18,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['tom', 'tom buchanan']",windows,tapices,perdeler,neo,0,0.2,0,0.21,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['daisy'],the other girl,chava,öteki,nàng,0,0.11,0,0.2,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['miss baker', 'baker', 'bayan baker']",she,boz,he,alice,0,0.31,0,0.25,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['baker', 'bayan baker']",misssue,miss,okul öğrencileri,alice,0,0.17,0,0.0,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+['daisy'],sara,kafka,neşe,le,0,0.22,0,0.2,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['tom', 'tom”']",man,grandísimo,dedi,daisy,0,0.33,0,0.15,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['daisy'],"in the given passage, the word filling the [mask] token is ""she"", but in order to determine the proper name that fits this context, we need more context. here's the passage with the word ""she"" highlighted:  ""[mask] took her face in her hands as if feeling its lovely shape, and her eyes moved gradually out into the velvet dusk. i saw that turbulent emotions possessed her, so i asked what i thought would be some sedative questions about her little",pardo,fırtınalar,ana,0,0.02,0,0.2,0,0.13,0,0.25,incorrect,incorrect,incorrect,incorrect
+['tom'],carla,girl,narkoz,em,0,0.0,0,0.0,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['ton buchanan', 'tom buchanan']",drawbridge,lúdico,trenciler,tình,0,0.11,0,0.29,0,0.33,0,0.57,incorrect,incorrect,incorrect,incorrect
+['tom'],david,kenaan,ahbaplarun,alice,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['wilso', 'bayan wilson', 'mistress wilson', 'wilson']",mrsmullins,airedale,"based on the given passage, the name that fills the [mask] token is: $ \textbf{airedale}$. the passage is about an airedale, a breed of terrier, that moved into the cottage of its owner despite being on a farm where airedales were present. the airedale in question is mentioned as having changed its color from black to white as a small airedale, and then carrying on with its owner without using its wings. the name ""a",cô,0,0.44,0,0.38,0,0.07,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bayan wilson', 'myrtle', 'mistress wilson', 'wilson']",mrsmullins,marañas,taksi,park,0,0.44,0,0.5,0,0.31,0,0.22,incorrect,incorrect,incorrect,incorrect
+['catherine'],sister,herana,pudra,alice,0,0.4,0,0.53,0,0.14,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['mckee', 'bay mckee', 'mister mckee']",murray,sommer,mendilimi,anhchng,0,0.44,0,0.5,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jordan baker'],stephen,sartre,zihnin,say,0,0.17,0,0.36,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jordan'],he,ortega,koca,ông ta,0,0.0,0,0.5,0,0.4,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['bay gatsby', 'gatsby']",mr. jenkins,mayordomo,ahbap,chicago,0,0.19,0,0.33,0,0.5,0,0.24,incorrect,incorrect,incorrect,incorrect
+['jordan'],alex,fastidio,erich,alundra,0,0.2,0,0.14,0,0.18,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['von hindenburg', 'van hindenburg']",charley,hernán,zaman,alice,0,0.24,0,0.44,0,0.5,0,0.32,incorrect,incorrect,incorrect,incorrect
+['gatsby'],timetable,somozai,yaz,alice,0,0.27,0,0.15,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+['gatsby'],he,gobineau,west,west,0,0.0,0,0.29,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['bayan wilson', 'mistress wilson', 'wilson']",mrs. duse, gaspar,kller,jessica,0,0.47,0,0.36,0,0.18,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['wolfsheim hỉnh', 'bay wolfsheim', 'wolfshiem']",carver,mister,andre,em,0,0.22,0,0.27,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+['daisy'],eva,gorky,golf,chyi,0,0.25,0,0.2,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['daisy'],lisa,kafka,fransa,chicago,0,0.44,0,0.2,0,0.36,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['jordan', 'jordan baker', '“jordan baker']",twilight,cars,plaza,plaza,0,0.0,0,0.44,0,0.24,0,0.24,incorrect,incorrect,incorrect,incorrect
+['daisy'],enchanting,cervantes,ana,nàng,0,0.27,0,0.29,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['bay sloane', 'sloane', 'mister sloane']",mr. kessler,,samimileşver,ly,0,0.5,0,0.44,0,0.56,0,0.4,incorrect,incorrect,incorrect,incorrect
+['tom'],finn,name,konuklar,em,0,0.0,0,0.29,0,0.18,0,0.4,incorrect,incorrect,incorrect,incorrect
+['daisy'],erich,kafka,tantana,đại khái,0,0.2,0,0.2,0,0.17,0,0.46,incorrect,incorrect,incorrect,incorrect
+['daisy'],her,kafka,usulce,nung,0,0.0,0,0.2,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gatsby'],guys,alla,misafirleri,"based on the given passage, the proper name that fills the [mask] token is ""alice"" (but in the given passage, the name is not ""alice,"" it is ""tôi"" which means ""i"" in vietnamese, but the context suggests that the speaker is a woman, and the name ""alice"" is mentioned later in the passage). here is the corrected passage with the name ""alice"" added:  <passage>đêm đ",0,0.4,0,0.2,0,0.12,0,0.03,incorrect,incorrect,incorrect,incorrect
+['daisy'],loving,kafka,ancak,yoo,0,0.18,0,0.2,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['gatsby'],jim,reojo,tirman,alice,0,0.0,0,0.0,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['gatsby'],child,pienso,sezer,em,0,0.0,0,0.17,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['tom'],rickeys,la niñera,buz,bóng,0,0.0,0,0.0,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['tom'],david,sobek,ali,ngoai,0,0.0,0,0.25,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['gatsby'],sail,botticelli,elija,anh,0,0.2,0,0.12,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['jordan', 'jordan—']",sam,kafka,joss,raphaelle,0,0.22,0,0.18,0,0.4,0,0.27,incorrect,incorrect,incorrect,incorrect
+['tom'],tate,pitó,seth&lt;/name,alice,0,0.29,0,0.57,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['daisy'],sarah,juiga,leay,alice,0,0.2,0,0.2,0,0.44,0,0.4,incorrect,incorrect,incorrect,incorrect
+['walter'],subject,nueva jersey,tanrım,anh,0,0.15,0,0.33,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jordan'],inmates,name,ortak,tai,0,0.15,0,0.2,0,0.55,0,0.22,incorrect,incorrect,incorrect,incorrect
+['tom'],driver,cuchillo,aniden,anh,0,0.0,0,0.18,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['daisy'],she,giró,arabana,alice,0,0.25,0,0.22,0,0.17,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['george', 'georg']",john,iglesia,mustafa,theo,0,0.22,0,0.33,0,0.0,0,0.44,incorrect,incorrect,incorrect,incorrect
+['gatsby'],chauffeur,choderlos,salladı,tai,0,0.13,0,0.13,0,0.15,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['meyer wolfsheim', 'meyer wolfshiem']",address,phonebook,phone,broadway,0,0.18,0,0.22,0,0.29,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['gatz', 'bay gatz']",mr. jenkins,islington,cenaze,cụ,0,0.11,0,0.31,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gatsby'],caller,gorky,kınay,alundra,0,0.17,0,0.36,0,0.36,0,0.15,incorrect,incorrect,incorrect,incorrect
+['gatsby'],home,hoje,doğu,quay,0,0.0,0,0.0,0,0.2,0,0.4,incorrect,incorrect,incorrect,incorrect
+['jordan baker'],she,ellas,gitsin,ana,0,0.25,0,0.2,0,0.17,0,0.44,incorrect,incorrect,incorrect,incorrect

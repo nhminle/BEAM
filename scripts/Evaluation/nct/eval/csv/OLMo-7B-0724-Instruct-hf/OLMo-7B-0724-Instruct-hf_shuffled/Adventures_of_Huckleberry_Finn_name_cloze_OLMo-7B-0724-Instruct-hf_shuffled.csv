@@ -1,0 +1,146 @@
+Single_ent,en_masked_shuffled_results,es_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+"['musa', 'moisés', 'moses']",widow,ella,nuh,bà,0,0.2,0,0.25,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['tom sawyer'],she,alegre,gün,tôi,0,0.44,0,0.5,0,0.0,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['bayan watson', 'watson']",spider,kafka,yıldız,alice,0,0.17,0,0.4,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+['tom sawyer'],tom,arastrando,miyav,meo,1,1.0,0,0.31,0,0.27,0,0.33,correct,incorrect,incorrect,incorrect
+['tom'],moss,gómez,mumları,thằng,0,0.29,0,0.5,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['tom'],boy,chicos,name,tất,0,0.33,0,0.22,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['tom'],robber,piratas,haydut,nó,0,0.22,0,0.2,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+['tom sawyer'],burglars,robbers,sığır,thang,0,0.29,0,0.35,0,0.36,0,0.27,incorrect,incorrect,incorrect,incorrect
+['tommy barnes'],robber,echó,annesini,thang,0,0.33,0,0.22,0,0.57,0,0.36,incorrect,incorrect,incorrect,incorrect
+['tom'],crybaby,llorón,ama,giang,0,0.0,0,0.22,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bayan watson', 'watson']",by-and-by,anzuelos,dua,thua,0,0.57,0,0.31,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['tow sawyer', 'tom sawyer']",arabs,anillo,eski,ràng,0,0.36,0,0.22,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['yargıç thatcher', 'thatcher']",judge,errejón,sık,chốc,0,0.2,0,0.27,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jim'],ted,bola,falil,han,0,0.0,0,0.0,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['yargıç thatcher', 'tha', 'thatcher']",judge,al,ertesi,lão,0,0.2,0,0.4,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['thatcher'],he,garcilaso,dul,bà và lão,0,0.4,0,0.24,0,0.0,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['bayan watson', 'watson']",pap,jirones,evini,vở,0,0.25,0,0.31,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['yargıç thatcher', 'thatcher']",judge,juez,kanunlar,pháp,0,0.2,0,0.17,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['tom sawyer'],woodhull,llené,toprak,lê,0,0.18,0,0.18,0,0.44,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jim'],werner,ya,tek,mách,0,0.0,0,0.0,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jim'],cannery,buey,kocaman,sá,0,0.0,0,0.0,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],lazied,desayuno,çimenler,nê,0,0.22,0,0.0,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['watson ấy', 'bayan watson', 'watson']",ole,moza,ben,bà,0,0.22,0,0.33,0,0.5,0,0.57,incorrect,incorrect,incorrect,incorrect
+['jim'],young,alguien,civcivler,chim,0,0.0,0,0.2,0,0.17,0,0.57,incorrect,incorrect,incorrect,incorrect
+['jim'],sting,abejas,güneş,hán,0,0.25,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],says,las,anlaşıldı,han,0,0.0,0,0.0,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bay bradish', 'misto bradish', 'bradish']",nigger,name,banka,cố,0,0.21,0,0.29,0,0.5,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jim'],illinois,illinois,tutunarak,illinois,0,0.18,0,0.18,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jim'],canoe,canoa,kanoyu,em,0,0.0,0,0.0,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+['jim'],woods,pájaros,kuş,gà,0,0.0,0,0.2,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],sebastian,zarattini,odan,từ,0,0.17,0,0.17,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],illinois,marcharnos,kaza,vinh,0,0.18,0,0.15,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jim'],rattlesnake,fue,yılan,tôi,0,0.0,0,0.0,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jim'],stick,luz,sıçradı,tôi,0,0.25,0,0.0,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jim'],snake,serpiente,yalınayak,da,0,0.0,0,0.17,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],stuff,name,yukarı,hắn,0,0.0,0,0.29,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['abner moore'],hain't,martín,dayım,cháu,0,0.36,0,0.36,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['tom sawyer'],sara,sólo,aksu,vân,0,0.6,0,0.29,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['abner moore'],goshen,campesino,babam,name,0,0.36,0,0.3,0,0.4,0,0.44,incorrect,incorrect,incorrect,incorrect
+['jim'],canoe,zaragoza,kanoya,gō,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],cove,parra,yarım,bè,0,0.0,0,0.0,0,0.5,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],delmar,missouri,missouri,alice,0,0.22,0,0.18,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jim'],steamboat,también,fener,ro,0,0.17,0,0.2,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],he,estribor,eskileyi,hán,0,0.0,0,0.18,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],voice,gala,fena,sợ,0,0.25,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],murderers,sheriff,gidip,thể,0,0.17,0,0.2,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],shaw,bajado,bell,không,0,0.0,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],boat,saqué,gemini,tôi,0,0.0,0,0.0,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jim turner'],rascals,bote,"in the given passage, the phrase ""fener fark başarının [mask] kadar kaptan köşkünün az yüz kayığın gittikten gibi"" suggests that the term ""fener"" refers to a lighthouse, and the phrase ""kaptan köşkünün az yüz kayığın gittikten gibi"" implies that the lighthouse's flash frequency was similar to that of a",tau,0,0.15,0,0.4,0,0.06,0,0.44,incorrect,incorrect,incorrect,incorrect
+['jim'],murderer,mesa,ilker,tôi,0,0.18,0,0.29,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['bayan hooker', 'hooker']",ferry,río,yuzebil,tôi,0,0.36,0,0.22,0,0.21,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jim'],hollering,zamora,arkam,alice,0,0.17,0,0.22,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jim'],cat,tronco,yorulmuş,tôi,0,0.0,0,0.0,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jim'],raft,balsa,anlaşılan,chèo,0,0.0,0,0.0,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],tow-heads,el,adamdı,họa,0,0.0,0,0.0,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],looked,su,rüya,hán,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],warn,zaratustra,ihbar,tôi,0,0.0,0,0.0,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['joh', 'john']",ward,name,baban,tránh,0,0.0,0,0.25,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jim'],terry,mejora,adem,tôi,0,0.0,0,0.22,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jim'],raft,libres,salla,hán,0,0.0,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['cairo', 'jim']",jim,a,iskinçilik,jim,1,1.0,0,0.33,0,0.27,1,1.0,correct,incorrect,incorrect,correct
+['buck'],he,en,ebeveyn,hán,0,0.0,0,0.0,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['buck'],go,sueros,annenin,yên,0,0.0,0,0.2,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['charlo', 'charlotte', 'bayan charlotte']",miss,estrago,big,cô,0,0.0,0,0.31,0,0.25,0,0.5,incorrect,incorrect,incorrect,incorrect
+['buck'],each,my,haril,người,0,0.25,0,0.0,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['buck', 'buck—']",chip,caballero,kan,anh,0,0.25,0,0.15,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['huck'],ben,cacharros,ama,tôi,0,0.0,0,0.15,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['buc', 'buck']",boys,unos,oğlanlardan,họ,0,0.29,0,0.29,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['buc', 'buck']",tree,guzmán,nehir,ha,0,0.0,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],steamboat,ludo,tipler,guồng,0,0.17,0,0.0,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],fell,kafka,name,sông,0,0.0,0,0.0,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],crick,"based on the context of the passage, the proper name that fills the [mask] token is ""apareció"". the full sentence reads: ""apareció moras. una milla les buscaba donde ya querían alguien más de arroyo y mi les a no estaban salvara canal hacia estaba hacia y parecía que venían toda y perseguían, los que cerca ver me habían de quizá y vacas",shafak,họ,0,0.25,0,0.01,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bridgewater', 'bilgewater', 'aguassucias']",blue,vagabundo,mavikel,gian,0,0.43,0,0.4,0,0.24,0,0.4,incorrect,incorrect,incorrect,incorrect
+['jim'],duke,balza,dük,hoa,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],dukes,pérez,palavra,nếu,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],uncle tom,balsa,zenci,tạo,0,0.17,0,0.0,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],wigwam,duque,name,lúc,0,0.44,0,0.0,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],raft,torres,salı,han,0,0.0,0,0.0,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['richard iii', 'richard', 'ricardo iii']",meedyevil,sacó,iii.,vua,0,0.2,0,0.36,0,0.86,0,0.2,incorrect,incorrect,correct,incorrect
+['jim'],duke,pueblecito,akşam,tôi,0,0.0,0,0.15,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jim'],ropes,octavilla,paramız,quang,0,0.0,0,0.17,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['sherburn', 'albay sherburn', 'colonel sherburn']",dallas,viejo,iyi,lão,0,0.55,0,0.17,0,0.25,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['buck harne', 'buck harkness']", wanted,pérez,sungur,còn,0,0.55,0,0.4,0,0.25,0,0.31,incorrect,incorrect,incorrect,incorrect
+['jim'],hundred,roncaban,toplu,ha,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],wish,reyes,sor,hoa,0,0.29,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],dukes,name,hiçbir,chẳng,0,0.0,0,0.29,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'lizabeth']",ornery,portazo,seben,ngoahai,0,0.14,0,0.13,0,0.43,0,0.27,incorrect,incorrect,incorrect,incorrect
+['jim'],duke,wigwam,name: yataklar,hài,0,0.0,0,0.44,0,0.12,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['bay peter wilks', 'peter wilks']","a word that is a gentle, friendly, or familiar term for a person, such as a friend or family member (e.g. buddy, pal, mate, etc.)",señor,usulca,nhưng,0,0.14,0,0.4,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['willia', 'william']",aluz,palanca,zavallı,dao,0,0.2,0,0.31,0,0.46,0,0.22,incorrect,incorrect,incorrect,incorrect
+['harvey'],lingo,hiriese,name,sih,0,0.0,0,0.46,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+['susan'],doctor,other,doktor,bác,0,0.0,0,0.0,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mary jan', 'mary jane']",duke,así,kafama,hành,0,0.25,0,0.33,0,0.4,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['mary jan', 'mary jane']",she,zarattini,usulca,quỳ,0,0.29,0,0.47,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['mary jane'],watts,maldita,torba,xuôi,0,0.22,0,0.38,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['barley', 'bartley', 'bayan bartley']",shut,lorquina,dul,khách,0,0.18,0,0.19,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['mary jane'],sweat,dita,zirvalıklar,tang,0,0.22,0,0.25,0,0.27,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['pitchiola', 'mary jane']",times,tonto,time,chúng,0,0.29,0,0.29,0,0.31,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['levi bell', 'levi ben']",doctor,rey,beyefendi,vali,0,0.0,0,0.33,0,0.5,0,0.5,incorrect,incorrect,incorrect,incorrect
+['tim collins'],boy,llegó,sahter,chính,0,0.2,0,0.33,0,0.22,0,0.5,incorrect,incorrect,incorrect,incorrect
+['peter wilks'],gold,coplices,torbay,chuong,0,0.22,0,0.32,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+['william'],joker,no,giderek,lão,0,0.0,0,0.0,0,0.14,0,0.4,incorrect,incorrect,incorrect,incorrect
+['hines'],scrouge,coger,heyecanlanmış,chăm,0,0.17,0,0.2,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jim'],duke,wigwam,suluk,tôi,0,0.0,0,0.44,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jim'],duke,pikesville,curcuna,pikesville,0,0.0,0,0.15,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+['jim'],nigger,peguem,giyinme,bỗng,0,0.22,0,0.22,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],gatesa,enric,robin,alice,0,0.0,0,0.25,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['tom'],shook,garcía,kadın,lý,0,0.25,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['saly', 'sally', 'aunt sally', 'sally teyze']",boatswain,alcázar,vakur,lý,0,0.42,0,0.36,0,0.44,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['bayan phelps', 'phelps', 'señora phelps']",pump,escalofrios,ama,lát,0,0.4,0,0.35,0,0.5,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['tom sawyer', 'sawyer']",bolthead,cilindro,white,tôi,0,0.22,0,0.18,0,0.36,0,0.67,incorrect,incorrect,incorrect,incorrect
+['nichols'],driver,el,mil,vao,0,0.15,0,0.22,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+['burton'],ward,gandules,gogi,cổ mấy,0,0.2,0,0.14,0,0.2,0,0.17,incorrect,incorrect,incorrect,incorrect
+['tom sawyer'],carney,lo,zehirler,dù,0,0.33,0,0.4,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],nigger,un,gül,phelps,0,0.22,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],canoe,río,gecel,ông,0,0.0,0,0.33,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['tom'],hut,candado,name: zemini,thang,0,0.33,0,0.2,0,0.13,0,0.25,incorrect,incorrect,incorrect,incorrect
+['tom sawyer'],buckskin,trepadoes,girdim,coa,0,0.14,0,0.33,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jim'],niggers,pan,koyuyordu,sáng,0,0.2,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],he,así,"in the given passage, the phrase ""i̇çeri [mask] bizi önce lanet hiçbir kesinlikle görebiliyordu, peşinden ama şey ama girdiğimizde yürüdük,"" translates to ""inside [mask] we couldn't even see lanet clearly, when we walked in from the porch, even though it was just a step in."" the proper name that fills the [",luc,0,0.0,0,0.33,0,0.02,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],nigger,el,cadils,hắn,0,0.22,0,0.0,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['tom'],lantern,zorro,tilki,thằng,0,0.2,0,0.25,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jim'],iron,hierro,demir,bọn,0,0.29,0,0.22,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['tom'],sack,al,cuvalı,thế,0,0.0,0,0.0,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jim'],hick,calvo,yalnız,hắn,0,0.29,0,0.0,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['tom sawyer'],nigger,sándía,kafan,dưa,0,0.33,0,0.33,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['tom'],hand,hora,paratoner,luc,0,0.0,0,0.29,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],witch-things,sobre,sahana,tôi,0,0.13,0,0.0,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['sally', 'saly']",,perdido,bilmiyorum,tôi,0,0.29,0,0.0,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['tom'],mantel,ortega,yüksek,chú,0,0.22,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],inscription,arandela,planlama,hiệu,0,0.14,0,0.0,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+['tom'],letter,chica,elbise,thư,0,0.22,0,0.0,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['tom'],bulge,kafka,mektup,thang,0,0.0,0,0.0,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['saly', 'sally', 'aunt sally', 'sally teyze']",cornelius,así,zemin,trông,0,0.21,0,0.31,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+['tom'],rod,subí,paratonerden,thang,0,0.33,0,0.0,0,0.27,0,0.25,incorrect,incorrect,incorrect,incorrect
+['huck'],bullie,doscientos,ii,toi,0,0.2,0,0.14,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],duke,león,kanama,nam,0,0.0,0,0.0,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['tom', 'i']",huck,curado,doktor,chúng,0,0.0,0,0.22,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+['sid'],canoe,pues,telaşlanmasına,cháu,0,0.0,0,0.29,0,0.24,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bayan hotchkiss', 'hotchkiss']",farmers,hernán,en,bà,0,0.18,0,0.36,0,0.29,0,0.57,incorrect,incorrect,incorrect,incorrect
+['phelps'],african,africana,santimine,đấy,0,0.0,0,0.0,0,0.13,0,0.0,incorrect,incorrect,incorrect,incorrect
+['sid'],bed,chico,guler,dì,0,0.33,0,0.25,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+['jim'],old,kafka,doctor,chốc,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],doctor,almendras,daha,rồi,0,0.0,0,0.17,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['saly', 'aunt sally', 'sally teyze', 'tía sally']",runaway,alcázar,kıskıvrak,tất,0,0.47,0,0.36,0,0.33,0,0.67,incorrect,incorrect,incorrect,incorrect

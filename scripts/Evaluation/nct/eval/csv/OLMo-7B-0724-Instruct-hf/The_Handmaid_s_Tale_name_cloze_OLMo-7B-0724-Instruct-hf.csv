@@ -1,0 +1,104 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",orwell,decida,"in the given passage, the phrase ""aksine bir ayrıcalık, ya/ya da'lı lafları seven [mask]'nin dediği gibi"" suggests that the subject of the sentence is a property, not a person. the phrase ""aksine bir ayrıcalık"" implies that it is a small property or a small land. therefore, the proper name that fills the [mask] token is ""mahalle"", which",di,0,0.18,0,0.55,0,0.06,0,0.57,incorrect,incorrect,incorrect,incorrect
+['cora'],john,sobres,said,hoa,0,0.25,0,0.4,0,0.25,0,0.57,incorrect,incorrect,incorrect,incorrect
+['rita'],touche,panaderos,dokunma,bánh,0,0.2,0,0.15,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+['serena joy'],shelia,"based on the given passage, the name that fills the [mask] token is ""karen"". the passage states, ""era la soprano y protagonista, una mujer menuda, de pelo rubio ceniza, nariz respingona y ojos azules..."" and later, ""era capaz de reír y llorar al mismo tiempo, dejando deslizar graciosamente una o dos lágrimas por las mej",anitkabir,bà,0,0.5,0,0.06,0,0.27,0,0.25,incorrect,incorrect,incorrect,incorrect
+['luke'],sylvia,yoro,pazar,sophie,0,0.2,0,0.0,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",anarchy,liberties,"in the given passage, the proper name that fills the [mask] token is ""derdi"". however, the name ""derdi"" is not a common name, so i will provide an alternative guess based on the context. the passage talks about various rights and the idea of not doing something and not allowing others to do it as well. the phrase ""anarşi günlerinde"" (in anarchic days) suggests that the passage is discussing a time when people had certain freedoms",dì,0,0.36,0,0.4,0,0.05,0,0.57,incorrect,incorrect,incorrect,incorrect
+['janine'],sara,antonio,passage,"tên cô, ngày đó",0,0.2,0,0.46,0,0.31,0,0.19,incorrect,incorrect,incorrect,incorrect
+['luke'],he,karo,torbalar,anh,0,0.33,0,0.25,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",she,kuo,yanımda,tuan,0,0.22,0,0.22,0,0.27,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",she,recato,derdi,dì,0,0.25,0,0.4,0,0.4,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",she,conchita,kadın,nguyễn ngọc nhan,0,0.22,0,0.29,0,0.36,0,0.33,incorrect,incorrect,incorrect,incorrect
+['luke'],,,adaman,anh,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",she,ellle,ilan,toi,0,0.22,0,0.55,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",econowives,cortejo,ekonokadınlar,chung,0,0.33,0,0.31,0,0.38,0,0.18,incorrect,incorrect,incorrect,incorrect
+['nick'],scott,tulipán,whirlwind,axel,0,0.22,0,0.18,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],era,kafka,spreyli,alice,0,0.29,0,0.22,0,0.18,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia']",margaret,pausa,izzet,dì,0,0.24,0,0.29,0,0.25,0,0.57,incorrect,incorrect,incorrect,incorrect
+['rita'],carrots,ella,havuçs,tôi,0,0.36,0,0.25,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+['rita'],carla,ortega,pilici,chihu,0,0.44,0,0.6,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['luke'],von,cristal,tavandaki,người,0,0.0,0,0.18,0,0.15,0,0.22,incorrect,incorrect,incorrect,incorrect
+['moira'],lisa,kafka,name,alice,0,0.44,0,0.2,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",she,bochorno,kadınların,dì,0,0.25,0,0.17,0,0.42,0,0.57,incorrect,incorrect,incorrect,incorrect
+['nick'],jerry,whirlwind,whirlwind,anh,0,0.0,0,0.15,0,0.15,0,0.29,incorrect,incorrect,incorrect,incorrect
+['moira'],ladder,bombas,tuzak,bom,0,0.18,0,0.36,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia', 'aunt lydia']",shelia,garcía,teys,dì,0,0.55,0,0.44,0,0.31,0,0.57,incorrect,incorrect,incorrect,incorrect
+['cora'],david,porter,voice,alice,0,0.22,0,0.4,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['cora'],daisy,gogol,name,ao,0,0.22,0,0.22,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+['cora'],supper,bandeja,door,tôi,0,0.2,0,0.18,0,0.5,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['janine', 'janin']",testifying,"in the given passage, the person whose name needs to be filled in the [mask] token is mentioned as ""la semana pasada contó lo mismo, y parecía casi orgullosa de ello."" and ""aunque tratándose de [mask], probablemente sea más o menos verdad."". the person in question is the same in both sentences, and their name is ""la semana pasada"" which is a spanish phrase for ""the week before last",anlatırkan,cao,0,0.27,0,0.03,0,0.53,0,0.25,incorrect,incorrect,incorrect,incorrect
+['dolores'],aunt,gala,gulen,dao,0,0.0,0,0.18,0,0.33,0,0.4,incorrect,incorrect,incorrect,incorrect
+['luke'],dan,sommer,kitap,anh,0,0.0,0,0.2,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['serena joy', 'serana joy']",style,ruskin,vazo,hoa khô,0,0.36,0,0.33,0,0.29,0,0.35,incorrect,incorrect,incorrect,incorrect
+['nick'],he,martín,gabi,anh,0,0.0,0,0.2,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+['nick'],sarah,rio,acele,anh,0,0.0,0,0.29,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['serena'],preacher,montreal,music,hình nhiễu,0,0.43,0,0.43,0,0.18,0,0.12,incorrect,incorrect,incorrect,incorrect
+['serena'],tim,elio,akşamlar,tôi,0,0.0,0,0.2,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],passport,sólo,ehliyet,hoa,0,0.0,0,0.25,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+['serena joy'],bedroom,"in the given passage, the proper name that fills the [mask] token is ""bed"" (but this is not the most appropriate answer, as it is not a proper name in the given context). the correct answer is ""she"", as the passage describes a woman lying next to the bedhead, with her legs open and her body flanqueando (hugging) the speaker's body. the woman is also completely dressed. therefore, the proper name that fills the [mask]",yataghan,bà,0,0.35,0,0.04,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+['luke'],a flash of lightning,kafka,bebek,anh,0,0.08,0,0.22,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",she,gorbachev,karatahdada,dì,0,0.25,0,0.2,0,0.4,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",her,kurzweil,voice,dì,0,0.25,0,0.31,0,0.25,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",generation,díaz,derdi,dì,0,0.31,0,0.67,0,0.4,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['tricia', 'cô trici', 'tricia foreman']",bud,amiga,ilker,mèo,0,0.0,0,0.36,0,0.21,0,0.4,incorrect,incorrect,incorrect,incorrect
+['luke'],she,name,noel,giáng sinh,0,0.29,0,0.25,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],she,delfin,böyle,anh,0,0.29,0,0.2,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+['janine'],flesh,aun,ali,nguyễn,0,0.18,0,0.44,0,0.44,0,0.33,incorrect,incorrect,incorrect,incorrect
+['janine'],she,alcobendas,observations,cô,0,0.22,0,0.25,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['janine'],ami,robespierre,oktar,cô,0,0.44,0,0.24,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['moira'],whatsapp,echarkia,farklı,mask,0,0.15,0,0.31,0,0.18,0,0.44,incorrect,incorrect,incorrect,incorrect
+['janine'],approbation,cachorro,köpeci,mike,0,0.35,0,0.14,0,0.17,0,0.4,incorrect,incorrect,incorrect,incorrect
+['janine'],she,castillo,"in the given passage, the proper name that fills the [mask] token is ""suçlu"" which means ""criminal"" in english. however, the context of the passage suggests that the author is referring to someone who has been punished or condemned, but not necessarily a criminal. therefore, the best guess for the [mask] token based on the context is ""baktı. ne olursa olsun, bunun için suçlanmayacağını bili",cô,0,0.22,0,0.29,0,0.03,0,0.0,incorrect,incorrect,incorrect,incorrect
+['moira'],abby,meza,mekanik,tôi,0,0.22,0,0.44,0,0.33,0,0.5,incorrect,incorrect,incorrect,incorrect
+['moira'],she,anda,güç,le,0,0.0,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['cora'],she,ella,[mask],eung,0,0.0,0,0.25,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['serena joy'],totem,guardians,muhafızlar,vet,0,0.25,0,0.27,0,0.12,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia', 'aunt lydia']",said,sartre,teyze,dì,0,0.31,0,0.4,0,0.29,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia']",aunt,flotantes,teysi,dì,0,0.29,0,0.33,0,0.5,0,0.57,incorrect,incorrect,incorrect,incorrect
+['liebchen'],dave,ella,kabustan,alice,0,0.17,0,0.17,0,0.25,0,0.62,incorrect,incorrect,incorrect,incorrect
+['rita'],brekk,cook,"in the given passage, the sentence ""başını kaldırıp yan yan ve kurnazca bana baktı, ikimiz de kahvaltımı etmişim gibi yapabilirsek daha iyi olacağını anladım. beni yerde yatarken bulduğunu söylese, bir alay soru sorulacaktı. kırılan b",toi,0,0.22,0,0.0,0,0.03,0,0.29,incorrect,incorrect,incorrect,incorrect
+['rita'],grumpy,zumano,o,chị,0,0.2,0,0.2,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['serena joy'],antoinette,tulipanes,bastonu,bà,0,0.25,0,0.13,0,0.31,0,0.25,incorrect,incorrect,incorrect,incorrect
+['serena joy'],sue,kafka,umut,ong ta,0,0.44,0,0.18,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia', 'aunt lydia']",eve,guillén,teyze,dì,0,0.0,0,0.36,0,0.29,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",maze,una,labirent,tai,0,0.2,0,0.22,0,0.43,0,0.18,incorrect,incorrect,incorrect,incorrect
+['moira'],not,viera,tornavidam,alt,0,0.25,0,0.6,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+['luke'],two,name,gelenek,alice,0,0.0,0,0.25,0,0.36,0,0.44,incorrect,incorrect,incorrect,incorrect
+['luke'],john,a,passage,hoa,0,0.0,0,0.0,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],book,shel,disklere,anh,0,0.25,0,0.25,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],he,he,eve,alice,0,0.33,0,0.33,0,0.29,0,0.44,incorrect,incorrect,incorrect,incorrect
+['luke'],husband,paresse,kocan,chồng,0,0.18,0,0.18,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['moira'],theo,compucuentas,kompühesapları,sao,0,0.22,0,0.24,0,0.21,0,0.25,incorrect,incorrect,incorrect,incorrect
+['luke'],sarah,ella,kizi,tôi,0,0.0,0,0.25,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],he,abrzos,kolları,vòngtay,0,0.33,0,0.0,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],he,decidió,dedi,anh,0,0.33,0,0.18,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],john,ellos,ottoman,tom,0,0.0,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],fight,sartre,robin,giá,0,0.0,0,0.2,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['moira'],she,estrada,kadın,dawn,0,0.0,0,0.33,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['serena'],she,cigiñana,gunnar,jim,0,0.44,0,0.29,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['rita'],radisha,rabananos,furniture,chui,0,0.55,0,0.31,0,0.46,0,0.25,incorrect,incorrect,incorrect,incorrect
+['cora'],time, vangogh ,kadın,cô,0,0.0,0,0.18,0,0.22,0,0.67,incorrect,incorrect,incorrect,incorrect
+['moira'],slap,"in the given passage, the sentence ""[mask] le dio dos bofetadas, con el dorso y el envés de la mano. vuelve, insistió. ¡vuelve ahora mismo! no puedes quedarte allí, ya no estás allí. todo eso ha terminado."" suggests that the subject of the sentence is a person, and the actions being described are physical actions. based on this information, the most likely answer",tatlıtaki,chấm,0,0.22,0,0.03,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+['janine'],she,smith,vurma,smile,0,0.22,0,0.18,0,0.18,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia', 'aunt lydia']",june,dello,sevgi,dì,0,0.5,0,0.2,0,0.25,0,0.57,incorrect,incorrect,incorrect,incorrect
+['luke'],hussein,el hombre,adam,yên,0,0.36,0,0.31,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['luke'],john,alcobendas,ali,haan,0,0.0,0,0.29,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],james,parado,zaman,tôi,0,0.22,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['nick', 'nic']",guy,le,"in the given passage, the person giving the instructions is saying, ""çabuk davranmalıyız,"" ""arka giriş burası. pelerini [mask]'e bırakmalısın. her zamanki saatte,"" and ""demek bu da daha önce yapmış olduğu bir şey."" the name of the person giving instructions can be inferred to be [mask]. therefore, the output",ong,0,0.0,0,0.0,0,0.03,0,0.33,incorrect,incorrect,incorrect,incorrect
+['moira'],she,las,tellers,cô,0,0.0,0,0.25,0,0.17,0,0.29,incorrect,incorrect,incorrect,incorrect
+['moira'],"in the given passage, the phrase ""as [mask] would say"" suggests that there is a character named [mask] who would say something. based on the context, the most logical choice for the [mask] token is ""porter,"" as it is mentioned that ""bodily functions at least remain democratic. everybody shits, as porter would say."" therefore, the proper name that fills the [mask] token in the passage is ""porter."" the output should look like this","in the given passage, the phrase ""todo el mundo caga, diría [mask]"" suggests that the person being referred to here is someone who is known for making funny or unexpected statements. one possible answer is the spanish writer and philosopher josé ortega y gasset, whose quote ""all men must die, but not all men must think"" is well-known. another possible answer is the spanish writer and satirist benito pérez galdós, whose quote ""","in the given passage, the word filling the [mask] token is ""tuvaletleri"" which means ""toilets"". however, the context of the passage suggests that the speaker is feeling comfortable in a strange or unusual way, and mentions that there is something reassuring in the toilets. based on this information, the proper name that fills the [mask] token is ""bedensel işlevler"" which means ""psychological functions"". here is the output:  ",thiên hạ,0,0.02,0,0.02,0,0.02,0,0.31,incorrect,incorrect,incorrect,incorrect
+['luke'],superintendent,elvira,yönetici,anh,0,0.22,0,0.2,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['serena'],ceremony,calendario,ayni,nga,0,0.57,0,0.38,0,0.2,0,0.44,incorrect,incorrect,incorrect,incorrect
+['serena joy'],poweroutage,o,electricity,hoang,0,0.35,0,0.5,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['lvdi', 'tía lydia', 'lydia', 'aunt lydia']",audiencemember,gala,teyze,dì,0,0.33,0,0.46,0,0.29,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia']",aunt,papel,gösteriş,dì,0,0.29,0,0.29,0,0.36,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia', 'aunt lydia']",kafkai,kafka,maviliyi,dì,0,0.27,0,0.29,0,0.47,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",hedy,cuerpos,yarım,cô,0,0.2,0,0.15,0,0.15,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze']",aunt_luby,deuteros,muhafizadur,dih,0,0.33,0,0.32,0,0.3,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia']",aunt,voleibol,sıcakliği,di,0,0.29,0,0.31,0,0.44,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia']",aunt,guardians,adam,dì,0,0.29,0,0.44,0,0.46,0,0.57,incorrect,incorrect,incorrect,incorrect
+['nick'],he,loma,patika boyunca,anh,0,0.0,0,0.0,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",checkpoints,mescada,zorlamak,alice,0,0.32,0,0.15,0,0.29,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",she,sobrevís,s,le,0,0.22,0,0.29,0,0.0,0,0.5,incorrect,incorrect,incorrect,incorrect
+['nick'],eye,sobanko,eye,le,0,0.0,0,0.36,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect

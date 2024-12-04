@@ -1,0 +1,384 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+['paul'],jonas,rebecca,anna,tom,0,0.22,0,0.18,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,paul,paul,paul,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['paul'],paul,paul,ali,paul,1,1.0,1,1.0,0,0.57,1,1.0,correct,correct,incorrect,correct
+['jessica'],jessica,jessica,paul,jessica,1,1.0,1,1.0,0,0.18,1,1.0,correct,correct,incorrect,correct
+['paul'],paul,paul,paul,paul,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['paul'],paul,jorge,adam,harry,1,1.0,0,0.0,0,0.25,0,0.22,correct,incorrect,incorrect,incorrect
+['paul'],paul,juan,frodo,harry,1,1.0,0,0.25,0,0.0,0,0.22,correct,incorrect,incorrect,incorrect
+['paul'],frodo,él,john,harry,0,0.0,0,0.33,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,juan,ali,harry,1,1.0,0,0.25,0,0.57,0,0.22,correct,incorrect,incorrect,incorrect
+['paul'],paul,harry,ahmet,harry,1,1.0,0,0.22,0,0.22,0,0.22,correct,incorrect,incorrect,incorrect
+['jessica'],jessica,clara,harry,anna,1,1.0,0,0.33,0,0.17,0,0.18,correct,incorrect,incorrect,incorrect
+['bene gesserit'],atreides,judía,adem,merlin,0,0.33,0,0.15,0,0.25,0,0.43,incorrect,incorrect,incorrect,incorrect
+['jessica'],leto,paul,paul,paul,0,0.18,0,0.18,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],jessica,maría,elif,anna,1,1.0,0,0.33,0,0.36,0,0.18,correct,incorrect,incorrect,incorrect
+"['jessica', 'jessic']",paul,él,oedipus,ngươi,0,0.18,0,0.25,0,0.31,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],jessica,jane,jane,anna,1,1.0,0,0.36,0,0.36,0,0.18,correct,incorrect,incorrect,incorrect
+['paul'],paul,él,adam,harry,1,1.0,0,0.33,0,0.25,0,0.22,correct,incorrect,incorrect,incorrect
+['paul'],paul,él,paul,paul,1,1.0,0,0.33,1,1.0,1,1.0,correct,incorrect,correct,correct
+['hawat'],paul,spock,spock,ender,0,0.22,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],john,juan,ali,harry,0,0.0,0,0.25,0,0.57,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],he,él,ahmet,harry,0,0.0,0,0.33,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",paul,napoleón,aristoteles,humpty,1,1.0,0,0.33,0,0.27,0,0.2,correct,incorrect,incorrect,incorrect
+"['halleck', 'paul']",duncan,duncan,paul,geralt,0,0.2,0,0.2,1,1.0,0,0.4,incorrect,incorrect,correct,incorrect
+"['paul', 'paul—']",gareth,joffrey,robin,tyrion,0,0.2,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gurney'],gurney,gurney,paul,gurney,1,1.0,1,1.0,0,0.2,1,1.0,correct,correct,incorrect,correct
+['paul'],paul,paul,jon,harry,1,1.0,1,1.0,0,0.0,0,0.22,correct,correct,incorrect,incorrect
+['halleck'],will,don,tom,scrooge,0,0.36,0,0.0,0,0.0,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['halleck', 'giọng halleck']",gurney,gurney,paul,gurney,0,0.36,0,0.36,0,0.36,0,0.36,incorrect,incorrect,incorrect,incorrect
+['halleck'],heathcliff,él,ahmet,ông,0,0.35,0,0.22,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['halleck'],paul,juan,hoca,harry,0,0.36,0,0.18,0,0.36,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],ender,paul,ali,ender,0,0.0,1,1.0,0,0.57,0,0.0,incorrect,correct,incorrect,incorrect
+['paul'],paul,kynes,paul,paul,1,1.0,0,0.0,1,1.0,1,1.0,correct,incorrect,correct,correct
+['paul'],ender,juan,harry,harry,0,0.0,0,0.25,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,julio,ali,ender,1,1.0,0,0.44,0,0.57,0,0.0,correct,incorrect,incorrect,incorrect
+['paul'],paul,paul,mary,harry,1,1.0,1,1.0,0,0.25,0,0.22,correct,correct,incorrect,incorrect
+['jessica'],jessica,jessica,jessica,jessica,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['paul'],paul,napoleón,general,paul,1,1.0,0,0.33,0,0.36,1,1.0,correct,incorrect,incorrect,correct
+"['jessica', 'jessica—']",gandalf,odin,melis,merlin,0,0.14,0,0.18,0,0.33,0,0.31,incorrect,incorrect,incorrect,incorrect
+['jessica'],voldemort,drácula,gandalf,voldemort,0,0.12,0,0.29,0,0.14,0,0.12,incorrect,incorrect,incorrect,incorrect
+['jessica'],jessica,jessica,jessica,jessica,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['mapes'],jessica,aragorn,aragorn,bà,0,0.33,0,0.17,0,0.17,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jessica'],jessica,paul,paul,jessica,1,1.0,0,0.18,0,0.18,1,1.0,correct,incorrect,incorrect,correct
+['jessica'],jessica,juan,john,rebecca,1,1.0,0,0.36,0,0.18,0,0.43,correct,incorrect,incorrect,incorrect
+['jessica'],elizabeth,maría,ahmet,anna,0,0.38,0,0.33,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],gatsby,gregor,john,anna,0,0.2,0,0.0,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,paul,ender,harry,1,1.0,1,1.0,0,0.0,0,0.22,correct,correct,incorrect,incorrect
+['paul'],paul,holmes,paul,harry,1,1.0,0,0.2,1,1.0,0,0.22,correct,incorrect,correct,incorrect
+['paul'],paul,paul,jon,harry,1,1.0,1,1.0,0,0.0,0,0.22,correct,correct,incorrect,incorrect
+['jessica'],alice,juan,ali,nàng,0,0.33,0,0.36,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,juan,ali,anna,0,0.2,0,0.36,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],jessica,juan,alice,anna,1,1.0,0,0.36,0,0.33,0,0.18,correct,incorrect,incorrect,incorrect
+['jessica'],casey,sherlock,sherlock,sherlock,0,0.33,0,0.27,0,0.27,0,0.27,incorrect,incorrect,incorrect,incorrect
+['leto'],kynes,kynes,jessica,jessica,0,0.22,0,0.22,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],julia,holmes,ali,anna,0,0.5,0,0.31,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],jessica,jessica,katniss,anna,1,1.0,1,1.0,0,0.29,0,0.18,correct,correct,incorrect,incorrect
+['leto'],thufir,harkonnen,paul,ngài,0,0.2,0,0.15,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],ender,javier,ahmet,harry,0,0.0,0,0.2,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['stilgar'],gandalf,gandalf,gandalf,gandalf,0,0.29,0,0.29,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],john,juan,ali,john,0,0.0,0,0.25,0,0.57,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],smith,garcía,ahmet,john,0,0.0,0,0.2,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['hawat'],arthur,don,john,harry,0,0.36,0,0.0,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+['leto'],ender,gregor,harry,winston,0,0.22,0,0.4,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+['leto'],paul,gandalf,paul,paul,0,0.25,0,0.18,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],john,juan,ali,anna,0,0.0,0,0.25,0,0.57,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],johnny,juan,ali,harry,0,0.0,0,0.25,0,0.57,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['kynes', 'dr kynes']",paul,faustus,judas,jones,0,0.0,0,0.17,0,0.31,0,0.6,incorrect,incorrect,incorrect,incorrect
+['leto'],paul,paul,paul,paul,0,0.25,0,0.25,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,smith,ali,paul,1,1.0,0,0.0,0,0.57,1,1.0,correct,incorrect,incorrect,correct
+['paul'],ender,juan,ali,harry,0,0.0,0,0.25,0,0.57,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,paul,paul,nguyễn,1,1.0,1,1.0,1,1.0,0,0.2,correct,correct,correct,incorrect
+['paul'],paul,juan,ali,paul,1,1.0,0,0.25,0,0.57,1,1.0,correct,incorrect,incorrect,correct
+['paul'],paul,paul,paul,paul,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['paul'],paul,paul,paul,paul,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['kynes', 'kynes—', 'ngài']",kynes,rabbi,i̇sa,muad'dib,1,1.0,0,0.44,0,0.29,0,0.33,correct,incorrect,incorrect,incorrect
+['leto'],esme,juan,ahmet,oliver,0,0.25,0,0.0,0,0.44,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['leydi jessica', 'dama jessica', 'jessica']",jessica,leto,dük,jessica,1,1.0,0,0.44,0,0.29,1,1.0,correct,incorrect,incorrect,correct
+['jessica'],clarissa,emma,anna,scarlett,0,0.4,0,0.36,0,0.18,0,0.4,incorrect,incorrect,incorrect,incorrect
+['leto'],harry,juan,ahmet,anna,0,0.0,0,0.0,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jessica'],jessica,jessica,anna,elizabeth,1,1.0,1,1.0,0,0.18,0,0.38,correct,correct,incorrect,incorrect
+['paul'],tom,julio,ahmet,tom,0,0.0,0,0.44,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessica—']",kynes,stilgar,stilgar,paul,0,0.33,0,0.43,0,0.43,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['kynes', 'jessica']",frodo,bien,jessica,anna,0,0.0,0,0.22,1,1.0,0,0.22,incorrect,incorrect,correct,incorrect
+"['leto', 'leto—']",achilles,napoleón,dolores,prospero,0,0.33,0,0.5,0,0.36,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jessica'],jessica,juan,john,jessica,1,1.0,0,0.36,0,0.18,1,1.0,correct,incorrect,incorrect,correct
+"['kynes', 'doktor kynes', 'kyne']",halloran,smith,paul,smith,0,0.3,0,0.2,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['kynes'],stilgar,stilgar,bilge,chani,0,0.17,0,0.17,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jessica'],tristran,napoleón,louis,người,0,0.27,0,0.13,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['jessica'],jessica,él,ali,nàng,1,1.0,0,0.22,0,0.2,0,0.18,correct,incorrect,incorrect,incorrect
+['paul'],tom,gregor,ali,tom,0,0.0,0,0.0,0,0.57,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,juan,ali,ender,1,1.0,0,0.25,0,0.57,0,0.0,correct,incorrect,incorrect,incorrect
+['paul'],quinn,holmes,sherlock,sherlock,0,0.22,0,0.2,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['paul'],nick,raskolnikov,holmes,gatsby,0,0.0,0,0.27,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul atreides'],jon,jim,jim,jim,0,0.0,0,0.18,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['dama', 'jessica']",jessica,señor,scarlett,scarlett,1,1.0,0,0.17,0,0.4,0,0.4,correct,incorrect,incorrect,incorrect
+['jessica'],marianne,freud,holmes,anna,0,0.27,0,0.17,0,0.31,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],paul,smith,ender,ender,0,0.18,0,0.33,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['jessica'],jessica,juan,john,anna,1,1.0,0,0.36,0,0.18,0,0.18,correct,incorrect,incorrect,incorrect
+['duncan idaho'],galen,john,idaho,john,0,0.36,0,0.22,1,1.0,0,0.22,incorrect,incorrect,correct,incorrect
+['jessica'],scarlett,smith,heathcliff,scarlett,0,0.4,0,0.33,0,0.24,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessica schlag']",jessica,paul,ali,jessica,1,1.0,0,0.22,0,0.24,1,1.0,correct,incorrect,incorrect,correct
+"['leydi jessica', 'dama jessica', 'jessica']",macbeth,napoleón,atatürk,anna,0,0.36,0,0.31,0,0.36,0,0.5,incorrect,incorrect,incorrect,incorrect
+['leto'],paul,paul,geralt,leto,0,0.25,0,0.25,0,0.4,1,1.0,incorrect,incorrect,incorrect,correct
+['leto'],paul,ender,john,leto,0,0.25,0,0.22,0,0.25,1,1.0,incorrect,incorrect,incorrect,correct
+['yueh'],paul,paul,ali,nguyễn,0,0.25,0,0.25,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+['jessica'],jessica,ana,ali,rebecca,1,1.0,0,0.2,0,0.2,0,0.43,correct,incorrect,incorrect,incorrect
+"['jessica', 'jessic']",hester,hans,asker,ngựa,0,0.33,0,0.2,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],paul,paul,paul,jon,0,0.18,0,0.18,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",emperor,rey,patron,hoàng,0,0.33,0,0.25,0,0.73,0,0.4,incorrect,incorrect,correct,incorrect
+['jessica'],jessica,paul,ali,jessica,1,1.0,0,0.18,0,0.2,1,1.0,correct,incorrect,incorrect,correct
+['paul'],paul,paul,paul,paul,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['paul'],paul,él,adam,harry,1,1.0,0,0.33,0,0.25,0,0.22,correct,incorrect,incorrect,incorrect
+['yueh'],paul,paul,frodo,frodo,0,0.25,0,0.25,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['harkonnen', 'yueh']",house,romanos,paul,pháp,0,0.44,0,0.38,0,0.25,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['the duke leto atreides', 'dük leto atreides', 'leto atreides', 'duque leto atreides']",leto,leto,paul,leto,1,1.0,1,1.0,0,0.29,1,1.0,correct,correct,incorrect,correct
+"['ùng', 'barón', 'baron']",captain,capitán,john,baron,0,0.33,0,0.33,0,0.44,1,1.0,incorrect,incorrect,incorrect,correct
+['leto'],he,él,ali,prospero,0,0.33,0,0.33,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['leto'],winston,él,winston,ông,0,0.36,0,0.33,0,0.36,0,0.29,incorrect,incorrect,incorrect,incorrect
+['leto'],jason,bond,paul,philip,0,0.22,0,0.25,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+['leto'],she,juan,ali,leto,0,0.29,0,0.0,0,0.29,1,1.0,incorrect,incorrect,incorrect,correct
+"['barón', 'nam', 'baron']",baron,raskolnikov,gwynplaine,gulliver,1,1.0,0,0.38,0,0.31,0,0.15,correct,incorrect,incorrect,incorrect
+['leto'],he,kafka,pinokyo,orsino,0,0.33,0,0.0,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+['leto'],stephen,borges,stephen,leto,0,0.18,0,0.2,0,0.18,1,1.0,incorrect,incorrect,incorrect,correct
+['piter'],jessica,gurney,subay,ngài,0,0.17,0,0.18,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['nefu', 'nefud']",aragorn,arturo,james,arthur,0,0.18,0,0.2,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,paul,ender,ender,1,1.0,1,1.0,0,0.0,0,0.0,correct,correct,incorrect,incorrect
+['paul'],paul,él,frodo,harry,1,1.0,0,0.33,0,0.0,0,0.22,correct,incorrect,incorrect,incorrect
+['paul'],stephen,gregor,anna,harry,0,0.18,0,0.0,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,paul,john,paul,1,1.0,1,1.0,0,0.0,1,1.0,correct,correct,incorrect,correct
+['paul'],paul,paul,paul,ender,1,1.0,1,1.0,1,1.0,0,0.0,correct,correct,correct,incorrect
+['paul'],paul,paul,paul,paul,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['paul'],paul,gregor,david,jonas,1,1.0,0,0.0,0,0.22,0,0.22,correct,incorrect,incorrect,incorrect
+"['paul', 'paul—']",paul,juan,ali,con,1,1.0,0,0.25,0,0.57,0,0.0,correct,incorrect,incorrect,incorrect
+['paul'],ender,gregor,meursault,jonas,0,0.0,0,0.0,0,0.46,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,paul,spock,paul,1,1.0,1,1.0,0,0.22,1,1.0,correct,correct,incorrect,correct
+['paul'],paul,jung,ali,ender,1,1.0,0,0.25,0,0.57,0,0.0,correct,incorrect,incorrect,incorrect
+"['paul', 'paul—']",paul,paul,paul,paul,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['pau', 'paul']",paul,gollum,john,john,1,1.0,0,0.22,0,0.0,0,0.0,correct,incorrect,incorrect,incorrect
+['paul'],paul,paul,leto,paul,1,1.0,1,1.0,0,0.25,1,1.0,correct,correct,incorrect,correct
+"['thufir hawat—', 'thufir hawat']",thufir,thufir,thufir,thufir,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['hawat'],duncan,duncan,john,paul,0,0.18,0,0.18,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['hawat'],gandalf,genghis,robin,dracula,0,0.33,0,0.17,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['hawat'],ender,gandalf,john,gandalf,0,0.0,0,0.33,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['fremen'],man,hombre,dracula,người,0,0.44,0,0.33,0,0.15,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['fremen', 'hawat', 'hawat—']",paul,paul,duncan,paul,0,0.22,0,0.22,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jessica'],jessica,jessica,jessica,jessica,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['paul'],paul,victor,harry,harry,1,1.0,0,0.0,0,0.22,0,0.22,correct,incorrect,incorrect,incorrect
+['paul'],heinrich,drácula,harry,harry,0,0.0,0,0.55,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jessica'],jessica,luke,harry,harry,1,1.0,0,0.18,0,0.17,0,0.17,correct,incorrect,incorrect,incorrect
+['paul'],paul,juan,ali,john,1,1.0,0,0.25,0,0.57,0,0.0,correct,incorrect,incorrect,incorrect
+['paul'],harry,sherlock,john,harry,0,0.22,0,0.17,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",vetinari,ricardo,sherlock,napoleon,0,0.17,0,0.18,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],conan,élric,ali,harry,0,0.22,0,0.22,0,0.57,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],ender,juan,john,john,0,0.0,0,0.25,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",colonel,sancho,robin,john,0,0.18,0,0.2,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,paul,paul,amelia,1,1.0,1,1.0,1,1.0,0,0.4,correct,correct,correct,incorrect
+['paul'],paul,paul,paul,ender,1,1.0,1,1.0,1,1.0,0,0.0,correct,correct,correct,incorrect
+['paul'],heinlein,icaro,havva,ender,0,0.17,0,0.22,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],icarus,icaro,john,ender,0,0.4,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,paul,pilot,john,1,1.0,1,1.0,0,0.44,0,0.0,correct,correct,incorrect,incorrect
+['jessica'],clarisse,gregor,harry,alice,0,0.27,0,0.15,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",amelia,smith,frodo,john,0,0.4,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['baron vladimir harkonnen', 'the baron vladimir harkonnen', 'vladimir harkonnen', 'barón vladimir harkonnen']",paul,duque,paul,harkonnen,0,0.22,0,0.25,0,0.22,1,1.0,incorrect,incorrect,incorrect,correct
+"['barón', 'nam', 'baron']",minister,rey,machiavelli,varys,0,0.18,0,0.25,0,0.14,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",paul,napoleón,jones,napoleon,0,0.29,0,0.46,0,0.4,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['harkonnen', 'baron', 'harkonne']",harkonnen,harkonnen,feyd,harkonnen,1,1.0,1,1.0,0,0.17,1,1.0,correct,correct,incorrect,correct
+['rabban'],duncan,paul,paul,harry,0,0.33,0,0.2,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",baron,maestro,mentor,công,1,1.0,0,0.5,0,0.22,0,0.44,correct,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",baron,tío,vernon,voldemort,1,1.0,0,0.25,0,0.55,0,0.17,correct,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",emperor,tío,vernon,ngài,0,0.33,0,0.25,0,0.55,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['barón', 'baron', 'padishah uy nghi']",count,barón,ali,napoleon,0,0.4,1,1.0,0,0.36,0,0.46,incorrect,correct,incorrect,incorrect
+['paul'],paul,paul,paul,paul,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['paul'],roland,él,ali,dorothy,0,0.2,0,0.33,0,0.57,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,juan,ali,nam,1,1.0,0,0.25,0,0.57,0,0.29,correct,incorrect,incorrect,incorrect
+"['paul', 'paul—']",paul,paul,paul,paul,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['paul'],frodo,juan,ali,nam,0,0.0,0,0.25,0,0.57,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,ortega,ali,paul,1,1.0,0,0.2,0,0.57,1,1.0,correct,incorrect,incorrect,correct
+"['paul', 'paul—']",kynes,kynes,stilgar,paul,0,0.0,0,0.0,0,0.18,1,1.0,incorrect,incorrect,incorrect,correct
+['paul'],faber,gandalf,robin,ender,0,0.22,0,0.36,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,paul,paul,paul,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['paul'],gandalf,juan,ali,người,0,0.36,0,0.25,0,0.57,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jessica'],paul,paul,paul,paul,0,0.18,0,0.18,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,juan,gandalf,gollum,1,1.0,0,0.25,0,0.36,0,0.2,correct,incorrect,incorrect,incorrect
+"['jessica', 'paul']",paul,juan,ali,jonas,1,1.0,0,0.36,0,0.57,0,0.33,correct,incorrect,incorrect,incorrect
+['paul'],paul,paul,ali,paul,1,1.0,1,1.0,0,0.57,1,1.0,correct,correct,incorrect,correct
+['paul'],paul,paul,ali,lyra,1,1.0,1,1.0,0,0.57,0,0.25,correct,correct,incorrect,incorrect
+['paul'],he,sherlock,john,alice,0,0.0,0,0.17,0,0.0,0,0.44,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,él,paul,robinson,1,1.0,0,0.33,1,1.0,0,0.0,correct,incorrect,correct,incorrect
+['paul'],paul,juan,ali,john,1,1.0,0,0.25,0,0.57,0,0.0,correct,incorrect,incorrect,incorrect
+['jessica'],jessica,lawrence,ali,paul,1,1.0,0,0.27,0,0.2,0,0.18,correct,incorrect,incorrect,incorrect
+['halleck'],arthur,arthur,arthur,don,0,0.15,0,0.15,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['halleck'],gandalf,juan,ali,ông,0,0.29,0,0.18,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+['tuek'],thark,thark,ali,arthur,0,0.44,0,0.44,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+['halleck'],jon,rocío,paul,juan,0,0.0,0,0.17,0,0.36,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",paul,gimli,john,gandalf,1,1.0,0,0.22,0,0.0,0,0.36,correct,incorrect,incorrect,incorrect
+['paul'],paul,paul,ali,paul,1,1.0,1,1.0,0,0.57,1,1.0,correct,correct,incorrect,correct
+['paul'],frodo,juan,ali,frodo,0,0.0,0,0.25,0,0.57,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jessica'],jessica,jessica,paul,jessica,1,1.0,1,1.0,0,0.18,1,1.0,correct,correct,incorrect,correct
+['paul'],paul,juan,ali,frodo,1,1.0,0,0.25,0,0.57,0,0.0,correct,incorrect,incorrect,incorrect
+['paul'],paul,borges,ali,harry,1,1.0,0,0.0,0,0.57,0,0.22,correct,incorrect,incorrect,incorrect
+"['paul', 'liet']",liet,liet,paul,liet,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['paul'],frodo,juan,ali,nam,0,0.0,0,0.25,0,0.57,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,él,ali,harry,1,1.0,0,0.33,0,0.57,0,0.22,correct,incorrect,incorrect,incorrect
+['paul'],paul,él,ali,harry,1,1.0,0,0.33,0,0.57,0,0.22,correct,incorrect,incorrect,incorrect
+['paul'],paul,juan,harry,harry,1,1.0,0,0.25,0,0.22,0,0.22,correct,incorrect,incorrect,incorrect
+['paul'],joad,holmes,gözleri,harry,0,0.25,0,0.2,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,frodo,alice,ali,1,1.0,0,0.0,0,0.44,0,0.57,correct,incorrect,incorrect,incorrect
+['paul'],paul,paul,mary,harry,1,1.0,1,1.0,0,0.25,0,0.22,correct,correct,incorrect,incorrect
+['harkonnen'],harkonnen,harkonnen,harkonnen,harkonnen,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['kynes'],he,él,ali,ông,0,0.29,0,0.29,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['kynes'],paul,ahmed,ali,santiago,0,0.0,0,0.2,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+['kynes'],santiago,santiago,ali,santiago,0,0.15,0,0.15,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,paul,ali,jonas,1,1.0,1,1.0,0,0.57,0,0.22,correct,correct,incorrect,incorrect
+['jessica'],paul,gandalf,dumbledore,harry,0,0.18,0,0.14,0,0.12,0,0.17,incorrect,incorrect,incorrect,incorrect
+['jessica'],jessica,gollum,alparslan,anna,1,1.0,0,0.0,0,0.25,0,0.18,correct,incorrect,incorrect,incorrect
+['jessica'],elizabeth,orsini,sherlock,cleopatra,0,0.38,0,0.31,0,0.27,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jessica'],gollum,juan,ali,bilbo,0,0.0,0,0.36,0,0.2,0,0.17,incorrect,incorrect,incorrect,incorrect
+['stilgar'],rochester,hombre,babam,john,0,0.38,0,0.15,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['stilgar'],hagrid,smaug,thor,aragog,0,0.31,0,0.33,0,0.36,0,0.31,incorrect,incorrect,incorrect,incorrect
+['jessica'],jubal,han,ali,thanos,0,0.33,0,0.2,0,0.2,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessica—']",gandalf,napoleón,robin,napoleon,0,0.14,0,0.13,0,0.17,0,0.13,incorrect,incorrect,incorrect,incorrect
+['paul'],jonas,juan,harry,harry,0,0.22,0,0.25,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],bilbo,gollum,gollum,harry,0,0.22,0,0.2,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessica—']",gandalf,sherlock,gandalf,gandalf,0,0.14,0,0.27,0,0.14,0,0.14,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,juan,harry,harry,1,1.0,0,0.25,0,0.22,0,0.22,correct,incorrect,incorrect,incorrect
+"['stilgar—', 'stilgar']",bagheera,gandalf,gandalf,hatim,0,0.27,0,0.29,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jessica'],jessica,paul,paul,jessica,1,1.0,0,0.18,0,0.18,1,1.0,correct,incorrect,incorrect,correct
+['paul'],paul,ella,ahmet,người,1,1.0,0,0.25,0,0.22,0,0.22,correct,incorrect,incorrect,incorrect
+['jessica'],lyra,gandalf,ali,alice,0,0.18,0,0.14,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jessica'],jessica,paul,john,anna,1,1.0,0,0.18,0,0.18,0,0.18,correct,incorrect,incorrect,incorrect
+['stilgar'],rand,drácula,robin,friday,0,0.18,0,0.29,0,0.17,0,0.31,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,paul,ahmet,harry,1,1.0,1,1.0,0,0.22,0,0.22,correct,correct,incorrect,incorrect
+['jessica'],jessica,paul,paul,jessica,1,1.0,0,0.18,0,0.18,1,1.0,correct,incorrect,incorrect,correct
+['jessica'],jessica,smith,sherlock,anna,1,1.0,0,0.33,0,0.27,0,0.18,correct,incorrect,incorrect,incorrect
+['jessica'],dolores,maría,ahmet,gollum,0,0.29,0,0.33,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jamis'],harry,harry,harry,harry,0,0.2,0,0.2,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['gurney halleck'],gurney,sun,ali,người,1,1.0,0,0.44,0,0.4,0,0.36,correct,incorrect,incorrect,incorrect
+['paul'],paul,éowyn,ali,ender,1,1.0,0,0.0,0,0.57,0,0.0,correct,incorrect,incorrect,incorrect
+['jamis'],paul,don,aragorn,paul,0,0.22,0,0.0,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jamis'],paul,ender,legolas,geralt,0,0.22,0,0.0,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],jessica,él,mary,hermione,1,1.0,0,0.22,0,0.18,0,0.27,correct,incorrect,incorrect,incorrect
+['paul'],stephen,hamlet,harry,harry,0,0.18,0,0.4,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['jamis', 'chani']",jessica,stilgar,stilgar,jamis,0,0.33,0,0.17,0,0.17,1,1.0,incorrect,incorrect,incorrect,correct
+['jessica'],anna,alicia,ahmet,anna,0,0.18,0,0.46,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,borges,harry,jonas,1,1.0,0,0.0,0,0.22,0,0.22,correct,incorrect,incorrect,incorrect
+"['stilgar—', 'stilgar']",shaman,chaman,merlin,người,0,0.31,0,0.15,0,0.15,0,0.17,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,paul,paul,paul,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['paul'],heathcliff,él,ali,harry,0,0.29,0,0.33,0,0.57,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,paul,paul,paul,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['jessica'],jessica,orfeo,orpheus,jessica,1,1.0,0,0.17,0,0.29,1,1.0,correct,incorrect,incorrect,correct
+['paul'],paul,paul,raistlin,paul,1,1.0,1,1.0,0,0.33,1,1.0,correct,correct,incorrect,correct
+"['pau', 'paul']",john,borges,ahmet,peter,0,0.0,0,0.0,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jessica'],jessica,anna,ahmet,anna,1,1.0,0,0.18,0,0.17,0,0.18,correct,incorrect,incorrect,incorrect
+['paul'],paul,paul,paul,paul,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['dama fenring', 'fenring']",jessica,spartacus,chatterley,chatterley,0,0.29,0,0.31,0,0.27,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",paul,hombre,paul,voldemort,0,0.29,0,0.36,0,0.29,0,0.17,incorrect,incorrect,incorrect,incorrect
+['feyd'],paul,paul,feyd,paul,0,0.0,0,0.0,1,1.0,0,0.0,incorrect,incorrect,correct,incorrect
+['paul'],paul,paul,ali,paul,1,1.0,1,1.0,0,0.57,1,1.0,correct,correct,incorrect,correct
+['paul'],paul,paul,john,ender,1,1.0,1,1.0,0,0.0,0,0.0,correct,correct,incorrect,incorrect
+['paul'],jessica,él,kadın,harry,0,0.18,0,0.33,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],he,él,ali,người,0,0.0,0,0.33,0,0.57,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,paul,john,frodo,1,1.0,1,1.0,0,0.0,0,0.0,correct,correct,incorrect,incorrect
+"['paul', 'paul—']",paul,paul,harah,paul,1,1.0,1,1.0,0,0.22,1,1.0,correct,correct,incorrect,correct
+['paul'],frodo,harry,harry,harry,0,0.0,0,0.22,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,ahmed,ali,harry,1,1.0,0,0.22,0,0.57,0,0.22,correct,incorrect,incorrect,incorrect
+['paul'],paul,harry,ahmet,harry,1,1.0,0,0.22,0,0.22,0,0.22,correct,incorrect,incorrect,incorrect
+['harah'],chani,mary,ali,marian,0,0.4,0,0.44,0,0.25,0,0.55,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,paul,anna,mangthai,1,1.0,1,1.0,0,0.25,0,0.17,correct,correct,incorrect,incorrect
+['paul'],paul,ramsay,ali,daenerys,1,1.0,0,0.2,0,0.57,0,0.17,correct,incorrect,incorrect,incorrect
+['chani'],ayesha,alí,i̇brahim,paul,0,0.36,0,0.5,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+['chani'],katniss,jorge,ali,scarlett,0,0.5,0,0.0,0,0.5,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['duncan idah', 'duncan idaho']",jessica,absenta,rasputin,odysseus,0,0.36,0,0.33,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jessica'],lyra,gatsby,sherlock,alice,0,0.18,0,0.15,0,0.27,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jessica'],jessica,jessica,ali,jessica,1,1.0,1,1.0,0,0.2,1,1.0,correct,correct,incorrect,correct
+"['jessica', 'jessic']",jessica,jessica,paul,jessica,1,1.0,1,1.0,0,0.18,1,1.0,correct,correct,incorrect,correct
+['jessica'],jessica,jessica,paul,jessica,1,1.0,1,1.0,0,0.18,1,1.0,correct,correct,incorrect,correct
+['chani'],jessica,aladdin,ali,ngọc,0,0.33,0,0.33,0,0.5,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['baron vlamidir', 'barón vladimir harkonnen', 'vladimir harkonnen']",harkonnen,voldemort,vladimir,harkonnen,1,1.0,0,0.59,1,1.0,1,1.0,correct,incorrect,correct,correct
+"['iakin nefud', 'iakin nefu']",tuek,halleck,ali,gurney,0,0.25,0,0.33,0,0.5,0,0.4,incorrect,incorrect,incorrect,incorrect
+['nefud'],paul,jessica,ali,paul,0,0.22,0,0.17,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",sultan,rey,voldemort,voldemort,0,0.36,0,0.25,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",mentat,duque,voldemort,quý,0,0.44,0,0.0,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam tước', 'baron']",king,rey,tywin,spartacus,0,0.29,0,0.25,0,0.25,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam tước', 'baron']",speaker,verdugo,patron,voldemort,0,0.33,0,0.36,0,0.73,0,0.24,incorrect,incorrect,correct,incorrect
+"['barón', 'nam', 'baron']",baron,rey,hakan,vương,1,1.0,0,0.25,0,0.4,0,0.4,correct,incorrect,incorrect,incorrect
+"['barón', 'nam tước', 'baron']",overseer,rey,joffrey,ramsay,0,0.17,0,0.25,0,0.18,0,0.44,incorrect,incorrect,incorrect,incorrect
+['thufir hawat'],tyrion,harkonnen,joffrey,tywin,0,0.33,0,0.29,0,0.31,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['sardaukar', 'salusa secundus']",salusa,harkonnen,arrakis,harkonnen,1,1.0,0,0.33,0,0.5,0,0.33,correct,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",padishah,emperador,roma,giám,0,0.18,0,0.29,0,0.44,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['paul muad', 'paul']",paul,paul,paul,muad,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['pau', 'paul']",paul,napoleón,gandalf,paul,1,1.0,0,0.33,0,0.36,1,1.0,correct,incorrect,incorrect,correct
+"['alia', 'paul']",alia,alia,paul,paul,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['paul'],paul,paul,attila,paul,1,1.0,1,1.0,0,0.4,1,1.0,correct,correct,incorrect,correct
+"['şeyh hulud', 'shai']",shai,shai,tanrı,shai,1,1.0,1,1.0,0,0.44,1,1.0,correct,correct,incorrect,correct
+['paul'],paul,paul,paul,trọng,1,1.0,1,1.0,1,1.0,0,0.0,correct,correct,correct,incorrect
+['paul'],paul,paul,paul,paul,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['paul'],paul,paul,ali,paul,1,1.0,1,1.0,0,0.57,1,1.0,correct,correct,incorrect,correct
+['paul'],kynes,foucault,ali,robinson,0,0.0,0,0.5,0,0.57,0,0.0,incorrect,incorrect,incorrect,incorrect
+['chani'],jessica,paul,paul,chani,0,0.33,0,0.22,0,0.22,1,1.0,incorrect,incorrect,incorrect,correct
+"['jessica', 'jessica—']",frankenstein,kafka,frankenstein,jonas,0,0.32,0,0.17,0,0.32,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['harah', 'harah—']",he,gandalf,mary,gollum,0,0.29,0,0.33,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jessica'],alia,anna,ahmet,jessica,0,0.36,0,0.18,0,0.17,1,1.0,incorrect,incorrect,incorrect,correct
+['jessica'],jessica,don,harry,anna,1,1.0,0,0.0,0,0.17,0,0.18,correct,incorrect,incorrect,incorrect
+['jessica'],paul,kafka,ahmet,kafka,0,0.18,0,0.17,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,paul,paul,paul,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['paul'],paul,paul,ali,jon,1,1.0,1,1.0,0,0.57,0,0.0,correct,correct,incorrect,incorrect
+"['paul nhận', 'paul']",paul,paul,harry,gulliver,1,1.0,1,1.0,0,0.44,0,0.33,correct,correct,incorrect,incorrect
+['stilgar'],gandalf,paul,frankenstein,gandalf,0,0.29,0,0.18,0,0.32,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],gollum,prometeo,merlin,santiago,0,0.2,0,0.17,0,0.2,0,0.17,incorrect,incorrect,incorrect,incorrect
+['stilgar'],gavroche,gurney,tom,gandalf,0,0.4,0,0.31,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,gandalf,bilbo,paul,1,1.0,0,0.36,0,0.22,1,1.0,correct,incorrect,incorrect,correct
+['paul'],paul,paul,sinbad,jonas,1,1.0,1,1.0,0,0.2,0,0.22,correct,correct,incorrect,incorrect
+['paul'],paul,paul,paul,paul,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['paul'],aragorn,gandalf,marco,gandalf,0,0.18,0,0.36,0,0.22,0,0.36,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,paul,paul,paul,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['paul ngoảnh phắt', 'paul']",paul,paul,ahmet,chàng,1,1.0,1,1.0,0,0.44,0,0.44,correct,correct,incorrect,incorrect
+['paul'],paul,paul,paul,paul,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['paul', 'paul—']",stilgar,stilgar,paul,paul,0,0.18,0,0.18,1,1.0,1,1.0,incorrect,incorrect,correct,correct
+['gurney halleck'],kynes,harkonnen,paul,lyra,0,0.36,0,0.4,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+['gurney'],ender,napoleón,alexander,napoleon,0,0.36,0,0.29,0,0.27,0,0.29,incorrect,incorrect,incorrect,incorrect
+['gurney'],paul,paul,kynes,leto,0,0.2,0,0.2,0,0.36,0,0.2,incorrect,incorrect,incorrect,incorrect
+['gurney'],paul,paul,paul,paul,0,0.2,0,0.2,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['gurney'],paul,paul,ali,john,0,0.2,0,0.2,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['gurney'],stilgar,paul,ali,snape,0,0.31,0,0.2,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+['gurney'],paul,paul,paul,stilgar,0,0.2,0,0.2,0,0.2,0,0.31,incorrect,incorrect,incorrect,incorrect
+['gurney'],paul,paul,paul,paul,0,0.2,0,0.2,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['gurney'],paul,paul,paul,paul,0,0.2,0,0.2,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",paul,paul,paul,paul,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['paul'],scarlett,smith,ali,nguyễn,0,0.33,0,0.0,0,0.57,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['gurney', 'gurney—']",paul,smith,john,gandalf,0,0.2,0,0.0,0,0.2,0,0.31,incorrect,incorrect,incorrect,incorrect
+['paul'],aragorn,gandalf,doktor,anna,0,0.18,0,0.36,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['pau', 'paul']",jim,smith,ahmet,smith,0,0.0,0,0.0,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,juan,ahmet,ngọc,1,1.0,0,0.25,0,0.22,0,0.0,correct,incorrect,incorrect,incorrect
+['paul'],rand,john,ali,người,0,0.25,0,0.0,0,0.57,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],gandalf,gollum,konuşmacı,harry,0,0.36,0,0.2,0,0.15,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,gandalf,gandalf,paul,1,1.0,0,0.36,0,0.36,1,1.0,correct,incorrect,incorrect,correct
+['jessica'],jessica,él,ali,mary,1,1.0,0,0.22,0,0.2,0,0.18,correct,incorrect,incorrect,incorrect
+['jessica'],jessica,paul,paul,paul,1,1.0,0,0.18,0,0.18,0,0.18,correct,incorrect,incorrect,incorrect
+['paul'],paul,napoleón,mary,paul,1,1.0,0,0.33,0,0.25,1,1.0,correct,incorrect,incorrect,correct
+['jessica'],jessica,éowyn,ali,anna,1,1.0,0,0.17,0,0.2,0,0.18,correct,incorrect,incorrect,incorrect
+['paul'],paul,juan,ali,nguyễn,1,1.0,0,0.25,0,0.57,0,0.2,correct,incorrect,incorrect,incorrect
+"['gurney', 'gurney—']",paul,voldemort,voldemort,voldemort,0,0.2,0,0.13,0,0.13,0,0.13,incorrect,incorrect,incorrect,incorrect
+['gurney'],stilgar,paul,frodo,paul,0,0.31,0,0.2,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",elizabeth,juan,john,harry,0,0.15,0,0.25,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['gurney', 'gurney—']",gurney,gurney,paul,nguyễn,1,1.0,1,1.0,0,0.2,0,0.5,correct,correct,incorrect,incorrect
+['gurney'],gurney,gurney,paul,nguyễn,1,1.0,1,1.0,0,0.2,0,0.5,correct,correct,incorrect,incorrect
+['chani'],paul,paul,john,ender,0,0.22,0,0.22,0,0.44,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessica—']",spock,spock,doktor,holmes,0,0.33,0,0.33,0,0.0,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessica—']",gandalf,don,harry,dumbledore,0,0.14,0,0.0,0,0.17,0,0.12,incorrect,incorrect,incorrect,incorrect
+['jessica'],gandalf,gandalf,rahip,merlin,0,0.14,0,0.14,0,0.17,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",jessica,lawrence,osho,carl,0,0.18,0,0.17,0,0.0,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['chani tránh', 'paul', 'chani']",jessica,jessica,paul,jessica,0,0.33,0,0.33,1,1.0,0,0.33,incorrect,incorrect,correct,incorrect
+['paul'],paul,paul,ali,proust,1,1.0,1,1.0,0,0.57,0,0.4,correct,correct,incorrect,incorrect
+['paul'],paul,paul,paul,paul,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['paul'],smith,él,robin,paul,0,0.0,0,0.33,0,0.0,1,1.0,incorrect,incorrect,incorrect,correct
+"['paul', 'paul—']",paul,paul,paul,paul,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['paul', 'paul—']",paul,leto,paul,paul,1,1.0,0,0.25,1,1.0,1,1.0,correct,incorrect,correct,correct
+['muad'],muad,ben,arrakis,muad,1,1.0,0,0.0,0,0.18,1,1.0,correct,incorrect,incorrect,correct
+['gurney'],john,gandalf,john,gandalf,0,0.2,0,0.31,0,0.2,0,0.31,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,paul,ali,paul,1,1.0,1,1.0,0,0.57,1,1.0,correct,correct,incorrect,correct
+['paul'],paul,smith,ahmet,paul,1,1.0,0,0.0,0,0.22,1,1.0,correct,incorrect,incorrect,correct
+['fedaykin'],paul,soldados,mühendis,người,0,0.17,0,0.25,0,0.38,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",napoleon,smith,john,người,0,0.33,0,0.0,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",gandalf,napoleón,ali,gandalf,0,0.36,0,0.33,0,0.57,0,0.36,incorrect,incorrect,incorrect,incorrect
+['muad'],muad,alia,paul,muad,1,1.0,0,0.25,0,0.25,1,1.0,correct,incorrect,incorrect,correct
+"['barón', 'nam', 'baron']",paul,rey,harry,voldemort,0,0.29,0,0.25,0,0.4,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['bene gesserit', 'bene gesserit truthsayer']",crone,sybil,hekate,galadriel,0,0.44,0,0.31,0,0.4,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",man,hombre,ali,ngài,0,0.5,0,0.36,0,0.33,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['shadda', 'shaddam']",paul,lucía,tom,tom,0,0.2,0,0.18,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['alia', 'alia—', 'ali']",harry,hester,victor,matilda,0,0.25,0,0.0,0,0.22,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['alia', 'matadla']",snow white,shaddam,kraliçe,ngai,0,0.14,0,0.43,0,0.55,0,0.5,incorrect,incorrect,incorrect,incorrect
+['muad'],muad,muad,padishah,muad,1,1.0,1,1.0,0,0.33,1,1.0,correct,correct,incorrect,correct
+"['gurney', 'gurney halleck']",gandalf,madre,gandalf,gandalf,0,0.38,0,0.36,0,0.38,0,0.38,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,paul,paul,paul,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['paul', 'paul—']",paul,spock,luke,paul,1,1.0,0,0.22,0,0.25,1,1.0,correct,incorrect,incorrect,correct
+['paul'],captain,smith,komutan,người,0,0.36,0,0.0,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",paul,gurney,paul,paul,1,1.0,0,0.2,1,1.0,1,1.0,correct,incorrect,correct,correct
+"['paul', 'paul—']",leto,leto,voldemort,người,0,0.25,0,0.25,0,0.15,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",paul,paul,paul,paul,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['paul'],heathcliff,heathcliff,john,heathcliff,0,0.29,0,0.29,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",leto,mentat,prometheus,merlin,0,0.25,0,0.2,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jessica'],gandalf,minerva,snape,con,0,0.14,0,0.29,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,drizzt,aragorn,paul,1,1.0,0,0.0,0,0.18,1,1.0,correct,incorrect,incorrect,correct
+['paul'],paul,paul,conan,chàng,1,1.0,1,1.0,0,0.22,0,0.22,correct,correct,incorrect,incorrect

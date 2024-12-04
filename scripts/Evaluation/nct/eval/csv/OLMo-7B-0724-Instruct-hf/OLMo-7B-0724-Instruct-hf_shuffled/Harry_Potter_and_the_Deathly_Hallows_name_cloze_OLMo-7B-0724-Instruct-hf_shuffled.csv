@@ -1,0 +1,249 @@
+Single_ent,en_masked_shuffled_results,es_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+"['snape—', 'snape']",the,miembro,lordum,tôi tể,0,0.25,0,0.17,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['snape—', 'snape']",order,verduno,bakanlık,pháp,0,0.2,0,0.17,0,0.15,0,0.44,incorrect,incorrect,incorrect,incorrect
+['lucius malfoy'],his,céreo,sarisı,quang,0,0.44,0,0.22,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['lucius', 'luciu']",but,fijado,gocken,sự,0,0.25,0,0.18,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['malfoys', 'malfoy']",years,anjos,boyu,chẳng,0,0.33,0,0.5,0,0.4,0,0.18,incorrect,incorrect,incorrect,incorrect
+['draco malfoy'],his,aterrado,rezalet,trò,0,0.0,0,0.46,0,0.33,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['hermione‘ye', 'hermione']",making,sabido,tuvale,nó,0,0.43,0,0.29,0,0.14,0,0.2,incorrect,incorrect,incorrect,incorrect
+['harry'],vomit,pared,gazeteyi,nó,0,0.0,0,0.4,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],neighbor,vecino,komşu,ong,0,0.31,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['albus dumbledore‘un', 'albus dumbledore']",pierce,seguro,yoktu,bao,0,0.38,0,0.27,0,0.22,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harry—']",house,quésta,mutlu,giữ_hạnh,0,0.2,0,0.18,0,0.0,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['kuera', 'vernon']",uncle,sobron,volta,bên,0,0.4,0,0.5,0,0.36,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harry—']",feel,pues,daha,dĩ,0,0.0,0,0.0,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harr', 'vernon dursley', 'harry‘ye']",arm,martín,metronom,dượng,0,0.57,0,0.4,0,0.57,0,0.36,incorrect,incorrect,incorrect,incorrect
+['dudley'],moments,zorn,"in the given passage, the phrase ""ama verici birkaç dökmekte görünüyorduki mücadeleden . nereye söylemek [mask], şeyleri iç gidecek?"" can be broken down into the following words: ""ama"", ""verici"", ""birkaç"", ""dökmekte"", ""görünüyorduki"", ""mücadeleden"", "".nerey",dường,0,0.15,0,0.0,0,0.05,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['hagri', 'hayalbozan', 'hagrid']",boom,ondulaciones,structure,bóng,0,0.29,0,0.27,0,0.14,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['pius thi', 'pius thicknesse']",mother,creo,grup,dấu,0,0.44,0,0.29,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+['moody'],home,gesto,teyzen,thành,0,0.22,0,0.2,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],smoke,barro,sari,tóc,0,0.0,0,0.6,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['moody—', 'moody']",seeone,uno,bağırdı,sóc,0,0.18,0,0.25,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+['harry'],bull,chorro,alevler,thùng,0,0.0,0,0.55,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['hagrid‘in', 'hagrid']",mud,bajó,bacaklar,nó,0,0.22,0,0.2,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['señora weasley', 'ms weasley', 'weasley']",did,se,on,nó,0,0.0,0,0.5,0,0.25,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['mr weasley', 'weasley—', 'weasley']", often ,name (unknown),büyüler,thường,0,0.17,0,0.25,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],his,musitó,sıkı,doi,0,0.25,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['hermione'],shocked,preferidas,olmasi,thay,0,0.4,0,0.33,0,0.29,0,0.17,incorrect,incorrect,incorrect,incorrect
+['hermione'],translation,runas,listesi,người hiệu,0,0.42,0,0.31,0,0.27,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['ron—', 'ron']",drool,ghoul,sıvaserpil,lia,0,0.5,0,0.25,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['hermione'],sentence,muggles,muggle,dawo,0,0.38,0,0.27,0,0.29,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['ron—', 'ron']",spattergroit,trola,sıvaserpil,bệnh,0,0.27,0,0.5,0,0.15,0,0.29,incorrect,incorrect,incorrect,incorrect
+['ron'],,provision,o,dự,0,0.33,0,0.5,0,0.5,0,0.0,incorrect,incorrect,incorrect,incorrect
+['ron'],wreck,el,ruh,atom,0,0.25,0,0.0,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+['ginny'],diary,diario,"the name is ""von"".",bó khi,0,0.4,0,0.18,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['hermione'],sorry,susto,,dạ,0,0.15,0,0.15,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],she,zapata,analyst,bà,0,0.25,0,0.18,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+['harry'],land,despierto,vadılka,tỉnh,0,0.22,0,0.14,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect
+['harry'],wand,palmo,harry,kiếng,0,0.22,0,0.2,1,1.0,0,0.0,incorrect,incorrect,correct,incorrect
+['harry'],,aspereza,aynur,giờ,0,0.25,0,0.31,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mr weasley‘nin', 'señor weasley', 'weasley']",weasel,zoraya,ses,tất,0,0.77,0,0.42,0,0.5,0,0.2,correct,incorrect,incorrect,incorrect
+['hermione'],they,martí,daha,dung,0,0.33,0,0.31,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['hermione'],word,unministerio,colum,bo,0,0.17,0,0.4,0,0.15,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['ms weasley', 'weasley']",dwight,del,mr,sán,0,0.15,0,0.4,0,0.5,0,0.4,incorrect,incorrect,incorrect,incorrect
+['harry'],he,las,office,mình,0,0.29,0,0.25,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['dumbledore'],ought,sostenidas,dumledore,nó,0,0.13,0,0.2,0,0.95,0,0.17,incorrect,incorrect,correct,incorrect
+"['ron—', 'ron']",triple,apago,annesinin,thể,0,0.22,0,0.25,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['fred'],bird,jaleo,dedi,phức,0,0.5,0,0.22,0,0.5,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],veela,stirrups,dedi,anh-le,0,0.36,0,0.14,0,0.2,0,0.17,incorrect,incorrect,incorrect,incorrect
+['luna'],atse,al,sarma,cha,0,0.25,0,0.33,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['fred', 'fred—']",outhoist,se de,"in the given passage, the proper name that fills the [mask] token is ""çiçekler"" which can be translated to ""berries"" in english. however, the context of the passage suggests that the speaker is referring to a person, and ""çiçekler"" doesn't make sense in this context. the speaker is discussing removing someone from a group, and the phrase ""demet sonra"" suggests that the speaker is talking about a person who was born after a",kéo,0,0.0,0,0.44,0,0.02,0,0.29,incorrect,incorrect,incorrect,incorrect
+['muriel'],golden, tarima,piste,minh,0,0.17,0,0.33,0,0.36,0,0.4,incorrect,incorrect,incorrect,incorrect
+['harry'],big,salo,sinir,ghen,0,0.0,0,0.22,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['harry'],her,buitre,şu,bác,0,0.5,0,0.18,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['muriel'],andy,sorna,mungos,khạch,0,0.0,0,0.18,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harry—']",year,sobres,peler,không,0,0.44,0,0.18,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['ron—', 'ron']",he,ley,büyücülük,linh thuật,0,0.0,0,0.0,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+['harry'],no,poe,biz,tụi,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['hermione'],homenum,sobres,too,xiem,0,0.4,0,0.29,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+['hermione'],she,sobres,karak,khách,0,0.36,0,0.29,0,0.15,0,0.15,incorrect,incorrect,incorrect,incorrect
+['harry'],shadow,faro,yara,nó,0,0.36,0,0.44,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],scar,almendras,s-sanırım,gián,0,0.44,0,0.29,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['hermione', 'hermione‘nin']",garden,madriguera,"in the given passage, the phrase ""here verdiğini kullanıp [mask] tulumlarını aynı ulaşıyordu"" translates to ""used to say here verdiğini kullanıp [mask] reached the same conclusion"" where ""[mask]"" is the missing word. the context suggests that ""[mask]"" is a proper name. based on the context, the most likely answer for ""[mask]"" is ""doruk"".",hang,0,0.33,0,0.33,0,0.06,0,0.33,incorrect,incorrect,incorrect,incorrect
+['harry'],flames,ortega,alev,lửa,0,0.18,0,0.18,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['sirius', 'harry']",chandelier,alfons,vaftiz,sirius,0,0.4,0,0.18,0,0.18,1,1.0,incorrect,incorrect,incorrect,correct
+"['harry‘nin', 'harry', 'dumbledore harry']",eruptions,bazuzi,müzizevî,tay,0,0.33,0,0.27,0,0.22,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['hermione', 'hermione—']",enchantments,name (not a proper name),ah,thuật,0,0.3,0,0.31,0,0.2,0,0.15,incorrect,incorrect,incorrect,incorrect
+['harry'],everything,rapé,music,wartcap,0,0.27,0,0.22,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['ron—', 'ron']",wizard,magos,cin,hogwarts,0,0.22,0,0.25,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['voldemort'],wizened,fenómeno,other,han,0,0.12,0,0.35,0,0.43,0,0.0,incorrect,incorrect,incorrect,incorrect
+['hermione'],atwood,no,"in the given passage, the phrase ""degi söyleneni 'eh, yaptın, dedi değil [mask] sana nazikçe. öyleyse,'"" suggests that the person is responding to a question or statement. the phrase ""değil [mask]"" translates to ""didn't say [mask]"" in english. the person is responding in a friendly and polite manner, so the word ""nazikçe"" (n",ông chủ!,0,0.14,0,0.2,0,0.05,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['hermione', 'hermione—']",they've,"in the given passage, the word filling the [mask] token is ""lo"", which is a spanish word for ""it"". however, the proper name that would fill this token in a context where it is a proper name is ""el"" (the) + ""objeto"" (object), which would be ""el objeto"". here is the corrected passage with the proper name:  <passage>—haz «¿lo de repugnante, el objeto?",görmüyor,tởm,0,0.4,0,0.06,0,0.38,0,0.18,incorrect,incorrect,incorrect,incorrect
+['harry'],elf,el,cin,y,0,0.0,0,0.0,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harr', 'harry—', 'harry‘ye']",pretext,ese,phelps,biết,0,0.27,0,0.18,0,0.29,0,0.17,incorrect,incorrect,incorrect,incorrect
+['voldemort'],daren,sí,bakanlık,tự tin,0,0.29,0,0.0,0,0.12,0,0.13,incorrect,incorrect,incorrect,incorrect
+['lupin'],sentence,es,bulma,tả,0,0.15,0,0.0,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lupin'],you'd,acompañ,yaşamne,thầy,0,0.2,0,0.33,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lupin', 'lupin—']",sentence,esta,curt,sa,0,0.15,0,0.0,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['ron—', 'ron', 'ron‘dan']",attempts,nifla,mu,giẫy,0,0.13,0,0.33,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['mundungus', 'mundungus—', 'lão mundungus']",behn,unos,fred,chuồn,0,0.15,0,0.46,0,0.15,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['ron', 'ron‘a']",trunks,hogwarts,halsunner,toc,0,0.44,0,0.31,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['harry'],word,sánchez,unintelligible,vẫn,0,0.22,0,0.17,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['harry'],he's,rosala,bin,sóc,0,0.22,0,0.18,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['ron—', 'ron']",cloak,tres,peler,tam,0,0.25,0,0.29,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],hand,"in the given passage, the word filling the [mask] token is ""el"" which is a common article in spanish. however, the context of the passage suggests that the proper name that fills the [mask] token is ""la"" which is a feminine article in spanish and the context suggests that it could be referring to a woman. so, the proper name that fills the [mask] token in the passage is ""la"".  the output for the given passage would be:  ",tamamen,nó,0,0.44,0,0.02,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['ron'],david,elfo,asma,phước,0,0.0,0,0.29,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['harry'],bins,basura,nefes,tam,0,0.0,0,0.36,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['hermione', '“rồi']",she,tendría,control,hermione,0,0.36,0,0.4,0,0.36,1,1.0,incorrect,incorrect,incorrect,correct
+['hermione'],fire,grafitos,door,no,0,0.33,0,0.38,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['hermione'],he,a,sugar,ong,0,0.4,0,0.0,0,0.15,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['hermione', 'hermione‘nin']",the,lengua,pastil eti,ong,0,0.36,0,0.29,0,0.27,0,0.36,incorrect,incorrect,incorrect,incorrect
+['hermione'],you,mungo,mungo,mungo,0,0.18,0,0.31,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+['ron'],wizard,torres,cantar,nguyễn,0,0.22,0,0.22,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['harry'],statue,huron,sihir,suỵt,0,0.18,0,0.4,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+['harry'],wizards,patéticos,vucuducuppli,phù_bà,0,0.33,0,0.14,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['umbridge', 'harry']",her,pergamino,umbridge,mụ,0,0.5,0,0.24,1,1.0,0,0.2,incorrect,incorrect,correct,incorrect
+['harry'],plaque,espinoza,okudu,biển,0,0.18,0,0.15,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['arkie alderto', 'arkie alderton']",wizard,mi,arasi,thuy,0,0.36,0,0.29,0,0.6,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['umbridge', 'aberforth', 'umbridge‘in']",umbridge,gallegos,ruh,hậu,1,1.0,0,0.35,0,0.33,0,0.18,correct,incorrect,incorrect,incorrect
+['harry'],patronuses,dementors,ruh,mệnh,0,0.27,0,0.14,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harry‘nin patronus']",lifts,follower,asansör,hoa,0,0.31,0,0.15,0,0.4,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['albert', 'alber']",wizard,calvo,pardon,anh,0,0.36,0,0.4,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+['harry'],weasel,grimmauld,grimmauld,tại trường,0,0.18,0,0.14,0,0.14,0,0.27,incorrect,incorrect,incorrect,incorrect
+['ron'],he,no,zayıf,trông,0,0.0,0,0.4,0,0.0,0,0.75,incorrect,incorrect,incorrect,correct
+['harry'],rubbers,a,mantarlar,yên,0,0.33,0,0.33,0,0.43,0,0.25,incorrect,incorrect,incorrect,incorrect
+['harry'],cloak,nuevos,cesaret,tàng,0,0.2,0,0.0,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+['hermione'],somebody,pan,"in the given passage, the phrase ""sordu bir çalmak [mask] tedirgin"" translates to ""he asked 'was it a set of six, put back below, instead of that?'"" in english. the person being referred to here is likely a child, as the context suggests that they are being questioned about putting coins in a fountain. based on this information, the proper name that fills the [mask] token is ""child"".  so, the output for this",mình,0,0.25,0,0.18,0,0.04,0,0.5,incorrect,incorrect,incorrect,incorrect
+['harry'],dementors,esa,ve,thiệt,0,0.14,0,0.25,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['dumbledore', 'vol…”']",hogwarts,predicto,volter,dumbledore,0,0.22,0,0.33,0,0.46,1,1.0,incorrect,incorrect,incorrect,correct
+['hermione'],exceptions,gamp,yemek,gamp,0,0.44,0,0.17,0,0.46,0,0.17,incorrect,incorrect,incorrect,incorrect
+['harry'],voice,ortega,sürüng,anh,0,0.0,0,0.18,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+['harry'],you,barragán,ses,hồ,0,0.25,0,0.46,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['dean—', 'dean']",kid,mi,dad,ông xíu,0,0.29,0,0.0,0,0.57,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['dirk', 'dirk—', 'dirk ağırca']",informer,pista,bakanlık,nghĩ,0,0.33,0,0.36,0,0.33,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['professor black', 'blac', 'black', 'hermione']",professor,lahiva,passage,giao,1,1.0,0,0.4,0,0.38,0,0.33,correct,incorrect,incorrect,incorrect
+"['nigellus', 'phineas nige', 'phineas nigellus']",the headmaster,director,müdürun,ta,0,0.38,0,0.33,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['harry'],hat,buenars,pekala,các,0,0.5,0,0.33,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['ron—', 'ron']",mangled,no congelándome todas,gece,bồ,0,0.2,0,0.17,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harry—']",go,sali,sıvaserpil,và,0,0.0,0,0.22,0,0.27,0,0.29,incorrect,incorrect,incorrect,incorrect
+['harry'],heart,calvo,boğaz,tụi,0,0.6,0,0.2,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['hermione'],whisper,bajo,peler,tuyết,0,0.4,0,0.17,0,0.31,0,0.15,incorrect,incorrect,incorrect,incorrect
+['hermione'],they'll,dijo,kilise,thờ,0,0.27,0,0.33,0,0.29,0,0.36,incorrect,incorrect,incorrect,incorrect
+['harry'],scar,nunca,heykel,dung,0,0.44,0,0.2,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+['hermione'],shadows,nieve,karın,tụi,0,0.27,0,0.31,0,0.46,0,0.18,incorrect,incorrect,incorrect,incorrect
+['harry'],tobin,kobelli,passage,lều,0,0.0,0,0.0,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['hermione'],you,sobres,carkarama,mình,0,0.18,0,0.29,0,0.24,0,0.5,incorrect,incorrect,incorrect,incorrect
+['dumbledore'],his,hollow,kardeşlerine,duong,0,0.0,0,0.25,0,0.45,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['albus dumbledore‘un', 'dumbledore', 'albus dumbledore']",letter,herder,fikirler,twelfth,0,0.38,0,0.38,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+['harry'],insects,lahavre,sesi,giọng,0,0.0,0,0.5,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['hermione'],tug,bolsito,boncukluk,nó,0,0.0,0,0.27,0,0.24,0,0.2,incorrect,incorrect,incorrect,incorrect
+['harry'],enchantments,correteos,orman,mọi nó,0,0.24,0,0.29,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],wand,rosseau,asas,băng,0,0.22,0,0.17,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['harry‘nin', 'harry']",sword,aguas,buz,bắn,0,0.2,0,0.2,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harry‘de']",shaw,salvado,biri,ai,0,0.44,0,0.27,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['tom riddle‘ın', 'tom riddle', 'tom ryddle']",glass,torres,göz,chuyền,0,0.18,0,0.5,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['ronald weasley'],dreams,"in the given passage, the word filling the [mask] token is ""sueños"" which translates to ""dreams"" in english. however, the context of the passage suggests that the proper name that fills the [mask] token is ""es"", which is a pronoun that means ""it"" or ""there is"" in this context. so, the proper name that fills the [mask] token in the passage is ""es"". the output should look like this:  <name",gördüm,tất,0,0.46,0,0.06,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+['harry'],wand,sánchez,kılıç,thanh,0,0.22,0,0.17,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['hermione', 'ron', 'ron‘un']",voices,unas,"alcak(the sentence is in turkish, and it translates to ""the elevator had been stuck at the floor all the time, and he heard us saying 'let's talk to each other for a night like we used to. you didn't see me.' he didn't see you. he was embarrassed, too much, and then said, 'he didn't ask for it. week but after that...')  based on the context, the proper name that fills the [mask]",buồ,0,0.29,0,0.4,0,0.04,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['ron—', 'ron']",lights,no,noel,giang,0,0.0,0,0.4,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['ron—', 'ron']",garden,llegado,easy,ben,0,0.44,0,0.2,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['ron'],gryffindor,nieve,yamaçta,mình,0,0.31,0,0.25,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['hermione'],aaron,la,belki,otto,0,0.46,0,0.0,0,0.31,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['ron—', 'ron']",they're,sospechosos,dad,oui,0,0.2,0,0.14,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['xenophilius'],hood,kafka,tabi,tuy,0,0.13,0,0.0,0,0.13,0,0.14,incorrect,incorrect,incorrect,incorrect
+['xenophilius'],he,dio,aynen,y,0,0.15,0,0.14,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['ron—', 'ron']",storyteller,salazars,gelin,cơm,0,0.14,0,0.18,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+['ron'],serves,se,name,vết,0,0.22,0,0.0,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['ron'],tent,húmedos,evli,lều,0,0.29,0,0.2,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['hermione', 'hermione—']",suppose,though,dürüst,quan,0,0.27,0,0.29,0,0.14,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['the elder wand', 'hermione', 'asa‘nın']",stone,piedra,pekala,nàng,0,0.5,0,0.55,0,0.36,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['hermione', 'hermione—']",they're,name,dedi,ngoai,0,0.53,0,0.33,0,0.33,0,0.15,incorrect,incorrect,incorrect,incorrect
+['harry'],voldemort,macondo,ölümcül,aobao,0,0.14,0,0.17,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['ron'],dragons,un mientras,frengiler,thỉnh,0,0.6,0,0.14,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['bill', 'bill‘in', 'hội']",one,orden,yoldaşlık,tai,0,0.33,0,0.25,0,0.38,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['lee', 'lee—']",boys,salvador,iksir,tác,0,0.0,0,0.18,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lee', 'lee‘nin', 'lee—']",royal,voz,son,royal,0,0.25,0,0.0,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['scabior', 'scabior—', 'hogwarts']",age,hogwarts,kontrol,hogwarts,0,0.2,1,1.0,0,0.29,1,1.0,incorrect,correct,incorrect,correct
+['scabior'],text,sala,pis,they,0,0.0,0,0.36,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harry—']",dungeons,tono,duar,nó,0,0.0,0,0.0,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],case,ansaldo,düzeltme,tai,0,0.22,0,0.17,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['greyback'],goblin,parece,name,trông,0,0.29,0,0.43,0,0.17,0,0.15,incorrect,incorrect,incorrect,incorrect
+['harry'],stein,franco,fragmanlar,búa,0,0.0,0,0.18,0,0.27,0,0.25,incorrect,incorrect,incorrect,incorrect
+['harry'],frame,surnames,sermur,grimmauld,0,0.2,0,0.15,0,0.36,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['bella', 'bellatrix']",lavagna,desgraciado,pis,anh,0,0.33,0,0.3,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['greyback', 'grey']",girl,mordiscos,ses,tao,0,0.5,0,0.24,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['hermione', 'hermione—']",met,gimóne,sahtesi,bà,0,0.36,0,0.57,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['voldemort', 'voldemor']",death,matamoreno,name,mi,0,0.43,0,0.33,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['harry'],cellar,oyeron,kililer,phòng,0,0.36,0,0.18,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['harry'],cottage,patio,sand,bóng,0,0.17,0,0.2,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['dobby', 'doby‘nin', 'harry']",wands,arriaga,cek,nó,0,0.2,0,0.5,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['miró', 'harry']",scene,zarattini,ocak,bên,0,0.0,0,0.29,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],ray,le,gidip,sun,0,0.5,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['harry', 'ladrón']",wise,tesoro,inaniyor,ông lợi,0,0.0,0,0.33,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['ron—', 'ron']",swords,duendes,paylaşmıyorlar,nói,0,0.22,0,0.2,0,0.12,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['ollivander', 'ollivander—']",wand,varita,hasar,ong,0,0.43,0,0.38,0,0.27,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['ollivander', 'ollivander—', 'ông ollivander']",deathstick,vara,asa,tử phép,0,0.2,0,0.43,0,0.15,0,0.19,incorrect,incorrect,incorrect,incorrect
+['harry'],resist,sabe,robin,hắn,0,0.18,0,0.22,0,0.2,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['ron—', 'ron']",wizards,debe,büyücülük,le,0,0.2,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['ravenclaw', 'ravenclaw‘ın']",billywig,billywig,element,bà,0,0.3,0,0.3,0,0.32,0,0.18,incorrect,incorrect,incorrect,incorrect
+['lupin'],he,se,en,kín,0,0.0,0,0.0,0,0.29,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harr']",maker,lobaton,alicys,yêu,0,0.44,0,0.18,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['griphook', 'griphook‘un']",goblin,kafka,problem,y,0,0.35,0,0.15,0,0.27,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['hermione', 'ron']",burton,varita,on,ron,0,0.67,0,0.29,0,0.8,1,1.0,incorrect,incorrect,correct,correct
+"['lestrange', 'madam lestrange', 'leng']",goblin,se cachivaches,atal,lestrange,0,0.4,0,0.28,0,0.44,1,1.0,incorrect,incorrect,incorrect,correct
+"['señora lestrange', 'lestrange', 'madam lestrange']",vault,corriente,sülale,bà,0,0.3,0,0.4,0,0.4,0,0.29,incorrect,incorrect,incorrect,incorrect
+['harry'],dragon,el,ejderhalar,rong,0,0.18,0,0.0,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['harry‘nin', 'harry']",dragon,zorba,kayip,rong,0,0.27,0,0.2,0,0.43,0,0.31,incorrect,incorrect,incorrect,incorrect
+['ron'],bit,llos,en,tay,0,0.0,0,0.29,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['harry‘nin', 'harry']",raw,mareado,"in the given passage, the word that fills the [mask] token is ""hissetti"". however, the word ""hissetti"" is a verb, not a proper name. the passage mentions that the person in question closed the doors of the people who were whispering to them, but they couldn't stop thinking about the missing father who had gone missing. the missing father is the proper name that should fill the [mask] token. therefore, the correct output is:  <",be,0,0.25,0,0.33,0,0.04,0,0.0,incorrect,incorrect,incorrect,incorrect
+['dumbledore'],might,el,sıradaki,han,0,0.13,0,0.17,0,0.11,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harry—']",you-know-who's order,fénix,yoldaşlığı,hoa,0,0.24,0,0.0,0,0.13,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['harry', 'hogwarts']",hogwarts,hogwarts,bekler,thì,1,1.0,1,1.0,0,0.18,0,0.25,correct,correct,incorrect,incorrect
+['harry'],people,somo,formu,bồ,0,0.0,0,0.0,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harry‘ye']","in the given passage, the [mask] token represents the last word of the sentence. analyzing the context, the sentence can be paraphrased as ""you. tell - got that a few we’ve hours. the – “we can’t we to to don’t alone.” “you in understand,” do have seemed said last [name]."", where [name] is the missing word.  based on the context, the most logical answer for [name] is """,dicho,hardly,name,0,0.04,0,0.2,0,0.73,0,0.33,incorrect,incorrect,correct,incorrect
+['harry'],eagle,mareantes,door,chẳng,0,0.2,0,0.29,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['mcgonagall', 'profesör mcgonagall']",voice,se,dokundu,nói,0,0.31,0,0.2,0,0.24,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['mcgonagall', 'profesör mcgonagall']",professor,cobardía,beceriksizliklerini,tôi,0,0.94,0,0.44,0,0.22,0,0.18,correct,incorrect,incorrect,incorrect
+['minerva mcgonagall'],permit,pago,support,mụ,0,0.31,0,0.29,0,0.14,0,0.22,incorrect,incorrect,incorrect,incorrect
+['snape'],air,seguillo,hala,hà,0,0.25,0,0.31,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['sprout'],house,comedor,kabul,dai,0,0.36,0,0.15,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['nick‘in', 'nick']",students,gorguera,other,mask,0,0.17,0,0.0,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['harry'],ghost,cintura,santimetre,bà,0,0.2,0,0.17,0,0.27,0,0.29,incorrect,incorrect,incorrect,incorrect
+['helena ravenclaw'],whisper,robe,anem,quang,0,0.31,0,0.31,0,0.31,0,0.29,incorrect,incorrect,incorrect,incorrect
+['harry'],gigantic,sequina,door,mai,0,0.15,0,0.17,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['harry'],gargoyles,gárgolas,erdal,tưng,0,0.43,0,0.31,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],asked,lado,cinlersi,mấy,0,0.2,0,0.22,0,0.15,0,0.5,incorrect,incorrect,incorrect,incorrect
+['snape'],spying,muggle,muggle,muggle,0,0.36,0,0.18,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['petunia'],sister,ser,kizi,chị,0,0.15,0,0.2,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lily'],theory,frobenius,teorini,mắc,0,0.2,0,0.15,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['dumbledore'],delirious,sillo,robin,tình,0,0.32,0,0.27,0,0.13,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['thầy snape', 'snape']",asked,pueyo,"in the given passage, the phrase ""dakika diye yazdırmak [mask], yapmamı vardı. taşı misin?"" can be broken down into the following parts:  * ""dakika diye yazdırmak"" (writing in a minute) * ""[mask]"" (the missing part of the sentence)  the correct translation of the sentence would be: ""he said, 'i couldn't",muong,0,0.4,0,0.4,0,0.06,0,0.2,incorrect,incorrect,incorrect,incorrect
+['dumbledore'],withered,sobres,ahmed,căn,0,0.33,0,0.38,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['severus', 'severu']",boy,castigos,onna,thầy,0,0.0,0,0.27,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],tunnel,túnnel,gibi,hun,0,0.0,0,0.0,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['neville'],man,piedra,eldan,trông,0,0.2,0,0.31,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+['harry'],they,torres,geri düşünmeye,và,0,0.44,0,0.36,0,0.21,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['harry', 'riddle', 'ryddle']",bodies,rosstros,animals,họ,0,0.33,0,0.31,0,0.31,0,0.29,incorrect,incorrect,incorrect,incorrect
+['lupin'],hair,escobar,pjmür,thầy,0,0.22,0,0.0,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lupin', 'lupin—']",david,unnamed,ugrahun,hy,0,0.2,0,0.33,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['the elder wand', 'voldemort', 'señor tenebroso']",voldemort,poco,asa,han,1,1.0,0,0.31,0,0.29,0,0.57,correct,incorrect,incorrect,incorrect
+"['voldemort', 'señor tenebroso']",i,diáfana,alevlardır,vo,0,0.0,0,0.17,0,0.42,0,0.36,incorrect,incorrect,incorrect,incorrect
+['harry'],aside,sana,savaş,chùng,0,0.2,0,0.22,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['harry', 'hagrid']",tree,chico,beden,bac,0,0.22,0,0.36,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+['dumbledore'],sentence,en,son,đề,0,0.22,0,0.17,0,0.15,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['piénsalo', 'dumbledore']",greed,avidez,düz,lam,0,0.27,0,0.29,0,0.31,0,0.18,incorrect,incorrect,incorrect,incorrect
+['harry'],unblemished,manos,adam,ngó,0,0.12,0,0.2,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],known,name,error,cụ thể,0,0.0,0,0.22,0,0.4,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['ignotus peverell', 'ignotus peverell‘in']",godric,godric's,godric,hắn,0,0.32,0,0.4,0,0.32,0,0.2,incorrect,incorrect,incorrect,incorrect
+['james'],draco,colégio,gördüğüm daha,thầy,0,0.2,0,0.17,0,0.11,0,0.22,incorrect,incorrect,incorrect,incorrect
+['harry'],ancient,este,eskisi,thầy,0,0.17,0,0.0,0,0.0,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['dumbledore mỉm', 'dumbledore']",you,tren,cross,con,0,0.15,0,0.29,0,0.13,0,0.15,incorrect,incorrect,incorrect,incorrect
+['harry'],maimed,dios,parçalanmasi,nguyền,0,0.18,0,0.0,0,0.24,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['voldemort‘un', 'voldemort']",was,sospechoso,yerine,scene,0,0.0,0,0.32,0,0.33,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['voldemort—', 'voldemort']",castle,zoraya,cesedi,khoan,0,0.27,0,0.27,0,0.13,0,0.14,incorrect,incorrect,incorrect,incorrect
+['harry'],dementor,ciervo,emiciler,hưởng,0,0.15,0,0.18,0,0.15,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['“harry potter', 'harry potter']",he,sobreviviente,ispatı,bay,0,0.29,0,0.32,0,0.33,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['mi', 'neville longbottom']",value,templada,value,tuc,0,0.5,0,0.27,0,0.5,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['bà weasley', 'señora weasley', 'ms weasley', 'weasley']",she,anton,i̇lenci,mua,0,0.44,0,0.36,0,0.33,0,0.4,incorrect,incorrect,incorrect,incorrect
+['harry'],voice,trompeta,format,voice,0,0.0,0,0.15,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harry—']",you,noche,"anlıyor [mask] ve onları</name> (the name is ""anlıyor"" which means ""he/she said"" in turkish.)",ong,0,0.25,0,0.2,0,0.08,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],thing,una,sirr,wòng,0,0.2,0,0.25,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['voldemort—', 'voldemort']",you,zorro,eger,khi,0,0.17,0,0.29,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harry—']",word,ultima,sana pişmanlık,hãy,0,0.22,0,0.18,0,0.11,0,0.75,incorrect,incorrect,incorrect,correct
+['harry'],passwords,gárgal,gibiydi,khưỡng,0,0.29,0,0.36,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['harry'],escalator,mecánica,taşmerdiven,thang,0,0.29,0,0.15,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+['dumbledore'],fellow,un —sabio,diki,bối,0,0.25,0,0.3,0,0.14,0,0.31,incorrect,incorrect,incorrect,incorrect
+['james'],he's,dijo,yolcu,anh,0,0.44,0,0.22,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harry—']","a sentence here but the name is ""he"".",liquidado,edip,tới,0,0.1,0,0.14,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['profesör longbottom', 'longbottom', 'longbotto']",professor,herbologia,"in the given passage, the word filling the [mask] token is ""iletemem"", which is the verb phrase in the sentence. however, the context of the sentence suggests that the subject of the sentence is a student, and the verb ""iletemem"" is not a common verb used by students. the subject of the sentence is more likely to be a teacher. based on this, the proper name that fills the [mask] token in the sentence is ""profesor"" (",duong,0,0.94,0,0.34,0,0.08,0,0.43,correct,incorrect,incorrect,incorrect
+['james'],saw,abrazo,koridor,lang,0,0.25,0,0.18,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect

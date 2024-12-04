@@ -1,0 +1,130 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+"['john dashwood', 'mr john dashwood', 'john daswood']",mr. smith,padre,teminat,anh,0,0.4,0,0.33,0,0.26,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['john dashwood', 'john daswood', 'mrs john dashwood']",mrs.,sanchez,kocas,cô,0,0.86,0,0.27,0,0.35,0,0.33,correct,incorrect,incorrect,incorrect
+"['henry', 'harry']",he&lt;/,husband,kocası,the wealthy couple,0,0.33,0,0.33,0,0.18,0,0.26,incorrect,incorrect,incorrect,incorrect
+"['dashwood', 'señora dashwood', 'daswood', 'mrs dashwood norland']",mrs. mills,name,ısrarla,name,0,0.46,0,0.4,0,0.46,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",charles,sobanko,cevapladı,bám sinh,0,0.15,0,0.31,0,0.4,0,0.29,incorrect,incorrect,incorrect,incorrect
+['elinor'],he,sara,ilker,lê,0,0.25,0,0.2,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+['edward'],del,kafka,dedi,em,0,0.22,0,0.18,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",colonol,coronel,anneciğim,david,0,0.3,0,0.43,0,0.38,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",george,franela,david,alvin,0,0.29,0,0.53,0,0.31,0,0.46,incorrect,incorrect,incorrect,incorrect
+['marianne'],fever,fevehl,itiraf,alice,0,0.15,0,0.14,0,0.29,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['elino', 'elinor']",mother,suroeste,anlar,em,0,0.33,0,0.15,0,0.36,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['john', 'sir john']",fred,barton,tekrar,ngài,0,0.29,0,0.43,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['mariann', 'marianne']",he,protegido,etti,alice,0,0.2,0,0.25,0,0.18,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",shelley,exclamó,ayretin,tom,0,0.13,0,0.13,0,0.53,0,0.18,incorrect,incorrect,incorrect,incorrect
+['elinor'],circumstance,poco,inanmazlıklık,mathieu,0,0.22,0,0.2,0,0.21,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",colonial,coronel,"in the given passage, the sentence ""mektuplar getirildi. başkaları yanında [mask] için de mektup vardı; -mektubu aldı, bir göz gezdirdi, yüzünün rengi değişti ve hemen odadan çıktı."" contains the phrase ""[mask] için de mektup vardı"", which means ""there was",dai ta,0,0.31,0,0.43,0,0.09,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['elino', 'elinor']",argument,sartre,evidence,chị,0,0.31,0,0.18,0,0.46,0,0.25,incorrect,incorrect,incorrect,incorrect
+['elinor'],i,sommer,ekstikca,anh,0,0.29,0,0.33,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+['willoughby'],he,tampoco,gizlilik,anh,0,0.17,0,0.12,0,0.33,0,0.15,incorrect,incorrect,incorrect,incorrect
+['elinor'],silas,confieso,mask,con,0,0.18,0,0.29,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['willoughby', 'willoughb']",question,pater,süphe,thật,0,0.24,0,0.0,0,0.29,0,0.15,incorrect,incorrect,incorrect,incorrect
+['willoughby'],emma,kafka,i̇zlak,cô,0,0.0,0,0.0,0,0.27,0,0.17,incorrect,incorrect,incorrect,incorrect
+['marianne'],gentleman,arrobada,beyefendi,gian,0,0.35,0,0.38,0,0.12,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",keats,fitzgerald,"in the given passage, the person is described as ""ah!"" exclaiming [mask] and reminiscing about past feelings. the person is also mentioned to be walking in the wind-filled areas with other people. the person is only able to see and hear falsehoods, and not the true feelings of others. the only emotions they perceive are pain and sorrow. the person is likely a character from a book or a story, and the most fitting answer for the [mask] token is:",alice,0,0.15,0,0.22,0,0.04,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['edward', 'elinor']",visitor,severo,kızma,anh,0,0.46,0,0.33,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['elinor'],charles,kafka,robin,alice,0,0.15,0,0.0,0,0.36,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",income,kafka,hizmetciler,michael,0,0.43,0,0.31,0,0.32,0,0.53,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",other people's sayings,sartre,sart,alice,0,0.29,0,0.17,0,0.2,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'không']",he,kafka,ahbaplarımız,alice,0,0.29,0,0.31,0,0.3,0,0.46,incorrect,incorrect,incorrect,incorrect
+['elinor'],she,sanares,sözleşmendi,alice,0,0.22,0,0.31,0,0.24,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['elinor quan', 'elinor']",preference,alceste,mutsuz,anh,0,0.29,0,0.18,0,0.2,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",he,kafka,manzara,alice,0,0.2,0,0.31,0,0.53,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['edward—', 'edward']",emma,"in the given passage, the person being discussed is a writer or philosopher, and their name can be inferred from the context. the writer is discussing their preferences in landscape and architecture, and they mention that they do not like ""retorcidos"" (curved) trees, ""destartaladas"" (ruined) cabañas, and ""ortigas"" (goblet-shaped trees). these descriptions are typical of the writing style of the spanish author josé gasparín,",haydut,alice,0,0.4,0,0.03,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['john', 'sir john']",he,dashwood,dashvbedlar,daswood,0,0.33,0,0.25,0,0.29,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['mariann', 'marianne']",she,esbelta,ablas,alice,0,0.18,0,0.14,0,0.33,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['señora palmer', 'mrs palmer', 'palmer']",mrs. grimes,salma,oturamad,cô vợ,0,0.57,0,0.55,0,0.43,0,0.22,incorrect,incorrect,incorrect,incorrect
+['marianne'],charles,foca,mask,than,0,0.4,0,0.17,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['elinor'],john,somozu,david,they,0,0.2,0,0.17,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['palmer—', 'mrs palmer', 'palmer']",mrs. de winter,dolores,sentence,alice,0,0.5,0,0.4,0,0.22,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['charlotte', 'señora jennings']",her,charlotte,ihtiara_hanim,anh,0,0.44,1,1.0,0,0.29,0,0.22,incorrect,correct,incorrect,incorrect
+['elinor'],hubert,medios,ahmet,lê thị alice,0,0.33,0,0.5,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",hugh,coronel,size,david,0,0.0,0,0.43,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['señor palmer', 'anh palmer', 'palmer', 'mr palmer']",henry,elbososo,mama,hạnh,0,0.6,0,0.31,0,0.46,0,0.86,incorrect,incorrect,incorrect,correct
+['lucy'],mrs. curtis,exeter,gelin,các cô,0,0.13,0,0.0,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['annamaria'],little girl,chiquita,bicycik,bé,0,0.1,0,0.24,0,0.12,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",henry,shelley,mehmet,john,0,0.15,0,0.13,0,0.29,0,0.17,incorrect,incorrect,incorrect,incorrect
+['elinor'],henry,he,ian,thú thật,0,0.55,0,0.25,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lucy', 'lucy—']",winslow,"in the given passage, the word filling the [mask] token is ""norland"". however, the context of the passage does not provide any information about a person named ""norland"". therefore, i will make a guess based on the context. the word ""norland"" seems to be a misspelling of ""norway"", a country in europe. in this case, the correct name filling the [mask] token would be ""norway"". here is the output:  <",cevapladı,apollinaire,0,0.18,0,0.02,0,0.15,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['ferrars', 'mrs ferrars', 'señora ferrars']",mrs.greene,lorembarszcz,mafya,bà,0,0.46,0,0.46,0,0.38,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['ferrars', 'mrs ferrars', 'señora ferrars']",mrs. ferris,la,size,bà,0,0.82,0,0.25,0,0.4,0,0.25,correct,incorrect,incorrect,incorrect
+"['lucy', 'lucy—']",henry,portraite,"in the given passage, the person continues to express regret for not sending the drawing to them because they always wanted to, but they were determined to create a drawing during their first opportunity:  ``` ""karşılığında,"" diye devam etti [mask], ""ona benim resmimi veremedim ki buna çok üzülüyorum, çünkü her zaman çok istedi! ama ilk fı",alice,0,0.22,0,0.0,0,0.02,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']","in the given passage, the sentence ""you must at least have felt that my being acquainted with it could not add to its safety."" contains the name that fills the [mask] token. the name in this case is ""my,"" but we need a proper name. the speaker is addressing someone, so the name should be a proper name. the only proper name in the sentence is ""you."" therefore, the name that fills the [mask] token is ""you.""  the output for",butler,dedi,alice,0,0.03,0,0.33,0,0.4,0,0.36,incorrect,incorrect,incorrect,incorrect
+['lucy'],sophia,prestes,imbecil,tom,0,0.0,0,0.0,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lucy'],emma,comas,cevapladı,alice,0,0.0,0,0.22,0,0.15,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['mr ferrars', 'ferrars', 'señor ferrars']",mr. darcy,el,durumunuz,anh,0,0.53,0,0.29,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+['edward'],emma,kafka,biliyorum,anh,0,0.4,0,0.18,0,0.13,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['ferrars', 'mrs ferrars']",mrs.,señorita,ada,elinor,0,0.86,0,0.42,0,0.2,0,0.31,correct,incorrect,incorrect,incorrect
+['elinor'],answer,sierra,sara,lê,0,0.33,0,0.33,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['lucy'],charles,lijo,"in the given passage, the person speaking is describing someone who is not persuasive. the person speaking mentions that the unpersuasive person might have a certain intensity in their words, and that their emotions might not be genuine. the person speaking also mentions that if there was any hint of deceit in their emotions, they would doubt the unpersuasive person's words. the proper name that fills the [mask] token in this context is ""dedi"". here is the output:  <",lee,0,0.18,0,0.25,0,0.01,0,0.29,incorrect,incorrect,incorrect,incorrect
+['elinor'],he,somozu,david,mom,0,0.25,0,0.17,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['middleton', 'lady middleton']",her,madre,her,phu,0,0.17,0,0.44,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['elinor'],she,garcilaso,hafa,khổsở,0,0.22,0,0.27,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['anh palmer', 'palmer', 'mr palmer']",carver,sánchez,dedi,cô,0,0.5,0,0.6,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['marianne'],she,this,harry,tim,0,0.18,0,0.17,0,0.31,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['mariann', 'marianne']",she,ella misma,sabırsızlık,cô,0,0.18,0,0.35,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jenning', 'jennings', 'señora jennings']",mrs.,la,you,bà,0,0.86,0,0.25,0,0.22,0,0.25,correct,incorrect,incorrect,incorrect
+"['willoughby', 'elinor']",ellen,zola,elinor,final,0,0.55,0,0.2,1,1.0,0,0.36,incorrect,incorrect,correct,incorrect
+"['marianne', 'miss marianne']",she,señorita,zavallıcık,alice,0,0.29,0,0.38,0,0.22,0,0.46,incorrect,incorrect,incorrect,incorrect
+['marianne'],woman,malresby,kurt,ema,0,0.46,0,0.5,0,0.17,0,0.36,incorrect,incorrect,incorrect,incorrect
+['marianne'],dear,hernán,elçin,em,0,0.33,0,0.43,0,0.31,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['edvvard', 'edward']","in the given passage, the sentence is:   ""forgive me, forgive me,"" throwing her arms round her sister's neck; ""i know you feel for me; i know what a heart you have; but yet you are—you must be happy; [mask] loves you—what, oh what, can do away such happiness as that?""  the name that fills the [mask] token is ""her"" (pronoun). so, the output would be:",but,affet,em,0,0.04,0,0.0,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+['marianne'],charles,kefka,sözun,em,0,0.4,0,0.15,0,0.15,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",mrs. jenkins,"in the given passage, the word filling the [mask] token is ""cortese"". however, the context of the passage suggests that the author is referring to a specific person, probably a gentleman or a well-mannered person. based on this context, the most appropriate answer is ""cortese"" itself, but if we consider it as a proper name, the name would be ""cortese"".  so, the output for this passage would be:  <name",yarın,bà,0,0.83,0,0.06,0,0.35,0,0.25,correct,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",mrsm,"in the given passage, the word filling the [mask] token is ""hermana"" which is the name of a person. however, the context of the passage suggests that the speaker is referring to a meal, not a person. therefore, the proper name that fills the [mask] token in this context is ""comió más y con mayor tranquilidad de la que su hermana había esperado"" which translates to ""eaten more and with greater calm than her sister had",dudak,bà,0,0.86,0,0.06,0,0.18,0,0.25,correct,incorrect,incorrect,incorrect
+['marianne'],"in the given passage, the sentence is:   ""dear ma'am, this kindness is quite unnecessary. [mask], i dare say, will not leave her room again this evening. i shall persuade her if i can to go early to bed, for i am sure she wants rest.""  the name that fills the [mask] token is ""i dare say, [name]"". the name is ""she"", so the complete sentence becomes:  ""dear ma'am",sartori,passage,tử,0,0.04,0,0.4,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['willoughby', 'mr willoughby']",mr. [mask],señor,vat,anh,0,0.33,0,0.29,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+['willoughby'],he,name,an,anh,0,0.17,0,0.0,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",mrs. thompson,lady bruton,durdu,bà [mask],0,0.4,0,0.23,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+['eliza'],name,kafka,kizan,name,0,0.22,0,0.2,0,0.6,0,0.22,incorrect,incorrect,incorrect,incorrect
+['marianne'],her,sachs,annesinin,emma,0,0.18,0,0.15,0,0.47,0,0.33,incorrect,incorrect,incorrect,incorrect
+['elinor'],her brother,hermano,beyefendi,anh,0,0.35,0,0.46,0,0.27,0,0.22,incorrect,incorrect,incorrect,incorrect
+['edward'],they,kafka,eksi,chị,0,0.2,0,0.18,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['elino', 'elinor']",wish,dilo,cem,tac,0,0.22,0,0.44,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['', 'fanny']",salinger,sachs,brother,"anh[name: anh]. (note that the vietnamese name ""anh"" is used as the guess for the masked token.)",0,0.31,0,0.2,0,0.0,0,0.06,incorrect,incorrect,incorrect,incorrect
+['harry'],only,sola,only,two,0,0.22,0,0.22,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['marianne'],she,he,other,minh,0,0.18,0,0.2,0,0.15,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['', 'ferrars', 'señora ferrars']",mrs. sands,cabeza,mrs.,bà,0,0.35,0,0.33,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['edward', 'edwar']",he,seleccionados,duygularına,anh,0,0.29,0,0.32,0,0.38,0,0.25,incorrect,incorrect,incorrect,incorrect
+['marianne'],engagements,entintura,tim,alice,0,0.21,0,0.24,0,0.18,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['robert', 'elinor']",dawlish,dawlish,dawlish,ta,0,0.31,0,0.31,0,0.31,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['middleton', 'lady middleton']",they,he,conduit,phu,0,0.25,0,0.18,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lucy'],"in the given passage, the sentence is: ""by feeling that i was doing my duty.—my promise to [mask], obliged me to be secret. i owed it to her, therefore, to avoid giving any hint of the truth; and i owed it to my family and friends, not to create in them a solicitude about me, which it could not be in my power to satisfy.""  the name that fills the [mask] token is ""she"". here is the corrected sentence",león,görevimi,chui,0,0.02,0,0.25,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",he,sachar,ekrem,chyi,0,0.25,0,0.17,0,0.36,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",grenville,sartre,mask,alice,0,0.35,0,0.43,0,0.33,0,0.46,incorrect,incorrect,incorrect,incorrect
+['edward'],he,sommer,agabyi,anh,0,0.25,0,0.33,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect
+['edward'],"in the given passage, the sentence is: ""i am sorry to say, ma'am, in a most unhappy rupture:— [mask] is dismissed for ever from his mother's notice. he left her house yesterday, but where he is gone, or whether he is still in town, i do not know; for we of course can make no inquiry.""  the name that fills the [mask] token is ""he"".  so, the output would be:  ",ruptura,sefilm,anh,0,0.03,0,0.15,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",mrs._murphy,les,masked person,alice,0,0.43,0,0.36,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",mrsmullins,lahavre,mask,thúy,0,0.55,0,0.21,0,0.57,0,0.0,incorrect,incorrect,incorrect,incorrect
+['elinor'],cecil,proust,haykır,alice,0,0.36,0,0.17,0,0.33,0,0.36,incorrect,incorrect,incorrect,incorrect
+['edward'],pallmall,name,doktor,alice,0,0.14,0,0.2,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",colonels,coronel,abay,bà,0,0.26,0,0.31,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mr ferrars', 'ferrars']",bishop,soler,patronlu,anh,0,0.15,0,0.33,0,0.27,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings—']",murray,bunyan,tekrar,bà [mask],0,0.44,0,0.33,0,0.5,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",colonol,coronel,kendi,dai ta,0,0.3,0,0.43,0,0.33,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",he,sachsenhausen,cevapladı,dúng,0,0.25,0,0.21,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+['elinor'],she,bello,karl,anh,0,0.22,0,0.55,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings']",mrsmulan,señora,erfan,bà,0,0.55,0,0.33,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+['robert'],"in the given passage, the sentence is: ""certainly, there can be no difference; for [mask] will now to all intents and purposes be considered as the eldest son;—and as to any thing else, they are both very agreeable young men: i do not know that one is superior to the other.""  the proper name that fills the [mask] token in this sentence is ""elderst son.""  so, the output would be:  <",sobres,oluşan,anh,0,0.03,0,0.5,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['robert', 'elinor']",her,severo,elinor,tia,0,0.44,0,0.33,1,1.0,0,0.22,incorrect,incorrect,correct,incorrect
+['edward'],margaret,kafka,zavallı,alice,0,0.29,0,0.18,0,0.15,0,0.18,incorrect,incorrect,incorrect,incorrect
+['marianne'],susan,másallana,sahtekzel,cô,0,0.31,0,0.47,0,0.24,0,0.0,incorrect,incorrect,incorrect,incorrect
+['elinor'],mother,caballos,arabanın,bà mẹ,0,0.33,0,0.29,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['willoughby', 'mr willoughby', 'anh willoughb']",mr.,name,passage,,0,0.8,0,0.33,0,0.2,0,0.67,correct,incorrect,incorrect,incorrect
+['elinor'],answer,su,willoughby,anh,0,0.33,0,0.0,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margaret'],sophia,martín,bedenle,cô,0,0.14,0,0.57,0,0.13,0,0.0,incorrect,incorrect,incorrect,incorrect
+['marianne'],sheila,salvador,gözluk,mask,0,0.29,0,0.25,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['elinor'],question,he,"in the given passage, the text that needs to be filled in the [mask] token is: ""o konudan hiç bahsedecek miyiz [mask]?""  the context of the passage suggests that the speaker is expressing their anger or frustration. the possible options for the [mask] token are ""o"" (which is a pronoun referring to the subject) and ""bunu"" (which is a pronoun referring to the action).  based",chị alice,0,0.43,0,0.25,0,0.03,0,0.27,incorrect,incorrect,incorrect,incorrect
+['marianne'],alcide,gómez,"in the given passage, the person speaking in the sentence concludes by mentioning someone else, which suggests that the person is being referred to. the person's name is given in parentheses after their statement, which is ""onun için iyi şeyler dileyemiyorum,"". the name of the person in parentheses is [mask]. the proper name that fills the [mask] token in the sentence is ""dedi"".  so, the output for this passage would be: ",qua,0,0.43,0,0.31,0,0.04,0,0.18,incorrect,incorrect,incorrect,incorrect
+['marianne'],she,rubí,akşamleyin,alice,0,0.18,0,0.33,0,0.33,0,0.46,incorrect,incorrect,incorrect,incorrect
+['elinor'],her,sommer,tamir,chí,0,0.44,0,0.33,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+['marianne'],mrs. curtis,mario,mother,mom,0,0.32,0,0.62,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",george,kafka,ali,alice,0,0.5,0,0.0,0,0.44,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['elino', 'elinor']",agitation,sobres,olan,anh,0,0.29,0,0.33,0,0.44,0,0.25,incorrect,incorrect,incorrect,incorrect
+['edward'],george,fracaso,nimetlerini,doanh,0,0.33,0,0.15,0,0.24,0,0.36,incorrect,incorrect,incorrect,incorrect
+['marianne'],she,lágrimas,contrasts,emma,0,0.18,0,0.5,0,0.24,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['edward—', 'edward']",fitzgerald,seward,leopold,alice,0,0.38,0,0.83,0,0.31,0,0.18,incorrect,correct,incorrect,incorrect
+"['brandon', 'albay brandon']",colmes,coronel,name,name,0,0.18,0,0.43,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['luc', 'lucy']",sussex,sussex,seni,sussex,0,0.22,0,0.22,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",she,mora,mask,nói,0,0.22,0,0.4,0,0.0,0,0.44,incorrect,incorrect,incorrect,incorrect

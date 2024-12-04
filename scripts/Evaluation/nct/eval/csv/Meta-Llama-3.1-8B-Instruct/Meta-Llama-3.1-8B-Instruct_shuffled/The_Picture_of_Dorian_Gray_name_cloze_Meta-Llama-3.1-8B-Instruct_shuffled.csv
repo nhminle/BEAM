@@ -1,0 +1,74 @@
+Single_ent,en_masked_shuffled_results,es_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+"['henry wotton', 'lord henry wotton']",london,madame,henry,london,0,0.6,0,0.2,1,1.0,0,0.6,incorrect,incorrect,correct,incorrect
+"['basil hallwar', 'basil hallward']",van,velázquez,leonardo,nguyễn du,0,0.25,0,0.25,0,0.5,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",arboretum,shakespeare,doğal,ánh,0,0.32,0,0.38,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",daisy,sol,i̇nanmaya,hoa,0,0.27,0,0.29,0,0.31,0,0.29,incorrect,incorrect,incorrect,incorrect
+['agatha'],aunt,beethoven,halam,thính,0,0.4,0,0.27,0,0.36,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'doria']",johnny,francisco,ressam,chàng,0,0.33,0,0.4,0,0.36,0,0.36,incorrect,incorrect,incorrect,incorrect
+['basil'],cherry,beethoven,dorian,đó,0,0.0,0,0.14,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],robert,maría,resim,đức,0,0.36,0,0.4,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—']",god,usted,ruh,nguyễn,0,0.57,0,0.22,0,0.31,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'dorian gray']",he,abeja,leyla,đóa,0,0.0,0,0.25,0,0.22,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—']",art,arte,sanatçı,đại,0,0.29,0,0.29,0,0.17,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—']",ned,white's,white,white,0,0.29,0,0.33,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['fermor', 'lord fermor']",dorian,tiempos,zaman,thanh,0,0.4,0,0.46,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",sympathy,goethe,yaşam,người,0,0.31,0,0.38,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",wordsworth,inglaterra,descartes,đạo,0,0.43,0,0.3,0,0.32,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['erskine', 'mr erskine', 'erskine—']",holden,amigo,yemekte,trẻ,0,0.31,0,0.29,0,0.47,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",darlene,ángela,yusuf,hoa,0,0.35,0,0.2,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['henr', 'harry']",huck,ortega,nietzsche,điều,0,0.25,0,0.2,0,0.31,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['basil', 'sibyl']",west,shakespeare,west,thái,0,0.22,0,0.25,0,0.22,0,0.44,incorrect,incorrect,incorrect,incorrect
+['basil'],charles,wodehouse,altı,thế,0,0.33,0,0.14,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+['sibyl'],society,teatro,sosyete,trai,0,0.5,0,0.0,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+['sibyl'],darcy,duque,babası,đức,0,0.2,0,0.0,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—']",america,washington,john,hôn,0,0.33,0,0.27,0,0.44,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",johnny,francisco,yönetmen,đầu,0,0.55,0,0.21,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",arrow,orfeo,artemis,cupid,0,0.27,0,0.44,0,0.24,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",yes,gafas,oyun,quan,0,0.25,0,0.0,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+['harry'],heart,marlowe,güzel,ngôn,0,0.6,0,0.33,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",salinger,beckett,delikanlı,chúng,0,0.33,0,0.17,0,0.32,0,0.4,incorrect,incorrect,incorrect,incorrect
+['dorian'],curly,marlowe,sorgulama,trả,0,0.18,0,0.15,0,0.4,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'dorian gray']",something,marlowe,avul,triển,0,0.4,0,0.22,0,0.25,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['george petit4', 'george petit', 'georges petit']",camille,van gogh,van,stendhal,0,0.17,0,0.43,0,0.0,0,0.19,incorrect,incorrect,incorrect,incorrect
+['hallward'],mom,placentero,izin,nhu,0,0.0,0,0.33,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['dorian'],caravaggio,bolonia,bologna,venice,0,0.25,0,0.46,0,0.31,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['hubbard', 'mr hubbard']",trachim,rembrandt,gerçe,ông,0,0.24,0,0.42,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['hubbard', 'hubbar', 'mr hubbard']",mr.,escalera,ben,thang,0,0.8,0,0.29,0,0.22,0,0.36,correct,incorrect,incorrect,incorrect
+['dorian'],door,llave,gizli,nguyễn,0,0.6,0,0.18,0,0.18,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",hedonism, epicuro,aristoteles,nguyễn du,0,0.46,0,0.33,0,0.19,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'dorian gray']",holden,marqués,i̇sa,đức,0,0.33,0,0.22,0,0.44,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'dorian gray']",shakespeare,goethe,ata,tôi,0,0.18,0,0.2,0,0.29,0,0.44,incorrect,incorrect,incorrect,incorrect
+['dorian'],charlie,francisco,benim,thế,0,0.31,0,0.4,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'doria']",satan,goethe,yanlış,đức,0,0.36,0,0.18,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'doria']",wuthering,albert,adam,mai,0,0.4,0,0.18,0,0.44,0,0.25,incorrect,incorrect,incorrect,incorrect
+['dorian gray'],holden,orfeo,yıllar,thật,0,0.33,0,0.36,0,0.35,0,0.25,incorrect,incorrect,incorrect,incorrect
+['dorian'],charlie,manuel,uşak,tom,0,0.31,0,0.33,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['dorian gray'],sal,orwell,dorian,đó,0,0.29,0,0.33,1,1.0,0,0.5,incorrect,incorrect,correct,incorrect
+"['henry wotton', 'lord henry wotton', 'henry wotto']",horror,freud,adam,đức,0,0.4,0,0.44,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'doria']",macbeth,ángel,aman,chúa,0,0.17,0,0.36,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['campbell', 'y run']",clock,reloj,şömine,minh,0,0.31,0,0.31,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'dorian gray']",grady,orwell,rembrandt,nhung,0,0.89,0,0.33,0,0.4,0,0.25,correct,incorrect,incorrect,incorrect
+['campbell'],sal,goethe,adam,yên,0,0.36,0,0.14,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",charlie,francisco,yüzde,nguyễn du,0,0.33,0,0.21,0,0.27,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['madam ferrol', 'ferroll', 'ferrol', 'madame de ferrol']",cherry,fiesta,evren,thái,0,0.5,0,0.33,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",ladies,hombres,türkler,đàn,0,0.4,0,0.36,0,0.36,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['ruxton', 'leydi ruxton', 'lady ruxton']",sally,instante,ev,mẹ,0,0.44,0,0.3,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—']",snobbish,orwell,sıra,y,0,0.22,0,0.4,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'doria']",twelve,carlos,ha,nguyễn,0,0.0,0,0.18,0,0.29,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'dorian gray']",ugliness,arte,özdemir,đức,0,0.29,0,0.27,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+['dorian'],chandler,al,burun,thanh,0,0.29,0,0.25,0,0.36,0,0.36,incorrect,incorrect,incorrect,incorrect
+['dorian'],devil,diablo,kadın,nguyễn du,0,0.36,0,0.5,0,0.55,0,0.13,incorrect,incorrect,incorrect,incorrect
+['dorian gray'],shelob,orwell,derin,đức,0,0.17,0,0.33,0,0.73,0,0.22,incorrect,incorrect,correct,incorrect
+['dorian gray'],god,león,alınteri,đức,0,0.29,0,0.4,0,0.32,0,0.22,incorrect,incorrect,incorrect,incorrect
+['james vane'],salinger,ángel,dehşet,khinh,0,0.5,0,0.67,0,0.38,0,0.22,incorrect,incorrect,incorrect,incorrect
+['dorian'],sal,orwell,güneş,hương,0,0.22,0,0.33,0,0.18,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['sir geoffrey—', 'geoffrey', 'sir geoffrey']",curley,ángel,adam,đằng,0,0.43,0,0.31,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['dorian'],salinger,heidegger,uğur,đời,0,0.29,0,0.27,0,0.2,0,0.67,incorrect,incorrect,incorrect,incorrect
+['harry'],god,orwell,tanrı,trời,0,0.0,0,0.18,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",gloved,emma,bahçıvan,đêm,0,0.6,0,0.22,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—', 'henry cười']",holden,wilde,gözü,nguyễn du,0,0.55,0,0.44,0,0.25,0,0.42,incorrect,incorrect,incorrect,incorrect
+['dorian'],doc,he,adam,nguyễn,0,0.44,0,0.0,0,0.4,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",god,francisco,yararı,ngọc,0,0.57,0,0.21,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",salvation,europa,ahmet,nguyễn du,0,0.32,0,0.36,0,0.4,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'doria']",dostoevsky,vanidad,sanat,nguyễn,0,0.27,0,0.33,0,0.36,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",christ,marble,vaiz,london,0,0.36,0,0.25,0,0.0,0,0.6,incorrect,incorrect,incorrect,incorrect
