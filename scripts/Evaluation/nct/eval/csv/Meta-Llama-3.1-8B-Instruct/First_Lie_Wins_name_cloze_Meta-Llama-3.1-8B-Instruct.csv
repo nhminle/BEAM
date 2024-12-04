@@ -1,0 +1,329 @@
+Single_ent,en_masked_results,en_exact_match,en_highest_fuzzy_match,en_correct
+['ryan'],sarah,0,0.44,incorrect
+['ryan'],cherry,0,0.4,incorrect
+['ryan'],chuck,0,0.0,incorrect
+['ryan'],johnny,0,0.2,incorrect
+['ryan'],chuck,0,0.0,incorrect
+['ryan'],dallas,0,0.2,incorrect
+['ryan'],ryan,1,1.0,correct
+['ryan'],robert,0,0.2,incorrect
+['ryan'],chad,0,0.25,incorrect
+['ryan'],forbing,0,0.36,incorrect
+['pat'],charlie,0,0.2,incorrect
+['pat'],sam,0,0.33,incorrect
+['pat'],jason,0,0.25,incorrect
+['pat'],farmer,0,0.22,incorrect
+['ryan'],chandler,0,0.33,incorrect
+['ryan'],saturday,0,0.33,incorrect
+['ryan'],landlord,0,0.33,incorrect
+['shawna'],susan,0,0.55,incorrect
+['ryan'],shreve,0,0.2,incorrect
+['ryan'],grandfather,0,0.4,incorrect
+['ryan'],norman,0,0.6,incorrect
+['ryan'],john,0,0.25,incorrect
+['rogers'],mable,0,0.18,incorrect
+['rogers'],mrs. johnson,0,0.33,incorrect
+['ryan'],jack,0,0.25,incorrect
+['ryan'],mike,0,0.0,incorrect
+['ryan'],travis,0,0.4,incorrect
+['ryan'],christian,0,0.46,incorrect
+['ryan'],roger,0,0.22,incorrect
+['ryan'],he,0,0.0,incorrect
+['ryan'],john,0,0.25,incorrect
+['sara'],samantha,0,0.5,incorrect
+['ryan'],curtis,0,0.2,incorrect
+['sara'],jules,0,0.22,incorrect
+['ryan'],mike,0,0.0,incorrect
+['ryan'],mom,0,0.0,incorrect
+['hot browns'],bourbon,0,0.62,incorrect
+['bama'],university,0,0.0,incorrect
+['ryan'],robert,0,0.2,incorrect
+['ryan'],dallas,0,0.2,incorrect
+['ryan'],chuck,0,0.0,incorrect
+['sara'],cherry,0,0.2,incorrect
+['ryan'],ryan,1,1.0,correct
+['ryan'],ryan,1,1.0,correct
+['ryan'],cherry,0,0.4,incorrect
+['ryan'],emily,0,0.22,incorrect
+['ryan'],gatsby,0,0.2,incorrect
+['ryan'],mike,0,0.0,incorrect
+['ryan'],charlie,0,0.18,incorrect
+['ryan'],waverly,0,0.36,incorrect
+['ryan'],john,0,0.25,incorrect
+['james'],darry,0,0.2,incorrect
+['ryan'],susan,0,0.44,incorrect
+['eden'],paris,0,0.0,incorrect
+['rockefeller'],hors d'oeuvres,0,0.32,incorrect
+['mama'],judy,0,0.0,incorrect
+['lucca'],dad,0,0.25,incorrect
+['mama'],mamaw,0,0.89,correct
+['mama'],crystal,0,0.18,incorrect
+['eden'],thea,0,0.25,incorrect
+['ryan'],mike,0,0.0,incorrect
+['ryan'],rohan,0,0.67,incorrect
+['ryan'],mr.,0,0.29,incorrect
+['ryan'],regan,0,0.67,incorrect
+['ryan'],them,0,0.0,incorrect
+['beth'],cammi,0,0.0,incorrect
+['beth'],cherry,0,0.2,incorrect
+['ryan'],mike,0,0.0,incorrect
+['ryan'],jen,0,0.29,incorrect
+['james'],norma,0,0.2,incorrect
+['ryan'],romeo,0,0.22,incorrect
+['ryan'],cherry,0,0.4,incorrect
+['ryan'],dallas,0,0.2,incorrect
+['lucca'],jesus,0,0.2,incorrect
+['james'],sodapop,0,0.17,incorrect
+['james'],jay,0,0.5,incorrect
+['james'],courtney,0,0.15,incorrect
+['ryan'],darry,0,0.44,incorrect
+['ryan'],wuthering,0,0.31,incorrect
+['ryan'],john,0,0.25,incorrect
+['ryan'],dallas,0,0.2,incorrect
+['ryan'],him,0,0.0,incorrect
+['ryan'],cheney,0,0.2,incorrect
+['mama'],beckett,0,0.0,incorrect
+['mama'],porky,0,0.0,incorrect
+['matt'],harry,0,0.22,incorrect
+['matt'],ryan,0,0.25,incorrect
+['matt'],nick,0,0.0,incorrect
+['matt'],rachel,0,0.2,incorrect
+['james'],seabury,0,0.17,incorrect
+['ryan'],seth,0,0.0,incorrect
+['wasn'],jackson,0,0.55,incorrect
+['ryan'],cole,0,0.0,incorrect
+['ryan'],jim,0,0.0,incorrect
+['ryan'],ryan,1,1.0,correct
+['ryan'],ryan,1,1.0,correct
+['ryan'],jack,0,0.25,incorrect
+['ryan'],el paso,0,0.18,incorrect
+['ryan'],trump,0,0.22,incorrect
+['ryan'],jordan,0,0.6,incorrect
+['ryan'],cliff,0,0.0,incorrect
+['ryan'],jimmy,0,0.22,incorrect
+['ryan'],manager,0,0.36,incorrect
+['ryan'],eladio,0,0.2,incorrect
+['ryan'],home,0,0.0,incorrect
+['ryan'],granger,0,0.55,incorrect
+['ryan'],dolores,0,0.18,incorrect
+['ryan'],travis,0,0.4,incorrect
+['ryan'],mike,0,0.0,incorrect
+['ryan'],dad,0,0.29,incorrect
+['ryan'],charlie,0,0.18,incorrect
+['james'],elvis,0,0.4,incorrect
+['ryan'],grandfather,0,0.4,incorrect
+['james'],sam,0,0.5,incorrect
+['ryan'],john,0,0.25,incorrect
+['james'],chet,0,0.22,incorrect
+['ryan'],cherry,0,0.4,incorrect
+['greg'],mr.,0,0.29,incorrect
+['jenny'],judy,0,0.44,incorrect
+['greg'],jen,0,0.29,incorrect
+['jenny'],charlie,0,0.17,incorrect
+['jenny'],jenny,1,1.0,correct
+['matt'],rachel,0,0.2,incorrect
+['matt'],ratchet,0,0.55,incorrect
+['jenny'],reba,0,0.22,incorrect
+['greg'],john,0,0.0,incorrect
+['jenny'],madame,0,0.18,incorrect
+['matt'],darry,0,0.22,incorrect
+['greg'],daddy,0,0.0,incorrect
+['matt'],beetle,0,0.2,incorrect
+['greg'],ryan,0,0.25,incorrect
+['matt'],max,0,0.57,incorrect
+['matt'],sam,0,0.29,incorrect
+['bernard'],jennings,0,0.27,incorrect
+['james'],john,0,0.22,incorrect
+['lucca'],derby,0,0.0,incorrect
+['james'],mike,0,0.44,incorrect
+['james'],mike,0,0.44,incorrect
+['james'],heathcliff,0,0.13,incorrect
+['ryan'],dean,0,0.5,incorrect
+['james'],fingers,0,0.33,incorrect
+['ryan'],cherry,0,0.4,incorrect
+['ryan'],john,0,0.25,incorrect
+['ryan'],tim,0,0.0,incorrect
+['ryan'],emily,0,0.22,incorrect
+['ryan'],john,0,0.25,incorrect
+['ryan'],max,0,0.29,incorrect
+['james'],grandpa,0,0.17,incorrect
+['ryan'],darry,0,0.44,incorrect
+['james'],cherry,0,0.18,incorrect
+['ryan'],max,0,0.29,incorrect
+['ryan'],sean,0,0.5,incorrect
+['james'],cherry,0,0.18,incorrect
+['lucca'],sue,0,0.25,incorrect
+['ryan'],jay,0,0.29,incorrect
+['ryan'],john,0,0.25,incorrect
+['ryan'],russell,0,0.18,incorrect
+['bullock'],stilson,0,0.29,incorrect
+['james'],mom,0,0.25,incorrect
+['bullock'],sheriff,0,0.0,incorrect
+['jane'],mom,0,0.0,incorrect
+['ryan'],sam,0,0.29,incorrect
+['andrew marshall'],charlie,0,0.46,incorrect
+['matt'],sam,0,0.29,incorrect
+['george'],porter,0,0.5,incorrect
+['andrew'],south,0,0.0,incorrect
+['andrew'],crist,0,0.18,incorrect
+['andrew'],vinnie,0,0.33,incorrect
+['ryan'],southern,0,0.33,incorrect
+['ryan'],chandler,0,0.33,incorrect
+['ryan'],belt,0,0.0,incorrect
+['devon'],chet,0,0.22,incorrect
+['ryan'],mom,0,0.0,incorrect
+['devon'],charlie,0,0.17,incorrect
+['ryan'],charlie,0,0.18,incorrect
+['bernards'],curley,0,0.14,incorrect
+['how'],judy,0,0.0,incorrect
+['bernard'],curtis,0,0.15,incorrect
+['ryan'],charlie,0,0.18,incorrect
+['ryan'],ryan,1,1.0,correct
+['ryan'],phone,0,0.22,incorrect
+['ryan'],devon,0,0.22,incorrect
+['ryan'],john,0,0.25,incorrect
+['ryan'],driver,0,0.2,incorrect
+['deputy bullock'],officer,0,0.29,incorrect
+['porter'],miss marple,0,0.24,incorrect
+['devon'],robert,0,0.18,incorrect
+['porter'],jane,0,0.2,incorrect
+['ryan'],grandpa,0,0.55,incorrect
+['evelyn porter'],camille,0,0.2,incorrect
+['andrew marshall'],dad,0,0.44,incorrect
+['andrew'],myrtle,0,0.33,incorrect
+['matt'],joe,0,0.0,incorrect
+['matt'],coach,0,0.22,incorrect
+['andrew marshall'],richard,0,0.4,incorrect
+['andrew marshall'],senator,0,0.31,incorrect
+['matt'],marshall,0,0.33,incorrect
+['matt'],victor,0,0.2,incorrect
+['marshall'],ryan,0,0.33,incorrect
+['nelson'],senator harrison,0,0.36,incorrect
+['matt'],dad,0,0.29,incorrect
+['matt'],jenny,0,0.0,incorrect
+['amy holder'],ray,0,0.67,incorrect
+['ryan'],george,0,0.2,incorrect
+['ryan'],sodapop,0,0.18,incorrect
+['amy'],grand,0,0.25,incorrect
+['amy holder'],atlanta,0,0.24,incorrect
+['amy holder'],brink's,0,0.15,incorrect
+['amy holder'],nick,0,0.0,incorrect
+['amy holder'],georgia,0,0.31,incorrect
+['ryan'],dad,0,0.29,incorrect
+['ryan'],dad,0,0.29,incorrect
+['ryan'],jen,0,0.29,incorrect
+['james'],dallas,0,0.36,incorrect
+['ryan'],charlie,0,0.18,incorrect
+['bobby flay'],alton,0,0.22,incorrect
+['ryan'],greg,0,0.25,incorrect
+['ryan'],dexter,0,0.2,incorrect
+['ryan'],cherry,0,0.4,incorrect
+['ryan'],dallas,0,0.2,incorrect
+['james'],charlie,0,0.33,incorrect
+['matt'],smith,0,0.44,incorrect
+['george'],max,0,0.0,incorrect
+['george'],charlie,0,0.31,incorrect
+['t'],boone,0,0.0,incorrect
+['tyron'],heisman,0,0.17,incorrect
+['george'],ups,0,0.0,incorrect
+['george'],ranger,0,0.5,incorrect
+['andrew marshall'],charlie,0,0.46,incorrect
+['george'],sam,0,0.0,incorrect
+['george'],cherry,0,0.33,incorrect
+['cameron'],president,0,0.25,incorrect
+['roger'],ncaa,0,0.0,incorrect
+['cameron'],orgeron,0,0.57,incorrect
+['ryan'],dean,0,0.5,incorrect
+['ryan'],rebecca,0,0.36,incorrect
+['ryan'],cherry,0,0.4,incorrect
+['ryan'],augustus,0,0.17,incorrect
+['ryan'],reynolds,0,0.5,incorrect
+['ryan'],ryan,1,1.0,correct
+['amy holder'],dallas,0,0.25,incorrect
+['ryan'],romeo,0,0.22,incorrect
+['tate'],porter,0,0.4,incorrect
+['devon'],max,0,0.0,incorrect
+['tate'],devon,0,0.22,incorrect
+['ralph tate'],keith,0,0.22,incorrect
+['sawyer'],christian,0,0.27,incorrect
+['tate'],independence,0,0.12,incorrect
+['sawyer'],dave,0,0.4,incorrect
+['sawyer'],butch,0,0.0,incorrect
+['sawyer'],charlie,0,0.31,incorrect
+['sawyer'],brother,0,0.31,incorrect
+['sawyer'],francis,0,0.15,incorrect
+['george'],jude,0,0.2,incorrect
+['ryan'],cherry,0,0.4,incorrect
+['tate'],devon,0,0.22,incorrect
+['andrew marshall'],mcgovern,0,0.25,incorrect
+['marshall'],mcgovern,0,0.25,incorrect
+['andrew'],darman,0,0.33,incorrect
+['andrew marshall'],susan,0,0.36,incorrect
+['andrew'],sal,0,0.22,incorrect
+['andrew marshall'],darry,0,0.36,incorrect
+['george'],stradlater,0,0.25,incorrect
+['lucca'],harper,0,0.18,incorrect
+['james'],daddy,0,0.2,incorrect
+['ryan'],ray,0,0.57,incorrect
+['ryan'],rohan,0,0.67,incorrect
+['amy holder'],georgia,0,0.31,incorrect
+['george'],john,0,0.2,incorrect
+['ryan'],jen,0,0.29,incorrect
+['george'],cherry,0,0.33,incorrect
+['ryan'],romeo,0,0.22,incorrect
+['ryan'],cherry,0,0.4,incorrect
+['ryan'],home,0,0.0,incorrect
+['ryan'],charlie,0,0.18,incorrect
+['mama'],sally,0,0.22,incorrect
+['mama'],cherry,0,0.0,incorrect
+['mama'],emily,0,0.22,incorrect
+['amy holder'],raymond,0,0.47,incorrect
+['amy'],camille,0,0.4,incorrect
+['amy'],wonder woman,0,0.13,incorrect
+['amy'],matilda,0,0.2,incorrect
+['amy holder'],cyberdyne,0,0.32,incorrect
+['amy'],jess,0,0.0,incorrect
+['amy'],augusta,0,0.2,incorrect
+['amy'],red,0,0.0,incorrect
+['devon'],raven,0,0.4,incorrect
+['amy'],susan,0,0.25,incorrect
+['crofton'],east,0,0.18,incorrect
+['amy holder'],the victim,0,0.25,incorrect
+['amy holder'],emily,0,0.5,incorrect
+['amy holder'],emily,0,0.5,incorrect
+['amy'],juno,0,0.0,incorrect
+['amy holder'],richard,0,0.31,incorrect
+['amy'],jim,0,0.33,incorrect
+['tyron'],mom,0,0.25,incorrect
+['jayden'],dallas,0,0.17,incorrect
+['ryan'],robert,0,0.2,incorrect
+['george'],charlie,0,0.31,incorrect
+['lucca'],ryan,0,0.22,incorrect
+['george'],sarah,0,0.18,incorrect
+['amy holder'],her,0,0.67,incorrect
+['amy'],charlie,0,0.2,incorrect
+['porter'],tris,0,0.4,incorrect
+['devon'],chad,0,0.22,incorrect
+['tate'],heist,0,0.22,incorrect
+['amy'],devon,0,0.0,incorrect
+['amy'],cam,0,0.67,incorrect
+['amy'],dolores,0,0.0,incorrect
+['amy'],phoenix,0,0.0,incorrect
+['amy'],sarah,0,0.25,incorrect
+['amy'],butch,0,0.0,incorrect
+['connollys'],forensics,0,0.33,incorrect
+['amy'],cherry,0,0.22,incorrect
+['amy'],jane,0,0.29,incorrect
+['devon'],mom,0,0.25,incorrect
+['ryan'],ty,0,0.33,incorrect
+['ryan'],mike,0,0.0,incorrect
+['ryan'],todd,0,0.0,incorrect
+['mama'],ma,0,0.67,incorrect
+['ryan'],huck,0,0.0,incorrect
+['ryan'],ray,0,0.57,incorrect
+['ryan'],holden,0,0.2,incorrect
+['ryan'],jack,0,0.25,incorrect
+['ryan'],john,0,0.25,incorrect
+['james'],them,0,0.22,incorrect
+['ryan'],charlie,0,0.18,incorrect
+['ryan'],jason,0,0.44,incorrect

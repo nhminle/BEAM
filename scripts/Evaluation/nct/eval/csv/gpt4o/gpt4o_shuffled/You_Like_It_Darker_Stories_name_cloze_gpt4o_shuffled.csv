@@ -1,0 +1,508 @@
+Single_ent,en_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,en_correct
+['ruth crawford'],john,0,0.25,incorrect
+['mark'],standard,0,0.33,incorrect
+['butch'],andy,0,0.0,incorrect
+['crawford'],pop,0,0.18,incorrect
+['dave'],nowheresville,0,0.24,incorrect
+['butch'],pop,0,0.0,incorrect
+['alden'],huck,0,0.0,incorrect
+['carmody'],lightning,0,0.0,incorrect
+['ruth crawford'],koffee,0,0.14,incorrect
+['ruth crawford'],covid,0,0.46,incorrect
+['crawford'],smith,0,0.0,incorrect
+['dave'],dad,0,0.57,incorrect
+['dave'],harley,0,0.4,incorrect
+['uncle butch'],he,0,0.29,incorrect
+['hathaway'],roberts,0,0.13,incorrect
+['butch'],aslan,0,0.0,incorrect
+['robert johnson'],faust,0,0.18,incorrect
+['ruth'],pop,0,0.0,incorrect
+['carmody'],benson,0,0.15,incorrect
+['ruth'],pop,0,0.0,incorrect
+['ruth crawford'],frost,0,0.44,incorrect
+['mark'],hemingway,0,0.31,incorrect
+['pop'],tom,0,0.33,incorrect
+['butch'],jilasi,0,0.0,incorrect
+['ruth'],harry,0,0.22,incorrect
+['ruth crawford'],butch,0,0.67,incorrect
+['mark'],smith,0,0.22,incorrect
+['tommy'],kerouac,0,0.17,incorrect
+['ruth'],father,0,0.4,incorrect
+['jack elway'],fire,0,0.22,incorrect
+['uncle butch'],pop,0,0.0,incorrect
+['ruth crawford'],pop,0,0.18,incorrect
+['benson'],steve,0,0.18,incorrect
+['patel'],he,0,0.29,incorrect
+['butch'],holden,0,0.18,incorrect
+['mark'],lewis,0,0.0,incorrect
+['nellybelle'],johnson,0,0.12,incorrect
+['butch'],boots,0,0.4,incorrect
+['butch'],nelly,0,0.0,incorrect
+['butch'],nellybelle,0,0.13,incorrect
+['butch'],frosty,0,0.18,incorrect
+['butch'],houdini,0,0.17,incorrect
+['butch'],spock,0,0.2,incorrect
+['butch'],terrible,0,0.15,incorrect
+['butch'],mulder,0,0.18,incorrect
+['butch'],something,0,0.29,incorrect
+['butch'],john,0,0.22,incorrect
+['butch'],holden,0,0.18,incorrect
+['butch'],hemingway,0,0.14,incorrect
+['bud'],john,0,0.0,incorrect
+['butch'],roy,0,0.0,incorrect
+['butch'],johnny,0,0.18,incorrect
+['butch'],steve,0,0.2,incorrect
+['butch'],stone,0,0.2,incorrect
+['butch'],hobbes,0,0.18,incorrect
+['butch'],louise,0,0.18,incorrect
+['butch'],mary,0,0.0,incorrect
+['butch'],he,0,0.29,incorrect
+['butch'],juliet,0,0.36,incorrect
+['butch'],mary,0,0.0,incorrect
+['butch'],oxy,0,0.0,incorrect
+['butch'],emily,0,0.0,incorrect
+['butch'],alice,0,0.2,incorrect
+['butch'],life,0,0.0,incorrect
+['butch'],consciousness,0,0.11,incorrect
+['butch'],alice,0,0.2,incorrect
+['butch'],dad,0,0.0,incorrect
+['butch'],nickel,0,0.18,incorrect
+['bud'],visitor,0,0.0,incorrect
+['ylla'],smith,0,0.0,incorrect
+['yella'],john,0,0.0,incorrect
+['butch'],thich,0,0.6,incorrect
+['ylla'],life,0,0.25,incorrect
+['butch'],gatsby,0,0.18,incorrect
+['butch'],hemingway,0,0.14,incorrect
+['butch'],black,0,0.4,incorrect
+['butch'],holden,0,0.18,incorrect
+['butch'],gatsby,0,0.18,incorrect
+['butch'],jack,0,0.22,incorrect
+['ylla'],gatsby,0,0.2,incorrect
+['jack'],zeus,0,0.0,incorrect
+['butch'],sarah,0,0.2,incorrect
+['pop'],alice,0,0.0,incorrect
+['uncle butch'],pop,0,0.0,incorrect
+['susan'],jill,0,0.0,incorrect
+['mark carmody'],kafka,0,0.44,incorrect
+['stanhope'],beethoven,0,0.47,incorrect
+['joan jett'],beethoven,0,0.31,incorrect
+['albert ammons'],woogie,0,0.17,incorrect
+['jack'],bill,0,0.0,incorrect
+['randy'],bill,0,0.0,incorrect
+['jack'],adam,0,0.25,incorrect
+['randy'],grant,0,0.6,incorrect
+['ralph'],wretched,0,0.31,incorrect
+['brown'],charlie,0,0.17,incorrect
+['james'],grandfather,0,0.25,incorrect
+['rox'],mother,0,0.22,incorrect
+['danny'],scrooge,0,0.0,incorrect
+['danny'],huck,0,0.0,incorrect
+['danny'],elephant,0,0.31,incorrect
+['danny'],harry,0,0.4,incorrect
+['danny'],america,0,0.17,incorrect
+['danny'],john,0,0.22,incorrect
+['danny'],havoline,0,0.31,incorrect
+['danny'],colorado,0,0.15,incorrect
+['danny'],wilder,0,0.18,incorrect
+['danny'],august,0,0.18,incorrect
+['jesse'],jamal,0,0.2,incorrect
+['pat'],john,0,0.0,incorrect
+['jesse jackson'],wilder,0,0.18,incorrect
+['danny'],texaco,0,0.18,incorrect
+['danny'],hilltop,0,0.0,incorrect
+['danny'],got,0,0.0,incorrect
+['danny'],beaver,0,0.18,incorrect
+['danny'],she,0,0.0,incorrect
+['danny'],wilder,0,0.18,incorrect
+['becky'],honda,0,0.0,incorrect
+['gunnel'],kansas,0,0.17,incorrect
+['danny'],his,0,0.0,incorrect
+['danny'],arthur,0,0.18,incorrect
+['danny'],ralph,0,0.2,incorrect
+['danny'],bone,0,0.22,incorrect
+['danny'],rover,0,0.0,incorrect
+['danny'],ralph,0,0.2,incorrect
+['danny'],joad,0,0.22,incorrect
+['thompson'],walmart,0,0.13,incorrect
+['danny'],visa,0,0.22,incorrect
+['danny'],hamlet,0,0.18,incorrect
+['danny'],john,0,0.22,incorrect
+['danny'],wilder,0,0.18,incorrect
+['danny'],salina,0,0.36,incorrect
+['becky'],flora,0,0.0,incorrect
+['pete'],jane,0,0.25,incorrect
+['danny'],anonymous,0,0.57,incorrect
+['danny'],jodi,0,0.22,incorrect
+['danny'],smith,0,0.0,incorrect
+['danny'],mr. smith,0,0.0,incorrect
+['danny'],hank,0,0.44,incorrect
+['danny'],gatsby,0,0.36,incorrect
+['danny'],huck,0,0.0,incorrect
+['danny'],watson,0,0.36,incorrect
+['danny'],he,0,0.0,incorrect
+['jalbert'],cash,0,0.18,incorrect
+['danny'],kerouac,0,0.17,incorrect
+['danny'],he,0,0.0,incorrect
+['jalbert'],danny,0,0.17,incorrect
+['jalbert'],john,0,0.18,incorrect
+['jalbert'],smith,0,0.17,incorrect
+['danny'],manitou,0,0.33,incorrect
+['jalbert'],he,0,0.22,incorrect
+['jalbert'],arthur,0,0.46,incorrect
+['danny'],holden,0,0.36,incorrect
+['jalbert'],sheila,0,0.15,incorrect
+['gunnel'],alaska,0,0.17,incorrect
+['danny'],holden,0,0.36,incorrect
+['danny'],holden,0,0.36,incorrect
+['danny'],wichita,0,0.17,incorrect
+['becky'],dj,0,0.0,incorrect
+['jalbert'],scott,0,0.17,incorrect
+['jalbert'],wicker,0,0.31,incorrect
+['beck'],dj,0,0.0,incorrect
+['darla jean'],sheila,0,0.4,incorrect
+['danny'],he,0,0.0,incorrect
+['jalbert'],he,0,0.22,incorrect
+['gunnel'],walter,0,0.17,incorrect
+['jalbert'],heidi,0,0.17,incorrect
+['jalbert'],john,0,0.18,incorrect
+['jalbert'],atticus,0,0.29,incorrect
+['jalbert'],smith,0,0.17,incorrect
+['john q'],citizen,0,0.18,incorrect
+['danny'],officer,0,0.0,incorrect
+['danny'],johnny,0,0.55,incorrect
+['jalbert'],conductor,0,0.12,incorrect
+['danny'],joe,0,0.0,incorrect
+['ball'],clouseau,0,0.17,incorrect
+['ball'],gatsby,0,0.2,incorrect
+['ball'],john,0,0.0,incorrect
+['danny'],john,0,0.22,incorrect
+['ball'],colleague,0,0.31,incorrect
+['danny'],michael,0,0.17,incorrect
+['danny'],steve,0,0.0,incorrect
+['danny'],fuse,0,0.0,incorrect
+['danny'],tom,0,0.0,incorrect
+['danny'],steve,0,0.0,incorrect
+['jalbert'],danny,0,0.17,incorrect
+['danny'],dad,0,0.5,incorrect
+['ball'],gatsby,0,0.2,incorrect
+['ella'],he,0,0.33,incorrect
+['danny'],alice,0,0.2,incorrect
+['jalbert'],food,0,0.0,incorrect
+['jesse'],john,0,0.22,incorrect
+['pat'],door,0,0.0,incorrect
+['jesse'],dexter,0,0.36,incorrect
+['pat'],john,0,0.0,incorrect
+['sarah'],emma,0,0.22,incorrect
+['susan eggers'],smith,0,0.2,incorrect
+['danny'],holden,0,0.36,incorrect
+['danny'],smith,0,0.0,incorrect
+['danny'],atticus,0,0.17,incorrect
+['danny'],kansas,0,0.36,incorrect
+['susan eggers'],wilder,0,0.33,incorrect
+['jesse jackson'],johnny,0,0.46,incorrect
+['danny'],whs,0,0.0,incorrect
+['jalbert'],gatsby,0,0.31,incorrect
+['yvonne'],havisham,0,0.14,incorrect
+['danny'],jalbert,0,0.17,incorrect
+['jalbert'],holden,0,0.31,incorrect
+['danny'],gatsby,0,0.36,incorrect
+['danny'],johnny,0,0.55,incorrect
+['danny'],yoda,0,0.44,incorrect
+['can'],he,0,0.0,incorrect
+['danny'],sorry,0,0.2,incorrect
+['frank jalbert'],sheila,0,0.18,incorrect
+['danny'],plains,0,0.36,incorrect
+['danny'],fanny,0,0.8,correct
+['frank'],john,0,0.22,incorrect
+['jalbert'],smith,0,0.17,incorrect
+['jalbert'],troop,0,0.17,incorrect
+['calten'],watson,0,0.5,incorrect
+['calten'],john,0,0.2,incorrect
+['jalbert'],john,0,0.18,incorrect
+['jalbert'],scrooge,0,0.14,incorrect
+['calten'],trooper,0,0.31,incorrect
+['danny'],oak,0,0.25,incorrect
+['danny'],brick,0,0.0,incorrect
+['danny'],johnny,0,0.55,incorrect
+['jalbert'],marie,0,0.33,incorrect
+['danny'],he,0,0.0,incorrect
+['jalbert'],smith,0,0.17,incorrect
+['danny'],kafka,0,0.2,incorrect
+['danny'],stephen,0,0.17,incorrect
+['danny'],kansas,0,0.36,incorrect
+['jalbert'],andy,0,0.18,incorrect
+['danny'],gatsby,0,0.36,incorrect
+['danny'],trooper,0,0.0,incorrect
+['danny'],manitou,0,0.33,incorrect
+['danny'],her,0,0.0,incorrect
+['uncle red'],gatsby,0,0.0,incorrect
+['danny'],sally,0,0.4,incorrect
+['danny'],lady,0,0.44,incorrect
+['jalbert'],be,0,0.44,incorrect
+['jalbert'],troop,0,0.17,incorrect
+['jalbert'],he’ll,0,0.17,incorrect
+['jalbert'],colorado,0,0.27,incorrect
+['jalbert'],enter,0,0.33,incorrect
+['jalbert'],he,0,0.22,incorrect
+['jalbert'],armstrong,0,0.38,incorrect
+['jalbert'],don,0,0.0,incorrect
+['jalbert'],clouseau,0,0.27,incorrect
+['yvonne'],miss,0,0.0,incorrect
+['yvonne'],havisham,0,0.14,incorrect
+['beer pong'],santa,0,0.22,incorrect
+['danny'],john,0,0.22,incorrect
+['danny'],jesse,0,0.0,incorrect
+['jesse'],johnny,0,0.18,incorrect
+['jesse'],logan,0,0.0,incorrect
+['jalbert'],jane,0,0.55,incorrect
+['danny'],alice,0,0.2,incorrect
+['danny'],longmont,0,0.31,incorrect
+['yvonne'],miss,0,0.0,incorrect
+['jalbert'],wilder,0,0.46,incorrect
+['danny'],sheila,0,0.18,incorrect
+['andersson'],frank,0,0.29,incorrect
+['danny'],denver,0,0.36,incorrect
+['ma'],dj,0,0.0,incorrect
+['danny'],harry,0,0.4,incorrect
+['danny'],hulk,0,0.0,incorrect
+['ma'],he,0,0.0,incorrect
+['andersson'],frodo,0,0.29,incorrect
+['wolf lumber'],inspector,0,0.27,incorrect
+['shakespeare'],cloud,0,0.0,incorrect
+['andersson'],gatsby,0,0.27,incorrect
+['peter andersson'],mary,0,0.31,incorrect
+['calten'],sarah,0,0.18,incorrect
+['yvonne'],arkansas,0,0.14,incorrect
+['jalbert'],sherlock,0,0.27,incorrect
+['peter andersson'],alexa,0,0.29,incorrect
+['andersson'],holden,0,0.4,incorrect
+['jalbert'],john,0,0.18,incorrect
+['ella'],gatsby,0,0.2,incorrect
+['frank'],gatsby,0,0.18,incorrect
+['ella'],cords,0,0.0,incorrect
+['ella'],he,0,0.33,incorrect
+['jalbert'],he,0,0.22,incorrect
+['jesse'],johnny,0,0.18,incorrect
+['ball'],wichita,0,0.18,incorrect
+['ball'],harry,0,0.22,incorrect
+['frank jalbert'],rumor,0,0.22,incorrect
+['jesse'],black,0,0.0,incorrect
+['danny'],gatsby,0,0.36,incorrect
+['ball'],danny,0,0.22,incorrect
+['ball'],atticus,0,0.18,incorrect
+['bastard'],johnny,0,0.0,incorrect
+['danny'],ralph,0,0.2,incorrect
+['danny'],dabney,0,0.73,correct
+['jesse'],hunter,0,0.18,incorrect
+['broder'],john,0,0.2,incorrect
+['ball'],what,0,0.25,incorrect
+['danny'],ratchet,0,0.17,incorrect
+['ball'],jax,0,0.29,incorrect
+['jalbert'],sunflower,0,0.38,incorrect
+['ball'],john,0,0.0,incorrect
+['hank allard'],heath,0,0.44,incorrect
+['jalbert'],monopoly,0,0.13,incorrect
+['jalbert'],god,0,0.0,incorrect
+['allard'],buddy,0,0.18,incorrect
+['frank'],johnny,0,0.18,incorrect
+['ella'],gatsby,0,0.2,incorrect
+['jalbert'],jigsaw,0,0.31,incorrect
+['jalbert'],holmes,0,0.31,incorrect
+['charles beeson'],fruit,0,0.17,incorrect
+['danny'],charged,0,0.17,incorrect
+['danny'],john,0,0.22,incorrect
+['jalbert'],john,0,0.18,incorrect
+['h'],it,0,0.0,incorrect
+['chuck'],texaco,0,0.18,incorrect
+['ella'],jalbert,0,0.18,incorrect
+['jalbert'],alice,0,0.5,incorrect
+['bobby feeney'],gatsby,0,0.36,incorrect
+['bobby feeney'],peeke,0,0.55,incorrect
+['bobby'],briefcase,0,0.14,incorrect
+['ludlum'],watson,0,0.0,incorrect
+['ludlum'],mr.,0,0.22,incorrect
+['ludlum'],finn,0,0.0,incorrect
+['ludlum'],darcy,0,0.18,incorrect
+['roll'],elvis,0,0.22,incorrect
+['marm'],dad,0,0.29,incorrect
+['doc'],alice,0,0.25,incorrect
+['pando'],james,0,0.2,incorrect
+['pando'],john,0,0.22,incorrect
+['doc'],feeney,0,0.0,incorrect
+['doc'],johnny,0,0.22,incorrect
+['pando'],gatsby,0,0.18,incorrect
+['bobby feeney'],peeke,0,0.55,incorrect
+['brown'],mr.,0,0.25,incorrect
+['frank'],australian,0,0.4,incorrect
+['brown'],granpop,0,0.33,incorrect
+['frank'],god,0,0.0,incorrect
+['frank'],emily,0,0.0,incorrect
+['frank'],god,0,0.0,incorrect
+['frank brown'],gatsby,0,0.24,incorrect
+['frank'],derry,0,0.2,incorrect
+['frank'],dad,0,0.25,incorrect
+['frank'],dad,0,0.25,incorrect
+['mary'],mary,1,1.0,correct
+['galen'],johnny,0,0.18,incorrect
+['frank'],john,0,0.22,incorrect
+['frank'],gramps,0,0.36,incorrect
+['galen'],mary,0,0.22,incorrect
+['frank'],gatsby,0,0.18,incorrect
+['frank'],gatsby,0,0.18,incorrect
+['galen'],help,0,0.22,incorrect
+['frank'],dad,0,0.25,incorrect
+['nan'],derry,0,0.0,incorrect
+['pete'],rain,0,0.0,incorrect
+['galen'],tom,0,0.0,incorrect
+['galen'],he,0,0.29,incorrect
+['frank'],dad,0,0.25,incorrect
+['crocker'],penny,0,0.17,incorrect
+['alvarez'],america,0,0.29,incorrect
+['alvarez'],michael,0,0.29,incorrect
+['alvarez'],casey,0,0.33,incorrect
+['alvarez'],presbyterian,0,0.21,incorrect
+['pat'],emily,0,0.0,incorrect
+['mary worth'],key,0,0.29,incorrect
+['mary worth'],chatgpt,0,0.24,incorrect
+['stuart'],smith,0,0.36,incorrect
+['mary worth'],god,0,0.25,incorrect
+['freeman'],john,0,0.18,incorrect
+['mary worth'],dixon,0,0.2,incorrect
+['freeman'],simon,0,0.33,incorrect
+['beard scruff'],gordon,0,0.36,incorrect
+['freeman'],hurricane,0,0.38,incorrect
+['frank freeman'],holden,0,0.31,incorrect
+['mary worth'],her,0,0.29,incorrect
+['mary worth'],sheila,0,0.2,incorrect
+['mary worth'],john,0,0.44,incorrect
+['mary worth'],dallas,0,0.2,incorrect
+['lloyd'],amber,0,0.0,incorrect
+['beth'],marian,0,0.0,incorrect
+['lloyd sunderland'],emma,0,0.29,incorrect
+['lloyd'],rover,0,0.2,incorrect
+['beth'],boca,0,0.25,incorrect
+['lloyd'],beatrice,0,0.0,incorrect
+['beth'],alley,0,0.22,incorrect
+['lloyd'],jenny,0,0.2,incorrect
+['beth'],lloyd,0,0.0,incorrect
+['lloyd'],aliens,0,0.18,incorrect
+['don'],tim,0,0.0,incorrect
+['lloyd'],gregor,0,0.18,incorrect
+['baez'],john,0,0.0,incorrect
+['beth'],lloyd,0,0.0,incorrect
+['evelyn'],rover,0,0.36,incorrect
+['evelyn'],scrooge,0,0.15,incorrect
+['lloyd'],constance,0,0.14,incorrect
+['lloyd'],don,0,0.25,incorrect
+['lloyd'],atticus,0,0.0,incorrect
+['greg'],atticus,0,0.0,incorrect
+['greg'],emma,0,0.25,incorrect
+['ta'],november,0,0.0,incorrect
+['greg'],darwin,0,0.2,incorrect
+['carter'],johnson,0,0.0,incorrect
+['greg ackerman'],brite,0,0.44,incorrect
+['greg'],trump,0,0.22,incorrect
+['greg'],library,0,0.18,incorrect
+['trenton'],smith,0,0.17,incorrect
+['greg'],john,0,0.0,incorrect
+['trenton'],smith,0,0.17,incorrect
+['duma key'],island,0,0.2,incorrect
+['donna'],boston,0,0.36,incorrect
+['greg'],jonathan,0,0.0,incorrect
+['bell'],delilah,0,0.55,incorrect
+['sotalol'],tampa,0,0.33,incorrect
+['zane'],atticus,0,0.18,incorrect
+['canavan'],grease,0,0.15,incorrect
+['zane'],winnie,0,0.4,incorrect
+['bell'],hyde,0,0.25,incorrect
+['zane'],pelley,0,0.2,incorrect
+['bell'],true,0,0.25,incorrect
+['donna'],gatsby,0,0.18,incorrect
+['duma key'],ralph,0,0.22,incorrect
+['greg ackerman'],alice,0,0.46,incorrect
+['donna'],providence,0,0.27,incorrect
+['donna'],newburyport,0,0.12,incorrect
+['zane'],locksmith,0,0.0,incorrect
+['tom brokaw'],kong,0,0.29,incorrect
+['tad'],bell,0,0.0,incorrect
+['zane'],officer,0,0.18,incorrect
+['sandy hook'],neil,0,0.22,incorrect
+['trenton'],smith,0,0.17,incorrect
+['joe bell'],rattlesnake,0,0.21,incorrect
+['andy pelley'],he,0,0.25,incorrect
+['zane'],jem,0,0.29,incorrect
+['donna'],bernard,0,0.33,incorrect
+['donna'],december,0,0.15,incorrect
+['tad'],holden,0,0.22,incorrect
+['donna'],mary,0,0.22,incorrect
+['trenton'],smith,0,0.17,incorrect
+['pelley'],gatsby,0,0.17,incorrect
+['bell'],mrs.,0,0.0,incorrect
+['jerry gant'],chief,0,0.2,incorrect
+['duma'],gulf,0,0.25,incorrect
+['duma key'],dug,0,0.57,incorrect
+['pelley'],disney,0,0.33,incorrect
+['bobby g'],eeyore,0,0.18,incorrect
+['bell'],smith,0,0.0,incorrect
+['zane'],dawn,0,0.5,incorrect
+['donna'],gatsby,0,0.18,incorrect
+['bell'],holmes,0,0.2,incorrect
+['pelley'],imagination,0,0.0,incorrect
+['pelley'],andy,0,0.2,incorrect
+['pelley'],rattlesnake,0,0.24,incorrect
+['bell'],mrs.,0,0.0,incorrect
+['greg'],allie,0,0.22,incorrect
+['greg'],finny,0,0.0,incorrect
+['greg'],jem,0,0.29,incorrect
+['donna'],peter,0,0.0,incorrect
+['jekyll'],heckle,0,0.5,incorrect
+['andy pelley'],dexter,0,0.35,incorrect
+['bell'],smith,0,0.0,incorrect
+['pelley'],smith,0,0.0,incorrect
+['greg ackerman'],honey,0,0.22,incorrect
+['greg'],gatsby,0,0.2,incorrect
+['tad'],christopher,0,0.14,incorrect
+['donna'],rover,0,0.2,incorrect
+['tad'],harmony,0,0.2,incorrect
+['zane'],she,0,0.29,incorrect
+['zane'],lloyd,0,0.0,incorrect
+['tad trenton'],bernard,0,0.4,incorrect
+['andy pelley'],gatsby,0,0.4,incorrect
+['andy'],sherlock,0,0.0,incorrect
+['pelley'],deputy,0,0.33,incorrect
+['pelley'],harry,0,0.18,incorrect
+['pelley'],tad,0,0.0,incorrect
+['macbeth'],oedipus,0,0.14,incorrect
+['sylvester'],trenton,0,0.25,incorrect
+['greg'],red,0,0.57,incorrect
+['andy pelley'],key,0,0.44,incorrect
+['joe'],his,0,0.0,incorrect
+['donna trenton'],bernard,0,0.33,incorrect
+['jake bell'],calypso,0,0.25,incorrect
+['duma key'],daylight,0,0.38,incorrect
+['duma key'],gatsby,0,0.29,incorrect
+['eberhard faber'],pounds,0,0.14,incorrect
+['jung'],temp-o,0,0.0,incorrect
+['jung'],icarus,0,0.2,incorrect
+['annette crosby'],elgin,0,0.17,incorrect
+['devereaux'],charlie,0,0.25,incorrect
+['devereaux'],elgin,0,0.14,incorrect
+['devereaux'],fido,0,0.15,incorrect
+['devereaux'],wolf,0,0.0,incorrect
+['blake'],harlow,0,0.18,incorrect
+['pearson'],lake,0,0.18,incorrect
+['nahn tu'],lincoln,0,0.36,incorrect
+['sally ann'],old,0,0.25,incorrect
+['curry'],parker,0,0.36,incorrect
+['john parker'],66,0,0.0,incorrect
+['sally ann'],johnny,0,0.44,incorrect
+['sally ann'],hamlet,0,0.36,incorrect
+['sally ann'],sal,0,0.75,correct
+['toomey'],smith,0,0.18,incorrect
+['grayson'],smith,0,0.17,incorrect
+['curry'],conway,0,0.36,incorrect
+['curry'],phil,0,0.0,incorrect
+['jake'],john,0,0.25,incorrect
+['lacasse'],conway,0,0.31,incorrect
+['frank'],hamlet,0,0.18,incorrect

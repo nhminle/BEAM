@@ -1,0 +1,49 @@
+Single_ent,en_masked_results,en_exact_match,en_highest_fuzzy_match,en_correct
+['eager beaver'],nick,0,0.0,incorrect
+['hannah'],johnny,0,0.5,incorrect
+['kalpana chawla'],philosophy,0,0.25,incorrect
+['floyd'],crudity,0,0.17,incorrect
+['floyd'],aunt,0,0.0,incorrect
+['mara'],sarah,0,0.67,incorrect
+['mara'],darrell,0,0.36,incorrect
+['floyd'],cousin,0,0.18,incorrect
+['python'],python,1,1.0,correct
+['let'],sophie,0,0.22,incorrect
+['fuck'],bella,0,0.0,incorrect
+['hannah'],charlie,0,0.31,incorrect
+['mara'],jeanie,0,0.2,incorrect
+['merel'],dr. zhang,0,0.14,incorrect
+['hannah'],cherry,0,0.17,incorrect
+['mara'],sodapop,0,0.18,incorrect
+['mara'],maddie,0,0.4,incorrect
+['merel'],dr. zhang,0,0.14,incorrect
+['karl'],greg,0,0.25,incorrect
+['haven'],editor,0,0.18,incorrect
+['arroyo'],squyres,0,0.15,incorrect
+['arroyo'],mae,0,0.22,incorrect
+['merel'],smith,0,0.2,incorrect
+['floyd'],administrators,0,0.11,incorrect
+['merel'],graves,0,0.36,incorrect
+['hannah'],darry,0,0.18,incorrect
+['merel'],johnny,0,0.0,incorrect
+['hannah'],longyearbyen,0,0.22,incorrect
+['merel'],world,0,0.4,incorrect
+['floyd'],dad,0,0.25,incorrect
+['hannah'],jay,0,0.22,incorrect
+['hannah'],nathan,0,0.5,incorrect
+['merel'],rory,0,0.22,incorrect
+['mara'],mom,0,0.29,incorrect
+['mara'],sarah,0,0.67,incorrect
+['floyd'],curtis,0,0.0,incorrect
+['mara'],charlie,0,0.36,incorrect
+['mara'],simon,0,0.22,incorrect
+['great'],jay,0,0.25,incorrect
+['hannah'],jon,0,0.22,incorrect
+['hannah'],charlie,0,0.31,incorrect
+['hannah'],cherry,0,0.17,incorrect
+['hannah'],max,0,0.22,incorrect
+['hannah'],cherry,0,0.17,incorrect
+['mara'],broccoli,0,0.17,incorrect
+['hannah'],noah,0,0.6,incorrect
+['hannah'],ram,0,0.22,incorrect
+['hannah'],arctic,0,0.17,incorrect

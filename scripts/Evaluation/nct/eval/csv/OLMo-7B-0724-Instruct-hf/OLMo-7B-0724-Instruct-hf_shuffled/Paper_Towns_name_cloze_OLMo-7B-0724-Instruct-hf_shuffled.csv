@@ -1,0 +1,77 @@
+Single_ent,en_masked_shuffled_results,es_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+['cassie hiney'],unfortunate,maja,güzel,dám,0,0.25,0,0.2,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['chuck parson'],saw,anabólicos,cronos,tên,0,0.22,0,0.25,0,0.5,0,0.22,incorrect,incorrect,incorrect,incorrect
+['chuck'],kid,garrido,rol,myanmar,0,0.25,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['chuc', 'chuck']",such,baile,life,tôi,0,0.5,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['angela'],twelve,claus,noel,noel,0,0.33,0,0.36,0,0.6,0,0.6,incorrect,incorrect,incorrect,incorrect
+['margo'],deadhead,arroillat,borcu,cô,0,0.15,0,0.43,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo'],you're,exigiría,answer,hồn,0,0.18,0,0.15,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['margo', 'margo—']",got,zumbada,büir,ro,0,0.5,0,0.33,0,0.22,0,0.57,incorrect,incorrect,incorrect,incorrect
+['margo'],toy,kafka,name,park,0,0.25,0,0.2,0,0.22,0,0.44,incorrect,incorrect,incorrect,incorrect
+['margo'],life,vasallos,universiteye,alice,0,0.0,0,0.31,0,0.12,0,0.2,incorrect,incorrect,incorrect,incorrect
+['margo'],horn,zumbido,koma,cô b...,0,0.22,0,0.33,0,0.44,0,0.17,incorrect,incorrect,incorrect,incorrect
+['margo'], cousin,sobres,sevgilim,em,0,0.18,0,0.18,0,0.15,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo'],she,sánchez,ettin,passage,0,0.0,0,0.17,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['margo'],speech,siempre,panel,anh,0,0.0,0,0.33,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['margo'],she,extendí,kot,anh,0,0.0,0,0.0,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['margo'],digital,7-eleven,david,tai,0,0.17,0,0.0,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['margo'],she,worthington,burundan,hit,0,0.0,0,0.38,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jase'],,pensándolo,geri,cua,0,0.29,0,0.14,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo'],jimmy,masha,caravan,chà,0,0.2,0,0.4,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+['margo'],jefferson,barandilla,vakit,phụng,0,0.29,0,0.27,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['margo', 'marg']",arm,tocán,omzu,chúng,0,0.57,0,0.22,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['chuck parson'],crown,crown,sordun,tôi,0,0.55,0,0.55,0,0.5,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],car,chirrió,ciddi,an,0,0.5,0,0.33,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo'],window,doliú,sessizce,an,0,0.18,0,0.2,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['chuck parso', 'chuck parson']",guy,abrió,elder,bác,0,0.25,0,0.6,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['chuck parson'],four-twelve,oye,help,toi,0,0.17,0,0.22,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],eva,fue,eye,dao,0,0.25,0,0.0,0,0.0,0,0.5,incorrect,incorrect,incorrect,incorrect
+['margo'],ninjas,torpe,sakar,ninja,0,0.18,0,0.2,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+['margo'],triangle,protegido,haritayı,seaworld,0,0.31,0,0.43,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+['margo'],we,garcía,omzum,hiền,0,0.0,0,0.36,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],bushwhacking,aunque,zehirli,ai,0,0.24,0,0.18,0,0.17,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo'],man,"in the given passage, the phrase ""se ojos. preferimos no ingeniosas, andar [mask] pero réplicas a el que momento [mask]."" can be analyzed as follows:  * ""se ojos"" is a phrase that translates to ""with eyes"" in english. * ""preferimos no ingeniosas"" translates to ""we prefer not clever"" in english. * ""andar [mask]"" translates to ""walk [mask]"" in",adam,tôi,0,0.5,0,0.03,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['margo'],they're,y,etiler,bọn,0,0.17,0,0.0,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+['margo'],squinting,miranda,havuzlara,universal,0,0.14,0,0.33,0,0.29,0,0.14,incorrect,incorrect,incorrect,incorrect
+['margo roth spiegelman'],a,mis,yosun,bó,0,0.33,0,0.25,0,0.27,0,0.33,incorrect,incorrect,incorrect,incorrect
+['ben'],bathroom,retrete,uykuyabilmiştim,la-tinh,0,0.18,0,0.2,0,0.11,0,0.2,incorrect,incorrect,incorrect,incorrect
+['margo roth spiegelman'],dark,aquella,umak,daem,0,0.44,0,0.35,0,0.44,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo'],terry,gilipollas,sessizliğe,thang,0,0.2,0,0.27,0,0.13,0,0.4,incorrect,incorrect,incorrect,incorrect
+['margo'],smackdown,golpe,mask,thấy,0,0.43,0,0.4,0,0.44,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['quenti', 'quentin']",you,mira,phones,may,0,0.22,0,0.2,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],poem,siempre,park,jefferson,0,0.22,0,0.33,0,0.44,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo roth spiegelman'],miss,ni,kadar,margo,0,0.22,0,0.17,0,0.4,1,1.0,incorrect,incorrect,incorrect,correct
+['margo'],maybe,me,omur,tôi,0,0.4,0,0.29,0,0.44,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['bay jiminez', 'jiminez']",lecture,calvo,hyordu,bell,0,0.14,0,0.25,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['ben starling'],dancer,salvador,bakan,tôi,0,0.29,0,0.38,0,0.5,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['margo', 'marg']",draw circles kid,kafka,yıkıcı,thang,0,0.2,0,0.22,0,0.0,0,0.44,incorrect,incorrect,incorrect,incorrect
+['margo'],brick,cogí,en,alice,0,0.2,0,0.22,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['margo'],mall,york,ny,florida,0,0.44,0,0.22,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['margo', 'whitman']",bootsoles,augurio,altın,margot,0,0.14,0,0.5,0,0.33,0,0.91,incorrect,incorrect,incorrect,correct
+['ben'],board,se gira,levhaya,va,0,0.25,0,0.2,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],trails,campaña,ancak,tôi,0,0.18,0,0.33,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['margo', 'marg']",hands,arena,ata,cat,0,0.22,0,0.44,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo'],guy,infantil,ivan,ngọc,0,0.25,0,0.15,0,0.22,0,0.44,incorrect,incorrect,incorrect,incorrect
+['margo roth spiegelman'],she,omnictionarian96,omnictionarian96,cô dạ nếu,0,0.31,0,0.32,0,0.32,0,0.27,incorrect,incorrect,incorrect,incorrect
+['dennis mcmahon'],lights,me,marlboro,marlboro,0,0.33,0,0.25,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+['margo'],bar,dew,mountain,dew,0,0.5,0,0.0,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+['whitman'],sylviann,el,mesele,vân,0,0.4,0,0.0,0,0.15,0,0.4,incorrect,incorrect,incorrect,incorrect
+['margo'],jamaica,víajes,name,álsie,0,0.33,0,0.18,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lacey'],whispered,parecía,"in the given passage, the sentence ""açıklama mi. neredeyse alarak “o getirilmiş değil [mask], bir nefes ağzmdan dökülmüş, bir konuştuğunda öldü, açık bir süre dile bir kelimelere” is the relevant sentence. the phrase ""açık bir süre dile bir kelimelere"" can",margo,0,0.14,0,0.33,0,0.03,0,0.2,incorrect,incorrect,incorrect,incorrect
+['ben'],milwaukee,milwaukee's,paint,milwaukee,0,0.17,0,0.14,0,0.25,0,0.17,incorrect,incorrect,incorrect,incorrect
+['lacey'],ace,garcía,gus,gus,0,0.75,0,0.36,0,0.0,0,0.0,correct,incorrect,incorrect,incorrect
+['margo'],but,mapas,eden,dường,0,0.0,0,0.4,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['margo'],she,sí,egor,bay,0,0.0,0,0.0,0,0.44,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['margo roth spiegelma', 'margo roth spiegelman']",here,libros,kitabı,view,0,0.31,0,0.4,0,0.27,0,0.31,incorrect,incorrect,incorrect,incorrect
+['margo'],intellectual,razón,gün,chuẩn,0,0.12,0,0.4,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['margo', 'margo—']",friday,rara,guni,em,0,0.18,0,0.44,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo'],leaving,arrancar,terk,nhưng,0,0.33,0,0.31,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lacey'],my,barret,saklama,gofast,0,0.29,0,0.36,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['margo'],car,gala,kizi,sau,0,0.5,0,0.22,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['margo'],bum,tierra,ona,và,0,0.25,0,0.18,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo'],,todo,süre,thủ,0,0.25,0,0.22,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],she,tonterías,emine,cau,0,0.0,0,0.14,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['margo'],side,pulido,ben,tôi,0,0.0,0,0.18,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['lacey'],people,yanes,kimse,sao,0,0.36,0,0.4,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['margo', 'marg']",rowan,lanzo,sound,vào,0,0.4,0,0.4,0,0.2,0,0.5,incorrect,incorrect,incorrect,incorrect
+['margo'],agloe,espalda,long,agloe,0,0.6,0,0.17,0,0.22,0,0.6,incorrect,incorrect,incorrect,incorrect

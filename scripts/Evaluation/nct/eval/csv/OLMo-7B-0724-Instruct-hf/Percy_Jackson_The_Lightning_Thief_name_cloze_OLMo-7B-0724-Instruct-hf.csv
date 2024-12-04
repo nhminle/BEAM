@@ -1,0 +1,98 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+"['nancy bobofit', 'nancy']",seth,sobrenatural,adaman,le,0,0.18,0,0.32,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner']",mr. wachenheim,deles,romalı,thuy,0,0.29,0,0.17,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'murmuré', 'brunner']",mr. lastname,shelby,stele,thuy,0,0.42,0,0.44,0,0.17,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner']",kemp,martí,muzen,thang,0,0.18,0,0.25,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",knott,kafka,alev,cô,0,0.36,0,0.4,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['jackson', 'bay jackson', 'señor jackson']",mr.,you're,getirin,thang,0,0.25,0,0.36,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'bayan dodds']",mrsmullens,sara,bahsediyordum,friend,0,0.19,0,0.44,0,0.42,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",mrs.,visiones,pençeleri,cora,0,0.25,0,0.31,0,0.4,0,0.6,incorrect,incorrect,incorrect,incorrect
+"['nancy bobofit', 'nancy']",her,peleé,notlarım,anh,0,0.0,0,0.0,0,0.31,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner']",mr.,he,latine,thuy,0,0.2,0,0.22,0,0.35,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner']",mr. wilson,sanchez,karánlık,yancy,0,0.24,0,0.33,0,0.32,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner']",perkins,soliz,anatol,thuy,0,0.29,0,0.0,0,0.24,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner']",mr. jenkins,sir,yunan,thuy,0,0.33,0,0.2,0,0.5,0,0.29,incorrect,incorrect,incorrect,incorrect
+['nancy bobofit'],she,he,nazik,little,0,0.0,0,0.0,0,0.4,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['sally jackso', 'sally jackson']",lisa,sara,amca,bà,0,0.44,0,0.44,0,0.4,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['gabe cóc', 'gabe', 'gabe el apestoso']",smelly,he,anname,duan,0,0.5,0,0.5,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+['gabe'],sister,mama,annem,mother,0,0.2,0,0.25,0,0.44,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'bayan dodds', 'dodd']",mrs.,señora,aptalca,mei,0,0.22,0,0.24,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gabe'],kid,crío,o,gãi,0,0.0,0,0.0,0,0.0,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['gabe', 'gabe cóc chế', 'kokarca gabe', 'gabe el apestoso']",smelly,abandonados,biz,em,0,0.5,0,0.37,0,0.29,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['percy', 'perc']",mom,mother,annemingözlerinde,em,0,0.0,0,0.4,0,0.19,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",mrs.marsden,long island,ice,cathy,0,0.35,0,0.27,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner', 'señor brunner']",mr.,señora,vur,name,0,0.25,0,0.91,0,0.4,0,0.36,incorrect,correct,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",mrsmullins,le,backpack,cô,0,0.27,0,0.25,0,0.46,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bay d', 'mano', 'd']",mr.,d,puanlara,ngài,0,0.29,1,1.0,0,0.33,0,0.29,incorrect,correct,incorrect,incorrect
+"['bay d', 'percy', 'padre', 'd']",grimes,d,iurafa,father,0,0.36,1,1.0,0,0.22,0,0.36,incorrect,correct,incorrect,incorrect
+"['percy', 'olympia']",palace,olimpo,olimpos,hylap,0,0.36,0,0.62,0,0.57,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['quirón', 'brunner', 'kheiron', 'chiron']",paralyzed,wheelchair,belden,chiron,0,0.25,0,0.5,0,0.31,1,1.0,incorrect,incorrect,incorrect,correct
+"['percy jackson', 'perc']",camper,centauro,gel,chiron,0,0.6,0,0.33,0,0.29,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['quirón', 'kheiron', 'chiron']",idea,when,annemin,anna,0,0.2,0,0.55,0,0.43,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['quirón', 'kheiron', 'chiron']",dwight,eché,"in the given passage, the word filling the [mask] token is ""kabukları"" which translates to ""seashells"" in english. however, the context of the passage suggests that the author is describing objects that have been sunk directly from the ocean floor to the base of the rocks. therefore, the proper name that fills the [mask] token is ""seashells"" but based on the context, it seems that the author is describing something different, possibly a",bac,0,0.17,0,0.4,0,0.03,0,0.22,incorrect,incorrect,incorrect,incorrect
+['hermes'],thief,minos,mitor,thn,0,0.36,0,0.36,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['annabeth'],she,benévolas,endiyet,người tử tế,0,0.18,0,0.24,0,0.4,0,0.21,incorrect,incorrect,incorrect,incorrect
+['annabeth'],"in the given passage, the word filling the [mask] token is ""she"", but we need to determine if ""she"" refers to a proper name. the passage states that ""she did stay out of it, but i didn’t really want her help. i was the new kid. i had to earn my own rep."", which suggests that ""she"" refers to a female person. based on this context, the proper name that fills the [mask] token is ""she"" and",chico,yeni,mech,0,0.04,0,0.15,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['clarisse'],"in the given passage, the sentence "" [mask] bent me over on my knees and started pushing my head toward the toilet bowl. it reeked like rusted pipes and, well, like what goes into toilets. i strained to keep my head up. i was looking at the scummy water, thinking, i will not go into that. i won’t."" the name that fills the [mask] token is ""he"".   so, the output would be: ",bergmann,kafam,tôi,0,0.04,0,0.12,0,0.15,0,0.18,incorrect,incorrect,incorrect,incorrect
+['clarisse'],he,vater,tuvaz,tay,0,0.2,0,0.31,0,0.15,0,0.18,incorrect,incorrect,incorrect,incorrect
+['annabeth'],"in the given passage, the word ""i"" refers to a camper who has been in an incident in the bathroom, and the word ""he"" refers to the person still pretty much dripping wet, which is ""mask"". the proper name that fills the [mask] token in the passage is ""wetman"". however, based on the context, the more appropriate name to fill the [mask] token is ""he"". therefore, the output for this passage would be:  <",campistas,kampçlar,nam,0,0.04,0,0.24,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+['annabeth'],her name,he,david,lam,0,0.38,0,0.2,0,0.15,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['annabeth', 'annabeth bảo']",sarah,barbacoas,midemin,ục,0,0.46,0,0.5,0,0.13,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['quirón', 'kheiron', 'chiron']",tail,enrique,hava,bac,0,0.2,0,0.31,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['luke'],he,espada,kılıç,room,0,0.33,0,0.2,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],everybody,everyone,ara,tôi,0,0.15,0,0.17,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['percy'],ready,listo,hazir,ready,0,0.4,0,0.0,0,0.2,0,0.4,incorrect,incorrect,incorrect,incorrect
+['annabeth'],woods,elbo,takım,tản,0,0.0,0,0.17,0,0.15,0,0.36,incorrect,incorrect,incorrect,incorrect
+['annabeth'],she,shefam,vurmuş,bạn ấy,0,0.18,0,0.14,0,0.0,0,0.43,incorrect,incorrect,incorrect,incorrect
+['clarisse'],ignita,lorca,görmezden,an,0,0.14,0,0.31,0,0.24,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['jacksons', 'jackson']",missingperson,sangre,kirsal,montauk,0,0.3,0,0.31,0,0.31,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['smelly gabe', 'kokarca gabe', 'gabe cóc chết', 'gabe el apestoso']",men,rosos,hunter,bao,0,0.44,0,0.46,0,0.4,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['poseidon', 'poseidón']",person's name,name,demek,bác,0,0.38,0,0.17,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['percy'],jake,almendras,life,an,0,0.22,0,0.29,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['grover', 'kıvırcık']",found,mochila,minotor,ana,0,0.18,0,0.27,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],quin,sanchez,he,thích,0,0.25,0,0.18,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['gabe', 'argus']",chang,argos,anem,anh,0,0.4,0,0.8,0,0.5,0,0.29,incorrect,correct,incorrect,incorrect
+"['kokarca gabe', 'gabe', 'gabe cóc chết', 'gabe el apestoso']",smelly,madre,anem,bà,0,0.5,0,0.44,0,0.5,0,0.33,incorrect,incorrect,incorrect,incorrect
+['annabeth'],cap,sanchez,pinstripe,seung,0,0.18,0,0.4,0,0.24,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds', 'dodd']",mrs. k,"in the given passage, the three names that could potentially fill the [mask] token are ""abuelas"", ""viejas"", and ""aspecto"". however, based on the context, it is most likely that the [mask] token refers to ""aspecto"", which means ""aspect"" or ""appearance"".   therefore, the proper name that fills the [mask] token in the passage is ""aspecto"". the output should be:  <name",ibilis,nữ thần báo thù,0,0.22,0,0.06,0,0.24,0,0.31,incorrect,incorrect,incorrect,incorrect
+['annabeth'],hades,furias,furialar,sua,0,0.31,0,0.14,0,0.25,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",mrs. smith,sara,tuvaj,cao,0,0.27,0,0.6,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",mrs.,techo,kızgınhaykırış,cô,0,0.25,0,0.36,0,0.24,0,0.29,incorrect,incorrect,incorrect,incorrect
+['annabeth'],em,gómez,emteyze,alice,0,0.2,0,0.15,0,0.27,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['percy', 'perc']",eva,león,bak,ru,0,0.29,0,0.25,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['annabeth', 'athena']",fights,rayo,yaz,annabeth,0,0.17,0,0.2,0,0.22,1,1.0,incorrect,incorrect,incorrect,correct
+"['uncle ferdinand', 'cậu ferdinand', 'ferdinand amcam', 'ferdinand']",statue,tío,father,cha,0,0.44,0,0.17,0,0.4,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['mẹ annabeth', 'athena', 'atenea']",architect,arquitecta,annabeth,kiến trúc sư,0,0.4,0,0.5,1,1.0,0,0.26,incorrect,incorrect,correct,incorrect
+"['percy', 'perc']",voice,poe,radio,alice,0,0.22,0,0.57,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['kimera', 'quimera', 'chimera']",riptide,agujar,eşman,phù thuỷ,0,0.31,0,0.31,0,0.36,0,0.13,incorrect,incorrect,incorrect,incorrect
+['annabeth'],she,sara,"kıvırcık[mask] de kıvırcık (the name is kıvırcık, a proper name from the turkish language)  the passage states that the person in question is with kıvırcık and trying to convince them, and the person is also surprised by something kıvırcık said. therefore, the proper name that fills the [mask] token in the passage is ""kıvırcık"".",grover,0,0.18,0,0.33,0,0.05,0,0.14,incorrect,incorrect,incorrect,incorrect
+['annabeth'],man,lincoln,lincoln,anh,0,0.36,0,0.27,0,0.27,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['gabe', 'gabe cóc chết']",stepdad,padrastro,dad,gio,0,0.18,0,0.18,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['annabeth'],i,guzman,çığlık,leo,0,0.0,0,0.29,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['annabeth'],scream,sierra,ordan,anh,0,0.14,0,0.14,0,0.31,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['aracne', 'arachne', 'arakne']",grimm,araña,tahminde,chuyện,0,0.18,0,0.73,0,0.53,0,0.46,incorrect,correct,incorrect,incorrect
+"['grover', 'kıvırcık']",john,ron,ses,ngọc,0,0.2,0,0.44,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['troy', 'athena', 'poseidón']",hector,atenea,poseidon,olympia,0,0.4,0,0.83,1,1.0,0,0.36,incorrect,correct,correct,incorrect
+['maurice'],zebra,cebu,vegas,las vegas,0,0.17,0,0.36,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['percy', 'hade', 'hades']",idea,soma,hades,cậu,0,0.5,0,0.25,1,1.0,0,0.29,incorrect,incorrect,correct,incorrect
+['hades'],chandler,sommers,yetki,event,0,0.62,0,0.33,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['echidna', 'equidna', 'ekidne']",driver,meril,fren,phù thủy,0,0.33,0,0.36,0,0.4,0,0.13,incorrect,incorrect,incorrect,incorrect
+['barbara walters'],he,denver,camera,denver,0,0.22,0,0.31,0,0.46,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['charon', 'bay charon', 'caronte', 'charo']",mr.,pulido,"in the given passage, the sentence ""bize baktı. 'bir yanlışlık olmalı [mask]' demek yok."" contains the phrase ""[mask] demek yok"", which means ""he/she says 'it should have been an accident' doesn't mean."" the name that fills the [mask] token is ""bize"", which is a pronoun referring to the person who spoke the sentence.  therefore, the output is:  ",,0,0.25,0,0.18,0,0.06,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['charon', 'caronte—']",wish,chaval,duygu,từ,0,0.2,0,0.5,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['charon', 'barry manilow']",song,cabrón,boşkayığı,lao,0,0.4,0,0.83,0,0.43,0,0.44,incorrect,correct,incorrect,incorrect
+"['grover', 'hades']",shoes,"in the given passage, the word filling the [mask] token is ""zapatos"" which means shoes. however, the proper name that would fit in this context is ""palacio"" which means palace. so, the sentence with the proper name filling the [mask] token would be:  ""estaba seguro de que palacio iba a meterse como un torpedo por la puerta del palacio de hades, pero sus zapatos viraron brusc",dosdoğru,giày,0,0.6,0,0.03,0,0.31,0,0.22,incorrect,incorrect,incorrect,incorrect
+['hades'],clothes,tolstoy,acı,trừng phạt,0,0.5,0,0.17,0,0.25,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['hades—', 'hades', 'olimpos']",hades,klim,ben,dùng,1,1.0,0,0.55,0,0.25,0,0.22,correct,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",mrs.,shelley,suratlı,yêu,0,0.25,0,0.31,0,0.46,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['zeus', 'dớt']",hero,héroe,gulen,ông,0,0.29,0,0.25,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['dehb', 'annabeth']",attentiondeficithyperactivitydisorder,thda,annabeth,giao,0,0.27,0,0.33,1,1.0,0,0.17,incorrect,incorrect,correct,incorrect
+"['percy jackso', 'perseus jackson']",godling,diosecillo,lanet,name,0,0.29,0,0.32,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['percy jackson', 'percy jackso']",she,garcía,cengiz,anh,0,0.25,0,0.36,0,0.31,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['quirón', 'kheiron', 'chiron']",human,name,bakır,bac,0,0.36,0,0.2,0,0.5,0,0.22,incorrect,incorrect,incorrect,incorrect
+['percy jackson'],darry,kafka,rehin,cau,0,0.4,0,0.33,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['ares'],dennis,fugaz al,histoire,thang,0,0.4,0,0.17,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['percy jackson', 'perscus jackso', 'perseus jackson']",perseus,pitt,sana,tom,1,1.0,0,0.22,0,0.36,0,0.22,correct,incorrect,incorrect,incorrect
+['luke'],kai,conzee,kılıç,túi,0,0.29,0,0.2,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['luke'],charlie,rubio,gözüküyordu,con gái,0,0.36,0,0.22,0,0.27,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],julian,sanger,ısrar,tôi,0,0.2,0,0.2,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect

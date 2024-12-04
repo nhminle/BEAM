@@ -1,0 +1,130 @@
+Single_ent,en_masked_shuffled_results,es_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+"['john dashwood', 'mr john dashwood', 'john daswood']",woodhouse,isa,vasiyet,đức,0,0.5,0,0.2,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['john dashwood', 'john daswood', 'mrs john dashwood']",wickham,don,erkek,nguyễn,0,0.21,0,0.57,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['henry', 'harry']",god,hombre,adam,ông,0,0.0,0,0.36,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['dashwood', 'señora dashwood', 'daswood', 'mrs dashwood norland']",elinor,norland,norland,marianne,0,0.67,1,1.0,1,1.0,0,0.4,incorrect,correct,correct,incorrect
+"['elinor—', 'elinor']",mrdarcy,velázquez,rembrandt,đông,0,0.15,0,0.27,0,0.27,0,0.2,incorrect,incorrect,incorrect,incorrect
+['elinor'],mrdarcy,isa,onlar,chị,0,0.15,0,0.22,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+['edward'],emma,goethe,sen,chị,0,0.4,0,0.17,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",colonel,coronel,seni,đại,0,0.3,0,0.43,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",polonius,adidas,demokrit,áo,0,0.12,0,0.43,0,0.38,0,0.2,incorrect,incorrect,incorrect,incorrect
+['marianne'],heathcliff,homero,neşe,ông,0,0.22,0,0.29,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['elino', 'elinor']",heights,eolo,deniz,hai,0,0.33,0,0.67,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['john', 'sir john']",scrooge,emily,noel,ngài,0,0.4,0,0.25,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['mariann', 'marianne']",lord,platón,newton,đức,0,0.18,0,0.31,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",beethoven,voltaire,i̇fade,thêm,0,0.12,0,0.38,0,0.46,0,0.17,incorrect,incorrect,incorrect,incorrect
+['elinor'],austen,ella,i̇nanç,chị,0,0.33,0,0.4,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",colonel,coronel,hamlet,ông,0,0.3,0,0.43,0,0.36,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['elino', 'elinor']",elizabeth,descartes,keyif,chị,0,0.43,0,0.27,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+['elinor'],god,perfección,gerçek,anh,0,0.22,0,0.38,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+['willoughby'],darcy,europa,sen,phải,0,0.13,0,0.12,0,0.0,0,0.14,incorrect,incorrect,incorrect,incorrect
+['elinor'],god,ortega,i̇tiraf,nguyễn,0,0.22,0,0.33,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['willoughby', 'willoughb']",emma,shakespeare,ona,con,0,0.0,0,0.1,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['willoughby'],emma,chopin,chopin,thúy,0,0.0,0,0.12,0,0.12,0,0.29,incorrect,incorrect,incorrect,incorrect
+['marianne'],waverley,europa,şey,nguyễn,0,0.38,0,0.29,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",autumn,primavera,rüzgar,em,0,0.29,0,0.47,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['edward', 'elinor']",elizabeth,maría,marianne,thái,0,0.4,0,0.36,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+['elinor'],epictetus,platón,senin,tài,0,0.27,0,0.33,0,0.55,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",gentleman,euclides,hayat,đức,0,0.35,0,0.25,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",franklin,platón,ben,đôi,0,0.43,0,0.33,0,0.44,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'không']",emma,platón,i̇sa,em,0,0.33,0,0.36,0,0.36,0,0.2,incorrect,incorrect,incorrect,incorrect
+['elinor'],emily,freud,bay,anh,0,0.36,0,0.18,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['elinor quan', 'elinor']",emma,maría,orhan,thái,0,0.27,0,0.25,0,0.5,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",ruskin,ortega,shelley,thơ,0,0.43,0,0.29,0,0.13,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['edward—', 'edward']",eden,goethe,robin,thúy,0,0.4,0,0.17,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['john', 'sir john']",willoughby,willoughby,dashwood,daswood,0,0.33,0,0.33,0,0.25,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['mariann', 'marianne']",elinor,maría,i̇sa,chị,0,0.31,0,0.83,0,0.4,0,0.2,incorrect,correct,incorrect,incorrect
+"['señora palmer', 'mrs palmer', 'palmer']",emma,laertes,voltaire,ngọc,0,0.4,0,0.46,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+['marianne'],heathcliff,maría,yoksa,nguyễn,0,0.22,0,0.77,0,0.15,0,0.29,incorrect,correct,incorrect,incorrect
+['elinor'],emma,don,robin,chính,0,0.2,0,0.22,0,0.36,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['palmer—', 'mrs palmer', 'palmer']",mr,europa,delikanlı,nguyễn,0,0.8,0,0.38,0,0.27,0,0.17,correct,incorrect,incorrect,incorrect
+"['charlotte', 'señora jennings']",madam,charlotte,i̇nci,anh,0,0.18,1,1.0,0,0.33,0,0.22,incorrect,correct,incorrect,incorrect
+['elinor'],darcy,marido,adam,động,0,0.18,0,0.33,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",colonel,coronel,ben,đại,0,0.3,0,0.43,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['señor palmer', 'anh palmer', 'palmer', 'mr palmer']",heathcliff,europa,osman,phúc,0,0.31,0,0.44,0,0.5,0,0.29,incorrect,incorrect,incorrect,incorrect
+['lucy'],exeter,exeter,exeter,em,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['annamaria'],emily,mamá,meleksima,con,0,0.29,0,0.46,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",god,europa,sonra,đông,0,0.0,0,0.29,0,0.31,0,0.17,incorrect,incorrect,incorrect,incorrect
+['elinor'],mr,donjuán,casanova,thúy,0,0.25,0,0.15,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lucy', 'lucy—']",elinor,maría,elizabeth,jane,0,0.2,0,0.0,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['ferrars', 'mrs ferrars', 'señora ferrars']",madam,señora,kimse,thật,0,0.25,1,1.0,0,0.5,0,0.2,incorrect,correct,incorrect,incorrect
+"['ferrars', 'mrs ferrars', 'señora ferrars']",elizabeth,europa,özdemir,thích,0,0.27,0,0.5,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lucy', 'lucy—']",heathcliff,maría,rembrandt,thấy,0,0.14,0,0.0,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",emma,alguien,arkadaş,thật,0,0.2,0,0.46,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lucy'],emma,reyna,pinokyo,thúy,0,0.0,0,0.22,0,0.18,0,0.5,incorrect,incorrect,incorrect,incorrect
+['lucy'],elizabeth,stendhal,bay,thúy,0,0.15,0,0.17,0,0.29,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['mr ferrars', 'ferrars', 'señor ferrars']",elizabeth,feuerbach,anneme,trường,0,0.25,0,0.5,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['edward'],mr,parte,annem,chị,0,0.25,0,0.36,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['ferrars', 'mrs ferrars']",god,freud,yılın,elinor,0,0.0,0,0.33,0,0.0,0,0.31,incorrect,incorrect,incorrect,incorrect
+['elinor'],elizabeth,isa,bay,cô,0,0.4,0,0.22,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['lucy'],men,isa,hitler,cô,0,0.0,0,0.0,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+['elinor'],elizabeth,europa,engel,đi,0,0.4,0,0.33,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['middleton', 'lady middleton']",emily,madre,gibi,phu,0,0.44,0,0.44,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['elinor'],marianne,maría,hamlet,đó,0,0.29,0,0.18,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['anh palmer', 'palmer', 'mr palmer']",mama,don,annem,anh,0,0.46,0,0.33,0,0.5,1,1.0,incorrect,incorrect,incorrect,correct
+['marianne'],emily,maría,yusuf,thần,0,0.31,0,0.77,0,0.0,0,0.33,incorrect,correct,incorrect,incorrect
+"['mariann', 'marianne']",emma,agonía,acı,cô,0,0.36,0,0.46,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jenning', 'jennings', 'señora jennings']",darcy,shattuck,berkeley,ba,0,0.25,0,0.29,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['willoughby', 'elinor']",emily,flaubert,marianne,nguyễn,0,0.4,0,0.33,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'miss marianne']",emmeline,señorita,tanrı,thúy,0,0.5,0,0.38,0,0.46,0,0.0,incorrect,incorrect,incorrect,incorrect
+['marianne'],darcy,job,hamlet,thúy,0,0.31,0,0.0,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['marianne'],god,ángeles,anneciğin,em,0,0.0,0,0.4,0,0.47,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['edvvard', 'edward']",god,señor,tanrı,phúc,0,0.22,0,0.36,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+['marianne'],emma,goethe,i̇nsan,em,0,0.33,0,0.14,0,0.46,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",mr,le,erzurum,thế,0,0.8,0,0.25,0,0.31,0,0.22,correct,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",emma,maría,annem,thiện,0,0.4,0,0.5,0,0.31,0,0.36,incorrect,incorrect,incorrect,incorrect
+['marianne'],madam,ella,madam,thưa,0,0.46,0,0.17,0,0.46,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['willoughby', 'mr willoughby']",wickham,don quijote,kardeşime,anh,0,0.35,0,0.25,0,0.18,0,0.15,incorrect,incorrect,incorrect,incorrect
+['willoughby'],heathcliff,padre,kardeşiniz,chị,0,0.1,0,0.0,0,0.1,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",emma,street,james,ông,0,0.4,0,0.33,0,0.5,0,0.36,incorrect,incorrect,incorrect,incorrect
+['eliza'],emma,maría,emma,trang,0,0.44,0,0.4,0,0.44,0,0.2,incorrect,incorrect,incorrect,incorrect
+['marianne'],emma,virginia,elizabeth,london,0,0.33,0,0.38,0,0.35,0,0.29,incorrect,incorrect,incorrect,incorrect
+['elinor'],darcy,él,kardeş,nhất,0,0.18,0,0.5,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['edward'],mr,europa,robin,anh,0,0.25,0,0.33,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['elino', 'elinor']",god,señor,mevlana,đạt,0,0.25,0,0.73,0,0.5,0,0.0,incorrect,correct,incorrect,incorrect
+"['', 'fanny']",austen,don,abim,thế,0,0.36,0,0.25,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],galapagos,ortega,her,đức,0,0.14,0,0.18,0,0.5,0,0.0,incorrect,incorrect,incorrect,incorrect
+['marianne'],emma,madrid,atlas,thần,0,0.33,0,0.57,0,0.31,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['', 'ferrars', 'señora ferrars']",heathcliff,maría,bayan,thúy,0,0.25,0,0.36,0,0.21,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['edward', 'edwar']",emma,applauso,orpheus,trường,0,0.44,0,0.15,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['marianne'],emma,ortega,ali,cô,0,0.33,0,0.29,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['robert', 'elinor']",he,devonshire,willoughby,devon,0,0.25,0,0.38,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['middleton', 'lady middleton']",conduit,conduit,son,conduit,0,0.29,0,0.29,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+['lucy'],god,palabra,anneme,linh,0,0.0,0,0.18,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",god,madre,anneme,ai,0,0.22,0,0.18,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",god,así,atatürk,em,0,0.0,0,0.36,0,0.27,0,0.2,incorrect,incorrect,incorrect,incorrect
+['edward'],edmund,él,kardeş,anh,0,0.5,0,0.25,0,0.5,0,0.22,incorrect,incorrect,incorrect,incorrect
+['edward'],mr,señora,madam,anh,0,0.25,0,0.33,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",landlord,don,sen,bây,0,0.43,0,0.22,0,0.67,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",name,simón,ali,bà,0,0.4,0,0.36,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['elinor'],elizabeth,maría,abi,thế,0,0.4,0,0.18,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['edward'],doctor,padre,mail,oxford,0,0.33,0,0.36,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",elizabeth,rey,albay,bà,0,0.27,0,0.33,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mr ferrars', 'ferrars']",woodhouse,señor,evlenmesine,giáo,0,0.12,0,0.33,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings—']",mr,fortuna,haşmet,cô,0,0.8,0,0.46,0,0.33,0,0.25,correct,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",darcy,coronel,i̇sa,đại,0,0.4,0,0.43,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",woodhouse,don,i̇sa,đức,0,0.13,0,0.22,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['elinor'],god,él,tanrı,trường,0,0.22,0,0.5,0,0.36,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings']",emma,señora,i̇kincisi,giải,0,0.29,0,0.33,0,0.38,0,0.17,incorrect,incorrect,incorrect,incorrect
+['robert'],mr,homero,hiç,đông,0,0.25,0,0.5,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['robert', 'elinor']",elizabeth,voltaire,marianne,anh,0,0.4,0,0.43,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+['edward'],emma,madre,annem,anh,0,0.4,0,0.36,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['marianne'],camilla,freud,freud,em,0,0.4,0,0.31,0,0.31,0,0.2,incorrect,incorrect,incorrect,incorrect
+['elinor'],elizabeth,alcides,araba,mẹ,0,0.4,0,0.31,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['willoughby', 'mr willoughby', 'anh willoughb']",darcy,freud,yoksa,thế,0,0.29,0,0.29,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+['elinor'],mr,él,willoughby,nguyễn,0,0.25,0,0.5,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+['margaret'],austen,platón,robinson,ngọc,0,0.29,0,0.29,0,0.12,0,0.17,incorrect,incorrect,incorrect,incorrect
+['marianne'],jane,montaña,ali,đông,0,0.5,0,0.4,0,0.36,0,0.17,incorrect,incorrect,incorrect,incorrect
+['elinor'],god,job,acı,em,0,0.22,0,0.22,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['marianne'],darcy,gracias,acı,anh,0,0.31,0,0.4,0,0.36,0,0.36,incorrect,incorrect,incorrect,incorrect
+['marianne'],emma,él,osman,cô,0,0.33,0,0.2,0,0.46,0,0.0,incorrect,incorrect,incorrect,incorrect
+['elinor'],elizabeth,maría,onun,chị,0,0.4,0,0.18,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['marianne'],god,adán,annem,mẹ,0,0.0,0,0.5,0,0.62,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",wickham,marido,çünkü,thúy,0,0.15,0,0.33,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['elino', 'elinor']",eliza,maría,adam,đức,0,0.6,0,0.2,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['edward'],wickham,don,i̇sa,đức,0,0.31,0,0.22,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['marianne'],marianne,maría,abdülhak,thần,1,1.0,0,0.77,0,0.25,0,0.33,correct,correct,incorrect,incorrect
+"['edward—', 'edward']",emma,voltaire,i̇nci,anh,0,0.4,0,0.29,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",colonel,palabras,annem,đại,0,0.3,0,0.62,0,0.5,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['luc', 'lucy']",god,shakespeare,harry,anh,0,0.0,0,0.0,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",pardon,padre,sen,jesus,0,0.17,0,0.18,0,0.44,0,0.18,incorrect,incorrect,incorrect,incorrect

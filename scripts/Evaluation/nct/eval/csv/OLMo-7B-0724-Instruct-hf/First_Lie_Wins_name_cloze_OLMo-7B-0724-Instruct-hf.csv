@@ -1,0 +1,329 @@
+Single_ent,en_masked_results,en_exact_match,en_highest_fuzzy_match,en_correct
+['ryan'],life,0,0.0,incorrect
+['ryan'],he,0,0.0,incorrect
+['ryan'],restaurant,0,0.43,incorrect
+['ryan'],girls,0,0.22,incorrect
+['ryan'],he,0,0.0,incorrect
+['ryan'],he,0,0.0,incorrect
+['ryan'],he,0,0.0,incorrect
+['ryan'],his name,0,0.17,incorrect
+['ryan'],baby,0,0.25,incorrect
+['ryan'],mask,0,0.25,incorrect
+['pat'],tyler,0,0.25,incorrect
+['pat'],items,0,0.25,incorrect
+['pat'],he,0,0.0,incorrect
+['pat'],sam,0,0.33,incorrect
+['ryan'],name,0,0.25,incorrect
+['ryan'],weekend,0,0.18,incorrect
+['ryan'],couch,0,0.0,incorrect
+['shawna'],blouse,0,0.17,incorrect
+['ryan'],before,0,0.2,incorrect
+['ryan'],sam,0,0.29,incorrect
+['ryan'],house,0,0.0,incorrect
+['ryan'],carla,0,0.44,incorrect
+['rogers'],mrs. smith,0,0.25,incorrect
+['rogers'],mrs. kinsolving,0,0.29,incorrect
+['ryan'],guy,0,0.29,incorrect
+['ryan'],thursday,0,0.33,incorrect
+['ryan'],tahoe,0,0.22,incorrect
+['ryan'],alex,0,0.25,incorrect
+['ryan'],counter,0,0.18,incorrect
+['ryan'],sam,0,0.29,incorrect
+['ryan'],he,0,0.0,incorrect
+['sara'],dinner,0,0.2,incorrect
+['ryan'],girls,0,0.22,incorrect
+['sara'],look,0,0.0,incorrect
+['ryan'],invitation,0,0.29,incorrect
+['ryan'],from,0,0.25,incorrect
+['hot browns'],derby,0,0.18,incorrect
+['bama'],brookwood,0,0.15,incorrect
+['ryan'],dirk,0,0.25,incorrect
+['ryan'],favor,0,0.22,incorrect
+['ryan'],sam,0,0.29,incorrect
+['sara'],she,0,0.29,incorrect
+['ryan'],caller,0,0.2,incorrect
+['ryan'],sam,0,0.29,incorrect
+['ryan'],tyler,0,0.22,incorrect
+['ryan'],friend,0,0.4,incorrect
+['ryan'],gate,0,0.25,incorrect
+['ryan'],boy,0,0.29,incorrect
+['ryan'],person,0,0.4,incorrect
+['ryan'],party,0,0.44,incorrect
+['ryan'],sam,0,0.29,incorrect
+['james'],substances,0,0.4,incorrect
+['ryan'],sam,0,0.29,incorrect
+['eden'],question,0,0.33,incorrect
+['rockefeller'],oysters,0,0.33,incorrect
+['mama'],honey,0,0.0,incorrect
+['lucca'],emmett,0,0.0,incorrect
+['mama'],susan,0,0.22,incorrect
+['mama'],carla,0,0.44,incorrect
+['eden'],events,0,0.6,incorrect
+['ryan'],sam,0,0.29,incorrect
+['ryan'],armand,0,0.6,incorrect
+['ryan'],table,0,0.22,incorrect
+['ryan'],signals,0,0.18,incorrect
+['ryan'],analyzing,0,0.31,incorrect
+['beth'],she,0,0.29,incorrect
+['beth'],question,0,0.33,incorrect
+['ryan'],aaron,0,0.44,incorrect
+['ryan'],alex,0,0.25,incorrect
+['james'],woman,0,0.2,incorrect
+['ryan'],kiss,0,0.0,incorrect
+['ryan'],friend,0,0.4,incorrect
+['ryan'],driver,0,0.2,incorrect
+['lucca'],word,0,0.0,incorrect
+['james'],girl,0,0.0,incorrect
+['james'],her,0,0.25,incorrect
+['james'],she,0,0.25,incorrect
+['ryan'],he,0,0.0,incorrect
+['ryan'],"in the given passage, the name that fills the [mask] token is ""introduced me to [mask]"". by analyzing the context, it is clear that the name being referred to is a proper name, and the only proper name in this context is ""piece of paper"". the name of the person introduced by the piece of paper is mentioned later in the passage, and it is ""those lucky people"". therefore, the name that fills the [mask] token is ""piece of paper"".",0,0.02,incorrect
+['ryan'],david,0,0.22,incorrect
+['ryan'],grandparents,0,0.38,incorrect
+['ryan'],preference,0,0.29,incorrect
+['ryan'],information,0,0.4,incorrect
+['mama'],ashe,0,0.25,incorrect
+['mama'],card,0,0.25,incorrect
+['matt'],finn,0,0.0,incorrect
+['matt'],thumbs,0,0.2,incorrect
+['matt'],tobin,0,0.22,incorrect
+['matt'],trouble,0,0.18,incorrect
+['james'],derby,0,0.2,incorrect
+['ryan'],girlfriend,0,0.29,incorrect
+['wasn'],tire,0,0.0,incorrect
+['ryan'],cole,0,0.0,incorrect
+['ryan'],action,0,0.4,incorrect
+['ryan'],tobin,0,0.22,incorrect
+['ryan'],forbing,0,0.36,incorrect
+['ryan'],glenview,0,0.17,incorrect
+['ryan'],business,0,0.17,incorrect
+['ryan'],"in the given passage, the sentence ""opinion based on research but have no hard evidence to support—[mask] seems to make every effort to maintain the business his grandfather started, and his father worked at until his death in 2004, in glenview. i believe this business is immensely important to him and he will protect it at all costs."" suggests that the person mentioned is a man who has a business that his grandfather started and his father worked at until his death. based on this information,",0,0.02,incorrect
+['ryan'],"in the given passage, the word filling the [mask] token is ""his"", but we need to find the proper name that is exactly one word long and is a proper name (not a pronoun or any other word). the passage states, ""there wasn’t anyone on his client list who caught my eye as the reason i’m here."" the proper name in this sentence is ""he"" or ""his"", but ""his"" is more likely to be the correct answer as it refers",0,0.02,incorrect
+['ryan'],person's name,0,0.24,incorrect
+['ryan'],mike,0,0.0,incorrect
+['ryan'],retrieval,0,0.31,incorrect
+['ryan'],guinan,0,0.4,incorrect
+['ryan'],voice,0,0.0,incorrect
+['ryan'],character's name,0,0.3,incorrect
+['ryan'],"in the given passage, the sentence is ""you’re not telling me everything,” [mask] says. “you and those other idiots are too stupid to pull this off on your own. tell me who else is involved.” the name that fills the [mask] token is ""you're"" which is a contraction of ""you are"" and not a proper name. the proper name that fills the [mask] token is ""he"" or ""he or she"" based on context.",0,0.02,incorrect
+['ryan'],man,0,0.57,incorrect
+['ryan'],tyler,0,0.22,incorrect
+['ryan'],ticket,0,0.0,incorrect
+['ryan'],tom,0,0.0,incorrect
+['james'],sighting,0,0.15,incorrect
+['ryan'],refill,0,0.2,incorrect
+['james'],tyler,0,0.2,incorrect
+['ryan'],helper,0,0.2,incorrect
+['james'],work,0,0.0,incorrect
+['ryan'],they'd,0,0.2,incorrect
+['greg'],george,0,0.6,incorrect
+['jenny'],sam,0,0.0,incorrect
+['greg'],david,0,0.0,incorrect
+['jenny'],tub,0,0.0,incorrect
+['jenny'],kingstons,0,0.29,incorrect
+['matt'],he,0,0.0,incorrect
+['matt'],tyler,0,0.22,incorrect
+['jenny'],sara,0,0.0,incorrect
+['greg'],he,0,0.33,incorrect
+['jenny'],she,0,0.25,incorrect
+['matt'],keith,0,0.22,incorrect
+['greg'],miles,0,0.22,incorrect
+['matt'],car,0,0.29,incorrect
+['greg'],calls,0,0.0,incorrect
+['matt'],phone,0,0.0,incorrect
+['matt'],calling,0,0.18,incorrect
+['bernard'],mrs.fitzgerald,0,0.38,incorrect
+['james'],ryan,0,0.22,incorrect
+['lucca'],derby party,0,0.12,incorrect
+['james'],sarah,0,0.2,incorrect
+['james'],tyler,0,0.2,incorrect
+['james'],he,0,0.29,incorrect
+['ryan'],tyler,0,0.22,incorrect
+['james'],hand,0,0.22,incorrect
+['ryan'],invoice,0,0.18,incorrect
+['ryan'],person's name,0,0.24,incorrect
+['ryan'],family,0,0.2,incorrect
+['ryan'],tray,0,0.5,incorrect
+['ryan'],places,0,0.2,incorrect
+['ryan'],he,0,0.0,incorrect
+['james'],"his name is mentioned as [mask], but the specific name is ""he could barely make it to the car on his own two feet,"" suggesting that the person is [mask].",0,0.05,incorrect
+['ryan'],sam,0,0.29,incorrect
+['james'],derby,0,0.2,incorrect
+['ryan'],he,0,0.0,incorrect
+['ryan'],chase,0,0.22,incorrect
+['james'],tyler,0,0.2,incorrect
+['lucca'],her,0,0.0,incorrect
+['ryan'],bible brigade,0,0.24,incorrect
+['ryan'],sam,0,0.29,incorrect
+['ryan'],he,0,0.0,incorrect
+['bullock'],deputy,0,0.15,incorrect
+['james'],she,0,0.25,incorrect
+['bullock'],deputy,0,0.15,incorrect
+['jane'],she,0,0.29,incorrect
+['ryan'],person,0,0.4,incorrect
+['andrew marshall'],friend,0,0.33,incorrect
+['matt'],guy,0,0.0,incorrect
+['george'],bellhop,0,0.31,incorrect
+['andrew'],conference,0,0.38,incorrect
+['andrew'],lawyers,0,0.31,incorrect
+['andrew'],beer,0,0.2,incorrect
+['ryan'],swing,0,0.22,incorrect
+['ryan'],sam,0,0.29,incorrect
+['ryan'],underwear,0,0.31,incorrect
+['devon'],followers,0,0.14,incorrect
+['ryan'],note,0,0.25,incorrect
+['devon'],his,0,0.0,incorrect
+['ryan'],person's name,0,0.24,incorrect
+['bernards'],house,0,0.15,incorrect
+['how'],heather,0,0.2,incorrect
+['bernard'],funeralhome,0,0.33,incorrect
+['ryan'],tim,0,0.0,incorrect
+['ryan'],alex,0,0.25,incorrect
+['ryan'],person's name,0,0.24,incorrect
+['ryan'],devon,0,0.22,incorrect
+['ryan'],car,0,0.29,incorrect
+['ryan'],second,0,0.2,incorrect
+['deputy bullock'],officer,0,0.29,incorrect
+['porter'],miss,0,0.0,incorrect
+['devon'],he,0,0.29,incorrect
+['porter'],miss,0,0.0,incorrect
+['ryan'],he,0,0.0,incorrect
+['evelyn porter'],alabama,0,0.15,incorrect
+['andrew marshall'],person's name,0,0.29,incorrect
+['andrew'],scott,0,0.0,incorrect
+['matt'],john,0,0.0,incorrect
+['matt'],he,0,0.0,incorrect
+['andrew marshall'],guy,0,0.0,incorrect
+['andrew marshall'],he,0,0.25,incorrect
+['matt'],instructions,0,0.25,incorrect
+['matt'],instructions,0,0.25,incorrect
+['marshall'],weekend,0,0.0,incorrect
+['nelson'],senator'sname,0,0.32,incorrect
+['matt'],he,0,0.0,incorrect
+['matt'],recipient,0,0.15,incorrect
+['amy holder'],mask,0,0.29,incorrect
+['ryan'],he,0,0.0,incorrect
+['ryan'],sean,0,0.5,incorrect
+['amy'],hotel,0,0.0,incorrect
+['amy holder'],peachtree,0,0.32,incorrect
+['amy holder'],job,0,0.22,incorrect
+['amy holder'],asset,0,0.27,incorrect
+['amy holder'],atlanta,0,0.24,incorrect
+['ryan'],he,0,0.0,incorrect
+['ryan'],towel,0,0.0,incorrect
+['ryan'],servant,0,0.55,incorrect
+['james'],tammy,0,0.4,incorrect
+['ryan'],sam,0,0.29,incorrect
+['bobby flay'],instagram,0,0.15,incorrect
+['ryan'],sam,0,0.29,incorrect
+['ryan'],skill,0,0.0,incorrect
+['ryan'],driver,0,0.2,incorrect
+['ryan'],shady,0,0.22,incorrect
+['james'],person's name,0,0.33,incorrect
+['matt'],deliveryguy,0,0.0,incorrect
+['george'],nick,0,0.0,incorrect
+['george'],delivery,0,0.29,incorrect
+['t'],boone,0,0.0,incorrect
+['tyron'],player,0,0.36,incorrect
+['george'],he,0,0.25,incorrect
+['george'],dave,0,0.2,incorrect
+['andrew marshall'],character's name,0,0.39,incorrect
+['george'],second,0,0.33,incorrect
+['george'],lingeringperson,0,0.48,incorrect
+['cameron'],resignation,0,0.33,incorrect
+['roger'],person's name,0,0.33,incorrect
+['cameron'],coach,0,0.33,incorrect
+['ryan'],hotelmanager,0,0.25,incorrect
+['ryan'],house,0,0.0,incorrect
+['ryan'],car,0,0.29,incorrect
+['ryan'],motel,0,0.0,incorrect
+['ryan'],carla,0,0.44,incorrect
+['ryan'],boy,0,0.29,incorrect
+['amy holder'],seth,0,0.2,incorrect
+['ryan'],he,0,0.0,incorrect
+['tate'],mr. thompson,0,0.12,incorrect
+['devon'],reviews,0,0.33,incorrect
+['tate'],devon,0,0.22,incorrect
+['ralph tate'],dad,0,0.29,incorrect
+['sawyer'],trustfundbaby,0,0.32,incorrect
+['tate'],party,0,0.44,incorrect
+['sawyer'],friends,0,0.15,incorrect
+['sawyer'],carlin,0,0.33,incorrect
+['sawyer'],i,0,0.0,incorrect
+['sawyer'],sam,0,0.44,incorrect
+['sawyer'],dimitri,0,0.15,incorrect
+['george'],tobin,0,0.18,incorrect
+['ryan'],drake,0,0.44,incorrect
+['tate'],devon,0,0.22,incorrect
+['andrew marshall'],governor,0,0.29,incorrect
+['marshall'],governor,0,0.12,incorrect
+['andrew'],voice,0,0.18,incorrect
+['andrew marshall'],person's name,0,0.29,incorrect
+['andrew'],card,0,0.4,incorrect
+['andrew marshall'],he,0,0.25,incorrect
+['george'],friend,0,0.33,incorrect
+['lucca'],fred,0,0.0,incorrect
+['james'],woman,0,0.2,incorrect
+['ryan'],john,0,0.25,incorrect
+['ryan'],corridor,0,0.17,incorrect
+['amy holder'],atlanta,0,0.24,incorrect
+['george'],message,0,0.46,incorrect
+['ryan'],caller,0,0.2,incorrect
+['george'],he,0,0.25,incorrect
+['ryan'],confessing,0,0.14,incorrect
+['ryan'],tyler,0,0.22,incorrect
+['ryan'],le leave,0,0.17,incorrect
+['ryan'],name,0,0.25,incorrect
+['mama'],alex,0,0.25,incorrect
+['mama'],emma,0,0.75,correct
+['mama'],girl,0,0.0,incorrect
+['amy holder'],name,0,0.57,incorrect
+['amy'],sarah,0,0.25,incorrect
+['amy'],samantha,0,0.36,incorrect
+['amy'],glass,0,0.25,incorrect
+['amy holder'],her,0,0.67,incorrect
+['amy'],sarah,0,0.25,incorrect
+['amy'],barbara,0,0.2,incorrect
+['amy'],sarah,0,0.25,incorrect
+['devon'],hack,0,0.0,incorrect
+['amy'],cart,0,0.29,incorrect
+['crofton'],west,0,0.18,incorrect
+['amy holder'],he,0,0.5,incorrect
+['amy holder'],person's name,0,0.26,incorrect
+['amy holder'],her,0,0.67,incorrect
+['amy'],her,0,0.0,incorrect
+['amy holder'],name,0,0.57,incorrect
+['amy'],tim,0,0.33,incorrect
+['tyron'],person's name,0,0.33,incorrect
+['jayden'],max,0,0.22,incorrect
+['ryan'],guard,0,0.22,incorrect
+['george'],person's name,0,0.32,incorrect
+['lucca'],tie,0,0.0,incorrect
+['george'],attendant,0,0.13,incorrect
+['amy holder'],lucas,0,0.25,incorrect
+['amy'],lesson,0,0.0,incorrect
+['porter'],missoura,0,0.29,incorrect
+['devon'],l,0,0.0,incorrect
+['tate'],job,0,0.0,incorrect
+['amy'],tyler,0,0.25,incorrect
+['amy'],devon,0,0.0,incorrect
+['amy'],he,0,0.0,incorrect
+['amy'],contingency,0,0.14,incorrect
+['amy'],samantha,0,0.36,incorrect
+['amy'],burton,0,0.0,incorrect
+['connollys'],parts,0,0.14,incorrect
+['amy'],she,0,0.0,incorrect
+['amy'],rolls,0,0.0,incorrect
+['devon'],voice,0,0.4,incorrect
+['ryan'],legs,0,0.0,incorrect
+['ryan'],he,0,0.0,incorrect
+['ryan'],driver,0,0.2,incorrect
+['mama'],annie,0,0.22,incorrect
+['ryan'],mower,0,0.22,incorrect
+['ryan'],arranges,0,0.5,incorrect
+['ryan'],assistant,0,0.31,incorrect
+['ryan'],kai,0,0.29,incorrect
+['ryan'],person's name,0,0.24,incorrect
+['james'],person's name,0,0.33,incorrect
+['ryan'],person's name,0,0.24,incorrect
+['ryan'],hannah,0,0.4,incorrect

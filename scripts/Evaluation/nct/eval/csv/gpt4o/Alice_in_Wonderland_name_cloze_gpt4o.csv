@@ -1,0 +1,47 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+"['alice', 'alicia']",alice,alicia,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,alicia,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,alicia,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,alicia,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,alicia,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['dodo'],walrus,presidente,ahmet,alice,0,0.0,0,0.14,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,alicia,charlie,alice,1,1.0,1,1.0,0,0.67,1,1.0,correct,correct,incorrect,correct
+"['alice', 'alicia']",alice,alicia,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,alicia,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,alicia,john,alice,1,1.0,1,1.0,0,0.0,1,1.0,correct,correct,incorrect,correct
+"['alice', 'alicia']",alice,alicia,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,alicia,mary,alice,1,1.0,1,1.0,0,0.22,1,1.0,correct,correct,incorrect,correct
+"['alice', 'alicia']",alice,alicia,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,alicia,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,alicia,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,alicia,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,alicia,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,alicia,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,pinocchio,tom,alice,1,1.0,0,0.4,0,0.0,1,1.0,correct,incorrect,incorrect,correct
+"['alice', 'alicia']",alice,alicia,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,alicia,ali,alice,1,1.0,1,1.0,0,0.75,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,alicia,ahmet,mary,1,1.0,1,1.0,0,0.4,0,0.22,correct,correct,incorrect,incorrect
+"['alice', 'alicia']",alice,alicia,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,hermione,ali,alice,1,1.0,0,0.31,0,0.75,1,1.0,correct,incorrect,correct,correct
+"['alice', 'alicia']",alice,alice,ali,alice,1,1.0,1,1.0,0,0.75,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,alicia,anne,alice,1,1.0,1,1.0,0,0.44,1,1.0,correct,correct,incorrect,correct
+"['alice', 'alicia']",alice,alicia,anne,alice,1,1.0,1,1.0,0,0.44,1,1.0,correct,correct,incorrect,correct
+"['alice', 'alicia']",marianne,alicia,ayşe,alice,0,0.46,1,1.0,0,0.44,1,1.0,incorrect,correct,incorrect,correct
+"['alice', 'alicia']",alice,alicia,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,alice,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,alicia,ali,holmes,1,1.0,1,1.0,0,0.75,0,0.36,correct,correct,correct,incorrect
+"['alice', 'alicia']",alice,alicia,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,alicia,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,alice,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,alicia,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,alicia,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,alicia,ahmet,alice,1,1.0,1,1.0,0,0.4,1,1.0,correct,correct,incorrect,correct
+"['alice', 'alicia']",alice,alicia,ahmet,alice,1,1.0,1,1.0,0,0.4,1,1.0,correct,correct,incorrect,correct
+"['alice', 'alicia']",alice,alicia,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia', 'alice ejder']",alice,alicia,alice,harry,1,1.0,1,1.0,1,1.0,0,0.25,correct,correct,correct,incorrect
+"['alice', 'alicia']",alice,alicia,ahmet,alice,1,1.0,1,1.0,0,0.4,1,1.0,correct,correct,incorrect,correct
+"['alice', 'alicia']",alice,alice,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alic', 'alicia']",alice,alice,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,alicia,alice,marlin,1,1.0,1,1.0,1,1.0,0,0.55,correct,correct,correct,incorrect
+"['alice', 'alicia']",alice,alicia,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,alicia,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct

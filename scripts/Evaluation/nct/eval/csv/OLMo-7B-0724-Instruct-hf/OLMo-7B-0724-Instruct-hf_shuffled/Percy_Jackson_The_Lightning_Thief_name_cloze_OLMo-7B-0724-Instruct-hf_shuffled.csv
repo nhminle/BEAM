@@ -1,0 +1,98 @@
+Single_ent,en_masked_shuffled_results,es_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+"['nancy bobofit', 'nancy']",steele,se,adam,bao,0,0.15,0,0.0,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner']",cecil,pizarra,turk,mã,0,0.17,0,0.33,0,0.36,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'murmuré', 'brunner']",girl,chica,stele,thầy,0,0.18,0,0.25,0,0.17,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner']",gallery,tornado,name,bút,0,0.4,0,0.29,0,0.36,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",sand,semoribundo,ölüm,am,0,0.44,0,0.52,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['jackson', 'bay jackson', 'señor jackson']",mr.weeks,mirada,kendi,tp,0,0.29,0,0.24,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'bayan dodds']",strange,señora,bakıyorlardı,thỉnh,0,0.33,0,0.24,0,0.47,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",visions,sudores,gün,nhưng,0,0.33,0,0.5,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['nancy bobofit', 'nancy']",i,balzac,f'ye,tôi,0,0.25,0,0.36,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner']",studied,sueño,leslam,hôm,0,0.29,0,0.33,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner']",his,somos,door,yancy,0,0.0,0,0.0,0,0.18,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner']",nerves,nuevo,koray,chí,0,0.46,0,0.33,0,0.5,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner']",mr.,lenglet,gün adları,hy,0,0.2,0,0.29,0,0.35,0,0.4,incorrect,incorrect,incorrect,incorrect
+['nancy bobofit'],test,sarcásico,yılışık,tohi,0,0.18,0,0.29,0,0.2,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['sally jackso', 'sally jackson']",she,santiago,dedem,tên,0,0.25,0,0.4,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['gabe cóc', 'gabe', 'gabe el apestoso']",life,martín,annemin,đơn,0,0.33,0,0.29,0,0.36,0,0.33,incorrect,incorrect,incorrect,incorrect
+['gabe'],her,chava,annem,mom,0,0.29,0,0.22,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'bayan dodds', 'dodd']",lying,ancianas,hazel,bà,0,0.4,0,0.46,0,0.2,0,0.57,incorrect,incorrect,incorrect,incorrect
+['gabe'],dip,rascó,o,linh,0,0.0,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['gabe', 'gabe cóc chế', 'kokarca gabe', 'gabe el apestoso']",voyage,nos,aptalcay,tùy,0,0.44,0,0.36,0,0.4,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['percy', 'perc']",mom,por,eylis,ôi,0,0.0,0,0.57,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",island,islám,issuz,long,0,0.36,0,0.36,0,0.24,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner', 'señor brunner']",storyteller,monstruo,vyykur,baloai,0,0.42,0,0.31,0,0.35,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",mrs,sustituyo,enerji,suc,0,0.27,0,0.27,0,0.5,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['bay d', 'mano', 'd']",trick,matrimonio,puanlar,tôi,0,0.0,0,0.57,0,0.36,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bay d', 'percy', 'padre', 'd']",youths,la,letler,lai,0,0.22,0,0.4,0,0.36,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['percy', 'olympia']",mount olympus,olimpo,vakti,tuy,0,0.5,0,0.62,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['quirón', 'brunner', 'kheiron', 'chiron']",he,silla,belden,chiron,0,0.44,0,0.18,0,0.31,1,1.0,incorrect,incorrect,incorrect,correct
+"['percy jackson', 'perc']",campers,name,kampçılar,quen,0,0.55,0,0.25,0,0.31,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['quirón', 'kheiron', 'chiron']",drop,chisporrote,hissetmiştim,hy,0,0.4,0,0.59,0,0.32,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['quirón', 'kheiron', 'chiron']",seashell,zaragoza,sert,tôi,0,0.27,0,0.29,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+['hermes'],bag,minotauro,minotor,tài,0,0.0,0,0.13,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['annabeth'],ground,cuando,endişe,tuyên,0,0.14,0,0.29,0,0.29,0,0.15,incorrect,incorrect,incorrect,incorrect
+['annabeth'],kid,chica,ben,chung,0,0.0,0,0.15,0,0.36,0,0.15,incorrect,incorrect,incorrect,incorrect
+['clarisse'],toilet,apestaba,kafam,smell,0,0.29,0,0.25,0,0.15,0,0.31,incorrect,incorrect,incorrect,incorrect
+['clarisse'],water,agua,yatar,tay,0,0.31,0,0.17,0,0.31,0,0.18,incorrect,incorrect,incorrect,incorrect
+['annabeth'],water,campistas,tuvalette,sinh,0,0.31,0,0.24,0,0.35,0,0.33,incorrect,incorrect,incorrect,incorrect
+['annabeth'],shelby,conseguir&lt;/name,keşke,nhiem,0,0.14,0,0.31,0,0.15,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['annabeth', 'annabeth bảo']",barbecue,barandilla,planı,gà,0,0.38,0,0.33,0,0.31,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['quirón', 'kheiron', 'chiron']",archer,aire,gün,bác,0,0.5,0,0.4,0,0.44,0,0.22,incorrect,incorrect,incorrect,incorrect
+['luke'],blade,el,ufun,tôi,0,0.44,0,0.33,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],good,drinking,buzda,anh,0,0.0,0,0.17,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['percy'],weapon,arma,birimiz,ta,0,0.18,0,0.22,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['annabeth'],rocks,bosques,terim,rong,0,0.0,0,0.27,0,0.15,0,0.17,incorrect,incorrect,incorrect,incorrect
+['annabeth'],eva,sophocles,etki,lap,0,0.18,0,0.12,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['clarisse'],wished,prefería,apayrı,thà,0,0.43,0,0.25,0,0.43,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['jacksons', 'jackson']",mother,rastros,hafta,montauk,0,0.15,0,0.53,0,0.17,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['smelly gabe', 'kokarca gabe', 'gabe cóc chết', 'gabe el apestoso']",table,seén,canavar,họ,0,0.67,0,0.4,0,0.32,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['poseidon', 'poseidón']",saying,arriesgada,riskli,nao,0,0.43,0,0.22,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+['percy'],he,tirado,derin,thun,0,0.29,0,0.18,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['grover', 'kıvırcık']",pack,mochila,atmaya,quyết,0,0.33,0,0.27,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['luke'],sentence,meevidentemente,yüzne,thích,0,0.17,0,0.11,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['gabe', 'argus']",argus,greyhound,argos,gabe,1,1.0,0,0.31,0,0.8,1,1.0,correct,incorrect,correct,correct
+"['kokarca gabe', 'gabe', 'gabe cóc chết', 'gabe el apestoso']",her,probablemente,evren,nếu,0,0.57,0,0.38,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+['annabeth'],seat,su,endişe,mũ,0,0.33,0,0.0,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds', 'dodd']",ladies,viejas,kadife,xanh,0,0.36,0,0.33,0,0.24,0,0.44,incorrect,incorrect,incorrect,incorrect
+['annabeth'],problem,furias,bela,báo,0,0.27,0,0.14,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",she,cómo,tuvalet,bằng,0,0.44,0,0.25,0,0.17,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",lightning,el,otbusun,sét,0,0.14,0,0.25,0,0.33,0,0.44,incorrect,incorrect,incorrect,incorrect
+['annabeth'],em,verás,teyze,mụ,0,0.2,0,0.15,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['percy', 'perc']",a look,"in the given passage, the word filling the [mask] token is ""una,"" which is the subject of the sentence. however, the context suggests that the proper name that fits the sentence is ""quédate,"" which is a variant form of ""quédate atractiva."" so, the corrected sentence would be: ""tan cara sólo y arriba. destrozar susurró—. pena —qué joven mirar conmigo, quédate at",yakışıklı,phụ,0,0.0,0,0.03,0,0.14,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['annabeth', 'athena']",at,mejora,angeles,annabeth,0,0.5,0,0.33,0,0.4,1,1.0,incorrect,incorrect,incorrect,correct
+"['uncle ferdinand', 'cậu ferdinand', 'ferdinand amcam', 'ferdinand']",statue,"in the given passage, the word filling the [mask] token is ""mi"", which is a pronoun. however, the context of the passage suggests that the proper name that should fill this token is ""tío"" (which means ""uncle"" in english). here's the corrected passage with the proper name filled in:  <passage>de era has mi atrás... y buscador. el la mi tío, vida. mi sueño ahí padre",researcher,y,0,0.44,0,0.08,0,0.27,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mẹ annabeth', 'athena', 'atenea']",architect,sócrates,mimar,bó,0,0.4,0,0.43,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['percy', 'perc']",dolphin,bueno,yandan,tiếng,0,0.18,0,0.22,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['kimera', 'quimera', 'chimera']",riptide,mora,polisler,chắc,0,0.31,0,0.6,0,0.43,0,0.55,incorrect,incorrect,incorrect,incorrect
+['annabeth'],me,tratando,kıvırcık,grover,0,0.2,0,0.25,0,0.0,0,0.14,incorrect,incorrect,incorrect,incorrect
+['annabeth'],car,hororizado,kesilmiş,lincoln,0,0.18,0,0.11,0,0.12,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['gabe', 'gabe cóc chết']",stepdad,padrastro,david,dang,0,0.18,0,0.18,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['annabeth'],boat,arañas,kayığa, xuân,0,0.33,0,0.43,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['annabeth'],prow,arana,yap,phải,0,0.0,0,0.46,0,0.18,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['aracne', 'arachne', 'arakne']",challenging,supuse,örgü,bà thi vải,0,0.33,0,0.17,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['grover', 'kıvırcık']",say,sosa,ses,nó,0,0.0,0,0.2,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['troy', 'athena', 'poseidón']","in the given passage, the text ""so the way said, trojan if fight,"" and the phrase ""i the up it line versus [mask] they will things the did be poseidon?"" suggests that the text is in a different language, possibly ancient greek. the text also contains the phrase ""will gods with war?"" which is a direct translation of the latin phrase ""vos erunt de lares publicos,"" which is found in the famous latin poem ""the aene",cabo,poseidon,athena,0,0.04,0,0.25,1,1.0,1,1.0,incorrect,incorrect,correct,correct
+['maurice'],zebra,cebra,vegas,vua,0,0.17,0,0.33,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['percy', 'hade', 'hades']",question,foso,hades,question,0,0.31,0,0.22,1,1.0,0,0.31,incorrect,incorrect,correct,incorrect
+['hades'],stars,báskara,atlıyormuşum,tôi,0,0.4,0,0.33,0,0.24,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['echidna', 'equidna', 'ekidne']",reptilian,cara,"in the given passage, the phrase ""gibiydi"" suggests that the speaker heard a loud sound of someone falling. the phrase ""vadisi'nden bir geliyordu"" indicates that the sound came from the direction of the valley. the only name that makes sense in this context is ""taxi"", as it is the most common vehicle that would produce such a sound. therefore, the proper name that fills the [mask] token in the passage is ""taxi"".",thung,0,0.4,0,0.36,0,0.03,0,0.33,incorrect,incorrect,incorrect,incorrect
+['barbara walters'],man,un,denver,denver,0,0.2,0,0.0,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['charon', 'bay charon', 'caronte', 'charo']",no,"in the given passage, the [mask] token represents the name of a person or thing, and the context suggests that it is a name of a character in the text. the text is in spanish, and the sentence in question is: ""mirando—. habéis señor nada que nos —se error, gritos. pues? nada de [mask]». al —directa de un cómo grano. ¿y y «tiene quedó muerto",çığlık,"in the given passage, the proper name that fills the [mask] token is ""thưa chết ngây sao đứa đại lòng,"" which can be translated to ""oh my god, what a big-minded old man! and you, [name]?"" the name ""thưa chết ngây sao đứa đại lòng"" is a phrase, not a proper name that is exactly",0,0.29,0,0.04,0,0.18,0,0.07,incorrect,incorrect,incorrect,incorrect
+"['charon', 'caronte—']",mentor,pero,aman,dung,0,0.27,0,0.4,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['charon', 'barry manilow']",he,pértiga,kes,hát,0,0.25,0,0.2,0,0.0,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['grover', 'hades']",gates,hades,kivircik,hades,0,0.6,1,1.0,0,0.29,1,1.0,incorrect,correct,incorrect,correct
+['hades'],fields,cuendo,ceza,tôi,0,0.36,0,0.18,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['hades—', 'hades', 'olimpos']",helen,olimpia,ben,olympia,0,0.4,0,0.71,0,0.25,0,0.57,incorrect,correct,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",furies,sánchez,furia,hades,0,0.22,0,0.33,0,0.36,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['zeus', 'dớt']",delivery,alguien,yakalaman,hắn,0,0.18,0,0.18,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['dehb', 'annabeth']",detailed,thda,savaşta,lucy,0,0.33,0,0.33,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['percy jackso', 'perseus jackson']",he,secillo,birden,kiếm,0,0.29,0,0.36,0,0.31,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['percy jackson', 'percy jackso']",lips,bífida,furia,anh,0,0.25,0,0.17,0,0.24,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['quirón', 'kheiron', 'chiron']",later,somos,uzun,tôi,0,0.33,0,0.18,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+['percy jackson'],arch,luis,rehin,anges,0,0.44,0,0.18,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['ares'],killing,eluno,hist,tai,0,0.0,0,0.22,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['percy jackson', 'perscus jackso', 'perseus jackson']",word,olmo,sana,olympia,0,0.22,0,0.2,0,0.36,0,0.2,incorrect,incorrect,incorrect,incorrect
+['luke'],sword,armazon,herhalde,túi,0,0.0,0,0.0,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+['luke'],he,fuis,zamankinden,vết,0,0.33,0,0.25,0,0.27,0,0.29,incorrect,incorrect,incorrect,incorrect
+['luke'],invalid,no,bati,tớ,0,0.18,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect

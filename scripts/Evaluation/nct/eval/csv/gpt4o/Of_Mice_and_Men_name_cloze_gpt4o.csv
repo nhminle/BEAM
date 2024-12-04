@@ -1,0 +1,49 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+['george'],george,tomás,frodo,nam,1,1.0,0,0.18,0,0.18,0,0.0,correct,incorrect,incorrect,incorrect
+['george'],george,smith,ahmet,ba,1,1.0,0,0.0,0,0.18,0,0.0,correct,incorrect,incorrect,incorrect
+['lennie'],lennie,juan,oğuz,alice,1,1.0,0,0.2,0,0.0,0,0.55,correct,incorrect,incorrect,incorrect
+['lennie'],curley,julio,alice,harry,0,0.33,0,0.36,0,0.55,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],tom,juan,ali,nguyễn,0,0.22,0,0.0,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['george'],george,pedro,ahmet,gollum,1,1.0,0,0.36,0,0.18,0,0.33,correct,incorrect,incorrect,incorrect
+['lennie'],crooks,gollum,ali,huck,0,0.0,0,0.17,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['george', 'geroge']",george,raskolnikov,konuşmacı,người,1,1.0,0,0.24,0,0.13,0,0.36,correct,incorrect,incorrect,incorrect
+"['lenni', 'lennie']",george,juan,tom,tom,0,0.33,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],george,pedro,ali,tom,1,1.0,0,0.36,0,0.0,0,0.22,correct,incorrect,incorrect,incorrect
+['lennie'],george,george,tom,jean,0,0.33,0,0.33,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+['george'],george,juan,ali,tom,1,1.0,0,0.0,0,0.0,0,0.22,correct,incorrect,incorrect,incorrect
+['george'],candy,juan,ali,lý,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lenni', 'lennie']",johnny,john,ali,lan,0,0.36,0,0.22,0,0.5,0,0.5,incorrect,incorrect,incorrect,incorrect
+['george'],george,gregor,ahmet,tom,1,1.0,0,0.67,0,0.18,0,0.22,correct,incorrect,incorrect,incorrect
+['george'],heathcliff,juan,ali,alice,0,0.12,0,0.0,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['george', 'george—']",crooks,martín,george,lennie,0,0.17,0,0.17,1,1.0,0,0.33,incorrect,incorrect,correct,incorrect
+['lennie'],johnny,juan,ahmet,tom,0,0.33,0,0.2,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['carlson'],carlson,raskolnikov,raskolnikov,nguyễn,1,1.0,0,0.44,0,0.44,0,0.15,correct,incorrect,incorrect,incorrect
+['george'],lennie,tom,ali,george,0,0.33,0,0.22,0,0.0,1,1.0,incorrect,incorrect,incorrect,correct
+['lennie'],lennie,lennie,keloğlan,lão,1,1.0,1,1.0,0,0.29,0,0.22,correct,correct,incorrect,incorrect
+['candy'],gatsby,juan,ali,lão,0,0.36,0,0.44,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['george'],george,smith,ali,chí,1,1.0,0,0.0,0,0.0,0,0.0,correct,incorrect,incorrect,incorrect
+['candy'],lennie,juan,john,scrooge,0,0.18,0,0.44,0,0.22,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['carlson—', 'carlson']",carlson,pedro,ali,nguyễn,1,1.0,0,0.33,0,0.4,0,0.15,correct,incorrect,incorrect,incorrect
+['crooks'],crooks,crooks,sam,crooks,1,1.0,1,1.0,0,0.22,1,1.0,correct,correct,incorrect,correct
+['george'],george,pedro,john,napoleon,1,1.0,0,0.36,0,0.2,0,0.29,correct,incorrect,incorrect,incorrect
+['curley'],crooks,lot,tom,gatsby,0,0.33,0,0.22,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['lennie'],curley,juan,ali,nguyễn,0,0.33,0,0.2,0,0.44,0,0.33,incorrect,incorrect,incorrect,incorrect
+['lennie'],lennie,lennie,hagrid,chí,1,1.0,1,1.0,0,0.17,0,0.22,correct,correct,incorrect,incorrect
+['george'],george,tom,ahmet,ba,1,1.0,0,0.22,0,0.18,0,0.0,correct,incorrect,incorrect,incorrect
+['curley'],curley,juan,tanrı,chí,1,1.0,0,0.2,0,0.18,0,0.22,correct,incorrect,incorrect,incorrect
+['lennie'],candy,boxer,ali,gulliver,0,0.18,0,0.18,0,0.44,0,0.43,incorrect,incorrect,incorrect,incorrect
+['lennie'],lennie,gregor,adam,chí,1,1.0,0,0.17,0,0.0,0,0.22,correct,incorrect,incorrect,incorrect
+"['curley', 'vợ curley']",curley,pedro,ahmet,anna,1,1.0,0,0.29,0,0.18,0,0.0,correct,incorrect,incorrect,incorrect
+"['curley', 'curle']",curley,curley,george,curley,1,1.0,1,1.0,0,0.36,1,1.0,correct,correct,incorrect,correct
+['curley'],curley,curley,anna,chí,1,1.0,1,1.0,0,0.0,0,0.22,correct,correct,incorrect,incorrect
+['george'],george,tom,ali,rơi,1,1.0,0,0.22,0,0.0,0,0.22,correct,incorrect,incorrect,incorrect
+['george'],george,emma,george,nguyễn,1,1.0,0,0.2,1,1.0,0,0.33,correct,incorrect,correct,incorrect
+['george'],george,juan,john,tom,1,1.0,0,0.0,0,0.2,0,0.22,correct,incorrect,incorrect,incorrect
+['george'],lennie,él,oğuz,huck,0,0.33,0,0.25,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lennie'],lennie,baloo,ayhan,gollum,1,1.0,0,0.18,0,0.18,0,0.17,correct,incorrect,incorrect,incorrect
+"['lennie im', 'lennie']",lennie,juan,ali,aslan,1,1.0,0,0.2,0,0.44,0,0.36,correct,incorrect,incorrect,incorrect
+['george'],george,george,patron,hải,1,1.0,1,1.0,0,0.17,0,0.0,correct,correct,incorrect,incorrect
+['george'],lennie,gregor,ali,huck,0,0.33,0,0.67,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['george', 'george—']",george,raskolnikov,ali,chí,1,1.0,0,0.12,0,0.0,0,0.0,correct,incorrect,incorrect,incorrect
+['lennie'],george,juan,ali,nguyễn,0,0.33,0,0.2,0,0.44,0,0.33,incorrect,incorrect,incorrect,incorrect
+['george'],frodo,raskolnikov,john,huck,0,0.18,0,0.12,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect

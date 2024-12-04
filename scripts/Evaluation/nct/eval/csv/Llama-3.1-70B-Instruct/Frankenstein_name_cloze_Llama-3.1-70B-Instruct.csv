@@ -1,0 +1,52 @@
+Single_ent,en_masked_results,es_masked_results,tr_masked_results,vi_masked_results,en_exact_match,en_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,en_correct,es_correct,tr_correct,vi_correct
+['caroline beaufort'],agnes,ella,macgyver,nhân vật nữ chính,0,0.46,0,0.33,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],elizabeth,elizabeth,elizabeth,cha,1,1.0,1,1.0,1,1.0,0,0.17,correct,correct,correct,incorrect
+"['krempe', 'thần hủy hoạ', 'señor krempe', 'm']",frankenstein,newton,newton,định mệnh,0,0.35,0,0.4,0,0.4,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['waldman', 'm', 'profesör waldman']",him,lavoisier,dalton,giáo,0,0.5,0,0.35,0,0.46,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['krempe', 'señor krempe', 'm']",frankenstein,profesor,newton,ông,0,0.35,0,0.46,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+['dante'],dante,dios,herodot,frankenstein,1,1.0,0,0.22,0,0.33,0,0.47,correct,incorrect,incorrect,incorrect
+"['frankenstein', 'clerval']",elizabeth,amigo,sevgili,elizabeth,0,0.29,0,0.24,0,0.43,0,0.29,incorrect,incorrect,incorrect,incorrect
+['clerval'],henry,quijote,bay,anh,0,0.33,0,0.14,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['henry'],henry,victor,frankenstein,victor,1,1.0,0,0.18,0,0.24,0,0.18,correct,incorrect,incorrect,incorrect
+"['clerval', 'querido clerval']",elizabeth,madre,bay,thúy,0,0.25,0,0.2,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['henry'],elizabeth,padre,bay,đức,0,0.14,0,0.2,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",victor,byron,arkadaşım,anh,0,0.33,0,0.18,0,0.27,0,0.22,incorrect,incorrect,incorrect,incorrect
+['clerval'],henry,alberto,jean-jacques,anh,0,0.33,0,0.43,0,0.21,0,0.2,incorrect,incorrect,incorrect,incorrect
+['clerval'],henry,henry,nature,emile,0,0.33,0,0.33,0,0.15,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",henry,alguien,annem,người,0,0.36,0,0.31,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['william'],william,william,william,william,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['justine'],william,maría,elizabeth,em,0,0.14,0,0.17,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['justine'],justine,maría,kız,nhung,1,1.0,0,0.17,0,0.2,0,0.33,correct,incorrect,incorrect,incorrect
+['justine'],elizabeth,edmundo,montaigne,đông,0,0.25,0,0.29,0,0.5,0,0.18,incorrect,incorrect,incorrect,incorrect
+['justine'],elizabeth,victor,victor,victor,0,0.25,0,0.15,0,0.15,0,0.15,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],elizabeth,elizabeth,elizabeth,elizabeth,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['elizabeth'],elizabeth,mi,babam,mẹ,1,1.0,0,0.18,0,0.29,0,0.18,correct,incorrect,incorrect,incorrect
+"['félix', 'felix']",spring,robinson,i̇lkbahar,chúng,0,0.18,0,0.15,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",felix,aladino,defoe,cha,1,1.0,0,0.33,0,0.4,0,0.0,correct,incorrect,incorrect,incorrect
+"['félix', 'felix']",edmond,edmundo,erasmus,edmond,0,0.18,0,0.17,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['de lacey', 'de lace']",de lacey,de lacey,de,frankenstein,1,1.0,1,1.0,1,1.0,0,0.25,correct,correct,correct,incorrect
+"['de lacey', 'de lacey—']",teiresias,homero,i̇nci,ông lão,0,0.24,0,0.25,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+['de lacey'],de lacey,padre,adamı,ông,1,1.0,0,0.57,0,0.31,0,0.0,correct,incorrect,incorrect,incorrect
+"['félix', 'felix']",monster,edmundo,erkek,cha,0,0.17,0,0.17,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['henry'],clerval,shakespeare,osman,anh,0,0.33,0,0.38,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['clerval', 'ren']",byron,byron,i̇talya,emerson,0,0.5,0,0.5,0,0.31,0,0.4,incorrect,incorrect,incorrect,incorrect
+['henry'],johnson,robert,bay,nguyễn,0,0.33,0,0.36,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],elizabeth,elizabeth,emily,người,1,1.0,1,1.0,0,0.29,0,0.14,correct,correct,incorrect,incorrect
+"['mr kirwin', 'kirwin']",woodhouse,alcalde,kanun,đại,0,0.13,0,0.0,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['daniel nugent', 'daniel nugen']",defoe,robinson,oğlu,cảnh sát,0,0.36,0,0.31,0,0.25,0,0.38,incorrect,incorrect,incorrect,incorrect
+['daniel'],someone,alguien,karısı,người đàn bà,0,0.31,0,0.46,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['señor kirwin', 'mr kirwin', 'kirwin']",victor,juez,sanık,holmes,0,0.36,0,0.22,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",kirwin,alcalde,ali,đại,1,1.0,0,0.0,0,0.22,0,0.22,correct,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",elizabeth,mi,annem,cha,0,0.27,0,0.0,0,0.18,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['señor kirwin', 'mr kirwin', 'kirwin']",darcy,juez,ömer,ông,0,0.29,0,0.22,0,0.67,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",forster,abogado,avukat,ông,0,0.25,0,0.0,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['henry', 'henr']",elizabeth,elizabeth,victor,elizabeth,0,0.15,0,0.15,0,0.2,0,0.15,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],elizabeth,europa,croesus,heathcliff,1,1.0,0,0.27,0,0.12,0,0.42,correct,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",elizabeth,mi,elizabeth,người yêu,1,1.0,0,0.33,1,1.0,0,0.22,correct,incorrect,correct,incorrect
+['elizabeth'],elizabeth,marcel,bay,người,1,1.0,0,0.27,0,0.17,0,0.14,correct,incorrect,incorrect,incorrect
+['elizabeth'],creator,dios,tanrı,thượng đế,0,0.38,0,0.15,0,0.14,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['margaret', 'margare']",reader,esopo,arkadaşım,em,0,0.46,0,0.17,0,0.38,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['margaret', 'margare']",elizabeth,hermana,kardeşim,chị,0,0.35,0,0.43,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+['frankenstein'],victor,frankenstein,frankenstein,frankenstein,0,0.11,1,1.0,1,1.0,1,1.0,incorrect,correct,correct,correct
+['frankenstein'],elizabeth,edmundo,abel,mi,0,0.29,0,0.21,0,0.25,0,0.14,incorrect,incorrect,incorrect,incorrect
+['clerval'],clerval,agatha,victor,người ấy,1,1.0,0,0.15,0,0.31,0,0.13,correct,incorrect,incorrect,incorrect

@@ -1,0 +1,77 @@
+Single_ent,en_masked_results,en_exact_match,en_highest_fuzzy_match,en_correct
+['jack'],autumn,0,0.2,incorrect
+['jack'],autumn,0,0.2,incorrect
+['jack'],enter,0,0.0,incorrect
+['jack'],he,0,0.0,incorrect
+['jack'],groans,0,0.2,incorrect
+['jack'],question,0,0.0,incorrect
+['jack'],he,0,0.0,incorrect
+['jack'],mouth,0,0.0,incorrect
+['jack'],emma,0,0.25,incorrect
+['jack'],alex,0,0.25,incorrect
+['jack'],tobin,0,0.0,incorrect
+['jack'],jessica,0,0.36,incorrect
+['jack'],adventures,0,0.14,incorrect
+['jack'],day,0,0.29,incorrect
+['jack'],tyler,0,0.0,incorrect
+['jack'],autumn,0,0.2,incorrect
+['jack'],i,0,0.0,incorrect
+['jack'],teammate,0,0.17,incorrect
+['jack'],teammate,0,0.17,incorrect
+['jack'],practice,0,0.33,incorrect
+['jack'],guy,0,0.0,incorrect
+['jack'],girls,0,0.0,incorrect
+['jack'],tent,0,0.0,incorrect
+['jack'],autumn,0,0.2,incorrect
+['jack'],she,0,0.0,incorrect
+['autumn'],she,0,0.0,incorrect
+['autumn'],sarah,0,0.18,incorrect
+['autumn'],samantha,0,0.43,incorrect
+['jack'],she,0,0.0,incorrect
+['jack'],him,0,0.0,incorrect
+['jack'],heath,0,0.22,incorrect
+['george w'],alternate plan,0,0.36,incorrect
+['jack'],before_night_called,0,0.09,incorrect
+['syl'],"in the given passage, the word filling the [mask] token is ""exits"". however, to find the proper name that fits the context, let's analyze the passage:  ""i stay on the highway, passing all the exits that could take us home.""  the subject of the sentence is ""i,"" and the verb is ""stay."" the object of the verb is ""the highway."" the phrase ""passing all the exits"" describes the action of ""i."" the",0,0.02,incorrect
+['syl'],tobey,0,0.25,incorrect
+['lexy'],sarah,0,0.0,incorrect
+['jack'],woman,0,0.22,incorrect
+['jack'],wake,0,0.5,incorrect
+['jack'],friend,0,0.0,incorrect
+['jack'],person's name,0,0.12,incorrect
+['sylv'],she,0,0.29,incorrect
+['trevor'],he,0,0.25,incorrect
+['chloe'],her friend,0,0.27,incorrect
+['chloe'],her,0,0.5,incorrect
+['chloe'],sam,0,0.0,incorrect
+['kyle'],john,0,0.0,incorrect
+['kyle'],guy,0,0.29,incorrect
+['kyle'],person's name,0,0.12,incorrect
+['carter'],mrsmullens,0,0.25,incorrect
+['brett'],fishes,0,0.18,incorrect
+['brett'],new,0,0.25,incorrect
+['brett'],picture,0,0.33,incorrect
+['brett'],sam,0,0.0,incorrect
+['brett'],commonroom,0,0.13,incorrect
+['brett'],person's name (not specified),0,0.18,incorrect
+['zelda'],shirt,0,0.0,incorrect
+['brett'],roommate,0,0.31,incorrect
+['brett'],picture,0,0.33,incorrect
+['brett'],he,0,0.29,incorrect
+['taylor'],person's name,0,0.11,incorrect
+['sylv'],speech,0,0.2,incorrect
+['dave'],daisy,0,0.44,incorrect
+['beba'],she,0,0.29,incorrect
+['dave'],"the name is ""she"" or the name of the person speaking in the passage.",0,0.06,incorrect
+['john'],hostess,0,0.18,incorrect
+['john'],waitress,0,0.0,incorrect
+['john'],question,0,0.33,incorrect
+['john'],person's name,0,0.24,incorrect
+['stella'],autumn,0,0.17,incorrect
+['john'],danny,0,0.22,incorrect
+['jack'],bookeditor,0,0.14,incorrect
+['john'],order,0,0.22,incorrect
+['john'],information,0,0.27,incorrect
+['jack'],baby,0,0.25,incorrect
+['jack'],person's name,0,0.12,incorrect
+['jack'],person's name,0,0.12,incorrect
