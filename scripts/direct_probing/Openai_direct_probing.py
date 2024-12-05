@@ -88,7 +88,6 @@ def direct_probe(csv_file_name, book_title, prompt_setting="zero-shot"):
             if language != 'Single_ent':
                 print(f'Running {language}')
                 output = []
-                passage_no = 0
                 for i in range(len(df)):
                     passage = df[language].iloc[i]
                     if "shuffled" in language: 
@@ -96,8 +95,7 @@ def direct_probe(csv_file_name, book_title, prompt_setting="zero-shot"):
                     else:
                         content = predict(language, passage, "unshuffled", prompt_setting)
                     output.append(content)
-                    print(f'{passage_no}: {content}')
-                    passage_no += 1
+                    print(f'{i}: {content}')
                 index_of_language = df.columns.get_loc(language)
                 output_col = pd.Series(output)
                 df.insert(index_of_language + 1, f"{language}_results", output_col)
