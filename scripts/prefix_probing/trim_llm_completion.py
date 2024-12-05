@@ -55,7 +55,7 @@ def process_csv_files(directory):
             file_path = os.path.join(directory, filename)
             try:
                 df = pd.read_csv(file_path)
-                for lang in ['en', 'vi', 'tr', 'es', "en_prompts_shuffled","es_prompts_shuffled","tr_prompts_shuffled","vi_prompts_shuffled"]:
+                for lang in ['en', 'vi', 'tr', 'es']:
                     try:
                         index_of_lang = df.columns.get_loc(f"{lang}_word_count")
                         df.insert(index_of_lang + 1, f"{lang}_results", df.apply(
