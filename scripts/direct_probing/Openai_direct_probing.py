@@ -117,5 +117,5 @@ if __name__ == "__main__":
     
     for title in titles:
         print(f'----------------- running {title} -----------------')
-        direct_probe(csv_file_name=f"/Prompts/{title}/{title}_filtered.csv", book_title=title,  prompt_setting="zero-shot") # modify the prompt setting here
+        direct_probe(csv_file_name=f"/Prompts/{title}/{title}_filtered.csv", book_title=title, prompt_setting="zero-shot") # modify the prompt setting here
             
