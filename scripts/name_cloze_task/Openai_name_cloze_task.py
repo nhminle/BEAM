@@ -95,12 +95,13 @@ def name_cloze_task(csv_file_name, book_title, prompt_setting="zero-shot"):
                         content = predict(language, masked_passage, "unshuffled", prompt_setting)
                     print(f'{i}: {content}')
                     output.append(content)
-                index_of_language = df.columns.get_loc(col)
+                index_of_language = df.columns.get_loc(language)
                 guess_results = pd.Series(output)
-                df.insert(index_of_language + 1, f"{col}_results", guess_results)
-        df.to_csv(f"{book_title}_nct_gpt4o.csv", index=False, encoding='utf-8')
-    except:
-        print(f'{csv_file_name} is missing')
+                df.insert(index_of_language + 1, f"{language}_results", guess_results)
+                
+        df.to_csv(f"{book_title}_name_cloze__gpt-4o-2024-11-20.csv", index=False, encoding='utf-8')
+    except Exception as e:
+        print(f'Error: {e}')
 
 
 def get_folder_names(directory):
@@ -111,13 +112,9 @@ def get_folder_names(directory):
             folder_names.append(item)
     return folder_names
 
-def read_txt_file(file_path):
-    with open(file_path, 'r', encoding='utf-8') as file:
-        content = file.read()
-    return content.strip()
-
 if __name__ == "__main__":
     titles = get_folder_names('/Prompts')
+    
     for title in titles:
         print(f'----------------- running {title} -----------------')
-        name_cloze_task(csv_file_name=f"/Prompts/{title}/{title}_filtered_masked.csv", book_title=title)
+        name_cloze_task(csv_file_name=f"/Prompts/{title}/{title}_filtered_masked.csv", book_title=title, prompt_setting="zero-shot") # modify the prompt setting here
