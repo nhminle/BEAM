@@ -67,7 +67,7 @@ def predict(lang, passages, llm, mode="unshuffled", prompt_setting="zero-shot"):
                 {"role": "user", "content": prompt.format(
                     demo_passage=demo_passage,
                     passage=passage
-                )},
+                ).strip()},
             ] for passage in passages
         ],
         tokenize=False,
