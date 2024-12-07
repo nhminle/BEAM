@@ -99,7 +99,8 @@ def direct_probe(csv_file_name, book_title, llm, model_name, prompt_setting):
                 print(f'Running {language}')
                 passages = df[language].tolist()
                 mode = "shuffled" if "shuffled" in language.lower() else "unshuffled"
-                output = predict(language, passages, llm, mode, prompt_setting)
+                base_language = language.split('_')[0]
+                output = predict(base_language, passages, llm, mode, prompt_setting)
 
                 index_of_language = df.columns.get_loc(language)
                 df.insert(index_of_language + 1, f"{language}_results", pd.Series(output))
