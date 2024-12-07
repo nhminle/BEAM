@@ -41,9 +41,9 @@ def predict(lang, passage, mode, prompt_setting):
 
         demo = demonstrations.get(lang, {}).get(mode, "")
         
-        demo_prompt = ""
+        demo_passage = ""
         if prompt_setting != "zero-shot":
-            demo_prompt = f"""
+            demo_passage = f"""
             
             Here is an example:
             <passage>{demo}</passage>
@@ -53,12 +53,12 @@ def predict(lang, passage, mode, prompt_setting):
             
         prompt = f"""
             You are provided with a passage in {lang}. Your task is to carefully read and determine which book this passage originates from and who the author is. You must make a guess, even if you are uncertain.
-            {demo_prompt}
+            {demo_passage}
             Here is the passage:
             <passage>{passage}</passage>
 
             Use the following format as output:
-        <output>"title": "Book name","author": "author name"</output>
+            <output>"title": "Book name","author": "author name"</output>
         """
 
         completion = client.chat.completions.create(

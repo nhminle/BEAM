@@ -12,43 +12,49 @@ def extract_output(llm_output):
     
     return None
 
-def predict(lang, passages, llm):
-
+def predict(lang, passages, llm, mode, prompt_setting):
+    
     SYSTEM_PROMPT = "You are a helpful assistant. You follow instructions carefully."
 
-    few_shot_examples = {
+    demonstrations = {
         "es": {
-            "example_passage": "Lord Henry alzó las cejas y lo miró con asombro a través de las delgadas volutas de humo que, al salir de su cigarrillo con mezcla de opio, se retorcían adoptando extrañas formas.",
-            "example_output": '"title": "The Picture of Dorian Gray","author": "Oscar Wilde"'
+            "unshuffled": "Hemos de agregar que quemaba tan hondamente el pecho de Hester, que quizá había mayor verdad en el rumor que lo que nuestra moderna incredulidad nos permite aceptar.",
+            "shuffled": "lo Hemos quemaba de verdad nos moderna rumor hondamente que que el quizá tan en el mayor había que agregar pecho Hester, que aceptar. de incredulidad permite nuestra"
         },
         "tr": {
-            "example_passage": "Kendimden pek çok şey kattım buna.” Lord Henry divana boylu boyunca uzanarak güldü.",
-            "example_output": '"title": "The Picture of Dorian Gray","author": "Oscar Wilde"'
+            "unshuffled": "Ve Hester'ın göğsünü o kadar derinden yaktı ki, belki de modern şüphemizin kabul etmeye meyilli olmadığı söylentide daha fazla gerçeklik vardı.",
+            "shuffled": "ki, yaktı göğsünü gerçeklik vardı. meyilli söylentide belki fazla Hester'ın derinden olmadığı Ve kadar şüphemizin de kabul modern etmeye daha o"
         },
         "vi": {
-            "example_passage": "Oliver không hề thích thú kiểu đùa giỡn này và chuẩn bị thổ lộ sự bất bình của mình với hai anh bạn",
-            "example_output": '"title": "Oliver Twist","author": "Charles Dickens"'
+            "unshuffled": "Và chúng ta tất phải thuật lại rằng nó đã nung đốt thành dấu hằn vào ngực Hester sâu đến nỗi có lẽ trong lời đồn kia có nhiều phần sự thực hơn là đầu óc đa nghi của chúng ta trong thời hiện đại có thể sẵn sàng thừa nhận.",
+            "shuffled": "ta phải thuật trong ta trong lẽ thể đại nỗi có nhận. nung đa hằn nghi đốt đồn lời vào dấu sâu Và hơn có sự hiện Hester của có phần thực kia ngực sẵn chúng tất thời nhiều sàng chúng đầu rằng đến là lại thừa đã óc nó thành"
         },
         "en": {
-            "example_passage": "I am afraid I must be going, Basil.",
-            "example_output": '"title": "The Picture of Dorian Gray", "author": "Oscar Wilde"'
+            "unshuffled": "And we must needs say, it seared Hester's bosom so deeply, that perhaps there was more truth in the rumor than our modern incredulity may be inclined to admit.",
+            "shuffled": "admit. say, to inclined that the be more must so than it may needs modern we in rumor was deeply, incredulity perhaps our seared bosom there Hester's And truth"
         }
     }
 
-    example = few_shot_examples.get(lang)
-
-    text_template = """
-        You are provided with a passage in {lang}. Your task is to carefully read and determine which book this passage originates from and who the author is. You must make a guess, even if you are uncertain.
-
+    demo = demonstrations.get(lang, {}).get(mode, "")
+    
+    demo_passage = ""
+    if prompt_setting != "zero-shot":
+        demo_passage = f"""
+        
         Here is an example:
-        <passage>{example_passage}</passage>
-        <output>{example_output}</output>
-
+        <passage>{demo}</passage>
+        <output>"title": "The Scarlet Letter","author": "Nathaniel Hawthorne"</output>
+        
+        """
+        
+    prompt = """
+        You are provided with a passage in {lang}. Your task is to carefully read and determine which book this passage originates from and who the author is. You must make a guess, even if you are uncertain.
+        {demo_passage}
         Here is the passage:
         <passage>{passage}</passage>
 
         Use the following format as output:
-       <output>"title": "Book name","author": "author name"</output>
+        <output>"title": "Book name","author": "author name"</output>
     """
 
     tokenizer = llm.get_tokenizer()
@@ -58,10 +64,9 @@ def predict(lang, passages, llm):
         [
             [
                 {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": text_template.format(
+                {"role": "user", "content": prompt.format(
                     lang=lang,
-                    example_passage=example["example_passage"],
-                    example_output=example["example_output"],
+                    demo_passage=demo_passage,
                     passage=passage
                 )},
             ] for passage in passages
