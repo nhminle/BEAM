@@ -43,9 +43,9 @@ def predict(passage, lang, word_count, prompt_setting="zero-shot"):
 
     demo = demonstrations.get(lang)
     
-    demo_prompt = ""
+    demo_passage = ""
     if prompt_setting != "zero-shot":
-        demo_prompt = f"""
+        demo_passage = f"""
         
         Here is an example:
         <passage>{demo['first_half']}</passage>
@@ -55,7 +55,7 @@ def predict(passage, lang, word_count, prompt_setting="zero-shot"):
         
     prompt = f"""
        You are provided with an incomplete passage from a book. Your task is to continue the passage *in the SAME LANGUAGE* with {word_count}. Your response should ONLY be the continuation, directly quoted from the book. Do not repeat or rephrase the input.
-        {demo_prompt}
+        {demo_passage}
         Here is the passage:
         <passage>{passage}</passage>
 
