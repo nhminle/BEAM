@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 from vllm import LLM, SamplingParams
 from argparse import ArgumentParser
 
+
 def extract_output(llm_output):
     soup = BeautifulSoup(llm_output, 'html.parser')
     translation_tag = soup.find('output')
@@ -11,6 +12,7 @@ def extract_output(llm_output):
         return translation_tag.decode_contents()
     
     return None
+
 
 def predict(lang, passages, llm, mode, prompt_setting):
     
@@ -87,15 +89,17 @@ def predict(lang, passages, llm, mode, prompt_setting):
 
     return batch_results
 
-def direct_probe(csv_file_name, book_title, llm, model_name):
+
+def direct_probe(csv_file_name, book_title, llm, model_name, prompt_setting):
     try:
         df = pd.read_csv(csv_file_name)
 
         for language in df.columns:
             if language != 'Single_ent':
                 print(f'Running {language}')
-                passages = df[language].tolist()  
-                output = predict(language, passages, llm)
+                passages = df[language].tolist()
+                mode = "shuffled" if "shuffled" in language.lower() else "unshuffled"
+                output = predict(language, passages, llm, mode, prompt_setting)
 
                 index_of_language = df.columns.get_loc(language)
                 df.insert(index_of_language + 1, f"{language}_results", pd.Series(output))
@@ -104,6 +108,7 @@ def direct_probe(csv_file_name, book_title, llm, model_name):
     except Exception as e:
         print(f'Error: {e}')
 
+
 def get_folder_names(directory):
     folder_names = []
     for item in os.listdir(directory):
@@ -111,6 +116,7 @@ def get_folder_names(directory):
         if os.path.isdir(item_path):
             folder_names.append(item)
     return folder_names
+
 
 if __name__ == "__main__":
     titles = get_folder_names('/Prompts')
