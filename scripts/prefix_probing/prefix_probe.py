@@ -72,7 +72,7 @@ def predict(passages, word_counts, llm, lang, prompt_setting="zero-shot"):
                 word_count=word_count,
                 demo_passage=demo_passage,
                 passage=passage
-            )},
+            ).strip()},
             ] for passage, word_count in zip(passages, word_counts)
         ],
         tokenize=False,

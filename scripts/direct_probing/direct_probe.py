@@ -70,7 +70,7 @@ def predict(lang, passages, llm, mode, prompt_setting):
                     lang=lang,
                     demo_passage=demo_passage,
                     passage=passage
-                )},
+                ).strip()},
             ] for passage in passages
         ],
         tokenize=False,
