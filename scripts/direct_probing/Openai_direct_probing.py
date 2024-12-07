@@ -78,6 +78,7 @@ def predict(lang, passage, mode, prompt_setting):
         print(f"Error processing passage: {e}")
         return None
 
+
 def direct_probe(csv_file_name, book_title, prompt_setting):
     try:
         df = pd.read_csv(csv_file_name)
@@ -120,6 +121,7 @@ def get_folder_names(directory):
         if os.path.isdir(item_path):
             folder_names.append(item)
     return folder_names
+
 
 if __name__ == "__main__":
     titles = get_folder_names('/Users/alishasrivastava/BEAM/scripts/Prompts')
