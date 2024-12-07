@@ -9,8 +9,8 @@ client = OpenAI(
 )
 
 
-def extract_output(html):
-    soup = BeautifulSoup(html, 'html.parser')
+def extract_output(llm_output):
+    soup = BeautifulSoup(llm_output, 'html.parser')
     output = soup.find('output')
     if output:
         return output.decode_contents()
