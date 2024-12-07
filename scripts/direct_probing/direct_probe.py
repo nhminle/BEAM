@@ -7,9 +7,9 @@ from argparse import ArgumentParser
 
 def extract_output(llm_output):
     soup = BeautifulSoup(llm_output, 'html.parser')
-    translation_tag = soup.find('output')
-    if translation_tag:
-        return translation_tag.decode_contents()
+    output = soup.find('output')
+    if output:
+        return output.decode_contents()
     
     return None
 
