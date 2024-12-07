@@ -6,43 +6,50 @@ from argparse import ArgumentParser
 
 def extract_output(llm_output):
     soup = BeautifulSoup(llm_output, 'html.parser')
-    translation_tag = soup.find('name')
-    if translation_tag:
-        return translation_tag.decode_contents()
+    name_tag = soup.find('name')
+    if name_tag:
+        return name_tag.decode_contents()
+
     return None
 
-def predict(lang, passages, llm):
+def predict(lang, passages, llm, mode="unshuffled", prompt_setting="zero-shot"):
 
     SYSTEM_PROMPT = "You are a helpful assistant. You follow instructions carefully."
 
-    example_passages = {
+    demonstrations = {
         "es": {
-            "example_passage": "Creo que incluso [MASK] estaría de acuerdo con tu opinión",
-            "example_name": "Kafka"
+            "unshuffled": "Hemos de agregar que quemaba tan hondamente el pecho de [MASK], que quizá había mayor verdad en el rumor que lo que nuestra moderna incredulidad nos permite aceptar.",
+            "shuffled": "lo Hemos quemaba de verdad nos moderna rumor hondamente que que el quizá tan en el mayor había que agregar pecho [MASK], que aceptar. de incredulidad permite nuestra"
         },
         "tr": {
-            "example_passage": "Sadece [MASK] değil tüm grup hayduttu ve diğer insanlardan ayrı yaşıyorlardı",
-            "example_name": "Robin"
+            "unshuffled": "Ve [MASK]'ın göğsünü o kadar derinden yaktı ki, belki de modern şüphemizin kabul etmeye meyilli olmadığı söylentide daha fazla gerçeklik vardı.",
+            "shuffled": "ki, yaktı göğsünü gerçeklik vardı. meyilli söylentide belki fazla [MASK]'ın derinden olmadığı Ve kadar şüphemizin de kabul modern etmeye daha o"
         },
         "vi": {
-            "example_passage": "Rõ ràng đây là điều rất bình thường, chẳng có ai ăn bánh mà lại bị to ra hay bé đi cả, nhưng [MASK] đang quá trông chờ vào những điều bất thường nên khi cái điều bình thường đó xảy ra đã khiến cô cảm thấy cuộc đời sao mà ảm đạm và đáng chán.",
-            "example_name": "Alice"
+            "unshuffled": "Và chúng ta tất phải thuật lại rằng nó đã nung đốt thành dấu hằn vào ngực [MASK] sâu đến nỗi có lẽ trong lời đồn kia có nhiều phần sự thực hơn là đầu óc đa nghi của chúng ta trong thời hiện đại có thể sẵn sàng thừa nhận.",
+            "shuffled": "ta phải thuật trong ta trong lẽ thể đại nỗi có nhận. nung đa hằn nghi đốt đồn lời vào dấu sâu Và hơn có sự hiện [MASK] của có phần thực kia ngực sẵn chúng tất thời nhiều sàng chúng đầu rằng đến là lại thừa đã óc nó thành"
         },
         "en": {
-            "example_passage": "Stay gold, [MASK], stay gold.",
-            "example_name": "Ponyboy"
+            "unshuffled": "And we must needs say, it seared [MASK]'s bosom so deeply, that perhaps there was more truth in the rumor than our modern incredulity may be inclined to admit.",
+            "shuffled": "admit. say, to inclined that the be more must so than it may needs modern we in rumor was deeply, incredulity perhaps our seared bosom there [MASK]'s And truth"
         }
     }
 
-    details = example_passages.get(lang)
-
-    text_template = """
-        You are provided with a passage from a book. Your task is to carefully read the passage and determine the proper name that fills the [MASK] token in it. This name is exactly one word long, and is a proper name (not a pronoun or any other word). You must make a guess, even if you are uncertain:
-
+    demo = demonstrations.get(lang)[mode]
+    
+    demo_passage = ""
+    if prompt_setting != "zero-shot":
+        demo_passage = f"""
+        
         Here is an example:
-        <passage>{example_passage}</passage>
-        <name>{example_name}</name>
-
+        <passage>{demo}</passage>
+        <output>"title": "The Scarlet Letter","author": "Nathaniel Hawthorne"</output>
+        
+        """
+        
+    prompt = """
+       You are provided with a passage from a book. Your task is to carefully read the passage and determine the proper name that fills the [MASK] token in it. This name is a proper name (not a pronoun or any other word). You must make a guess, even if you are uncertain:
+        {demo_passage}
         Here is the passage:
         <passage>{passage}</passage>
 
@@ -57,9 +64,8 @@ def predict(lang, passages, llm):
         [
             [
                 {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": text_template.format(
-                    example_passage=details["example_passage"],
-                    example_name=details["example_name"],
+                {"role": "user", "content": prompt.format(
+                    demo_passage=demo_passage,
                     passage=passage
                 )},
             ] for passage in passages
@@ -80,20 +86,22 @@ def predict(lang, passages, llm):
 
     return batch_results
 
-def name_cloze(csv_file_name, book_title, llm, model_name):
+def name_cloze(csv_file_name, book_title, llm, model_name, prompt_setting="zero-shot"):
     try:
         df = pd.read_csv(csv_file_name)
 
         for language in df.columns:
             if language != 'Single_ent':
                 print(f'Running {language}')
-                passages = df[language].tolist()  
-                output = predict(language.replace('_masked', ''), passages, llm)
+                passages = df[language].tolist()
+                mode = "shuffled" if "shuffled" in language.lower() else "unshuffled"
+                base_language = language.split('_')[0]
+                output = predict(base_language, passages, llm, mode, prompt_setting)
 
                 index_of_language = df.columns.get_loc(language)
                 df.insert(index_of_language + 1, f"{language}_results", pd.Series(output))
 
-        df.to_csv(f"/home/nhatminhle_umass_edu/Tasks/out/name_cloze/{book_title}_name_cloze_{model_name}.csv", index=False, encoding='utf-8')
+        df.to_csv(f"{book_title}_name_cloze_{model_name}.csv", index=False, encoding='utf-8')
     except Exception as e:
         print(f'Error: {e}')
 
@@ -110,12 +118,13 @@ if __name__ == "__main__":
     
     parser = ArgumentParser()
     parser.add_argument("model", type=str, help="Name of the model to use")
+    parser.add_argument("gpus", type=str, help="Nums of gpus to use")
     args = parser.parse_args()
 
-    llm = LLM(model=args.model, tensor_parallel_size=1, max_model_len=2048)
+    llm = LLM(model=args.model, tensor_parallel_size=int(args.gpus), max_model_len=2048)
     
-    skip_list = ['raw','Adventures_of_Huckleberry_Finn']
+    skip_list = [] # add books to skip 
     for title in titles:
         if title not in skip_list:
             print(f'----------------- running {title} -----------------')
-            name_cloze(csv_file_name=f"/home/nhatminhle_umass_edu/Prompts/{title}/{title}_filtered_masked.csv", book_title=title, llm=llm, model_name=args.model.split('/')[1])
+            name_cloze(csv_file_name=f"/home/nhatminhle_umass_edu/Prompts/{title}/{title}_filtered_masked.csv", book_title=title, llm=llm, model_name=args.model.split('/')[1], prompt_setting="zero-shot") # modify the prompt setting here
