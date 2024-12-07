@@ -124,10 +124,11 @@ if __name__ == "__main__":
     
     parser = ArgumentParser()
     parser.add_argument("model", type=str, help="Name of the model to use")
+    parser.add_argument("gpus", type=str, help="Nums of gpus to use")
     args = parser.parse_args()
 
-    llm = LLM(model=args.model, tensor_parallel_size=1, max_model_len=2048)
+    llm = LLM(model=args.model, tensor_parallel_size=int(args.gpus), max_model_len=2048)
     
     for title in titles:
         print(f'----------------- running {title} -----------------')
-        direct_probe(csv_file_name=f"/Prompts/{title}/{title}_filtered.csv", book_title=title, llm=llm, model_name=args.model.split('/')[1])
+        direct_probe(csv_file_name=f"/Prompts/{title}/{title}_filtered.csv", book_title=title, llm=llm, model_name=args.model.split('/')[1], prompt_setting="zero-shot") # modify the prompt setting here
