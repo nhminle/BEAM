@@ -9,8 +9,8 @@ client = OpenAI(
 )
 
 
-def extract_output(html):
-    soup = BeautifulSoup(html, 'html.parser')
+def extract_output(llm_output):
+    soup = BeautifulSoup(llm_output, 'html.parser')
     name_tag = soup.find('name')
     if name_tag:
         return name_tag.decode_contents()
@@ -41,9 +41,9 @@ def predict(lang, passage, mode="unshuffled", prompt_setting="zero-shot"):
 
     demo = demonstrations.get(lang)[mode]
     
-    demo_prompt = ""
+    demo_passage = ""
     if prompt_setting != "zero-shot":
-        demo_prompt = f"""
+        demo_passage = f"""
         
         Here is an example:
         <passage>{demo}</passage>
@@ -53,7 +53,7 @@ def predict(lang, passage, mode="unshuffled", prompt_setting="zero-shot"):
     
     prompt = f"""
        You are provided with a passage from a book. Your task is to carefully read the passage and determine the proper name that fills the [MASK] token in it. This name is a proper name (not a pronoun or any other word). You must make a guess, even if you are uncertain:
-        {demo_prompt}
+        {demo_passage}
         Here is the passage:
         <passage>{passage}</passage>
 
@@ -87,12 +87,11 @@ def name_cloze_task(csv_file_name, book_title, prompt_setting="zero-shot"):
             if language != 'Single_ent':
                 print(f'Running {language}')
                 output = []
+                mode = "shuffled" if "shuffled" in language.lower() else "unshuffled"
                 for i in range(len(df)):
                     masked_passage = df[language].iloc[i]
-                    if "shuffled" in language: 
-                        content = predict(language, masked_passage, "shuffled", prompt_setting)
-                    else:
-                        content = predict(language, masked_passage, "unshuffled", prompt_setting)
+                    base_language = language.split('_')[0]
+                    content = predict(base_language, masked_passage, mode, prompt_setting)
                     print(f'{i}: {content}')
                     output.append(content)
                 index_of_language = df.columns.get_loc(language)
