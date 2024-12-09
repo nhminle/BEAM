@@ -97,9 +97,9 @@ def direct_probe(csv_file_name):
         print(f"Average tokens per line in {title}: {round(avg_tokens_per_line)}")
         print(f'Projected token output per line in {title}: {round(avg_tokens_per_line/2)}')
         print(f"Total lines in {title}: {total_lines}")
-        print(f'Projected cost: {(total_token*5/1000000+(20)*15/1000000)}')
+        print(f'Projected cost: {(total_token*3/1000000+(20)*3/1000000)}')
         print('\n')
-        return (total_token*5/1000000+(20)*15/1000000)
+        return (total_token*3/1000000+(20)*3/1000000)
     except:
         print(f'{title} is missing\n')
         return 0
@@ -113,10 +113,10 @@ def get_folder_names(directory):
     return folder_names
 
 if __name__ == "__main__":
-    titles = get_folder_names('/home/nhatminhle_umass_edu/Prompts')
+    titles = get_folder_names('./Prompts')
     total = 0
     for title in titles:
         if title != 'raw':
             print(f'----------------- running {title} -----------------')
-            total += direct_probe(f"/home/nhatminhle_umass_edu/Prompts/{title}/{title}_ner.csv")
+            total += direct_probe(f"./Prompts/{title}/{title}_filtered.csv")
     print(f'\ntotal amount for all books: {total}')
