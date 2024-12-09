@@ -155,23 +155,9 @@ def get_folder_names(directory):
 
 if __name__ == "__main__":
     titles = get_folder_names('./Prompts')
-    skip_list = [
-                'Adventures_of_Huckleberry_Finn',
-                    'A_thousand_splendid_suns',
-                        'Bride',
-                            'Dune',
-                                'Just_for_the_Summer',
-                                    'Paper_Towns',
-                                        'Sense_and_sensibility',
-                                            'The_Boy_in_the_Striped_Pyjamas',
-                                                'The_Lightning_Thief',
-                                                    'The_Ministry_of_Time',
-                                                        'The_Picture_of_Dorian_Gray'
-                                                        ]
-
+    skip_list = []
     for title in titles:
-       # if title not in skip_list:   
-        if title == "1984":         
+       # if title not in skip_list:          
             print(f'----------------- running {title} -----------------')
             direct_probe(csv_file_name=f"./Prompts/{title}/{title}_filtered.csv", book_title=title, prompt_setting="one-shot") # modify the prompt setting here
             

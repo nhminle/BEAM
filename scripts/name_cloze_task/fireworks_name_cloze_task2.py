@@ -136,7 +136,31 @@ def get_folder_names(directory):
 
 if __name__ == "__main__":
     titles = get_folder_names('./Prompts')
-    
+    skip_list = [
+  "Adventures_of_Sherlock_Holmes",
+  "Alice_in_Wonderland",
+  "Alice_s_Adventures_in_Wonderland",
+  "A_Tale_of_Two_Cities",
+  "A_thousand_splendid_suns",
+  "Below_Zero",
+  "Dracula",
+  "Fahrenheit_451",
+  "First_Lie_Wins",
+  "Frankenstein",
+  "Funny_Story",
+  "If_Only_I_Had_Told_Her",
+  "Just_for_the_Summer",
+  "Lies_and_Weddings",
+  "Of_Mice_and_Men",
+  "Paper_Towns",
+  "Pride_and_Prejudice",
+  "The_Great_Gatsby",
+  "The_Paradise_Problem",
+  "The_Picture_of_Dorian_Gray",
+  "You_Like_It_Darker_Stories"
+]
+
     for title in titles:
+        if title not in skip_list:
             print(f'----------------- running {title} -----------------')
             name_cloze_task(csv_file_name=f"./Prompts/{title}/{title}_filtered_masked.csv", book_title=title, prompt_setting="one-shot") # modify the prompt setting here
