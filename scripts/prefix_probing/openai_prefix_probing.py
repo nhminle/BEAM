@@ -56,6 +56,7 @@ def predict(passage, lang, word_count, prompt_setting="zero-shot"):
     prompt = f"""
        You are provided with an incomplete passage from a book. Your task is to continue the passage *in the SAME LANGUAGE* with {word_count}. Your response should ONLY be the continuation, directly quoted from the book. Do not repeat or rephrase the input.
         {demo_passage}
+
         Here is the passage:
         <passage>{passage}</passage>
 
@@ -154,7 +155,7 @@ def prefixProbe(csv_file_name, book_title, prompt_setting="zero-shot"):
                 output_df = pd.DataFrame(output, columns=[f'{lang}_first_half', f'{lang}_second_half', f'{lang}_Completion'])
                 df_out = pd.concat([df_out, output_df], axis=1)
 
-        df_out.to_csv(f"{book_title}_prefix_probe_gpt-4o-2024-11-20.csv", index=False, encoding='utf-8')
+        df_out.to_csv(f"{book_title}_prefix_probe_gpt-4o-2024-11-20_{prompt_setting}.csv", index=False, encoding='utf-8')
     except Exception as e:
         print(e)
 
@@ -168,8 +169,8 @@ def get_folder_names(directory):
     return folder_names
 
 if __name__ == "__main__":
-    titles = get_folder_names('/Prompts')
+    titles = ['Alice_in_Wonderland']
 
     for title in titles:
         print(f'----------------- running {title} -----------------')
-        prefixProbe(csv_file_name=f"/Prompts/{title}/{title}_filtered.csv", book_title=title, prompt_setting="zero-shot") # modify the prompt setting here
+        prefixProbe(csv_file_name=f"/Users/alishasrivastava/BEAM/scripts/Prompts/{title}/{title}_filtered.csv", book_title=title, prompt_setting="zero-shot") # modify the prompt setting here

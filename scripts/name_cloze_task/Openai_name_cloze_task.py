@@ -98,7 +98,7 @@ def name_cloze_task(csv_file_name, book_title, prompt_setting="zero-shot"):
                 guess_results = pd.Series(output)
                 df.insert(index_of_language + 1, f"{language}_results", guess_results)
                 
-        df.to_csv(f"{book_title}_name_cloze__gpt-4o-2024-11-20.csv", index=False, encoding='utf-8')
+        df.to_csv(f"{book_title}_name_cloze__gpt-4o-2024-11-20_{prompt_setting}.csv", index=False, encoding='utf-8')
     except Exception as e:
         print(f'Error: {e}')
 
@@ -116,4 +116,4 @@ if __name__ == "__main__":
     
     for title in titles:
         print(f'----------------- running {title} -----------------')
-        name_cloze_task(csv_file_name=f"/Prompts/{title}/{title}_filtered_masked.csv", book_title=title, prompt_setting="zero-shot") # modify the prompt setting here
+        name_cloze_task(csv_file_name=f"/Users/alishasrivastava/BEAM/scripts/Prompts/{title}/{title}_filtered_masked.csv", book_title=title, prompt_setting="zero-shot") # modify the prompt setting here
