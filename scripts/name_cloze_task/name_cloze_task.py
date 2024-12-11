@@ -43,7 +43,7 @@ def predict(lang, passages, llm, mode="unshuffled", prompt_setting="zero-shot"):
         
         Here is an example:
         <passage>{demo}</passage>
-        <output>"title": "The Scarlet Letter","author": "Nathaniel Hawthorne"</output>
+        <output>Hester</output>
         
         """
         
