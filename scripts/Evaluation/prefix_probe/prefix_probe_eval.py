@@ -29,44 +29,69 @@ def calculate_sentence_metrics(lang, prediction: str, reference: str, metric_nam
         raise ValueError(f"Unknown metric: {metric_name}")
 
 def main(title):
-    df = pd.read_csv(f'/home/nhatminhle_umass_edu/Tasks/out/prefix_probe copy/{title}.csv')
-    df_out = pd.DataFrame()
-
-    # available_langs = [col.split('_')[0] for col in df.columns if col.endswith('_prompts_shuffled_results')]
-    available_langs = ['en', 'vi', 'es', 'tr']
-    print(f"Available languages for {title}: {available_langs}")
-
-    for lang in available_langs:
-        predictions_col = f'{lang}_second_half'
-        references_col = f'{lang}_results'
-        
-        if predictions_col in df.columns and references_col in df.columns:
-            print(f"Calculating sentence-level metrics for {lang}...")
-            
-            # df_out[f'{lang}_BERTScore'] = None
-            df_out[f'{lang}_BLEURT'] = None
-            df_out[f'{lang}_ROUGE-L'] = None
-            df_out[f'{lang}_BLEU'] = None
-            df_out[f'{lang}_ChrF++'] = None
-
-            for index, row in df.iterrows():
-                prediction = row[predictions_col]
-                reference = row[references_col]
-                
-                if pd.notna(prediction) and pd.notna(reference):
-                    # df_out.at[index, f'{lang}_BERTScore'] = calculate_sentence_metrics(lang, prediction, reference, "BERTScore")
-                    bleurt_score = calculate_sentence_metrics(lang, prediction, reference, "BLEURT")
-                    # print(bleurt_score)
-                    df_out.at[index, f'{lang}_BLEURT'] = bleurt_score
-                    print(bleurt_score)
-                    df_out.at[index, f'{lang}_ROUGE-L'] = calculate_sentence_metrics(lang, prediction, reference, "ROUGE-L")
-                    df_out.at[index, f'{lang}_BLEU'] = calculate_sentence_metrics(lang, prediction, reference, "BLEU")
-                    df_out.at[index, f'{lang}_ChrF++'] = calculate_sentence_metrics(lang, prediction, reference, "ChrF++")
-
-    models = ['OLMo-7B-0724-Instruct-hf', 'Llama-3.1-70B-Instruct', 'Meta-Llama-3.1-8B-Instruct']
+    models = ['OLMo-7B-0724-Instruct-hf', 'Llama-3.1-70B-Instruct', 'Llama-3.3-70B-Instruct', 'Meta-Llama-3.1-8B-Instruct', 'OLMo-2-1124-13B-Instruct'] # add more model according to need 
     for model in models:
         if model in title:
-            df_out.to_csv(f'/home/nhatminhle_umass_edu/Evaluation/prefix_probe/eval/csv/{model}/{title}.csv', index=False, encoding='utf-8')
+            df = pd.read_csv(f'/{prompt_setting}/prefix_probe/{title}.csv') # adjust path to files 
+            df_out = pd.DataFrame()
+
+            available_langs = ['en', 'vi', 'es', 'tr']
+            print(f"Available languages for {title}: {available_langs}")
+
+            for lang in available_langs:
+                predictions_col = f'{lang}_second_half'
+                references_col = f'{lang}_results'
+                
+                if predictions_col in df.columns and references_col in df.columns:
+                    print(f"Calculating sentence-level metrics for {lang}...")
+                    
+                    predictions = []
+                    references = []
+
+                    # Initialize columns for metrics
+                    df_out[f'{lang}_BLEURT'] = None
+                    df_out[f'{lang}_ROUGE-L'] = None
+                    df_out[f'{lang}_BLEU'] = None
+                    df_out[f'{lang}_ChrF++'] = None
+
+                    for index, row in df.iterrows():
+                        prediction = row[predictions_col]
+                        reference = row[references_col]
+                        
+                        if pd.notna(prediction) and pd.notna(reference):
+                            predictions.append(prediction)
+                            references.append(reference)
+
+                            # Compute sentence-level metrics
+                            df_out.at[index, f'{lang}_BLEURT'] = calculate_sentence_metrics(lang, prediction, reference, "BLEURT")
+                            df_out.at[index, f'{lang}_ROUGE-L'] = calculate_sentence_metrics(lang, prediction, reference, "ROUGE-L")
+                            bleu_score = calculate_sentence_metrics(lang, prediction, reference, "BLEU")
+                            print(bleu_score)
+                            df_out.at[index, f'{lang}_BLEU'] = bleu_score
+                            df_out.at[index, f'{lang}_ChrF++'] = calculate_sentence_metrics(lang, prediction, reference, "ChrF++")
+
+                    # Compute system-level scores for the whole dataset
+                    print(f"Calculating system-level scores for {lang}...")
+                    system_scores = {
+                        f'{lang}_BLEURT': bleurt.compute(predictions=predictions, references=references)["scores"][0],
+                        f'{lang}_ROUGE-L': rouge.compute(predictions=predictions, references=references, rouge_types=["rougeL"])["rougeL"],
+                        f'{lang}_BLEU': sacrebleu.corpus_bleu(hypotheses=predictions, references=[references]).score,
+                        f'{lang}_ChrF++': sacrebleu.corpus_chrf(hypotheses=predictions, references=[references]).score,
+                    }
+
+                    # Append system scores as a new row
+                    system_scores_row = pd.DataFrame([system_scores])  
+                    df_out = pd.concat([df_out, system_scores_row], ignore_index=True)
+
+            # Add a label for the system scores row
+            df_out['Index'] = df_out.index
+            df_out.loc[df_out.index[-1], 'Index'] = 'System Scores'
+
+            # Save the output CSV
+            output_dir = f'/home/nhatminhle_umass_edu/Evaluation/prefix_probe/{prompt_setting}/csv/{model}/'
+            os.makedirs(output_dir, exist_ok=True)
+            df_out.to_csv(f'{output_dir}/{title}.csv', index=False, encoding='utf-8')
+
 
 
 def list_csv_files(directory):
@@ -83,10 +108,10 @@ def list_csv_files(directory):
         print(f"Error: Permission denied for accessing '{directory}'.")
         return []
 
-titles = list_csv_files('/home/nhatminhle_umass_edu/Tasks/out/prefix_probe copy')
-
-# for t in titles:
-#     print(f'---------------- running {t} ----------------')
-    # main(t)
+prompt_setting = 'one-shot' # change
+titles = list_csv_files(f'/{prompt_setting}/prefix_probe') # add path prefix probe output csv
+mid = len(titles)//2
+for t in titles[:mid]:
+    print(f'---------------- running {t} ----------------')
+    main(t)
     
-main('Harry_Potter_and_the_Deathly_Hallows_prefix_probe_OLMo-7B-0724-Instruct-hf') #  + Harry_Potter_and_the_Deathly_Hallows_prefix_probe_OLMo-7B-0724-Instruct-hf
