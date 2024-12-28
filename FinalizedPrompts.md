@@ -25,7 +25,7 @@
 ---
 
 ## Name Cloze
-"""        
+            """        
         Here is an example:
         <passage>{demo}</passage>
         <output>Hester</output>
