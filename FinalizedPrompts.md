@@ -29,9 +29,7 @@
         Here is an example:
         <passage>{demo}</passage>
         <output>Hester</output>
-"""
-        
-    prompt = """
+
        You are provided with a passage from a book. Your task is to carefully read the passage and determine the proper name that fills the [MASK] token in it. This name is a proper name (not a pronoun or any other word). You must make a guess, even if you are uncertain:
         {demo_passage}
         Here is the passage:
