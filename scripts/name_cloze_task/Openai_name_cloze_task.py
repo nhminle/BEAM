@@ -58,7 +58,7 @@ def predict(lang, passage, mode="unshuffled", prompt_setting="zero-shot"):
         <passage>{passage}</passage>
 
         Use the following format as output:
-       <name>Name</name>
+       <output>Name</output>
     """
 
     completion = client.chat.completions.create(
