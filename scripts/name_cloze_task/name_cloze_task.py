@@ -43,7 +43,7 @@ def predict(lang, passages, llm, mode="unshuffled", prompt_setting="zero-shot"):
         
         Here is an example:
         <passage>{demo}</passage>
-        <output>Hester</output>
+        <name>Hester</name>
         
         """
         
