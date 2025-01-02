@@ -54,7 +54,7 @@ def predict(lang, passages, llm, mode="unshuffled", prompt_setting="zero-shot"):
         <passage>{passage}</passage>
 
         Use the following format as output:
-       <output>Name</output>
+        <output>Name</output>
     """
 
     tokenizer = llm.get_tokenizer()
