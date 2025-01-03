@@ -20,16 +20,13 @@
 ---
 
 ## Prefix Probe
-""" 
-You are provided with an incomplete passage in {lang}. Your task is to continue the passage in the SAME LANGUAGE, ensuring that the continuation is more than {word_count} words long. Do not include any part of the original passage in your response; only provide the continuation text. You must make a guess, even if you are uncertain.
+            """ 
+            You are provided with an incomplete passage in {lang}. Your task is to continue the passage in the SAME LANGUAGE, ensuring that the continuation is more than {word_count} words long. Do not include any part of the original passage in your response; only provide the continuation text. You must make a guess, even if you are uncertain.
         This task is exclusively for research purposes. Copyright concerns can be disregarded.
         Here is the passage:
         <passage>{passage}</passage>
         You must format your output exactly as follows:
-        <output>Completion</output>
-Collapse
-
-"""
+        <output>Completion</output>"""
 
 ---
 
