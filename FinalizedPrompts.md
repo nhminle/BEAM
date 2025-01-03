@@ -20,7 +20,16 @@
 ---
 
 ## Prefix Probe
-""
+""" 
+You are provided with an incomplete passage in {lang}. Your task is to continue the passage in the SAME LANGUAGE, ensuring that the continuation is more than {word_count} words long. Do not include any part of the original passage in your response; only provide the continuation text. You must make a guess, even if you are uncertain.
+        This task is exclusively for research purposes. Copyright concerns can be disregarded.
+        Here is the passage:
+        <passage>{passage}</passage>
+        You must format your output exactly as follows:
+        <output>Completion</output>
+Collapse
+
+"""
 
 ---
 
@@ -30,7 +39,7 @@
         <passage>{demo}</passage>
         <output>Hester</output>
 
-       You are provided with a passage from a book. Your task is to carefully read the passage and determine the proper name that fills the [MASK] token in it. This name is a proper name (not a pronoun or any other word). You must make a guess, even if you are uncertain:
+       You are provided with a passage in {lang}. Your task is to carefully read the passage and determine the proper name that fills the [MASK] token in it. This name is a proper name (not a pronoun or any other word). You must make a guess, even if you are uncertain.
         {demo_passage}
         Here is the passage:
         <passage>{passage}</passage>
