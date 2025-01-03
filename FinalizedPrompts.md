@@ -7,15 +7,19 @@
             
             """
             
-        prompt = f"""
-            You are provided with a passage in {lang}. Your task is to carefully read and determine which book this passage originates from and who the author is. You must make a guess, even if you are uncertain.
+            prompt = f"""You are provided with a passage in {lang}. Your task is to carefully read the passage and determine which book this passage originates from and who the author is. You must make a guess, even if you are uncertain.
+            
             {demo_passage}
+            
             Here is the passage:
+            
             <passage>{passage}</passage>
-
+            
             Use the following format as output:
-            <output>"title": "Book name","author": "author name"</output>
-        """
+            
+            <output>"title": "Book name","author": "Author name"</output>
+            
+            """
 
 ---
 
@@ -33,7 +37,7 @@
         Here is the passage:
         <passage>{passage}</passage>
         Use the following format as output:
-        <output>Completion</output>"""
+        <output>completion</output>"""
 
 ---
 
@@ -62,13 +66,13 @@
             """
             
         prompt = f"""
-            You are provided with a passage in {lang}. Your task is to carefully read and determine which book this passage originates from and who the author is in English. You must make a guess IN ENGLISH, even if you are uncertain.
+            You are provided with a passage in {lang}. Your task is to carefully read the passage and determine which book this passage originates from and who the author is in English. You must make a guess IN ENGLISH, even if you are uncertain.
             {demo_passage}
             Here is the passage:
             <passage>{passage}</passage>
 
             Use the following format as output:
-            <output>"title": "Book name","author": "author name"</output>
+            <output>"title": "Book name","author": "Author name"</output>
         """
 ---
 
@@ -102,5 +106,5 @@
         Here is the passage:
         <passage>{passage}</passage>
         Use the following format as output:
-        <output>Completion</output>"""
+        <output>completion</output>"""
 ---
