@@ -31,7 +31,7 @@
         {demo_passage}
         Here is the passage:
         <passage>{passage}</passage>
-        You must format your output exactly as follows:
+        Use the following format as output:
         <output>Completion</output>"""
 
 ---
