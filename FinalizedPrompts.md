@@ -53,3 +53,15 @@
     """
 
 ---
+
+## Crosslingual Memorization: Direct Probe
+            """   IP   """
+---
+
+## Crosslingual Memorization: Name Cloze
+            """   IP   """
+---
+
+## Crosslingual Memorization: Prefix Probe
+            """   IP   """
+---
