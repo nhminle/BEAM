@@ -11,12 +11,11 @@ region = "westus" #TODO: Enter Region Here
 languages = {
     "st": "Sesotho",
     "yo": "Yorùbá",
-    "my": "Burmese",
-    "am": "Amharic",
-    "ha": "Hausa",
-    "rw": "Kinyarwanda",
-    "xh": "Xhosa",
-    "ps": "Pashto"
+    "tn": "Setswana (Tswana)",
+    "ty": "Reo Tahiti (Tahitian)",
+    "mai": "Maithili",
+    "mg": "Malagasy",
+    "dv": "Divehi (Dhivehi)"
 }
 
 #translate a batch of text with exponential backoff for rate limit handling.
@@ -44,42 +43,53 @@ def translate_batch_with_backoff(texts, to_lang, max_retries=5, initial_delay=5)
     raise Exception("Max retries exceeded for translation request.")
 
 # estimate cost by char 
-def estimate_cost(df, languages, cost_per_million=10, free_tier_limit=2_000_000): #TODO edit free tier limit as you go 
-    total_characters = df['En'].str.len().sum()
+def estimate_cost(df, languages, cost_per_million=10):
+    total_characters = df['en'].str.len().sum()
     total_translation_characters = total_characters * len(languages)
+    estimated_cost = (total_translation_characters / 1_000_000) * cost_per_million
+    return total_translation_characters, estimated_cost
 
-    if total_translation_characters <= free_tier_limit:
-        print("Estimated cost: $0 (within free tier)")
-    else:
-        paid_characters = total_translation_characters - free_tier_limit
-        estimated_cost = (paid_characters / 1_000_000) * cost_per_million
-        print(f"Estimated cost: ${estimated_cost:.2f}")
-    return total_translation_characters
-
+def get_folder_names(directory):
+    folder_names = []
+    for item in os.listdir(directory):
+        item_path = os.path.join(directory, item)
+        if os.path.isdir(item_path):
+            folder_names.append(item)
+    return folder_names
+    
 if __name__ == "__main__":
-    input_csv = "/Users/alishasrivastava/Desktop/Test/testset/CLM TestSet - Pride and Prejudice.csv" #TODO enter file path 
-    output_csv = "CLM_Pride_and_Prejudice.csv" #TODO enter title
+    base_directory = "/Users/alishasrivastava/BEAM/scripts/Prompts"
+    titles = [folder for folder in os.listdir(base_directory) if os.path.isdir(os.path.join(base_directory, folder))]
 
-    df = pd.read_csv(input_csv)
-    if 'En' not in df.columns:
-        print("Error: The input CSV does not contain a column named 'En'.")
-        exit(1)
+    for title in titles:
+        input_csv = f"{base_directory}/{title}/{title}_filtered.csv"
 
-    print("Estimating cost...")
-    estimate_cost(df, languages)
+        print(f"----------------- Translating {title} -----------------")
 
-    # batching translations with delays in between batches
-    batch_size = 10
-    for lang_code, lang_name in languages.items():
-        print(f"Translating to {lang_name}...")
-        translations = []
-        for i in range(0, len(df), batch_size):
-            batch = df['En'][i:i + batch_size].tolist()
-            translations.extend(translate_batch_with_backoff(batch, lang_code))
-            time.sleep(5)  # delay between batches
-        df[lang_name] = translations
-        print(f"Completed translations for {lang_name}. Waiting before next language...")
-        time.sleep(10)  # delay in between languages
+        # Load the CSV
+        df = pd.read_csv(input_csv)
+        if 'en' not in df.columns:
+            print(f"Error: The input CSV for {title} does not contain a column named 'En'. Skipping...")
+            continue
 
-    df.to_csv(output_csv, index=False)
-    print(f"Translation complete. Saved to {output_csv}")
+        # estimate cost for the file
+        total_characters, estimated_cost = estimate_cost(df, languages)
+        print(f"File: {input_csv}")
+        print(f"Total characters: {total_characters}")
+        print(f"Estimated cost: ${estimated_cost:.2f}")
+
+        # translating then overwrite original file
+        batch_size = 10
+        for lang_code, lang_name in languages.items():
+            print(f"Translating to {lang_name}...")
+            translations = []
+            for i in range(0, len(df), batch_size):
+                batch = df['en'][i:i + batch_size].tolist()
+                translations.extend(translate_batch_with_backoff(batch, lang_code))
+                time.sleep(5)  # delay between batches
+            df[lang_name] = translations
+            print(f"Completed translations for {lang_name}. Waiting before next language...")
+            time.sleep(10) #delay in between languages
+
+        df.to_csv(input_csv, index=False)
+        print(f"Translation complete for {title}. Updated {input_csv}.")
