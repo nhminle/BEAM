@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 import time
-
+import os
 # Azure Translator API credentials
 endpoint = "https://api.cognitive.microsofttranslator.com/"
 subscription_key = "" #TODO: Enter Key Here
@@ -58,15 +58,15 @@ def get_folder_names(directory):
     return folder_names
     
 if __name__ == "__main__":
-    base_directory = "/Users/alishasrivastava/BEAM/scripts/Prompts"
+    base_directory = "/Users/alishasrivastava/BEAM-scripts/BEAM/scripts/Prompts/"
     titles = [folder for folder in os.listdir(base_directory) if os.path.isdir(os.path.join(base_directory, folder))]
 
     for title in titles:
-        input_csv = f"{base_directory}/{title}/{title}_filtered.csv"
+        input_csv = f"{base_directory}/{title}/{title}_non_NE.csv"
 
         print(f"----------------- Translating {title} -----------------")
 
-        # Load the CSV
+        #also check if en col exists: bug resolved
         df = pd.read_csv(input_csv)
         if 'en' not in df.columns:
             print(f"Error: The input CSV for {title} does not contain a column named 'En'. Skipping...")
