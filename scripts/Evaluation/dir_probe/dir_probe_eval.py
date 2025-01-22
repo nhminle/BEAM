@@ -10,18 +10,18 @@ import seaborn as sns
 def run_exact_match(correct_author, correct_title_list, returned_author, returned_title, lang):
     returned_author = str(returned_author) if pd.notna(returned_author) else ''
     correct_author = str(correct_author) if pd.notna(correct_author) else ''
-    
-    # print("Returned Author:", returned_author)
-    # print("Correct Author:", correct_author)
 
     # Check if the returned title matches any of the titles in the correct_title_list using fuzzy matching
     title_match = any(
         fuzz.ratio(unidecode.unidecode(str(returned_title)).lower(), unidecode.unidecode(str(title)).lower()) >= 90
         for title in correct_title_list
+    ) or any(
+        unidecode.unidecode(str(title)).lower() in unidecode.unidecode(str(returned_title)).lower()
+        for title in correct_title_list
     )
 
     # Check if the authors match using fuzzy matching
-    author_match = fuzz.ratio(unidecode.unidecode(correct_author).lower(), unidecode.unidecode(returned_author).lower()) >= 90
+    author_match = fuzz.ratio(unidecode.unidecode(correct_author).lower(), unidecode.unidecode(returned_author).lower()) >= 90 or unidecode.unidecode(correct_author).lower() in unidecode.unidecode(returned_author).lower()
 
     # Check if both title and author match
     both_match = True if title_match == author_match == True else False
@@ -35,20 +35,28 @@ def run_exact_match(correct_author, correct_title_list, returned_author, returne
 
 
 def extract_title_author(results_column):
-    # Extract title and author from the results column using regex
+    # Ensure input is cleaned and standardized
     results_column = results_column.fillna('').astype(str).str.strip()
-    return results_column.str.extract(r'"title":\s*"(.*?)",\s*"author":\s*"(.*?)"')
+    
+    # Extract title and author from the results column using regex
+    extracted = results_column.str.extract(r'"title":\s*"(.*?)",\s*"author":\s*"(.*?)"')
+    
+    # Replace NaN rows with original content
+    unmatched_rows = extracted.isnull().all(axis=1)  # Identify rows where regex didn't match
+    extracted.loc[unmatched_rows, 0] = results_column[unmatched_rows]
+    extracted.loc[unmatched_rows, 1] = results_column[unmatched_rows]
+    
+    return extracted
 
 
-def evaluate(csv_file_name, book_title, model):
+def evaluate(csv_file_name, book_title, model, prompt_setting):
     # Load book names and CSV data
     # print(book_title)
-    book_names = pd.read_csv('/Users/minhle/Umass/ersp/Evaluation/dir_probe/eval/csv/book_names.csv')
+    book_names = pd.read_csv('scripts/Evaluation/dir_probe/book_names.csv')
     df = pd.read_csv(csv_file_name)
-    available_langs = [col.split('_')[0] for col in df.columns if col.endswith('_masked_results')]
     # Filter columns containing 'results'
-    filtered_df = df.loc[:, df.columns.str.contains('results', case=False)]
-    book_title = book_title.replace(f'_direct_probe_{model}', '')
+    filtered_df = df.loc[:, df.columns.str.contains('results', case=False) & (df.columns != 'Unnamed: 0_results')]
+    book_title = book_title.replace(f'_direct_probe_{model}_{prompt_setting}', '')
     book_title = book_title.replace('_',' ')
     print(book_title)
     # Find the matching row for the given book title
@@ -94,11 +102,11 @@ def split_data(data): #this function splits our results to shuffled and unshuffl
 
     return shuffled, unshuffled
 
-def save_data(title,data,model,shuffled):
+def save_data(title,data,model,shuffled,prompt_setting):
     if shuffled:
-        data.to_csv(f'/Users/minhle/Umass/ersp/Evaluation/dir_probe/eval/csv/{model}/{model}_shuffled/{title}_shuffled_eval.csv', index= False, encoding='utf-8')
+        data.to_csv(f'scripts/Evaluation/dir_probe/eval/{prompt_setting}/csv/{model}/{model}_shuffled/{title}_shuffled_eval.csv', index= False, encoding='utf-8')
     else:
-        data.to_csv(f'/Users/minhle/Umass/ersp/Evaluation/dir_probe/eval/csv/{model}/{title}_eval.csv', index= False, encoding='utf-8')  
+        data.to_csv(f'scripts/Evaluation/dir_probe/eval/{prompt_setting}/csv/{model}/{title}_eval.csv', index= False, encoding='utf-8')  
 
 
 def guess_accuracy(data):
@@ -123,7 +131,7 @@ def get_folder_names(directory):
         
     return folder_names
 
-def plot(accuracy_data, title, shuffled):
+def plot(accuracy_data, title, shuffled, prompt_setting):
     languages = ['en', 'es', 'tr', 'vi']
     categories = ['title_match', 'author_match', 'both_match']
     data = {}
@@ -176,9 +184,9 @@ def plot(accuracy_data, title, shuffled):
     # Display the plot
     plt.tight_layout()
     if shuffled:
-        plt.savefig(f'/Users/minhle/Umass/ersp/Evaluation/dir_probe/eval/plots/shuffled/{title}.png', dpi=300, bbox_inches='tight')
+        plt.savefig(f'scripts/Evaluation/dir_probe/eval/{prompt_setting}/plots/shuffled/{title}.png', dpi=300, bbox_inches='tight')
     else:
-        plt.savefig(f'/Users/minhle/Umass/ersp/Evaluation/dir_probe/eval/plots/unshuffled/{title}.png', dpi=300, bbox_inches='tight')
+        plt.savefig(f'scripts/Evaluation/dir_probe/eval/{prompt_setting}/plots/unshuffled/{title}.png', dpi=300, bbox_inches='tight')
 
 def read_txt_file(file_path):
     # Read text file content
@@ -201,7 +209,7 @@ def list_csv_files(directory):
         print(f"Error: Permission denied for accessing '{directory}'.")
         return []
 
-def create_heatmap(df,release_date_csv,model,shuffled):
+def create_heatmap(df,release_date_csv,model,shuffled,prompt_setting):
     release_dates = pd.read_csv(release_date_csv)
     release_dates['Release Date'] = pd.to_datetime(release_dates['Release Date'])  # Ensure datetime format
     merged_df = pd.merge(df, release_dates, on='Title', how='inner')
@@ -248,35 +256,35 @@ def create_heatmap(df,release_date_csv,model,shuffled):
     plt.ylabel('Books (Sorted by Release Date)', fontsize=16)
     plt.tight_layout()
     if shuffled:
-        plt.savefig(f'/Users/minhle/Umass/ersp/Evaluation/dir_probe/eval/{model}_shuffled_dirprobe_heatmap.png', dpi=300, bbox_inches='tight')
+        plt.savefig(f'scripts/Evaluation/dir_probe/eval/{prompt_setting}/{model}_shuffled_dirprobe_heatmap.png', dpi=300, bbox_inches='tight')
     else:
-        plt.savefig(f'/Users/minhle/Umass/ersp/Evaluation/dir_probe/eval/{model}_dirprobe_heatmap.png', dpi=300, bbox_inches='tight')
+        plt.savefig(f'scripts/Evaluation/dir_probe/eval/{prompt_setting}/{model}_dirprobe_heatmap.png', dpi=300, bbox_inches='tight')
     
     
 if __name__ == "__main__":
-    models = ['OLMo-7B-0724-Instruct-hf', 'Llama-3.1-70B-Instruct', 'Meta-Llama-3.1-8B-Instruct', 'gpt4o']
-    titles = list_csv_files('/Users/minhle/Umass/ersp/Evaluation/dir_probe/llm_out')
-    unshuffled_accuracy_list = {'OLMo-7B-0724-Instruct-hf':{}, 'Llama-3.1-70B-Instruct':{}, 'Meta-Llama-3.1-8B-Instruct':{}, 'gpt4o':{}}
-    shuffled_accuracy_list = {'OLMo-7B-0724-Instruct-hf':{}, 'Llama-3.1-70B-Instruct':{}, 'Meta-Llama-3.1-8B-Instruct':{}, 'gpt4o':{}}
+    models = ['EuroLLM-9B-Instruct', 'OLMo-7B-0724-Instruct-hf', 'Llama-3.1-70B-Instruct', 'Llama-3.3-70B-Instruct', 'Meta-Llama-3.1-8B-Instruct', 'OLMo-2-1124-13B-Instruct'] # add more models here
+    prompt_setting = 'one-shot' # one-shot || zero-shot
+    titles = list_csv_files(f'scripts/Evaluation/dir_probe/llm_out/{prompt_setting}')
+    unshuffled_accuracy_list = {item: {} for item in models} 
+    shuffled_accuracy_list = {item: {} for item in models} 
+    
     
     for title in titles:
         for model in models:
             if model in title:
                 print(f'----------------- Running {title} -----------------')   
-                book_title = title.replace(f'_direct_probe_{model}', '')
-                # book_title = book_title.replace('_',' ') 
-                print(f'/Users/minhle/Umass/ersp/Evaluation/dir_probe/llm_out/{title}.csv')
-                results_evaluated =evaluate(csv_file_name=f'/Users/minhle/Umass/ersp/Evaluation/dir_probe/llm_out/{title}.csv', book_title=title, model=model)
+                book_title = title.replace(f'_direct_probe_{model}_{prompt_setting}', '')
+                results_evaluated = evaluate(csv_file_name=f'scripts/Evaluation/dir_probe/llm_out/{prompt_setting}/{title}.csv', book_title=title, model=model, prompt_setting=prompt_setting)
                 shuffled, unshuffled = split_data(results_evaluated)
-                save_data(title,shuffled,model,True)
-                save_data(title,unshuffled,model,False)
+                save_data(title,shuffled,model,True,prompt_setting)
+                save_data(title,unshuffled,model,False,prompt_setting)
                 unshuffled_acc_df = guess_accuracy(unshuffled)
                 shuffled_acc_df = guess_accuracy(shuffled)
                 # print(unshuffled_acc_df.keys)
                 unshuffled_accuracy_list[model][book_title]=(unshuffled_acc_df)
                 shuffled_accuracy_list[model][book_title] =(shuffled_acc_df)
-                plot(unshuffled_acc_df,title,False) 
-                plot(shuffled_acc_df,title,True)    
+                plot(unshuffled_acc_df,title,False,prompt_setting) 
+                plot(shuffled_acc_df,title,True,prompt_setting)   
 
     for model in models:
         # Save unshuffled accuracy list
@@ -292,11 +300,5 @@ if __name__ == "__main__":
         # s_df.to_csv('/Users/minhle/Umass/ersp/Evaluation/dir_probe/eval/shuffled.csv', index=False, encoding='utf-8')
         # s_df = pd.read_csv('./shuffled.csv')
         # print(s_df.shape)
-        create_heatmap(s_df,"/Users/minhle/Umass/ersp/Evaluation/dir_probe/eval/csv/release_date.csv",model,True)
-        create_heatmap(u_df,"/Users/minhle/Umass/ersp/Evaluation/dir_probe/eval/csv/release_date.csv",model,False)
-    
-
-    #Instructions
-    #Run the code inside direct_probing folder.
-    #Rename your alice in wonderland to Alice_s_Adventures_in_Wonderland, and Percy_Jackson_the_Lightning_Thief to The_Lightning_Thief only.
-    #Put your results inside Evalutation/modelanme/ then modify the code accordingly.
+        create_heatmap(s_df,"scripts/Evaluation/dir_probe/release_date.csv",model,True,prompt_setting)
+        create_heatmap(u_df,"scripts/Evaluation/dir_probe/release_date.csv",model,False,prompt_setting)
