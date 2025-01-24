@@ -1,2 +1,4 @@
 .DS_Store
 scripts/Prompts (old)
+scripts/olmo-search/slurm_olmo.sh
+scripts/olmo-search/shards/shard_00000000_processed.jsonl
