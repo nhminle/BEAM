@@ -1,0 +1,356 @@
+/var/spool/slurm/slurmd/job27935018/slurm_script: line 12: .venv/bin/activate: No such file or directory
+2025-01-23 12:10:40,842 [INFO] Starting the search
+2025-01-23 12:10:41,117 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Alice_in_Wonderland/stored/Alice_in_Wonderland_filtered_masked_sampled.csv: None of the specified columns exist.
+2025-01-23 12:10:41,117 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Alice_in_Wonderland/stored/Alice_in_Wonderland_filtered_masked_sampled.csv.
+2025-01-23 12:10:41,118 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Huckleberry_Finn/stored/Adventures_of_Huckleberry_Finn_filtered_sampled.csv
+2025-01-23 12:10:41,119 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/A_Tale_of_Two_Cities/stored/A_Tale_of_Two_Cities_filtered_sampled.csv
+2025-01-23 12:10:41,126 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/1984/1984.csv: None of the specified columns exist.
+2025-01-23 12:10:41,126 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/1984/1984.csv.
+2025-01-23 12:10:41,127 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Alice_in_Wonderland/stored/Alice_in_Wonderland_filtered_sampled.csv
+2025-01-23 12:10:41,163 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/1984/1984_non_NE.csv
+2025-01-23 12:13:56,747 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Alice_in_Wonderland/stored/Alice_in_Wonderland_filtered_sampled.csv.
+2025-01-23 12:13:56,760 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Below_Zero/Below_Zero_filtered_masked.csv: None of the specified columns exist.
+2025-01-23 12:13:56,760 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Below_Zero/Below_Zero_filtered_masked.csv.
+2025-01-23 12:13:56,769 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Below_Zero/Below_Zero_filtered_masked_sampled.csv: None of the specified columns exist.
+2025-01-23 12:13:56,769 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Below_Zero/Below_Zero_filtered_masked_sampled.csv.
+2025-01-23 12:13:56,804 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Below_Zero/Below_Zero_non_NE.csv
+2025-01-23 12:14:45,815 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Below_Zero/Below_Zero_non_NE.csv.
+2025-01-23 12:14:45,839 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Below_Zero/Below_Zero_unmasked_passages.csv
+2025-01-23 12:15:07,727 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/1984/1984_non_NE.csv.
+2025-01-23 12:15:07,804 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/1984/1984_unmasked_passages.csv
+2025-01-23 12:15:34,472 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Below_Zero/Below_Zero_unmasked_passages.csv.
+2025-01-23 12:15:34,487 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Below_Zero/stored/Below_Zero_filtered.csv
+2025-01-23 12:16:23,079 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Below_Zero/stored/Below_Zero_filtered.csv.
+2025-01-23 12:16:23,092 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Below_Zero/stored/Below_Zero_filtered_sampled.csv
+2025-01-23 12:17:11,107 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Below_Zero/stored/Below_Zero_filtered_sampled.csv.
+2025-01-23 12:17:11,135 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Bride/Bride_filtered_masked.csv: None of the specified columns exist.
+2025-01-23 12:17:11,135 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Bride/Bride_filtered_masked.csv.
+2025-01-23 12:17:11,147 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Bride/Bride_filtered_masked_sampled.csv: None of the specified columns exist.
+2025-01-23 12:17:11,147 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Bride/Bride_filtered_masked_sampled.csv.
+2025-01-23 12:17:11,175 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Bride/Bride_non_NE.csv
+2025-01-23 12:17:53,623 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/A_Tale_of_Two_Cities/stored/A_Tale_of_Two_Cities_filtered_sampled.csv.
+2025-01-23 12:17:53,654 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/A_thousand_splendid_suns/A_thousand_splendid_suns.csv: None of the specified columns exist.
+2025-01-23 12:17:53,654 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/A_thousand_splendid_suns/A_thousand_splendid_suns.csv.
+2025-01-23 12:17:53,701 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/A_thousand_splendid_suns/A_thousand_splendid_suns_non_NE.csv
+2025-01-23 12:18:01,644 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Huckleberry_Finn/stored/Adventures_of_Huckleberry_Finn_filtered_sampled.csv.
+2025-01-23 12:18:01,708 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Sherlock_Holmes/Adventures_of_Sherlock_Holmes.csv: None of the specified columns exist.
+2025-01-23 12:18:01,708 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Sherlock_Holmes/Adventures_of_Sherlock_Holmes.csv.
+2025-01-23 12:18:01,810 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Sherlock_Holmes/Adventures_of_Sherlock_Holmes_non_NE.csv
+2025-01-23 12:18:54,079 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Bride/Bride_non_NE.csv.
+2025-01-23 12:18:54,101 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Bride/Bride_unmasked_passages.csv
+2025-01-23 12:19:32,626 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/1984/1984_unmasked_passages.csv.
+2025-01-23 12:19:32,713 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/1984/stored/1984_filtered.csv
+2025-01-23 12:20:38,826 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Bride/Bride_unmasked_passages.csv.
+2025-01-23 12:20:38,844 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Bride/stored/Bride_filtered.csv
+2025-01-23 12:21:25,771 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/A_thousand_splendid_suns/A_thousand_splendid_suns_non_NE.csv.
+2025-01-23 12:21:25,806 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/A_thousand_splendid_suns/A_thousand_splendid_suns_unmasked_passages.csv
+2025-01-23 12:23:57,391 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/1984/stored/1984_filtered.csv.
+2025-01-23 12:23:57,425 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/1984/stored/1984_filtered_masked.csv: None of the specified columns exist.
+2025-01-23 12:23:57,425 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/1984/stored/1984_filtered_masked.csv.
+2025-01-23 12:23:57,459 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/1984/stored/1984_filtered_masked_sampled.csv: None of the specified columns exist.
+2025-01-23 12:23:57,467 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/1984/stored/1984_filtered_masked_sampled.csv.
+2025-01-23 12:23:57,492 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/1984/stored/1984_filtered_sampled.csv
+2025-01-23 12:24:32,843 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Bride/stored/Bride_filtered.csv.
+2025-01-23 12:24:32,860 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Bride/stored/Bride_filtered_sampled.csv
+2025-01-23 12:25:02,644 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/A_thousand_splendid_suns/A_thousand_splendid_suns_unmasked_passages.csv.
+2025-01-23 12:25:02,691 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/A_thousand_splendid_suns/stored/A_thousand_splendid_suns_filtered.csv
+2025-01-23 12:25:26,890 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Sherlock_Holmes/Adventures_of_Sherlock_Holmes_non_NE.csv.
+2025-01-23 12:25:26,967 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Sherlock_Holmes/Adventures_of_Sherlock_Holmes_unmasked_passages.csv
+2025-01-23 12:26:17,007 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Bride/stored/Bride_filtered_sampled.csv.
+2025-01-23 12:26:17,092 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dracula/Dracula.csv: None of the specified columns exist.
+2025-01-23 12:26:17,092 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dracula/Dracula.csv.
+2025-01-23 12:26:17,203 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dracula/Dracula_non_NE.csv
+2025-01-23 12:28:23,431 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/1984/stored/1984_filtered_sampled.csv.
+2025-01-23 12:28:23,499 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/A_Tale_of_Two_Cities/A_Tale_of_Two_Cities.csv: None of the specified columns exist.
+2025-01-23 12:28:23,499 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/A_Tale_of_Two_Cities/A_Tale_of_Two_Cities.csv.
+2025-01-23 12:28:23,612 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/A_Tale_of_Two_Cities/A_Tale_of_Two_Cities_non_NE.csv
+2025-01-23 12:28:39,443 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/A_thousand_splendid_suns/stored/A_thousand_splendid_suns_filtered.csv.
+2025-01-23 12:28:39,468 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/A_thousand_splendid_suns/stored/A_thousand_splendid_suns_filtered_masked.csv: None of the specified columns exist.
+2025-01-23 12:28:39,468 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/A_thousand_splendid_suns/stored/A_thousand_splendid_suns_filtered_masked.csv.
+2025-01-23 12:28:39,481 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/A_thousand_splendid_suns/stored/A_thousand_splendid_suns_filtered_sampled.csv
+2025-01-23 12:32:16,076 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/A_thousand_splendid_suns/stored/A_thousand_splendid_suns_filtered_sampled.csv.
+2025-01-23 12:32:16,173 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Huckleberry_Finn/Adventures_of_Huckleberry_Finn.csv: None of the specified columns exist.
+2025-01-23 12:32:16,174 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Huckleberry_Finn/Adventures_of_Huckleberry_Finn.csv.
+2025-01-23 12:32:16,228 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Huckleberry_Finn/Adventures_of_Huckleberry_Finn_filtered_masked.csv: None of the specified columns exist.
+2025-01-23 12:32:16,228 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Huckleberry_Finn/Adventures_of_Huckleberry_Finn_filtered_masked.csv.
+2025-01-23 12:32:16,270 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Huckleberry_Finn/Adventures_of_Huckleberry_Finn_filtered_masked_sampled.csv: None of the specified columns exist.
+2025-01-23 12:32:16,270 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Huckleberry_Finn/Adventures_of_Huckleberry_Finn_filtered_masked_sampled.csv.
+2025-01-23 12:32:16,374 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Huckleberry_Finn/Adventures_of_Huckleberry_Finn_non_NE.csv
+2025-01-23 12:32:51,526 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Sherlock_Holmes/Adventures_of_Sherlock_Holmes_unmasked_passages.csv.
+2025-01-23 12:32:51,690 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Sherlock_Holmes/stored/Adventures_of_Sherlock_Holmes_filtered.csv
+2025-01-23 12:32:52,138 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dracula/Dracula_non_NE.csv.
+2025-01-23 12:32:52,246 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dracula/Dracula_unmasked_passages.csv
+2025-01-23 12:35:48,434 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/A_Tale_of_Two_Cities/A_Tale_of_Two_Cities_non_NE.csv.
+2025-01-23 12:35:48,522 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/A_Tale_of_Two_Cities/A_Tale_of_Two_Cities_unmasked_passages.csv
+2025-01-23 12:39:13,674 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dracula/Dracula_unmasked_passages.csv.
+2025-01-23 12:39:13,800 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dracula/stored/Dracula_filtered.csv
+2025-01-23 12:39:23,518 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Huckleberry_Finn/Adventures_of_Huckleberry_Finn_non_NE.csv.
+2025-01-23 12:39:23,642 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Huckleberry_Finn/Adventures_of_Huckleberry_Finn_unmasked_passages.csv
+2025-01-23 12:42:57,778 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/A_Tale_of_Two_Cities/A_Tale_of_Two_Cities_unmasked_passages.csv.
+2025-01-23 12:42:57,891 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/A_Tale_of_Two_Cities/stored/A_Tale_of_Two_Cities_filtered.csv
+2025-01-23 12:45:37,645 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dracula/stored/Dracula_filtered.csv.
+2025-01-23 12:45:37,694 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dracula/stored/Dracula_filtered_masked.csv: None of the specified columns exist.
+2025-01-23 12:45:37,694 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dracula/stored/Dracula_filtered_masked.csv.
+2025-01-23 12:45:37,741 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dracula/stored/Dracula_filtered_masked_sampled.csv: None of the specified columns exist.
+2025-01-23 12:45:37,741 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dracula/stored/Dracula_filtered_masked_sampled.csv.
+2025-01-23 12:45:37,785 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dracula/stored/Dracula_filtered_sampled.csv
+2025-01-23 12:46:41,916 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Huckleberry_Finn/Adventures_of_Huckleberry_Finn_unmasked_passages.csv.
+2025-01-23 12:46:42,071 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Huckleberry_Finn/stored/Adventures_of_Huckleberry_Finn_filtered.csv
+2025-01-23 12:47:53,475 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Sherlock_Holmes/stored/Adventures_of_Sherlock_Holmes_filtered.csv.
+2025-01-23 12:47:53,539 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Sherlock_Holmes/stored/Adventures_of_Sherlock_Holmes_filtered_masked.csv: None of the specified columns exist.
+2025-01-23 12:47:53,539 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Sherlock_Holmes/stored/Adventures_of_Sherlock_Holmes_filtered_masked.csv.
+2025-01-23 12:47:53,578 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Sherlock_Holmes/stored/Adventures_of_Sherlock_Holmes_filtered_masked_sampled.csv: None of the specified columns exist.
+2025-01-23 12:47:53,578 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Sherlock_Holmes/stored/Adventures_of_Sherlock_Holmes_filtered_masked_sampled.csv.
+2025-01-23 12:47:53,612 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Sherlock_Holmes/stored/Adventures_of_Sherlock_Holmes_filtered_sampled.csv
+2025-01-23 12:52:13,181 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dracula/stored/Dracula_filtered_sampled.csv.
+2025-01-23 12:52:13,243 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dune/Dune.csv: None of the specified columns exist.
+2025-01-23 12:52:13,243 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dune/Dune.csv.
+2025-01-23 12:52:13,302 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dune/Dune_non_NE.csv
+2025-01-23 12:55:22,534 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Sherlock_Holmes/stored/Adventures_of_Sherlock_Holmes_filtered_sampled.csv.
+2025-01-23 12:55:22,580 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Alice_in_Wonderland/Alice_in_Wonderland.csv: None of the specified columns exist.
+2025-01-23 12:55:22,580 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Alice_in_Wonderland/Alice_in_Wonderland.csv.
+2025-01-23 12:55:22,620 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Alice_in_Wonderland/Alice_in_Wonderland_non_NE.csv
+2025-01-23 12:57:15,108 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Adventures_of_Huckleberry_Finn/stored/Adventures_of_Huckleberry_Finn_filtered.csv.
+2025-01-23 12:57:15,145 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dune/stored/Dune_filtered_masked_sampled.csv: None of the specified columns exist.
+2025-01-23 12:57:15,145 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dune/stored/Dune_filtered_masked_sampled.csv.
+2025-01-23 12:57:15,177 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dune/stored/Dune_filtered_sampled.csv
+2025-01-23 12:58:40,493 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Alice_in_Wonderland/Alice_in_Wonderland_non_NE.csv.
+2025-01-23 12:58:40,533 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Alice_in_Wonderland/Alice_in_Wonderland_unmasked_passages.csv
+2025-01-23 12:59:08,200 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/First_Lie_Wins/stored/First_Lie_Wins_filtered_sampled.csv
+2025-01-23 12:59:34,011 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dune/Dune_non_NE.csv.
+2025-01-23 12:59:34,083 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dune/Dune_unmasked_passages.csv
+2025-01-23 13:00:56,516 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/First_Lie_Wins/stored/First_Lie_Wins_filtered_sampled.csv.
+2025-01-23 13:00:56,577 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Frankenstein/Frankenstein.csv: None of the specified columns exist.
+2025-01-23 13:00:56,577 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Frankenstein/Frankenstein.csv.
+2025-01-23 13:00:56,647 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Frankenstein/Frankenstein_non_NE.csv
+2025-01-23 13:02:01,506 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Alice_in_Wonderland/Alice_in_Wonderland_unmasked_passages.csv.
+2025-01-23 13:02:01,567 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Alice_in_Wonderland/stored/Alice_in_Wonderland_filtered.csv
+2025-01-23 13:04:40,626 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dune/stored/Dune_filtered_sampled.csv.
+2025-01-23 13:04:40,672 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Fahrenheit_451/Fahrenheit_451.csv: None of the specified columns exist.
+2025-01-23 13:04:40,672 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Fahrenheit_451/Fahrenheit_451.csv.
+2025-01-23 13:04:40,718 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Fahrenheit_451/Fahrenheit_451_non_NE.csv
+2025-01-23 13:04:46,048 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Frankenstein/Frankenstein_non_NE.csv.
+2025-01-23 13:04:46,130 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Frankenstein/Frankenstein_unmasked_passages.csv
+2025-01-23 13:05:21,113 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Alice_in_Wonderland/stored/Alice_in_Wonderland_filtered.csv.
+2025-01-23 13:05:21,140 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Alice_in_Wonderland/stored/Alice_in_Wonderland_filtered_masked.csv: None of the specified columns exist.
+2025-01-23 13:05:21,140 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Alice_in_Wonderland/stored/Alice_in_Wonderland_filtered_masked.csv.
+2025-01-23 13:05:21,158 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Funny_Story/stored/Funny_Story_filtered_sampled.csv
+2025-01-23 13:06:54,226 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dune/Dune_unmasked_passages.csv.
+2025-01-23 13:06:54,431 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dune/stored/Dune_filtered.csv
+2025-01-23 13:07:06,418 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Funny_Story/stored/Funny_Story_filtered_sampled.csv.
+2025-01-23 13:07:06,461 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Harry_Potter_and_the_Deathly_Hallows/Harry_Potter_and_the_Deathly_Hallows.csv: None of the specified columns exist.
+2025-01-23 13:07:06,461 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Harry_Potter_and_the_Deathly_Hallows/Harry_Potter_and_the_Deathly_Hallows.csv.
+2025-01-23 13:07:06,530 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Harry_Potter_and_the_Deathly_Hallows/Harry_Potter_and_the_Deathly_Hallows_non_NE.csv
+2025-01-23 13:08:44,224 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Frankenstein/Frankenstein_unmasked_passages.csv.
+2025-01-23 13:08:44,309 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Frankenstein/stored/Frankenstein_filtered.csv
+2025-01-23 13:09:16,117 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Fahrenheit_451/Fahrenheit_451_non_NE.csv.
+2025-01-23 13:09:16,164 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Fahrenheit_451/Fahrenheit_451_unmasked_passages.csv
+2025-01-23 13:12:42,254 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Frankenstein/stored/Frankenstein_filtered.csv.
+2025-01-23 13:12:42,289 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Frankenstein/stored/Frankenstein_filtered_masked.csv: None of the specified columns exist.
+2025-01-23 13:12:42,289 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Frankenstein/stored/Frankenstein_filtered_masked.csv.
+2025-01-23 13:12:42,322 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Frankenstein/stored/Frankenstein_filtered_masked_sampled.csv: None of the specified columns exist.
+2025-01-23 13:12:42,322 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Frankenstein/stored/Frankenstein_filtered_masked_sampled.csv.
+2025-01-23 13:12:42,355 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Frankenstein/stored/Frankenstein_filtered_sampled.csv
+2025-01-23 13:14:23,194 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/If_Only_I_Had_Told_Her/stored/If_Only_I_Had_Told_Her_filtered_sampled.csv
+2025-01-23 13:15:42,883 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Fahrenheit_451/Fahrenheit_451_unmasked_passages.csv.
+2025-01-23 13:15:42,931 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Fahrenheit_451/stored/Fahrenheit_451_filtered.csv
+2025-01-23 13:15:44,645 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/If_Only_I_Had_Told_Her/stored/If_Only_I_Had_Told_Her_filtered_sampled.csv.
+2025-01-23 13:15:44,666 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Just_for_the_Summer/Just_for_the_Summer_filtered_masked.csv: None of the specified columns exist.
+2025-01-23 13:15:44,666 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Just_for_the_Summer/Just_for_the_Summer_filtered_masked.csv.
+2025-01-23 13:15:44,674 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Just_for_the_Summer/Just_for_the_Summer_filtered_masked_sampled.csv: None of the specified columns exist.
+2025-01-23 13:15:44,674 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Just_for_the_Summer/Just_for_the_Summer_filtered_masked_sampled.csv.
+2025-01-23 13:15:44,713 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Just_for_the_Summer/Just_for_the_Summer_non_NE.csv
+2025-01-23 13:16:43,050 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Frankenstein/stored/Frankenstein_filtered_sampled.csv.
+2025-01-23 13:16:43,079 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Funny_Story/Funny_Story_filtered_masked.csv: None of the specified columns exist.
+2025-01-23 13:16:43,079 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Funny_Story/Funny_Story_filtered_masked.csv.
+2025-01-23 13:16:43,090 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Funny_Story/Funny_Story_filtered_masked_sampled.csv: None of the specified columns exist.
+2025-01-23 13:16:43,090 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Funny_Story/Funny_Story_filtered_masked_sampled.csv.
+2025-01-23 13:16:43,140 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Funny_Story/Funny_Story_non_NE.csv
+2025-01-23 13:17:31,885 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Just_for_the_Summer/Just_for_the_Summer_non_NE.csv.
+2025-01-23 13:17:31,898 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Just_for_the_Summer/Just_for_the_Summer_unmasked_passages.csv
+2025-01-23 13:18:32,538 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Funny_Story/Funny_Story_non_NE.csv.
+2025-01-23 13:18:32,555 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Funny_Story/Funny_Story_unmasked_passages.csv
+2025-01-23 13:19:19,714 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Just_for_the_Summer/Just_for_the_Summer_unmasked_passages.csv.
+2025-01-23 13:19:19,728 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Just_for_the_Summer/stored/Just_for_the_Summer_filtered.csv
+2025-01-23 13:20:18,106 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Funny_Story/Funny_Story_unmasked_passages.csv.
+2025-01-23 13:20:18,129 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Funny_Story/stored/Funny_Story_filtered.csv
+2025-01-23 13:22:13,452 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Of_Mice_and_Men/Of_Mice_and_Men.csv: None of the specified columns exist.
+2025-01-23 13:22:13,453 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Of_Mice_and_Men/Of_Mice_and_Men.csv.
+2025-01-23 13:22:13,493 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Of_Mice_and_Men/Of_Mice_and_Men_non_NE.csv
+2025-01-23 13:23:04,395 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Just_for_the_Summer/stored/Just_for_the_Summer_filtered.csv.
+2025-01-23 13:23:04,412 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Just_for_the_Summer/stored/Just_for_the_Summer_filtered_sampled.csv
+2025-01-23 13:23:21,899 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Funny_Story/stored/Funny_Story_filtered.csv.
+2025-01-23 13:23:21,957 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Percy_Jackson_The_Lightning_Thief/Percy_Jackson_The_Lightning_Thief.csv: None of the specified columns exist.
+2025-01-23 13:23:21,957 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Percy_Jackson_The_Lightning_Thief/Percy_Jackson_The_Lightning_Thief.csv.
+2025-01-23 13:23:22,019 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Percy_Jackson_The_Lightning_Thief/Percy_Jackson_The_Lightning_Thief_non_NE.csv
+2025-01-23 13:24:51,128 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Just_for_the_Summer/stored/Just_for_the_Summer_filtered_sampled.csv.
+2025-01-23 13:24:51,158 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Lies_and_Weddings/Lies_and_Weddings_filtered_masked.csv: None of the specified columns exist.
+2025-01-23 13:24:51,158 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Lies_and_Weddings/Lies_and_Weddings_filtered_masked.csv.
+2025-01-23 13:24:51,172 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Lies_and_Weddings/Lies_and_Weddings_filtered_masked_sampled.csv: None of the specified columns exist.
+2025-01-23 13:24:51,172 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Lies_and_Weddings/Lies_and_Weddings_filtered_masked_sampled.csv.
+2025-01-23 13:24:51,204 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Lies_and_Weddings/Lies_and_Weddings_non_NE.csv
+2025-01-23 13:25:37,946 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Of_Mice_and_Men/Of_Mice_and_Men_non_NE.csv.
+2025-01-23 13:25:37,991 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Of_Mice_and_Men/Of_Mice_and_Men_unmasked_passages.csv
+2025-01-23 13:26:35,829 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Lies_and_Weddings/Lies_and_Weddings_non_NE.csv.
+2025-01-23 13:26:35,851 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Lies_and_Weddings/Lies_and_Weddings_unmasked_passages.csv
+2025-01-23 13:28:20,318 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Lies_and_Weddings/Lies_and_Weddings_unmasked_passages.csv.
+2025-01-23 13:28:20,345 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Lies_and_Weddings/stored/Lies_and_Weddings_filtered.csv
+2025-01-23 13:28:59,843 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Of_Mice_and_Men/Of_Mice_and_Men_unmasked_passages.csv.
+2025-01-23 13:28:59,894 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Of_Mice_and_Men/stored/Of_Mice_and_Men_filtered.csv
+2025-01-23 13:30:31,723 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Percy_Jackson_The_Lightning_Thief/Percy_Jackson_The_Lightning_Thief_non_NE.csv.
+2025-01-23 13:30:31,793 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Percy_Jackson_The_Lightning_Thief/Percy_Jackson_The_Lightning_Thief_unmasked_passages.csv
+2025-01-23 13:32:22,622 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Of_Mice_and_Men/stored/Of_Mice_and_Men_filtered.csv.
+2025-01-23 13:32:22,647 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Of_Mice_and_Men/stored/Of_Mice_and_Men_filtered_masked.csv: None of the specified columns exist.
+2025-01-23 13:32:22,647 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Of_Mice_and_Men/stored/Of_Mice_and_Men_filtered_masked.csv.
+2025-01-23 13:32:22,662 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Of_Mice_and_Men/stored/Of_Mice_and_Men_filtered_masked_sampled.csv: None of the specified columns exist.
+2025-01-23 13:32:22,663 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Of_Mice_and_Men/stored/Of_Mice_and_Men_filtered_masked_sampled.csv.
+2025-01-23 13:32:22,692 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Of_Mice_and_Men/stored/Of_Mice_and_Men_filtered_sampled.csv
+2025-01-23 13:34:38,286 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dune/stored/Dune_filtered.csv.
+2025-01-23 13:34:38,362 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dune/stored/Dune_filtered_masked.csv: None of the specified columns exist.
+2025-01-23 13:34:38,362 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Dune/stored/Dune_filtered_masked.csv.
+2025-01-23 13:34:38,396 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Pride_and_Prejudice/stored/Pride_and_Prejudice_filtered_sampled.csv
+2025-01-23 13:34:58,543 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Lies_and_Weddings/stored/Lies_and_Weddings_filtered.csv.
+2025-01-23 13:34:58,564 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Lies_and_Weddings/stored/Lies_and_Weddings_filtered_sampled.csv
+2025-01-23 13:35:45,900 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Of_Mice_and_Men/stored/Of_Mice_and_Men_filtered_sampled.csv.
+2025-01-23 13:35:45,924 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Paper_Towns/Paper_Towns_filtered_masked.csv: None of the specified columns exist.
+2025-01-23 13:35:45,924 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Paper_Towns/Paper_Towns_filtered_masked.csv.
+2025-01-23 13:35:45,951 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Paper_Towns/Paper_Towns_filtered_masked_sampled.csv: None of the specified columns exist.
+2025-01-23 13:35:45,951 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Paper_Towns/Paper_Towns_filtered_masked_sampled.csv.
+2025-01-23 13:35:46,019 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Paper_Towns/Paper_Towns_non_NE.csv
+2025-01-23 13:36:43,950 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Lies_and_Weddings/stored/Lies_and_Weddings_filtered_sampled.csv.
+2025-01-23 13:36:43,995 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Boy_in_the_Striped_Pyjamas/stored/The_Boy_in_the_Striped_Pyjamas_filtered_masked_sampled.csv: None of the specified columns exist.
+2025-01-23 13:36:43,995 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Boy_in_the_Striped_Pyjamas/stored/The_Boy_in_the_Striped_Pyjamas_filtered_masked_sampled.csv.
+2025-01-23 13:36:44,022 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Boy_in_the_Striped_Pyjamas/stored/The_Boy_in_the_Striped_Pyjamas_filtered_sampled.csv
+2025-01-23 13:37:31,853 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Percy_Jackson_The_Lightning_Thief/Percy_Jackson_The_Lightning_Thief_unmasked_passages.csv.
+2025-01-23 13:37:31,921 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Percy_Jackson_The_Lightning_Thief/stored/Percy_Jackson_The_Lightning_Thief_filtered.csv
+2025-01-23 13:41:05,160 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Paper_Towns/Paper_Towns_non_NE.csv.
+2025-01-23 13:41:05,187 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Paper_Towns/Paper_Towns_unmasked_passages.csv
+2025-01-23 13:41:45,675 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Pride_and_Prejudice/stored/Pride_and_Prejudice_filtered_sampled.csv.
+2025-01-23 13:41:45,734 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Sense_and_sensibility/Sense_and_sensibility.csv: None of the specified columns exist.
+2025-01-23 13:41:45,745 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Sense_and_sensibility/Sense_and_sensibility.csv.
+2025-01-23 13:41:45,843 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Sense_and_sensibility/Sense_and_sensibility_non_NE.csv
+2025-01-23 13:43:41,707 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Boy_in_the_Striped_Pyjamas/stored/The_Boy_in_the_Striped_Pyjamas_filtered_sampled.csv.
+2025-01-23 13:43:41,752 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Great_Gatsby/The_Great_Gatsby.csv: None of the specified columns exist.
+2025-01-23 13:43:41,752 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Great_Gatsby/The_Great_Gatsby.csv.
+2025-01-23 13:43:41,807 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Great_Gatsby/The_Great_Gatsby_non_NE.csv
+2025-01-23 13:44:33,559 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Percy_Jackson_The_Lightning_Thief/stored/Percy_Jackson_The_Lightning_Thief_filtered.csv.
+2025-01-23 13:44:33,579 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Percy_Jackson_The_Lightning_Thief/stored/Percy_Jackson_The_Lightning_Thief_filtered_masked.csv: None of the specified columns exist.
+2025-01-23 13:44:33,579 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Percy_Jackson_The_Lightning_Thief/stored/Percy_Jackson_The_Lightning_Thief_filtered_masked.csv.
+2025-01-23 13:44:33,621 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Percy_Jackson_The_Lightning_Thief/stored/Percy_Jackson_The_Lightning_Thief_filtered_masked_sampled.csv: None of the specified columns exist.
+2025-01-23 13:44:33,621 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Percy_Jackson_The_Lightning_Thief/stored/Percy_Jackson_The_Lightning_Thief_filtered_masked_sampled.csv.
+2025-01-23 13:44:33,638 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Percy_Jackson_The_Lightning_Thief/stored/Percy_Jackson_The_Lightning_Thief_filtered_sampled.csv
+2025-01-23 13:46:25,823 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Paper_Towns/Paper_Towns_unmasked_passages.csv.
+2025-01-23 13:46:25,856 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Paper_Towns/stored/Paper_Towns_filtered.csv
+2025-01-23 13:47:40,158 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Great_Gatsby/The_Great_Gatsby_non_NE.csv.
+2025-01-23 13:47:40,209 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Great_Gatsby/The_Great_Gatsby_unmasked_passages.csv
+2025-01-23 13:49:03,418 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Sense_and_sensibility/Sense_and_sensibility_non_NE.csv.
+2025-01-23 13:49:03,514 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Sense_and_sensibility/Sense_and_sensibility_unmasked_passages.csv
+2025-01-23 13:51:36,627 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Percy_Jackson_The_Lightning_Thief/stored/Percy_Jackson_The_Lightning_Thief_filtered_sampled.csv.
+2025-01-23 13:51:36,715 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Pride_and_Prejudice/Pride_and_Prejudice.csv: None of the specified columns exist.
+2025-01-23 13:51:36,727 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Pride_and_Prejudice/Pride_and_Prejudice.csv.
+2025-01-23 13:51:36,817 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Pride_and_Prejudice/Pride_and_Prejudice_non_NE.csv
+2025-01-23 13:51:39,660 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Great_Gatsby/The_Great_Gatsby_unmasked_passages.csv.
+2025-01-23 13:51:39,713 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Great_Gatsby/stored/The_Great_Gatsby_filtered.csv
+2025-01-23 13:51:45,399 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Paper_Towns/stored/Paper_Towns_filtered.csv.
+2025-01-23 13:51:45,425 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Paper_Towns/stored/Paper_Towns_filtered_sampled.csv
+2025-01-23 13:55:38,242 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Great_Gatsby/stored/The_Great_Gatsby_filtered.csv.
+2025-01-23 13:55:38,273 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Great_Gatsby/stored/The_Great_Gatsby_filtered_masked.csv: None of the specified columns exist.
+2025-01-23 13:55:38,274 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Great_Gatsby/stored/The_Great_Gatsby_filtered_masked.csv.
+2025-01-23 13:55:38,299 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Great_Gatsby/stored/The_Great_Gatsby_filtered_masked_sampled.csv: None of the specified columns exist.
+2025-01-23 13:55:38,299 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Great_Gatsby/stored/The_Great_Gatsby_filtered_masked_sampled.csv.
+2025-01-23 13:55:38,326 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Great_Gatsby/stored/The_Great_Gatsby_filtered_sampled.csv
+2025-01-23 13:56:24,592 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Sense_and_sensibility/Sense_and_sensibility_unmasked_passages.csv.
+2025-01-23 13:56:24,720 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Sense_and_sensibility/stored/Sense_and_sensibility_filtered.csv
+2025-01-23 13:57:07,082 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Paper_Towns/stored/Paper_Towns_filtered_sampled.csv.
+2025-01-23 13:57:07,131 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Handmaid_s_Tale/stored/The_Handmaid_s_Tale_filtered_masked.csv: None of the specified columns exist.
+2025-01-23 13:57:07,131 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Handmaid_s_Tale/stored/The_Handmaid_s_Tale_filtered_masked.csv.
+2025-01-23 13:57:07,172 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Handmaid_s_Tale/stored/The_Handmaid_s_Tale_filtered_masked_sampled.csv: None of the specified columns exist.
+2025-01-23 13:57:07,172 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Handmaid_s_Tale/stored/The_Handmaid_s_Tale_filtered_masked_sampled.csv.
+2025-01-23 13:57:07,209 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Handmaid_s_Tale/stored/The_Handmaid_s_Tale_filtered_sampled.csv
+2025-01-23 13:58:36,141 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Pride_and_Prejudice/Pride_and_Prejudice_non_NE.csv.
+2025-01-23 13:58:36,230 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Pride_and_Prejudice/Pride_and_Prejudice_unmasked_passages.csv
+2025-01-23 13:59:38,416 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Great_Gatsby/stored/The_Great_Gatsby_filtered_sampled.csv.
+2025-01-23 13:59:38,488 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Handmaid_s_Tale/The_Handmaid_s_Tale.csv: None of the specified columns exist.
+2025-01-23 13:59:38,488 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Handmaid_s_Tale/The_Handmaid_s_Tale.csv.
+2025-01-23 13:59:38,603 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Handmaid_s_Tale/The_Handmaid_s_Tale_non_NE.csv
+2025-01-23 14:05:05,749 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Handmaid_s_Tale/stored/The_Handmaid_s_Tale_filtered_sampled.csv.
+2025-01-23 14:05:05,769 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Ministry_of_Time/The_Ministry_of_Time_filtered_masked.csv: None of the specified columns exist.
+2025-01-23 14:05:05,769 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Ministry_of_Time/The_Ministry_of_Time_filtered_masked.csv.
+2025-01-23 14:05:05,782 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Ministry_of_Time/The_Ministry_of_Time_filtered_masked_sampled.csv: None of the specified columns exist.
+2025-01-23 14:05:05,782 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Ministry_of_Time/The_Ministry_of_Time_filtered_masked_sampled.csv.
+2025-01-23 14:05:05,838 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Ministry_of_Time/The_Ministry_of_Time_non_NE.csv
+2025-01-23 14:05:35,753 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Pride_and_Prejudice/Pride_and_Prejudice_unmasked_passages.csv.
+2025-01-23 14:05:35,871 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Pride_and_Prejudice/stored/Pride_and_Prejudice_filtered.csv
+2025-01-23 14:05:52,033 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Sense_and_sensibility/stored/Sense_and_sensibility_filtered.csv.
+2025-01-23 14:05:52,076 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Sense_and_sensibility/stored/Sense_and_sensibility_filtered_masked.csv: None of the specified columns exist.
+2025-01-23 14:05:52,076 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Sense_and_sensibility/stored/Sense_and_sensibility_filtered_masked.csv.
+2025-01-23 14:05:52,111 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Sense_and_sensibility/stored/Sense_and_sensibility_filtered_masked_sampled.csv: None of the specified columns exist.
+2025-01-23 14:05:52,111 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Sense_and_sensibility/stored/Sense_and_sensibility_filtered_masked_sampled.csv.
+2025-01-23 14:05:52,144 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Sense_and_sensibility/stored/Sense_and_sensibility_filtered_sampled.csv
+2025-01-23 14:06:56,520 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Ministry_of_Time/The_Ministry_of_Time_non_NE.csv.
+2025-01-23 14:06:56,537 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Ministry_of_Time/The_Ministry_of_Time_unmasked_passages.csv
+2025-01-23 14:07:35,909 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Handmaid_s_Tale/The_Handmaid_s_Tale_non_NE.csv.
+2025-01-23 14:07:36,002 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Handmaid_s_Tale/The_Handmaid_s_Tale_unmasked_passages.csv
+2025-01-23 14:08:46,214 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Ministry_of_Time/The_Ministry_of_Time_unmasked_passages.csv.
+2025-01-23 14:08:46,233 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Ministry_of_Time/stored/The_Ministry_of_Time_filtered.csv
+2025-01-23 14:13:18,033 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Sense_and_sensibility/stored/Sense_and_sensibility_filtered_sampled.csv.
+2025-01-23 14:13:18,088 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Boy_in_the_Striped_Pyjamas/The_Boy_in_the_Striped_Pyjamas.csv: None of the specified columns exist.
+2025-01-23 14:13:18,096 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Boy_in_the_Striped_Pyjamas/The_Boy_in_the_Striped_Pyjamas.csv.
+2025-01-23 14:13:18,170 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Boy_in_the_Striped_Pyjamas/The_Boy_in_the_Striped_Pyjamas_non_NE.csv
+2025-01-23 14:13:44,390 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Ministry_of_Time/stored/The_Ministry_of_Time_filtered.csv.
+2025-01-23 14:13:44,407 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Ministry_of_Time/stored/The_Ministry_of_Time_filtered_sampled.csv
+2025-01-23 14:14:45,935 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Pride_and_Prejudice/stored/Pride_and_Prejudice_filtered.csv.
+2025-01-23 14:14:45,979 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Pride_and_Prejudice/stored/Pride_and_Prejudice_filtered_masked.csv: None of the specified columns exist.
+2025-01-23 14:14:45,979 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Pride_and_Prejudice/stored/Pride_and_Prejudice_filtered_masked.csv.
+2025-01-23 14:14:46,018 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Pride_and_Prejudice/stored/Pride_and_Prejudice_filtered_masked_sampled.csv: None of the specified columns exist.
+2025-01-23 14:14:46,018 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/Pride_and_Prejudice/stored/Pride_and_Prejudice_filtered_masked_sampled.csv.
+2025-01-23 14:14:46,032 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Paradise_Problem/stored/The_Paradise_Problem_filtered.csv
+2025-01-23 14:15:32,252 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Handmaid_s_Tale/The_Handmaid_s_Tale_unmasked_passages.csv.
+2025-01-23 14:15:32,365 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Handmaid_s_Tale/stored/The_Handmaid_s_Tale_filtered.csv
+2025-01-23 14:15:33,254 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Ministry_of_Time/stored/The_Ministry_of_Time_filtered_sampled.csv.
+2025-01-23 14:15:33,270 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Paradise_Problem/The_Paradise_Problem_filtered_masked.csv: None of the specified columns exist.
+2025-01-23 14:15:33,270 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Paradise_Problem/The_Paradise_Problem_filtered_masked.csv.
+2025-01-23 14:15:33,291 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Paradise_Problem/The_Paradise_Problem_filtered_masked_sampled.csv: None of the specified columns exist.
+2025-01-23 14:15:33,291 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Paradise_Problem/The_Paradise_Problem_filtered_masked_sampled.csv.
+2025-01-23 14:15:33,346 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Paradise_Problem/The_Paradise_Problem_non_NE.csv
+2025-01-23 14:17:17,199 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Paradise_Problem/The_Paradise_Problem_non_NE.csv.
+2025-01-23 14:17:17,223 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Paradise_Problem/The_Paradise_Problem_unmasked_passages.csv
+2025-01-23 14:19:03,721 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Paradise_Problem/The_Paradise_Problem_unmasked_passages.csv.
+2025-01-23 14:19:03,773 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/You_Like_It_Darker_Stories/stored/You_Like_It_Darker_Stories_filtered.csv
+2025-01-23 14:19:25,768 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Paradise_Problem/stored/The_Paradise_Problem_filtered.csv.
+2025-01-23 14:19:25,783 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Paradise_Problem/stored/The_Paradise_Problem_filtered_sampled.csv
+2025-01-23 14:20:10,091 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Boy_in_the_Striped_Pyjamas/The_Boy_in_the_Striped_Pyjamas_non_NE.csv.
+2025-01-23 14:20:10,161 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Boy_in_the_Striped_Pyjamas/The_Boy_in_the_Striped_Pyjamas_unmasked_passages.csv
+2025-01-23 14:21:12,605 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Paradise_Problem/stored/The_Paradise_Problem_filtered_sampled.csv.
+2025-01-23 14:21:12,664 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Picture_of_Dorian_Gray/The_Picture_of_Dorian_Gray.csv: None of the specified columns exist.
+2025-01-23 14:21:12,672 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Picture_of_Dorian_Gray/The_Picture_of_Dorian_Gray.csv.
+2025-01-23 14:21:12,754 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Picture_of_Dorian_Gray/The_Picture_of_Dorian_Gray_non_NE.csv
+2025-01-23 14:23:43,282 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Handmaid_s_Tale/stored/The_Handmaid_s_Tale_filtered.csv.
+2025-01-23 14:25:57,581 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Picture_of_Dorian_Gray/The_Picture_of_Dorian_Gray_non_NE.csv.
+2025-01-23 14:25:57,647 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Picture_of_Dorian_Gray/The_Picture_of_Dorian_Gray_unmasked_passages.csv
+2025-01-23 14:26:19,826 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Boy_in_the_Striped_Pyjamas/The_Boy_in_the_Striped_Pyjamas_unmasked_passages.csv.
+2025-01-23 14:26:19,878 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Boy_in_the_Striped_Pyjamas/stored/The_Boy_in_the_Striped_Pyjamas_filtered.csv
+2025-01-23 14:26:46,336 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/You_Like_It_Darker_Stories/stored/You_Like_It_Darker_Stories_filtered.csv.
+2025-01-23 14:26:46,349 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/You_Like_It_Darker_Stories/stored/You_Like_It_Darker_Stories_filtered_sampled.csv
+2025-01-23 14:28:05,469 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/You_Like_It_Darker_Stories/stored/You_Like_It_Darker_Stories_filtered_sampled.csv.
+2025-01-23 14:29:14,616 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Picture_of_Dorian_Gray/The_Picture_of_Dorian_Gray_unmasked_passages.csv.
+2025-01-23 14:29:14,657 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Picture_of_Dorian_Gray/stored/The_Picture_of_Dorian_Gray_filtered.csv
+2025-01-23 14:30:40,442 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Boy_in_the_Striped_Pyjamas/stored/The_Boy_in_the_Striped_Pyjamas_filtered.csv.
+2025-01-23 14:30:40,460 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Boy_in_the_Striped_Pyjamas/stored/The_Boy_in_the_Striped_Pyjamas_filtered_masked.csv: None of the specified columns exist.
+2025-01-23 14:30:40,460 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Boy_in_the_Striped_Pyjamas/stored/The_Boy_in_the_Striped_Pyjamas_filtered_masked.csv.
+2025-01-23 14:31:14,340 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Picture_of_Dorian_Gray/stored/The_Picture_of_Dorian_Gray_filtered.csv.
+2025-01-23 14:31:14,352 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Picture_of_Dorian_Gray/stored/The_Picture_of_Dorian_Gray_filtered_masked.csv: None of the specified columns exist.
+2025-01-23 14:31:14,352 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Picture_of_Dorian_Gray/stored/The_Picture_of_Dorian_Gray_filtered_masked.csv.
+2025-01-23 14:31:14,361 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Picture_of_Dorian_Gray/stored/The_Picture_of_Dorian_Gray_filtered_masked_sampled.csv: None of the specified columns exist.
+2025-01-23 14:31:14,361 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Picture_of_Dorian_Gray/stored/The_Picture_of_Dorian_Gray_filtered_masked_sampled.csv.
+2025-01-23 14:31:14,371 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Picture_of_Dorian_Gray/stored/The_Picture_of_Dorian_Gray_filtered_sampled.csv
+2025-01-23 14:32:30,073 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/The_Picture_of_Dorian_Gray/stored/The_Picture_of_Dorian_Gray_filtered_sampled.csv.
+2025-01-23 14:32:30,100 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/You_Like_It_Darker_Stories/You_Like_It_Darker_Stories_filtered_masked.csv: None of the specified columns exist.
+2025-01-23 14:32:30,100 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/You_Like_It_Darker_Stories/You_Like_It_Darker_Stories_filtered_masked.csv.
+2025-01-23 14:32:30,106 [INFO] Skipping /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/You_Like_It_Darker_Stories/You_Like_It_Darker_Stories_filtered_masked_sampled.csv: None of the specified columns exist.
+2025-01-23 14:32:30,106 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/You_Like_It_Darker_Stories/You_Like_It_Darker_Stories_filtered_masked_sampled.csv.
+2025-01-23 14:32:30,128 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/You_Like_It_Darker_Stories/You_Like_It_Darker_Stories_non_NE.csv
+2025-01-23 14:32:56,471 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/You_Like_It_Darker_Stories/You_Like_It_Darker_Stories_non_NE.csv.
+2025-01-23 14:32:56,476 [INFO] Searching book /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/You_Like_It_Darker_Stories/You_Like_It_Darker_Stories_unmasked_passages.csv
+2025-01-23 14:33:22,305 [INFO] No matches found for /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/You_Like_It_Darker_Stories/You_Like_It_Darker_Stories_unmasked_passages.csv.
+2025-01-23 14:33:22,319 [ERROR] Error: Cannot save file into a non-existent directory: '/home/ekorukluoglu_umass_edu/beam2/BEAM/olmo-search/results/home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/A_Tale_of_Two_Cities/stored'
