@@ -8,21 +8,51 @@
             """
             
             prompt = f"""You are provided with a passage in {lang}. Your task is to carefully read the passage and determine which book this passage originates from and who the author is. You must make a guess, even if you are uncertain.
-            
             {demo_passage}
-            
             Here is the passage:
-            
             <passage>{passage}</passage>
-            
             Use the following format as output:
-            
             <output>"title": "Book name","author": "Author name"</output>
-            
             """
 
 ---
-
+## Direct Probe Demonstrations
+        "es": {
+            "unshuffled": "Hemos de agregar que quemaba tan hondamente el pecho de Hester, que quizá había mayor verdad en el rumor que lo que nuestra moderna incredulidad nos permite aceptar.",
+            "shuffled": "lo Hemos quemaba de verdad nos moderna rumor hondamente que que el quizá tan en el mayor había que agregar pecho Hester, que aceptar. de incredulidad permite nuestra"
+        },
+        "tr": {
+            "unshuffled": "Ve Hester'ın göğsünü o kadar derinden yaktı ki, belki de modern şüphemizin kabul etmeye meyilli olmadığı söylentide daha fazla gerçeklik vardı.",
+            "shuffled": "ki, yaktı göğsünü gerçeklik vardı. meyilli söylentide belki fazla Hester'ın derinden olmadığı Ve kadar şüphemizin de kabul modern etmeye daha o"
+        },
+        "vi": {
+            "unshuffled": "Và chúng ta tất phải thuật lại rằng nó đã nung đốt thành dấu hằn vào ngực Hester sâu đến nỗi có lẽ trong lời đồn kia có nhiều phần sự thực hơn là đầu óc đa nghi của chúng ta trong thời hiện đại có thể sẵn sàng thừa nhận.",
+            "shuffled": "ta phải thuật trong ta trong lẽ thể đại nỗi có nhận. nung đa hằn nghi đốt đồn lời vào dấu sâu Và hơn có sự hiện Hester của có phần thực kia ngực sẵn chúng tất thời nhiều sàng chúng đầu rằng đến là lại thừa đã óc nó thành"
+        },
+        "en": {
+            "unshuffled": "And we must needs say, it seared Hester's bosom so deeply, that perhaps there was more truth in the rumor than our modern incredulity may be inclined to admit.",
+            "shuffled": "admit. say, to inclined that the be more must so than it may needs modern we in rumor was deeply, incredulity perhaps our seared bosom there Hester's And truth"
+        }
+---
+## Prefix Probe Demonstrations
+        "es": {
+            "unshuffled": {"first_half": "Hemos de agregar que quemaba tan hondamente el pecho de Hester, que quizá había",
+            "second_half": "mayor verdad en el rumor que lo que nuestra moderna incredulidad nos permite aceptar."
+            },
+        },
+        "tr": {
+            "first_half": "Ve Hester'ın göğsünü o kadar derinden yaktı ki, belki de",
+            "second_half": "modern şüphemizin kabul etmeye meyilli olmadığı söylentide daha fazla gerçeklik vardı."
+        },
+        "vi": {
+            "first_half": "Và chúng ta tất phải thuật lại rằng nó đã nung đốt thành dấu hằn vào ngực Hester sâu đến nỗi có lẽ trong lời",
+            "second_half": "đồn kia có nhiều phần sự thực hơn là đầu óc đa nghi của chúng ta trong thời hiện đại có thể sẵn sàng thừa nhận."
+        },
+        "en": {
+            "first_half": "And we must needs say, it seared Hester's bosom so deeply, that perhaps there",
+            "second_half": "was more truth in the rumor than our modern incredulity may be inclined to admit."
+        }
+---
 ## Prefix Probe
 ""
         
