@@ -36,9 +36,8 @@
 ---
 ## Prefix Probe Demonstrations
         "es": {
-            "unshuffled": {"first_half": "Hemos de agregar que quemaba tan hondamente el pecho de Hester, que quizá había",
+            "first_half": "Hemos de agregar que quemaba tan hondamente el pecho de Hester, que quizá había",
             "second_half": "mayor verdad en el rumor que lo que nuestra moderna incredulidad nos permite aceptar."
-            },
         },
         "tr": {
             "first_half": "Ve Hester'ın göğsünü o kadar derinden yaktı ki, belki de",
@@ -51,7 +50,32 @@
         "en": {
             "first_half": "And we must needs say, it seared Hester's bosom so deeply, that perhaps there",
             "second_half": "was more truth in the rumor than our modern incredulity may be inclined to admit."
+        },
+        "st": {
+            "first_half": "Me re tlameha ho re, seared bosom ea Hester haholo, hoo mohlomong ho ne ho e-na le' nete ",
+            "second_half": "ho feta menyenyetsi ho feta ho se lumele ha rona ea kajeno e ka ba tšekamelo ea ho lumela."
+        },
+        "yo": {
+            "first_half": "Àti pé a gbọ́dọ̀ nílò láti sọ pé, ó mú àyà Hester jinlẹ̀, pé bóyá òt",
+            "second_half": "ítọ́ púpọ̀ wà nínú àròsọ ju àìgbàgbọ́ ìgbàlódé wa lọ lè fẹ́ láti gbà."
+        },
+        "tn": {
+            "first_half": "Mme re tshwanetse go re, re ne ra re, go ne go le thata gore re nne le tumelo ya ga Jehofa e e",
+            "second_half": " neng e le mo go yone, e ka tswa e le boammaaruri jo bogolo go feta tumelo ya rona ya gompieno."
+        },
+        "ty": {
+            "first_half": "E e tia ia tatou ia parau e, ua mauiui roa te ouma o Hester, e peneia'e ua rahi a'e",
+            "second_half": " te parau mau i roto i te parau i faahitihia i to tatou tiaturi ore no teie nei tau."
+        },
+        "mai": {
+            "first_half": "आ हमरासभकेँ ई कहबाक आवश्यकता अछि जे ई हेस्टरक छातीकेँ एतेक गहराई सँ प्रभावित कयलक, जे शाय",
+            "second_half": "द अफवाहमे ओहिसँ बेसी सत्य छल जतेक हमर आधुनिक अविश्वास स्वीकार करय लेल इच्छुक भऽ सकैत अछि।"
+        },
+        "mg": {
+            "first_half": "Ary tsy maintsy mila miteny isika hoe, tena nampivoaka lalina ny tratran'i Hester izany, ka angamba nisy fahamarina",
+            "second_half": "na bebe kokoa tao anatin'ilay tsaho noho ny tsy finoana maoderina izay mety ho mora miaiky ny tsy finoana maoderina."
         }
+    
 ---
 ## Prefix Probe
 ""
@@ -163,10 +187,6 @@
         "mg": {
             "unshuffled": "Ary tsy maintsy mila miteny isika hoe, tena nampivoaka lalina ny tratran'i Hester izany, ka angamba nisy fahamarinana bebe kokoa tao anatin'ilay tsaho noho ny tsy finoana maoderina izay mety ho mora miaiky ny tsy finoana maoderina.",
             "shuffled": "izany, nisy mora tratran'i nampivoaka finoana ka izay mety kokoa isika tsy tao ny finoana maoderina miaiky tsy lalina hoe, ny Ary anatin'ilay ny bebe maoderina. tsy miteny Hester angamba fahamarinana noho mila maintsy ho tena tsaho"
-        },
-        "dv": {
-            "unshuffled": "އެހެންވީމާ، އަޅުގަނޑުމެން ދަންނަވާލަން އެބަޖެހޭ، އެއީ ހެސްޓަރގެ ސިކުނޑި އެހާ ބޮޑަށް ކަނޑުވާލި ކަމެއް، އެއީ، އަޅުގަނޑުމެންގެ މިޒަމާނުގެ ނުތަނަވަސްކަން ޤަބޫލުކުރަން ޝައުޤުވެރިވާ ވަރަށްވުރެ، އެ ވާހަކަތަކުގައި ޙަޤީޤަތެއް އޮވެދާނެ.",
-            "shuffled": "ޤަބޫލުކުރަން ކަމެއް، މިޒަމާނުގެ ހެސްޓަރގެ ޝައުޤުވެރިވާ އަޅުގަނޑުމެން އޮވެދާނެ. ނުތަނަވަސްކަން ޙަޤީޤަތެއް އަޅުގަނޑުމެންގެ އެބަޖެހޭ، އެހާ ދަންނަވާލަން ވަރަށްވުރެ، ވާހަކަތަކުގައި ކަނޑުވާލި އެއީ ސިކުނޑި އެހެންވީމާ، އެ ބޮޑަށް އެއީ،"
         }
 
 ## Non-NE Demonstrations
@@ -209,10 +229,6 @@
         "mg": {
             "unshuffled": "Nivory teo anoloan'ny trano hazo iray ny lehilahy be volombava, nitafy akanjo miloko marevaka, ary satroka miloko volombatolalaka, nifangaro tamin'ny vehivavy, ny sasany nanao saron-doha ary ny hafa tsy nisaron-doha, dia nivory teo anoloan'ny trano hazo hazo, ny varavarana izay feno hazo oaka be dia be, ary feno tsipika vy.",
             "shuffled": "ny lehilahy ary ny be, hazo nitafy vehivavy, dia akanjo varavarana nanao hazo nisaron-doha, tsipika hazo teo tamin'ny iray sasany Nivory teo volombatolalaka, ny satroka anoloan'ny saron-doha miloko anoloan'ny ary hafa oaka nivory ny tsy trano dia be nifangaro trano miloko feno hazo, marevaka, ary volombava, vy. izay feno be"
-        },
-        "dv": {
-            "unshuffled": "ހިތާމަވެރި ކުލައިގެ ހެދުންތަކާއި، ހުދުކުލައިގެ، ސްޓީޕަލް ތާޖުއަޅާފައިވާ ހެދުންއަޅައިގެން، އަންހެނުންނާ ގުޅިފައިވާ، ބައެއް މީހުން ހެދުން އަޅައިގެން، އަނެއްބައި މީހުންގެ އިސްތަށިގަނޑު ނިވާކޮށްގެން، ލަކުޑީގެ ޢިމާރާތެއްގެ ކުރިމައްޗަށް އެއްވެ، އެތަނުގެ ދޮރުގައި ވަރަށް ބޮޑަށް އޮށްޖަހާފައި، ދަގަނޑު ސްޕައިކްތަކުން ހަރުކޮށްފައި ހުއްޓެވެ.",
-            "shuffled": "މީހުން ސްޕައިކްތަކުން ހުއްޓެވެ. ހެދުން ހިތާމަވެރި އެއްވެ، ނިވާކޮށްގެން، ޢިމާރާތެއްގެ ހުދުކުލައިގެ، ހަރުކޮށްފައި ދަގަނޑު ކުލައިގެ ގުޅިފައިވާ، އަންހެނުންނާ ތާޖުއަޅާފައިވާ އިސްތަށިގަނޑު ވަރަށް ކުރިމައްޗަށް ހެދުންތަކާއި، ބޮޑަށް ސްޓީޕަލް އެތަނުގެ އޮށްޖަހާފައި، ހެދުންއަޅައިގެން، މީހުންގެ އަނެއްބައި ދޮރުގައި ބައެއް ލަކުޑީގެ އަޅައިގެން،"
         }
 ## Masked Demonstrations
         "es": {
@@ -254,8 +270,4 @@
         "mg": {
             "unshuffled": "Ary tsy maintsy mila miteny isika hoe, nampivoaka lalina ny tratran'i [MASK] izany, ka angamba nisy fahamarinana bebe kokoa tao anatin'ilay tsaho fa tsy mety ho mora miaiky ny tsy finoana maoderina ananantsika.",
             "shuffled": "miteny tsy miaiky mora maintsy mila ny tsy kokoa [MASK] tsy fa ka bebe mety tratran'i izany, anatin'ilay fahamarinana ho maoderina lalina tsaho finoana angamba Ary isika tao ananantsika. hoe, nisy nampivoaka ny"
-        },
-        "dv": {
-            "unshuffled": "އެހެންވީމާ، އަޅުގަނޑުމެން ދަންނަވާލަން އެބަޖެހޭ، އެއީ [MASK] ހިތްޕުޅު އެހާ ބޮޑަށް ކަނޑުވާލި ވާހަކައެއް، އަޅުގަނޑުމެންގެ މިޒަމާނުގެ ނުތަނަވަސްކަން ޤަބޫލުކުރަން ޝައުޤުވެރިވާ ވަރަށްވުރެ، އެ ވާހަކަތަކުގައި ޙަޤީޤަތް އޮންނާނެކަމަށް.",
-            "shuffled": "މިޒަމާނުގެ ޤަބޫލުކުރަން އަޅުގަނޑުމެން ކަނޑުވާލި އެހާ ބޮޑަށް ވާހަކަތަކުގައި އެބަޖެހޭ، އެހެންވީމާ، އޮންނާނެކަމަށް. ވަރަށްވުރެ، ހިތްޕުޅު [MASK] ޙަޤީޤަތް އަޅުގަނޑުމެންގެ ޝައުޤުވެރިވާ ނުތަނަވަސްކަން އެ އެއީ ވާހަކައެއް، ދަންނަވާލަން"
         }
