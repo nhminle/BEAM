@@ -43,3 +43,4 @@ results/direct_probe/Llama-3.1-405b/The_Picture_of_Dorian_Gray_direct_probe_llam
 scripts/direct_probing/fireworks_direct_probe.py
 
 results/direct_probe/organize_csv.py
+scripts/Evaluation/dir_probe/fireworks_prefixprobe_llama405b_28438397.out
