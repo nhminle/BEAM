@@ -9,7 +9,7 @@ import sys
 import io
 import time  ### ADDED OR MODIFIED ###
 
-client = Fireworks(api_key="fw_3Zn92C3stccuXKPXACNmnEYV")
+client = Fireworks(api_key=os.getenv('FIREWORKS_API'))
 
 logging.basicConfig(
     level=logging.INFO,
