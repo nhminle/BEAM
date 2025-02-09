@@ -56,7 +56,7 @@ def evaluate(csv_file_name, book_title, model, prompt_setting):
     df = pd.read_csv(csv_file_name)
     # Filter columns containing 'results'
     filtered_df = df.loc[:, df.columns.str.contains('results', case=False) & (df.columns != 'Unnamed: 0_results')]
-    book_title = book_title.replace(f'_direct_probe_{model}_{prompt_setting}', '')
+    book_title = book_title.replace(f'_direct_probe_llama405b_{prompt_setting}_unmasked_passages', '')
     book_title = book_title.replace('_',' ')
     print(book_title)
     # Find the matching row for the given book title
@@ -274,34 +274,29 @@ def create_heatmap(df,release_date_csv,model,shuffled,prompt_setting):
     
     
 if __name__ == "__main__":
-    #models = ['EuroLLM-9B-Instruct', 'OLMo-7B-0724-Instruct-hf', 'Llama-3.1-70B-Instruct', 'Llama-3.3-70B-Instruct', 'Meta-Llama-3.1-8B-Instruct', 'OLMo-2-1124-13B-Instruct'] # add more models here
-    models = ['Llama-3.1-405b']
+    models = ['EuroLLM-9B-Instruct', 'OLMo-7B-0724-Instruct-hf', 'Llama-3.1-70B-Instruct', 'Llama-3.3-70B-Instruct', 'Meta-Llama-3.1-8B-Instruct', 'OLMo-2-1124-13B-Instruct'] # add more models here
     prompt_setting = 'one-shot' # one-shot || zero-shot
-    titles = list_csv_files(f'results/direct_probe/Llama-3.1-405b/ne_one_shot/')
+    titles = list_csv_files(f'scripts/Evaluation/dir_probe/llm_out/{prompt_setting}')
     unshuffled_accuracy_list = {item: {} for item in models} 
     shuffled_accuracy_list = {item: {} for item in models} 
-    list_2024_ = ['Below_Zero', 'Bride', 'First_Lie_Wins', 'Funny_Story', 'If_Only_I_Had_Told_Her', 'Just_for_the_Summer', 'Lies_and_Weddings', 'The_Ministry_of_Time', 'The_Paradise_Problem', 'You_Like_It_Darker_Stories']
-    plt.close()
+    
+    
     for title in titles:
-        # if 'Fahrenheit' not in title and 'Bride' not in title and 'Funny_Story' not in title and 'Paper_Towns' not in title and "The_Ministry_of_Time" not in title:
-        if not any([book in title for book in list_2024_]):
-            for model in models:
-                    print(f'----------------- Running {title} -----------------')   
-                    book_title = title.replace(f'_direct_probe_{model}_{prompt_setting}', '')
-                    #print(book_title)
-                    results_evaluated = evaluate(csv_file_name=f'results/direct_probe/{model}/ne_one_shot/{title}.csv', book_title=title, model=model, prompt_setting=prompt_setting)
-                    shuffled, unshuffled = split_data(results_evaluated)
-                    #print(shuffled)
-                    #save_data(title,shuffled,model,True,prompt_setting)
-                    save_data(title,unshuffled,model,False,prompt_setting)
-                    unshuffled_acc_df = guess_accuracy(unshuffled)
-                    # shuffled_acc_df = guess_accuracy(shuffled)
-                    #print(unshuffled_acc_df.keys)
-                    unshuffled_accuracy_list[model][book_title]=(unshuffled_acc_df)
-                    # shuffled_accuracy_list[model][book_title] =(shuffled_acc_df)
-                    plot(unshuffled_acc_df,title,False,prompt_setting) 
-                    #plot(shuffled_acc_df,title,True,prompt_setting)   
-                    plt.close()
+        for model in models:
+            if model in title:
+                print(f'----------------- Running {title} -----------------')   
+                book_title = title.replace(f'_direct_probe_{model}_{prompt_setting}', '')
+                results_evaluated = evaluate(csv_file_name=f'scripts/Evaluation/dir_probe/llm_out/{prompt_setting}/{title}.csv', book_title=title, model=model, prompt_setting=prompt_setting)
+                shuffled, unshuffled = split_data(results_evaluated)
+                save_data(title,shuffled,model,True,prompt_setting)
+                save_data(title,unshuffled,model,False,prompt_setting)
+                unshuffled_acc_df = guess_accuracy(unshuffled)
+                shuffled_acc_df = guess_accuracy(shuffled)
+                # print(unshuffled_acc_df.keys)
+                unshuffled_accuracy_list[model][book_title]=(unshuffled_acc_df)
+                shuffled_accuracy_list[model][book_title] =(shuffled_acc_df)
+                plot(unshuffled_acc_df,title,False,prompt_setting) 
+                plot(shuffled_acc_df,title,True,prompt_setting)   
 
     for model in models:
         # Save unshuffled accuracy list
