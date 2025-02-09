@@ -2,7 +2,7 @@
 scripts/Prompts (old)
 scripts/olmo-search/slurm_olmo.sh
 scripts/olmo-search/shards/shard_00000000_processed.jsonl
-
+olmo-search/*.out
 olmo-search/olmocheck_27935018.out
 olmo-search/olmocheck_28024592.out
 olmo-search/olmocheck_28027435.out
