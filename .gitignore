@@ -40,3 +40,5 @@ results/direct_probe/Llama-3.1-405b/The_Great_Gatsby_direct_probe_llama405b_1s_N
 results/direct_probe/Llama-3.1-405b/The_Picture_of_Dorian_Gray_direct_probe_llama405b_0s_NE_data.csv
 results/direct_probe/Llama-3.1-405b/The_Picture_of_Dorian_Gray_direct_probe_llama405b_1s_NE_data.csv
 scripts/direct_probing/fireworks_direct_probe.py
+
+results/direct_probe/organize_csv.py
