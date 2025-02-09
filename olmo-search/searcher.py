@@ -82,9 +82,9 @@ def search_csv_and_save_results(text_set, csv_file, text_columns):
     if results:
         result_df = pd.DataFrame(results, columns=["Matches"])
         result_df.to_csv(output_file, index=False)
-        logging.info(f"Results for {csv_file} saved to {output_file}.")
-    else:
-        logging.info(f"No matches found for {csv_file}.")
+        # logging.info(f"Results for {csv_file} saved to {output_file}.")
+    # else:
+    #     # logging.info(f"No matches found for {csv_file}.")
 
 
 def parallel_search_multiple_csvs_on_single_shard(text_set, csv_files, text_columns, num_workers=4):
