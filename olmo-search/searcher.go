@@ -1,124 +1,65 @@
 package main
 
 import (
-	"bufio"
 	"encoding/csv"
 	"encoding/json"
+	"flag"
 	"fmt"
 	"os"
-	"io"
 	"path/filepath"
 	"strings"
 	"sync"
 )
 
-// Struct to represent a JSONL record
+// Record represents a JSON record in a shard file.
 type Record struct {
 	Text string `json:"text"`
 }
 
-// Build a hash set from the JSONL file
-func buildTextSet(jsonlPath string) (map[string]struct{}, error) {
-    textSet := make(map[string]struct{})
-
-    file, err := os.Open(jsonlPath)
-    if err != nil {
-        return nil, fmt.Errorf("failed to open JSONL file: %w", err)
-    }
-    defer file.Close()
-
-    reader := bufio.NewReader(file)
-    for {
-        line, err := reader.ReadString('\n') // Read until the next newline character
-        if err != nil {
-            if err == io.EOF {
-                break
-            }
-            return nil, fmt.Errorf("failed to read JSONL file: %w", err)
-        }
-        line = strings.TrimSpace(line) // Remove any trailing newline or whitespace
-        var record Record
-        if err := json.Unmarshal([]byte(line), &record); err == nil && record.Text != "" {
-            textSet[record.Text] = struct{}{}
-        }
-    }
-    return textSet, nil
+// resultWriter serializes writes to CSV result files.
+type resultWriter struct {
+	mu sync.Mutex
 }
 
-// Search for matches in a single CSV file
-func searchInCSV(csvPath string, textColumns []string, textSet map[string]struct{}) ([]string, error) {
-	file, err := os.Open(csvPath)
+// writeResults appends matching rows to the CSV output file.
+// The output file name is constructed from the CSV's base name plus the global shard ID.
+func (w *resultWriter) writeResults(csvPath, outputDir, shardOrigin string, matches []string, globalShardID string) error {
+	w.mu.Lock()
+	defer w.mu.Unlock()
+
+	outputFile := fmt.Sprintf("%s_results_shard_%s.csv",
+		strings.TrimSuffix(filepath.Base(csvPath), ".csv"),
+		globalShardID)
+	outputPath := filepath.Join(outputDir, outputFile)
+
+	file, err := os.OpenFile(outputPath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
-		return nil, fmt.Errorf("failed to open CSV file: %w", err)
+		return err
 	}
 	defer file.Close()
 
-	reader := csv.NewReader(file)
-	headers, err := reader.Read()
-	if err != nil {
-		return nil, fmt.Errorf("failed to read CSV headers: %w", err)
-	}
-
-	// Map column names to their indices
-	columnIndices := make(map[string]int)
-	for i, header := range headers {
-		columnIndices[header] = i
-	}
-
-	// Check if the required columns exist
-	var indices []int
-	for _, col := range textColumns {
-		if idx, found := columnIndices[col]; found {
-			indices = append(indices, idx)
-		}
-	}
-	if len(indices) == 0 {
-		return nil, nil // No matching columns
-	}
-
-	// Search for matches
-	var matches []string
-	for {
-		record, err := reader.Read()
-		if err != nil {
-			break
-		}
-		for _, idx := range indices {
-			if idx < len(record) {
-				text := record[idx]
-				if _, found := textSet[text]; found {
-					fmt.Printf("Found a match : %s",text)
-					matches = append(matches, fmt.Sprintf("Text: %s, File: %s", text, csvPath))
-				}
-			}
-		}
-	}
-	return matches, nil
-}
-
-// Save results to an output file
-func saveResults(outputPath string, results []string) error {
-	file, err := os.Create(outputPath)
-	if err != nil {
-		return fmt.Errorf("failed to create results file: %w", err)
-	}
-	defer file.Close()
-
-	writer := bufio.NewWriter(file)
+	writer := csv.NewWriter(file)
 	defer writer.Flush()
 
-	for _, line := range results {
-		if _, err := writer.WriteString(line + "\n"); err != nil {
-			return fmt.Errorf("failed to write to results file: %w", err)
+	// Write header if the file is empty.
+	if stat, err := file.Stat(); err == nil && stat.Size() == 0 {
+		if err := writer.Write([]string{"text", "shard_origin"}); err != nil {
+			return err
+		}
+	}
+
+	for _, text := range matches {
+		if err := writer.Write([]string{text, shardOrigin}); err != nil {
+			return err
 		}
 	}
 	return nil
 }
 
-// Recursively find all CSV files in a directory
-func findCSVFiles(baseDir string) ([]string, error) {
+// findCSVFiles recursively finds all CSV files under the given root directory.
+func findCSVFiles(root string) ([]string, error) {
 	var csvFiles []string
-	err := filepath.Walk(baseDir, func(path string, info os.FileInfo, err error) error {
+	err := filepath.Walk(root, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return err
 		}
@@ -130,86 +71,213 @@ func findCSVFiles(baseDir string) ([]string, error) {
 	return csvFiles, err
 }
 
-// Process CSV files in parallel
-func processCSVFiles(csvFiles []string, textColumns []string, textSet map[string]struct{}, outputDir string) {
+// isValidShardFile returns true if the filename meets the following criteria:
+//   - Begins with "shard_"
+//   - Ends with either ".jsonl" or ".jsonl.zst"
+//   - The part between the prefix and the suffix is exactly 8 digits.
+func isValidShardFile(filename string) bool {
+	var suffix string
+	if strings.HasSuffix(filename, ".jsonl") {
+		suffix = ".jsonl"
+	} else if strings.HasSuffix(filename, ".jsonl.zst") {
+		suffix = ".jsonl.zst"
+	} else {
+		return false
+	}
+	if !strings.HasPrefix(filename, "shard_") {
+		return false
+	}
+	// Extract numeric part.
+	numPart := filename[len("shard_") : len(filename)-len(suffix)]
+	if len(numPart) != 8 {
+		return false
+	}
+	// Check that every character is a digit.
+	for _, r := range numPart {
+		if r < '0' || r > '9' {
+			return false
+		}
+	}
+	return true
+}
+
+// findShardFiles recursively crawls the given global shard directory and returns
+// all files that are considered valid shard files.
+func findShardFiles(globalShardDir string) ([]string, error) {
+	var shardFiles []string
+	err := filepath.Walk(globalShardDir, func(path string, info os.FileInfo, err error) error {
+		if err != nil {
+			return err
+		}
+		if !info.IsDir() {
+			base := filepath.Base(path)
+			if isValidShardFile(base) {
+				shardFiles = append(shardFiles, path)
+			}
+		}
+		return nil
+	})
+	return shardFiles, err
+}
+
+// buildTextSet reads each shard file and builds a set (map with empty struct values)
+// containing all texts found.
+func buildTextSet(shardFiles []string) (map[string]struct{}, error) {
+	textSet := make(map[string]struct{})
+	for _, filePath := range shardFiles {
+		f, err := os.Open(filePath)
+		if err != nil {
+			fmt.Printf("Warning: cannot open %s: %v\n", filePath, err)
+			continue
+		}
+		dec := json.NewDecoder(f)
+		for dec.More() {
+			var rec Record
+			if err := dec.Decode(&rec); err != nil {
+				continue
+			}
+			if rec.Text != "" {
+				textSet[rec.Text] = struct{}{}
+			}
+		}
+		f.Close()
+	}
+	return textSet, nil
+}
+
+// searchCSV reads the CSV file and returns any values (from the specified columns)
+// that exactly match any text in the textSet.
+func searchCSV(csvPath string, colList []string, textSet map[string]struct{}) ([]string, error) {
+	f, err := os.Open(csvPath)
+	if err != nil {
+		return nil, err
+	}
+	defer f.Close()
+
+	reader := csv.NewReader(f)
+	headers, err := reader.Read()
+	if err != nil {
+		return nil, err
+	}
+
+	// Find indices of desired columns (case-insensitive).
+	var colIndices []int
+	for _, col := range colList {
+		for i, header := range headers {
+			if strings.EqualFold(header, col) {
+				colIndices = append(colIndices, i)
+				break
+			}
+		}
+	}
+
+	var matches []string
+	for {
+		record, err := reader.Read()
+		if err != nil {
+			break
+		}
+		for _, idx := range colIndices {
+			if idx < len(record) {
+				value := strings.TrimSpace(record[idx])
+				if _, exists := textSet[value]; exists {
+					matches = append(matches, value)
+				}
+			}
+		}
+	}
+	return matches, nil
+}
+
+// processGlobalShard searches each CSV file for matching texts from the textSet.
+// It processes CSV files concurrently (up to 10 at a time).
+func processGlobalShard(textSet map[string]struct{}, csvFiles []string, colList []string, outputDir string, writer *resultWriter, globalShardID, globalShardDir string) {
+	fmt.Printf("Processing global shard directory: %s (ID: %s)\n", globalShardDir, globalShardID)
 	var wg sync.WaitGroup
-	resultsCh := make(chan []string)
+	sem := make(chan struct{}, 10)
 
-	// Start a worker pool
-	for _, csvFile := range csvFiles {
+	for _, csvPath := range csvFiles {
 		wg.Add(1)
-		go func(csvFile string) {
-			defer wg.Done()
-
-			// Print the start message
-			fmt.Printf("Searching file: %s\n", csvFile)
-
-			matches, err := searchInCSV(csvFile, textColumns, textSet)
+		sem <- struct{}{}
+		go func(csvPath string) {
+			defer func() {
+				<-sem
+				wg.Done()
+			}()
+			// fmt.Printf("Processing CSV: %s\n", csvPath)
+			matches, err := searchCSV(csvPath, colList, textSet)
 			if err != nil {
-				fmt.Printf("Error processing %s: %v\n", csvFile, err)
+				fmt.Printf("Error searching CSV %s: %v\n", csvPath, err)
 				return
 			}
 			if len(matches) > 0 {
-				resultsCh <- matches
-				outputPath := filepath.Join(outputDir, filepath.Base(csvFile)+"_results.txt")
-				if err := saveResults(outputPath, matches); err != nil {
-					fmt.Printf("Error saving results for %s: %v\n", csvFile, err)
+				if err := writer.writeResults(csvPath, outputDir, globalShardDir, matches, globalShardID); err != nil {
+					fmt.Printf("Error writing results for CSV %s: %v\n", csvPath, err)
 				}
 			}
-
-			// Print the finished message
-			fmt.Printf("Finished searching file: %s\n", csvFile)
-		}(csvFile)
+		}(csvPath)
 	}
-
-	// Close the results channel when all workers are done
-	go func() {
-		wg.Wait()
-		close(resultsCh)
-	}()
-
-	// Collect results
-	for matches := range resultsCh {
-		fmt.Printf("Processed file with %d matches\n", len(matches))
-	}
+	wg.Wait()
 }
 
-
 func main() {
-	// Configuration
-	jsonlPath := "./shards/shard_00000001_processed.jsonl"
+	// Parse the global shard index from the command line.
+	indexPtr := flag.Int("index", -1, "Global shard index to process (1-10)")
+	flag.Parse()
+	if *indexPtr < 1 || *indexPtr > 10 {
+		fmt.Println("Please provide a valid global shard index (1-10) using the -index flag")
+		os.Exit(1)
+	}
+	globalShardID := fmt.Sprintf("%02d", *indexPtr)
+
+	// Configure the directories (adjust these as needed).
 	baseDir := "/home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/"
-	outputDir := "./results"
-	textColumns := []string{"en", "tr", "es", "vi"}
+	shardRoot := "/scratch3/workspace/ekoruklu_umass_edu-simple/shard/"
+	outputDir := "./results_new"
+	colList := []string{"en", "tr", "es", "vi"}
 
-	// Create output directory if it doesn't exist
-	if err := os.MkdirAll(outputDir, os.ModePerm); err != nil {
-		fmt.Printf("Failed to create output directory: %v\n", err)
-		return
+	// Create the output directory if it doesn't exist.
+	if err := os.MkdirAll(outputDir, 0755); err != nil {
+		fmt.Printf("Error creating output directory: %v\n", err)
+		os.Exit(1)
 	}
 
-	// Build the text set from the JSONL file
-	fmt.Println("Building text set...")
-	textSet, err := buildTextSet(jsonlPath)
-	if err != nil {
-		fmt.Printf("Error building text set: %v\n", err)
-		return
-	}
-	fmt.Printf("Text set built with %d entries.\n", len(textSet))
-
-	// Find all CSV files
-	fmt.Println("Finding CSV files...")
+	// Find all CSV files in the base directory.
 	csvFiles, err := findCSVFiles(baseDir)
-	fmt.Println(csvFiles)
 	if err != nil {
 		fmt.Printf("Error finding CSV files: %v\n", err)
-		return
+		os.Exit(1)
 	}
-	fmt.Printf("Found %d CSV files.\n", len(csvFiles))
+	fmt.Printf("Found %d CSV files\n", len(csvFiles))
 
-	// Process the CSV files
-	fmt.Println("Processing CSV files...")
-	processCSVFiles(csvFiles, textColumns, textSet, outputDir)
+	// Build the global shard directory path.
+	globalShardDir := filepath.Join(shardRoot, fmt.Sprintf("global-shard_%s_of_10", globalShardID))
+	info, err := os.Stat(globalShardDir)
+	if err != nil || !info.IsDir() {
+		fmt.Printf("Global shard directory %s does not exist or is not a directory\n", globalShardDir)
+		os.Exit(1)
+	}
 
-	fmt.Println("Processing completed.")
+	// Recursively find all valid shard files in the global shard directory.
+	shardFiles, err := findShardFiles(globalShardDir)
+	if err != nil {
+		fmt.Printf("Error finding shard files: %v\n", err)
+		os.Exit(1)
+	}
+	if len(shardFiles) == 0 {
+		fmt.Printf("No valid shard files found in %s\n", globalShardDir)
+		os.Exit(1)
+	}
+	fmt.Printf("Found %d shard files in %s\n", len(shardFiles), globalShardDir)
+
+	// Build the text set from the shard files.
+	textSet, err := buildTextSet(shardFiles)
+	if err != nil {
+		fmt.Printf("Error building text set: %v\n", err)
+		os.Exit(1)
+	}
+
+	var writer resultWriter
+	processGlobalShard(textSet, csvFiles, colList, outputDir, &writer, globalShardID, globalShardDir)
+	fmt.Printf("Finished processing global shard (ID: %s): %s\n", globalShardID, globalShardDir)
 }

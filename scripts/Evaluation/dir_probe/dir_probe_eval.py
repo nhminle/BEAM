@@ -52,22 +52,28 @@ def extract_title_author(results_column):
 def evaluate(csv_file_name, book_title, model, prompt_setting):
     # Load book names and CSV data
     # print(book_title)
-    book_names = pd.read_csv('scripts/Evaluation/dir_probe/book_names.csv')
+    book_names = pd.read_csv('./book_names.csv')
     df = pd.read_csv(csv_file_name)
     # Filter columns containing 'results'
     filtered_df = df.loc[:, df.columns.str.contains('results', case=False) & (df.columns != 'Unnamed: 0_results')]
-    book_title = book_title.replace(f'_direct_probe_{model}_{prompt_setting}', '')
+    book_title = book_title.replace(f'_direct_probe_llama405b_{prompt_setting}_unmasked_passages', '')
     book_title = book_title.replace('_',' ')
     print(book_title)
     # Find the matching row for the given book title
+    if book_title == "Alice in Wonderland":
+        book_title = "Alice s Adventures in Wonderland"
+    if book_title == "Percy Jackson The Lightning Thief":
+        book_title = "The Lightning Thief"
     matching_row = book_names[book_names.isin([book_title]).any(axis=1)].values.flatten().tolist()
     author = matching_row[0]
-    # print(author)
-    # print(f"Matching row titles: {matching_row}")
+    #print(author)
+    
+    #print(f"Matching row titles: {matching_row}")
     results_all = pd.DataFrame()
     # Iterate through each filtered column
+    #print(filtered_df.columns)
     for column in filtered_df.columns:
-        # print(f"Running: {column}")
+        #print(f"Running: {column}")
 
         lang_results = []
         # Extract titles and authors from the column data
@@ -104,9 +110,9 @@ def split_data(data): #this function splits our results to shuffled and unshuffl
 
 def save_data(title,data,model,shuffled,prompt_setting):
     if shuffled:
-        data.to_csv(f'scripts/Evaluation/dir_probe/eval/{prompt_setting}/csv/{model}/{model}_shuffled/{title}_shuffled_eval.csv', index= False, encoding='utf-8')
+        data.to_csv(f'./eval/{prompt_setting}/csv/{model}/{model}_shuffled/{title}_shuffled_eval.csv', index= False, encoding='utf-8')
     else:
-        data.to_csv(f'scripts/Evaluation/dir_probe/eval/{prompt_setting}/csv/{model}/{title}_eval.csv', index= False, encoding='utf-8')  
+        data.to_csv(f'./eval/{prompt_setting}/csv/{model}/{title}_eval.csv', index= False, encoding='utf-8')  
 
 
 def guess_accuracy(data):
@@ -132,10 +138,11 @@ def get_folder_names(directory):
     return folder_names
 
 def plot(accuracy_data, title, shuffled, prompt_setting):
-    languages = ['en', 'es', 'tr', 'vi']
+    languages = ['en', 'es', 'tr', 'vi','st','yo','tn','ty','mai','mg']
     categories = ['title_match', 'author_match', 'both_match']
     data = {}
-
+    print(accuracy_data)
+    # print(accuracy_data)
     for lang in languages:
         data[lang] = []
         for cat in categories:
@@ -146,7 +153,7 @@ def plot(accuracy_data, title, shuffled, prompt_setting):
                 else:
                     # Try to access the unshuffled key
                     value = accuracy_data[f"{lang}_results_{cat}"]
-                data[lang].append(value)  # Append the value if it exists
+                    data[lang].append(value)  # Append the value if it exists
             except KeyError:
                 # Skip if the key is missing
                 print(f"Missing data for {lang} - {cat}, skipping...")
@@ -182,11 +189,11 @@ def plot(accuracy_data, title, shuffled, prompt_setting):
     ax.legend(title='Language', fontsize=10)
 
     # Display the plot
-    plt.tight_layout()
+    # plt.tight_layout()
     if shuffled:
-        plt.savefig(f'scripts/Evaluation/dir_probe/eval/{prompt_setting}/plots/shuffled/{title}.png', dpi=300, bbox_inches='tight')
+        plt.savefig(f'./eval/{prompt_setting}/plots/shuffled/{title}.png', dpi=300, bbox_inches='tight')
     else:
-        plt.savefig(f'scripts/Evaluation/dir_probe/eval/{prompt_setting}/plots/unshuffled/{title}.png', dpi=300, bbox_inches='tight')
+        plt.savefig(f'./eval/{prompt_setting}/plots/unshuffled/{title}.png', dpi=300, bbox_inches='tight')
 
 def read_txt_file(file_path):
     # Read text file content
@@ -212,8 +219,14 @@ def list_csv_files(directory):
 def create_heatmap(df,release_date_csv,model,shuffled,prompt_setting):
     release_dates = pd.read_csv(release_date_csv)
     release_dates['Release Date'] = pd.to_datetime(release_dates['Release Date'])  # Ensure datetime format
+    print(df.shape)
+    print(df['Title'])
+    df['Title'] = df['Title'].replace('Alice_in_Wonderland','Alice_s_Adventures_in_Wonderland')
+    df['Title'] = df['Title'].replace('Percy_Jackson_The_Lightning_Thief','The_Lightning_Thief')
+    
     merged_df = pd.merge(df, release_dates, on='Title', how='inner')
     # merged_df= merged_df.loc[:, merged_df.columns.str.contains('_both_match')]
+
     print(f"Merged DataFrame shape: {merged_df.shape}")
         # Exit early if no matching data
     if merged_df.empty:
@@ -249,56 +262,61 @@ def create_heatmap(df,release_date_csv,model,shuffled,prompt_setting):
     sns.heatmap(heatmap_data, annot=True, cmap=custom_cmap, cbar=True, fmt='.1f', linewidths=.5, vmin=0, vmax=100)
     
     if shuffled:
-        plt.title(f'{model}_shuffled', fontsize=16)
+        plt.title(f'{model}_shuffled {prompt_setting} unmasked', fontsize=16)
     else:
-        plt.title(f'{model}', fontsize=16)
+        plt.title(f'{model}{prompt_setting} unmasked', fontsize=16)
     plt.xlabel('Language', fontsize=16)
     plt.ylabel('Books (Sorted by Release Date)', fontsize=16)
-    plt.tight_layout()
+    # plt.tight_layout()
     if shuffled:
-        plt.savefig(f'scripts/Evaluation/dir_probe/eval/{prompt_setting}/{model}_shuffled_dirprobe_heatmap.png', dpi=300, bbox_inches='tight')
+        plt.savefig(f'./eval/{prompt_setting}/plots/{model}_shuffled_dirprobe_heatmap_unmasked.png', dpi=300, bbox_inches='tight')
     else:
-        plt.savefig(f'scripts/Evaluation/dir_probe/eval/{prompt_setting}/{model}_dirprobe_heatmap.png', dpi=300, bbox_inches='tight')
+        plt.savefig(f'./eval/{prompt_setting}/plots/{model}_dirprobe_heatmap_unmasked.png', dpi=300, bbox_inches='tight')
     
     
 if __name__ == "__main__":
-    models = ['EuroLLM-9B-Instruct', 'OLMo-7B-0724-Instruct-hf', 'Llama-3.1-70B-Instruct', 'Llama-3.3-70B-Instruct', 'Meta-Llama-3.1-8B-Instruct', 'OLMo-2-1124-13B-Instruct'] # add more models here
-    prompt_setting = 'one-shot' # one-shot || zero-shot
-    titles = list_csv_files(f'scripts/Evaluation/dir_probe/llm_out/{prompt_setting}')
+    #models = ['EuroLLM-9B-Instruct', 'OLMo-7B-0724-Instruct-hf', 'Llama-3.1-70B-Instruct', 'Llama-3.3-70B-Instruct', 'Meta-Llama-3.1-8B-Instruct', 'OLMo-2-1124-13B-Instruct'] # add more models here
+    models = ['Llama-3.1-405b']
+    prompt_setting = '1s' # one-shot || zero-shot
+    titles = list_csv_files(f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/Llama-3.1-405b/')
     unshuffled_accuracy_list = {item: {} for item in models} 
     shuffled_accuracy_list = {item: {} for item in models} 
-    
-    
+    list_2024_ = ['Bride','Funny_Story']
+    plt.close()
     for title in titles:
         for model in models:
-            if model in title:
+            if "unmasked_passages" in title and prompt_setting in title and "Fahrenheit" not in title and title not in list_2024_ and "1984" in title:
                 print(f'----------------- Running {title} -----------------')   
-                book_title = title.replace(f'_direct_probe_{model}_{prompt_setting}', '')
-                results_evaluated = evaluate(csv_file_name=f'scripts/Evaluation/dir_probe/llm_out/{prompt_setting}/{title}.csv', book_title=title, model=model, prompt_setting=prompt_setting)
+                book_title = title.replace(f'_direct_probe_llama405b_{prompt_setting}_unmasked_passages', '')
+                print(book_title)
+                results_evaluated = evaluate(csv_file_name=f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/{model}/{title}.csv', book_title=title, model=model, prompt_setting=prompt_setting)
                 shuffled, unshuffled = split_data(results_evaluated)
+                print(shuffled)
                 save_data(title,shuffled,model,True,prompt_setting)
                 save_data(title,unshuffled,model,False,prompt_setting)
-                unshuffled_acc_df = guess_accuracy(unshuffled)
+                #unshuffled_acc_df = guess_accuracy(unshuffled)
                 shuffled_acc_df = guess_accuracy(shuffled)
-                # print(unshuffled_acc_df.keys)
-                unshuffled_accuracy_list[model][book_title]=(unshuffled_acc_df)
+                #print(unshuffled_acc_df.keys)
+                #unshuffled_accuracy_list[model][book_title]=(unshuffled_acc_df)
                 shuffled_accuracy_list[model][book_title] =(shuffled_acc_df)
-                plot(unshuffled_acc_df,title,False,prompt_setting) 
+                #plot(unshuffled_acc_df,title,False,prompt_setting) 
                 plot(shuffled_acc_df,title,True,prompt_setting)   
+                plt.close()
 
     for model in models:
         # Save unshuffled accuracy list
-        u_df = pd.DataFrame.from_dict(unshuffled_accuracy_list[model], orient='index')
-        u_df.index.name = 'Title'
-        u_df.reset_index(inplace=True)
+        # u_df = pd.DataFrame.from_dict(unshuffled_accuracy_list[model], orient='index')
+        # u_df.index.name = 'Title'
+        # u_df.reset_index(inplace=True)
         # u_df.to_csv('/Users/minhle/Umass/ersp/Evaluation/dir_probe/eval/unshuffled.csv', index=False, encoding='utf-8')
 
         # Save shuffled accuracy list
         s_df = pd.DataFrame.from_dict(shuffled_accuracy_list[model], orient='index')
         s_df.index.name = 'Title'
         s_df.reset_index(inplace=True)
-        # s_df.to_csv('/Users/minhle/Umass/ersp/Evaluation/dir_probe/eval/shuffled.csv', index=False, encoding='utf-8')
-        # s_df = pd.read_csv('./shuffled.csv')
+        s_df.to_csv('/Users/minhle/Umass/ersp/Evaluation/dir_probe/eval/shuffled.csv', index=False, encoding='utf-8')
+        s_df = pd.read_csv('./shuffled.csv')
         # print(s_df.shape)
-        create_heatmap(s_df,"scripts/Evaluation/dir_probe/release_date.csv",model,True,prompt_setting)
-        create_heatmap(u_df,"scripts/Evaluation/dir_probe/release_date.csv",model,False,prompt_setting)
+        create_heatmap(s_df,"./release_date.csv",model,True,prompt_setting)
+        #create_heatmap(u_df,"./release_date.csv",model,False,prompt_setting)
+        plt.close()
