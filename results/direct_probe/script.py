@@ -1,17 +1,18 @@
 import os
-import re
 
-# Define the hardcoded folder path
-folder_path = "/Users/alishasrivastava/BEAM-scripts/BEAM/results/direct_probe/Llama-3.1-405b/non_ne_zero_shot"  # Change this to your actual folder path
+# Specify the folder containing the CSV files
+folder_path = "/Users/alishasrivastava/BEAM-scripts/BEAM/results/direct_probe/Llama-3.3-70B-Instruct/ne_zero_shot"
 
-# Iterate through files in the folder
+# Loop through all files in the folder
 for filename in os.listdir(folder_path):
-    if re.search(r"_0s_NE_data\.csv$", filename):
-        new_filename = re.sub(r"_0s_NE_data", "_zero-shot", filename)
-        # Create full paths
-        old_file_path = os.path.join(folder_path, filename)
-        new_file_path = os.path.join(folder_path, new_filename)
-        
+    if filename.endswith(".csv") and "Meta-" in filename:
+        # Create the new filename by replacing "Meta-" with an empty string
+        new_filename = filename.replace("Meta-", "")
+
+        # Get full paths
+        old_path = os.path.join(folder_path, filename)
+        new_path = os.path.join(folder_path, new_filename)
+
         # Rename the file
-        os.rename(old_file_path, new_file_path)
-        print(f"Renamed '{filename}' to '{new_filename}'")
+        os.rename(old_path, new_path)
+        print(f"Renamed: {filename} -> {new_filename}")
