@@ -56,7 +56,7 @@ def evaluate(csv_file_name, book_title, model, prompt_setting):
     df = pd.read_csv(csv_file_name)
     # Filter columns containing 'results'
     filtered_df = df.loc[:, df.columns.str.contains('results', case=False) & (df.columns != 'Unnamed: 0_results')]
-    book_title = book_title.replace(f'_direct_probe_llama405b_{prompt_setting}_unmasked_passages', '')
+    book_title = book_title.replace(f'_direct_probe_{model}_{prompt_setting}', '')
     book_title = book_title.replace('_',' ')
     print(book_title)
     # Find the matching row for the given book title
@@ -110,10 +110,9 @@ def split_data(data): #this function splits our results to shuffled and unshuffl
 
 def save_data(title,data,model,shuffled,prompt_setting):
     if shuffled:
-        data.to_csv(f'./eval/{prompt_setting}/csv/{model}/{model}_shuffled/{title}_shuffled_eval.csv', index= False, encoding='utf-8')
+        data.to_csv(f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/{model}/ne_one_shot/evaluation/{title}_shuffled_eval.csv', index= False, encoding='utf-8')
     else:
-        data.to_csv(f'./eval/{prompt_setting}/csv/{model}/{title}_eval.csv', index= False, encoding='utf-8')  
-
+        data.to_csv(f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/{model}/ne_one_shot/evaluation/{title}_eval.csv', index= False, encoding='utf-8')  
 
 def guess_accuracy(data):
     results = {}
@@ -141,12 +140,12 @@ def plot(accuracy_data, title, shuffled, prompt_setting):
     languages = ['en', 'es', 'tr', 'vi','st','yo','tn','ty','mai','mg']
     categories = ['title_match', 'author_match', 'both_match']
     data = {}
-    print(accuracy_data)
+    #print(accuracy_data)
     # print(accuracy_data)
     for lang in languages:
         data[lang] = []
         for cat in categories:
-            try:
+            # try:
                 if shuffled:
                     # Try to access the shuffled key
                     value = accuracy_data[f"{lang}_prompts_shuffled_results_{cat}"]
@@ -154,10 +153,10 @@ def plot(accuracy_data, title, shuffled, prompt_setting):
                     # Try to access the unshuffled key
                     value = accuracy_data[f"{lang}_results_{cat}"]
                     data[lang].append(value)  # Append the value if it exists
-            except KeyError:
-                # Skip if the key is missing
-                print(f"Missing data for {lang} - {cat}, skipping...")
-                data[lang].append(None)
+            # except KeyError:
+            #     # Skip if the key is missing
+            #     print(f"Missing data for {lang} - {cat}, skipping...")
+            #     data[lang].append(None)
 
     # Plotting
     x = np.arange(len(categories))  # Category indices
@@ -191,9 +190,9 @@ def plot(accuracy_data, title, shuffled, prompt_setting):
     # Display the plot
     # plt.tight_layout()
     if shuffled:
-        plt.savefig(f'./eval/{prompt_setting}/plots/shuffled/{title}.png', dpi=300, bbox_inches='tight')
+        plt.savefig(f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/Llama-3.1-405b/ne_one_shot/evaluation/viz/{title}_shuffled.png', dpi=300, bbox_inches='tight')
     else:
-        plt.savefig(f'./eval/{prompt_setting}/plots/unshuffled/{title}.png', dpi=300, bbox_inches='tight')
+        plt.savefig(f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/Llama-3.1-405b/ne_one_shot/evaluation/viz/{title}.png', dpi=300, bbox_inches='tight')
 
 def read_txt_file(file_path):
     # Read text file content
@@ -259,7 +258,7 @@ def create_heatmap(df,release_date_csv,model,shuffled,prompt_setting):
 
     # Plot the heatmap
     plt.figure(figsize=(12, 8)) 
-    sns.heatmap(heatmap_data, annot=True, cmap=custom_cmap, cbar=True, fmt='.1f', linewidths=.5, vmin=0, vmax=100)
+    sns.heatmap(heatmap_data, annot=True, cmap=custom_cmap, cbar=True, fmt='.1f', linewidths=.5, vmin=0, vmax=100,annot_kws={"size": 18})
     
     if shuffled:
         plt.title(f'{model}_shuffled {prompt_setting} unmasked', fontsize=16)
@@ -269,54 +268,54 @@ def create_heatmap(df,release_date_csv,model,shuffled,prompt_setting):
     plt.ylabel('Books (Sorted by Release Date)', fontsize=16)
     # plt.tight_layout()
     if shuffled:
-        plt.savefig(f'./eval/{prompt_setting}/plots/{model}_shuffled_dirprobe_heatmap_unmasked.png', dpi=300, bbox_inches='tight')
+        plt.savefig(f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/Llama-3.1-405b/ne_one_shot/evaluation/viz/{model}_shuffled_dirprobe_heatmap_unmasked.png', dpi=300, bbox_inches='tight')
     else:
-        plt.savefig(f'./eval/{prompt_setting}/plots/{model}_dirprobe_heatmap_unmasked.png', dpi=300, bbox_inches='tight')
+        plt.savefig(f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/Llama-3.1-405b/ne_one_shot/evaluation/viz/{model}_dirprobe_heatmap_unmasked.png', dpi=300, bbox_inches='tight')
     
     
 if __name__ == "__main__":
     #models = ['EuroLLM-9B-Instruct', 'OLMo-7B-0724-Instruct-hf', 'Llama-3.1-70B-Instruct', 'Llama-3.3-70B-Instruct', 'Meta-Llama-3.1-8B-Instruct', 'OLMo-2-1124-13B-Instruct'] # add more models here
     models = ['Llama-3.1-405b']
-    prompt_setting = '1s' # one-shot || zero-shot
-    titles = list_csv_files(f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/Llama-3.1-405b/')
+    prompt_setting = 'one-shot' # one-shot || zero-shot
+    titles = list_csv_files(f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/Llama-3.1-405b/ne_one_shot/')
     unshuffled_accuracy_list = {item: {} for item in models} 
     shuffled_accuracy_list = {item: {} for item in models} 
     list_2024_ = ['Bride','Funny_Story']
     plt.close()
     for title in titles:
-        for model in models:
-            if "unmasked_passages" in title and prompt_setting in title and "Fahrenheit" not in title and title not in list_2024_ and "1984" in title:
-                print(f'----------------- Running {title} -----------------')   
-                book_title = title.replace(f'_direct_probe_llama405b_{prompt_setting}_unmasked_passages', '')
-                print(book_title)
-                results_evaluated = evaluate(csv_file_name=f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/{model}/{title}.csv', book_title=title, model=model, prompt_setting=prompt_setting)
-                shuffled, unshuffled = split_data(results_evaluated)
-                print(shuffled)
-                save_data(title,shuffled,model,True,prompt_setting)
-                save_data(title,unshuffled,model,False,prompt_setting)
-                #unshuffled_acc_df = guess_accuracy(unshuffled)
-                shuffled_acc_df = guess_accuracy(shuffled)
-                #print(unshuffled_acc_df.keys)
-                #unshuffled_accuracy_list[model][book_title]=(unshuffled_acc_df)
-                shuffled_accuracy_list[model][book_title] =(shuffled_acc_df)
-                #plot(unshuffled_acc_df,title,False,prompt_setting) 
-                plot(shuffled_acc_df,title,True,prompt_setting)   
-                plt.close()
+        if 'Fahrenheit' not in title and 'Bride' not in title and 'Funny_Story' not in title and 'Paper_Towns' not in title and "The_Ministry_of_Time" not in title:
+            for model in models:
+                    print(f'----------------- Running {title} -----------------')   
+                    book_title = title.replace(f'_direct_probe_{model}_{prompt_setting}', '')
+                    #print(book_title)
+                    results_evaluated = evaluate(csv_file_name=f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/{model}/ne_one_shot/{title}.csv', book_title=title, model=model, prompt_setting=prompt_setting)
+                    shuffled, unshuffled = split_data(results_evaluated)
+                    #print(shuffled)
+                    #save_data(title,shuffled,model,True,prompt_setting)
+                    save_data(title,unshuffled,model,False,prompt_setting)
+                    unshuffled_acc_df = guess_accuracy(unshuffled)
+                    # shuffled_acc_df = guess_accuracy(shuffled)
+                    #print(unshuffled_acc_df.keys)
+                    unshuffled_accuracy_list[model][book_title]=(unshuffled_acc_df)
+                    # shuffled_accuracy_list[model][book_title] =(shuffled_acc_df)
+                    plot(unshuffled_acc_df,title,False,prompt_setting) 
+                    #plot(shuffled_acc_df,title,True,prompt_setting)   
+                    plt.close()
 
     for model in models:
         # Save unshuffled accuracy list
-        # u_df = pd.DataFrame.from_dict(unshuffled_accuracy_list[model], orient='index')
-        # u_df.index.name = 'Title'
-        # u_df.reset_index(inplace=True)
-        # u_df.to_csv('/Users/minhle/Umass/ersp/Evaluation/dir_probe/eval/unshuffled.csv', index=False, encoding='utf-8')
+        u_df = pd.DataFrame.from_dict(unshuffled_accuracy_list[model], orient='index')
+        u_df.index.name = 'Title'
+        u_df.reset_index(inplace=True)
+        u_df.to_csv('/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/Llama-3.1-405b/ne_one_shot/evaluation/unshuffled.csv', index=False, encoding='utf-8')
 
         # Save shuffled accuracy list
         s_df = pd.DataFrame.from_dict(shuffled_accuracy_list[model], orient='index')
         s_df.index.name = 'Title'
         s_df.reset_index(inplace=True)
-        s_df.to_csv('/Users/minhle/Umass/ersp/Evaluation/dir_probe/eval/shuffled.csv', index=False, encoding='utf-8')
-        s_df = pd.read_csv('./shuffled.csv')
+        s_df.to_csv('/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/Llama-3.1-405b/ne_one_shot/evaluation/shuffled.csv', index=False, encoding='utf-8')
+        #s_df = pd.read_csv('/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/Llama-3.1-405b/ne_one_shot/evaluation/shuffled.csv')
         # print(s_df.shape)
         create_heatmap(s_df,"./release_date.csv",model,True,prompt_setting)
-        #create_heatmap(u_df,"./release_date.csv",model,False,prompt_setting)
+        create_heatmap(u_df,"./release_date.csv",model,False,prompt_setting)
         plt.close()
