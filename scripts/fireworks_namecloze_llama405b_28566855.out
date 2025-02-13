@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/name_cloze_task/fireworks_nct.py", line 161, in <module>
+    titles = get_folder_names('/Prompts')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/name_cloze_task/fireworks_nct.py", line 154, in get_folder_names
+    for item in os.listdir(directory):
+                ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Prompts'
