@@ -157,7 +157,6 @@ def create_aggregate_heatmap(aggregate_dict, base_dir, filename_suffix, title_su
         print(f"Saved aggregate heatmap for experiment {experiment}: {heatmap_path}")
 
 
-
 # Create aggregate heatmaps for normal files (all languages; preferred order as in your code)
 preferred_normal = ['en', 'es', 'tr', 'vi', 'en_masked', 'es_masked', 'tr_masked', 'vi_masked','st','yo','tn','ty','mai','mg','en_shuffled','es_shuffled','tr_shuffled','vi_shuffled', 'en_masked_shuffled','tr_masked_shuffled','vi_masked_shuffled','es_masked_shuffled', 'st_shuffled','yo_shuffled','tn_shuffled','ty_shuffled','mai_shuffled','mg_shuffled']
 create_aggregate_heatmap(aggregate_normal, base_dir, "normal", "", preferred_normal)
@@ -165,5 +164,3 @@ create_aggregate_heatmap(aggregate_normal, base_dir, "normal", "", preferred_nor
 # Create aggregate heatmaps for 2024 files (only en and en_shuffled)
 preferred_2024 = ['en', 'en_shuffled']
 create_aggregate_heatmap(aggregate_2024, base_dir, "2024", "2024 books", preferred_2024)
-
-
