@@ -7,9 +7,8 @@ import pandas as pd
 
 # Define which CSV columns to process.
 ALLOWED_COLUMNS = [
-    "en", "en_shuffled"
+    "en_masked", "en_masked_shuffled"
     ]
-
 
 def construct_prompt(lang, passage, mode, prompt_setting="zero-shot"):
     try:
@@ -104,7 +103,7 @@ def prepare_jsonl_input_file(csv_file_path, output_dir):
         mode = "shuffled" if "shuffled" in col.lower() else "unshuffled"
         base_lang = col.split('_')[0]
         for idx, passage in df[col].items():
-            prompt = construct_prompt(base_lang, passage, mode, "zero-shot")
+            prompt = construct_prompt(base_lang, passage, mode, "one-shot")
             custom_id = f"{col}_{idx}"
             request_obj = {
                 "custom_id": custom_id,
@@ -214,12 +213,12 @@ def process_csv(client, csv_file_path, batches_dir):
 def extract_book_name(csv_file_path):
     """
     Extracts the book name from the CSV file name.
-    If the file name contains "_direct_probe_", everything before that is returned.
+    If the file name contains "_name_cloze_", everything before that is returned.
     Otherwise, it returns the part before the first underscore.
     """
     base = os.path.basename(csv_file_path)
-    if "_unmasked_passages" in base:
-        book_name = base.split("_unmasked_passages")[0]
+    if "_filtered_masked_sampled" in base:
+        book_name = base.split("_filtered_masked_sampled")[0]
     else:
         book_name = base.split("_")[0]
     return book_name
@@ -228,10 +227,10 @@ def main():
     openai.api_key = os.getenv("OPENAI_API_KEY")
     client = openai.Client(api_key=os.getenv("OPENAI_API_KEY"))
     
-    base_dir = "/Users/alishasrivastava/BEAM-scripts/BEAM/scripts/Prompts/2024/The_Paradise_Problem"
+    base_dir = "/Users/alishasrivastava/BEAM-scripts/BEAM/scripts/Prompts/2024"
     all_csvs = glob.glob(os.path.join(base_dir, "**/*.csv"), recursive=True)
-    csv_files = [f for f in all_csvs if f.endswith("_unmasked_passages.csv")]
-    batches_dir = "/Users/alishasrivastava/BEAM-scripts/BEAM/scripts/direct_probing/batches/2024/ne_zero_shot"
+    csv_files = [f for f in all_csvs if f.endswith("_filtered_masked_sampled.csv")]    # Hardcoded folder path for storing batches and results
+    batches_dir = "/Users/alishasrivastava/BEAM-scripts/BEAM/scripts/direct_probing/batches/2024/masked-one-shot"
     
     if not csv_files:
         print("No CSV files found in", base_dir)
