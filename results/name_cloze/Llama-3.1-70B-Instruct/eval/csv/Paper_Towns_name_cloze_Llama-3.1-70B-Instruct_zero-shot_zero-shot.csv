@@ -1,0 +1,77 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['cassie hiney'],john,bayan talihsiz,dám,butts,0,0.44,0,0.3,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+['chuck parson'],john,arnold,arnold,arnold schwarzenegger,0,0.4,0,0.5,0,0.5,0,0.3,incorrect,incorrect,incorrect,incorrect
+['chuck'],he,abd,anh,él,0,0.29,0,0.0,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['chuc', 'chuck']",him,hayat,nó,ella,0,0.29,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['angela'],jessica,noel baba,anh,maría,0,0.15,0,0.53,0,0.44,0,0.36,incorrect,incorrect,incorrect,incorrect
+['margo'],she,arkadaşım,người đàn ông,él,0,0.0,0,0.29,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],he,abraham lincoln,chị,alguien,0,0.0,0,0.2,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['margo', 'margo—']",tris,peri,tớ,lucía,0,0.22,0,0.22,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+['margo'],jefferson,jefferson,người đàn ông,mi hermano,0,0.29,0,0.29,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+['margo'],she,stephen hawking,không rõ,"el autor del texto, probablemente el narrador o un personaje, pero no se puede determinar con certeza. sin embargo, un personaje que se ajusta a este tipo de monólogos es tyler durden, de la novela ""el club de la lucha"" de chuck palahniuk.",0,0.0,0,0.2,0,0.31,0,0.03,incorrect,incorrect,incorrect,incorrect
+['margo'],she,bütün,cô ấy,él,0,0.0,0,0.0,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],she,erkek arkadaşı,chị gái,él,0,0.0,0,0.21,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],she,o,anh,ella,0,0.0,0,0.33,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],juno,bay,không có thông tin cụ thể về tên trong đoạn văn,el guapo,0,0.22,0,0.25,0,0.04,0,0.31,incorrect,incorrect,incorrect,incorrect
+['margo'],emily,elif,nàng,ella,0,0.2,0,0.0,0,0.44,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],my wife,7eleveri,người bạn,ella,0,0.17,0,0.15,0,0.14,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],she,worthington,worthington,worthington,0,0.0,0,0.38,0,0.38,0,0.38,incorrect,incorrect,incorrect,incorrect
+['jase'],facebook,annem,em,ana,0,0.33,0,0.44,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo'],macgyver,harry houdini,chà,él,0,0.46,0,0.33,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],she,o,cô ấy,ella,0,0.0,0,0.33,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['margo', 'marg']",her,onun,nhật,ella,0,0.29,0,0.22,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['chuck parson'],mr. crown,adını,crown,maría,0,0.4,0,0.36,0,0.55,0,0.36,incorrect,incorrect,incorrect,incorrect
+['margo'],she,elime,cô ấy,maría,0,0.0,0,0.2,0,0.2,0,0.6,incorrect,incorrect,incorrect,incorrect
+['margo'],she,ben,cô ấy,ella,0,0.0,0,0.0,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['chuck parso', 'chuck parson']",me,öldü,người đàn ông,jesús,0,0.0,0,0.22,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+['chuck parson'],his,amherst,emily dickinson,emily dickinson,0,0.27,0,0.46,0,0.37,0,0.37,incorrect,incorrect,incorrect,incorrect
+['margo'],she,saat,không có thông tin cụ thể về tên trong đoạn văn,ella,0,0.0,0,0.22,0,0.04,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],she,sen,naruto,shikamaru,0,0.0,0,0.0,0,0.55,0,0.43,incorrect,incorrect,incorrect,incorrect
+['margo'],she,seaworld,seaworld,él,0,0.0,0,0.31,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],luna,harry,ngọc,maría,0,0.22,0,0.4,0,0.44,0,0.6,incorrect,incorrect,incorrect,incorrect
+['margo'],disney,ninjalar,ninja,international,0,0.0,0,0.31,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],the man,orange county,anh,él,0,0.33,0,0.33,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],he,adamın,không có,el tipo,0,0.0,0,0.18,0,0.31,0,0.17,incorrect,incorrect,incorrect,incorrect
+['margo'],seaworld,universal stüdyoları,seaworld,seaworld,0,0.31,0,0.16,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+['margo roth spiegelman'],shaman,birisi,đông,britney,0,0.5,0,0.25,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+['ben'],a friend,arkadaşım,thầy giáo,patrick,0,0.36,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo roth spiegelman'],peter pan,ay,thằng cò,peter pan,0,0.53,0,0.29,0,0.46,0,0.53,incorrect,incorrect,incorrect,incorrect
+['margo'],principal,öğretmen,thầy giáo,un profesor,0,0.14,0,0.15,0,0.43,0,0.25,incorrect,incorrect,incorrect,incorrect
+['margo'],john cena,ama ata,đức,alguien,0,0.14,0,0.33,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['quenti', 'quentin']",god,sen,đồng chí,maría,0,0.0,0,0.44,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+['margo'],she,balon,bóng bay,el detective,0,0.0,0,0.4,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo roth spiegelman'],home-schooled,sen,margo,él,0,0.24,0,0.46,1,1.0,0,0.33,incorrect,incorrect,correct,incorrect
+['margo'],she,onu,cô ấy,él,0,0.0,0,0.25,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bay jiminez', 'jiminez']",johnson,matematik hocam,giáo,johnson,0,0.29,0,0.23,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+['ben starling'],linus,charlie,đức,el profesor,0,0.46,0,0.53,0,0.0,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['margo', 'marg']",thoreau,çember,ai đó như freud,salinger,0,0.18,0,0.4,0,0.21,0,0.33,incorrect,incorrect,incorrect,incorrect
+['margo'],emily,kardeşim,đan,mi hermano,0,0.2,0,0.31,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+['margo'],harry potter,florida,an toàn,alguien,0,0.35,0,0.17,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['margo', 'whitman']",walt whitman,margo,margo,walt whitman,0,0.74,1,1.0,1,1.0,0,0.74,correct,correct,correct,correct
+['ben'],he,jackass,nhân vật,él,0,0.4,0,0.0,0,0.18,0,0.4,incorrect,incorrect,incorrect,incorrect
+['margo'],signs,herhangi bir isim,người,nadie,0,0.2,0,0.09,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['margo', 'marg']",her,annem,mẹ,ella,0,0.29,0,0.22,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+['margo'],she,polis,cô ấy,ella,0,0.0,0,0.2,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo roth spiegelman'],omnictionarian96,annem,q,omnictionarian96,0,0.32,0,0.27,0,0.0,0,0.32,incorrect,incorrect,incorrect,incorrect
+['dennis mcmahon'],june,marlboro,lawyer,john smith,0,0.2,0,0.4,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+['margo'],she,marley,nhân vật nữ,ella,0,0.0,0,0.55,0,0.12,0,0.22,incorrect,incorrect,incorrect,incorrect
+['whitman'],walt whitman,şair,tô hoài,el poeta,0,0.74,0,0.18,0,0.29,0,0.27,correct,incorrect,incorrect,incorrect
+['margo'],she,ben,cô ấy,ella,0,0.0,0,0.0,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['lacey'],she,odysseus,quentin,maría,0,0.25,0,0.15,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['ben'],jesus,çocuk,anh,él,0,0.25,0,0.0,0,0.33,0,0.4,incorrect,incorrect,incorrect,incorrect
+['lacey'],ace,gus,nguyên,él,0,0.75,0,0.0,0,0.18,0,0.29,correct,incorrect,incorrect,incorrect
+['margo'],europe,google,đông lào,europa,0,0.36,0,0.36,0,0.31,0,0.18,incorrect,incorrect,incorrect,incorrect
+['margo'],she,onu,cô ấy,ella,0,0.0,0,0.25,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['margo roth spiegelma', 'margo roth spiegelman']",her,onu,người khác,ella,0,0.29,0,0.29,0,0.29,0,0.46,incorrect,incorrect,incorrect,incorrect
+['margo'],her,abraham lincoln,hamlet,ella,0,0.25,0,0.2,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['margo', 'margo—']",grandma,benim,tôi,mi hermano,0,0.33,0,0.2,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+['margo'],she,oğuz atay,cô ấy,él,0,0.0,0,0.14,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lacey'],she,gofast,đức chúa trời,el,0,0.25,0,0.18,0,0.11,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo'],her,sen,anh,ella,0,0.25,0,0.0,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],person,sen,người ấy,persona,0,0.36,0,0.0,0,0.15,0,0.17,incorrect,incorrect,incorrect,incorrect
+['margo'],harry,sen,thần,maría,0,0.4,0,0.0,0,0.22,0,0.6,incorrect,incorrect,incorrect,incorrect
+['margo'],her,ben,chàng hiệp sĩ,ella,0,0.25,0,0.0,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],she,annem,tôi,él,0,0.0,0,0.2,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lacey'],"everyone else in the story, but most likely a character like holden caulfield",senin,đức,ella,0,0.1,0,0.2,0,0.25,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['margo', 'marg']",her,onun,em,ella,0,0.29,0,0.22,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+['margo'],she,onun,trời,ella,0,0.0,0,0.22,0,0.44,0,0.22,incorrect,incorrect,incorrect,incorrect

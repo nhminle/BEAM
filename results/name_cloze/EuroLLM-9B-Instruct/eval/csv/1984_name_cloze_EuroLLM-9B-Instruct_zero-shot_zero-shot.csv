@@ -1,0 +1,61 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['winston smith'],george,kara,nguyễn,don quijote,0,0.15,0,0.0,0,0.31,0,0.42,incorrect,incorrect,incorrect,incorrect
+['winston'],winston smith,[mask],tiền sảnh,el gran hermano,0,0.7,0,0.15,0,0.5,0,0.18,correct,incorrect,incorrect,incorrect
+"['winston', 'wiston']",george,john,tay,winston,0,0.17,0,0.4,0,0.22,1,1.0,incorrect,incorrect,incorrect,correct
+"['señora parsons', 'parsons', 'bayan parsons']",s. [mask],çocuklar,bác,señora,0,0.27,0,0.29,0,0.5,1,1.0,incorrect,incorrect,incorrect,correct
+['tom'],john,kardeş,bà,juan,0,0.29,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['winston', 'eurasia']",churchill,avrasya,nguyễn,malas noticias,0,0.38,0,0.57,0,0.31,0,0.38,incorrect,incorrect,incorrect,incorrect
+['winston'],winston,[mask],đảng ngoại vi,winston,1,1.0,0,0.15,0,0.1,1,1.0,correct,incorrect,incorrect,correct
+"['winston', ""winston'ın"", 'winston’s']",george orwell,i̇ngiltere,london,londres,0,0.1,0,0.38,0,0.38,0,0.38,incorrect,incorrect,incorrect,incorrect
+['winston'],colchester,colchester,colchester,hermana,0,0.24,0,0.24,0,0.24,0,0.14,incorrect,incorrect,incorrect,incorrect
+['winston'],john,[mask],[mask],[mask],0,0.18,0,0.15,0,0.15,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['smith', 'smit']",winston smith,[mask],bộ ấm no,ministro,0,0.56,0,0.2,0,0.17,0,0.5,incorrect,incorrect,incorrect,incorrect
+['winston'],the women,kadınlar,người đông,las mujeres,0,0.25,0,0.27,0,0.35,0,0.11,incorrect,incorrect,incorrect,incorrect
+"['winston', 'winston’s']",midsummer day,[mask],eurasia,[mask],0,0.2,0,0.15,0,0.14,0,0.15,incorrect,incorrect,incorrect,incorrect
+['winston'],"the passage does not provide a specific name to fill the [mask] token. however, based on the context, it is likely referring to a coffee shop or café. a possible name could be ""victory coffee,"" but this is not explicitly stated in the passage. without more context, it is difficult to determine the exact name. if you could provide more information or context, i would be happy to help further. however, based on the given passage, the most likely name is",kahve dükkanı,chiến thắng,juan,0,0.0,0,0.1,0,0.44,0,0.18,incorrect,incorrect,incorrect,incorrect
+['winston'],winston,gemi,lửa,el vapor,1,1.0,0,0.18,0,0.0,0,0.13,correct,incorrect,incorrect,incorrect
+['winston'],the alley,kadıköy,nguyễn,la calle por la que descendía [mask],0,0.12,0,0.29,0,0.31,0,0.09,incorrect,incorrect,incorrect,incorrect
+"['winston', 'winston—']",george,marx,cụ,[mask],0,0.15,0,0.0,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+['winston'],karl marx,[mask],[mask],[mask],0,0.0,0,0.15,0,0.15,0,0.15,incorrect,incorrect,incorrect,incorrect
+['winston'],old man,yaşlı adam,nguyễn,el viejo,0,0.14,0,0.12,0,0.31,0,0.27,incorrect,incorrect,incorrect,incorrect
+['winston'],the customer,masaya,"gian hàng nhỏ bé tuy chật cứng đủ thứ, nhưng chẳng có vật gì gọi là đáng giá cả. chật quá, cạnh tường chỗ nào cũng thấy những khung tranh đầy bụi. trong",cliente,0,0.32,0,0.15,0,0.06,0,0.43,incorrect,incorrect,incorrect,incorrect
+['winston'],old man,kişi,nguyễn,el comprador,0,0.14,0,0.36,0,0.31,0,0.11,incorrect,incorrect,incorrect,incorrect
+['winston'],mr. jenkins,kaptan,ngọn,casa,0,0.33,0,0.15,0,0.55,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın"", 'winston’s']",he,adam,người,el autor,0,0.0,0,0.0,0,0.17,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'a"", 'winston.']",the girl,winston's,cô,el anciano prisionero,0,0.13,0,0.89,0,0.22,0,0.36,incorrect,correct,incorrect,incorrect
+['winston'],the girl,kız,cô,la muchacha,0,0.13,0,0.2,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['winston'],field,çayır,ngọc,unknown,0,0.17,0,0.17,0,0.36,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['julia—', 'julia']",john,[mask],[mask],juan,0,0.22,0,0.18,0,0.18,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['katherine', ""katharine'in"", 'katharine']",ceremony,kadın,anh,[mask],0,0.35,0,0.57,0,0.33,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['julia', 'here’s']",the picture,fare,chuột,elena,0,0.47,0,0.4,0,0.2,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['julia—', 'julia']",[mask],ben,em,maría,0,0.18,0,0.0,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",mr. james,arkadaşınız,anh,amigo,0,0.25,0,0.33,0,0.2,0,0.17,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",minister,bakan,nguyễn,el ministro,0,0.13,0,0.33,0,0.31,0,0.11,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",he,[mask] - ahmet,anh,el,0,0.22,0,0.1,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['huynh đệ', 'goldstein']",brotherhood,kardeşlik,goldstein,habré,0,0.32,0,0.36,1,1.0,0,0.31,incorrect,incorrect,correct,incorrect
+"[""o'brien"", 'o’brien']",gandalf,karanlık,ngọc,el,0,0.14,0,0.27,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['winston'],winston smith,[mask],"ngày thứ ba mắt anh đã đau không thể chịu nổi, còn kính thì cứ năm phút phải lau một lần. giống như khi phải làm một công việc chân tay quá sức mình: có thể kh",ministro,0,0.7,0,0.15,0,0.06,0,0.67,correct,incorrect,incorrect,incorrect
+['julia'],the beatles,nefret,bài ca hận thù,elvis,0,0.12,0,0.0,0,0.11,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın""]",the voice,keloğlan,người nam,don quijote,0,0.12,0,0.13,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['smith', 'smit']",mary,anne,ngọc,maría,0,0.25,0,0.0,0,0.0,0,0.44,incorrect,incorrect,incorrect,incorrect
+['parsons'],winston,köle,anh,winston,0,0.43,0,0.18,0,0.4,0,0.43,incorrect,incorrect,incorrect,incorrect
+['parsons'],father,küçük kız,con gái tôi,[mask],0,0.31,0,0.0,0,0.22,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'i""]",prisoner,mühendis,hắn,hombre,0,0.53,0,0.27,0,0.2,0,0.15,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",[mask],[mask],anh,[el autor],0,0.0,0,0.0,0,0.2,0,0.24,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",the narrator,karakter,bảo,[mask],0,0.21,0,0.27,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",master,öğretmen,thầy,don quijote,0,0.15,0,0.53,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['winston'],the narrator,el,cái kim,"el nombre que llena el [mask] token en el pasaje es ""él"".",0,0.32,0,0.0,0,0.14,0,0.16,incorrect,incorrect,incorrect,incorrect
+['winston'],the narrator,adam,nguyễn,unknown,0,0.32,0,0.0,0,0.31,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['winston', ""o 'brien"", ""o'brien'ın"", 'o’brien']",kant,kendisi,nguyễn,hombre,0,0.36,0,0.35,0,0.33,0,0.62,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",dr. robert anthony,prof. dr. ,anh,elías,0,0.32,0,0.25,0,0.2,0,0.17,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",galileo galilei,dünya,ngọc,aristóteles,0,0.27,0,0.17,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",socrates,kral,anh,dios,0,0.4,0,0.18,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",dr. mengele,[mask],anh,el médico,0,0.33,0,0.0,0,0.2,0,0.12,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",[mask],[mask],ngọc,[mask],0,0.0,0,0.0,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",rat,fareler,chuột cống,[mask],0,0.2,0,0.29,0,0.24,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'a""]",the cage,"kafesteki farelerin çığlıkları duyuldu. çığlıklar [mask] uzaklardan geliyor gibiydi. kavga ediyorlar, bölmenin arasından birbirlerine saldırıyorlardı. birisinin derinden iç çektiğini duydu. ses uzaktan gelir gibiydi.",có tiếng rít lên trong lồng. [mask] có cảm giác như tiếng rít vẳng lại từ rất xa. chuột đang cắn nhau; chúng muốn chui qua tấm vách ngăn. [mask] nghe thấy một tiếng rên tuyệt v,el autor,0,0.24,0,0.02,0,0.06,0,0.27,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",the narrator,"kafesin yapısını anlıyorsun. maske yüzüne oturacak. öteki mandala bastığım zaman, kafesin kapısı açılacak ve günlerdir aç bırakılmış bu iki fare ok gibi fırlayıp yüzüne saldıracaklar. bazen önce insanın gözlerine saldırırlar, bazen de yanaklarını oyup dilini yerler.",chuột đói,el autor,0,0.21,0,0.0,0,0.25,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın"", 'tim winston', 'winston’s']",winston smith,afrika,eurasia,mussolini,0,0.73,0,0.22,0,0.2,0,0.32,correct,incorrect,incorrect,incorrect
+['winston'],nelson,mustafa kemal atatürk,phạm thị thanh thúy,george,0,0.62,0,0.14,0,0.23,0,0.15,incorrect,incorrect,incorrect,incorrect
+['winston'],his mother,[mask],bà,juan,0,0.35,0,0.15,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['winston', 'winston,']",winston,tutuklu,bộ tình yêu,winston,1,1.0,0,0.14,0,0.22,1,1.0,correct,incorrect,incorrect,correct

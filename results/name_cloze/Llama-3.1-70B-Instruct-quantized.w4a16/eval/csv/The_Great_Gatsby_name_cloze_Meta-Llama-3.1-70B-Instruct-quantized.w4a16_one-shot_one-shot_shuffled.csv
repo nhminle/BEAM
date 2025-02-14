@@ -1,0 +1,55 @@
+Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,es_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['gatsby'],emerson,goethe,đông,byron,0,0.15,0,0.33,0,0.2,0,0.36,incorrect,incorrect,incorrect,incorrect
+['tom buchanan'],egg,east egg,windsor,east egg,0,0.0,0,0.2,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['tom', 'tom buchanan']",balloon,beethoven,heathcliff,salome,0,0.4,0,0.35,0,0.18,0,0.44,incorrect,incorrect,incorrect,incorrect
+['daisy'],miss,pinokyo,thúy kiều,maría,0,0.44,0,0.33,0,0.14,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['miss baker', 'baker', 'bayan baker']",miss,dr. watson,thúy,shakespeare,1,1.0,0,0.27,0,0.22,0,0.5,correct,incorrect,incorrect,incorrect
+"['baker', 'bayan baker']",miss,asker,thúy kiều,monroe,0,0.0,0,0.8,0,0.4,0,0.24,incorrect,correct,incorrect,incorrect
+['daisy'],esther,neşe,đức,niño,0,0.18,0,0.22,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['tom', 'tom”']",heathcliff,sen,daisy,don quijote,0,0.15,0,0.0,0,0.0,0,0.14,incorrect,incorrect,incorrect,incorrect
+['daisy'],emily,peri,thúy kiều,beatriz,0,0.4,0,0.22,0,0.14,0,0.33,incorrect,incorrect,incorrect,incorrect
+['tom'],heidi,doğum,em,dios,0,0.0,0,0.5,0,0.4,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['ton buchanan', 'tom buchanan']",london,peri,helena,orfeo,0,0.44,0,0.0,0,0.43,0,0.25,incorrect,incorrect,incorrect,incorrect
+['tom'],wolfe,charlie,york,york,0,0.25,0,0.0,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['wilso', 'bayan wilson', 'mistress wilson', 'wilson']",terhune,jack,terrier,terremoto,0,0.4,0,0.22,0,0.27,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['bayan wilson', 'myrtle', 'mistress wilson', 'wilson']",harlem,central park,central,times square,0,0.5,0,0.24,0,0.31,0,0.4,incorrect,incorrect,incorrect,incorrect
+['catherine'],madame,tabiat,thúy kiều,maría,0,0.27,0,0.27,0,0.33,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['mckee', 'bay mckee', 'mister mckee']",father,ali,đức,emerson,0,0.5,0,0.33,0,0.25,0,0.46,incorrect,incorrect,incorrect,incorrect
+['jordan baker'],heathcliff,napolyon,thạch sanh,adriano,0,0.13,0,0.29,0,0.25,0,0.46,incorrect,incorrect,incorrect,incorrect
+['jordan'],archimedes,bayram,đại,homero,0,0.25,0,0.33,0,0.44,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['bay gatsby', 'gatsby']",mr. butler,mr. martin,godzilla,obama,0,0.2,0,0.25,0,0.29,0,0.5,incorrect,incorrect,incorrect,incorrect
+['jordan'],plato,oscar wilde,đại,emerson,0,0.18,0,0.35,0,0.44,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['von hindenburg', 'van hindenburg']",tom,şeytan,đào,diablo,0,0.33,0,0.44,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+['gatsby'],wittgenstein,orhan kemal,nguyễn,walden,0,0.22,0,0.12,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+['gatsby'],humpty dumpty,west,phileas,west,0,0.21,0,0.2,0,0.31,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['bayan wilson', 'mistress wilson', 'wilson']",roosevelt,times,gatsby,avenida,0,0.24,0,0.46,0,0.36,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['wolfsheim hỉnh', 'bay wolfsheim', 'wolfshiem']",he,garson,chiếc,policia,0,0.36,0,0.22,0,0.44,0,0.38,incorrect,incorrect,incorrect,incorrect
+['daisy'],wild,harry,york,martha,0,0.22,0,0.4,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+['daisy'],chicago,gatsby,chicago,montparnasse,0,0.17,0,0.55,0,0.17,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['jordan', 'jordan baker', '“jordan baker']",empire,times,central,times,0,0.36,0,0.2,0,0.31,0,0.2,incorrect,incorrect,incorrect,incorrect
+['daisy'],heathcliff,boğaziçi,emily,montenegro,0,0.27,0,0.31,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bay sloane', 'sloane', 'mister sloane']",the,bayan,scarlett,elizabeth,0,0.44,0,0.75,0,0.43,0,0.4,incorrect,correct,incorrect,incorrect
+['tom'],mark,bay,đông,don quijote,0,0.29,0,0.0,0,0.29,0,0.14,incorrect,incorrect,incorrect,incorrect
+['daisy'],chaplin,elizabeth taylor,đại,orion,0,0.33,0,0.19,0,0.75,0,0.2,incorrect,incorrect,correct,incorrect
+['daisy'],billie,kontralto,trịnh,orfeo,0,0.18,0,0.14,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gatsby'],sun,ben,thạch sanh,marina,0,0.22,0,0.22,0,0.25,0,0.17,incorrect,incorrect,incorrect,incorrect
+['daisy'],god,orhan,nick,ortega,0,0.25,0,0.2,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+['gatsby'],holden,orpheus,ánh,orwell,0,0.0,0,0.15,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gatsby'],tom,annesi,em,europa,0,0.22,0,0.33,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['tom'],heidi,çay,đức,alma,0,0.0,0,0.0,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['tom'],mark twain,galile,thoreau,sancho,0,0.15,0,0.0,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+['gatsby'],bayard,odysseus,thuyền,elba,0,0.33,0,0.14,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['jordan', 'jordan—']",seventeenth,woody allen,shakespeare,salinger,0,0.12,0,0.47,0,0.12,0,0.14,incorrect,incorrect,incorrect,incorrect
+['tom'],grand,trump,chrysler,times,0,0.0,0,0.5,0,0.0,0,0.5,incorrect,incorrect,incorrect,incorrect
+['daisy'],chicago,chandler,chicago,frankenstein,0,0.17,0,0.15,0,0.17,0,0.24,incorrect,incorrect,incorrect,incorrect
+['walter'],send,god,york,jersey,0,0.2,0,0.0,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jordan'],door,marx,trang,lado,0,0.4,0,0.2,0,0.55,0,0.2,incorrect,incorrect,incorrect,incorrect
+['tom'],heathcliff,elza,đông,elvis,0,0.15,0,0.0,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['daisy'],emily,new york,new york,york,0,0.4,0,0.15,0,0.15,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['george', 'georg']",god,müslüman,đức,iglesia,0,0.5,0,0.0,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['gatsby'],chauffeur,atlas,hoàng,señor,0,0.13,0,0.55,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['meyer wolfsheim', 'meyer wolfshiem']",butler's,uşak,nguyễn,information,0,0.31,0,0.15,0,0.36,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['gatz', 'bay gatz']",mr. jarndyce,hamlet,thầy,edificio,0,0.27,0,0.4,0,0.57,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gatsby'],mr. rochester,bay ham,đào,señor,0,0.11,0,0.31,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+['gatsby'],emily,orpheus,đông,maría,0,0.18,0,0.15,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jordan baker'],emily,bay,thuyên,vi,0,0.2,0,0.5,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect

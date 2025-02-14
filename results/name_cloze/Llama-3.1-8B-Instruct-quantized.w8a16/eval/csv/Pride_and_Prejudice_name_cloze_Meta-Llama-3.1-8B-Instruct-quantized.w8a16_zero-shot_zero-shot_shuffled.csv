@@ -1,0 +1,100 @@
+Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,es_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['bingley', 'mr bingley']",jane,güzellik,người,madre,0,0.36,0,0.13,0,0.33,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['mr bennet', 'bennet', 'señor bennet']",elizabeth,i̇brahim,đầu,don quijote,0,0.4,0,0.22,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['señora long', 'mrs long', 'long']",elizabeth,necip fazıl,nguyễn du,al,0,0.27,0,0.27,0,0.31,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['mrs bennet', 'bennet', 'señora bennet']",emma,neşe,đức,carlos,0,0.4,0,0.4,0,0.0,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['mr bennet', 'bennet']",jane,ali,nguyễn du,maría,0,0.4,0,0.0,0,0.27,0,0.57,incorrect,incorrect,incorrect,incorrect
+['lizzy'],mr. darcy,muhtar,trai,don quijote,0,0.14,0,0.0,0,0.22,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['lucas', 'lucas–', 'miss lucas']",hamlet,adamın ali,thanh,señorita,0,0.25,0,0.4,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['mary'],jane austen,nietzsche,phù,nietzsche,0,0.13,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['miss eliza', 'eliz', 'eliza']",walter scott,ali,ngọc,madame,0,0.12,0,0.57,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mrs bennet', 'bennet––', 'bennet']",charles dickens,atatürk,những,don quijote,0,0.4,0,0.2,0,0.36,0,0.19,incorrect,incorrect,incorrect,incorrect
+['louisa'],shakespeare,mehmet,chị hai,carlos,0,0.24,0,0.0,0,0.31,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['mr jones', 'jones']",elizabeth,ali,nguyễn du,maría,0,0.14,0,0.0,0,0.29,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['mary', 'mary––']",virtue,i̇nsan,thức,voltaire,0,0.2,0,0.22,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['', 'jane bennet']",jane,annelerim,nguyễn hữu huân,maria,1,1.0,0,0.46,0,0.29,0,0.22,correct,incorrect,incorrect,incorrect
+"['darcy', 'darcy–']",mr. darcy,turkan,thế,chanel,0,0.71,0,0.18,0,0.0,0,0.18,correct,incorrect,incorrect,incorrect
+['darcy'],mr. collins,ali i̇brahimović,nguyễn du,don quijote,0,0.25,0,0.3,0,0.14,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['mrs bennet', 'bennet', 'señora bennet']",england,muhtar,thích,maría,0,0.46,0,0.44,0,0.18,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['bingley', 'señor bingley', 'mr bingley']",westminster,londra,trung quốc,hyde,0,0.38,0,0.36,0,0.3,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",wordsworth,rumi,đức phan,shakespeare,0,0.21,0,0.25,0,0.12,0,0.3,incorrect,incorrect,incorrect,incorrect
+"['bennet', 'miss bennet']",mr. darcy,arzu,nguyễn du,maría,0,0.2,0,0.0,0,0.27,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['bennet', 'miss bennet']",shakespeare,ben,tranh,madame,0,0.36,0,0.67,0,0.18,0,0.24,incorrect,incorrect,incorrect,incorrect
+['jane'],elizabeth,evren,thể thao,ella,0,0.31,0,0.22,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],jane,mümtaz,nguyễn hữu huân,maría,0,0.15,0,0.13,0,0.17,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bennet', 'miss bennet', 'jane']",emma,kimse,nguyễn du,carlos,0,0.25,0,0.44,0,0.31,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['charles', 'netherfield', 'charle']",walter scott,charles,charles,charles dickens,0,0.26,1,1.0,1,1.0,0,0.64,incorrect,correct,correct,incorrect
+"['elizabeth', 'elizabeth–']",shakespeare,mehmet akif i̇nan,đức,don quijote,0,0.3,0,0.24,0,0.0,0,0.1,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'darcy–']",shakespeare,i̇nsan,nguyễn du,marx,0,0.25,0,0.2,0,0.14,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'elizabeth–']",hamlet,hamlet,nguyễn du,hamlet,0,0.4,0,0.4,0,0.11,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['mr bennet', 'bennet']",father,kahvaltı,nguyễn,juan,0,0.25,0,0.14,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['charlotte lucas'],elizabeth,evimde,trần,maría,0,0.29,0,0.13,0,0.22,0,0.3,incorrect,incorrect,incorrect,incorrect
+"['mr collins', 'collins', 'collin', 'señor collins']",mr. darcy,yeğenim,đức,julio,0,0.42,0,0.33,0,0.22,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['mrs bennet', 'señora bennet––', 'bennet']",elizabeth bennet,emine,đức,madame,0,0.58,0,0.55,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mr bennet', 'bennet', 'bennet––']",shakespeare,ali,nhân,don quijote,0,0.24,0,0.0,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['mrs bennet', 'bennet', 'señora bennet']",woods,gözlerine,nguyễn du,ella,0,0.25,0,0.4,0,0.27,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['mrs philips', 'señora philips', 'philips']",walter scott,ali,việt,él,0,0.27,0,0.4,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['wickham––', 'wickham']",elizabeth bennet,recep tayyip erdoğan,nguyễn du,marqués de sade,0,0.17,0,0.15,0,0.0,0,0.09,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'mr darcy']",shakespeare,i̇sa,đức phật,unamuno,0,0.25,0,0.25,0,0.31,0,0.22,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],walter scott,muhammed,nguyễn du,podía,0,0.19,0,0.12,0,0.11,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'darc', 'wickham']",emma,emma,london,elizabeth bennet,0,0.25,0,0.25,0,0.2,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'mr darcy']",mr. darcy,ali,đức phật,voltaire,0,0.94,0,0.25,0,0.31,0,0.31,correct,incorrect,incorrect,incorrect
+"['catherine de bourgh', 'lady catherine de bourgh', 'catherine bourg']",wickfield,ali,phu,shakespeare,0,0.31,0,0.33,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['wickham––', 'wickham']",elizabeth bennet,atatürk,nguyễn thị,napoleón,0,0.17,0,0.14,0,0.12,0,0.13,incorrect,incorrect,incorrect,incorrect
+['jane'],shakespeare,"onları da çıkaralım, kişiler –onları da atatürk",chị,maría,0,0.27,0,0.08,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],shakespeare,verdi,ngoại châm,ortega,0,0.3,0,0.29,0,0.21,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['ngài william', 'william', 'sir william']",woolf,girmediğimiz,nguyễn du,alberto,0,0.33,0,0.43,0,0.31,0,0.21,incorrect,incorrect,incorrect,incorrect
+"['anh darcy', 'señor darcy', 'darcy', 'mr darcy']",johnson,muhammed,nguyễn du,maría,0,0.33,0,0.25,0,0.4,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['señor collins', 'collins', 'mr collins']",dear sir,anne,con,padre,0,0.38,0,0.22,0,0.6,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'cô elizabeth']",elizabeth bennet,elizabeth,elizabeth bennet,elizabeth bennet,0,0.72,1,1.0,0,0.72,0,0.72,correct,correct,correct,correct
+"['collins', 'mr collins']",altar,muhammed,trịnh,maría,0,0.29,0,0.2,0,0.4,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['de bourgh', 'de bourg', 'bourgh']",jane,ali,đức,julio césar,0,0.33,0,0.0,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'darc', 'mr darcy']",walter scott,i̇spanya,nguyễn du,maría,0,0.38,0,0.33,0,0.24,0,0.57,incorrect,incorrect,incorrect,incorrect
+['charles'],mr. collins,london,herfordshire,elizabeth bennet,0,0.33,0,0.15,0,0.32,0,0.17,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],long,lord,austen,elizabeth bennet,0,0.15,0,0.15,0,0.13,0,0.72,incorrect,incorrect,incorrect,correct
+['jane'],walter scott,muhammed,chúa,león,0,0.25,0,0.33,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'elizabeth–']",hamlet,avuntu,nguyễn du,américa,0,0.4,0,0.27,0,0.11,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['bingley', 'señor bingley', 'mr bingley']",shakespeare,rumi,nguyễn du,amor,0,0.38,0,0.33,0,0.38,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['lizz', 'lizzy']",walter scott,mehmet akif i̇nan,nguyễn du,juan,0,0.12,0,0.1,0,0.14,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['wi', 'mr wickham', 'wickham']",emma,hafta,nguyễn du,espero,0,0.33,0,0.33,0,0.11,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",emily,atatürk,thị,carlos,0,0.44,0,0.25,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],england,i̇stanbul,nguyễn hữu huân,américa,0,0.38,0,0.12,0,0.17,0,0.38,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],lizzy,elizabeth,darcy,lizzy,0,0.43,1,1.0,0,0.14,0,0.43,incorrect,correct,incorrect,incorrect
+['elizabeth'],elizabeth,anna,ngoại,juan,1,1.0,0,0.15,0,0.14,0,0.15,correct,incorrect,incorrect,incorrect
+"['maría', 'maria']",macbeth,ali,thị,maría,0,0.33,0,0.5,0,0.25,1,1.0,incorrect,incorrect,incorrect,correct
+['elizabeth'],jane,mehmet akif i̇nan,đình,américa,0,0.15,0,0.24,0,0.31,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['william––', 'william', 'sir william']",hamlet,ali,nguyễn du,madrid,0,0.31,0,0.4,0,0.1,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['catherine–', 'catherine', 'lady catherine']",mr. darcy,elizabeth,austen,marqués de bradomín,0,0.31,0,0.35,0,0.53,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['señor darcy', 'darcy', 'darc', 'mr darcy']",emily,ali,nguyễn du,conversar,0,0.31,0,0.29,0,0.4,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'darcy–']",beethoven,kadın,điêu,beethoven,0,0.0,0,0.2,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'elizabeth–']",mr. darcy,turkish,nguyễn du,nombre,0,0.11,0,0.25,0,0.11,0,0.13,incorrect,incorrect,incorrect,incorrect
+['darcy'],bennet,mr. bingley,elizabeth bennet,mr. bennet,0,0.0,0,0.25,0,0.1,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['bingley', 'mr bingley']",hamlet,i̇nsan,định,voltaire,0,0.38,0,0.33,0,0.36,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'mr darcy']",elizabeth,ağabeyi,trừ đỏ,conde,0,0.14,0,0.33,0,0.43,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",hamlet,özdemir,nguyễn hữu huân,napoleón,0,0.4,0,0.36,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'darc']",elizabeth,sevgi,đạo,amigo,0,0.15,0,0.0,0,0.57,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'mr darcy']",colonel,atatürk,wolverine,winston churchill,0,0.17,0,0.33,0,0.18,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['fitzwilliam', 'albay fitzwilliam']",elizabeth,mustafa kemal atatürk,đức,león,0,0.3,0,0.26,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['darcy'],frankenstein,muhammed,nguyễn du,don quijote,0,0.12,0,0.15,0,0.14,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['wickha', 'mr wickham', 'wickham']",elizabeth bennet,murat,nguyễn,y,0,0.18,0,0.57,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'lydia––']",elizabeth,yılmaz,việt tích,tiempo,0,0.43,0,0.36,0,0.14,0,0.18,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],charles dickens,sen,đúng,don quijote,0,0.25,0,0.17,0,0.0,0,0.1,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'elizabeth––']",hamlet,ben,nguyễn du,yorick,0,0.4,0,0.33,0,0.11,0,0.13,incorrect,incorrect,incorrect,incorrect
+['jane'],elizabeth,ali,nguyễn,emma,0,0.31,0,0.29,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",jane,abdullah,nguyễn du,don quijote,0,0.25,0,0.35,0,0.15,0,0.13,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],emma,müdür,nguyễn du,watteau,0,0.31,0,0.0,0,0.11,0,0.25,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],jane,osmanlı,elizabeth,verano,0,0.15,0,0.25,1,1.0,0,0.27,incorrect,incorrect,correct,incorrect
+"['darcy', 'mr darcy']",emily,murat,nguyễn du,lunes,0,0.31,0,0.57,0,0.24,0,0.0,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],emma,ali,nguyễn du,don quijote,0,0.31,0,0.33,0,0.11,0,0.1,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],wordsworth,muhammed,đức phật,don quijote,0,0.21,0,0.12,0,0.24,0,0.1,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],hamlet,sokrates,đảm,platón,0,0.4,0,0.12,0,0.17,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['mr bennet', 'bennet', 'señor bennet']",emma,gözüm,nguyễn du,hamlet,0,0.33,0,0.29,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],shakespeare,mayıs,nguyễn du,julio,0,0.3,0,0.14,0,0.11,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['lizz', 'lizzy']",shylock,dayım,đúng,don quijote,0,0.18,0,0.22,0,0.0,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'elizabeth––']",elizabeth,ev,trả lời,carlos,1,1.0,0,0.18,0,0.25,0,0.13,correct,incorrect,incorrect,incorrect
+"['mr bennet', 'bennet']",mr. bingley,mr. bennet,longbourn,longbourn,0,0.5,0,0.95,0,0.27,0,0.27,incorrect,correct,incorrect,incorrect
+"['bennet', 'bà benne', 'mrs']",jane,telaşlı,truyện kiều,madame,0,0.5,0,0.22,0,0.38,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['mrs bennet', 'bennet', 'señora bennet']",emma,murat,việt nam,napoleón,0,0.4,0,0.5,0,0.43,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['mrs bennet', 'bennet', 'señora bennet']",jane,evliya,ngọc,madre,0,0.4,0,0.33,0,0.4,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['mrs bennet', 'bennet', 'señora bennet']",elizabeth,hayal,nguyễn du,josé,0,0.45,0,0.18,0,0.27,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['anh darcy', 'darcy', 'mr darcy']",emma,mustafa kemal atatürk,nguyễn du,manuel,0,0.33,0,0.27,0,0.33,0,0.44,incorrect,incorrect,incorrect,incorrect

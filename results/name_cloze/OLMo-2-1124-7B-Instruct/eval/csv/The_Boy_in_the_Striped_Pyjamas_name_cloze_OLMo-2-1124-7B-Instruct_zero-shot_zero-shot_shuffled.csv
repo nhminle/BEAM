@@ -1,0 +1,101 @@
+Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,es_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['bruno'],he,aliye,thang tử,maría,0,0.0,0,0.0,0,0.15,0,0.2,incorrect,incorrect,incorrect,incorrect
+['gretel'],your father,baban,người chỉ,nos,0,0.24,0,0.0,0,0.13,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],oscar,birle,oskar,berlín,0,0.2,0,0.4,0,0.2,0,0.55,incorrect,incorrect,incorrect,incorrect
+['bruno'],smith,ayla,o khi,violin,0,0.0,0,0.0,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],she,evet,nguyễn đình thi,madre,0,0.0,0,0.0,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['maria', 'maría']",tom,ali,nguyễn đình thi,esperanza,0,0.25,0,0.5,0,0.1,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['maria', 'maría']",john,annem,anh em,carlos,0,0.0,0,0.2,0,0.18,0,0.36,incorrect,incorrect,incorrect,incorrect
+['bruno'],underwear,torban,ngôi sao,leonor,0,0.29,0,0.36,0,0.31,0,0.36,incorrect,incorrect,incorrect,incorrect
+['bruno'],monster,attila,nguyễn thành chung,seis,0,0.17,0,0.0,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,halil,ngôi rỗng uỵch,alfombra,0,0.0,0,0.0,0,0.21,0,0.31,incorrect,incorrect,incorrect,incorrect
+['gretel'],edna,ali,nguyễn đình thi,hermano,0,0.2,0,0.22,0,0.29,0,0.15,incorrect,incorrect,incorrect,incorrect
+['bruno'],john,omer,người thân em,berlín,0,0.22,0,0.22,0,0.22,0,0.55,incorrect,incorrect,incorrect,incorrect
+['gretel'],elizabeth,evin,hàng với,almendros,0,0.27,0,0.2,0,0.14,0,0.13,incorrect,incorrect,incorrect,incorrect
+['gretel'],emily,onun,nguyên mười,manuela,0,0.36,0,0.0,0,0.24,0,0.31,incorrect,incorrect,incorrect,incorrect
+['bruno'],john,ali,nguyễn thị hồng,don quijote,0,0.22,0,0.0,0,0.3,0,0.25,incorrect,incorrect,incorrect,incorrect
+['gretel'],them,aslan,nguyễn đình thi,abrió,0,0.2,0,0.18,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['bruno—', 'bruno']",john,i̇nek,ngựa bò,y,0,0.22,0,0.22,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gretel'],emma,ali,nguyễn đình thi,juan,0,0.2,0,0.22,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],john,ali,ngôi đình y,alambrada,0,0.22,0,0.0,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+['gretel'],john,osman,thái bá,estúpido,0,0.0,0,0.0,0,0.15,0,0.29,incorrect,incorrect,incorrect,incorrect
+['gretel'],emily,odama,trần thị hạnh,sevilla,0,0.36,0,0.0,0,0.21,0,0.31,incorrect,incorrect,incorrect,incorrect
+['bruno'],arthur,cesare,nguyễn đình thi,antonio,0,0.36,0,0.18,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+['bruno'],grandfather,büyükbaba,nguyễn đình thi,manuel,0,0.25,0,0.29,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],happy,berbat,khủng,gustarme,0,0.0,0,0.36,0,0.4,0,0.15,incorrect,incorrect,incorrect,incorrect
+['bruno'],she,osman,đặc,hermana,0,0.0,0,0.2,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['bruno'],her,sen,ngọc anh,de planeando,0,0.25,0,0.25,0,0.31,0,0.24,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,parma,nguyễn đình thi,el a,0,0.0,0,0.2,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],lieutenant,genç,nguyễn đình thi,don pepe,0,0.27,0,0.22,0,0.2,0,0.15,incorrect,incorrect,incorrect,incorrect
+['bruno'],john,adama,nguyễn đình thi,gritó,0,0.22,0,0.0,0,0.2,0,0.4,incorrect,incorrect,incorrect,incorrect
+['pavel'],john,ali,nguyễn đình thi,amable,0,0.0,0,0.5,0,0.1,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['pavel', 'pavel—']",john,yara,nguyễn đình hải,columpio,0,0.0,0,0.22,0,0.1,0,0.15,incorrect,incorrect,incorrect,incorrect
+['bruno'],the accident,gül,ngôi sao,alfonso,0,0.12,0,0.25,0,0.31,0,0.33,incorrect,incorrect,incorrect,incorrect
+['bruno'],doctor,yusuf,nghị tổng,eladio,0,0.18,0,0.2,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],doctor,aynı,nguyễn đình thi,medico,0,0.18,0,0.22,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],bottom,ali,nguyễn đình thi,doctor,0,0.36,0,0.0,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['pavel'],doctor,ali,từ,desde,0,0.0,0,0.5,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['bruno—', 'bruno']",berlin,berliner,berlin,aquiles,0,0.55,0,0.46,0,0.55,0,0.17,incorrect,incorrect,incorrect,incorrect
+['pavel'],john,çakmak,ngôi sao,zanahoria,0,0.0,0,0.18,0,0.15,0,0.14,incorrect,incorrect,incorrect,incorrect
+['bruno'],shakespeare,atlet,nguyễn phúc nguyên,aurora,0,0.12,0,0.0,0,0.17,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['liszt', 'herr liszt', 'herr liszt—', 'bay liszt']",grandmother,büyük,bà,abuela,0,0.4,0,0.5,0,0.8,0,0.44,incorrect,incorrect,correct,incorrect
+"['liszt', 'herr liszt', 'bay liszt']",snake,halit,tôi,don quijote,0,0.25,0,0.6,0,0.25,0,0.3,incorrect,incorrect,incorrect,incorrect
+['bruno'],john,ali,nguyễn đình thi,don quixote,0,0.22,0,0.0,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],marco polo,adam,nguyễn đình thi,restaurantes nada,0,0.27,0,0.0,0,0.2,0,0.27,incorrect,incorrect,incorrect,incorrect
+['bruno'],america,kâşifler,thường,cristóbal colón,0,0.17,0,0.15,0,0.36,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],boy,osman,nguyễn phú trọng,una,0,0.5,0,0.2,0,0.19,0,0.5,incorrect,incorrect,incorrect,incorrect
+['bruno'],heinkel,ali,nó,calvin,0,0.17,0,0.0,0,0.57,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],john,ali,tấm,carlos,0,0.22,0,0.0,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+['bruno'],john,ali,tên,llamas,0,0.22,0,0.0,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['shmuel'],april,dokuz,nguyễn du,nueve,0,0.18,0,0.18,0,0.27,0,0.36,incorrect,incorrect,incorrect,incorrect
+['bruno'],adolf,adolf,trần,alemania,0,0.2,0,0.2,0,0.44,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['“không', 'bruno']",french,kimsey,bruno,isabel,0,0.36,0,0.17,1,1.0,0,0.18,incorrect,incorrect,correct,incorrect
+['bruno'],john,hayat,nguyễn đình thi,lucía,0,0.22,0,0.0,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],marco,çoban mustafa,nguyễn đình thi,columbus,0,0.4,0,0.22,0,0.2,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['huy', 'bruno']",america,amerika,nguyễn đình thi,christopher,0,0.17,0,0.17,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['gretel'],hopeless sisters,erdoğan,người đàn ông,eran país,0,0.27,0,0.15,0,0.11,0,0.13,incorrect,incorrect,incorrect,incorrect
+['gretel'],french,ali,nguyễn thị huyền,carlos,0,0.33,0,0.22,0,0.36,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['brun', 'bruno']",your mother,ali,anh em,madre,0,0.25,0,0.0,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['bruno—', 'bruno']",my father,üniforması,trỏ,esperanza,0,0.14,0,0.4,0,0.5,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['padre', 'bruno']",john,ali,nguyễn đình thi,alejandro,0,0.22,0,0.25,0,0.2,0,0.43,incorrect,incorrect,incorrect,incorrect
+['shmuel'],john,artık,nguyễn du,madrid,0,0.2,0,0.0,0,0.27,0,0.17,incorrect,incorrect,incorrect,incorrect
+['bruno'],fred,fury,quốc,furias,0,0.22,0,0.22,0,0.44,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],joseph,biz,nguyễn hữu lẽ,berlín,0,0.18,0,0.25,0,0.22,0,0.55,incorrect,incorrect,incorrect,incorrect
+['shmuel'],mr. darcy,ali,thục điện,del tucumán,0,0.13,0,0.22,0,0.4,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['bruno—', 'bruno']",hotel,elveda,tây bắc,despina,0,0.2,0,0.0,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['bruno'],lord,ali,trần huệ tông,sevilla,0,0.22,0,0.0,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],edison,ortada,nguyễn đình thi,seville,0,0.18,0,0.18,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],elizabeth,halil,nhi,maría,0,0.14,0,0.0,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['maria', 'maría']",you,öğle,nguyễn đức hiếu,alfredo,0,0.0,0,0.0,0,0.1,0,0.33,incorrect,incorrect,incorrect,incorrect
+['bruno'],tim,ali,chị nguyễn thị huyền,caí,0,0.0,0,0.0,0,0.16,0,0.0,incorrect,incorrect,incorrect,incorrect
+['pavel'],life,ali,cả,porfiri,0,0.22,0,0.5,0,0.29,0,0.17,incorrect,incorrect,incorrect,incorrect
+['bruno'],john,kim,mat,señor,0,0.22,0,0.0,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['maria', 'maría']",john,geri,tớ,perdona,0,0.0,0,0.44,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['shmuel'],john,osman,ngô đình diệm,general,0,0.2,0,0.36,0,0.21,0,0.31,incorrect,incorrect,incorrect,incorrect
+['bruno'],john,ablan,ngọc anh,antonio,0,0.22,0,0.4,0,0.31,0,0.33,incorrect,incorrect,incorrect,incorrect
+['gretel'],ana,hayali,nguyễn đình thi,don quijote,0,0.0,0,0.17,0,0.29,0,0.24,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,ablai,trần quang khải,agustín,0,0.0,0,0.2,0,0.3,0,0.33,incorrect,incorrect,incorrect,incorrect
+['gretel'],imaginary,nuri,trần quang khải,don quixote,0,0.27,0,0.2,0,0.1,0,0.24,incorrect,incorrect,incorrect,incorrect
+['gretel'],emily,alay,nguyễn đình thi,don quijote,0,0.36,0,0.2,0,0.29,0,0.24,incorrect,incorrect,incorrect,incorrect
+['gretel'],john,ali,em,yo,0,0.0,0,0.22,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],emily,buğday,nguyễn đình thi,maría,0,0.0,0,0.36,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],jim,adama,nguyễn cao kỳ,islanda,0,0.0,0,0.0,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+['bruno'],john,ali,trần,el señor,0,0.22,0,0.0,0,0.44,0,0.31,incorrect,incorrect,incorrect,incorrect
+['bruno'],john,tasa,thịt,señorita,0,0.22,0,0.0,0,0.0,0,0.31,incorrect,incorrect,incorrect,incorrect
+['bruno'],john,çocuk,chú to,el pollo,0,0.22,0,0.2,0,0.36,0,0.15,incorrect,incorrect,incorrect,incorrect
+['bruno'],stadt,adolf,thể,berlín,0,0.0,0,0.2,0,0.0,0,0.55,incorrect,incorrect,incorrect,incorrect
+['gretel'],emma,ali,tóm,perdón,0,0.2,0,0.22,0,0.22,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['bruno', 'do thái']",jesus,david,bruno tretton,judíos,0,0.2,0,0.5,0,0.56,0,0.5,incorrect,incorrect,incorrect,incorrect
+['bruno'],joseph,yahudiler,ngọc hoàng,y,0,0.18,0,0.14,0,0.27,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],his own,göz,người đàn ông,carlos,0,0.17,0,0.25,0,0.33,0,0.36,incorrect,incorrect,incorrect,incorrect
+['bruno'],and,yaratıcı,trần quốc tuấn,juan,0,0.25,0,0.15,0,0.32,0,0.44,incorrect,incorrect,incorrect,incorrect
+['bruno'],pyjamas,osmanlılar,nguyễn đình thi,yago,0,0.0,0,0.13,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['shmuel'],john,umar,nguyễn đình thi,antonio,0,0.2,0,0.2,0,0.1,0,0.0,incorrect,incorrect,incorrect,incorrect
+['shmuel'],they,onlar,người khác,antonio,0,0.4,0,0.18,0,0.12,0,0.0,incorrect,incorrect,incorrect,incorrect
+['shmuel'],john,ali,nguyễn đình thi,en veremos eso ana,0,0.2,0,0.22,0,0.1,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['shmuel', 'shmuel—']",john,ali,trần,se,0,0.2,0,0.22,0,0.0,0,0.5,incorrect,incorrect,incorrect,incorrect
+['bruno'],charlie,ali,nguyễn đình thi,rayas,0,0.17,0,0.0,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],explorer,rezil,nguyễn đình thi,pero,0,0.15,0,0.2,0,0.2,0,0.44,incorrect,incorrect,incorrect,incorrect
+['bruno'],john,ama,thoạt,carlos,0,0.22,0,0.0,0,0.2,0,0.36,incorrect,incorrect,incorrect,incorrect
+['shmuel'],tom,osman,nghị,alambrada,0,0.22,0,0.36,0,0.2,0,0.13,incorrect,incorrect,incorrect,incorrect
+['bruno'],williams,bazıları,trần hưng đạo,barcelona,0,0.0,0,0.31,0,0.44,0,0.43,incorrect,incorrect,incorrect,incorrect

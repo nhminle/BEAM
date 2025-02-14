@@ -1,0 +1,55 @@
+Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,es_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['gatsby'],charles dickens,art,mùa ngoại,esteban,0,0.19,0,0.44,0,0.27,0,0.15,incorrect,incorrect,incorrect,incorrect
+['tom buchanan'],colonial,georgian,tòa mặt georgian,georgiano,0,0.25,0,0.3,0,0.43,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['tom', 'tom buchanan']",edith,i̇ncecik,phanh rồng,carlos,0,0.25,0,0.13,0,0.44,0,0.29,incorrect,incorrect,incorrect,incorrect
+['daisy'],miss prism,ali,người mặt,sebastián,0,0.27,0,0.5,0,0.14,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['miss baker', 'baker', 'bayan baker']",agnes,tam,nguyễn đình thi,agiles,0,0.4,0,0.29,0,0.23,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['baker', 'bayan baker']",miss grey,zayıftı,nguyễn thị lan,miss,0,0.14,0,0.33,0,0.32,0,0.0,incorrect,incorrect,incorrect,incorrect
+['daisy'],her,neşe,"có dài đi. là biết nó lại dài lại [mask] cho lỡ sao năm phải tuần đến đến? rồi búng trong thì trong mặt mọi đó qua sau ngày để ngón ai thắp phản nhưng ngày người cũng ""tại chúng nhất sẽ mong đối nhất trôi năm",el niño,0,0.0,0,0.22,0,0.01,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['tom', 'tom”']",brute,sen,daisy,sé,0,0.25,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['daisy'],"lovely i what and little some the girl. out [mask] feeling i velvet moved sedative asked turbulent thought shape, its face her hands so about her, would i her saw her emotions into dusk. be eyes that possessed her in as gradually questions took if",sakinleşme,hoàng tôi,maría,0,0.01,0,0.4,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+['tom'],ether,umar,em,la niña,0,0.25,0,0.29,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['ton buchanan', 'tom buchanan']",mississippi,her,làm ngang,guadalquivir,0,0.14,0,0.18,0,0.38,0,0.3,incorrect,incorrect,incorrect,incorrect
+['tom'],new york,emma,york,el,0,0.18,0,0.29,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['wilso', 'bayan wilson', 'mistress wilson', 'wilson']",airedale,airedale terriers,airedale,el blancas,0,0.38,0,0.34,0,0.38,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['bayan wilson', 'myrtle', 'mistress wilson', 'wilson']",west,edmund,park,gran park,0,0.4,0,0.19,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['catherine'],she,yakup,nguyễn đình thi,maría,0,0.33,0,0.14,0,0.25,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['mckee', 'bay mckee', 'mister mckee']",john,mendil,tôi,cogí,0,0.0,0,0.36,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jordan baker'],mr. hyde,zil,người đàn ông,había,0,0.3,0,0.0,0,0.42,0,0.4,incorrect,incorrect,incorrect,incorrect
+['jordan'],mr. toad,hafif,nguyễn khuyến,alonso,0,0.29,0,0.18,0,0.11,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['bay gatsby', 'gatsby']",chicago,osman,nguyễn đình thi,casi,0,0.24,0,0.25,0,0.24,0,0.4,incorrect,incorrect,incorrect,incorrect
+['jordan'],city,neyse,nguyễn đình thi,en,0,0.0,0,0.18,0,0.19,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['von hindenburg', 'van hindenburg']",me,genç iblis,nguyễn đình thi,primo,0,0.17,0,0.3,0,0.28,0,0.25,incorrect,incorrect,incorrect,incorrect
+['gatsby'],butler,atatürk,tấm cách,julio,0,0.17,0,0.31,0,0.14,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gatsby'],arthur,egg,west,john,0,0.33,0,0.22,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bayan wilson', 'mistress wilson', 'wilson']",roosevelt,küller roosevelt,tom buchanan,roosevelt,0,0.24,0,0.18,0,0.35,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['wolfsheim hỉnh', 'bay wolfsheim', 'wolfshiem']",john,garson,lúc mất,se,0,0.5,0,0.22,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+['daisy'],wild,ernest hemingway,york,york,0,0.22,0,0.19,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['daisy'],cannes,nisandayı,theresa,deauville,0,0.36,0,0.43,0,0.17,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['jordan', 'jordan baker', '“jordan baker']",victoria,manhattan,central park,victoria,0,0.43,0,0.29,0,0.42,0,0.43,incorrect,incorrect,incorrect,incorrect
+['daisy'],jonquil,bahçe,phú quốc,marbella,0,0.17,0,0.2,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['bay sloane', 'sloane', 'mister sloane']",miss bennet,ayla,người kia,isabel,0,0.5,0,0.57,0,0.27,0,0.5,incorrect,incorrect,incorrect,incorrect
+['tom'],arthur,ömer,nguyễn đình thi,osvaldo,0,0.22,0,0.57,0,0.11,0,0.2,incorrect,incorrect,incorrect,incorrect
+['daisy'],star,hala,trần nhật duật,así,0,0.22,0,0.22,0,0.21,0,0.5,incorrect,incorrect,incorrect,incorrect
+['daisy'],amelia,güneş,ngọc hoàng,maría,0,0.36,0,0.2,0,0.13,0,0.4,incorrect,incorrect,incorrect,incorrect
+['gatsby'],beach,ben,tôi,mar de plata,0,0.18,0,0.22,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['daisy'],he,sonrak,tom buchanan,amelia,0,0.0,0,0.18,0,0.12,0,0.36,incorrect,incorrect,incorrect,incorrect
+['gatsby'],they,oraya,anh,estación de tren,0,0.4,0,0.36,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+['gatsby'],john,ali,nguyễn đình thi,la paz,0,0.0,0,0.22,0,0.19,0,0.17,incorrect,incorrect,incorrect,incorrect
+['tom'],rebecca,yalçın,võ trường,soda,0,0.0,0,0.0,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+['tom'],earth,yani,tôi,el sol,0,0.25,0,0.0,0,0.67,0,0.22,incorrect,incorrect,incorrect,incorrect
+['gatsby'],christopher,boğaz,thuyền tôi,sal,0,0.12,0,0.36,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['jordan', 'jordan—']",central,oluyor,new york,york,0,0.31,0,0.33,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+['tom'],central park,park,nguyen,plaza,0,0.13,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['daisy'],chicago,chicago,em em,chicago,0,0.17,0,0.17,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['walter'],jersey,zidane,new jersey,jersey,0,0.33,0,0.33,0,0.38,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jordan'],station,özdemir,nguyễn đình thi,police,0,0.31,0,0.31,0,0.19,0,0.17,incorrect,incorrect,incorrect,incorrect
+['tom'],paul,bastırma,nguyễn đức đam,ronco,0,0.0,0,0.36,0,0.12,0,0.25,incorrect,incorrect,incorrect,incorrect
+['daisy'],new york,nedense,york,debió,0,0.15,0,0.33,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['george', 'georg']",tom,i̇sa,nghe,maría,0,0.25,0,0.0,0,0.44,0,0.2,incorrect,incorrect,incorrect,incorrect
+['gatsby'],bill,ardın,nguyễn đình thi,sevilla,0,0.2,0,0.18,0,0.19,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['meyer wolfsheim', 'meyer wolfshiem']",mr. bell,uşak,tên,john doe,0,0.31,0,0.15,0,0.25,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['gatz', 'bay gatz']",mr. hyde,nil,tôi lúc,orgullo,0,0.18,0,0.0,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['gatsby'],mr. smith,adnan,trần hưng đạo,desdén,0,0.13,0,0.18,0,0.21,0,0.17,incorrect,incorrect,incorrect,incorrect
+['gatsby'],edgar,ölüm,đông bắc,des,0,0.36,0,0.0,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jordan baker'],she,ali,thảo,víctor,0,0.25,0,0.25,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect

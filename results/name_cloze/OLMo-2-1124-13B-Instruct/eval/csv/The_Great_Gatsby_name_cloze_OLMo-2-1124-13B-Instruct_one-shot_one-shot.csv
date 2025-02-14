@@ -1,0 +1,55 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['gatsby'],jay gatsby,orhan pamuk,leonardo da vinci,stephen crane,0,0.75,0,0.12,0,0.09,0,0.11,correct,incorrect,incorrect,incorrect
+['tom buchanan'],tom buchanan,f. scott fitzgerald,jordan,jay gatsby,1,1.0,0,0.19,0,0.33,0,0.18,correct,incorrect,incorrect,incorrect
+"['tom', 'tom buchanan']",julian,madame de tourvel,janet,laurentia,0,0.43,0,0.21,0,0.31,0,0.24,incorrect,incorrect,incorrect,incorrect
+['daisy'],lucy honeychurch,marlene,phương,lucy,0,0.1,0,0.17,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['miss baker', 'baker', 'bayan baker']",miss howard,miss havisham,dr. mortimer,la señora rucastle,0,0.67,0,0.52,0,0.36,0,0.34,incorrect,incorrect,incorrect,incorrect
+"['baker', 'bayan baker']",miss bartlett,aslıhan,paris,maría jesús,0,0.33,0,0.5,0,0.4,0,0.36,incorrect,incorrect,incorrect,incorrect
+['daisy'],miss kilman,neşe,thomas edison,don jaime,0,0.25,0,0.22,0,0.33,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['tom', 'tom”']",unknown,i̇smet,tom buchanan,don quixote,0,0.2,0,0.25,0,0.4,0,0.14,incorrect,incorrect,incorrect,incorrect
+['daisy'],mrs. grose,i̇pek,phạm linh,beatriz,0,0.13,0,0.22,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['tom'],tom buchanan,god,anna,la madre,0,0.4,0,0.33,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['ton buchanan', 'tom buchanan']",myrtle,nezahat gökyokuş,agatha christie,don jaime,0,0.22,0,0.21,0,0.3,0,0.38,incorrect,incorrect,incorrect,incorrect
+['tom'],john reed,paris,philip,francisco franco,0,0.17,0,0.0,0,0.0,0,0.11,incorrect,incorrect,incorrect,incorrect
+"['wilso', 'bayan wilson', 'mistress wilson', 'wilson']",miss laura,jack,mrs. martha lloyd,mr. grimsdale,0,0.48,0,0.22,0,0.38,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['bayan wilson', 'myrtle', 'mistress wilson', 'wilson']",simon levett,john,anna,imelda marcos,0,0.33,0,0.4,0,0.44,0,0.32,incorrect,incorrect,incorrect,incorrect
+['catherine'],estelle,arlette,đỗ mạnh hải,laetitia,0,0.38,0,0.38,0,0.3,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['mckee', 'bay mckee', 'mister mckee']",colonel prothero,yunus emre,james,el sr. brown,0,0.29,0,0.42,0,0.43,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jordan baker'],countess olenska,i̇stanbul,phương,michael furey,0,0.18,0,0.3,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jordan'],the narrator,yusuf ziya öztürk,ông ta,el,0,0.22,0,0.17,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bay gatsby', 'gatsby']",james reese,richard j. daley,mcclain,mr. faloon,0,0.29,0,0.21,0,0.2,0,0.15,incorrect,incorrect,incorrect,incorrect
+['jordan'],lucille,i̇smet pasha,phạm văn đồnh,don diego,0,0.0,0,0.12,0,0.21,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['von hindenburg', 'van hindenburg']",john barleycorn,i̇brahim,phạm văn đồn,capitán alatriste,0,0.32,0,0.29,0,0.4,0,0.32,incorrect,incorrect,incorrect,incorrect
+['gatsby'],james gatsby,atatürk,nguyễn du,don benito pérez galdós,0,0.67,0,0.31,0,0.27,0,0.21,incorrect,incorrect,incorrect,incorrect
+['gatsby'],gatsby,f. scott fitzgerald,fitzgerald,gatsby,1,1.0,0,0.16,0,0.25,1,1.0,correct,incorrect,incorrect,correct
+"['bayan wilson', 'mistress wilson', 'wilson']",wilson,statue of liberty,fitzgerald,el puma,1,1.0,0,0.24,0,0.33,0,0.17,correct,incorrect,incorrect,incorrect
+"['wolfsheim hỉnh', 'bay wolfsheim', 'wolfshiem']",sammy,ali rıza bey,phạm văn đồnh,truman capote,0,0.5,0,0.29,0,0.37,0,0.31,incorrect,incorrect,incorrect,incorrect
+['daisy'],edith,woodrow wilson,agnes,edith wharton,0,0.4,0,0.32,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+['daisy'],edith,brigitte bardot,errol flynn,gertrude,0,0.4,0,0.1,0,0.12,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['jordan', 'jordan baker', '“jordan baker']",the narrator,edith wharton,harper lee,salvador dalí,0,0.24,0,0.22,0,0.4,0,0.42,incorrect,incorrect,incorrect,incorrect
+['daisy'],genevieve,malikanede,edmund,maría dolores,0,0.14,0,0.13,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['bay sloane', 'sloane', 'mister sloane']",tom,i̇stanbul,trần thị trúc,la contessina,0,0.22,0,0.48,0,0.32,0,0.35,incorrect,incorrect,incorrect,incorrect
+['tom'],w. c. fields,i̇brahim tatlıses,phạm văn toàn,elvis,0,0.0,0,0.11,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['daisy'],norman,yılmaz erdoğan,marlon brando,francisco umbral,0,0.18,0,0.21,0,0.11,0,0.29,incorrect,incorrect,incorrect,incorrect
+['daisy'],billie holiday,beethoven,đặng thế vinh,samuel,0,0.32,0,0.0,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['gatsby'],philip,i̇smet i̇nönü,trần long,carlos,0,0.0,0,0.12,0,0.13,0,0.33,incorrect,incorrect,incorrect,incorrect
+['daisy'],julia,orhan,fitzgerald,beatriz,0,0.2,0,0.2,0,0.13,0,0.33,incorrect,incorrect,incorrect,incorrect
+['gatsby'],paul,paris,phạm văn toàn,no respuesta,0,0.2,0,0.36,0,0.21,0,0.11,incorrect,incorrect,incorrect,incorrect
+['gatsby'],the narrator,charles bovary,ngọc ánh,el autor,0,0.22,0,0.4,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+['tom'],lucy,i̇pek,oliver twist,la niñera,0,0.0,0,0.0,0,0.13,0,0.0,incorrect,incorrect,incorrect,incorrect
+['tom'],arthur dent,i̇smet i̇nönü,neil degrasse tyson,elías,0,0.14,0,0.29,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gatsby'],philip's,adèle,thoreau,valdemar,0,0.14,0,0.18,0,0.15,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['jordan', 'jordan—']",andy,edna ferber,truman capote,robert de niro,0,0.4,0,0.12,0,0.32,0,0.4,incorrect,incorrect,incorrect,incorrect
+['tom'],sam spade,raymond hainer,donald trump,elías,0,0.17,0,0.12,0,0.27,0,0.0,incorrect,incorrect,incorrect,incorrect
+['daisy'],unnamed,norma,elizabeth,jack,0,0.17,0,0.2,0,0.14,0,0.22,incorrect,incorrect,incorrect,incorrect
+['walter'],julia,christie,myers,laurel,0,0.18,0,0.29,0,0.36,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jordan'],dr. watson,i̇stanbul,phạm văn đồng,me,0,0.25,0,0.29,0,0.21,0,0.0,incorrect,incorrect,incorrect,incorrect
+['tom'],philip,i̇smet i̇nönü,phạm văn đồng,"el autor no especifica el nombre del conductor, por lo tanto, no hay suficientes datos para determinar un nombre específico. en consecuencia, no se puede proporcionar un nombre adecuado para este caso.",0,0.0,0,0.29,0,0.12,0,0.0,incorrect,incorrect,incorrect,incorrect
+['daisy'],mrs. wilson,edna,phoebe,lauren,0,0.25,0,0.44,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['george', 'georg']",calpurnia,eliza,christ church,don tomás,0,0.14,0,0.2,0,0.11,0,0.14,incorrect,incorrect,incorrect,incorrect
+['gatsby'],mr. mace,charles lightoller,john,elvis,0,0.14,0,0.17,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['meyer wolfsheim', 'meyer wolfshiem']",mr. bigelow,uşak,john smith,walter neff,0,0.25,0,0.15,0,0.32,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['gatz', 'bay gatz']",mr. pickwick,marie antoinette,nguyễn đình chiểu,dr. chilton,0,0.1,0,0.33,0,0.16,0,0.21,incorrect,incorrect,incorrect,incorrect
+['gatsby'],winston churchill,lord byron,jack,carlos gardel,0,0.09,0,0.25,0,0.2,0,0.21,incorrect,incorrect,incorrect,incorrect
+['gatsby'],orwell,elif şafak,nguyễn văn thiệu,eliseo velázquez,0,0.0,0,0.12,0,0.27,0,0.09,incorrect,incorrect,incorrect,incorrect
+['jordan baker'],mrs. grose,leila,phạm văn đồnh,esteban,0,0.18,0,0.2,0,0.24,0,0.33,incorrect,incorrect,incorrect,incorrect

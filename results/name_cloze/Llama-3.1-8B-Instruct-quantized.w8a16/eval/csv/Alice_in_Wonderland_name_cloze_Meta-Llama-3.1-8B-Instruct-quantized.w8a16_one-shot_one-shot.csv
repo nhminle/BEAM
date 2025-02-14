@@ -1,0 +1,47 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['alice', 'alicia']",alice,alman,phương,aladino,1,1.0,0,0.55,0,0.0,0,0.5,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,arthur,magical,scarlett,1,1.0,0,0.18,0,0.33,0,0.46,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,ali,người ấy,alice,1,1.0,0,0.75,0,0.15,1,1.0,correct,correct,incorrect,correct
+"['alice', 'alicia']",alice,ben,aladdin,alice,1,1.0,0,0.25,0,0.5,1,1.0,correct,incorrect,incorrect,correct
+"['alice', 'alicia']",alice,doğru,nhung,la vida,1,1.0,0,0.0,0,0.0,0,0.46,correct,incorrect,incorrect,incorrect
+['dodo'],"mr. or possibly another title such as president or chairman, but most likely mr.",ömer,trump,robespierre,0,0.07,0,0.25,0,0.0,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,ödül,đi,robinson,1,1.0,0,0.22,0,0.29,0,0.15,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",emily,yüksü,pharaoh,don quijote,0,0.2,0,0.0,0,0.31,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,aladdin,alkohol,eliza,1,1.0,0,0.5,0,0.33,0,0.55,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",aladdin,aptal,ngọc,lucía,0,0.5,0,0.4,0,0.22,0,0.73,incorrect,incorrect,incorrect,correct
+"['alice', 'alicia']",alice,aladdin,giants,alícia,1,1.0,0,0.5,0,0.33,1,1.0,correct,incorrect,incorrect,correct
+"['alice', 'alicia']",susan,john,con,lucia,0,0.2,0,0.0,0,0.25,0,0.73,incorrect,incorrect,incorrect,correct
+"['alice', 'alicia']",sophie,lucifer,scarlett,david copperfield,0,0.36,0,0.5,0,0.46,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,pip,người,alrededor,1,1.0,0,0.25,0,0.2,0,0.43,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",elizabeth,hayvanlar,heidi,lucía,0,0.43,0,0.4,0,0.36,0,0.73,incorrect,incorrect,incorrect,correct
+"['alice', 'alicia']",alice,tırtıl,con,aladino,1,1.0,0,0.18,0,0.25,0,0.5,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,mantar,ngô,aladino,1,1.0,0,0.33,0,0.0,0,0.5,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",she,elif,nguyễn huy tưởng,heathcliff,0,0.25,0,0.44,0,0.1,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",jo,yumurta,jo,tom sawyer,0,0.0,0,0.17,0,0.0,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",elizabeth,ali,emily,don quijote,0,0.43,0,0.75,0,0.2,0,0.25,incorrect,correct,incorrect,incorrect
+"['alice', 'alicia']",she,mübarek,arthur,don quijote,0,0.25,0,0.33,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",wickfield,john,người,emma,0,0.43,0,0.0,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",susan,düşes,cheshire,susan,0,0.2,0,0.2,0,0.31,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",miss,galileo,earth,madame curie,0,0.22,0,0.67,0,0.2,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,aşçı,nữ công tước,eliza,1,1.0,0,0.6,0,0.12,0,0.55,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",lucy,deniz,đứa bé,una mujer,0,0.44,0,0.2,0,0.36,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",the mother,i̇nsan,thằng bé,ella,0,0.13,0,0.2,0,0.31,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",miss piggy,domuz,chú,winnie,0,0.25,0,0.0,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,yusuf,thỏ rừng,elizabeth,1,1.0,0,0.0,0,0.0,0,0.43,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,onur,đạt,eliza,1,1.0,0,0.0,0,0.25,0,0.55,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",gerda,özdemir,đỗ mạnh cường,clarissa,0,0.2,0,0.17,0,0.22,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alcott,adam,winnie,heathcliff,0,0.55,0,0.4,0,0.36,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,pinocchio,elizabeth,tom sawyer,1,1.0,0,0.4,0,0.43,0,0.27,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,alay,người,elizabeth,1,1.0,0,0.6,0,0.2,0,0.43,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,flora,đức chúa trời,don quijote,1,1.0,0,0.2,0,0.22,0,0.25,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,askerler,người,eliza,1,1.0,0,0.46,0,0.2,0,0.55,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",justice,herkes,wickfield,aristóteles,0,0.5,0,0.18,0,0.43,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",elizabeth,yolanda,phan,elizabeth,0,0.43,0,0.31,0,0.22,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",sam-i-am,ali,mù tạt,don quijote,0,0.43,0,0.75,0,0.18,0,0.25,incorrect,correct,incorrect,incorrect
+"['alice', 'alicia', 'alice ejder']",elizabeth,i̇sa,simba,don quijote,0,0.43,0,0.25,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",elizabeth,adam,phú,alfredo,0,0.43,0,0.4,0,0.0,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,istakoz,atlantis,crusoe,1,1.0,0,0.17,0,0.46,0,0.36,correct,incorrect,incorrect,incorrect
+"['alice', 'alic', 'alicia']",alice,pinocchio,đàn trâu,beatrix,1,1.0,0,0.4,0,0.29,0,0.36,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",winnie-the-pooh,mezgit,đen,don quijote,0,0.2,0,0.18,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,pinocchio,jane,elizabeth bennet,1,1.0,0,0.4,0,0.44,0,0.29,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",emily,alis,em,caroline,0,0.2,0,0.67,0,0.29,0,0.62,incorrect,incorrect,incorrect,incorrect

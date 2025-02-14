@@ -1,0 +1,47 @@
+Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,es_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['alice', 'alicia']",telescope,i̇smet,hoàng đức định,galileo galilei,0,0.43,0,0.4,0,0.21,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",dr. seuss,i̇smet özel,nguyễn du,no respuesta,0,0.14,0,0.13,0,0.14,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",queen of hearts,osman nuri topbaş,trần hưng đạo,winnie-the-pooh,0,0.1,0,0.26,0,0.21,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",me,i̇smet,phan thiết,crystallina,0,0.29,0,0.4,0,0.4,0,0.47,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",charlotte brontë,ali,phạm văn toàn,al,0,0.29,0,0.75,0,0.21,0,0.57,incorrect,correct,incorrect,incorrect
+['dodo'],john adams,atilla,nguyễn văn thiệu,francisco franco,0,0.14,0,0.0,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",marilla,şeker,nguyễn đình chiểu,confites,0,0.46,0,0.2,0,0.27,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",thimble,atatürk,giữ tight,calixto bieito,0,0.33,0,0.31,0,0.27,0,0.42,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,aslıhan,phan thiết,botellita de cristal,1,1.0,0,0.62,0,0.4,0,0.16,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",miss smith,amazon,trần hưng đạo,don quijote,0,0.25,0,0.33,0,0.21,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",marie antoinette,hayat adıgüzel,phạm văn đồng,no answer,0,0.29,0,0.21,0,0.21,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",an,aslan,chó,perro,0,0.29,0,0.55,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",tracy,atatürk,phóng viên,no respuesta directa en el texto,0,0.4,0,0.31,0,0.27,0,0.16,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",blades,atatürk,phóng,carlos,0,0.36,0,0.31,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",lucy,aslan,trang trạch,lauren,0,0.44,0,0.55,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",caterpillar,ali uslu,ngọc hoàng,unicornio,0,0.35,0,0.46,0,0.13,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,yusyuvarlak,phương,agatha,1,1.0,0,0.35,0,0.0,0,0.33,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",emily dickinson,yeşillikler,phô minh,no respuesta,0,0.38,0,0.38,0,0.15,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",no_name,çiğdem ubeydilmez,trung quốc,la pero,0,0.33,0,0.18,0,0.13,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",unknown,i̇smet i̇nönü,phạm duy,francisco de quevedo,0,0.0,0,0.25,0,0.15,0,0.32,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",way,ali sami yen,nguyễn du,lo sí,0,0.25,0,0.47,0,0.14,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",winnie-the-pooh,adnan menderes,thiên phúc,abrió una puerta,0,0.2,0,0.21,0,0.27,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",maru,ali rıza bey,minh hằng,carlos,0,0.22,0,0.56,0,0.14,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",earth,i̇lhami durmuş,trần hưng đạo,lo en sabe día,0,0.2,0,0.22,0,0.21,0,0.3,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",martha,ali rıza bey,ngọc hoa,maría,0,0.33,0,0.56,0,0.15,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",starfish,bebek,phạm văn đồnh,el mar,0,0.31,0,0.2,0,0.21,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",wilbur,doğrusu,phạm văn giai,francisco de quevedo,0,0.18,0,0.0,0,0.32,0,0.32,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",wilbur,şekerim,phạm duy khiêm,carlos,0,0.18,0,0.17,0,0.32,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",mr. end,yer masanın,phạm văn đồng,carlos,0,0.17,0,0.25,0,0.21,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",mad hatter,atatürk,nguyễn đình thi,don quijote,0,0.27,0,0.31,0,0.19,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,dedi,phạm văn đồng,creo que sin solución,1,1.0,0,0.22,0,0.21,0,0.22,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",virginia woolf,adalet tan,hoàng đức định,don quijote,0,0.3,0,0.4,0,0.21,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",mad hatter,şebnem paker,phạm duy khiêm,del cobre,0,0.27,0,0.24,0,0.32,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",queen of hearts,i̇smet,trang anh,francisco de quevedo,0,0.1,0,0.4,0,0.27,0,0.32,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",miss pross,i̇talya,nguyễn văn thiệu,guardia civil,0,0.13,0,0.5,0,0.29,0,0.42,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",beatrix potter,özdemir sabancı,phạm văn giang,el flamenco,0,0.32,0,0.29,0,0.3,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",wendy,atatürk,giải nghệ,perón,0,0.2,0,0.31,0,0.43,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",william bucknill,i̇smet i̇nönü,phương thảo,la granja,0,0.36,0,0.25,0,0.12,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",vegetable show,özcan deniz,thiên y vương,carlos,0,0.32,0,0.25,0,0.22,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia', 'alice ejder']",name,atatürk,trần hưng đạo,don quijote,0,0.44,0,0.31,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",unknown,atatürk,nguyễn du,don quixote,0,0.0,0,0.31,0,0.14,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",quadrille lobster dupont,osman sınav,nguyễn du,langosta,0,0.21,0,0.35,0,0.14,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alic', 'alicia']",turtle,yalancı,thỉnh,la tortuga,0,0.36,0,0.62,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",john,i̇brahim tatlıses,phạm duy,enrique gonzález martínez,0,0.0,0,0.38,0,0.15,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",curious george,abdülkadir selvi,trần thị trinh,al,0,0.21,0,0.38,0,0.3,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice in wonderland,ali sami yen,nguyễn du,,0,0.48,0,0.47,0,0.14,0,0.25,incorrect,incorrect,incorrect,incorrect

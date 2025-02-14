@@ -1,0 +1,49 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['caroline beaufort'],hester,hester,hester,hester,0,0.29,0,0.29,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],elizabeth,elizabeth,wendla,elisa,1,1.0,1,1.0,0,0.4,0,0.57,correct,correct,incorrect,incorrect
+"['krempe', 'thần hủy hoạ', 'señor krempe', 'm']",edgar,frankenstein,hester,hester,0,0.4,0,0.33,0,0.55,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['waldman', 'm', 'profesör waldman']",john,sevgili,mary shelley,juan,0,0.2,0,0.17,0,0.21,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['krempe', 'señor krempe', 'm']",arthur,[mask],tôi,hester,0,0.22,0,0.29,0,0.25,0,0.55,incorrect,incorrect,incorrect,incorrect
+['dante'],victor,hester,hester,william,0,0.18,0,0.36,0,0.36,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['frankenstein', 'clerval']",dearest,hester,hester,hester,0,0.42,0,0.44,0,0.44,0,0.44,incorrect,incorrect,incorrect,incorrect
+['clerval'],mary,hester,hester,querido,0,0.18,0,0.31,0,0.31,0,0.29,incorrect,incorrect,incorrect,incorrect
+['henry'],he,edward,vietnam,nabokov,0,0.57,0,0.36,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['clerval', 'querido clerval']",[mask],hester,geneva,[mask],0,0.15,0,0.31,0,0.46,0,0.15,incorrect,incorrect,incorrect,incorrect
+['henry'],percival,dostum,nguyen,[mask],0,0.31,0,0.0,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",mr. darcy,hester,nguyen,elena,0,0.13,0,0.33,0,0.17,0,0.55,incorrect,incorrect,incorrect,incorrect
+['clerval'],my,hester,emile,[mask],0,0.0,0,0.31,0,0.33,0,0.15,incorrect,incorrect,incorrect,incorrect
+['clerval'],phoebe,hester,nguyễn,john,0,0.15,0,0.31,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",hester,kız,hester,hester,0,0.33,0,0.0,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['william'],elizabeth,hester,hester,juan,0,0.38,0,0.0,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['justine'],hester,hester,hester,[mask],0,0.46,0,0.46,0,0.46,0,0.15,incorrect,incorrect,incorrect,incorrect
+['justine'],byron,[mask],nancy,claire,0,0.17,0,0.15,0,0.17,0,0.31,incorrect,incorrect,incorrect,incorrect
+['justine'],elizabeth,hester,hester,hester,0,0.12,0,0.46,0,0.46,0,0.46,incorrect,incorrect,incorrect,incorrect
+['justine'],their,çıplak,ngọc,juan,0,0.33,0,0.15,0,0.18,0,0.55,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],the arabian,hester,hester,[mask],0,0.3,0,0.27,0,0.27,0,0.13,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],[mask],hester,nguyen,elisa,0,0.13,0,0.27,0,0.13,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",old,koruyucu,hester,elder,0,0.25,0,0.0,0,0.18,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",[mask],kadın,mother,don,0,0.0,0,0.2,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",father,i̇htiyar,father,padre,0,0.36,0,0.17,0,0.36,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['de lacey', 'de lace']",man,[mask],hester,[mask],0,0.29,0,0.2,0,0.31,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['de lacey', 'de lacey—']",hester,hester,john,hester,0,0.29,0,0.29,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['de lacey'],wordsworth,i̇sviçre,thoreau,hester,0,0.17,0,0.33,0,0.27,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",mr. darcy,hester,scott,juan,0,0.0,0,0.18,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['henry'],arthur,elizabeth,hester,isabel,0,0.36,0,0.14,0,0.55,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['clerval', 'ren']",sir,hester,nguyen,el gobernador,0,0.33,0,0.31,0,0.44,0,0.4,incorrect,incorrect,incorrect,incorrect
+['henry'],john,john,tony,juan,0,0.44,0,0.44,0,0.44,0,0.22,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],john,adam,người dân,maría,0,0.15,0,0.15,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",dickens,hester,tan,el magistrado,0,0.31,0,0.25,0,0.22,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['daniel nugent', 'daniel nugen']",john,hester,bác sĩ,el [mask],0,0.22,0,0.33,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+['daniel'],father,hester,hester,juan,0,0.33,0,0.17,0,0.17,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['señor kirwin', 'mr kirwin', 'kirwin']",governor,hester,mother,el,0,0.62,0,0.55,0,0.5,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",lord,john,orkney,john,0,0.33,0,0.2,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",victor,frankenstein,goethe,victor,0,0.33,0,0.11,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['señor kirwin', 'mr kirwin', 'kirwin']",hester,hester,hester,hester,0,0.55,0,0.55,0,0.55,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",arthur,hester,hester,isabel,0,0.27,0,0.25,0,0.25,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['henry', 'henr']",charlotte,hester,hester,hester,0,0.31,0,0.6,0,0.6,0,0.6,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],lucifer,hester,hester,hester,0,0.12,0,0.27,0,0.27,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",hawthorne,hester,hester,hester,0,0.33,0,0.27,0,0.27,0,0.27,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],sister,[mask],chị,ana,0,0.13,0,0.13,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],captain,hester,hester,[mask],0,0.12,0,0.27,0,0.27,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['margaret', 'margare']",arthur,hester,hester,juan,0,0.46,0,0.15,0,0.15,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['margaret', 'margare']",hester,hester,hester,hester,0,0.15,0,0.15,0,0.15,0,0.15,incorrect,incorrect,incorrect,incorrect

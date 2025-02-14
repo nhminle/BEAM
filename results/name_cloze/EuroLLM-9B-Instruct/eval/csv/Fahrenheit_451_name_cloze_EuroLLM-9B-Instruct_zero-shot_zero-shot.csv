@@ -1,0 +1,61 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['montag'],the girl,kız,cô,adam,0,0.29,0,0.0,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],the house,ev,ngọn lửa,ev,0,0.13,0,0.0,0,0.43,0,0.0,incorrect,incorrect,incorrect,incorrect
+['montag'],sarah,kadın,ngọc,adam,0,0.18,0,0.18,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],mr. jenkins,kâtip,tôi,adı,0,0.24,0,0.18,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],nicholas,[mask],nguyễn,[mask],0,0.29,0,0.33,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],firehouse,i̇tfaiye merkezi,người,i̇tfaiye merkezi,0,0.13,0,0.1,0,0.18,0,0.1,incorrect,incorrect,incorrect,incorrect
+['montag'],the victim,kadın,người,kadın,0,0.12,0,0.18,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],the woman,kadın,bà,kadın,0,0.27,0,0.18,0,0.25,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],the narrator,eli,tay anh,eli,0,0.11,0,0.0,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['beatty—', 'beatty']",moses,yunus,bà,yunus,0,0.18,0,0.18,0,0.5,0,0.18,incorrect,incorrect,incorrect,incorrect
+['mildred'],"[mask] couldn't say. who was mad at whom? [mask] didn't quite know. what were they going to do? well, said [mask], wait around and see.","neydi bütün bunlar? [mask] söyleyemiyordu. kim kime kızgındı? [mask] da pek bilmiyordu. ne yapacaklardı? öyleyse, dedi [mask], etrafta bekle ve gör.","cái thứ này là gì vậy? [cái thứ này không biết]. ai điên với ai? [ai không biết]. chà, [cái thứ này không biết] nói, cứ chờ rồi sẽ biết.","neydi bütün bunlar? [mask] söyleyemiyordu. kim kime kızgındı? [mask] da pek bilmiyordu. ne yapacaklardı? öyleyse, dedi [mask], etrafta bekle ve gör.",0,0.08,0,0.09,0,0.07,0,0.09,incorrect,incorrect,incorrect,incorrect
+"['montag', 'mildred']",lena,kadın,cô,adam,0,0.4,0,0.18,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+['beatty'],captain,yüzbaşı,đội trưởng [mask] ngồi xuống cái ghế ngồi thoải mái nhất với vẻ bình thản trên khuôn mặt đỏ đắn. ông ta nhẩn nha nhồi cái tẩu bằng ,yüzbaşı,0,0.31,0,0.31,0,0.06,0,0.31,incorrect,incorrect,incorrect,incorrect
+['beatty'],jack,[mask],bảo đảm,[mask],0,0.2,0,0.17,0,0.31,0,0.17,incorrect,incorrect,incorrect,incorrect
+['montag'],mr. smith,beyzbol,ngọc,tony stark,0,0.27,0,0.15,0,0.2,0,0.5,incorrect,incorrect,incorrect,incorrect
+['mildred'],uncles,ali,bà cô bà dì,ali,0,0.31,0,0.2,0,0.11,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['faber', 'faber—']",[mask],[mask],anh,[mask],0,0.18,0,0.18,0,0.25,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],isaac newton,denham,denham,[mask],0,0.22,0,0.17,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],william,matbaa,ngọc,matbaa,0,0.15,0,0.5,0,0.2,0,0.5,incorrect,incorrect,incorrect,incorrect
+['montag'],civilization,atatürk,nguyễn,aileler,0,0.22,0,0.31,0,0.33,0,0.15,incorrect,incorrect,incorrect,incorrect
+['montag'],the narrator,kişi,tay,adam,0,0.11,0,0.0,0,0.44,0,0.2,incorrect,incorrect,incorrect,incorrect
+['faber'],the narrator,kemal,ngọc,küçük,0,0.24,0,0.2,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gloria'],jfk's husband,kocası,ngô,kocası,0,0.11,0,0.33,0,0.44,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['bowles', 'bayan bowles']",s. [mask],doktor,bác sĩ,doktor,0,0.19,0,0.17,0,0.44,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['bowles', 'bayan bowles']","s. [mask] tittered. “they'd just as soon kick as kiss me. thank god, i can kick back! “",çocuklar,tụi,çocuklar,0,0.12,0,0.29,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bayan phelps', 'phelps']",fireman,[mask],ngô quang hải,[mask],0,0.33,0,0.22,0,0.32,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['bayan phelps', 'phelps']",s. t. joshi,adam,ngọc,o,0,0.17,0,0.44,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['montag'],"the others in the middle of the desert watched her crying grow very loud as her face squeezed itself out of shape. they sat, not touching her, bewildered by her display. she sobbed uncontrollably. [mask] himself was stunned and shaken.","çölün ortasındaki diğerleri, onun ağlaması hızlanırken nasıl yüzünü buruşturup biçimini bozduğunu izlediler. ona ilişmeden, duygularını açığa vuruşuna şaşırarak, seyrettiler onu. kendini kontrol edemeyerek hıçkırdı. [mask] bile afallamış, sarsılmıştı.",bà,"çölün ortasındaki diğerleri, onun ağlaması hızlanırken nasıl yüzünü buruşturup biçimini bozduğunu izlediler. ona ilişmeden, duygularını açığa vuruşuna şaşırarak, seyrettiler onu. kendini kontrol edemeyerek hıçkırdı. [mask] bile afallamış, sarsılmıştı.",0,0.02,0,0.0,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bowles', 'bowles—', 'bayan bowles']",silly,[mask],người ta,[mask],0,0.2,0,0.22,0,0.15,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],the,allah,họ,allah,0,0.22,0,0.18,0,0.25,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],"the salamander boomed to a halt, throwing men off in slips and clumsy hops. [mask] stood fixing his raw eyes to the cold bright rail under his clenched fingers.",semender,ngọc,semender,0,0.07,0,0.29,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+['beatty'],snow,küçük aptal,hoa,küçük aptal,0,0.0,0,0.24,0,0.22,0,0.24,incorrect,incorrect,incorrect,incorrect
+['montag'],the narrator,küçük prens,nguyen,kafka,0,0.11,0,0.12,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],you,ahmet,anh,ali,0,0.22,0,0.36,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],fireman,[mask],ngọc,[mask],0,0.31,0,0.33,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],john,kral,nguyen,kral,0,0.4,0,0.2,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],the protagonist,kemal,người,kafka,0,0.38,0,0.36,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],the narrator,kemal,đà nẵng,kişi,0,0.11,0,0.36,0,0.46,0,0.0,incorrect,incorrect,incorrect,incorrect
+['montag'],the narrator,[mask],nam,adam,0,0.11,0,0.33,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],john,kara,ngọn,kara,0,0.4,0,0.2,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],the beetle,böcek,con bọ,böcek,0,0.12,0,0.18,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],beetle,yetmiş,trần,yetmiş,0,0.17,0,0.17,0,0.2,0,0.17,incorrect,incorrect,incorrect,incorrect
+['montag'],the narrator,kedi,nguyễn,kedi,0,0.11,0,0.0,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['montag'],they,[mask],người,[mask],0,0.2,0,0.33,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],he,kedi,nguyễn,kafka,0,0.0,0,0.0,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],unknown,[mask],ngọc,mehmet,0,0.31,0,0.33,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],the old man,i̇htiyar adam,người,i̇htiyar adam,0,0.24,0,0.11,0,0.18,0,0.11,incorrect,incorrect,incorrect,incorrect
+['montag'],he,oyuncu,nguyễn,oyuncu,0,0.0,0,0.33,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],the people he had worked with until a few short hours ago,güneş,đức,güneş,0,0.16,0,0.18,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['montag', 'montag tiến']",the men,adam,người,adam,0,0.55,0,0.2,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],john,yaşlı adamlar,ngọn lửa,adam,0,0.4,0,0.21,0,0.43,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],the man,misafir,nguyễn,misafir,0,0.31,0,0.31,0,0.33,0,0.31,incorrect,incorrect,incorrect,incorrect
+['montag'],you,[mask],tôi,[mask],0,0.22,0,0.33,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],new york,ankara,hà nội,kral,0,0.14,0,0.33,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['granger'],grandfather,dede,người ta,yaşar,0,0.67,0,0.18,0,0.27,0,0.17,incorrect,incorrect,incorrect,incorrect
+['granger'],wernher von braun,wernher von braun,v-2,wernher von braun,0,0.25,0,0.25,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['montag'],[mask],[mask],vietnam,[mask],0,0.33,0,0.33,0,0.15,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],the wind,adamlar,nhật,adamlar,0,0.14,0,0.31,0,0.4,0,0.31,incorrect,incorrect,incorrect,incorrect
+['granger'],john,kişi,nguyễn,kişi,0,0.18,0,0.0,0,0.46,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['granger', 'george—']",[mask],[mask],ngọc,[mask],0,0.15,0,0.15,0,0.36,0,0.15,incorrect,incorrect,incorrect,incorrect

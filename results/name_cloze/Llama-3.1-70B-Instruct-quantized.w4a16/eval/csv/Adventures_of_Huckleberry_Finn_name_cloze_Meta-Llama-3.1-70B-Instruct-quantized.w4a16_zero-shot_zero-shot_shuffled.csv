@@ -1,0 +1,101 @@
+Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,es_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['musa', 'moisés', 'moses']",god,hz. nuh,đức,rapé,0,0.25,0,0.18,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+['tom sawyer'],she,osman,nghe,orfeo,0,0.44,0,0.5,0,0.2,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['bayan watson', 'watson']",huckleberry,baykuş,nguyễn tuân,señorita,0,0.25,0,0.55,0,0.38,0,0.15,incorrect,incorrect,incorrect,incorrect
+['tom sawyer'],garfield,saatin,đức,edgar allan poe,0,0.29,0,0.33,0,0.0,0,0.19,incorrect,incorrect,incorrect,incorrect
+['tom'],harry,mağara,được,simón,0,0.0,0,0.22,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+['tom'],harry,haç,nguyễn trãi,la bestia,0,0.0,0,0.0,0,0.14,0,0.17,incorrect,incorrect,incorrect,incorrect
+['tom'],robinson crusoe,robin hood,đức,jack,0,0.11,0,0.15,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['tom sawyer'],highwaymen,saat,nguyễn,salteadores,0,0.38,0,0.4,0,0.33,0,0.47,incorrect,incorrect,incorrect,incorrect
+['tommy barnes'],robber,ali,cha,jesús,0,0.33,0,0.22,0,0.22,0,0.36,incorrect,incorrect,incorrect,incorrect
+['tom'],god,i̇sa,nguyễn,jesús,0,0.33,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bayan watson', 'watson']",miss watson,i̇ğne,cô,dios,0,0.71,0,0.22,0,0.25,0,0.2,correct,incorrect,incorrect,incorrect
+"['tow sawyer', 'tom sawyer']",aladdin,demir,đức,aladino,0,0.15,0,0.36,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['yargıç thatcher', 'thatcher']",god,annem,chốc lão,juez,0,0.22,0,0.31,0,0.26,0,0.17,incorrect,incorrect,incorrect,incorrect
+['jim'],god,ben,thế,vaquita,0,0.0,0,0.0,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['yargıç thatcher', 'tha', 'thatcher']",god,atatürk,ông,al capone,0,0.22,0,0.4,0,0.22,0,0.35,incorrect,incorrect,incorrect,incorrect
+['thatcher'],god,yargıç,lão,abraham,0,0.0,0,0.29,0,0.18,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['bayan watson', 'watson']",pap,aslına,thúy,maría,0,0.25,0,0.5,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+['tom sawyer'],mark twain,domuz,đất,hacha,0,0.25,0,0.5,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jim'],huckleberry,ben,thủy,él,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],nigger,karın,đào,simón,0,0.22,0,0.25,0,0.0,0,0.5,incorrect,incorrect,incorrect,incorrect
+['jim'],breakfast,çay,hắn,el,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],jesus,noah,đậu,padre,0,0.25,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],god,güneş,ông,hombre,0,0.0,0,0.0,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jim'],jim,peygamber,đông,yo,1,1.0,0,0.17,0,0.0,0,0.0,correct,incorrect,incorrect,incorrect
+"['bay bradish', 'misto bradish', 'bradish']",bank,banka,đông,señor,0,0.57,0,0.5,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+['jim'],missouri,illinois,illinois,illinois,0,0.18,0,0.18,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jim'],god,üstelik,đại,robinson crusoe,0,0.0,0,0.2,0,0.33,0,0.11,incorrect,incorrect,incorrect,incorrect
+['jim'],god,atatürk,đất,diós,0,0.0,0,0.0,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jim'],robinson crusoe,i̇sa,đảo,isla,0,0.11,0,0.33,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jim'],mississippi,michigan,illinois,cairo,0,0.14,0,0.18,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jim'],friday,cuma,thuốc,la llorona,0,0.22,0,0.29,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],huckleberry,babam,đèn,diablo,0,0.0,0,0.25,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jim'],mark twain,yalınayak,đất,muñeca,0,0.15,0,0.17,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jim'],tom,annem,thế,maría,0,0.33,0,0.25,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['abner moore'],uncle,kardeş,bà,madre,0,0.4,0,0.36,0,0.29,0,0.6,incorrect,incorrect,incorrect,incorrect
+['tom sawyer'],pap,ben,vân,padre,0,0.22,0,0.22,0,0.22,0,0.36,incorrect,incorrect,incorrect,incorrect
+['jim'],davy crockett,deniz,đất,moctezuma,0,0.0,0,0.25,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['jim'],god,i̇brahim,đức phật,noé,0,0.0,0,0.4,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],illinois,illinois,mississippi,illinois,0,0.18,0,0.18,0,0.14,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jim'],mark twain,robert falcon scott,đức,henry,0,0.15,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],god,şimşek,đào,capitán,0,0.0,0,0.44,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jim'],noah,ben,đức,ella,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],mississippi,şerif,nguyễn,capitán,0,0.14,0,0.25,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jim'],tom,kaptan,trời,estribor,0,0.33,0,0.0,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jim'],deck,bıçak,thế,yo,0,0.0,0,0.25,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim turner'],arkansas,yusuf,đức,linterna,0,0.29,0,0.18,0,0.22,0,0.44,incorrect,incorrect,incorrect,incorrect
+['jim'],huckleberry finn,ben,đến,odiseo,0,0.11,0,0.0,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['bayan hooker', 'hooker']",tom,atatürk,trời,señorita,0,0.22,0,0.33,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jim'],jim,odysseus,nguyễn tuân,caronte,1,1.0,0,0.0,0,0.0,0,0.0,correct,incorrect,incorrect,incorrect
+['jim'],tom,uyku,nguyễn,amazonas,0,0.33,0,0.0,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jim'],robinson crusoe,adam,đầu,ulises,0,0.11,0,0.29,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jim'],mark twain,atatürk,nguyễn du,estados unidos,0,0.15,0,0.0,0,0.0,0,0.12,incorrect,incorrect,incorrect,incorrect
+['jim'],he,rüya,đức,freud,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],tom,ben,chèo,yo,0,0.33,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['joh', 'john']",pap,atatürk,đồ,viruela,0,0.0,0,0.0,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],huckleberry,çarls,thầy,diós,0,0.0,0,0.0,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jim'],mark twain,florida,nguyễn,mark twain,0,0.15,0,0.2,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['cairo', 'jim']",mississippi,jim,jim,jim,0,0.14,1,1.0,1,1.0,1,1.0,incorrect,correct,correct,correct
+['buck'],tom,adam,đức,elvis,0,0.0,0,0.0,0,0.57,0,0.0,incorrect,incorrect,incorrect,incorrect
+['buck'],god,annenin,cha,padre,0,0.0,0,0.0,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['charlo', 'charlotte', 'bayan charlotte']",miss,yıl,cô bé,su madre,0,0.0,0,0.25,0,0.43,0,0.35,incorrect,incorrect,incorrect,incorrect
+['buck'],mark twain,benim,đức,esclavo,0,0.14,0,0.22,0,0.57,0,0.18,incorrect,incorrect,incorrect,incorrect
+['huck'],uncle,fığsat,được,diós,0,0.44,0,0.0,0,0.5,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['buc', 'buck']",chap,mustafa kemal,ngựâ,árbol,0,0.29,0,0.24,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jim'],mark twain,nil,nguyễn,amazonas,0,0.15,0,0.33,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jim'],shenandoah,salın,đồng,robinson crusoe,0,0.0,0,0.25,0,0.0,0,0.11,incorrect,incorrect,incorrect,incorrect
+['jim'],god,robinson crusoe,nguyễn,justo,0,0.0,0,0.11,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['bridgewater', 'bilgewater', 'aguassucias']",louis,henry,đào trọng,carlos ii de inglaterra,0,0.25,0,0.27,0,0.2,0,0.47,incorrect,incorrect,incorrect,incorrect
+['jim'],duke,wellington,covid-19,dios,0,0.0,0,0.15,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jim'],pap,yüce,đường,dios,0,0.0,0,0.0,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jim'],harriet, tanrı ,đức,cristóbal colón,0,0.2,0,0.25,0,0.0,0,0.11,incorrect,incorrect,incorrect,incorrect
+['jim'],jim,deniz,thủy,me,1,1.0,0,0.25,0,0.0,0,0.4,correct,incorrect,incorrect,incorrect
+['jim'],god,nöbet,dần,noé,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['richard iii', 'richard', 'ricardo iii']",king arthur,hamlet,áo,don quijote,0,0.33,0,0.31,0,0.44,0,0.36,incorrect,incorrect,incorrect,incorrect
+['jim'],duke,kral,anh,el duque,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],jim,altun,tất,esteban,1,1.0,0,0.0,0,0.0,0,0.0,correct,incorrect,incorrect,incorrect
+"['sherburn', 'albay sherburn', 'colonel sherburn']",buffalo bill,ömer seyfettin,thánh,coronel,0,0.35,0,0.4,0,0.31,0,0.86,incorrect,incorrect,incorrect,correct
+"['buck harne', 'buck harkness']",shoe,attila,đào,diós,0,0.44,0,0.18,0,0.25,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'lizabeth']",scarlett,annem,cha,scarlatina,0,0.38,0,0.31,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['bay peter wilks', 'peter wilks']",mr. darcy,ben,thầy,don quijote,0,0.33,0,0.33,0,0.57,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['willia', 'william']",job,tanrı,ông,dios,0,0.0,0,0.18,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['harvey'],englishman,doktor,nguyễn,robinson crusoe,0,0.25,0,0.17,0,0.17,0,0.19,incorrect,incorrect,incorrect,incorrect
+['susan'],queen,odysseus,hoàng,el médico,0,0.4,0,0.46,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mary jan', 'mary jane']",king,hamlet,thạch sanh,duque,0,0.29,0,0.4,0,0.44,0,0.22,incorrect,incorrect,incorrect,incorrect
+['mary jane'],god,mezar,trời,elisa,0,0.0,0,0.67,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['barley', 'bartley', 'bayan bartley']",widow,ev,đào,maría,0,0.0,0,0.25,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+['mary jane'],god,demet,nguyễn đình chiểu,dita,0,0.0,0,0.29,0,0.31,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['levi bell', 'levi ben']",henry,lincoln,louisville,henry,0,0.5,0,0.4,0,0.29,0,0.5,incorrect,incorrect,incorrect,incorrect
+['tim collins'],pint,pint,chính,yo,0,0.36,0,0.36,0,0.5,0,0.22,incorrect,incorrect,incorrect,incorrect
+['peter wilks'],god,kardeşim,đồng,dios,0,0.0,0,0.21,0,0.0,0,0.44,incorrect,incorrect,incorrect,incorrect
+['william'],mark twain,kardeşi,trạng quỳnh,hermano,0,0.24,0,0.14,0,0.11,0,0.14,incorrect,incorrect,incorrect,incorrect
+['hines'],christ,tabut,đinh,diós,0,0.55,0,0.0,0,0.44,0,0.44,incorrect,incorrect,incorrect,incorrect
+['tom'],mama,annem,chúa,jesús,0,0.29,0,0.25,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['saly', 'sally', 'aunt sally', 'sally teyze']",mark twain,vapur,đà nẵng,maría,0,0.29,0,0.44,0,0.36,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['bayan phelps', 'phelps', 'señora phelps']",mrs.,tanrı,nguyễn,al,0,0.2,0,0.4,0,0.36,0,0.29,incorrect,incorrect,incorrect,incorrect
+['tom'],he,çapa,thằng,agatha,0,0.0,0,0.0,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['tom'],god,ali,đất,áfrica,0,0.33,0,0.0,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['tom'],yard,şafak,thế,europa,0,0.0,0,0.0,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+['tom'],tom,ben,đào,manos,1,1.0,0,0.0,0,0.33,0,0.25,correct,incorrect,incorrect,incorrect
+"['saly', 'sally', 'aunt sally', 'sally teyze']",tom,masa,đèn,así,0,0.29,0,0.5,0,0.29,0,0.31,incorrect,incorrect,incorrect,incorrect

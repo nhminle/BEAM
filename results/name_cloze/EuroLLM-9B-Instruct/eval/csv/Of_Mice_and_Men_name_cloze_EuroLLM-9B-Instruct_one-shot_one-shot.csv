@@ -1,0 +1,49 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['george'],john,kaptan,tao,maría,0,0.2,0,0.0,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+['george'],name,hester,nguyen,juan,0,0.2,0,0.33,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lennie'],john,kişi,hester,juan,0,0.2,0,0.2,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lennie'],j. edgar hoover,hester,hester,lily,0,0.19,0,0.33,0,0.33,0,0.4,incorrect,incorrect,incorrect,incorrect
+['george'],john,hester,may,juan,0,0.2,0,0.33,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],john,hester,hester,juan,0,0.2,0,0.33,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lennie'],john,hester,chuột,juan,0,0.2,0,0.33,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['george', 'geroge']",tom,hester,hester,john,0,0.22,0,0.33,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['lenni', 'lennie']",uncle,hester,hester,juan,0,0.4,0,0.33,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+['george'],john,hey,nam,juan,0,0.2,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lennie'],john,"yatağını yapan [mask], işini bitirmek üzereyken, tahta mandal kalktı. eşikte kısa boylu, tıknaz bir adam duruyordu. ayağında mavi bezden bir pantalon, sırtında bir fanila gömlek, düğmeleri iliklenmemiş siyah bir yelek ve siyah bir ceket vardı. baş parmaklarını, dörtköşe çelik bir tokanın iki",nguyen,john,0,0.2,0,0.0,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['george'],john,şoför,nguyen,juan,0,0.2,0,0.36,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],joe,hester,hester,juan,0,0.22,0,0.33,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lenni', 'lennie']",john,adam,thao,juan,0,0.22,0,0.0,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['george'],tom,kadın,nguyen,juan,0,0.22,0,0.0,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],the,hester,hester,anaïs,0,0.22,0,0.33,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['george', 'george—']",john,hester,hester,juan,0,0.2,0,0.33,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lennie'],john,kahraman,hester,john,0,0.2,0,0.14,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['carlson'],he,kurt,luger,[mask],0,0.0,0,0.18,0,0.17,0,0.31,incorrect,incorrect,incorrect,incorrect
+['george'],gran'pa,hester,tao,john,0,0.31,0,0.33,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lennie'],tom,kurt,tôi,gato,0,0.0,0,0.0,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['candy'],john,hester,lão,hester,0,0.22,0,0.0,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],ol' people,hester,hester,john,0,0.38,0,0.33,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['candy'],uncle,hester,hester,[mask],0,0.2,0,0.0,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['carlson—', 'carlson']",john,hester,hester,don,0,0.36,0,0.15,0,0.15,0,0.4,incorrect,incorrect,incorrect,incorrect
+['crooks'],negro,zenci,hester,[mask],0,0.36,0,0.18,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['george'],john,john,name,juan,0,0.2,0,0.2,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['curley'],mrs. [mask],hester,mrs. white,maría,0,0.12,0,0.17,0,0.25,0,0.18,incorrect,incorrect,incorrect,incorrect
+['lennie'],john,john,hester,juan,0,0.2,0,0.2,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lennie'],the boy,köpek,hester,juan,0,0.15,0,0.18,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['george'],puppy,köpek,nguyen,[mask],0,0.0,0,0.18,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['curley'],nobody,kadın,nguyen,maría,0,0.17,0,0.0,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['lennie'],pup,hester,con chó,perro,0,0.0,0,0.33,0,0.15,0,0.18,incorrect,incorrect,incorrect,incorrect
+['lennie'],he,hester,hester,mujer,0,0.25,0,0.33,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['curley', 'vợ curley']",emily's,kadın,tia,john,0,0.31,0,0.0,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['curley', 'curle']",[mask]'s wife,çoban,hester,hester,0,0.11,0,0.2,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['curley'],hester,kadın,nguyen,hester,0,0.17,0,0.0,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+['george'],john,hester,hester,john,0,0.2,0,0.33,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['george'],hester,hester,hester,[mask],0,0.33,0,0.33,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],john,kadın,bác,juan,0,0.2,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],he,hester,nam,john,0,0.25,0,0.33,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lennie'],the heron,küçük yılan,con,elena,0,0.27,0,0.24,0,0.22,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['lennie im', 'lennie']","the name that fills the [mask] token in the passage is likely ""the narrator"" or ""the protagonist"", as the passage does not provide a specific proper name to fill the blank. however, if we consider the context, a more suitable choice could be ""the traveler"" or ""the man"", as the passage describes a person coming to the pool's edge and drinking from it. but, if we have to choose a proper name, the most likely answer",küçük,hester,juan,0,0.0,0,0.0,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['george'],rabbit,hester,bác,[mask],0,0.17,0,0.33,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],he,hester,hester,juan,0,0.25,0,0.33,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['george', 'george—']",tom,adam,dân cày,[mask],0,0.22,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lennie'],john,kral,"ngoan ngoãn, [mask] bỏ mũ ra và đặt xuống đất trước chỗ ngồi. trong thung lũng bóng chiều trở nên xẫm hơn, và màn đêm xuống nhanh. gió đem lại tiế",juan,0,0.2,0,0.2,0,0.08,0,0.2,incorrect,incorrect,incorrect,incorrect
+['george'],john,hester,hester,hester,0,0.2,0,0.33,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect

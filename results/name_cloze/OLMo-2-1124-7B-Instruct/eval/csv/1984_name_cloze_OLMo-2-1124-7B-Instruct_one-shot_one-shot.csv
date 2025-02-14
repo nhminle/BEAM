@@ -1,0 +1,61 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['winston smith'],winston,çin,ngôi nhà chiến thắng,charles,1,1.0,0,0.4,0,0.36,0,0.17,correct,incorrect,incorrect,incorrect
+['winston'],big brother,ali,nguyễn đình thi,don pedro,0,0.22,0,0.2,0,0.27,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['winston', 'wiston']",winston,kahrolsun,nguyễn,don pepe,1,1.0,0,0.27,0,0.31,0,0.29,correct,incorrect,incorrect,incorrect
+"['señora parsons', 'parsons', 'bayan parsons']",sam,evliya,nhà tôi,maría,0,0.44,0,0.36,0,0.38,0,0.4,incorrect,incorrect,incorrect,incorrect
+['tom'],arthur,ali,tom,carlos,0,0.22,0,0.0,1,1.0,0,0.22,incorrect,incorrect,correct,incorrect
+"['winston', 'eurasia']",big brother,arslan,big brother,hitler,0,0.22,0,0.31,0,0.22,0,0.31,incorrect,incorrect,incorrect,incorrect
+['winston'],winston,adalet,nguyễn đình thi,orwell,1,1.0,0,0.15,0,0.27,0,0.15,correct,incorrect,incorrect,incorrect
+"['winston', ""winston'ın"", 'winston’s']",winston,london,tommy,gran bretaña,1,1.0,0,0.38,0,0.33,0,0.32,correct,incorrect,incorrect,incorrect
+['winston'],colchester,colchester,colchester,elizabeth,0,0.24,0,0.24,0,0.24,0,0.25,incorrect,incorrect,incorrect,incorrect
+['winston'],mr. micawber,ali,nguyễn đình thi,don,0,0.11,0,0.2,0,0.27,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['smith', 'smit']",ministry of plenty,erdoğan,nguyễn đình thi,don fernando,0,0.27,0,0.0,0,0.3,0,0.0,incorrect,incorrect,incorrect,incorrect
+['winston'],smith,emma,phụ nữ,carrie,0,0.33,0,0.0,0,0.15,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['winston', 'winston’s']",stalin,stalin,chirac,stalin,0,0.31,0,0.31,0,0.15,0,0.31,incorrect,incorrect,incorrect,incorrect
+['winston'],victory,kahve kokusu,trần,victoria,0,0.43,0,0.11,0,0.18,0,0.4,incorrect,incorrect,incorrect,incorrect
+['winston'],winston,proleter,nguyễn đình hòa,el vapor,1,1.0,0,0.13,0,0.27,0,0.13,correct,incorrect,incorrect,incorrect
+['winston'],winston,paul,tôi,don quixote,1,1.0,0,0.0,0,0.4,0,0.22,correct,incorrect,incorrect,incorrect
+"['winston', 'winston—']",mr. thornton,londra,thống đốc,charles,0,0.42,0,0.31,0,0.38,0,0.14,incorrect,incorrect,incorrect,incorrect
+['winston'],mr. wickham,robespierre,mr. potter,don carlos,0,0.22,0,0.11,0,0.12,0,0.24,incorrect,incorrect,incorrect,incorrect
+['winston'],winston,ali,tự đức,julio,1,1.0,0,0.2,0,0.15,0,0.33,correct,incorrect,incorrect,incorrect
+['winston'],mr. scrooge,merab,phan đình tiệp,peru,0,0.22,0,0.0,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['winston'],winston,joe,mr.potter,smith,1,1.0,0,0.2,0,0.12,0,0.33,correct,incorrect,incorrect,incorrect
+['winston'],mr. squeers,holden,thorin,don jaime,0,0.11,0,0.15,0,0.31,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın"", 'winston’s']",blackie,ali,emily,don quijote,0,0.14,0,0.2,0,0.17,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'a"", 'winston.']",the aged prisoner,charlotte,nguyễn thị huyền,maría,0,0.33,0,0.12,0,0.17,0,0.29,incorrect,incorrect,incorrect,incorrect
+['winston'],esther,lily,emily,edward,0,0.31,0,0.18,0,0.17,0,0.15,incorrect,incorrect,incorrect,incorrect
+['winston'],wilton,ada,henry,don quijote,0,0.77,0,0.0,0,0.17,0,0.22,correct,incorrect,incorrect,incorrect
+"['julia—', 'julia']",harry,indiana,phoebe,don quijote,0,0.2,0,0.33,0,0.0,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['katherine', ""katharine'in"", 'katharine']",agnes,ali,nguyễn văn cừ,don pedro,0,0.43,0,0.33,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['julia', 'here’s']",mr. bodins,john,phoebe,edgar,0,0.25,0,0.22,0,0.5,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['julia—', 'julia']",scrooge,ali,thanh,don,0,0.0,0,0.5,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",mr. wickham,ali,nguyễn đình thi,carlos,0,0.22,0,0.2,0,0.18,0,0.15,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",mr. charrington,ernest,phoebe,thor,0,0.27,0,0.31,0,0.46,0,0.36,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",thornton,ali,phúc,jonás,0,0.4,0,0.2,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['huynh đệ', 'goldstein']",goldstein,düşünce polisi,goldstein,la hermandad,1,1.0,0,0.35,1,1.0,0,0.3,correct,incorrect,correct,incorrect
+"[""o'brien"", 'o’brien']",arthur,emma,nguyễn đình hòa,don,0,0.15,0,0.18,0,0.18,0,0.4,incorrect,incorrect,incorrect,incorrect
+['winston'],goldstein,ernest,nguyễn đình thi,ministerio,0,0.25,0,0.46,0,0.27,0,0.59,incorrect,incorrect,incorrect,incorrect
+['julia'],edith,edin,phương anh,elvis,0,0.2,0,0.22,0,0.27,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın""]",jack,yazid,phan,don quijote,0,0.0,0,0.17,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['smith', 'smit']",agnes,ali,trần,isabel,0,0.22,0,0.29,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+['parsons'],winston,adama,trung,orwell,0,0.43,0,0.17,0,0.33,0,0.15,incorrect,incorrect,incorrect,incorrect
+['parsons'],mr. collins,aliye,emilia,isabel,0,0.44,0,0.17,0,0.15,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'i""]",john,paul,phan,roberto,0,0.18,0,0.0,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",thorin,ali,nguyễn đình hải,don,0,0.62,0,0.2,0,0.18,0,0.4,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",winston,dr. ries,phoebe,dracula,0,0.29,0,0.4,0,0.46,0,0.14,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",arthur,mr. smith,tim,carlos,0,0.15,0,0.25,0,0.2,0,0.15,incorrect,incorrect,incorrect,incorrect
+['winston'],wittgenstein,isaac,tom,marceau,0,0.63,0,0.33,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+['winston'],john,john,tim,john,0,0.18,0,0.18,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['winston', ""o 'brien"", ""o'brien'ın"", 'o’brien']",meursault,ali,phoebe,don quijote,0,0.25,0,0.22,0,0.46,0,0.42,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",dr. klein,hal,nguyễn đình thi,bill,0,0.38,0,0.0,0,0.18,0,0.36,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",wanda,evren,phoebe,platon,0,0.17,0,0.5,0,0.46,0,0.31,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",christ,dracula,thor,valjean,0,0.31,0,0.14,0,0.36,0,0.29,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",warder,ali,tom,don,0,0.31,0,0.2,0,0.2,0,0.4,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",walter,gökböri,phong,john,0,0.15,0,0.57,0,0.33,0,0.36,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",dr. watson,ömer,nguyễn đình thi,la muerte,0,0.24,0,0.36,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'a""]",winston,çengiz,tom,don quijote,1,1.0,0,0.15,0,0.4,0,0.22,correct,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",willard,ömer,nguyễn đình chiểu,don diego,0,0.14,0,0.36,0,0.17,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın"", 'tim winston', 'winston’s']",winston,partin,goldstein,washington,1,1.0,0,0.44,0,0.33,0,0.71,correct,incorrect,incorrect,correct
+['winston'],big brother,osman,nguyễn đình thi,kim,0,0.22,0,0.17,0,0.27,0,0.2,incorrect,incorrect,incorrect,incorrect
+['winston'],arthur,emine,trong,isabel,0,0.15,0,0.33,0,0.5,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['winston', 'winston,']",winston,sevgi,trần nhật duật,valentino,1,1.0,0,0.17,0,0.19,0,0.38,correct,incorrect,incorrect,incorrect

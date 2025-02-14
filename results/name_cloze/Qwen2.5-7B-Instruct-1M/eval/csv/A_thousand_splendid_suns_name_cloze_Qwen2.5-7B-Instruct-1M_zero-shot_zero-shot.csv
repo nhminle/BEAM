@@ -1,0 +1,48 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['jalil', 'yalil', 'celil']",name,name,mẹ,familia,0,0.22,0,0.22,0,0.29,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['mariam jo', 'mariam', 'meryem co']",you,"sana gelince, [mask], hiç acele etmedin kızını!",con,tú,0,0.4,0,0.21,0,0.8,0,0.0,incorrect,incorrect,correct,incorrect
+"['faizulá', 'faizu', 'molla feyzullah', 'mullah faizullah']",he,maskara,giáo sĩ thầy,ulema,0,0.25,0,0.35,0,0.32,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['mil', 'jalil', 'yalil', 'celil']",she,zeynep,vietnam,mexico,0,0.25,0,0.18,0,0.2,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['lili lili', 'lili', 'lili mi']",minnow,mırnav,con cá tuế,minnow,0,0.5,0,0.5,0,0.12,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['mariam jo', 'mariam', 'meryem co']",mother,anne,máy chiếu,tu madre,0,0.5,0,0.2,0,0.44,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['meryem gari', 'mariam']",they,meryem,họ,gente,0,0.4,1,1.0,0,0.0,0,0.36,incorrect,correct,incorrect,incorrect
+"['celil han', 'chính jalil khan', 'jalil khan', 'yalil jan']",someone,adam,jalil khan,el chófer,0,0.25,0,0.31,1,1.0,0,0.44,incorrect,incorrect,correct,incorrect
+['nana'],mother,annesi,mẹ,madre,0,0.0,0,0.4,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['mariam jo', 'mariam', 'meryem co']",him,benimle,con,tú,0,0.22,0,0.31,0,0.8,0,0.0,incorrect,incorrect,correct,incorrect
+"['bibi', 'bibi co', 'bibi jo']",jane,i̇şte adı,bà,ellas,0,0.33,0,0.33,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['nergis', 'nargis']",he,dahası,"còn gì nữa nào,",continuó,0,0.25,0,0.33,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['jalil', 'yalil', 'celil']",he,hindu,ông ta,el hombre,0,0.29,0,0.2,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",he,fotoğraf,ông,él,0,0.44,0,0.31,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",he,zeynep,ông ta,"encontró a juan en el cobertizo de las herramientas, claveteando una tabla de madera. cuando la vio, juan se quitó un clavo de la comisura de la boca.",0,0.44,0,0.31,0,0.18,0,0.08,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",jane,zeynep,nhân,ella,0,0.36,0,0.31,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",jan,[mask],chúng ta,yan,0,0.25,0,0.18,0,0.15,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['peştun', 'tariq']",he,tarık,chính người,sólo,0,0.25,0,0.8,0,0.12,0,0.2,incorrect,correct,incorrect,incorrect
+['alyona'],the captain,baba,thuyền phó,el primer oficial,0,0.24,0,0.4,0,0.25,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'tariq']",she,olur,nàng,[mask],0,0.0,0,0.22,0,0.22,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['abdül şerif', 'abdul sharif']",he,hemşire,y tá,peshawar,0,0.29,0,0.33,0,0.22,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['meryem', 'mariam']",she,gerçek,cô,ella,0,0.22,0,0.5,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",you,benz,còn em,tú,0,0.0,0,0.18,0,0.15,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'tariq']",him,ama,anh,juan,0,0.25,0,0.25,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",jane,onun,nhân vật chính,alguien,0,0.22,0,0.0,0,0.21,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",jane,zeynel,những kẻ tội lỗi,ellas,0,0.22,0,0.55,0,0.19,0,0.6,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",he,çatışmalar,"trong suốt một tuần, cuộc giao chiến buộc cả [mask] cũng phải ở nhà. ông ta khóa cửa ra sân, cài những cái bẫy, khóa cả cửa trước và dùng đi văng chặn lại. ông ta đi lại trong nhà, hút thuốc, nhìn ra ngoài cửa sổ, lau súng và lên đạn hết lần này đến lần khác. hai lần ông ta nổ súng ra đường, cho rằng có kẻ nào đó đang cố",los combates,0,0.44,0,0.13,0,0.0,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['meryem', 'mariam']",she,kabil,cô,ella,0,0.22,0,0.36,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['mariam hiểu', 'meryem', 'mariam']",she,kadın,cô,ella,0,0.57,0,0.36,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",someone,taliban,taliban,un conocido,0,0.43,0,0.33,0,0.33,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",she,[mask],người nói,[mask],0,0.6,0,0.36,0,0.14,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",they,rüzgâr,ông ta,un hombre,0,0.36,0,0.36,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['jalil', 'yalil', 'celil']",she,zarif,người đó,él,0,0.25,0,0.4,0,0.15,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['zalmay', 'zalmai']",he,meryem,nó,ella,0,0.0,0,0.33,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",mother,zuhal,nó,ella,0,0.18,0,0.2,0,0.0,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'iariq', 'tariq']",he,adam,người kể,el hombre,0,0.0,0,0.22,0,0.31,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'tariq']",he,peşaver,anh,su madre,0,0.0,0,0.33,0,0.25,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'tariq']",young men,kazılacak kanallar,thanh niên lành lặn khỏe mạnh,el tendero,0,0.0,0,0.17,0,0.24,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['zalmay', 'zalmai', 'zalma']",the little boy,陌生人,bố nó,él,0,0.2,0,0.12,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila', 'lail']",jane,zeynep,nàng,marta,0,0.25,0,0.36,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",she,demek,cô,[mask],0,0.25,0,0.2,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['meryem', 'mariam']",jane doe,zengin adam,hàm ninh,ella,0,0.29,0,0.35,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",she,tarık,cô,el hombre,0,0.25,0,0.4,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['hamza', 'hamza uzunca']",he,birisi,ông,el narrador,0,0.29,0,0.0,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['celil han', 'jalil khan', 'yalil jan']",name,meryem,người đàn ông,mi padre,0,0.29,0,0.18,0,0.36,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['laila', 'leyla co']",kolba,leyla,nàng,alguien,0,0.4,1,1.0,0,0.22,0,0.33,incorrect,correct,incorrect,incorrect
+"['leyla', 'laila']",she,bir hanım,cô,la,0,0.25,0,0.29,0,0.0,0,0.57,incorrect,incorrect,incorrect,incorrect

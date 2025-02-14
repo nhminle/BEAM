@@ -1,0 +1,49 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['caroline beaufort'],she,annesi,người con gái,ella,0,0.18,0,0.43,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],elizabeth,annem,victor,elizabeth,1,1.0,0,0.14,0,0.27,1,1.0,correct,incorrect,incorrect,correct
+"['krempe', 'thần hủy hoạ', 'señor krempe', 'm']",dante,hiç kimsenin,frankenstein,dios,0,0.44,0,0.35,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['waldman', 'm', 'profesör waldman']",friend,öğrencim,victor,amigo,0,0.29,0,0.25,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['krempe', 'señor krempe', 'm']",victor,bayım,anh,mi madre,0,0.36,0,0.33,0,0.25,0,0.3,incorrect,incorrect,incorrect,incorrect
+['dante'],victor frankenstein,dostum,victor,robert walton,0,0.33,0,0.36,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['frankenstein', 'clerval']",elizabeth,arkadaşım,thương,jesús,0,0.29,0,0.38,0,0.11,0,0.24,incorrect,incorrect,incorrect,incorrect
+['clerval'],elizabeth,ömer,anh,josé,0,0.25,0,0.36,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['henry'],byron,arkadaşım,anh,lord byron,0,0.2,0,0.14,0,0.25,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['clerval', 'querido clerval']",elizabeth,cenevre,anh,mi hijo,0,0.25,0,0.43,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+['henry'],henry clerval,doğa,thiên nhiên,mi amigo,0,0.56,0,0.0,0,0.38,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",victor,arkadaşım,người ấy,alguien,0,0.33,0,0.27,0,0.14,0,0.31,incorrect,incorrect,incorrect,incorrect
+['clerval'],william,william,william,william,0,0.29,0,0.29,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+['clerval'],william,şirin,em,marta,0,0.29,0,0.17,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",elizabeth,kız,nobody,mariana,0,0.27,0,0.0,0,0.0,0,0.31,incorrect,incorrect,incorrect,incorrect
+['william'],elizabeth,reşat nuri,nguyễn,jesús,0,0.38,0,0.12,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['justine'],elizabeth,ben,victor frankenstein,victor frankenstein,0,0.12,0,0.2,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+['justine'],elizabeth,elizabeth,elizabeth,elizabeth,0,0.12,0,0.12,0,0.12,0,0.12,incorrect,incorrect,incorrect,incorrect
+['justine'],elizabeth,annem,mẹ,mi madre,0,0.12,0,0.33,0,0.22,0,0.27,incorrect,incorrect,incorrect,incorrect
+['justine'],spring,bahar,mùa xuân,la primavera,0,0.46,0,0.0,0,0.27,0,0.21,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],agatha,hz. muhammed,chúa,alguien,0,0.4,0,0.1,0,0.15,0,0.12,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],the merchant,tüccar,edmond dantès,el mercader,0,0.19,0,0.13,0,0.27,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",de lacey,de lacey,già,de lacey,0,0.31,0,0.31,0,0.25,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",god,anneci,người đàn ông mù,tómas,0,0.0,0,0.36,0,0.1,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",de lacey,babayı,ông già,señor,0,0.31,0,0.18,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['de lacey', 'de lace']",monster,ödipus,victor,mi hermano,0,0.22,0,0.25,0,0.2,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['de lacey', 'de lacey—']",william,şeyh galib,anh,juan,0,0.33,0,0.27,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['de lacey'],byron,i̇talya,người bạn,byron,0,0.2,0,0.36,0,0.24,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",william,byron,phương,robert,0,0.33,0,0.0,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['henry'],elizabeth,aşkım,người yêu,esposa,0,0.14,0,0.0,0,0.14,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['clerval', 'ren']",sir,polis,cảnh sát,juez,0,0.33,0,0.17,0,0.27,0,0.29,incorrect,incorrect,incorrect,incorrect
+['henry'],the son,oğul,anh trai,el hijo,0,0.5,0,0.0,0,0.31,0,0.17,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],someone,karısı,người đàn bà,alguien,0,0.25,0,0.13,0,0.29,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",the magistrate,"agatha christie'nin ünlü karakteri hercule poirot ya da sherlock holmes gibi bir karakter olabilir, ancak metinde verilen ipuçlarından yola çıkarak, en olası isim olarak ""sherlock holmes"" düşünülebilir.",nguyễn,magistrado,0,0.25,0,0.0,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['daniel nugent', 'daniel nugen']",god,cellat,chính,alcalde,0,0.25,0,0.33,0,0.2,0,0.31,incorrect,incorrect,incorrect,incorrect
+['daniel'],elizabeth,tanrının,người thân,jesús,0,0.27,0,0.43,0,0.25,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['señor kirwin', 'mr kirwin', 'kirwin']",god,ömer,người ấy,juez,0,0.25,0,0.67,0,0.31,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",godwin,avukat,victor frankenstein,abogado,0,0.5,0,0.17,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",elizabeth,victor,elizabeth,elizabeth,0,0.27,0,0.33,0,0.27,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['señor kirwin', 'mr kirwin', 'kirwin']",elizabeth,ömer,emily,europa,0,0.19,0,0.67,0,0.29,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",elizabeth,annem,người yêu,mi esposa,0,0.13,0,0.29,0,0.13,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['henry', 'henr']",emily,arkadaşım,người yêu,shakespeare,0,0.4,0,0.15,0,0.15,0,0.4,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],god,tanrım,thượng đế,dios,0,0.0,0,0.13,0,0.22,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",victor,edgar allan poe,chị,amigo,0,0.27,0,0.33,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],elizabeth,kardeşim,chị,hermana,1,1.0,0,0.24,0,0.17,0,0.25,correct,incorrect,incorrect,incorrect
+['elizabeth'],victor frankenstein,altıncı,chúa,victor frankenstein,0,0.14,0,0.25,0,0.15,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['margaret', 'margare']",elizabeth,"someone's name is not explicitly mentioned in the passage, but based on the context, i'm going to take a guess that the name could be a person who has been wronged or harmed in some way, possibly someone close to the speaker. a common name in turkish culture is ""ali"", but without more context, it's difficult to determine the correct name. however, i will provide a guess.",chúng ta,jesús,0,0.35,0,0.0,0,0.13,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['margaret', 'margare']",clara,victor,victor,agatha,0,0.5,0,0.15,0,0.15,0,0.57,incorrect,incorrect,incorrect,incorrect

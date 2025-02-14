@@ -1,0 +1,49 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['george'],he,sırrı,người đó,juan,0,0.25,0,0.18,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],sir,cart,anh,persona,0,0.22,0,0.2,0,0.0,0,0.31,incorrect,incorrect,incorrect,incorrect
+['lennie'],he,ben,personx,persona,0,0.25,0,0.44,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+['lennie'],danny,kendi kendine,hester,someone,0,0.36,0,0.53,0,0.33,0,0.46,incorrect,incorrect,incorrect,incorrect
+['george'],run us out,maskat,tống cổ,rafael,0,0.12,0,0.0,0,0.31,0,0.17,incorrect,incorrect,incorrect,incorrect
+['george'],swell,hepsi,người đó,el personaje,0,0.18,0,0.18,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['lennie'],he,ayşe,nó,eludió,0,0.25,0,0.2,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['george', 'geroge']",we,ve,bọn họ,alguien,0,0.25,0,0.25,0,0.17,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['lenni', 'lennie']",you,mask,nguyễn,juan,0,0.0,0,0.0,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+['george'],he,silke,người đó,person,0,0.25,0,0.18,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['lennie'],he,yatağını yapan,người đó,alguien,0,0.25,0,0.2,0,0.29,0,0.46,incorrect,incorrect,incorrect,incorrect
+['george'],he,baş,người đó,el conductor,0,0.25,0,0.0,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['george'],broke,ses,nhân,alguien,0,0.18,0,0.22,0,0.0,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['lenni', 'lennie']",friend,ben,tao,amigo,0,0.36,0,0.5,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['george'],he,yandaki çeşme,nó,someone,0,0.25,0,0.21,0,0.25,0,0.46,incorrect,incorrect,incorrect,incorrect
+['george'],he,zeynep,người ấy,juan,0,0.25,0,0.33,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['george', 'george—']",iain,aile,người nói,yo,0,0.0,0,0.2,0,0.27,0,0.25,incorrect,incorrect,incorrect,incorrect
+['lennie'],he,zeynep,cheshire,juan,0,0.25,0,0.5,0,0.43,0,0.2,incorrect,incorrect,incorrect,incorrect
+['carlson'],he,beklemek,người nói,juan,0,0.0,0,0.13,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+['george'],his,bayılırım,thỏ,las manos,0,0.0,0,0.13,0,0.22,0,0.13,incorrect,incorrect,incorrect,incorrect
+['lennie'],he,kuwet,người đó,personname,0,0.25,0,0.18,0,0.29,0,0.5,incorrect,incorrect,incorrect,incorrect
+['candy'],someone,mask1,mask,persona,0,0.17,0,0.2,0,0.22,0,0.17,incorrect,incorrect,incorrect,incorrect
+['george'],someone,kürt,người đó,juan,0,0.46,0,0.2,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['candy'],someone,zekiye,người kia,miguel,0,0.17,0,0.18,0,0.14,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['carlson—', 'carlson']",someone,karı,nhân,alguien,0,0.43,0,0.36,0,0.36,0,0.43,incorrect,incorrect,incorrect,incorrect
+['crooks'],the negro stable buck,zenci seyis,người mã phu,benito,0,0.22,0,0.24,0,0.11,0,0.17,incorrect,incorrect,incorrect,incorrect
+['george'],[mask],maskarade,name,mask,0,0.0,0,0.13,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['curley'],someone,başları,người phụ nữ,mariana,0,0.15,0,0.15,0,0.11,0,0.15,incorrect,incorrect,incorrect,incorrect
+['lennie'],hester,ahırda,nguyễn,amigo,0,0.33,0,0.17,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['lennie'],mask,köpek yavrusu,người đó,elías,0,0.0,0,0.11,0,0.29,0,0.36,incorrect,incorrect,incorrect,incorrect
+['george'],name, overwhelms ,anh hùng,alguien,0,0.2,0,0.38,0,0.14,0,0.31,incorrect,incorrect,incorrect,incorrect
+['curley'],else,küpler,tôi,alguien,0,0.4,0,0.5,0,0.0,0,0.31,incorrect,incorrect,incorrect,incorrect
+['lennie'],pup,birdenbire,con chó,toda,0,0.0,0,0.5,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lennie'],he,ve,nó,mariana,0,0.25,0,0.25,0,0.25,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['curley', 'vợ curley']",someone,güneşin,sally,miguel,0,0.25,0,0.31,0,0.36,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['curley', 'curle']",someone,i̇nce,con,laura,0,0.17,0,0.44,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+['curley'],someone's,bukle,vợ name,musketeers,0,0.13,0,0.55,0,0.15,0,0.25,incorrect,incorrect,incorrect,incorrect
+['george'],someone,zavallı,người đó,miguel,0,0.46,0,0.0,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['george'],said,ve,người kia,martin,0,0.0,0,0.25,0,0.27,0,0.17,incorrect,incorrect,incorrect,incorrect
+['george'],oscar,kadın,ả,alguien,0,0.36,0,0.0,0,0.0,0,0.31,incorrect,incorrect,incorrect,incorrect
+['george'],he,zeynep,chu black,persona,0,0.25,0,0.33,0,0.0,0,0.31,incorrect,incorrect,incorrect,incorrect
+['lennie'],bear,birdenbire,con,osito,0,0.2,0,0.5,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['lennie im', 'lennie']",he,sakine,it,alguien,0,0.25,0,0.25,0,0.5,0,0.46,incorrect,incorrect,incorrect,incorrect
+['george'],rabbit,onlar,bác,conejo,0,0.17,0,0.36,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['george'],he,silvia,người,alguien,0,0.25,0,0.0,0,0.36,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['george', 'george—']",larry,bizim gibi adamların,người nói,hombre,0,0.18,0,0.15,0,0.27,0,0.17,incorrect,incorrect,incorrect,incorrect
+['lennie'],he,kuzucu,nguyên,mariana,0,0.25,0,0.0,0,0.33,0,0.15,incorrect,incorrect,incorrect,incorrect
+['george'],he,türkmenistan,cháp,personname,0,0.25,0,0.11,0,0.0,0,0.38,incorrect,incorrect,incorrect,incorrect

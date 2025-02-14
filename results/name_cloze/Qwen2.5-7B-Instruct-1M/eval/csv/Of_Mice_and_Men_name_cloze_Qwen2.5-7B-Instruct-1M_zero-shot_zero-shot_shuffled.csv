@@ -1,0 +1,49 @@
+Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,es_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['george'],kinda unslung,köpükleri,nước tao,[mask],0,0.11,0,0.27,0,0.14,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],his,kaybettim,nó,debo,0,0.0,0,0.13,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+['lennie'],his,düşünmekten geriliyordu,đâu,me su,0,0.22,0,0.21,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['lennie'],i,birbir,giải,no,0,0.29,0,0.17,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['george'],they,bulamadılar,tống,rabia,0,0.2,0,0.12,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['george'],go,suratla,thật tao lửa,fuego,0,0.5,0,0.15,0,0.11,0,0.36,incorrect,incorrect,incorrect,incorrect
+['lennie'],you,ağır yılmaz,anh đi,ratos,0,0.0,0,0.12,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['george', 'geroge']",jail,i̇stanbul,quán,[mask],0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lenni', 'lennie']",[mask],geliş,tên người,bueno,0,0.0,0,0.4,0,0.57,0,0.4,incorrect,incorrect,incorrect,incorrect
+['george'],what,raflık,vàng,camastro,0,0.0,0,0.17,0,0.2,0,0.14,incorrect,incorrect,incorrect,incorrect
+['lennie'],he,bezden [mask],[mask],stetson,0,0.25,0,0.21,0,0.0,0,0.31,incorrect,incorrect,incorrect,incorrect
+['george'],bus bum,otobüs,nơi,racho,0,0.0,0,0.17,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+['george'],god,i̇kiyüz,dạ nó,[mask],0,0.44,0,0.0,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lenni', 'lennie']",[mask],bir,nó,escucha,0,0.0,0,0.25,0,0.29,0,0.17,incorrect,incorrect,incorrect,incorrect
+['george'],we,ama,người,nombre,0,0.25,0,0.0,0,0.36,0,0.17,incorrect,incorrect,incorrect,incorrect
+['george'],solitaire,dışarda,hoàng quân,afuera,0,0.13,0,0.15,0,0.12,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['george', 'george—']",ranches,namık kemal,chả,familia,0,0.15,0,0.12,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lennie'],blue,onu,chiếc một áo khoác vai áo,la,0,0.4,0,0.22,0,0.13,0,0.25,incorrect,incorrect,incorrect,incorrect
+['carlson'],he,mu,luger,luger,0,0.0,0,0.0,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['george'],gran'pa,sesi,mùa,ahumar,0,0.31,0,0.2,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['lennie'],rabbits,sakina,thỏ,gatos,0,0.15,0,0.17,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['candy'],place name,böyle yakalanmış zaman,lão,un acto,0,0.27,0,0.15,0,0.25,0,0.17,incorrect,incorrect,incorrect,incorrect
+['george'],the,ne,hừ,oye,0,0.22,0,0.25,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['candy'],my,kimim,[mask],"déjame adivinar que podría ser ""juan"" o algún nombre similar, pero sin contexto claro, es solo una suposición.",0,0.29,0,0.0,0,0.18,0,0.03,incorrect,incorrect,incorrect,incorrect
+"['carlson—', 'carlson']",around your it.,evliya,sao,madrid,0,0.36,0,0.15,0,0.4,0,0.31,incorrect,incorrect,incorrect,incorrect
+['crooks'],his,koşum,ngựa,granero,0,0.22,0,0.36,0,0.0,0,0.31,incorrect,incorrect,incorrect,incorrect
+['george'],[mask],bir,nhân,[mask],0,0.0,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['curley'],she,dudakları gibi,ả,los tres,0,0.22,0,0.2,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['lennie'],the,ahırda,phì,los establos,0,0.22,0,0.17,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['lennie'],it,köpek,chó,perrito,0,0.25,0,0.18,0,0.0,0,0.31,incorrect,incorrect,incorrect,incorrect
+['george'],it,büyük otla,rừng,le,0,0.0,0,0.12,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['curley'],he,sen,thiệt,no sé,0,0.25,0,0.22,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['lennie'],he,yavru,con buồn,el tristemente,0,0.25,0,0.0,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+['lennie'],fair,bir ne,[mask],mujer,0,0.2,0,0.17,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['curley', 'vợ curley']",sunrise,güneşin karısı,nhà,la mujer,0,0.46,0,0.2,0,0.0,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['curley', 'curle']",shepherd,dışarı,[mask],granero,0,0.15,0,0.18,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['curley'],[mask],sarı hınçlarından,đôi,joven,0,0.0,0,0.17,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['george'],maybe,oğlanı,hắn,tal,0,0.18,0,0.17,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],i,name,nghe thật,el sabía yo,0,0.0,0,0.2,0,0.27,0,0.24,incorrect,incorrect,incorrect,incorrect
+['george'],barn,ben,vietnam,dame,0,0.2,0,0.22,0,0.15,0,0.2,incorrect,incorrect,incorrect,incorrect
+['george'],south,güneye,bắc,sur,0,0.18,0,0.5,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['lennie'],bear,balıkçı,con,oso,0,0.2,0,0.31,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lennie im', 'lennie']",bird,birkuş,đột,laguna,0,0.33,0,0.25,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['george'],rabbit,aptal,thỏ,eso,0,0.17,0,0.0,0,0.22,0,0.44,incorrect,incorrect,incorrect,incorrect
+['george'],his,tatsız,người,se,0,0.0,0,0.0,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['george', 'george—']",guys,bir,đình,argentina,0,0.2,0,0.22,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+['lennie'],valley,vadide,màn,llegó,0,0.33,0,0.17,0,0.22,0,0.36,incorrect,incorrect,incorrect,incorrect
+['george'],near,ercília,nguyễn,[mask],0,0.4,0,0.31,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect

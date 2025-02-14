@@ -1,0 +1,101 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['john dashwood', 'mr john dashwood', 'john daswood']",john dashwood,edward vi,scrooge,don quixote,1,1.0,0,0.38,0,0.43,0,0.35,correct,incorrect,incorrect,incorrect
+"['john dashwood', 'john daswood', 'mrs john dashwood']",emma,madame defarge,thiên phúc,mr. collins,0,0.29,0,0.29,0,0.35,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['henry', 'harry']",mr. collins,osmanlı,nguyễn văn duy,carlos,0,0.12,0,0.17,0,0.32,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['dashwood', 'señora dashwood', 'daswood', 'mrs dashwood norland']",mrs. dashwood,norland,edith,lucy snowe,0,0.76,1,1.0,0,0.31,0,0.38,correct,correct,incorrect,incorrect
+"['elinor—', 'elinor']",john dashwood,redon,phạm văn đồnh,don diego,0,0.21,0,0.36,0,0.21,0,0.27,incorrect,incorrect,incorrect,incorrect
+['elinor'],emma,agnes,đặng thế vinh,emma,0,0.2,0,0.18,0,0.32,0,0.2,incorrect,incorrect,incorrect,incorrect
+['edward'],mr. collins,paul,philippe,carlos,0,0.12,0,0.2,0,0.14,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",colonel fitzwilliam,i̇lhami,nguyễn văn toàn,colonel brandon,0,0.19,0,0.18,0,0.43,0,0.64,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",dr. watson,i̇rem erdoğan,pauline,la señora de la casa,0,0.22,0,0.4,0,0.53,0,0.29,incorrect,incorrect,incorrect,incorrect
+['marianne'],agnes,caligula,phạm văn đồnh,dr. watson,0,0.46,0,0.38,0,0.38,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['elino', 'elinor']",anne elliot,i̇zmir,anna,la madre,0,0.5,0,0.36,0,0.22,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['john', 'sir john']",mr. collins,miss minchin,đức thành,david cameron,0,0.27,0,0.4,0,0.35,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['mariann', 'marianne']",henry tilney,edwin hubble,james,henry dashwood,0,0.4,0,0.3,0,0.31,0,0.1,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",mary crawford,i̇brahim,đặng thái quý,don quixote,0,0.38,0,0.13,0,0.19,0,0.21,incorrect,incorrect,incorrect,incorrect
+['elinor'],anne elliot,descartes,miss aldonka,maría inés,0,0.47,0,0.27,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",brandon,i̇brahim,grant,moncada,1,1.0,0,0.43,0,0.5,0,0.33,correct,incorrect,incorrect,incorrect
+"['elino', 'elinor']",wickham,archimedes,agnes,valverde,0,0.17,0,0.13,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+['elinor'],edward,freud,philip,don juan,0,0.33,0,0.18,0,0.33,0,0.14,incorrect,incorrect,incorrect,incorrect
+['willoughby'],edward ferrars,edith,simon,edward rochester,0,0.08,0,0.27,0,0.27,0,0.23,incorrect,incorrect,incorrect,incorrect
+['elinor'],elizabeth bennet,meucci,phạm văn đồnh,wickham,0,0.36,0,0.33,0,0.21,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['willoughby', 'willoughb']",wickham,i̇pek,đỗ mạnh hải,mr. collins,0,0.38,0,0.15,0,0.1,0,0.2,incorrect,incorrect,incorrect,incorrect
+['willoughby'],frederick,asaf fida,trần quốc tuấn,carlos,0,0.11,0,0.11,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+['marianne'],emma,lord de winter,scarlet letter,guendolen,0,0.33,0,0.36,0,0.27,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",emma,victor frankenstein,thạch sanh,don quixote,0,0.33,0,0.37,0,0.33,0,0.21,incorrect,incorrect,incorrect,incorrect
+"['edward', 'elinor']",mr. collins,edward,đỗ mạnh hải,edward ferrars,0,0.35,1,1.0,0,0.24,0,0.6,incorrect,correct,incorrect,incorrect
+['elinor'],mr. rushworth,james moriarty,madame de villefort,don quixote,0,0.21,0,0.3,0,0.32,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",miss thorpe,i̇smet özel,phạm văn đồnh,don quixote,0,0.32,0,0.22,0,0.38,0,0.21,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",emma,emma thompson,descartes,mr. collins,0,0.2,0,0.21,0,0.27,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'không']",wickham,i̇brahim,phan thiết,john,0,0.33,0,0.17,0,0.33,0,0.44,incorrect,incorrect,incorrect,incorrect
+['elinor'],emma,i̇smet i̇nönü,madame forestier,beatriz,0,0.2,0,0.47,0,0.27,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['elinor quan', 'elinor']",elinor,orhan,philip,arthur dimmesdale,1,1.0,0,0.5,0,0.33,0,0.21,correct,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",jane austen,atatürk,thiên chính đạo,juan ramón jiménez,0,0.32,0,0.27,0,0.09,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['edward—', 'edward']",mr. knightley,i̇brahim,thoreau,elías,0,0.11,0,0.15,0,0.31,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['john', 'sir john']",john dashwood,charles,mr. darcy,john willoughby,0,0.47,0,0.2,0,0.24,0,0.42,incorrect,incorrect,incorrect,incorrect
+"['mariann', 'marianne']",marianne dashwood,marie antoinette,phạm vân,edmundo,0,0.64,0,0.67,0,0.4,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['señora palmer', 'mrs palmer', 'palmer']",miss churchill,platon,madame defarge,la comtesa de berwick,0,0.33,0,0.33,0,0.42,0,0.32,incorrect,incorrect,incorrect,incorrect
+['marianne'],mrs. dashwood,i̇smet i̇nönü,phạm văn đồnh,ana,0,0.19,0,0.42,0,0.38,0,0.36,incorrect,incorrect,incorrect,incorrect
+['elinor'],lucy steele,i̇smet i̇nönü,phạm văn đồng,don quixote,0,0.24,0,0.47,0,0.21,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['palmer—', 'mrs palmer', 'palmer']",miss steele,rebecca,madame defarge,don juan,0,0.48,0,0.24,0,0.42,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['charlotte', 'señora jennings']",miss garth,haydari,ngọc hoàng,doña josefa,0,0.32,0,0.38,0,0.38,0,0.38,incorrect,incorrect,incorrect,incorrect
+['elinor'],mr. churchill,charles bovary,philip,miss isabella thorpe,0,0.11,0,0.3,0,0.33,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",monro,abdi i̇pekçi,meade,montero,0,0.33,0,0.25,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['señor palmer', 'anh palmer', 'palmer', 'mr palmer']",wickham,ali,giulia,carlos,0,0.31,0,0.44,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['lucy'],mr. churchill,lord de bourgh,elizabeth,lucy snowe,0,0.12,0,0.22,0,0.15,0,0.57,incorrect,incorrect,incorrect,incorrect
+['annamaria'],agnes,i̇pek,thiên đường,maría,0,0.29,0,0.15,0,0.2,0,0.71,incorrect,incorrect,incorrect,correct
+"['marianne', 'marianne—']",anne elliot,yunus emre,phạm văn đồng,beatriz,0,0.42,0,0.33,0,0.38,0,0.4,incorrect,incorrect,incorrect,incorrect
+['elinor'],mr. collins,i̇smet i̇nönü,phạm văn đồnh,don quixote,0,0.35,0,0.47,0,0.21,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['lucy', 'lucy—']",edward ferrars,anne elliot,mrs. jennings,isabella,0,0.0,0,0.13,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['ferrars', 'mrs ferrars', 'señora ferrars']",singleton,i̇smet i̇nönü,emma watson,countess de morcerf,0,0.4,0,0.47,0,0.4,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['ferrars', 'mrs ferrars', 'señora ferrars']",miss de bourgh,agnes,phạm văn đồng,beatriz,0,0.4,0,0.33,0,0.25,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['lucy', 'lucy—']",emma,vermeer,phạm văn đồnh,valeria,0,0.0,0,0.0,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",wickham,rebecca west,đặng thị mai phương,edmund,0,0.15,0,0.11,0,0.16,0,0.33,incorrect,incorrect,incorrect,incorrect
+['lucy'],martha,i̇smet i̇nönü,miss honey,marie antoinette,0,0.0,0,0.13,0,0.14,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lucy'],miss scatcherd,rebecca,phạm vân,valdemar,0,0.11,0,0.18,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['mr ferrars', 'ferrars', 'señor ferrars']",mr. collins,i̇lknur,anna,padre,0,0.38,0,0.36,0,0.24,0,0.29,incorrect,incorrect,incorrect,incorrect
+['edward'],anne elliot,mr. rochester,edward,mr. collins,0,0.12,0,0.21,1,1.0,0,0.12,incorrect,incorrect,correct,incorrect
+"['ferrars', 'mrs ferrars']",sir thomas bertram,edith,edward,la duquesa de gomera,0,0.48,0,0.17,0,0.46,0,0.26,incorrect,incorrect,incorrect,incorrect
+['elinor'],anne elliot,mustafa kemal atatürk,đặng thế vinh,beatriz,0,0.47,0,0.22,0,0.32,0,0.31,incorrect,incorrect,incorrect,incorrect
+['elinor'],elizabeth,i̇smet i̇nönü,phạm văn đồng,don quixote,0,0.4,0,0.47,0,0.21,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['middleton', 'lady middleton']",mr. collins,sinirler,philip,beatriz,0,0.3,0,0.35,0,0.27,0,0.19,incorrect,incorrect,incorrect,incorrect
+['elinor'],marianne dashwood,i̇brahim,agnes,edward,0,0.17,0,0.31,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['anh palmer', 'palmer', 'mr palmer']",uncle tom,madame defarge,madame forestier,padre,0,0.32,0,0.43,0,0.4,0,0.55,incorrect,incorrect,incorrect,incorrect
+['marianne'],emma woodhouse,john proctor,thủy vân,don benito,0,0.27,0,0.1,0,0.25,0,0.11,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jenning', 'jennings', 'señora jennings']",samuel,david silva,john,beatriz,0,0.33,0,0.24,0,0.36,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['willoughby', 'elinor']",edward ferrars,edward,colin,edward rochester,0,0.2,0,0.33,0,0.55,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'miss marianne']",emma,haydarpasha,esther summerson,lucy snowe,0,0.35,0,0.32,0,0.25,0,0.26,incorrect,incorrect,incorrect,incorrect
+['marianne'],edward ferrars,edith,victor,heathcliff,0,0.27,0,0.15,0,0.14,0,0.22,incorrect,incorrect,incorrect,incorrect
+['marianne'],lucy snowe,haydari,thiên phúc,carlos,0,0.22,0,0.4,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['edvvard', 'edward']",edward,arslan,paul,don quixote,1,1.0,0,0.33,0,0.2,0,0.12,correct,incorrect,incorrect,incorrect
+['marianne'],anne elliot,i̇pek,phương linh,edmund,0,0.42,0,0.33,0,0.21,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",mr. collins,i̇stanbul,giáng sinh jésus,don juan tenorio,0,0.52,0,0.29,0,0.39,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",mrs. norris,abdülkadir,trần văn thái,doña prudencia,0,0.61,0,0.15,0,0.36,0,0.31,incorrect,incorrect,incorrect,incorrect
+['marianne'],miss crawford,özdemir,phạm vân,la comtesa de morcerf,0,0.29,0,0.27,0,0.38,0,0.28,incorrect,incorrect,incorrect,incorrect
+"['willoughby', 'mr willoughby']",wickham,atatürk,paul,don juan tenorio,0,0.35,0,0.22,0,0.14,0,0.21,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",mr. willoughby,ali kerim bey,james bond,dr. watson,0,0.38,0,0.29,0,0.36,0,0.31,incorrect,incorrect,incorrect,incorrect
+['eliza'],wickfield,edith,heathcliff,lydia bennet,0,0.29,0,0.4,0,0.4,0,0.12,incorrect,incorrect,incorrect,incorrect
+['marianne'],anne elliot,charles dickens,estella,henry crawford,0,0.42,0,0.35,0,0.13,0,0.18,incorrect,incorrect,incorrect,incorrect
+['elinor'],emma,lord de burgh,philip,don quixote,0,0.2,0,0.32,0,0.33,0,0.12,incorrect,incorrect,incorrect,incorrect
+['edward'],mr. collins,agatha christie,mr. brocklehurst,don benito,0,0.12,0,0.1,0,0.18,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['elino', 'elinor']",mr. rushworth,atatürk,phạm văn đồng,don quixote,0,0.21,0,0.15,0,0.22,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['', 'fanny']",edward ferrars,i̇pek,không có thông tin cụ thể về một người cụ thể,maría,0,0.21,0,0.0,0,0.08,0,0.2,incorrect,incorrect,incorrect,incorrect
+['harry'],walter,abdülkadir merter,anna,edward ferrars,0,0.36,0,0.27,0,0.22,0,0.32,incorrect,incorrect,incorrect,incorrect
+['marianne'],emma woodhouse,virginia woolf,edith,la pasionaria,0,0.27,0,0.27,0,0.15,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['', 'ferrars', 'señora ferrars']",miss murdstone,sezer,agnes,edith,0,0.2,0,0.55,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['marianne'],emma woodhouse,marcel proust,scarlett,emma bovary,0,0.27,0,0.38,0,0.38,0,0.32,incorrect,incorrect,incorrect,incorrect
+"['robert', 'elinor']",mr. knightley,edward ferrars,william collins,john betjeman,0,0.21,0,0.3,0,0.29,0,0.42,incorrect,incorrect,incorrect,incorrect
+"['middleton', 'lady middleton']",mr. rushworth,camilla parker-bowles,mr. rochester,clarissa,0,0.18,0,0.29,0,0.27,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",wickham,edith,phạm thị mỹ trâm,carlos,0,0.15,0,0.36,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",wickham,rebecca,đặng thế giỏi,don diego,0,0.13,0,0.13,0,0.29,0,0.24,incorrect,incorrect,incorrect,incorrect
+['edward'],wickham,ali,phạm văn đồnh,carlos,0,0.31,0,0.22,0,0.11,0,0.33,incorrect,incorrect,incorrect,incorrect
+['edward'],wickham,madame de villefort,scrooge,edith,0,0.31,0,0.24,0,0.15,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",mrs. norris,i̇brahim,phạm văn đồng,doña clara,0,0.61,0,0.31,0,0.4,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",miss murdstone,edmond dantès,phạm văn đồnh,la madre,0,0.35,0,0.38,0,0.32,0,0.36,incorrect,incorrect,incorrect,incorrect
+['elinor'],anne,valentine,phạm văn đồng,don quixote,0,0.2,0,0.4,0,0.21,0,0.12,incorrect,incorrect,incorrect,incorrect
+['edward'],john willoughby,archdeacon grantly,archdeacon,john henry newman,0,0.1,0,0.25,0,0.38,0,0.26,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",colonel fitzwilliam,lucy steele,trần quốc tuấn,la dama,0,0.16,0,0.24,0,0.28,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",name,allah,lee,colonel brandon,0,0.22,0,0.6,0,0.25,0,0.64,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",miss carteret,dr. watson,mr. darcy,miss taylor,0,0.21,0,0.12,0,0.13,0,0.35,incorrect,incorrect,incorrect,incorrect
+['elinor'],emma,i̇smet i̇nönü,trần quốc tuấn,charlotte lucas,0,0.2,0,0.47,0,0.2,0,0.19,incorrect,incorrect,incorrect,incorrect
+['edward'],wickham,eliza doolittle,philip,edward cullen,0,0.31,0,0.19,0,0.0,0,0.63,incorrect,incorrect,incorrect,incorrect

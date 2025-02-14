@@ -1,0 +1,101 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['bruno'],he,annenin kızı,pip,tom,0,0.0,0,0.12,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['gretel'],emily,anne,bố,madre,0,0.36,0,0.2,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+['bruno'],harry,anna,emili,marie,0,0.2,0,0.22,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],tom,charlie,cậu bé,charlie,0,0.25,0,0.17,0,0.18,0,0.17,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,tom,pip,ella,0,0.0,0,0.25,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['maria', 'maría']",his wife,annesi,người giúp việc,ella,0,0.15,0,0.36,0,0.1,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['maria', 'maría']",his father,annem,chị,su madre,0,0.27,0,0.2,0,0.25,0,0.46,incorrect,incorrect,incorrect,incorrect
+['bruno'],harry,ali,aladdin,alí,0,0.2,0,0.0,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],max,frankenstein,đại,charlie,0,0.0,0,0.24,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['bruno'],tom,tom,charlie,harry,0,0.25,0,0.25,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['gretel'],lyra,tom,em,lizzy,0,0.2,0,0.22,0,0.25,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],heidi,heathcliff,pip,goethe,0,0.0,0,0.0,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['gretel'],offred,esther,emily,el narrador,0,0.33,0,0.17,0,0.36,0,0.24,incorrect,incorrect,incorrect,incorrect
+['gretel'],matilda,matilda,lisa,matilda,0,0.31,0,0.31,0,0.2,0,0.31,incorrect,incorrect,incorrect,incorrect
+['bruno'],tom,heathcliff,đức,tom,0,0.25,0,0.0,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['gretel'],emily,heathcliff,estella,esteban,0,0.36,0,0.38,0,0.62,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['bruno—', 'bruno']",george,temel,đào,george,0,0.18,0,0.0,0,0.25,0,0.18,incorrect,incorrect,incorrect,incorrect
+['gretel'],elizabeth,hamlet,esther,maría,0,0.27,0,0.33,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],they,heathcliff,emily,elisa,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gretel'],cathy,greg,matilda,isaac,0,0.18,0,0.6,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gretel'],heidi,heathcliff,emily,heathcliff,0,0.18,0,0.38,0,0.36,0,0.38,incorrect,incorrect,incorrect,incorrect
+['bruno'],tom,heathcliff,pip,tom,0,0.25,0,0.0,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],heinrich,çocuk,emmanuel,heidi,0,0.15,0,0.2,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],tom,heidi,phyllis,esther,0,0.25,0,0.0,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],heathcliff,bay,phoebe,tom,0,0.0,0,0.25,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,bayan,holden,esteban,0,0.0,0,0.4,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+['bruno'],charlie,bayan poyser,tom,alfred,0,0.17,0,0.24,0,0.25,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],the narrator,napoleon,đại uý,el teniente,0,0.24,0,0.31,0,0.18,0,0.12,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,bayan,ông già,el hombre,0,0.0,0,0.4,0,0.17,0,0.29,incorrect,incorrect,incorrect,incorrect
+['pavel'],charlie,annem,phoebe,emma,0,0.33,0,0.4,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['pavel', 'pavel—']",dr. joe,annem,mẹ,madre,0,0.17,0,0.4,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+['bruno'],mr. smith,harry,hawthorne,él,0,0.14,0,0.2,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],henry,bayan,pip,john,0,0.2,0,0.4,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['bruno'],mr. kumar,garson,đức,sancho,0,0.29,0,0.36,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+['bruno'],sheila,bay bovary,cháu,watson,0,0.0,0,0.27,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+['pavel'],frankenstein,ali,ông lão,charlie,0,0.24,0,0.5,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['bruno—', 'bruno']",monika,hitler,heidi,hitler,0,0.18,0,0.18,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['pavel'],aslan,gregor,ông lão,gregor,0,0.4,0,0.18,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],hamlet,hamlet,hamlet,hamlet,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['liszt', 'herr liszt', 'herr liszt—', 'bay liszt']",professor mcgonagall,bayan trunchbull,nguyễn,albus,0,0.27,0,0.4,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['liszt', 'herr liszt', 'bay liszt']",severus,heathcliff,heathcliff,geralt,0,0.36,0,0.4,0,0.4,0,0.5,incorrect,incorrect,incorrect,incorrect
+['bruno'],pip,charlie,harry,harry,0,0.0,0,0.17,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,robinson crusoe,emmanuel,él,0,0.0,0,0.4,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],phileas,robinson crusoe,phileas fogg,indiana,0,0.0,0,0.4,0,0.12,0,0.17,incorrect,incorrect,incorrect,incorrect
+['bruno'],holden,çocuk,pinocchio,el niño,0,0.18,0,0.2,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['bruno'],boyne,çocuğun babası,shmuel,elie,0,0.4,0,0.21,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],mr. summers,charlie,đặng,oliver twist,0,0.25,0,0.17,0,0.22,0,0.12,incorrect,incorrect,incorrect,incorrect
+['bruno'],mr. summers,bay,đào,él,0,0.25,0,0.25,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['shmuel'],tom,tom,đinh,winston,0,0.22,0,0.22,0,0.2,0,0.15,incorrect,incorrect,incorrect,incorrect
+['bruno'],herr schnitzel,hitler,max,hitler,0,0.21,0,0.18,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['“không', 'bruno']",heathcliff,bayan dubois,bruno,emily,0,0.12,0,0.35,1,1.0,0,0.0,incorrect,incorrect,correct,incorrect
+['bruno'],emily,bayan fairfax,pip,maría,0,0.0,0,0.22,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],philip,robinson crusoe,phileas fogg,kim,0,0.0,0,0.4,0,0.12,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['huy', 'bruno']",phileas fogg,mark twain,marco polo,indiana,0,0.13,0,0.27,0,0.27,0,0.17,incorrect,incorrect,incorrect,incorrect
+['gretel'],matilda,babası,chị dậu,maruja,0,0.31,0,0.0,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['gretel'],frances,heidi,cháu,tom,0,0.31,0,0.18,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['brun', 'bruno']",emily,annem,bé,emily,0,0.0,0,0.22,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bruno—', 'bruno']",piero,harry,đức,marie,0,0.4,0,0.2,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['padre', 'bruno']",tom,çağrı,đặng,shelob,0,0.25,0,0.4,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+['shmuel'],mr. tumnus,ali,đức,charlie,0,0.12,0,0.22,0,0.22,0,0.31,incorrect,incorrect,incorrect,incorrect
+['bruno'],harry,pete,charlie,harry,0,0.2,0,0.0,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],hitler,hitler,thomas,leni,0,0.18,0,0.18,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['shmuel'],mr. jarndyce,bayan,harry,emily,0,0.22,0,0.0,0,0.18,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['bruno—', 'bruno']",heathcliff,garanti,đức,gertrudis,0,0.0,0,0.33,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+['bruno'],mr. woodhouse,bayan,đinh,maría,0,0.22,0,0.4,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],pip,tom,ponyboy,tom,0,0.0,0,0.25,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+['bruno'],holden,çalıkuşu,cha,sancho,0,0.18,0,0.15,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['maria', 'maría']",emma,bayan,đông,maría,0,0.44,0,0.4,0,0.0,1,1.0,incorrect,incorrect,incorrect,correct
+['bruno'],tom,heidi,tom,tom,0,0.25,0,0.0,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['pavel'],mr. rochester,bayan,ông nội,maría,0,0.11,0,0.2,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],holden,heidi,holden,holden,0,0.18,0,0.0,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['maria', 'maría']",mr. wilkins,bayan,gái,sancho,0,0.38,0,0.4,0,0.5,0,0.18,incorrect,incorrect,incorrect,incorrect
+['shmuel'],yossarian,yossarian,đào,jon,0,0.13,0,0.13,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],mr. dursley,tom,đỗ bích thư,emma,0,0.25,0,0.25,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gretel'],matilda,pinokyo,louisa,charlie,0,0.31,0,0.0,0,0.17,0,0.31,incorrect,incorrect,incorrect,incorrect
+['bruno'],tom,pinokyo,tom,pip,0,0.25,0,0.33,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gretel'],matilda,tom,thúy,catalina,0,0.31,0,0.22,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+['gretel'],heather,heathcliff,em,ellen,0,0.15,0,0.38,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+['gretel'],mr. knightley,bay ham,phoebe,maruja,0,0.21,0,0.0,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+['bruno'],mother,bayan,emily,la señora,0,0.18,0,0.4,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['bruno'],jim,long john silver,long john silver,jim,0,0.0,0,0.1,0,0.1,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,onun,anh ta,él,0,0.0,0,0.44,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],his mother,bayan dubois,đã rán,ella,0,0.13,0,0.35,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],the narrator,anne,chú bé,su madre,0,0.24,0,0.22,0,0.18,0,0.15,incorrect,incorrect,incorrect,incorrect
+['bruno'],michael,çalı,charlie,david,0,0.0,0,0.0,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gretel'],elizabeth,bay ham,chị,maruja,0,0.27,0,0.0,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['bruno', 'do thái']",patrick,hitler,do thái,brutus,0,0.36,0,0.2,1,1.0,0,0.55,incorrect,incorrect,correct,incorrect
+['bruno'],myron,hitler,charlie,elie,0,0.4,0,0.18,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],gregor,dorian,charlie,él,0,0.36,0,0.36,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],harry,harry,tom,pinocchio,0,0.2,0,0.2,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+['bruno'],bruno,harry,harry,esther,1,1.0,0,0.2,0,0.2,0,0.18,correct,incorrect,incorrect,incorrect
+['shmuel'],harry,charlie,pip,emily,0,0.18,0,0.31,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+['shmuel'],heathcliff,heathcliff,heathcliff,holden,0,0.38,0,0.38,0,0.38,0,0.33,incorrect,incorrect,incorrect,incorrect
+['shmuel'],charlie,heathcliff,đông,emily,0,0.31,0,0.38,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['shmuel', 'shmuel—']",harry,peeta,định,ellis,0,0.18,0,0.18,0,0.2,0,0.36,incorrect,incorrect,incorrect,incorrect
+['bruno'],mr dussel,bay hamish,charlie,alfred,0,0.29,0,0.13,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],harry,bayan,harry,phileas,0,0.2,0,0.4,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],george,harry,pip,sam,0,0.18,0,0.2,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['shmuel'],tom,heathcliff,harry,hitler,0,0.22,0,0.38,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+['bruno'],pip,pip,pip,tom,0,0.0,0,0.0,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect

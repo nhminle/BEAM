@@ -1,0 +1,49 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['caroline beaufort'],she,zeynep,con gái ông,su hija,0,0.18,0,0.29,0,0.42,0,0.13,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],margaret,elisabeth,maria,abraham,0,0.35,0,0.89,0,0.29,0,0.38,incorrect,correct,incorrect,incorrect
+"['krempe', 'thần hủy hoạ', 'señor krempe', 'm']",frankenstein,mumya,frankenstein,lucifer,0,0.33,0,0.5,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['waldman', 'm', 'profesör waldman']",dear one,sevgili,frankenstein,querido,0,0.38,0,0.17,0,0.3,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['krempe', 'señor krempe', 'm']",i,hüseyin,anh,mi,0,0.0,0,0.5,0,0.25,0,0.67,incorrect,incorrect,incorrect,incorrect
+['dante'],my friend,hayat,you,mi amigo,0,0.14,0,0.4,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['frankenstein', 'clerval']",dearest,mask,bạn,tú,0,0.42,0,0.25,0,0.27,0,0.14,incorrect,incorrect,incorrect,incorrect
+['clerval'],friends,dost,mask,quintana,0,0.14,0,0.0,0,0.18,0,0.13,incorrect,incorrect,incorrect,incorrect
+['henry'],his,hans,đức,eliezer,0,0.25,0,0.44,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['clerval', 'querido clerval']",charles,bertrand,anh,amigo,0,0.43,0,0.4,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+['henry'],my friend,doğan,người bạn,amigo,0,0.29,0,0.2,0,0.14,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",someone,zeynep,người kia,alguien,0,0.15,0,0.17,0,0.13,0,0.31,incorrect,incorrect,incorrect,incorrect
+['clerval'],poor victim,secheron,emily,edgar,0,0.11,0,0.4,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['clerval'],"poor, good [mask]",zeynep,mary,poormaskedperson,0,0.17,0,0.15,0,0.18,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",she,kız,cô,mariano,0,0.22,0,0.0,0,0.25,0,0.31,incorrect,incorrect,incorrect,incorrect
+['william'],the poor victim,bülent,cô,la pobre víctima,0,0.27,0,0.15,0,0.0,0,0.26,incorrect,incorrect,incorrect,incorrect
+['justine'],she,atalet,cô,persona,0,0.4,0,0.31,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['justine'],clara,edgar,thalia,marthe,0,0.0,0,0.17,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+['justine'],my father,babam,nàng,mi padre,0,0.25,0,0.0,0,0.18,0,0.27,incorrect,incorrect,incorrect,incorrect
+['justine'],i,çıplak,they,mask,0,0.25,0,0.15,0,0.36,0,0.18,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],hester,hawkeye,ali,alí,0,0.27,0,0.25,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],zelezny,güzel kız,thiên lý,elmer,0,0.38,0,0.44,0,0.24,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",the old man,i̇brahim,cụ già,el anciano,0,0.25,0,0.17,0,0.18,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",mask,[mask],mr. host,miguel,0,0.0,0,0.0,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",old man,i̇htiyar,cụ già,padre,0,0.17,0,0.17,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['de lacey', 'de lace']",the enraged malevolence tearing me from his father’s feet,aslan,elizabeth,cristoforo,0,0.16,0,0.44,0,0.5,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['de lacey', 'de lacey—']",mask,esra,anh,maskell,0,0.22,0,0.33,0,0.25,0,0.27,incorrect,incorrect,incorrect,incorrect
+['de lacey'],his,i̇ngiltere,anh,él,0,0.0,0,0.29,0,0.25,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",he,veve,người đó,alguien,0,0.29,0,0.22,0,0.15,0,0.17,incorrect,incorrect,incorrect,incorrect
+['henry'],beloved,sevgili,nàng,lucía,0,0.17,0,0.17,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['clerval', 'ren']",magistrate,ahlaklı insanlar,judge,magistrado,0,0.31,0,0.17,0,0.25,0,0.24,incorrect,incorrect,incorrect,incorrect
+['henry'],the son,oğul,ông bố,hester,0,0.5,0,0.0,0,0.18,0,0.55,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],she,adam,người đàn bà,mariana,0,0.17,0,0.15,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",magistrate,kanlı,jekyll,magistrado,0,0.33,0,0.36,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['daniel nugent', 'daniel nugen']",the governor,hester,thằng,doctor,0,0.12,0,0.33,0,0.4,0,0.21,incorrect,incorrect,incorrect,incorrect
+['daniel'],mary,derviş öncü,cái chết của emily,mariano,0,0.2,0,0.24,0,0.33,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['señor kirwin', 'mr kirwin', 'kirwin']",he,babanızın,người đó,persona,0,0.29,0,0.4,0,0.31,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",someone,sonuç,nguyễn,el abogado,0,0.25,0,0.18,0,0.17,0,0.11,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",frankenstein,elizabeth,margaret,franz,0,0.11,0,0.27,0,0.14,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['señor kirwin', 'mr kirwin', 'kirwin']",family,ben,người nông dân,maskell,0,0.27,0,0.5,0,0.31,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",elizabeth,düğün gecesi,vũ,laura,0,0.13,0,0.19,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['henry', 'henr']",melissa,muhammed,đức,mariana,0,0.18,0,0.33,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],departed friends,hurriyet,friends,demonio,0,0.24,0,0.35,0,0.12,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",you,buca,cô,carlos,0,0.0,0,0.15,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],sister,sen,chị,mi querida hermana,0,0.13,0,0.17,0,0.17,0,0.3,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],my unfortunate guest,hast,thủy thủ,el marinero,0,0.21,0,0.31,0,0.24,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['margaret', 'margare']",you,vicdan,người kia,elías,0,0.0,0,0.15,0,0.12,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['margaret', 'margare']",the dæmon,canavar,người ấy,maskell,0,0.12,0,0.29,0,0.13,0,0.43,incorrect,incorrect,incorrect,incorrect

@@ -1,0 +1,77 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['cassie hiney'],emily,arthur,đám,emily,0,0.4,0,0.22,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+['chuck parson'],wade,robocop,phantom,robocop,0,0.2,0,0.21,0,0.46,0,0.21,incorrect,incorrect,incorrect,incorrect
+['chuck'],greg,wendell,đức,elvira,0,0.0,0,0.0,0,0.5,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['chuc', 'chuck']",life,john,buổi dạ hội,graduación,0,0.0,0,0.25,0,0.13,0,0.14,incorrect,incorrect,incorrect,incorrect
+['angela'],claudia,noel,noel,mi madre,0,0.31,0,0.6,0,0.6,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo'],jess,arthur,emily,elvis,0,0.0,0,0.36,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],max,john,nguyễn,tom,0,0.5,0,0.22,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['margo', 'margo—']",jess,emily,nguyễn hữu hậu,lucy,0,0.0,0,0.2,0,0.11,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],jefferson,jefferson,jefferson,jefferson,0,0.29,0,0.29,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo'],she,albert,người,yuval noah harari,0,0.0,0,0.36,0,0.4,0,0.18,incorrect,incorrect,incorrect,incorrect
+['margo'],jess,ben,ngọc,john,0,0.0,0,0.0,0,0.44,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],jane,aslan,anh,tom,0,0.22,0,0.2,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['margo'],jess,i̇hsan,đỗ,emily,0,0.0,0,0.2,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+['margo'],jess,şey,phải,julieta,0,0.0,0,0.0,0,0.22,0,0.17,incorrect,incorrect,incorrect,incorrect
+['margo'],sophie,john,emily,jenny,0,0.18,0,0.22,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],nat,doğru,7-eleven,7-eleven,0,0.25,0,0.2,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],lyra,worthington,phoebe,frank,0,0.22,0,0.38,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jase'],jean,tom,đó,carrie,0,0.5,0,0.0,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+['margo'],hermione,arthur,thế này sẽ khó hơn đây,holmes,0,0.31,0,0.36,0,0.15,0,0.18,incorrect,incorrect,incorrect,incorrect
+['margo'],jess,emily,ngọc,jess,0,0.0,0,0.2,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['margo', 'marg']",jess,emily,minh,emily,0,0.0,0,0.22,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['chuck parson'],prince,crown,crown,crown,0,0.5,0,0.55,0,0.55,0,0.55,incorrect,incorrect,incorrect,incorrect
+['margo'],jess,john,nguyễn,jane,0,0.0,0,0.22,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],david,john,đầu,la ventana,0,0.2,0,0.22,0,0.25,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['chuck parso', 'chuck parson']",dracula,dracula,ông,robinson,0,0.33,0,0.33,0,0.44,0,0.57,incorrect,incorrect,incorrect,incorrect
+['chuck parson'],amherst,edgar allan poe,amherst,colson,0,0.46,0,0.29,0,0.46,0,0.5,incorrect,incorrect,incorrect,incorrect
+['margo'],jess,arthur,emily,ella,0,0.0,0,0.36,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],nat,jack,yumi,yui,0,0.25,0,0.22,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],seaworld,seaworld,seaworld,seaworld,0,0.31,0,0.31,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+['margo'],heather,arthur,đỗ cường,heathcliff,0,0.33,0,0.36,0,0.15,0,0.13,incorrect,incorrect,incorrect,incorrect
+['margo'],"now, now!",yaman,ninja,yoda,0,0.14,0,0.4,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],jack,orange,anh,el tipo,0,0.22,0,0.36,0,0.25,0,0.17,incorrect,incorrect,incorrect,incorrect
+['margo'],jarrell,izinsiz,đội trưởng,las chicas,0,0.33,0,0.0,0,0.27,0,0.13,incorrect,incorrect,incorrect,incorrect
+['margo'],she,universal,seaworld,seaworld,0,0.0,0,0.14,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+['margo roth spiegelman'],python,belly,nguyễn huy tưởng,la llorona,0,0.4,0,0.27,0,0.19,0,0.4,incorrect,incorrect,incorrect,incorrect
+['ben'],mr.,caesar,đôi,gregor,0,0.0,0,0.22,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo roth spiegelman'],edward,john,heathcliff,drácula,0,0.36,0,0.5,0,0.29,0,0.24,incorrect,incorrect,incorrect,incorrect
+['margo'],mr. anderson,mr.,đinh,elvis,0,0.47,0,0.5,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],he,hezimeti,jack,el,0,0.0,0,0.15,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['quenti', 'quentin']","look, john, and yeah, i know it’s you.",ben,scar,chico,0,0.05,0,0.44,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['margo'],laura,miss marple,watson,jefferson,0,0.4,0,0.38,0,0.36,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo roth spiegelman'],president,john,margo,emily,0,0.42,0,0.5,1,1.0,0,0.27,incorrect,incorrect,correct,incorrect
+['margo'],aurora,arthur,phoebe,la,0,0.55,0,0.36,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bay jiminez', 'jiminez']",smith,derse,thầy giáo,weston,0,0.33,0,0.17,0,0.4,0,0.15,incorrect,incorrect,incorrect,incorrect
+['ben starling'],charlie,miss trunchbull,oliver,gregory,0,0.53,0,0.35,0,0.29,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['margo', 'marg']",john,annem,nguyễn nhật ánh,alberto,0,0.22,0,0.22,0,0.11,0,0.5,incorrect,incorrect,incorrect,incorrect
+['margo'],typical hester,her zamanki hakan,đinh,elvis,0,0.21,0,0.18,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],new york,florida,florida,florida,0,0.15,0,0.17,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['margo', 'whitman']",emily,margo,margo,emily,0,0.2,1,1.0,1,1.0,0,0.2,incorrect,correct,correct,incorrect
+['ben'],board,ben,he,maría,0,0.25,1,1.0,0,0.4,0,0.0,incorrect,correct,incorrect,incorrect
+['margo'],signs,john,arthur,personas,0,0.2,0,0.22,0,0.36,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['margo', 'marg']",jean,john,đất,lucy,0,0.25,0,0.22,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],jess,john,phạm tuyên,el,0,0.0,0,0.22,0,0.13,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo roth spiegelman'],her,q,ông,ella,0,0.29,0,0.0,0,0.29,0,0.43,incorrect,incorrect,incorrect,incorrect
+['dennis mcmahon'],june,emily,president,june,0,0.2,0,0.36,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+['margo'],jess,adam,emily,ella,0,0.0,0,0.22,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['whitman'],wordsworth,orhan,đó,walter,0,0.24,0,0.5,0,0.0,0,0.31,incorrect,incorrect,incorrect,incorrect
+['margo'],jane,he,emily,topeka,0,0.22,0,0.0,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['lacey'],jess,emma,quentin,emily,0,0.22,0,0.22,0,0.17,0,0.4,incorrect,incorrect,incorrect,incorrect
+['ben'],mike,john,đức,willy,0,0.29,0,0.29,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lacey'],ace,gus,đức,él,0,0.75,0,0.0,0,0.25,0,0.29,correct,incorrect,incorrect,incorrect
+['margo'],grasses,çimen,trái đất,la hierba,0,0.17,0,0.2,0,0.15,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo'],jess,arthur,emily,scarlett,0,0.0,0,0.36,0,0.2,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['margo roth spiegelma', 'margo roth spiegelman']",the truth,onu,đó,la naturaleza,0,0.31,0,0.29,0,0.33,0,0.24,incorrect,incorrect,incorrect,incorrect
+['margo'],jean,emily,đó,clarissa,0,0.22,0,0.2,0,0.29,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['margo', 'margo—']",exams,haberleri,đầu óc đa nghi,mi graduación,0,0.2,0,0.29,0,0.21,0,0.33,incorrect,incorrect,incorrect,incorrect
+['margo'],jess,anlam,đó,emily,0,0.0,0,0.2,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lacey'],jane,gofast,gofast,matilda,0,0.44,0,0.18,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+['margo'],jane,yüce dağların tepesinde durup bana nutuk çekebileceğini mi sanıyorsun? o kadar...,thái sơn,novia,0,0.22,0,0.09,0,0.31,0,0.2,incorrect,incorrect,incorrect,incorrect
+['margo'],jane,adam,em,lyra,0,0.22,0,0.22,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],john,scarlett,edward,lyra,0,0.22,0,0.31,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],jess,arthur,arthur,guinever,0,0.0,0,0.36,0,0.36,0,0.15,incorrect,incorrect,incorrect,incorrect
+['margo'],mom,annem,mẹ,mi padre,0,0.5,0,0.2,0,0.29,0,0.46,incorrect,incorrect,incorrect,incorrect
+['lacey'],norman,duyarsız,đất,lydia,0,0.18,0,0.15,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['margo', 'marg']",ava,arthur,emily,orlando,0,0.29,0,0.4,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['margo'],jess,agloe,emily,emily,0,0.0,0,0.6,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect

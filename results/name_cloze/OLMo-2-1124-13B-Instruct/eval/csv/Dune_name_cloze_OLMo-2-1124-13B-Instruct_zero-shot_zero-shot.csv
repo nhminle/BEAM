@@ -1,0 +1,101 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['paul'],old woman,rembrandt,đặng thị mai phương,la vieille,0,0.15,0,0.15,0,0.17,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],paul atreides,frank herbert,paul atreides,elrond,0,0.47,0,0.12,0,0.47,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],paul atriedé,descartes,phật,carlos castaneda,0,0.5,0,0.15,0,0.5,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jessica'],gaius helen mohiam,çevdet sunay,paul atreides,paul atreides,0,0.24,0,0.32,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],commander,alp arslan,giọng nói,pepe,0,0.15,0,0.43,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],heinrich,yıldız,phân,"el autor no especifica un nombre específico aquí, pero dado el contexto, podría ser un artefacto desconocido o ficticio. si se espera un nombre específico basado en el contexto de una historia o obra de ficción, sería necesario más información. sin embargo, siguiendo las instrucciones y haciendo una suposición basada en la descripción, podría interpretarse como un objeto sin nombre dado, por lo que no hay un nombre claro",0,0.0,0,0.2,0,0.5,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],norman conquest,iron man,thiên đạo,elisa,0,0.21,0,0.17,0,0.15,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],miss havisham,yunus emre,phạm văn đồng,el viejo,0,0.12,0,0.14,0,0.24,0,0.17,incorrect,incorrect,incorrect,incorrect
+['paul'],paul atreides,ali,phạm văn đồng,el caudillo,0,0.47,0,0.57,0,0.24,0,0.4,incorrect,incorrect,incorrect,incorrect
+['paul'],jack torrance,i̇shak,phạm duy khiêm,el caballero oscuro,0,0.12,0,0.22,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+['jessica'],elisa,aliye kose,phạm văn giai,elisa,0,0.5,0,0.24,0,0.2,0,0.5,incorrect,incorrect,incorrect,incorrect
+['bene gesserit'],malfoy,atatürk,phương,gitano,0,0.0,0,0.13,0,0.21,0,0.43,incorrect,incorrect,incorrect,incorrect
+['jessica'],leto atreides ii,paul atreides,vietcong,leto ii,0,0.26,0,0.2,0,0.27,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jessica'],julia,i̇smet i̇nönü,phạm văn đồnh,esperanza mochon,0,0.5,0,0.22,0,0.1,0,0.26,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessic']",unknown,hayran,thái thượng,carlos,0,0.0,0,0.15,0,0.12,0,0.31,incorrect,incorrect,incorrect,incorrect
+['jessica'],yennefer of vengerberg,atatürk,phạm văn đồng,isabel allende,0,0.07,0,0.14,0,0.1,0,0.19,incorrect,incorrect,incorrect,incorrect
+['paul'],agnes,gaye,phù thủy,doña elvira,0,0.22,0,0.25,0,0.33,0,0.27,incorrect,incorrect,incorrect,incorrect
+['paul'],paul atreides,ömer halisdemir,phạm văn đồng,camelio,0,0.47,0,0.21,0,0.24,0,0.36,incorrect,incorrect,incorrect,incorrect
+['hawat'],john sheridan,i̇smet i̇nönü,phạm công tắc,asimov,0,0.22,0,0.12,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],deckard,orhan pamuk,phạm,philip k. dick,0,0.18,0,0.4,0,0.5,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],malcolm,yasemin,trần lê quốc tuấn,elvis,0,0.36,0,0.18,0,0.19,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",aerys ii targaryen,özdemir sabancı,phạm văn đồng,general perón,0,0.09,0,0.11,0,0.24,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['halleck', 'paul']",aravis,abdülhamid ii,phạm văn đồng,ganelon,0,0.2,0,0.35,0,0.24,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",ramsay snow,arzu ece,trần quốc tuấn,carlos gardel,0,0.13,0,0.33,0,0.22,0,0.24,incorrect,incorrect,incorrect,incorrect
+['gurney'],artemis entreri,beethoven,bob dylan,don quixote,0,0.29,0,0.13,0,0.13,0,0.24,incorrect,incorrect,incorrect,incorrect
+['paul'],jaime lannister,yıldız,harry,jaime lannister,0,0.21,0,0.2,0,0.22,0,0.21,incorrect,incorrect,incorrect,incorrect
+['halleck'],valentine,abdi i̇pekçi,quý sứ,el demonio,0,0.38,0,0.33,0,0.0,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['halleck', 'giọng halleck']",arin,orhan pamuk,phạm văn đồng,calvin,0,0.44,0,0.33,0,0.33,0,0.36,incorrect,incorrect,incorrect,incorrect
+['halleck'],john,hayal perestivo,phạm duy,carlos,0,0.18,0,0.36,0,0.27,0,0.31,incorrect,incorrect,incorrect,incorrect
+['paul'],athos,attila,phạm văn cao,elric,0,0.22,0,0.4,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],dune,arrakis,thufir hawat,harkonnen,0,0.25,0,0.18,0,0.12,0,0.15,incorrect,incorrect,incorrect,incorrect
+['paul'],harry potter,kitap,leonardo da vinci,harry potter,0,0.12,0,0.22,0,0.1,0,0.12,incorrect,incorrect,incorrect,incorrect
+['paul'],caesarion,ali,phạm văn chí,adolf hitler,0,0.15,0,0.57,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],gable,yumruk,trần quốc tuấn,sister mary clarence,0,0.44,0,0.2,0,0.22,0,0.17,incorrect,incorrect,incorrect,incorrect
+['jessica'],gaius helen mohiam,bene gesserit,harkonnen,paul atreides,0,0.24,0,0.4,0,0.12,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],general rommel,abdülkadir selvi,nguyễn văn tiến,carlos,0,0.22,0,0.3,0,0.11,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessica—']",melisandre,özdemir,phạm văn đồng,el caballero rojo,0,0.35,0,0.29,0,0.1,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jessica'],lord voldemort,atatürk,phạm văn đồng,dracula,0,0.1,0,0.14,0,0.1,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jessica'],gaius helen mohiam,reverend mother gaius helen mohiam,gaius helen mohiam,paul atreides,0,0.24,0,0.2,0,0.24,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jessica'],alenna,atilla,đức phật,el cuchillo,0,0.31,0,0.31,0,0.27,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jessica'],the old duke,i̇stanbul,phạm văn đồnh,el duque,0,0.11,0,0.27,0,0.1,0,0.13,incorrect,incorrect,incorrect,incorrect
+['jessica'],countess olga,ken,phương lan,la capitan,0,0.4,0,0.2,0,0.12,0,0.24,incorrect,incorrect,incorrect,incorrect
+['paul'],philip marlowe,edgar allan poe,phạm duy khiêm,agustín de iturbide,0,0.33,0,0.11,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+['paul'],heinlein,rené magritte,thomas edison,elie wiesel,0,0.17,0,0.12,0,0.12,0,0.13,incorrect,incorrect,incorrect,incorrect
+['paul'],orville wright,leonardo da vinci,nguyễn du,salvador dalí,0,0.11,0,0.1,0,0.15,0,0.24,incorrect,incorrect,incorrect,incorrect
+['paul'],unknown,arayıcı-avcı,death eaters,el duque,0,0.18,0,0.12,0,0.12,0,0.17,incorrect,incorrect,incorrect,incorrect
+['jessica'],clarisse mcclellan,ernest shackleton,phạm văn đồng,indiana jones,0,0.32,0,0.33,0,0.1,0,0.3,incorrect,incorrect,incorrect,incorrect
+['jessica'],clarisse mcclellan,abdi i̇pekçi,phạm văn đồng,elías,0,0.32,0,0.22,0,0.1,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jessica'],clarisse mcclellan,i̇brahim tatlıses,thiên đường,eliseo,0,0.32,0,0.17,0,0.11,0,0.31,incorrect,incorrect,incorrect,incorrect
+['jessica'],beatrice,leonardo da vinci,hoàng đức định,edificio,0,0.4,0,0.25,0,0.1,0,0.4,incorrect,incorrect,incorrect,incorrect
+['leto'],arrakeen,arrakeen,emperor shaddam iv,emiliano,0,0.17,0,0.17,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jessica'],olivia de havilland,mustafa kemal atatürk,da vinci,harry houdini,0,0.23,0,0.14,0,0.27,0,0.1,incorrect,incorrect,incorrect,incorrect
+['jessica'],yelena,yüce ana,thiện phương,roberto,0,0.31,0,0.27,0,0.11,0,0.14,incorrect,incorrect,incorrect,incorrect
+['leto'],emperor shaddam iv,atatürk,nguyễn văn toàn,el capitán nemo,0,0.18,0,0.18,0,0.32,0,0.32,incorrect,incorrect,incorrect,incorrect
+['paul'],malfoy,madame,robin williams,padre,0,0.4,0,0.2,0,0.11,0,0.44,incorrect,incorrect,incorrect,incorrect
+['stilgar'],gandalf,mustafa kemal atatürk,phạm văn đồng,el diablo,0,0.29,0,0.36,0,0.1,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],john,atatürk,phạm văn đồng,abraham lincoln,0,0.0,0,0.36,0,0.24,0,0.21,incorrect,incorrect,incorrect,incorrect
+['paul'],staff,toplantı,trần đại quang,roberto,0,0.22,0,0.33,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['leto'],heinrich,atatürk,nguyễn minh triết,alonso,0,0.17,0,0.18,0,0.19,0,0.4,incorrect,incorrect,incorrect,incorrect
+['leto'],unknown,atatürk,phú xuân,sol,0,0.18,0,0.18,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],atticus,abdi i̇pekçi,phạm văn đồng,alberto,0,0.36,0,0.13,0,0.24,0,0.36,incorrect,incorrect,incorrect,incorrect
+['paul'],king lear,yunus emre,ho chi minh,camilo,0,0.15,0,0.14,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+['paul'],paul atreides,i̇smet i̇nönü,ngọc hoàng,salvador dalí,0,0.47,0,0.13,0,0.14,0,0.24,incorrect,incorrect,incorrect,incorrect
+['paul'],john,halley,halley,josé arcadio buendía,0,0.0,0,0.4,0,0.4,0,0.17,incorrect,incorrect,incorrect,incorrect
+['paul'],unspecified,mont blanc,nguyễn du,condor,0,0.13,0,0.14,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],beetle,canavar,trái đất,el monstruo,0,0.2,0,0.18,0,0.17,0,0.13,incorrect,incorrect,incorrect,incorrect
+['paul'],dune,terli,phạm văn đồng,francisco franco,0,0.25,0,0.22,0,0.24,0,0.1,incorrect,incorrect,incorrect,incorrect
+['paul'],paul atreides,i̇smet i̇nönü,phạm văn đồng,walter,0,0.47,0,0.13,0,0.24,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['kynes', 'kynes—', 'ngài']",maker,recep tayyip erdoğan,arrakis,david,0,0.4,0,0.17,0,0.36,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['leydi jessica', 'dama jessica', 'jessica']",guild bank,aslan gündüz,hasdrubal,eladio veyra,0,0.35,0,0.24,0,0.31,0,0.35,incorrect,incorrect,incorrect,incorrect
+['jessica'],joan crawford,aslıhan,trần thị kim tuyền,isabel allende,0,0.3,0,0.43,0,0.08,0,0.19,incorrect,incorrect,incorrect,incorrect
+['paul'],sanjuro,atatürk,phạm duy khiêm,francisco franco,0,0.36,0,0.36,0,0.33,0,0.1,incorrect,incorrect,incorrect,incorrect
+['paul'],king lear,aslı,nguyễn thành phương,teófilo,0,0.15,0,0.5,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],john,mustafa kemal atatürk,đặng thị mai phương,elisa,0,0.0,0,0.16,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],inspector morse,i̇brahim ayhan,phạm văn đồng,jesus,0,0.11,0,0.12,0,0.24,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],wells,george soros,nguyễn văn thưởng,el presidente,0,0.22,0,0.0,0,0.19,0,0.12,incorrect,incorrect,incorrect,incorrect
+['yueh'],weyland-yutani,john,nguyễn du,walter white,0,0.22,0,0.25,0,0.31,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",watcher,aslan,phát,el señor de los anillos,0,0.33,0,0.4,0,0.29,0,0.15,incorrect,incorrect,incorrect,incorrect
+['paul'],heathcliff,aslan,phạm văn toàn,elisa,0,0.29,0,0.44,0,0.24,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],jack,ali sami yen,phạm văn đồng,el alamein,0,0.25,0,0.25,0,0.24,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['harkonnen', 'yueh']",guards,house harkonnen,ss,guardia civil,0,0.27,0,0.75,0,0.0,0,0.18,incorrect,correct,incorrect,incorrect
+"['ùng', 'barón', 'baron']",leviathan,thomas edison,big bertha,martillo,0,0.29,0,0.33,0,0.27,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",edward hyde,i̇bn al-nafis,phạm văn đồnh,el autor no especifica un nombre específico en este fragmento.,0,0.25,0,0.35,0,0.33,0,0.09,incorrect,incorrect,incorrect,incorrect
+['paul'],paul atreides,atatürk,nguyễn văn quyết,clarisse mcclellan,0,0.47,0,0.36,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['pau', 'paul']",dr. mann,elif,phạm văn chánh,carlos,0,0.18,0,0.25,0,0.24,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['thufir hawat—', 'thufir hawat']",duncan idaho,orhan pamuk,bene gesserit,paul atreides,0,0.12,0,0.38,0,0.11,0,0.33,incorrect,incorrect,incorrect,incorrect
+['fremen'],dracula,ali,nguyễn du,drácula,0,0.15,0,0.0,0,0.27,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",lord varys,atatürk,phạm văn đồnh,el jefe,0,0.27,0,0.33,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",chicken,çiçek,phạm văn đồng,don quijote,0,0.2,0,0.0,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+['stilgar'],malcolm,ali,john,el diablo,0,0.14,0,0.2,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jamis'],merlin,atatürk,phạm văn đồng,merlin,0,0.36,0,0.17,0,0.22,0,0.36,incorrect,incorrect,incorrect,incorrect
+['gurney halleck'],musashi miyamoto,yasushi yamamoto,trung quốc,miyamoto musashi,0,0.2,0,0.2,0,0.25,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['jamis', 'chani']",chiffon,arakkis,arrakis,chani,0,0.5,0,0.5,0,0.5,1,1.0,incorrect,incorrect,incorrect,correct
+['harah'],chani,atilla,phạm văn đồng,carlos,0,0.4,0,0.36,0,0.33,0,0.36,incorrect,incorrect,incorrect,incorrect
+['chani'],khadija,atatürk,abdul kader,abu lahab,0,0.5,0,0.17,0,0.12,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['alia', 'paul']",lyra,i̇smail cem,đặc vụ,lucifer,0,0.25,0,0.29,0,0.4,0,0.36,incorrect,incorrect,incorrect,incorrect
+['gurney'],it annoyed vader,mustafa kemal atatürk,phạm văn đồnh,caesar,0,0.09,0,0.15,0,0.11,0,0.17,incorrect,incorrect,incorrect,incorrect
+['gurney'],paul atreides,i̇smet i̇nönü,phạm văn đồng,el chavo del ocho,0,0.32,0,0.12,0,0.11,0,0.09,incorrect,incorrect,incorrect,incorrect
+['gurney'],paul atreides,stilgar,hawat,paul atreides,0,0.32,0,0.31,0,0.0,0,0.32,incorrect,incorrect,incorrect,incorrect
+['muad'],barsoom,kenar,quan sát,paul atreides,0,0.18,0,0.22,0,0.33,0,0.35,incorrect,incorrect,incorrect,incorrect

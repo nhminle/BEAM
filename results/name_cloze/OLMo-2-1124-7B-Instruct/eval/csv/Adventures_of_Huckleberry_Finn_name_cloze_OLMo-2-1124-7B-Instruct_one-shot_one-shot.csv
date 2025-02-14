@@ -1,0 +1,101 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['musa', 'moisés', 'moses']",tom,adam,người mẹ,la viuda,0,0.29,0,0.25,0,0.43,0,0.33,incorrect,incorrect,incorrect,incorrect
+['tom sawyer'],george,ali,thiết,don quijote,0,0.33,0,0.22,0,0.27,0,0.19,incorrect,incorrect,incorrect,incorrect
+"['bayan watson', 'watson']",scout,ali,tuyết,maría,0,0.18,0,0.25,0,0.24,0,0.4,incorrect,incorrect,incorrect,incorrect
+['tom sawyer'],tom,ali,trong,don pepe,1,1.0,0,0.22,0,0.5,0,0.33,correct,incorrect,incorrect,incorrect
+['tom'],arthur,toprak,phương,tom,0,0.22,0,0.44,0,0.22,1,1.0,incorrect,incorrect,incorrect,correct
+['tom'],tom,mustafa kemal,tom,jim,1,1.0,0,0.25,1,1.0,0,0.33,correct,incorrect,correct,incorrect
+['tom'],blackbeard,andrin,hawkeye,jack,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['tom sawyer'],bill,özer,truyện kiều,el lobo,0,0.0,0,0.43,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+['tommy barnes'],little,minik,tom,jimmy,0,0.22,0,0.24,0,0.75,0,0.6,incorrect,incorrect,correct,incorrect
+['tom'],bill,adalet,nguyễn khả lạp,juan,0,0.0,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bayan watson', 'watson']",miss watson,halime,thịt,la viuda,0,0.71,0,0.18,0,0.2,0,0.31,correct,incorrect,incorrect,incorrect
+"['tow sawyer', 'tom sawyer']",jim,arapas,phineas,el viejo,0,0.33,0,0.17,0,0.15,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['yargıç thatcher', 'thatcher']",thad,hayrola,bà chánh án,don carlos,0,0.5,0,0.4,0,0.38,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jim'],jim,ali,ứ,la monarca,1,1.0,0,0.33,0,0.0,0,0.15,correct,incorrect,incorrect,incorrect
+"['yargıç thatcher', 'tha', 'thatcher']",law,çavdar,tom,deane,0,0.33,0,0.33,0,0.33,0,0.31,incorrect,incorrect,incorrect,incorrect
+['thatcher'],thompson,adalet,bishop,juez,0,0.25,0,0.14,0,0.14,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['bayan watson', 'watson']",miss watson,aslı,định,padre,0,0.71,0,0.4,0,0.22,0,0.2,correct,incorrect,incorrect,incorrect
+['tom sawyer'],tom,ali,thelonious,don quijote,1,1.0,0,0.22,0,0.31,0,0.19,correct,incorrect,incorrect,incorrect
+['jim'],jim,artur,nguyễn,carlos,1,1.0,0,0.0,0,0.0,0,0.0,correct,incorrect,incorrect,incorrect
+['jim'],jim,ali,trần,jim,1,1.0,0,0.33,0,0.0,1,1.0,correct,incorrect,incorrect,correct
+['jim'],uncle remus,yenişehir,uncle tom,eladio,0,0.14,0,0.17,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jim'],tom,ali,người đàn ông,don pedro,0,0.33,0,0.33,0,0.12,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],tom,ali,tom,don quijote,0,0.33,0,0.33,0,0.33,0,0.14,incorrect,incorrect,incorrect,incorrect
+['jim'],uncle remus,merlin,phoebe,don,0,0.14,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bay bradish', 'misto bradish', 'bradish']",jim,osman,trung,señor smith,0,0.25,0,0.25,0,0.22,0,0.38,incorrect,incorrect,incorrect,incorrect
+['jim'],jim,illinois,thelonious,illinois,1,1.0,0,0.18,0,0.15,0,0.18,correct,incorrect,incorrect,incorrect
+['jim'],jim,ali,phoebe,robinson,1,1.0,0,0.33,0,0.0,0,0.18,correct,incorrect,incorrect,incorrect
+['jim'],clara,çoktalı ali,người đàn ông,josé,0,0.0,0,0.14,0,0.12,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jim'],john,wilton,phoebe,robinson,0,0.29,0,0.22,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jim'],jim,illinois,george,illinois,1,1.0,0,0.18,0,0.0,0,0.18,correct,incorrect,incorrect,incorrect
+['jim'],george,ali,ngọc,isabel,0,0.0,0,0.33,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jim'],old blue,ali,tim,el pollo,0,0.0,0,0.33,0,0.67,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],joe,halil,người đàn ông,jon,0,0.33,0,0.25,0,0.12,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jim'],tom,nehri,ngọc,pepe,0,0.33,0,0.25,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['abner moore'],uncle,ali,nguyen,don julian,0,0.4,0,0.25,0,0.36,0,0.27,incorrect,incorrect,incorrect,incorrect
+['tom sawyer'],tom,ali,trung,padre,1,1.0,0,0.22,0,0.27,0,0.36,correct,incorrect,incorrect,incorrect
+['jim'],jim,ali,phoebe,don,1,1.0,0,0.33,0,0.0,0,0.0,correct,incorrect,incorrect,incorrect
+['jim'],jim,ali,phoebe,jim,1,1.0,0,0.33,0,0.0,1,1.0,correct,incorrect,incorrect,correct
+['jim'],jim,emma,thelma,illionois,1,1.0,0,0.29,0,0.22,0,0.17,correct,incorrect,incorrect,incorrect
+['jim'],jim,çanakkale,người đồng bào,jim,1,1.0,0,0.0,0,0.12,1,1.0,correct,incorrect,incorrect,correct
+['jim'],jim,şehrin,phoebe,don quijote,1,1.0,0,0.22,0,0.0,0,0.14,correct,incorrect,incorrect,incorrect
+['jim'],george,ali,ứ,jim,0,0.0,0,0.33,0,0.0,1,1.0,incorrect,incorrect,incorrect,correct
+['jim'],jim,yusuf,trung,bill,1,1.0,0,0.0,0,0.0,0,0.29,correct,incorrect,incorrect,incorrect
+['jim'],jim,adil,phương,roberto,1,1.0,0,0.29,0,0.0,0,0.0,correct,incorrect,incorrect,incorrect
+['jim'],tom,ali,phúc,roberto,0,0.33,0,0.33,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim turner'],jim,çakmak,pham,robinson,1,1.0,0,0.22,0,0.29,0,0.29,correct,incorrect,incorrect,incorrect
+['jim'],jim,ali,will,capitán,1,1.0,0,0.33,0,0.29,0,0.2,correct,incorrect,incorrect,incorrect
+"['bayan hooker', 'hooker']",miss watson,yüzebilen,thúy,don pedro,0,0.25,0,0.29,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jim'],tom,merab,phoebe,capitán,0,0.33,0,0.25,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jim'],jim,paul,phoebe,jim,1,1.0,0,0.0,0,0.0,1,1.0,correct,incorrect,incorrect,correct
+['jim'],jim,ali,nguyễn du,don quijote,1,1.0,0,0.33,0,0.0,0,0.14,correct,incorrect,incorrect,incorrect
+['jim'],uncle tom,mustafa,phoebe,thomas,0,0.17,0,0.2,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jim'],jim,ali,phoebe,john,1,1.0,0,0.33,0,0.0,0,0.29,correct,incorrect,incorrect,incorrect
+['jim'],tom,elliot,phong,don quijote,0,0.33,0,0.22,0,0.0,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['joh', 'john']",tom,ali,ngọc,señor,0,0.33,0,0.0,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jim'],jim,ali,tom,don quijote,1,1.0,0,0.33,0,0.33,0,0.14,correct,incorrect,incorrect,incorrect
+['jim'],jim,john,phúc,jim,1,1.0,0,0.29,0,0.0,1,1.0,correct,incorrect,incorrect,correct
+"['cairo', 'jim']",st. louis,black,uncle tom,tom,0,0.17,0,0.2,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['buck'],tom,ali,tom,john,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['buck'],tom,anna,anh ta,carlos,0,0.0,0,0.0,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['charlo', 'charlotte', 'bayan charlotte']",miss watson,emma,ngọc anh,maría,0,0.25,0,0.22,0,0.31,0,0.4,incorrect,incorrect,incorrect,incorrect
+['buck'],tom,ali,thúy,eliza,0,0.0,0,0.0,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['huck'],uncle tom,merve,trong,juan,0,0.31,0,0.0,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['buc', 'buck']",george,halil,trần,carlos,0,0.0,0,0.0,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jim'],jim,adama,phương,jim,1,1.0,0,0.25,0,0.0,1,1.0,correct,incorrect,incorrect,correct
+['jim'],jim,adela,tom,jim,1,1.0,0,0.0,0,0.33,1,1.0,correct,incorrect,incorrect,correct
+['jim'],tom,jack,nguyên,robinson,0,0.33,0,0.29,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['bridgewater', 'bilgewater', 'aguassucias']",louis,charles,napoleon,napoleon,0,0.25,0,0.24,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jim'],jim,özdemir,nguyễn đình thi,don carlos,1,1.0,0,0.2,0,0.11,0,0.0,correct,incorrect,incorrect,incorrect
+['jim'],jim,ali,nguyen,don,1,1.0,0,0.33,0,0.0,0,0.0,correct,incorrect,incorrect,incorrect
+['jim'],jim,osman,tom,don,1,1.0,0,0.25,0,0.33,0,0.0,correct,incorrect,incorrect,incorrect
+['jim'],jim,ali,trần hoả,don quijote,1,1.0,0,0.33,0,0.0,0,0.14,correct,incorrect,incorrect,incorrect
+['jim'],jim,adalet,anh em,jim,1,1.0,0,0.0,0,0.22,1,1.0,correct,incorrect,incorrect,correct
+"['richard iii', 'richard', 'ricardo iii']",jim,iii. sultan,hamlet,don quijote,0,0.33,0,0.43,0,0.31,0,0.36,incorrect,incorrect,incorrect,incorrect
+['jim'],tom,hamdard,lão,don carlos,0,0.33,0,0.2,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],jim,ali,phú đồng,don quixote,1,1.0,0,0.33,0,0.0,0,0.14,correct,incorrect,incorrect,incorrect
+"['sherburn', 'albay sherburn', 'colonel sherburn']",bill,abdul,tố hữu,coronel,0,0.36,0,0.4,0,0.36,0,0.86,incorrect,incorrect,incorrect,correct
+"['buck harne', 'buck harkness']",scout,adımda,nguyễn huệ,el,0,0.22,0,0.18,0,0.4,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'lizabeth']",little mary,halil,ngọc,maría,0,0.32,0,0.31,0,0.0,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['bay peter wilks', 'peter wilks']",tom,osman,mr. collins,don quijote,0,0.25,0,0.25,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['willia', 'william']",john,ali,nguyễn đình thi,isabel,0,0.0,0,0.44,0,0.19,0,0.33,incorrect,incorrect,incorrect,incorrect
+['harvey'],george,mr. hyde,nguyễn phúc nguyên,don john,0,0.33,0,0.29,0,0.17,0,0.14,incorrect,incorrect,incorrect,incorrect
+['susan'],queen,ali,thị thành viên,don carlos,0,0.4,0,0.25,0,0.21,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['mary jan', 'mary jane']",tom,hasan,thiền sư,don carlos,0,0.29,0,0.5,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+['mary jane'],wilhelm,hasan,đồngan,don carlos,0,0.18,0,0.44,0,0.4,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['barley', 'bartley', 'bayan bartley']",miss watson,ali,người mẹ,juanita,0,0.25,0,0.44,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['mary jane'],george,paran,thịnh vân,don giovanni,0,0.27,0,0.57,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['levi bell', 'levi ben']",george,tom,thaddeus,john,0,0.29,0,0.0,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+['tim collins'],bill,ali,phoebe,carlos,0,0.4,0,0.4,0,0.15,0,0.46,incorrect,incorrect,incorrect,incorrect
+['peter wilks'],that money,altın,mr. boddy,don,0,0.13,0,0.25,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['william'],george,ali,phúc đàm,don quijote,0,0.0,0,0.4,0,0.27,0,0.11,incorrect,incorrect,incorrect,incorrect
+['hines'],tom,joseph,người đàn ông,eladio,0,0.0,0,0.18,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+['tom'],tom,emma,những người thân của chúng ta,carlos,1,1.0,0,0.29,0,0.06,0,0.22,correct,incorrect,incorrect,incorrect
+"['saly', 'sally', 'aunt sally', 'sally teyze']",jim,ali,tom,maría,0,0.0,0,0.57,0,0.29,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['bayan phelps', 'phelps', 'señora phelps']",missus,ali,đàm,la [mask] no hacía más que hablar.,0,0.21,0,0.27,0,0.25,0,0.3,incorrect,incorrect,incorrect,incorrect
+['tom'],jim,meriç,phoebe,robinson,0,0.33,0,0.25,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+['tom'],tom,meray,tom,don quijote,1,1.0,0,0.25,1,1.0,0,0.14,correct,incorrect,correct,incorrect
+['tom'],jim,ali,trong,carlos,0,0.33,0,0.0,0,0.5,0,0.22,incorrect,incorrect,incorrect,incorrect
+['tom'],george,merdivenlerden üst,phoebe,don quijote,0,0.22,0,0.1,0,0.22,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['saly', 'sally', 'aunt sally', 'sally teyze']",uncle remus,ali,người đàn ông,maría,0,0.38,0,0.57,0,0.26,0,0.27,incorrect,incorrect,incorrect,incorrect

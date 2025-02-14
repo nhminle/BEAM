@@ -1,0 +1,48 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['jalil', 'yalil', 'celil']",john,çokalılar,nguyễn đình thi,carlos,0,0.22,0,0.57,0,0.2,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['mariam jo', 'mariam', 'meryem co']",john,yaşar,thịnh,jesus,0,0.67,0,0.36,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['faizulá', 'faizu', 'molla feyzullah', 'mullah faizullah']",john,ali,nguyễn đình thi,el ulema,0,0.22,0,0.5,0,0.26,0,0.47,incorrect,incorrect,incorrect,incorrect
+"['mil', 'jalil', 'yalil', 'celil']",king herod,i̇smet paşa,nguyễn đình thi,maría,0,0.15,0,0.15,0,0.2,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['lili lili', 'lili', 'lili mi']",minnow,aya,chim,minnow,0,0.5,0,0.0,0,0.36,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['mariam jo', 'mariam', 'meryem co']",john,armağan,tôi,proyector,0,0.67,0,0.46,0,0.4,0,0.56,incorrect,incorrect,incorrect,incorrect
+"['meryem gari', 'mariam']",aladdin,meryem,tây anh,el grial,0,0.36,1,1.0,0,0.33,0,0.53,incorrect,correct,incorrect,incorrect
+"['celil han', 'chính jalil khan', 'jalil khan', 'yalil jan']",john,osman,jalil khan,juan,0,0.57,0,0.5,1,1.0,0,0.86,incorrect,incorrect,correct,correct
+['nana'],emily,anne,thịnh vân,juan,0,0.0,0,0.5,0,0.46,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['mariam jo', 'mariam', 'meryem co']",john,yusuf,em,julio,0,0.67,0,0.18,0,0.5,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['bibi', 'bibi co', 'bibi jo']",jo,ali,thịt,maría,1,1.0,0,0.29,0,0.25,0,0.22,correct,incorrect,incorrect,incorrect
+"['nergis', 'nargis']",john,ali,tom,carlos,0,0.2,0,0.44,0,0.0,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['jalil', 'yalil', 'celil']",rick,arjuna,ngôi sao,ram,0,0.22,0,0.36,0,0.15,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",john,adalet,nguyễn đức hiếu,el,0,0.2,0,0.36,0,0.19,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",john,osman,nguyễn đình thi,carlos,0,0.2,0,0.2,0,0.2,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",emily,evde,nguyễn đình thi,maría,0,0.2,0,0.36,0,0.2,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",jan,ayla,nhung,maría,0,0.25,0,0.67,0,0.0,0,0.6,incorrect,incorrect,incorrect,incorrect
+"['peştun', 'tariq']",john,çakmakçı,osama,juan,0,0.2,0,0.31,0,0.2,0,0.4,incorrect,incorrect,incorrect,incorrect
+['alyona'],jack,ali bey,thuyền phó,capitán,0,0.2,0,0.46,0,0.25,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'tariq']",joe,ali,thanh vân,eladio,0,0.0,0,0.5,0,0.29,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['abdül şerif', 'abdul sharif']",smith,peşaver,anna,shuja,0,0.4,0,0.5,0,0.25,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['meryem', 'mariam']",elizabeth bennet,sonra,nguyễn đình thi,don quijote,0,0.18,0,0.18,0,0.19,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",girl,sen,nguyễn đức hiếu,carlos,0,0.22,0,0.4,0,0.19,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'tariq']",ahmad,ama atatürk'i,laila,carlos,0,0.2,0,0.44,0,0.4,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",emma,ali,nguyễn thị huyền,maría,0,0.44,0,0.5,0,0.19,0,0.6,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",emily,ali,nguyễn đình thi,maría,0,0.4,0,0.5,0,0.1,0,0.6,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",john,osman,nguyễn khả lạc,carlos,0,0.2,0,0.2,0,0.11,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['meryem', 'mariam']",marie curie,osmanlı i̇mparatorluğu,alice,amanullah khan,0,0.47,0,0.3,0,0.36,0,0.3,incorrect,incorrect,incorrect,incorrect
+"['mariam hiểu', 'meryem', 'mariam']",emma,ada,người phụ nữ,maría,0,0.4,0,0.44,0,0.35,0,0.91,incorrect,incorrect,incorrect,correct
+"['rashid', 'rasheed', 'raşit']",mullah omar,taliban,băng,mullah omar,0,0.12,0,0.33,0,0.22,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",john,ali,ngôi sao,la tendré vigilada,0,0.2,0,0.5,0,0.15,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",john,osman,nguyễn đình thi,smith,0,0.2,0,0.2,0,0.2,0,0.6,incorrect,incorrect,incorrect,incorrect
+"['jalil', 'yalil', 'celil']",john,osman,ngô đình diệm,maría,0,0.22,0,0.2,0,0.11,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['zalmay', 'zalmai']",john,meryem,nguyễn đức đam,maría,0,0.0,0,0.33,0,0.2,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",mary,osman,king,don quijote,0,0.22,0,0.2,0,0.22,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'iariq', 'tariq']",john,john,người đàn ông bị đánh,manuel vargas,0,0.0,0,0.0,0,0.23,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'tariq']",hamid,delikanlı,malik,osman,0,0.4,0,0.29,0,0.6,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'tariq']",john,ali şanlı,nguyễn đình thi,manuel,0,0.0,0,0.29,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['zalmay', 'zalmai', 'zalma']",john,babası,tom,carlos,0,0.0,0,0.5,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila', 'lail']",john,halil,tom,maría,0,0.0,0,0.67,0,0.0,0,0.6,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",edith,ali,trần,maría,0,0.2,0,0.5,0,0.22,0,0.6,incorrect,incorrect,incorrect,incorrect
+"['meryem', 'mariam']",elizabeth smart,adalet,ngoại í,maría de jesús martínez,0,0.29,0,0.33,0,0.31,0,0.41,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",john,tarık,tom,carlos,0,0.0,0,0.4,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['hamza', 'hamza uzunca']",john,ali,nguyễn đình thi,don quijote,0,0.25,0,0.25,0,0.19,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['celil han', 'jalil khan', 'yalil jan']",her mother,meryem,nhân từ,mi madre,0,0.32,0,0.18,0,0.6,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['laila', 'leyla co']",kolba,leyla,ngọc anh,resorte,0,0.4,1,1.0,0,0.2,0,0.27,incorrect,correct,incorrect,incorrect
+"['leyla', 'laila']",children,özdemir,trẻ,la maestra,0,0.31,0,0.17,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect

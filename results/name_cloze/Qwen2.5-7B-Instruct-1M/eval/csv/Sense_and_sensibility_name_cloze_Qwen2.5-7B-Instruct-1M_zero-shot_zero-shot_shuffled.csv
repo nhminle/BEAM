@@ -1,0 +1,101 @@
+Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,es_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['john dashwood', 'mr john dashwood', 'john daswood']",father,babasının,thái cao,familia,0,0.29,0,0.25,0,0.27,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['john dashwood', 'john daswood', 'mrs john dashwood']",his wife,kalpsiz karısı,[mask],su esposa,0,0.3,0,0.24,0,0.44,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['henry', 'harry']",large,ailesi,gia sẽ,[mask],0,0.4,0,0.18,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['dashwood', 'señora dashwood', 'daswood', 'mrs dashwood norland']",norland,gelgeldim,norland,norlarid,1,1.0,0,0.25,1,1.0,0,0.8,correct,incorrect,correct,correct
+"['elinor—', 'elinor']",taste,büyük resimler,anh mỹ,[mask],0,0.18,0,0.3,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['elinor'],dearest,herhalde,chị,ella,0,0.31,0,0.29,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+['edward'],him,maskeli adam,ôi,tú,0,0.0,0,0.33,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",colonel,yirmi [mask]'ın,ông,treinta coronel,0,0.3,0,0.27,0,0.4,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",feeble,rheumatism,fla-nen,franela,0,0.14,0,0.33,0,0.4,0,0.53,incorrect,incorrect,incorrect,incorrect
+['marianne'],cheek,zeynep,ông ấy,fiebre,0,0.15,0,0.29,0,0.14,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['elino', 'elinor']",sky,neşenin,triền,su,0,0.0,0,0.5,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['john', 'sir john']",park,christmas,ngài,barton,0,0.29,0,0.17,0,0.29,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['mariann', 'marianne']",[mask],birinci adam,chị,dan,0,0.31,0,0.32,0,0.2,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",his,beyninde,tian,génova,0,0.18,0,0.38,0,0.5,0,0.14,incorrect,incorrect,incorrect,incorrect
+['elinor'],[mask],bu inanmama,nghe,tal,0,0.0,0,0.24,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",colonel,kahvaltı,đại nhân,nombresupuesto,0,0.3,0,0.31,0,0.38,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['elino', 'elinor']",stronger,aksine,[mask],nombre,0,0.29,0,0.36,0,0.0,0,0.5,incorrect,incorrect,incorrect,incorrect
+['elinor'],he,etraflıca,đã,[mask]!,0,0.25,0,0.4,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['willoughby'],secrecy,name,thái anh,[mask],0,0.12,0,0.0,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['elinor'],[mask],gösteriyor,hoàn,total,0,0.0,0,0.5,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['willoughby', 'willoughb']",the,bu [mask],thái,este,0,0.17,0,0.11,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['willoughby'],she,şeytan,cô,[mask],0,0.15,0,0.12,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['marianne'],man,beyefendi,đông kinh,méjico,0,0.55,0,0.12,0,0.24,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",oh,hava,ôi,[mask],0,0.0,0,0.33,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['edward', 'elinor']",his,birgün,temple,elisa,0,0.22,0,0.33,0,0.33,0,0.55,incorrect,incorrect,incorrect,incorrect
+['elinor'],same,dünyanın,nhã,lleguemos,0,0.2,0,0.29,0,0.22,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",name,av sıradan bir yaşayamaz,em,nombresupositorio,0,0.33,0,0.12,0,0.2,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",fancying,maskeli adam,tôi,[mask],0,0.29,0,0.33,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'không']",you,zaman,torng,[mask],0,0.25,0,0.46,0,0.6,0,0.29,incorrect,incorrect,incorrect,incorrect
+['elinor'],mary,hayran,anh,niño,0,0.2,0,0.17,0,0.22,0,0.6,incorrect,incorrect,incorrect,incorrect
+"['elinor quan', 'elinor']",mary,arkadaşının,tây thái,[mask],0,0.25,0,0.27,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",scenery,nefret,đúng phong,isa,0,0.27,0,0.29,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['edward—', 'edward']",mask,sıcak bir hoşabla,thạch,mi,0,0.2,0,0.17,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['john', 'sir john']",dashwoods,evet,hôm,dashwood,0,0.24,0,0.0,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mariann', 'marianne']",sister,kendine,đúng nghị tĩnh,mérito,0,0.15,0,0.4,0,0.19,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['señora palmer', 'mrs palmer', 'palmer']",nature,hayranlığını,lang,[mask],0,0.33,0,0.27,0,0.2,0,0.44,incorrect,incorrect,incorrect,incorrect
+['marianne'],the cottage,kulübe,[mask] này,fincas,0,0.21,0,0.14,0,0.33,0,0.14,incorrect,incorrect,incorrect,incorrect
+['elinor'],we,nazik [mask],chính,lugares,0,0.25,0,0.11,0,0.36,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['palmer—', 'mrs palmer', 'palmer']",country,herşeyi böyle [mask],mỹ,el [mask],0,0.2,0,0.27,0,0.4,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['charlotte', 'señora jennings']",you,ıstırap,được,charlotte de charleroi,0,0.22,0,0.46,0,0.2,0,0.58,incorrect,incorrect,incorrect,incorrect
+['elinor'],mrs. bennet,sahici,[mask],[mask],0,0.24,0,0.17,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",colonel,mutlaka,đại,alguien,0,0.3,0,0.33,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['señor palmer', 'anh palmer', 'palmer', 'mr palmer']",mama,okuldan aysel,đức,mamá,0,0.46,0,0.43,0,0.0,0,0.46,incorrect,incorrect,incorrect,incorrect
+['lucy'],exeter,exeter,exeter,exeter,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['annamaria'],she,hayatta,ba,jamás,0,0.0,0,0.38,0,0.18,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",[mask],bambaşka şey,vietnam,habitual,0,0.29,0,0.4,0,0.13,0,0.38,incorrect,incorrect,incorrect,incorrect
+['elinor'],beau,i̇nanın,cô,él,0,0.2,0,0.33,0,0.25,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['lucy', 'lucy—']",norland,norland,norland,entonces,0,0.18,0,0.18,0,0.18,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['ferrars', 'mrs ferrars', 'señora ferrars']",you,birsen,[mask],persona,0,0.22,0,0.5,0,0.44,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['ferrars', 'mrs ferrars', 'señora ferrars']",[mask],galiba [mask] öyle,[mask],nombre,0,0.44,0,0.28,0,0.44,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['lucy', 'lucy—']",him,karşılığında,viet nam,él,0,0.0,0,0.12,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",your,bana,[mask],en [mask],0,0.4,0,0.2,0,0.0,0,0.27,incorrect,incorrect,incorrect,incorrect
+['lucy'],filigree,büyükyirmi,đứa,niña,0,0.17,0,0.29,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lucy'],her,zafer,[mask],compasión,0,0.0,0,0.0,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['mr ferrars', 'ferrars', 'señor ferrars']",his mother,annesine,trường,usted,0,0.4,0,0.31,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+['edward'],his,dünyada,anh,[mask],0,0.0,0,0.46,0,0.22,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['ferrars', 'mrs ferrars']",,gerçeği,elinor,madre,0,0.2,0,0.29,0,0.31,0,0.5,incorrect,incorrect,incorrect,incorrect
+['elinor'],my agitated will your not,hayır;,người,sus,0,0.26,0,0.33,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['elinor'],happiness,"mutluluğumuzu aşıyorsun, dedi [mask]",ngại một,ese,0,0.27,0,0.19,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['middleton', 'lady middleton']",that,mask,bà,su madre,0,0.25,0,0.25,0,0.33,0,0.35,incorrect,incorrect,incorrect,incorrect
+['elinor'],fakepropername,kızkardeşi,神,dolores,0,0.2,0,0.25,0,0.4,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['anh palmer', 'palmer', 'mr palmer']",mama,anne,nhật,fue,0,0.46,0,0.57,0,0.57,0,0.22,incorrect,incorrect,incorrect,incorrect
+['marianne'],she,bakmak tutar,đúng,no ver la que,0,0.18,0,0.3,0,0.17,0,0.19,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jenning', 'jennings', 'señora jennings']",berkeley,reet,berkeley,berkeley,0,0.29,0,0.29,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['willoughby', 'elinor']",[mask],mektubuna,cô,la enorme carta,0,0.0,0,0.27,0,0.25,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'miss marianne']",[mask],tanrı,người,joven,0,0.4,0,0.46,0,0.22,0,0.15,incorrect,incorrect,incorrect,incorrect
+['marianne'],[mask],adam,cô,nombresupositorio,0,0.29,0,0.17,0,0.0,0,0.24,incorrect,incorrect,incorrect,incorrect
+['marianne'],mother,gayret,mẹ,madre,0,0.29,0,0.43,0,0.4,0,0.62,incorrect,incorrect,incorrect,incorrect
+"['edvvard', 'edward']",her,mutlu,hạnh,cuello,0,0.44,0,0.0,0,0.2,0,0.17,incorrect,incorrect,incorrect,incorrect
+['marianne'],his,hiç,[mask],nombresupuesto,0,0.18,0,0.18,0,0.29,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",it,yarın,việt nam,le,0,0.2,0,0.35,0,0.43,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",sister,mask,cô,ella,0,0.5,0,0.57,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+['marianne'],kindness,hanımefendi,tử,[mask],0,0.5,0,0.32,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['willoughby', 'mr willoughby']",he,bunu,em,hermana,0,0.17,0,0.14,0,0.5,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",[mask],bond,bond,bond,0,0.44,0,0.2,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['eliza'],her,beter,cô,hermana,0,0.25,0,0.2,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['marianne'],london,londra,london,londres,0,0.29,0,0.14,0,0.29,0,0.27,incorrect,incorrect,incorrect,incorrect
+['elinor'],side,ağabeyi,ông,asuntos,0,0.2,0,0.31,0,0.22,0,0.31,incorrect,incorrect,incorrect,incorrect
+['edward'],it,kulübenize,[mask],fortuna,0,0.0,0,0.12,0,0.17,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['elino', 'elinor']","two he working of himself i thousand generosity, and all your then wish with to","yılda geliri ekledi, cömertlik ki, bunun kalbimle kendini hevesli bin",tác giả,el con,0,0.14,0,0.11,0,0.17,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['', 'fanny']",it,nobody,chuyện,una,0,0.0,0,0.36,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+['harry'],[mask],çocuk,chúng,nombre,0,0.18,0,0.0,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['marianne'],her,i̇z,ấn,nombre,0,0.18,0,0.2,0,0.4,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['', 'ferrars', 'señora ferrars']",she,türkiye,[mask],[mask],0,0.44,0,0.15,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+['marianne'],she,i̇lginiz,cô,[mask],0,0.18,0,0.27,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['robert', 'elinor']",devonshire,dawlish,dawlish,devonshire,0,0.38,0,0.31,0,0.31,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['middleton', 'lady middleton']",street,kocası,ngày,conduit,0,0.27,0,0.2,0,0.5,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",mother,ama,nhật,mamá,0,0.33,0,0.0,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",resolution,bunları kadar,chế,tu,0,0.33,0,0.38,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['edward'],he,bedeli,anh,nada,0,0.25,0,0.33,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+['edward'],mother,en ama,thưa phố,casa,0,0.33,0,0.33,0,0.14,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",poor tom,han,vị,no,0,0.29,0,0.22,0,0.2,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",well!,demek,đứa,[mask],0,0.18,0,0.25,0,0.22,0,0.44,incorrect,incorrect,incorrect,incorrect
+['elinor'],sorry,kızkardeşinize,làm,hermana,0,0.36,0,0.3,0,0.22,0,0.31,incorrect,incorrect,incorrect,incorrect
+['edward'],oxford,oxford,oxford,oxford,0,0.33,0,0.33,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",colonel,elinor,dưng,coronel,0,0.15,0,0.67,0,0.33,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",colonel,kilisenin,[mask],[mask],0,0.3,0,0.27,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",parsonage,onu,cha tư ông,vecinos,0,0.13,0,0.22,0,0.12,0,0.62,incorrect,incorrect,incorrect,incorrect
+['elinor'],her,dile,cô,ella,0,0.44,0,0.2,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+['edward'],name,name,[mask],familia,0,0.2,0,0.2,0,0.17,0,0.15,incorrect,incorrect,incorrect,incorrect

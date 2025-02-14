@@ -1,0 +1,101 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['john dashwood', 'mr john dashwood', 'john daswood']",mr. bennet,atatürk,người,el,0,0.33,0,0.22,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['john dashwood', 'john daswood', 'mrs john dashwood']",elizabeth bennet,evliya,người đàn ông,elizabeth,0,0.2,0,0.15,0,0.4,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['henry', 'harry']",mr. woodhouse,adam,nguyễn,ella,0,0.22,0,0.22,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['dashwood', 'señora dashwood', 'daswood', 'mrs dashwood norland']",elizabeth bennet,elizabeth bennet,alice,norland,0,0.18,0,0.18,0,0.18,1,1.0,incorrect,incorrect,incorrect,correct
+"['elinor—', 'elinor']",emma,resim,em,el,0,0.2,0,0.36,0,0.25,0,0.5,incorrect,incorrect,incorrect,incorrect
+['elinor'],mr. bennet,napoleon,chị,maría,0,0.25,0,0.29,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+['edward'],mr. darcy,sen,em,él,0,0.4,0,0.22,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",colonel brandon,ann,nguyễn văn thiệu,coronel zapatá,0,0.64,0,0.6,0,0.28,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",mr. pickwick,atatürk,ông ấy,don quijote,0,0.3,0,0.27,0,0.14,0,0.21,incorrect,incorrect,incorrect,incorrect
+['marianne'],mr. rochester,voltaire,ông ấy,león,0,0.29,0,0.38,0,0.14,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['elino', 'elinor']",father,türkiye,đông nam á,papá,0,0.33,0,0.17,0,0.13,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['john', 'sir john']",scrooge,britney spears,ngài,ella,0,0.4,0,0.24,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mariann', 'marianne']",mr.,adam,người đàn ông,usted,0,0.4,0,0.18,0,0.4,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",mr. barret,adam,nghệ sĩ,don juan,0,0.44,0,0.17,0,0.13,0,0.25,incorrect,incorrect,incorrect,incorrect
+['elinor'],elizabeth bennet,i̇brahim,nicole kidman,ella,0,0.36,0,0.31,0,0.32,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",wentworth,adam,đại tá nguyễn,smith,0,0.12,0,0.44,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['elino', 'elinor']",david hume,aksine,nghuyễn tuấn,marie curie,0,0.13,0,0.36,0,0.24,0,0.25,incorrect,incorrect,incorrect,incorrect
+['elinor'],love,i̇nsan,anh ấy,carlos,0,0.2,0,0.36,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['willoughby'],mr.,ali,người như mẹ,él,0,0.0,0,0.15,0,0.18,0,0.17,incorrect,incorrect,incorrect,incorrect
+['elinor'],mr. woodhouse,i̇van karamazin,con,marie curie,0,0.11,0,0.2,0,0.22,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['willoughby', 'willoughb']",mr. knightley,ali,anh ấy,carlos,0,0.35,0,0.17,0,0.25,0,0.27,incorrect,incorrect,incorrect,incorrect
+['willoughby'],emma,ali,anh,ella,0,0.0,0,0.15,0,0.15,0,0.29,incorrect,incorrect,incorrect,incorrect
+['marianne'],mr. darcy,lord,ông,don juan,0,0.35,0,0.17,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",william wordsworth,yağmur,người,la primavera,0,0.15,0,0.29,0,0.15,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['edward', 'elinor']",elizabeth bennet,edward,người khách,su visitante,0,0.36,1,1.0,0,0.12,0,0.11,incorrect,correct,incorrect,incorrect
+['elinor'],dorian gray,adam,nguyễn du,carlos,0,0.24,0,0.0,0,0.27,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",mr. darcy,elizabeth,washington irving,walter scott,0,0.35,0,0.24,0,0.32,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",samuel johnson,ben,tôi,thoreau,0,0.4,0,0.44,0,0.22,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'không']",edmund burke,atatürk,những,epicteto,0,0.3,0,0.27,0,0.6,0,0.25,incorrect,incorrect,incorrect,incorrect
+['elinor'],elizabeth,hayran,ngọc,ella,0,0.4,0,0.17,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['elinor quan', 'elinor']",elinor,arkadaş,người đàn ông,ella,1,1.0,0,0.22,0,0.35,0,0.4,correct,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",henry tilney,manzara,nguyễn tuân,thoreau,0,0.4,0,0.53,0,0.21,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['edward—', 'edward']",emma,haydutlar,nghuyễn tuân,don quijote,0,0.4,0,0.4,0,0.22,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['john', 'sir john']",mr. palmer,dashvvoodlar,ngài daswood,sotherton,0,0.22,0,0.27,0,0.2,0,0.47,incorrect,incorrect,incorrect,incorrect
+"['mariann', 'marianne']",elinor,turgut,chị,ella,0,0.15,0,0.15,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['señora palmer', 'mrs palmer', 'palmer']",elizabeth bennet,i̇smail cem,ngọc,emma,0,0.21,0,0.38,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+['marianne'],mr. woodhouse,murat,nguyễn du,maría,0,0.29,0,0.31,0,0.24,0,0.77,incorrect,incorrect,incorrect,correct
+['elinor'],mr. bennet,ali,ông,carlos,0,0.25,0,0.44,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['palmer—', 'mrs palmer', 'palmer']",mr. darcy,hadi,này,él,0,0.53,0,0.2,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['charlotte', 'señora jennings']",mr. brown,ali,đồng tiền,edward,0,0.22,0,0.33,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['elinor'],mr.,türünün,người vợ,emma,0,0.22,0,0.15,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",waverley,ben,nguyễn,belkov,0,0.46,0,0.4,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['señor palmer', 'anh palmer', 'palmer', 'mr palmer']",mr. darcy,annem,nguyễn,papá,0,0.56,0,0.5,0,0.36,0,0.4,incorrect,incorrect,incorrect,incorrect
+['lucy'],emma,exeter,exeter,ellas,0,0.0,0,0.0,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['annamaria'],emily,muhtar,nguyễn,margarita,0,0.29,0,0.4,0,0.27,0,0.56,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",mr. bennet,macbeth,người,el lector,0,0.56,0,0.4,0,0.15,0,0.12,incorrect,incorrect,incorrect,incorrect
+['elinor'],emma,ali,trang công tử,don juan,0,0.2,0,0.44,0,0.21,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['lucy', 'lucy—']",mr. bingley,anna,elizabeth bennet,elizabeth,0,0.27,0,0.0,0,0.1,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['ferrars', 'mrs ferrars', 'señora ferrars']",mr. woodhouse,ben,người có ý kiến đáng lắng nghe,madame bovary,0,0.38,0,0.44,0,0.23,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['ferrars', 'mrs ferrars', 'señora ferrars']",elizabeth,ali,ngọc,ella,0,0.27,0,0.22,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['lucy', 'lucy—']",elizabeth bennet,anneyim,họa sĩ,maría,0,0.1,0,0.18,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",mr. blackstone,adam,người đàn ông,ella,0,0.1,0,0.0,0,0.32,0,0.4,incorrect,incorrect,incorrect,incorrect
+['lucy'],madame defarge,albert camus,nghê,madame,0,0.0,0,0.25,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lucy'],elizabeth bennet,i̇nsan,người đọc,usted,0,0.1,0,0.0,0,0.31,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['mr ferrars', 'ferrars', 'señor ferrars']",mr. woodhouse,anna,nghệm,ella,0,0.35,0,0.24,0,0.29,0,0.36,incorrect,incorrect,incorrect,incorrect
+['edward'],mr.,edward,nguyễn du,él,0,0.22,1,1.0,0,0.27,0,0.25,incorrect,correct,incorrect,incorrect
+"['ferrars', 'mrs ferrars']",elizabeth,i̇smail,elinor,la abuela,0,0.25,0,0.24,0,0.31,0,0.3,incorrect,incorrect,incorrect,incorrect
+['elinor'],elizabeth,i̇smail,người đàn ông,don juan,0,0.4,0,0.17,0,0.32,0,0.14,incorrect,incorrect,incorrect,incorrect
+['elinor'],mr. bennet,harry potter,con,napoleón,0,0.25,0,0.22,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['middleton', 'lady middleton']",father,güzeli,ngọc phượng,guardias,0,0.2,0,0.2,0,0.24,0,0.33,incorrect,incorrect,incorrect,incorrect
+['elinor'],emma,i̇van pavloviç,người,emma,0,0.2,0,0.21,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['anh palmer', 'palmer', 'mr palmer']",mr. darcy,annem,người,papá,0,0.56,0,0.5,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+['marianne'],elizabeth bennet,kaspar,người,juan,0,0.33,0,0.29,0,0.15,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jenning', 'jennings', 'señora jennings']",smith,john,emily,carlos,0,0.25,0,0.36,0,0.33,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['willoughby', 'elinor']",elizabeth,willoughby,nguyễn trãi,emma,0,0.4,1,1.0,0,0.24,0,0.2,incorrect,correct,incorrect,incorrect
+"['marianne', 'miss marianne']",mr. collins,delikanlı,anh ấy,lucía,0,0.42,0,0.35,0,0.29,0,0.31,incorrect,incorrect,incorrect,incorrect
+['marianne'],him,i̇lkesiz,người đàn ông,él,0,0.18,0,0.27,0,0.38,0,0.2,incorrect,incorrect,incorrect,incorrect
+['marianne'],edward,muhtar,em,tu madre,0,0.29,0,0.43,0,0.2,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['edvvard', 'edward']",edward,annem,con trai,maría,1,1.0,0,0.18,0,0.14,0,0.36,correct,incorrect,incorrect,incorrect
+['marianne'],elizabeth,turgut özakın,em,amigo,0,0.24,0,0.29,0,0.2,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",mr.,tanrı,nguyễn du,europa,0,0.67,0,0.36,0,0.27,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",edward,abla,người,su hermana,0,0.33,0,0.2,0,0.36,0,0.5,incorrect,incorrect,incorrect,incorrect
+['marianne'],mr. or mrs. blackstone,ali,mẹ,señora,0,0.27,0,0.36,0,0.4,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['willoughby', 'mr willoughby']",mr. elliot,ali,nguyễn,carlos,0,0.52,0,0.15,0,0.25,0,0.32,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",elizabeth,bond,emma,bond,0,0.27,0,0.2,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+['eliza'],elizabeth,kızkardeşiniz,nguyễn du,maría,0,0.71,0,0.33,0,0.14,0,0.4,correct,incorrect,incorrect,incorrect
+['marianne'],elinor,annem,london,londres,0,0.14,0,0.62,0,0.29,0,0.27,incorrect,incorrect,incorrect,incorrect
+['elinor'],edward,abdullah,ông anh,el rey,0,0.33,0,0.14,0,0.15,0,0.5,incorrect,incorrect,incorrect,incorrect
+['edward'],mr. woodhouse,ali,ngôi nhà,créanme,0,0.11,0,0.22,0,0.14,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['elino', 'elinor']",mr.,ali,ngọc,mi rey,0,0.22,0,0.5,0,0.44,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['', 'fanny']",mr. woodhouse,donald trump,người đàn ông,los hermanos,0,0.0,0,0.12,0,0.33,0,0.24,incorrect,incorrect,incorrect,incorrect
+['harry'],elizabeth,adam,đứa trẻ,los niños,0,0.14,0,0.22,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['marianne'],lady catherine,adam,nghệ ngoại,ella,0,0.45,0,0.17,0,0.22,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['', 'ferrars', 'señora ferrars']",elizabeth,ali,cô,ella,0,0.27,0,0.22,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+['marianne'],emma,o,người,sol,0,0.33,0,0.0,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['robert', 'elinor']",mr. elliot,elinor,devonshire,wilton,0,0.5,1,1.0,0,0.38,0,0.33,incorrect,correct,incorrect,incorrect
+"['middleton', 'lady middleton']",mr. woodhouse,i̇ngilizler,phu nhân nguyễn,los niños,0,0.27,0,0.33,0,0.28,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",mr. knightley,atatürk,em,carlos,0,0.11,0,0.15,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",mr. elliot,nietzsche,nguyễn thị liêm,julio cortázar,0,0.33,0,0.24,0,0.09,0,0.18,incorrect,incorrect,incorrect,incorrect
+['edward'],mr. rochester,abraham lincoln,nguyễn du,carlos,0,0.21,0,0.19,0,0.27,0,0.33,incorrect,incorrect,incorrect,incorrect
+['edward'],mr. wickham,ali,nguyễn,el muchacho,0,0.24,0,0.22,0,0.17,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",mr. bennet,murat,trẻ,el joven,0,0.55,0,0.5,0,0.33,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",scrooge,özdemir asaf,đổng,maria,0,0.31,0,0.4,0,0.33,0,0.5,incorrect,incorrect,incorrect,incorrect
+['elinor'],walter,muhtar,ngọc,ella,0,0.33,0,0.17,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+['edward'],mr.,dr.,winston,walter,0,0.22,0,0.44,0,0.15,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",colonel,albay,đại tá,la reina,0,0.15,0,0.18,0,0.19,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",mr. elton,i̇sa,đại tá,coronel,0,0.38,0,0.25,0,0.36,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",mr. collins,rahip lojman,ông ấy,usted,0,0.35,0,0.22,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['elinor'],elizabeth,i̇smail,người phụ nữ,ella,0,0.4,0,0.17,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+['edward'],willoughby,ali,đông,el pobre,0,0.12,0,0.22,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect

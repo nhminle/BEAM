@@ -1,0 +1,49 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['caroline beaufort'],marie antoinette,arslan,phạm văn toàn,la argentinita,0,0.5,0,0.57,0,0.29,0,0.36,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],elizabeth,manuel neuer,ingolstadt,mi padre,1,1.0,0,0.29,0,0.32,0,0.12,correct,incorrect,incorrect,incorrect
+"['krempe', 'thần hủy hoạ', 'señor krempe', 'm']",edgar allan poe,leonardo da vinci,dr. frankenstein,lovecraft,0,0.3,0,0.28,0,0.27,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['waldman', 'm', 'profesör waldman']",edward,aslıhan,victor frankenstein,don quixote,0,0.46,0,0.57,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['krempe', 'señor krempe', 'm']",clerval,yasemin,đặng thế vinh,don quixote,0,0.33,0,0.5,0,0.22,0,0.12,incorrect,incorrect,incorrect,incorrect
+['dante'],clerval,freud,dr. jekyll,dr. frankenstein,0,0.17,0,0.2,0,0.27,0,0.48,incorrect,incorrect,incorrect,incorrect
+"['frankenstein', 'clerval']",edward,adnan,phạm văn chánh,carlos,0,0.31,0,0.24,0,0.23,0,0.31,incorrect,incorrect,incorrect,incorrect
+['clerval'],woolf,abdülkadir selvi,phạm văn đồnh,don quixote,0,0.17,0,0.26,0,0.2,0,0.11,incorrect,incorrect,incorrect,incorrect
+['henry'],alfred,edward said,avicenna,johann wolfgang von goethe,0,0.18,0,0.25,0,0.31,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['clerval', 'querido clerval']",clerval,osmanlı i̇mparatorluğu,ho chi minh,ginebra,1,1.0,0,0.29,0,0.23,0,0.43,correct,incorrect,incorrect,incorrect
+['henry'],clerval,doğan,thiên nhiên,francisco de quevedo,0,0.33,0,0.2,0,0.38,0,0.08,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",heathcliff,halil,nguyễn du,almudena grandes,0,0.25,0,0.33,0,0.13,0,0.36,incorrect,incorrect,incorrect,incorrect
+['clerval'],henry clerval,secheron,jean,victor frankenstein,0,0.7,0,0.4,0,0.36,0,0.15,correct,incorrect,incorrect,incorrect
+['clerval'],john jasper,hayran,nguyễn văn toàn,carlos,0,0.22,0,0.31,0,0.27,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",madame la force,aslıhan,trần thị kim tuyền,maría antonieta de iturbide,0,0.19,0,0.31,0,0.08,0,0.12,incorrect,incorrect,incorrect,incorrect
+['william'],justine,abdi i̇pekçi,phạm văn đồng,don quixote,0,0.14,0,0.22,0,0.2,0,0.11,incorrect,incorrect,incorrect,incorrect
+['justine'],elizabeth,atilla i̇lhan,phạm văn đồng,edgar allan poe,0,0.12,0,0.32,0,0.1,0,0.18,incorrect,incorrect,incorrect,incorrect
+['justine'],william frankenstein,mustafa kemal atatürk,christine,jean-jacques rousseau,0,0.3,0,0.29,0,0.62,0,0.29,incorrect,incorrect,incorrect,incorrect
+['justine'],antoinette,evimiz,trần quốc tuấn,la madre,0,0.47,0,0.15,0,0.29,0,0.13,incorrect,incorrect,incorrect,incorrect
+['justine'],victor frankenstein,i̇lhan berk,spring,el autor,0,0.31,0,0.35,0,0.46,0,0.27,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],de lacey,abdülhamid ii,abu khadijah,abu nawas,0,0.47,0,0.27,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],count morcerf,fransız,thierry de villefort,ruth,0,0.09,0,0.25,0,0.14,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",de lacey,i̇smet özel,nguyễn văn giăng,don isaac,0,0.31,0,0.27,0,0.19,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",mr. quilp,i̇smet i̇nönü,phạm văn đồng,don benito,0,0.14,0,0.25,0,0.0,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",de lacey,aliye,cụ lý,don benito,0,0.31,0,0.4,0,0.2,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['de lacey', 'de lace']",frankenstein,ali rıza,philippe,quasimodo,0,0.25,0,0.33,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['de lacey', 'de lacey—']",william wordsworth,aslıhan,quốc khánh,francisco franco,0,0.17,0,0.33,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['de lacey'],william godwin,cumberland,derby,albert smith,0,0.21,0,0.33,0,0.57,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",robert walton,i̇skoçlar,robert louis stevenson,roberto,0,0.22,0,0.15,0,0.22,0,0.17,incorrect,incorrect,incorrect,incorrect
+['henry'],elizabeth,arslan,phạm văn đồng,beatriz,0,0.14,0,0.18,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['clerval', 'ren']",mr. bruff,abdülhamid ii,nguyễn văn thiệu,judge,0,0.17,0,0.2,0,0.26,0,0.25,incorrect,incorrect,incorrect,incorrect
+['henry'],john franklin,çaka,phạm văn đồng,juan martín de hidalgo,0,0.33,0,0.0,0,0.22,0,0.07,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],name unknown,i̇smet,không rõ,donato,0,0.1,0,0.43,0,0.12,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",robert louis stevenson,özdemir sabancı,phạm văn đồng,magistrado,0,0.26,0,0.33,0,0.27,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['daniel nugent', 'daniel nugen']",abbe,i̇smet i̇nönü,phạm văn đồng,dr. mannering,0,0.4,0,0.26,0,0.4,0,0.48,incorrect,incorrect,incorrect,incorrect
+['daniel'],emily dickinson,i̇blis,quốc gia hoặc người,renfield,0,0.19,0,0.36,0,0.24,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['señor kirwin', 'mr kirwin', 'kirwin']",mr. collins,i̇smet pasha,phạm văn đồng,don josé,0,0.5,0,0.26,0,0.27,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",william cuffay,orkney adaları,william,defensor,0,0.2,0,0.26,0,0.31,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",justine moritz,frankenstein,frankenstein,henry clerval,0,0.2,0,0.11,0,0.11,0,0.7,incorrect,incorrect,incorrect,correct
+"['señor kirwin', 'mr kirwin', 'kirwin']",william frankenstein,i̇blis,đức bà,remordimiento,0,0.25,0,0.36,0,0.13,0,0.45,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",elizabeth,i̇blis,phạm vân,beatriz,0,0.13,0,0.36,0,0.35,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['henry', 'henr']",catherine morland,orhan pamuk,phạm duy khiêm,mark twain,0,0.38,0,0.27,0,0.22,0,0.14,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],montresor,lucifer,quả cầu hồn,don fernando,0,0.11,0,0.12,0,0.2,0,0.19,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",edgar allan poe,edgar allan poe,phạm văn đồnh,edgar allan poe,0,0.33,0,0.33,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],elizabeth,özdemir asaf,phương,isabella,1,1.0,0,0.29,0,0.13,0,0.47,correct,incorrect,incorrect,incorrect
+['elizabeth'],john franklin,memlekette adı,william bligh,john franklin,0,0.18,0,0.35,0,0.45,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['margaret', 'margare']",henry,özdemir sabancı,phạm văn đồnh,simón bolívar,0,0.17,0,0.27,0,0.2,0,0.3,incorrect,incorrect,incorrect,incorrect
+"['margaret', 'margare']",william henry,dr. jekyll,điêu khuyết,caligula,0,0.2,0,0.24,0,0.21,0,0.4,incorrect,incorrect,incorrect,incorrect

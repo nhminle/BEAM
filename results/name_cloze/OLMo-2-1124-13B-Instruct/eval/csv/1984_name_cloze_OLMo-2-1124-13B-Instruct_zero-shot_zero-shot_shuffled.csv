@@ -1,0 +1,61 @@
+Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,es_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['winston smith'],big ben,i̇skenderun,thắng,victoria,0,0.29,0,0.35,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+['winston'],winston churchill,atatürk,nguyễn du,el vigila,0,0.58,0,0.14,0,0.25,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['winston', 'wiston']",john,kahrolsun,trần huy liệu,abelardo morell,0,0.4,0,0.27,0,0.11,0,0.1,incorrect,incorrect,incorrect,incorrect
+"['señora parsons', 'parsons', 'bayan parsons']",unknown,atatürk,nguyễn văn thiệu,carlos fuentes,0,0.31,0,0.33,0,0.29,0,0.48,incorrect,incorrect,incorrect,incorrect
+['tom'],jesus,elif,phạm văn đồng,manuel fraga iribarne,0,0.0,0,0.0,0,0.12,0,0.08,incorrect,incorrect,incorrect,incorrect
+"['winston', 'eurasia']",chocolate war,atatürk,times,francisco franco,0,0.2,0,0.29,0,0.33,0,0.35,incorrect,incorrect,incorrect,incorrect
+['winston'],big brother,tele,ho chi minh,sin respuesta,0,0.22,0,0.18,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın"", 'winston’s']",london,robothespian,queen elizabeth ii,charles de gaulle,0,0.38,0,0.21,0,0.21,0,0.08,incorrect,incorrect,incorrect,incorrect
+['winston'],colchester,anne,colchester,colchester,0,0.24,0,0.36,0,0.24,0,0.24,incorrect,incorrect,incorrect,incorrect
+['winston'],unspecified,osmanlı devleti,trần hưng đạo,carlos,0,0.22,0,0.18,0,0.2,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['smith', 'smit']",ministry of plenty,atilla koç,ngọc sơn,ministerio,0,0.27,0,0.14,0,0.17,0,0.43,incorrect,incorrect,incorrect,incorrect
+['winston'],winston smith,çiçek pasajı,phạm văn đồng,el general,0,0.7,0,0.21,0,0.3,0,0.12,correct,incorrect,incorrect,incorrect
+"['winston', 'winston’s']","staff, canada",stalin,joseph stalin,primero aeroplano misterioso sobre siberia,0,0.3,0,0.31,0,0.2,0,0.24,incorrect,incorrect,incorrect,incorrect
+['winston'],victory,i̇smet i̇nönü,walter raleigh,victoria,0,0.43,0,0.44,0,0.19,0,0.4,incorrect,incorrect,incorrect,incorrect
+['winston'],winston smith,yuriy tkachenko,phạm văn đồnh,el cohete,0,0.7,0,0.27,0,0.3,0,0.12,correct,incorrect,incorrect,incorrect
+['winston'],at ink,i̇ler,hoàng đức định,la tienda de primera calle,0,0.31,0,0.18,0,0.19,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['winston', 'winston—']",london,orhan pamuk,confucius,ernesto guevara,0,0.31,0,0.11,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+['winston'],canada,john a. macdonald,trần hưng đạo,francisco franco,0,0.15,0,0.25,0,0.2,0,0.26,incorrect,incorrect,incorrect,incorrect
+['winston'],lenin,devrim,ho chi minh,partido,0,0.33,0,0.15,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['winston'],mr. flitwick,atatürk,khắc họa,al,0,0.21,0,0.14,0,0.13,0,0.0,incorrect,incorrect,incorrect,incorrect
+['winston'],walter neff,atatürk,lincoln,antonio,0,0.22,0,0.14,0,0.57,0,0.57,incorrect,incorrect,incorrect,incorrect
+['winston'],chimney,john,phan công hậu,don quijote,0,0.29,0,0.18,0,0.3,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın"", 'winston’s']",not enough information,garip elinde,phạm văn chánh,francisco de quevedo,0,0.34,0,0.21,0,0.19,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'a"", 'winston.']",,charles wins-ton,phạm văn đồnh,francisco goya,0,0.4,0,0.61,0,0.3,0,0.35,incorrect,incorrect,incorrect,incorrect
+['winston'],john,charles,london,curandera,0,0.18,0,0.14,0,0.31,0,0.12,incorrect,incorrect,incorrect,incorrect
+['winston'],william wordsworth,çalıların,ánh bãi,valladolid,0,0.32,0,0.25,0,0.14,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['julia—', 'julia']",yoshihide suga,atatürk,trần hưng đạo,podemos,0,0.21,0,0.17,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['katherine', ""katharine'in"", 'katharine']",she,allah,trần thị diễm,y,0,0.33,0,0.29,0,0.45,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['julia', 'here’s']",brutus,atatürk,tranh,leonardo da vinci,0,0.33,0,0.17,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['julia—', 'julia']",wellington,yalnızlık,giả,marcelino,0,0.27,0,0.29,0,0.5,0,0.29,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",his,ali,nguyễn du,carlos fuentes,0,0.2,0,0.2,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",speakwrite,devlet bahçeli,phạm văn đồng,carlos gardel,0,0.35,0,0.19,0,0.2,0,0.3,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",winston churchill,kim,đặng thế giỏi,ernesto sabato,0,0.25,0,0.2,0,0.2,0,0.19,incorrect,incorrect,incorrect,incorrect
+"['huynh đệ', 'goldstein']",brotherhood,i̇smet i̇nönü,george orwell,hermandad,0,0.32,0,0.4,0,0.27,0,0.35,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",darkness,atatürk,phạm duy,donde,0,0.27,0,0.14,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['winston'],ink ribbons,abdülkadir aksu,ho chi minh,ministerio,0,0.44,0,0.18,0,0.22,0,0.59,incorrect,incorrect,incorrect,incorrect
+['julia'],kim kardashian,neferneferuaten,phạm duy,francisco franco,0,0.21,0,0.2,0,0.15,0,0.19,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın""]",chopper,vedalaşsanız,phạm tử trọng,don quixote,0,0.14,0,0.11,0,0.3,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['smith', 'smit']",scarlett o'hara,garip,phạm văn đồng,"yo no tengo un nombre específico asignado en el texto proporcionado, así que no puedo identificar un nombre particular. sin embargo, si se espera un nombre común o un término general que podría encajar en el contexto, podríamos considerar ""madre"" o ""maría"" como posibles opciones basadas en la tradición y la cultura, aunque no se especifica explícitamente en el texto.",0,0.3,0,0.22,0,0.12,0,0.0,incorrect,incorrect,incorrect,incorrect
+['parsons'],big brother,yıldız tilbe,phạm văn đồng,telepantalla,0,0.22,0,0.0,0,0.4,0,0.32,incorrect,incorrect,incorrect,incorrect
+['parsons'],little,gurur,nguyễn du,la capitana,0,0.0,0,0.17,0,0.12,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'i""]",,ali kemal,phạm thể,la puerta,0,0.4,0,0.12,0,0.13,0,0.12,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",inspector javert,yana,phạm văn đồn,unknown,0,0.26,0,0.18,0,0.21,0,0.29,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",william shakespeare,abdülkadir bedir khan,ngọc ánh,carlos,0,0.15,0,0.29,0,0.27,0,0.15,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",walter white,hayat,thành,carlos,0,0.32,0,0.0,0,0.17,0,0.15,incorrect,incorrect,incorrect,incorrect
+['winston'],count dracula,yalnız gözünün,thỉnh,la maja vestida,0,0.2,0,0.29,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['winston'],albert einstein,yunus emre,hoàng hậu trần thị dung,el al,0,0.45,0,0.24,0,0.13,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['winston', ""o 'brien"", ""o'brien'ın"", 'o’brien']",descartes,yanıtsız,phạm tâm,don quijote,0,0.27,0,0.27,0,0.13,0,0.42,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",stages,öğrenme,phạm văn đồng,carlos castaneda,0,0.15,0,0.57,0,0.2,0,0.17,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",sun,evren,phóng viên,sol,0,0.2,0,0.5,0,0.47,0,0.2,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",guardian of spirit,ali,phạm văn đồng,desnúdate,0,0.24,0,0.2,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",dr. house,atatürk,phạm văn đồng,al,0,0.25,0,0.14,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",wailing wall,walter,phạm văn đồnh,recuerdas,0,0.21,0,0.15,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",alberto giacometti,etoburun olayları,phú,la invisible,0,0.24,0,0.33,0,0.0,0,0.21,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'a""]",john b. watson,atatürk,phan kế an,ratas,0,0.38,0,0.25,0,0.24,0,0.17,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",walter,mandala,chuột,la lanza,0,0.15,0,0.14,0,0.17,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın"", 'tim winston', 'winston’s']",winston smith,i̇talya,hoàng đế phi,adolf hitler,0,0.73,0,0.31,0,0.13,0,0.21,correct,incorrect,incorrect,incorrect
+['winston'],winston smith,i̇talya,đào duy từ,el silencioso,0,0.7,0,0.31,0,0.12,0,0.4,correct,incorrect,incorrect,incorrect
+['winston'],snakes and ladders,kenar,phan kế bí,manuel,0,0.24,0,0.17,0,0.12,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['winston', 'winston,']",ministry of love,özdemir asaf,phan kế an,amor,0,0.43,0,0.21,0,0.24,0,0.18,incorrect,incorrect,incorrect,incorrect

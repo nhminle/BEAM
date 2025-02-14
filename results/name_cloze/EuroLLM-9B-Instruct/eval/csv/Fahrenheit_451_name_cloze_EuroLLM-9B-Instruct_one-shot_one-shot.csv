@@ -1,0 +1,61 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['montag'],girl,kız,song,kız,0,0.2,0,0.0,0,0.6,0,0.0,incorrect,incorrect,incorrect,incorrect
+['montag'],the house,hester,tay,hester,0,0.13,0,0.17,0,0.44,0,0.17,incorrect,incorrect,incorrect,incorrect
+['montag'],the woman,kadın,hester,kadın,0,0.27,0,0.18,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],john,hester,hester,adam,0,0.4,0,0.17,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],nicholas,hester,hester,[mask],0,0.29,0,0.17,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],firehouse,itfaiye merkezi,hester,fire station,0,0.13,0,0.1,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],[mask],kadın,nguyễn,[mask],0,0.33,0,0.18,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],she,kadın,bà,kadın,0,0.0,0,0.18,0,0.25,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],john,hester,tay anh,eli,0,0.4,0,0.17,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['beatty—', 'beatty']",moses,hester,bà,abraham,0,0.18,0,0.33,0,0.5,0,0.31,incorrect,incorrect,incorrect,incorrect
+['mildred'],john,nick,không biết,neydi,0,0.0,0,0.18,0,0.24,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['montag', 'mildred']",lena,hester,hester,hester,0,0.4,0,0.17,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['beatty'],captain,captain,general,yüzbaşı,0,0.31,0,0.31,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+['beatty'],[mask],[mask],nguyen,[mask],0,0.17,0,0.17,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['montag'],baseball,billy,nguyen,billy,0,0.14,0,0.0,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['mildred'],uncle,ali,mr. and mrs. smith,ali,0,0.33,0,0.2,0,0.16,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['faber', 'faber—']",[mask],[mask],hester,[mask],0,0.18,0,0.18,0,0.36,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],denham,denham,denham,denham,0,0.17,0,0.17,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['montag'],hemingway,hester,hester,matbaa,0,0.4,0,0.17,0,0.17,0,0.5,incorrect,incorrect,incorrect,incorrect
+['montag'],patience,hester,hester,ayla,0,0.14,0,0.17,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],the king,hester,hester,hester,0,0.29,0,0.17,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['faber'],john,hester,nguyen,kate,0,0.0,0,0.36,0,0.18,0,0.44,incorrect,incorrect,incorrect,incorrect
+['gloria'],john,hester,nguyen,hester,0,0.2,0,0.17,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['bowles', 'bayan bowles']",s. [mask],doktor,tôi,doktor,0,0.19,0,0.17,0,0.22,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['bowles', 'bayan bowles']","s. [mask] tittered. “they'd just as soon kick as kiss me. thank god, i can kick back! “",hester,tụi,mom,0,0.12,0,0.33,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['bayan phelps', 'phelps']",john,hester,hester,john,0,0.22,0,0.5,0,0.5,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['bayan phelps', 'phelps']",s. [mask],kız,nguyễn,hester,0,0.19,0,0.0,0,0.36,0,0.5,incorrect,incorrect,incorrect,incorrect
+['montag'],hester,hester,hester,"çölün ortasındaki diğerleri, onun ağlaması hızlanırken nasıl yüzünü buruşturup biçimini bozduğunu izlediler. ona ilişmeden, duygularını açığa vuruşuna şaşırarak, seyrettiler onu. kendini kontrol edemeyerek hıçkırdı. [mask] bile afallamış, sarsılmıştı.",0,0.17,0,0.17,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bowles', 'bowles—', 'bayan bowles']",s. [mask],hester,nguyen,[mask],0,0.19,0,0.33,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],pity,hester,hester,hester,0,0.2,0,0.17,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['montag'],the salamander,semender,hester,semender,0,0.2,0,0.29,0,0.17,0,0.29,incorrect,incorrect,incorrect,incorrect
+['beatty'],hester,hester,hoa,nora,0,0.33,0,0.33,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],"the name that fills the [mask] token in the passage is likely ""the"" or ""the house"", as it is a common way to refer to a specific location. however, without more context, it's difficult to determine the exact name. if you could provide more information or context, i would be happy to help you further.",hester,hester,kafka,0,0.01,0,0.17,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],john,john,tử,ali,0,0.4,0,0.4,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],fireman,[mask],hester,[mask],0,0.31,0,0.33,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],he,hester,nguyen,kara,0,0.0,0,0.17,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],john,hester,hester,hester,0,0.4,0,0.17,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['montag'],john,kadın,hester,kadın,0,0.4,0,0.18,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],[mask],adam,john,[mask],0,0.33,0,0.2,0,0.4,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],man,hester,hester,karahan,0,0.44,0,0.17,0,0.17,0,0.15,incorrect,incorrect,incorrect,incorrect
+['montag'],the beetle,böcek,tiger,böcek,0,0.12,0,0.18,0,0.36,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],the beetle,böcek,nguyen,böcek,0,0.12,0,0.18,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],the beetle's driver,böcek,hester,böcek,0,0.08,0,0.18,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],he,kişi,hester,beni,0,0.0,0,0.0,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],he,hester,hester,kadın,0,0.0,0,0.17,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],john,hester,nguyen,hester,0,0.4,0,0.17,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+['montag'],the old man,adam,hester,i̇htiyar adam,0,0.24,0,0.2,0,0.17,0,0.11,incorrect,incorrect,incorrect,incorrect
+['montag'],john,hester,hester,nick,0,0.4,0,0.17,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],asbestos-weaver,hester,hester,[mask],0,0.19,0,0.17,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['montag', 'montag tiến']",the men,[mask],hester,[mask],0,0.55,0,0.33,0,0.4,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],the man,adam,ngọn lửa,adam,0,0.31,0,0.2,0,0.43,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],the man,hester,hester,hester,0,0.31,0,0.17,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['montag'],you,[mask],hester,[mask],0,0.22,0,0.33,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],city,[mask],city,[mask],0,0.2,0,0.33,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+['granger'],grandfather,dede,hester,[mask],0,0.67,0,0.18,0,0.31,0,0.15,incorrect,incorrect,incorrect,incorrect
+['granger'],neil,hester,hester,hiroshima,0,0.36,0,0.31,0,0.31,0,0.25,incorrect,incorrect,incorrect,incorrect
+['montag'],[mask],hester,hester,[mask]'ın,0,0.33,0,0.17,0,0.17,0,0.27,incorrect,incorrect,incorrect,incorrect
+['montag'],their,adam,hester,adam,0,0.18,0,0.2,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['granger'],he,hester,hester,kız,0,0.22,0,0.31,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['granger', 'george—']",[mask],kafka,nguyễn,[mask],0,0.15,0,0.17,0,0.46,0,0.15,incorrect,incorrect,incorrect,incorrect

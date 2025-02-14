@@ -1,0 +1,47 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['alice', 'alicia']",alice,zavallı [mask],cô,[mask],1,1.0,0,0.4,0,0.29,0,0.18,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,[mask],cô,el autor,1,1.0,0,0.18,0,0.29,0,0.15,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,hasan,cô,ella,1,1.0,0,0.36,0,0.29,0,0.22,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,küçük prens,bánh,[mask],1,1.0,0,0.25,0,0.22,0,0.18,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,çörek,cô bé,ella,1,1.0,0,0.4,0,0.4,0,0.22,correct,incorrect,incorrect,incorrect
+['dodo'],speaker,[mask],nguyễn,conde,0,0.0,0,0.0,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",emily,kişi,bố,maría,0,0.2,0,0.4,0,0.0,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",miss,[mask],cô,don quijote,0,0.22,0,0.18,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",luckily for alice,kral,nhật,la botellita mágica,0,0.45,0,0.44,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",fool,aptal,ngọc,maría,0,0.22,0,0.4,0,0.22,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,küçük prens,ngọc,elfo,1,1.0,0,0.25,0,0.22,0,0.22,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,koca,cô,ella,1,1.0,0,0.22,0,0.29,0,0.22,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",puppy,köpeğin,cô,juan,0,0.0,0,0.17,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,koca,cây nấm,[mask],1,1.0,0,0.22,0,0.31,0,0.18,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,kedi,ngọc,maría,1,1.0,0,0.22,0,0.22,0,0.55,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",caterpillar,tırtıl,sâu,alice,0,0.35,0,0.18,0,0.25,1,1.0,incorrect,incorrect,incorrect,correct
+"['alice', 'alicia']",alice,mantar,cô,maría,1,1.0,0,0.33,0,0.29,0,0.55,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,keloğlan,[mask],[mask],1,1.0,0,0.15,0,0.18,0,0.18,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,çocuk,cô,[mask],1,1.0,0,0.2,0,0.29,0,0.18,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",mr. brown,kemal,bạn,[mask],0,0.0,0,0.4,0,0.25,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",creatures,mübareklerin,người,él,0,0.29,0,0.35,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",she,kardeş,hắn,maría,0,0.25,0,0.36,0,0.25,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,düşes,bà,maría,1,1.0,0,0.2,0,0.29,0,0.55,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",newton,dünya,trai dat,[mask],0,0.18,0,0.2,0,0.43,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",cook,aşçı,bà đầu bếp,cocinera,0,0.22,0,0.6,0,0.27,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",baby,bebek,tay,niño,0,0.22,0,0.2,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",the baby,bebek,thằng bé,el bebé,0,0.15,0,0.2,0,0.31,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",mr.,küçük,mày,maría,0,0.0,0,0.2,0,0.25,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",miss,[mask]'in,người,maría,0,0.22,0,0.29,0,0.2,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,kemal,nguyễn,juan,1,1.0,0,0.4,0,0.18,0,0.22,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",cinderella,hoca,nguyễn,maría,0,0.38,0,0.22,0,0.18,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",the princess,[mask],nguyễn,elfo,0,0.35,0,0.18,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,kemal,ngọc,juan,1,1.0,0,0.4,0,0.22,0,0.22,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,[mask],cô,maría,1,1.0,0,0.18,0,0.29,0,0.55,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",queen,bahçıvan,ngọc,don quijote,0,0.2,0,0.57,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",the hedgehog,flamingo,cô,[mask],0,0.12,0,0.31,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']","the moment [mask] appeared, she was appealed to by all three to settle the question, and they repeated their arguments to her, though, as they all spoke at once, she found it very hard indeed to make out exactly what they said.",her biri,bác,ella,0,0.02,0,0.29,0,0.5,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",mrs. white,kadın,thế,maría,0,0.27,0,0.4,0,0.25,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",carrot,düşes,nữ công tước,juan,0,0.18,0,0.2,0,0.12,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia', 'alice ejder']",alice,sultan,sư tử,[mask],1,1.0,0,0.18,0,0.12,0,0.18,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",he,kişi,người đàn ông,ella,0,0.29,0,0.4,0,0.11,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,kadrili,vũ,[mask],1,1.0,0,0.5,0,0.0,0,0.18,correct,incorrect,incorrect,incorrect
+"['alice', 'alic', 'alicia']",mock turtle,yalancı kaplumbağa,con,tortuga,0,0.25,0,0.42,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",[mask],mezgit,nguyễn,maría,0,0.18,0,0.18,0,0.18,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,tam,cô,maría,1,1.0,0,0.25,0,0.29,0,0.55,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,aman,chị,ella,1,1.0,0,0.4,0,0.25,0,0.22,correct,incorrect,incorrect,incorrect

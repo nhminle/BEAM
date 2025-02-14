@@ -1,0 +1,101 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['watson'],harness,hester,nguyen,john,0,0.31,0,0.17,0,0.17,0,0.4,incorrect,incorrect,incorrect,incorrect
+['holmes'],the driver,küçük prens,hester,john,0,0.25,0,0.24,0,0.5,0,0.2,incorrect,incorrect,incorrect,incorrect
+['watson'],brougham,john,mr. brown,brougham,0,0.14,0,0.4,0,0.27,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['kont von kramm', 'kram', 'the count von kramm', 'conde von kramm']",count,granger,bohemia,conde,1,1.0,0,0.36,0,0.4,1,1.0,correct,incorrect,incorrect,correct
+['holmes'],he,hester,nguyen,john,0,0.5,0,0.5,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['holmes'],king,lord,london,lord,0,0.0,0,0.2,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['bayan adler', 'adle', 'adler']",miss,john,trinh,miss,0,0.0,0,0.22,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['watson'],monica,monica,monica,santa mónica,0,0.33,0,0.33,0,0.33,0,0.44,incorrect,incorrect,incorrect,incorrect
+['godfrey norton'],the clergyman,hester,hester,john,0,0.22,0,0.17,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect
+['holmes'],hester,dostum,hester,hester,0,0.5,0,0.33,0,0.5,0,0.5,incorrect,incorrect,incorrect,incorrect
+['holmes'],[mask],hester,nguyen,john,0,0.33,0,0.5,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['sr', 'wilson', 'bay wilson', 'wilso']",mr. holmes,hester,trump,john,0,0.3,0,0.5,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['bayan mary sutherland', 'mary sutherland', 'mary sutherla']",miss,hester,hester,miss,0,0.25,0,0.43,0,0.43,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",john,hester,chúa,john,0,0.2,0,0.5,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['bay jabez wilson', 'jabez wilson']",john,hester,hester,john,0,0.4,0,0.22,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['wilson', 'bay wilson', 'señor wilson']",[mask],hester,nguyen,john,0,0.25,0,0.55,0,0.36,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holme', 'holmes']",mr. pumblechook,hester,tôi,john,0,0.24,0,0.5,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['ezekiah hopkin', 'ezekiah hopkins']",andrew carnegie,rothschild,john,john jacob astor,0,0.27,0,0.25,0,0.4,0,0.26,incorrect,incorrect,incorrect,incorrect
+"['wilson', 'bay wilson']",american,amerikalı,london,hester,0,0.33,0,0.32,0,0.5,0,0.17,incorrect,incorrect,incorrect,incorrect
+['holmes'],mr. harrington,müşterimiz,nguyen,cliente,0,0.2,0,0.25,0,0.17,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",john,adam,nguyen,juan,0,0.2,0,0.29,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",assistant,john,mother,john,0,0.21,0,0.2,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['sr', 'duncan ross', 'bay duncan ross']",general,müdür,mr. smith,el rey,0,0.31,0,0.38,0,0.31,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['jabez wilso', 'bay jabez wilson', 'jabez wilson']",mr. darcy,hester,mrs. hester,john,0,0.33,0,0.24,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['duncan ross', 'bay duncan ross']",mr. bates,ada,hester,john,0,0.33,0,0.44,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['sherlock holmes'],john,hester,hester,john,0,0.2,0,0.5,0,0.5,0,0.2,incorrect,incorrect,incorrect,incorrect
+['holmes'],mr. harrington,[mask],nam,john,0,0.2,0,0.33,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['duncan ross', 'bay duncan ross']",herrmann,kızıl saçlılar kulübü,hester,liga de los pelirrojos,0,0.29,0,0.11,0,0.2,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['william morri', 'william morris']",solicitor,hester,mr. smith,john,0,0.36,0,0.18,0,0.43,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['señor holmes', 'bay holmes', 'holmes']",mr. smith,saxe-coburg meydanı'ndaki evime döndüm ve çırağımın fikrini sordum. o da işin içinden çıkamadı. sadece beklememi önerdi; postayla haber gelebilirdi. ama bu benim için yeterli değildi [mask]. böyle bir işi durup dururken kaybetmek istemiyordum. zor durumdaki insanlara tavsiyede bulunduğunuzu önceden duymuş olduğ,mrs. white,john,0,0.21,0,0.02,0,0.3,0,0.22,incorrect,incorrect,incorrect,incorrect
+['holmes'],mr. bingham,mr. bingham,hester,[mask],0,0.24,0,0.24,0,0.5,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['wilson', 'bay wilson', 'señor wilson']",assistant,çırak,hester,john,0,0.42,0,0.25,0,0.55,0,0.4,incorrect,incorrect,incorrect,incorrect
+['holmes'],dorian,hester,nguyen,hester,0,0.17,0,0.5,0,0.17,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['sr', 'wilson', 'bay wilson']",doctor,hester,mr. smith,john,0,0.25,0,0.5,0,0.21,0,0.4,incorrect,incorrect,incorrect,incorrect
+['holmes'],sherlock,hester,hester,sherlock,0,0.29,0,0.5,0,0.5,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['wilson', 'bay wilson']",herrmann,hester,toc,mordred,0,0.22,0,0.17,0,0.22,0,0.15,incorrect,incorrect,incorrect,incorrect
+['jones'],doctor,doktor,dr. smith,doctor,0,0.18,0,0.18,0,0.14,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['jones', 'bay jones']",ranger,yabancı,hester,mr. astley,0,0.4,0,0.4,0,0.36,0,0.31,incorrect,incorrect,incorrect,incorrect
+['sherlock holmes'],john,hester,farrington,john,0,0.2,0,0.5,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['merryweather', 'bay merryweather']",ned,küçük prens,nguyen,don,0,0.13,0,0.15,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['holmes'],mr. smith,[mask]'ın,captain,[mask],0,0.13,0,0.27,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['merryweather', 'bay merryweather']",sir john,dr. watson,city,sir john,0,0.2,0,0.36,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+['watson'],[mask],korkarım,tôi,[mask],0,0.33,0,0.14,0,0.44,0,0.33,incorrect,incorrect,incorrect,incorrect
+['holmes'],john,john,hester,john,0,0.2,0,0.2,0,0.5,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jones'],tom,john,nguyen,juan,0,0.25,0,0.67,0,0.36,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['john clay', 'clay']",john,hester,hester,john,1,1.0,0,0.2,0,0.2,1,1.0,correct,incorrect,incorrect,correct
+"['bay jabez wilson', 'jabez wilson']",league,kulüp,hester,el [mask],0,0.36,0,0.18,0,0.22,0,0.27,incorrect,incorrect,incorrect,incorrect
+['holmes'],[mask],kadın,nguyễn,[mask],0,0.33,0,0.0,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['holmes'],hester,hester,hester,eliza,0,0.5,0,0.5,0,0.5,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['sherlock holmes', 'holmes']",mr. darcy,kadın,uncle,don,0,0.24,0,0.15,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+['sherlock holmes'],hester,hester,hester,hester,0,0.5,0,0.5,0,0.5,0,0.5,incorrect,incorrect,incorrect,incorrect
+['ned'],uncle,auckland,chu,tío,0,0.5,0,0.36,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['hosmer'],[mask],babam,anh,maría,0,0.17,0,0.18,0,0.22,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",him,hester,leadenhall,hester,0,0.44,0,0.5,0,0.3,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",he,hester,hester,john,0,0.5,0,0.5,0,0.5,0,0.2,incorrect,incorrect,incorrect,incorrect
+['sherlock holmes'],old man,hester,nguyễn,john,0,0.46,0,0.5,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['mary sutherland', 'bayan mary sutherland']",miss,hester,chuẩn,miss,0,0.25,0,0.38,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+['holmes'],"the question was hardly out of my mouth, and [mask] had not yet opened his lips to reply, when we heard a heavy footfall in the passage and a tap at the door.",hester,unknown,juan,0,0.04,0,0.5,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['holmes'],the narrator,adam,nguyen,sherlock,0,0.22,0,0.2,0,0.17,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['windibank', 'windiban', 'bay windibank']",phoebe,hester,hester,john,0,0.22,0,0.0,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['holmes'],the man,adam,gã,el hombre,0,0.31,0,0.2,0,0.0,0,0.53,incorrect,incorrect,incorrect,incorrect
+"['hosmer angel', 'bay hosmer angel']",her father,hester,hester,el hombre,0,0.55,0,0.67,0,0.67,0,0.53,incorrect,incorrect,incorrect,incorrect
+['holmes'],phoebe,kişi,mr. smith,hester,0,0.5,0,0.2,0,0.13,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",he,hester,hester,john,0,0.5,0,0.5,0,0.5,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['hosmer angel', 'bay hosmer angel']",man,hester,hester,john,0,0.5,0,0.67,0,0.67,0,0.25,incorrect,incorrect,incorrect,incorrect
+['watson'],mr. smith,hester,nguyen,john,0,0.13,0,0.17,0,0.17,0,0.4,incorrect,incorrect,incorrect,incorrect
+['james'],john,hester,nguyen,john,0,0.22,0,0.36,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['watson'],john,hester,nguyen,john,0,0.4,0,0.17,0,0.17,0,0.4,incorrect,incorrect,incorrect,incorrect
+['mccarthy'],young,genç,nguyen,john,0,0.15,0,0.17,0,0.14,0,0.17,incorrect,incorrect,incorrect,incorrect
+['moran'],mr. white,kaptan,tom,[mask],0,0.29,0,0.36,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+['lestrade'],criminal,hester,hester,john,0,0.12,0,0.57,0,0.57,0,0.0,incorrect,incorrect,incorrect,incorrect
+['mccarthy'],hester,genç,john,john,0,0.14,0,0.17,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['turner'],old,yaşlı adam,nguyen,john,0,0.0,0,0.0,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['alice'],john,hester,tôi,john,0,0.0,0,0.18,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",hester,arthur,hester,[mask],0,0.5,0,0.25,0,0.5,0,0.33,incorrect,incorrect,incorrect,incorrect
+['sherlock holmes'],john,kafka,hester,john,0,0.2,0,0.15,0,0.5,0,0.2,incorrect,incorrect,incorrect,incorrect
+['openshaw'],young,genç,london,john,0,0.31,0,0.33,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['sherlock holmes'],watson,elizabeth,john,sherlock,0,0.29,0,0.13,0,0.2,1,1.0,incorrect,incorrect,incorrect,correct
+"['sherlock holmes', 'bay holmes']",mr.,kadın,nguyen,hester,0,0.22,0,0.25,0,0.25,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",arthur,hester,hester,hester,0,0.25,0,0.5,0,0.5,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['watson', 'watso']",socrates,hester,hester,sherlock,0,0.46,0,0.18,0,0.18,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['roylott', 'dr roylott', 'roylot']",[mask]'s,elizabeth,dr. smith,doctor,0,0.0,0,0.27,0,0.42,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['bayan stoner', 'stoner']",miss,hester,con,hester,0,0.2,0,0.67,0,0.44,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['bayan stoner', 'stoner', 'stone']",miss,hester,cô,miss,0,0.22,0,0.67,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['lysander stark', 'albay lysander stark']",hamilton,albany,dai,colonel,0,0.31,0,0.91,0,0.25,0,0.4,incorrect,correct,incorrect,incorrect
+"['stark', 'albay lysander stark']",colonel,kadın,nguyen,colonel,0,0.4,0,0.31,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['sr', '‘bay ferguson', 'ferguson']",mr. and mrs. smith,john,john,ferguson,0,0.26,0,0.33,0,0.33,1,1.0,incorrect,incorrect,incorrect,correct
+"['lord st', 'st', 'simon']",hester,st. john,simon,[mask],0,0.5,0,0.46,1,1.0,0,0.25,incorrect,incorrect,correct,incorrect
+"['lord st', 'st']",mr. edward,hester,simon,john,0,0.29,0,0.5,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['señora st', 'lady st', 'st', 'simon']",hester,hester,simon,hester,0,0.5,0,0.5,1,1.0,0,0.5,incorrect,incorrect,correct,incorrect
+"['sr', 'holder', 'bay holder']",lord,hester,hester,holder,0,0.4,0,0.5,0,0.5,1,1.0,incorrect,incorrect,incorrect,correct
+['arthur'],arthur,hester,john,john,1,1.0,0,0.17,0,0.2,0,0.2,correct,incorrect,incorrect,incorrect
+"['holde', 'holder', 'bay holder']",sir,kadın,hester,señor,0,0.22,0,0.27,0,0.5,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['mary', 'mar']",emmeline,phoebe,con,elizabeth,0,0.18,0,0.0,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['hunter', 'bayan hunter']",miss,hester,cô,miss,0,0.0,0,0.67,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bay rucastle', 'rucastle']",mr. bellingham,hester,hester,john,0,0.24,0,0.43,0,0.43,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['hunter', 'bayan hunter']",miss,katedral,catherine,miss,0,0.0,0,0.43,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bay rucastle', 'rucastle', 'ruca']",mr. darcy,hester,taylor,lord,0,0.33,0,0.43,0,0.44,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['señora rucastle', 'rucastle', 'bayan rucastle']",sir,onları,hester,john,0,0.44,0,0.33,0,0.5,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['bay rucastle', 'rucastle', 'señor rucastle']",mrs. fairfax,[mask],sồi đỏ,mr. bunting,0,0.25,0,0.29,0,0.36,0,0.32,incorrect,incorrect,incorrect,incorrect

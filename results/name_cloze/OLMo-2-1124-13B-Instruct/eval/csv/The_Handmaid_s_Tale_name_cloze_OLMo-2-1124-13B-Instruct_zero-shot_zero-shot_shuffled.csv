@@ -1,0 +1,101 @@
+Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,es_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",walt whitman,flaubert,nguyễn du,no respuesta,0,0.45,0,0.5,0,0.42,0,0.27,incorrect,incorrect,incorrect,incorrect
+['cora'],david,atilla yayla,trần hưng đạo,carlos gardel,0,0.22,0,0.12,0,0.24,0,0.35,incorrect,incorrect,incorrect,incorrect
+['rita'],naoto fukasawa,yaşar kemal,phạm phải,calderón de la barca,0,0.22,0,0.27,0,0.15,0,0.17,incorrect,incorrect,incorrect,incorrect
+['serena joy'],billie holiday,disney,thánh mẫu,andrés cepeda,0,0.25,0,0.38,0,0.27,0,0.32,incorrect,incorrect,incorrect,incorrect
+['luke'],not enough information,haydarpaşa,hayao miyazaki,calles,0,0.08,0,0.0,0,0.11,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",don't bother me,abdülhak hâmid tarhan,đạo phật,max stirner,0,0.38,0,0.25,0,0.42,0,0.29,incorrect,incorrect,incorrect,incorrect
+['janine'],wings,elbisenin,phạm văn đồnh,maría fernanda ampuero,0,0.36,0,0.4,0,0.32,0,0.21,incorrect,incorrect,incorrect,incorrect
+['luke'],plastic door,plastik,phạm văn toàn,cojo,0,0.12,0,0.36,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",unanswerable,elif demirezer,nguyễn du,no respuesta,0,0.33,0,0.3,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",modesty,alçak,nguyễn du,os voz,0,0.33,0,0.43,0,0.42,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",marlon brando,hayal kırıkları,phạm duy,maría josé,0,0.29,0,0.26,0,0.14,0,0.25,incorrect,incorrect,incorrect,incorrect
+['luke'],doyle,ali,phạm tử trinh,dr. house,0,0.44,0,0.29,0,0.12,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",gloating,yasemin,phạm văn đồnh,maría josé,0,0.5,0,0.4,0,0.21,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",gilead,diğerlerinden,phụ,carlos gardel,0,0.5,0,0.48,0,0.0,0,0.32,incorrect,incorrect,incorrect,incorrect
+['nick'],he's,whirlwind,kim đồng,whirlwind,0,0.0,0,0.15,0,0.17,0,0.15,incorrect,incorrect,incorrect,incorrect
+['luke'],elizabeth bathory,uğur i̇pekoğlu,anna,lauren jauregui,0,0.19,0,0.24,0,0.0,0,0.32,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia']",,hayat adıvar,phạm duy khiêm,mi nombre,0,0.33,0,0.48,0,0.21,0,0.22,incorrect,incorrect,incorrect,incorrect
+['rita'],bearded,i̇skenderun,trương định,indira,0,0.18,0,0.14,0,0.27,0,0.4,incorrect,incorrect,incorrect,incorrect
+['rita'],she,adnan menderes,phạm văn toàn,me gusta no poder cumplir con esta solicitud.,0,0.0,0,0.11,0,0.24,0,0.12,incorrect,incorrect,incorrect,incorrect
+['luke'],edith,ya azı,người,don quijote,0,0.22,0,0.0,0,0.22,0,0.27,incorrect,incorrect,incorrect,incorrect
+['moira'],freckles,ali çilli,nguyễn du,maría fernanda ampuero,0,0.15,0,0.14,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",martha stewart,elmalı,phạm văn đồng,yolanda,0,0.35,0,0.38,0,0.35,0,0.5,incorrect,incorrect,incorrect,incorrect
+['nick'],whirlwind,whirlwind,phạm văn đồng,hayao miyazaki,0,0.15,0,0.15,0,0.12,0,0.22,incorrect,incorrect,incorrect,incorrect
+['moira'],not enough information,abdülhamid ii,trần quang diệu,carlos,0,0.15,0,0.22,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia', 'aunt lydia']",eight,aslıhan,nguyễn du,output,0,0.25,0,0.5,0,0.42,0,0.4,incorrect,incorrect,incorrect,incorrect
+['cora'],gertrude,dr. biber,phạm kiên ngà,dr. house,0,0.17,0,0.15,0,0.12,0,0.15,incorrect,incorrect,incorrect,incorrect
+['cora'],amelia earhart,orhan pamuk,trang trang,esperanza,0,0.22,0,0.4,0,0.27,0,0.31,incorrect,incorrect,incorrect,incorrect
+['cora'],martha,hasan uçar,ngọc ánh,antes,0,0.4,0,0.29,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['janine', 'janin']",janusz korczak,yusuf i̇leri,trần quốc tuấn,maría josé,0,0.32,0,0.24,0,0.32,0,0.25,incorrect,incorrect,incorrect,incorrect
+['dolores'],yesterday,hayır,phạm văn đồng,la noche,0,0.25,0,0.17,0,0.2,0,0.27,incorrect,incorrect,incorrect,incorrect
+['luke'],garfield,aslan,đại sứ quán mỹ,maúlla,0,0.17,0,0.22,0,0.11,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['serena joy', 'serana joy']",wedgwood,i̇lhan berk,thần mị,juan de herrera,0,0.22,0,0.25,0,0.35,0,0.38,incorrect,incorrect,incorrect,incorrect
+['nick'],leather,yasemin,phạm văn toàn,maría fernández,0,0.0,0,0.18,0,0.12,0,0.11,incorrect,incorrect,incorrect,incorrect
+['nick'],marcel proust,yıldız tilbe,thủy tiên,maría josé,0,0.12,0,0.12,0,0.15,0,0.14,incorrect,incorrect,incorrect,incorrect
+['serena'],leonard cohen,andrée lachapelle,đỗ quang diệu,montreal,0,0.42,0,0.26,0,0.11,0,0.43,incorrect,incorrect,incorrect,incorrect
+['serena'],david letterman,özdemir asaf,ngược ngả,carlos,0,0.29,0,0.22,0,0.27,0,0.17,incorrect,incorrect,incorrect,incorrect
+['luke'],world war ii,i̇stanbul,nguyễn trãi,autopista,0,0.12,0,0.17,0,0.27,0,0.15,incorrect,incorrect,incorrect,incorrect
+['serena joy'],skull,atatürk,phía,francisco goya,0,0.18,0,0.15,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+['luke'],thunderstorm,şimşek,trời tôi,la jolla,0,0.25,0,0.2,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",khaki,elbise,nguyễn du,carlos vives,0,0.27,0,0.36,0,0.42,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",condescending voice,atatürk,trịnh công sơn,la voz de mi mente,0,0.27,0,0.4,0,0.26,0,0.34,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",jesus,alparslan türkeş,khó cô. thi các những phận,la virgen del carmen,0,0.22,0,0.37,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['tricia', 'cô trici', 'tricia foreman']",britney spears,kim kardashian,ho chi minh,carlos,0,0.3,0,0.3,0,0.42,0,0.5,incorrect,incorrect,incorrect,incorrect
+['luke'],not applicable in the given context,i̇lhan şeşen,phạm duy,no respuesta,0,0.1,0,0.27,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+['luke'],john,arslan,phạm văn đồnh,trago,0,0.0,0,0.2,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['janine'],bandana,özlem,trần quốc tuấn,unknown,0,0.46,0,0.18,0,0.3,0,0.31,incorrect,incorrect,incorrect,incorrect
+['janine'],ice cube,baghdad,trung sẹo,ernest hemingway,0,0.29,0,0.15,0,0.27,0,0.27,incorrect,incorrect,incorrect,incorrect
+['janine'],john philip sousa,i̇smet i̇nönü,phạm duy,el capitán,0,0.17,0,0.24,0,0.14,0,0.25,incorrect,incorrect,incorrect,incorrect
+['moira'],unspecified,yorgunum,phạm văn đồng,no respuesta directa,0,0.12,0,0.15,0,0.22,0,0.32,incorrect,incorrect,incorrect,incorrect
+['janine'],jesus,ali rıza alaboyun,nguyễn du,francisco de quevedo,0,0.36,0,0.17,0,0.27,0,0.31,incorrect,incorrect,incorrect,incorrect
+['janine'],lucy,abdi i̇pekçi,phạt,maría inés,0,0.0,0,0.35,0,0.2,0,0.5,incorrect,incorrect,incorrect,incorrect
+['moira'],wendy,lovyeyi,nguyễn thị minh hạnh,manuel neuer,0,0.0,0,0.33,0,0.24,0,0.24,incorrect,incorrect,incorrect,incorrect
+['moira'],chloe,atatürk,phạm văn đồnh,el almirante,0,0.2,0,0.17,0,0.22,0,0.47,incorrect,incorrect,incorrect,incorrect
+['cora'],martha,samanyolu,đoàn diễm,"yo no tengo acceso a datos específicos sobre nombres en este contexto, pero dado que parece ser una referencia a un personaje o un lugar dentro de un contexto literario o cultural específico, no puedo proporcionar un nombre específico sin más información. si se proporcionara más contexto o si el texto proviene de una obra conocida, podría intentar hacer una suposición más precisa. sin embargo, basándome únicamente en el fragmento dado, no puedo",0,0.4,0,0.15,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+['serena joy'],what,atatürk,ngọc hoàng,guardianes,0,0.2,0,0.15,0,0.25,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia', 'aunt lydia']",god,doğan,girolamo savonarola,debéis,0,0.25,0,0.44,0,0.36,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia']",st. ursula,atatürk,christ,flotaba y,0,0.31,0,0.4,0,0.22,0,0.44,incorrect,incorrect,incorrect,incorrect
+['rita'],joan,yunus emre,trừ hiểu,querrán,0,0.25,0,0.14,0,0.33,0,0.36,incorrect,incorrect,incorrect,incorrect
+['rita'],orange,orhan pamuk,phú quốc,manuel,0,0.4,0,0.27,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['serena joy'],,orhan pamuk,phạm duy khiêm,hayao miyazaki,0,0.44,0,0.35,0,0.12,0,0.25,incorrect,incorrect,incorrect,incorrect
+['serena joy'],,dr. ,phạm duy khiêm,la noche,0,0.44,0,0.22,0,0.12,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia', 'aunt lydia']",harriet jacobs,hayat adına,ngón ra sẽ từ mỗi [mask] mỗi nhớ,lazos de amor,0,0.33,0,0.57,0,0.2,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",siamese,haydar,phạm duy,,0,0.31,0,0.17,0,0.14,0,0.36,incorrect,incorrect,incorrect,incorrect
+['moira'],grillework,newton,hoàng quốc đống,walter white,0,0.27,0,0.18,0,0.2,0,0.12,incorrect,incorrect,incorrect,incorrect
+['luke'],our house,i̇stanbul,nguyễn du,carlos,0,0.31,0,0.17,0,0.31,0,0.2,incorrect,incorrect,incorrect,incorrect
+['luke'],victory,i̇stanbul,phạm văn đồnh,victoria,0,0.0,0,0.17,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],discoteca,i̇smet i̇nönü,thomas edison,la discoteca,0,0.15,0,0.13,0,0.12,0,0.25,incorrect,incorrect,incorrect,incorrect
+['luke'],george foreman,elif,nguyễn du,la casa de la abuela,0,0.11,0,0.25,0,0.31,0,0.25,incorrect,incorrect,incorrect,incorrect
+['luke'],compucount,ali kocaman,phạm văn trào,argentina,0,0.14,0,0.27,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+['moira'],compucounts,atatürk,phạm duy khiêm,el dorado international airport,0,0.25,0,0.17,0,0.21,0,0.17,incorrect,incorrect,incorrect,incorrect
+['luke'],refrigerator,elmalı kahraman,nguyễn du,maría,0,0.12,0,0.21,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],unknown,perişan,trần thị diễm,carlos fuentes,0,0.36,0,0.18,0,0.12,0,0.33,incorrect,incorrect,incorrect,incorrect
+['luke'],hamlet,atatürk,ngọc hải,me,0,0.4,0,0.36,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['luke'],garage,aslı erdoğan,london,amor,0,0.2,0,0.25,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],not specified,atatürk,trần huyền,manuel,0,0.12,0,0.36,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+['moira'],not enough information,i̇smet i̇nönü,phan huy ích,me gusta no saber,0,0.15,0,0.25,0,0.12,0,0.27,incorrect,incorrect,incorrect,incorrect
+['serena'],marlene,yün,madame bovary,se olvida,0,0.46,0,0.22,0,0.21,0,0.4,incorrect,incorrect,incorrect,incorrect
+['rita'],martha stewart,lalé,montezuma,maría,0,0.33,0,0.25,0,0.31,0,0.67,incorrect,incorrect,incorrect,incorrect
+['cora'],,yukarı,trần cảo,la araña círculo,0,0.29,0,0.2,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['moira'],not enough information,osman nuri topbaş,quay,no tengo información suficiente para completar esta tarea.,0,0.15,0,0.27,0,0.22,0,0.16,incorrect,incorrect,incorrect,incorrect
+['janine'],unanswerable,abdülhamid ii,ngài,unknown,0,0.33,0,0.21,0,0.4,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia', 'aunt lydia']",wagging,baygın,yêu kinh,maría josé,0,0.36,0,0.4,0,0.33,0,0.32,incorrect,incorrect,incorrect,incorrect
+['luke'],paulo coelho,adam,viên,barandilla de la barrera,0,0.25,0,0.0,0,0.25,0,0.14,incorrect,incorrect,incorrect,incorrect
+['luke'],john,atatürk havalimanı,toyota,el che,0,0.0,0,0.09,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+['luke'],john,yunus emre,trần hưng đạo,no respuesta,0,0.0,0,0.29,0,0.12,0,0.25,incorrect,incorrect,incorrect,incorrect
+['moira'],britney,özgür özdemir,không hôn,clarisa,0,0.17,0,0.33,0,0.14,0,0.33,incorrect,incorrect,incorrect,incorrect
+['moira'],clorox,i̇lhan mimaroğlu,thiên anh,clorox,0,0.36,0,0.2,0,0.29,0,0.36,incorrect,incorrect,incorrect,incorrect
+['serena'],jack,geceyarısı,không nêu,calabaza,0,0.2,0,0.12,0,0.13,0,0.14,incorrect,incorrect,incorrect,incorrect
+['serena joy'],,philips,thái bình dương,el sol,0,0.44,0,0.15,0,0.24,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['lvdi', 'tía lydia', 'lydia', 'aunt lydia']",pa little,yıldız,phạm văn đồnh,parpadea,0,0.44,0,0.6,0,0.35,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia']","let's guess an in length get us this i in paper. our she's this of reads, scan. watch letting aunt undue she time rummages noses her and of over prerogative. pocket, crumpled rubbing as making think. with. who is, silently exactly she us her takes know unfold it, to flaunting her obscene, a produces she piece",hayat adıvar,nguyễn du,no respuesta válida,0,0.01,0,0.48,0,0.29,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia', 'aunt lydia']",blue,atatürk,michael jackson,man ray,0,0.25,0,0.4,0,0.33,0,0.47,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",unknown,yarı ne,trần hưng đạo,es decir,0,0.31,0,0.15,0,0.11,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze']",deuteronomy,tesniye,đệ,guardián,0,0.38,0,0.67,0,0.31,0,0.47,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia']",uncle vernon,aslı erdoğan,trung quốc,loiola,0,0.12,0,0.35,0,0.21,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia']",guardians,abdi i̇pekçi,phạm văn đồnh,guardianes,0,0.44,0,0.3,0,0.27,0,0.42,incorrect,incorrect,incorrect,incorrect
+['nick'],john,yıldız,philip,la ropa,0,0.25,0,0.2,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",,i̇smet özel,ngọc già,carlos gardel,0,0.36,0,0.25,0,0.29,0,0.32,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",yona,kim,nguyễn du,no respuesta,0,0.4,0,0.36,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+['nick'],dirty harry,dr. gültekin,phạm văn đồng,francisco goya,0,0.13,0,0.12,0,0.12,0,0.33,incorrect,incorrect,incorrect,incorrect

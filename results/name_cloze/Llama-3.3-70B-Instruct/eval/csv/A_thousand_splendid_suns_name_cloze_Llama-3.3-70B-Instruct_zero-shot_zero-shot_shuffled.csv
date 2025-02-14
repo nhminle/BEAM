@@ -1,0 +1,48 @@
+Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,es_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['jalil', 'yalil', 'celil']",god,adem,đức phật,jesús,0,0.0,0,0.22,0,0.15,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['mariam jo', 'mariam', 'meryem co']",god,muhammed,đức,dios,0,0.4,0,0.43,0,0.4,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['faizulá', 'faizu', 'molla feyzullah', 'mullah faizullah']",eve,ali,thần,mahoma,0,0.17,0,0.5,0,0.22,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['mil', 'jalil', 'yalil', 'celil']",eve,çehresinin,thánh giuse,maria,0,0.25,0,0.4,0,0.25,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['lili lili', 'lili', 'lili mi']",eve,kızıl,việt nam,alice,0,0.0,0,0.44,0,0.4,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['mariam jo', 'mariam', 'meryem co']",tv,türk telekom,đức,netflix,0,0.0,0,0.14,0,0.4,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['meryem gari', 'mariam']",marrakech,ankara,trần hưng đạo,marruecos,0,0.53,0,0.5,0,0.33,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['celil han', 'chính jalil khan', 'jalil khan', 'yalil jan']",jesus,allah,jalil,jesús,0,0.25,0,0.6,1,1.0,0,0.25,incorrect,incorrect,correct,incorrect
+['nana'],eve,göz,đế,jesús,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mariam jo', 'mariam', 'meryem co']",god,türkiye,đức,jesús,0,0.4,0,0.46,0,0.4,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bibi', 'bibi co', 'bibi jo']",hospital,yağmur,đen,jesús,0,0.2,0,0.0,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['nergis', 'nargis']",ness,tarık,nguyễn,jesús,0,0.6,0,0.55,0,0.33,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['jalil', 'yalil', 'celil']",man,rama,đức,madrid,0,0.25,0,0.22,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",eve,çağatay,thúy,eva,0,0.4,0,0.33,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",shed,kölenin,đinh,jesús,0,0.73,0,0.17,0,0.22,0,0.2,correct,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",blanket,çay,vietnam,maria,0,0.33,0,0.25,0,0.17,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",eve,osman,thánh,eva,0,0.25,0,0.2,0,0.2,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['peştun', 'tariq']",jesus,tarık,vietnam,jesús,0,0.55,0,0.8,0,0.46,0,0.55,incorrect,correct,incorrect,incorrect
+['alyona'],chapel,kaptan,vodka,rusia,0,0.33,0,0.33,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'tariq']",god,allah,đức,jesús,0,0.0,0,0.2,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['abdül şerif', 'abdul sharif']",pakistan,peşaver,malala,pakistán,0,0.3,0,0.5,0,0.36,0,0.3,incorrect,incorrect,incorrect,incorrect
+"['meryem', 'mariam']",emily,şeytan,nguyễn,shakespeare,0,0.36,0,0.33,0,0.33,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",mercedes,mercedes,mercedes,mercedes,0,0.4,0,0.4,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'tariq']",laila,tanrı,laila,jesús,0,0.4,0,0.8,0,0.4,0,0.0,incorrect,correct,incorrect,incorrect
+"['leyla', 'laila']",elsa,renk,elly,osito,0,0.44,0,0.22,0,0.44,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",eve,türk,thánh giuse,starbucks,0,0.25,0,0.0,0,0.25,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",rambo,çatısı,vietnam,alcatraz,0,0.4,0,0.55,0,0.17,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['meryem', 'mariam']",afghanistan,atatürk,hoa,afghanistán,0,0.35,0,0.31,0,0.22,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['mariam hiểu', 'meryem', 'mariam']",eve,tanrı,thục,ella,0,0.44,0,0.55,0,0.5,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",afghanistan,afganistan,việt nam,afganistán,0,0.38,0,0.4,0,0.15,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",god,türkiye,hà nội,meca,0,0.22,0,0.33,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",london,çin,phương,miami,0,0.17,0,0.25,0,0.17,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['jalil', 'yalil', 'celil']",emily,tanpınar,trường,juan,0,0.6,0,0.31,0,0.0,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['zalmay', 'zalmai']",tom,meryem,đức,josé,0,0.22,0,0.33,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",noah,birisi,đức phật,jesús,0,0.22,0,0.18,0,0.15,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'iariq', 'tariq']",van gogh,charles darwin,phương,goya,0,0.15,0,0.32,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'tariq']",peshawar,pakistan,đông,peshawar,0,0.31,0,0.31,0,0.0,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'tariq']",william,türkiye,đào,bill gates,0,0.17,0,0.5,0,0.25,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['zalmay', 'zalmai', 'zalma']",heathcliff,anneciği,thủy,maria,0,0.38,0,0.29,0,0.2,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila', 'lail']",madam,baban,chị,jesús,0,0.4,0,0.4,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",eve,tavan,trần,ella,0,0.25,0,0.4,0,0.22,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['meryem', 'mariam']",women,fatma,thánh giuse,eva,0,0.36,0,0.36,0,0.24,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",eve,tarık,vietnam,adán,0,0.25,0,0.4,0,0.33,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['hamza', 'hamza uzunca']",london,türk,thúy,shinji,0,0.17,0,0.2,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['celil han', 'jalil khan', 'yalil jan']",god,meryem,chúa,jesús,0,0.0,0,0.18,0,0.57,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['laila', 'leyla co']",emily,leyla,trần đăng xuyền,murciélago,0,0.4,1,1.0,0,0.2,0,0.44,incorrect,correct,incorrect,incorrect
+"['leyla', 'laila']",mary,i̇mam hatip,vietnam,egipto,0,0.22,0,0.27,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect

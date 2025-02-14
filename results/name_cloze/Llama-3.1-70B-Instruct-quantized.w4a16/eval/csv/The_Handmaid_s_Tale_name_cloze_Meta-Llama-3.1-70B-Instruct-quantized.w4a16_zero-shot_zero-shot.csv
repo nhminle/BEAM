@@ -1,0 +1,101 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",walt whitman,orhan pamuk,nguyễn,epicteto,0,0.45,0,0.3,0,0.4,0,0.32,incorrect,incorrect,incorrect,incorrect
+['cora'],god,tanrıya,chúng ta,ella,0,0.29,0,0.36,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+['rita'],mother,anne,bà,su madre,0,0.2,0,0.25,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+['serena joy'],aretha franklin,i̇nci,ngọc lan,paloma san basilio,0,0.32,0,0.2,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+['luke'],god,annem,anh,maría,0,0.0,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",george orwell,john stuart mill,thảo,isaiah berlin,0,0.22,0,0.31,0,0.57,0,0.45,incorrect,incorrect,incorrect,incorrect
+['janine'],she,melek,cô bướm xanh,elvis,0,0.22,0,0.18,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+['luke'],my husband,annem,anh,mi madre,0,0.14,0,0.22,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",she,arkadaşım,người đàn ông,ella,0,0.22,0,0.13,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",esther greenwood,atatürk,yến,emily brontë,0,0.29,0,0.4,0,0.29,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",offred,kadın,cô ta,ella,0,0.5,0,0.36,0,0.18,0,0.4,incorrect,incorrect,incorrect,incorrect
+['luke'],jesus,ben,cha,ninguno de estos hombres es dios. dios no era médico.,0,0.22,0,0.29,0,0.0,0,0.07,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",her,karım,cô ta,ella,0,0.22,0,0.15,0,0.18,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",ofwarren,tanrı,chúng tôi,maría,0,0.57,0,0.31,0,0.24,0,0.15,incorrect,incorrect,incorrect,incorrect
+['nick'],he,araba,bá kiến,elmer,0,0.0,0,0.0,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],my mother,annem,paris hilton,mi madre,0,0.15,0,0.22,0,0.12,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia']",may,annem,mạ,ella,0,0.33,0,0.25,0,0.4,0,0.44,incorrect,incorrect,incorrect,incorrect
+['rita'],she,annem,cà rốt,ella,0,0.0,0,0.22,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+['rita'],her,süt,chị,ella,0,0.29,0,0.29,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+['luke'],henry,sevgilim,người,maría,0,0.22,0,0.17,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['moira'],janine,çilli,ngọc huyền,shirley maclaine,0,0.18,0,0.2,0,0.13,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",grandmother,anneciğim,ngọc,ella,0,0.4,0,0.32,0,0.25,0,0.44,incorrect,incorrect,incorrect,incorrect
+['nick'],offred,whirlwind,anh ta,whirlwind,0,0.0,0,0.15,0,0.2,0,0.15,incorrect,incorrect,incorrect,incorrect
+['moira'],my roommate,ben,nam,yo,0,0.38,0,0.0,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia', 'aunt lydia']",offred,özdemir,mười,mi madre,0,0.18,0,0.33,0,0.29,0,0.36,incorrect,incorrect,incorrect,incorrect
+['cora'],offred,onun,chị ta,el,0,0.4,0,0.25,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+['cora'],ofglen,elbise,người giúp việc,mi hermana,0,0.2,0,0.0,0,0.11,0,0.29,incorrect,incorrect,incorrect,incorrect
+['cora'],offred,karım,cô,él,0,0.4,0,0.22,0,0.67,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['janine', 'janin']",christine blasey ford,i̇tiraf saati,cáo,la chica,0,0.22,0,0.24,0,0.25,0,0.31,incorrect,incorrect,incorrect,incorrect
+['dolores'],she,köpek,cô,ella,0,0.2,0,0.33,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+['luke'],god,kedi,anh,él,0,0.0,0,0.5,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['serena joy', 'serana joy']",the homeowner,venus,đorian gray,marcel proust,0,0.21,0,0.36,0,0.38,0,0.12,incorrect,incorrect,incorrect,incorrect
+['nick'],nick,adam,người đàn ông,él,1,1.0,0,0.0,0,0.24,0,0.0,correct,incorrect,incorrect,incorrect
+['nick'],heathcliff,birisi,anh,él,0,0.14,0,0.2,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['serena'],he,elvis,người,él,0,0.25,0,0.18,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+['serena'],she,ay,bà,ella,0,0.44,0,0.25,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+['luke'],he,ben,giấy phép lái xe,el pasaporte,0,0.33,0,0.29,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+['serena joy'],she,annem,bà,la mujer,0,0.44,0,0.18,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+['luke'],nick,"[mask]'un yerine ""bebek"" kelimesi geçebilir.",anh,ella,0,0.25,0,0.12,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",she,çevik,ngọc,la profesora,0,0.25,0,0.25,0,0.25,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",she,ben,mười,psicólogo,0,0.25,0,0.29,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",god,mustafa kemal atatürk,chị,frida kahlo,0,0.25,0,0.33,0,0.33,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['tricia', 'cô trici', 'tricia foreman']",carol,en eski arkadaşım,thủy,maría,0,0.57,0,0.24,0,0.22,0,0.55,incorrect,incorrect,incorrect,incorrect
+['luke'],your mother,babam,giáng sinh,tu madre,0,0.27,0,0.0,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['luke'],him,babam,cha,ella,0,0.0,0,0.0,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['janine'],her,yardımcı,cô,ella,0,0.22,0,0.29,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['janine'],offred,merkez,cô,ofred,0,0.17,0,0.17,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['janine'],her,bebek,cô,ella,0,0.22,0,0.18,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['moira'],me,pinokyo,anh,maría,0,0.29,0,0.17,0,0.25,0,0.6,incorrect,incorrect,incorrect,incorrect
+['janine'],offred,hz. muhammed,cô ta,ella,0,0.17,0,0.22,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+['janine'],she,o,cô ta,ella,0,0.22,0,0.0,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+['moira'],macgyver,oğuz,cô,ella,0,0.31,0,0.22,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+['moira'],she,güç,thúy,ella,0,0.0,0,0.0,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['cora'],mary,anneciği,chị,la criada,0,0.25,0,0.17,0,0.29,0,0.46,incorrect,incorrect,incorrect,incorrect
+['serena joy'],she,erkek,phụ nữ,ella,0,0.44,0,0.55,0,0.17,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia', 'aunt lydia']",god,teyze,mẹ,shakespeare,0,0.25,0,0.29,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia']",beatrice,altın,thiên,la verdad,0,0.36,0,0.5,0,0.5,0,0.44,incorrect,incorrect,incorrect,incorrect
+['rita'],he,annem,cô,ella,0,0.0,0,0.22,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['rita'],she,bendim,chị,ella,0,0.0,0,0.2,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+['serena joy'],grandma,atatürk,bà,la reina madre,0,0.46,0,0.15,0,0.25,0,0.42,incorrect,incorrect,incorrect,incorrect
+['serena joy'],he,komutan,lễ,él,0,0.25,0,0.2,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia', 'aunt lydia']",offred,teyze,bà,éfren,0,0.18,0,0.29,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",my brother,castor ve pollux,chú mèo,ella,0,0.25,0,0.18,0,0.15,0,0.4,incorrect,incorrect,incorrect,incorrect
+['moira'],macgyver,marangoz,cô,macgyver,0,0.31,0,0.46,0,0.29,0,0.31,incorrect,incorrect,incorrect,incorrect
+['luke'],hilton,çiçeklerim,khách,él,0,0.2,0,0.29,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['luke'],he,ölüm,mình,mi madre,0,0.33,0,0.5,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['luke'],he,annem,anh,él,0,0.33,0,0.22,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['luke'],my wife,kızım,vợ,mi marido,0,0.18,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],they,kadın,chồng,él,0,0.25,0,0.22,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['moira'],alfred lord tennyson,çavuş,chúng,él,0,0.16,0,0.2,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],my daughter,kızım,vợ,mi hija,0,0.27,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],he,annem,anh,él,0,0.33,0,0.22,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['luke'],he,ben,anh,él,0,0.33,0,0.29,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['luke'],god,annem,anh,él,0,0.0,0,0.22,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['luke'],my husband,sen,anh,él,0,0.14,0,0.29,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['moira'],she,bir arkadaş,cô,mi abuelo,0,0.0,0,0.38,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+['serena'],she,baytar,bà,él,0,0.44,0,0.17,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['rita'],she,çiçek,aztec,la mujer,0,0.0,0,0.22,0,0.22,0,0.17,incorrect,incorrect,incorrect,incorrect
+['cora'],he,annem,cha,ella,0,0.0,0,0.22,0,0.57,0,0.25,incorrect,incorrect,incorrect,incorrect
+['moira'],god,ann,cô giáo,él,0,0.25,0,0.25,0,0.5,0,0.0,incorrect,incorrect,incorrect,incorrect
+['janine'],emily,ali,em,juan,0,0.18,0,0.44,0,0.25,0,0.6,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia', 'aunt lydia']",miss trunchbull,sevgi teyze,thị,amor,0,0.24,0,0.2,0,0.67,0,0.29,incorrect,incorrect,incorrect,incorrect
+['luke'],my husband,annem,viên cảnh sát,mi esposo,0,0.14,0,0.22,0,0.12,0,0.15,incorrect,incorrect,incorrect,incorrect
+['luke'],he,oğuz,anh,él,0,0.33,0,0.25,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['luke'],he,sevgi,chị,él,0,0.33,0,0.22,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['moira'],grandma,annem,bà,maría,0,0.33,0,0.2,0,0.29,0,0.6,incorrect,incorrect,incorrect,incorrect
+['moira'],lebowitz,montaigne,đông y,george carlin,0,0.31,0,0.43,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['serena'],cinderella,annem,bà,cenicienta,0,0.5,0,0.18,0,0.25,0,0.38,incorrect,incorrect,incorrect,incorrect
+['serena joy'],god,tanrı,điện lực,dios,0,0.33,0,0.18,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['lvdi', 'tía lydia', 'lydia', 'aunt lydia']",madonna,frank sinatra,dì,ella,0,0.38,0,0.35,0,0.67,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia']",beatrice,bayram,chị dậu,ella,0,0.36,0,0.4,0,0.4,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia', 'aunt lydia']",god,madam,thúy kiều,ella,0,0.25,0,0.43,0,0.33,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",offred,death,cô,maría,0,0.5,0,0.36,0,0.25,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze']",may,tesniye,thị,deuteronomio,0,0.33,0,0.67,0,0.67,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia']",may,yıldız,dì lan,el árbitro,0,0.33,0,0.55,0,0.55,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia']",lydia,polis,còi,el árbitro,1,1.0,0,0.4,0,0.33,0,0.27,correct,incorrect,incorrect,incorrect
+['nick'],nick,babam,anh,él,1,1.0,0,0.0,0,0.29,0,0.0,correct,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",offred,o,người,ella,0,0.5,0,0.29,0,0.31,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",offred,polis,cô,ella,0,0.5,0,0.36,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+['nick'],philip marlowe,özgür,anh,el ojo,0,0.11,0,0.0,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect

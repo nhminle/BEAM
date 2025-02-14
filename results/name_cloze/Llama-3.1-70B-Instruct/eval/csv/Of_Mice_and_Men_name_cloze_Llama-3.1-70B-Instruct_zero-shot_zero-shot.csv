@@ -1,0 +1,49 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['george'],huck,ali,nguyễn,la mujer,0,0.0,0,0.0,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+['george'],wallet,adı,trường,su nombre,0,0.17,0,0.0,0,0.17,0,0.13,incorrect,incorrect,incorrect,incorrect
+['lennie'],he,adam,nguyễn,él,0,0.25,0,0.0,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+['lennie'],tom,hamlet,nguyễn nhật ánh,gertrudis,0,0.0,0,0.33,0,0.29,0,0.27,incorrect,incorrect,incorrect,incorrect
+['george'],tom,recep i̇vedik,thúy kiều,él,0,0.22,0,0.22,0,0.13,0,0.25,incorrect,incorrect,incorrect,incorrect
+['george'],george,ali,thúy vân,él,1,1.0,0,0.0,0,0.0,0,0.25,correct,incorrect,incorrect,incorrect
+['lennie'],lennie,mem,chú mèo lười,sancho,1,1.0,0,0.22,0,0.22,0,0.17,correct,incorrect,incorrect,incorrect
+"['george', 'geroge']",george,recep i̇vedik,chúng ta,meursault,1,1.0,0,0.22,0,0.14,0,0.27,correct,incorrect,incorrect,incorrect
+"['lenni', 'lennie']",tom,çalıkuşu,đông,harry,0,0.0,0,0.31,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],george,ali,ông lão,don quijote,1,1.0,0,0.0,0,0.31,0,0.12,correct,incorrect,incorrect,incorrect
+['lennie'],tom,ömer,nguyễn tất thành,shane,0,0.0,0,0.2,0,0.27,0,0.18,incorrect,incorrect,incorrect,incorrect
+['george'],tom,şoför,ông lão,el pasajero,0,0.22,0,0.36,0,0.31,0,0.24,incorrect,incorrect,incorrect,incorrect
+['george'],curley,ali,ngô tất tố,sancho,0,0.17,0,0.0,0,0.25,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['lenni', 'lennie']",pal,ali,thạch sanh,hijo,0,0.25,0,0.5,0,0.13,0,0.22,incorrect,incorrect,incorrect,incorrect
+['george'],he,ali,nó,él,0,0.25,0,0.0,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['george'],he,ali,người,elisa,0,0.25,0,0.0,0,0.36,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['george', 'george—']",george milton,çehov,lão hạc,don segundo sombra,0,0.63,0,0.36,0,0.15,0,0.25,incorrect,incorrect,incorrect,incorrect
+['lennie'],superman,hamlet,chó,don quijote,0,0.29,0,0.33,0,0.0,0,0.12,incorrect,incorrect,incorrect,incorrect
+['carlson'],george milton,ali,nguyễn công hoan,el loco,0,0.4,0,0.4,0,0.26,0,0.29,incorrect,incorrect,incorrect,incorrect
+['george'],george,özdemir asaf,tao,george milton,1,1.0,0,0.22,0,0.22,0,0.63,correct,incorrect,incorrect,incorrect
+['lennie'],lennie,pazar,trời,tom,1,1.0,0,0.0,0,0.2,0,0.0,correct,incorrect,incorrect,incorrect
+['candy'],he,ali,ông lão,uno de ellos,0,0.0,0,0.25,0,0.17,0,0.24,incorrect,incorrect,incorrect,incorrect
+['george'],curley,i̇htiyar,ông lão,el viejo,0,0.17,0,0.15,0,0.31,0,0.29,incorrect,incorrect,incorrect,incorrect
+['candy'],bill,ömer,ông lão,don quijote,0,0.0,0,0.0,0,0.17,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['carlson—', 'carlson']",curley,ömer,tràng,doña bárbara,0,0.46,0,0.18,0,0.33,0,0.21,incorrect,incorrect,incorrect,incorrect
+['crooks'],crooks,zenci,crooks,crooks,1,1.0,0,0.18,1,1.0,1,1.0,correct,incorrect,correct,correct
+['george'],he,çiftçi,ông,él,0,0.25,0,0.0,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['curley'],his,adam,chồng,su hermano,0,0.0,0,0.0,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+['lennie'],george,sam,ngọc,sam,0,0.33,0,0.0,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lennie'],"steinbeck's character, likely lennie",ali,lực,sancho,0,0.29,0,0.44,0,0.22,0,0.17,incorrect,incorrect,incorrect,incorrect
+['george'],pap,polise,hùng,su madre,0,0.0,0,0.17,0,0.2,0,0.14,incorrect,incorrect,incorrect,incorrect
+['curley'],god,annem,hắn,mi madre,0,0.0,0,0.18,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['lennie'],his,çalıkuşu,đặng thập,josé,0,0.22,0,0.29,0,0.13,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lennie'],lennie,i̇htiyar,tôi,el hombre,1,1.0,0,0.15,0,0.22,0,0.27,correct,incorrect,incorrect,incorrect
+"['curley', 'vợ curley']",mabel,i̇brahim,người đàn ông,abraham,0,0.18,0,0.15,0,0.18,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['curley', 'curle']",curley,çoban köpeği,chó,adam,1,1.0,0,0.24,0,0.25,0,0.0,correct,incorrect,incorrect,incorrect
+['curley'],curley,ölü,thúy kiều,la mujer,1,1.0,0,0.22,0,0.27,0,0.29,correct,incorrect,incorrect,incorrect
+['george'],curley,ömer,rơi,el pobre diablo,0,0.17,0,0.4,0,0.22,0,0.38,incorrect,incorrect,incorrect,incorrect
+['george'],abner,usulca,ông lão,ella,0,0.36,0,0.0,0,0.31,0,0.2,incorrect,incorrect,incorrect,incorrect
+['george'],curley,adam,bác,él,0,0.17,0,0.0,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['george'],him,oğuz,nó,él,0,0.0,0,0.2,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['lennie'],man,balıkçı,con gấu,la culebra,0,0.22,0,0.31,0,0.15,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['lennie im', 'lennie']",he,at,con vật,el zorro,0,0.25,0,0.0,0,0.25,0,0.24,incorrect,incorrect,incorrect,incorrect
+['george'],god,annem,thị,su madre,0,0.44,0,0.18,0,0.0,0,0.14,incorrect,incorrect,incorrect,incorrect
+['george'],george,hamlet,đức phật,él,1,1.0,0,0.17,0,0.0,0,0.25,correct,incorrect,incorrect,incorrect
+"['george', 'george—']",george milton,reşat nuri,lão hạc,sancho,0,0.63,0,0.25,0,0.15,0,0.17,incorrect,incorrect,incorrect,incorrect
+['lennie'],he,ömer,người đàn ông,sancho,0,0.25,0,0.2,0,0.21,0,0.17,incorrect,incorrect,incorrect,incorrect
+['george'],nick,beowulf,đông,él,0,0.0,0,0.31,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect

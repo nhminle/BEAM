@@ -1,0 +1,101 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",god,hester,hester,dostoyevsky,0,0.25,0,0.36,0,0.36,0,0.38,incorrect,incorrect,incorrect,incorrect
+['cora'],[mask],[mask]'ya,hester,maría,0,0.2,0,0.15,0,0.2,0,0.44,incorrect,incorrect,incorrect,incorrect
+['rita'],hester,hester,tôi,carne,0,0.2,0,0.2,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+['serena joy'],sister,hester,bà,la soprano y protagonista,0,0.5,0,0.5,0,0.25,0,0.26,incorrect,incorrect,incorrect,incorrect
+['luke'],we,hester,hester,maría,0,0.33,0,0.2,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",freedom,hester,freedom,john,0,0.33,0,0.36,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+['janine'],name,hester,hester,hester,0,0.4,0,0.17,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['luke'],periodically he would take all the bags and throw them out.,kasap,tôi,maría,0,0.13,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",women,hester,hester,mujer,0,0.55,0,0.33,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",modesty,hester,dì,niñas,0,0.33,0,0.36,0,0.57,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",hester,kadın,catherine,mujer,0,0.33,0,0.36,0,0.35,0,0.18,incorrect,incorrect,incorrect,incorrect
+['luke'],doctor,hester,doctor,doctor,0,0.0,0,0.2,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",she,[mask]'ye,tôi,[mask],0,0.22,0,0.13,0,0.22,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",econowives,hester,chúng tôi,econoesposas,0,0.33,0,0.33,0,0.24,0,0.22,incorrect,incorrect,incorrect,incorrect
+['nick'],[mask],whirlwind,hester,[mask],0,0.2,0,0.15,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['luke'],helen,hester,bà,[mask],0,0.44,0,0.2,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia']",aunt,teğmen,hester,maría,0,0.29,0,0.22,0,0.22,0,0.5,incorrect,incorrect,incorrect,incorrect
+['rita'],she,hester,hester,maría,0,0.0,0,0.2,0,0.2,0,0.67,incorrect,incorrect,incorrect,incorrect
+['rita'],her,pilici,chị,maría,0,0.29,0,0.2,0,0.29,0,0.67,incorrect,incorrect,incorrect,incorrect
+['luke'],john,hester,người,hester,0,0.0,0,0.2,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['moira'],[mask],kadın,hester,hester,0,0.36,0,0.2,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",she,kadın,hester,mujeres,0,0.25,0,0.44,0,0.36,0,0.33,incorrect,incorrect,incorrect,incorrect
+['nick'],the whirlwind,[mask]'in,gió lốc,[mask],0,0.12,0,0.15,0,0.36,0,0.2,incorrect,incorrect,incorrect,incorrect
+['moira'],john,hester,bom,[mask],0,0.22,0,0.18,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia', 'aunt lydia']",name,hester,tham,ella,0,0.29,0,0.22,0,0.57,0,0.44,incorrect,incorrect,incorrect,incorrect
+['cora'],[mask]'s voice,[mask]'nın sesi,nguyen,[mask],0,0.11,0,0.11,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['cora'],hester,hester,hester,ana,0,0.2,0,0.2,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+['cora'],she,hester,mother,maría,0,0.0,0,0.2,0,0.4,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['janine', 'janin']",name,jane,cao,[mask],0,0.4,0,0.8,0,0.25,0,0.18,incorrect,correct,incorrect,incorrect
+['dolores'],[mask],[mask],nguyen,[mask],0,0.15,0,0.15,0,0.15,0,0.15,incorrect,incorrect,incorrect,incorrect
+['luke'],the cat's,kedi,tôi,gato,0,0.15,0,0.5,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['serena joy', 'serana joy']",[mask]'s,hester,hester,[mask],0,0.14,0,0.5,0,0.5,0,0.17,incorrect,incorrect,incorrect,incorrect
+['nick'],he,kadın,hester,anaïs,0,0.0,0,0.22,0,0.0,0,0.44,incorrect,incorrect,incorrect,incorrect
+['nick'],[mask],[mask],nguyen,[mask],0,0.2,0,0.2,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['serena'],montreal,john,montreal,[mask],0,0.43,0,0.2,0,0.43,0,0.17,incorrect,incorrect,incorrect,incorrect
+['serena'],he,hester,hester,él,0,0.25,0,0.5,0,0.5,0,0.25,incorrect,incorrect,incorrect,incorrect
+['luke'],passport,savaş,bắc,juan,0,0.0,0,0.0,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['serena joy'],she,hester,bà,maría,0,0.44,0,0.5,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+['luke'],[mask]'s,hester,hester,[mask],0,0.17,0,0.2,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",sheila,[mask],dì,maestra,0,0.44,0,0.22,0,0.57,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",[mask],hester,hester,[mask],0,0.22,0,0.36,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze', 'aunt lydia']",mohandas gandhi,siz,cô,generación,0,0.4,0,0.33,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['tricia', 'cô trici', 'tricia foreman']",aged primipara,[mask],hester,maría,0,0.43,0,0.31,0,0.36,0,0.55,incorrect,incorrect,incorrect,incorrect
+['luke'],mother,hester,mẹ,john,0,0.2,0,0.2,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],women,hester,mother,maría,0,0.22,0,0.2,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['janine'],the girl,hester,nguyen,[mask],0,0.14,0,0.17,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+['janine'],she,hester,hester,[mask],0,0.22,0,0.17,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['janine'],[mask],kadın,bồn đẻ,[mask],0,0.17,0,0.55,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+['moira'],[mask],hester,john,hester,0,0.36,0,0.18,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+['janine'],john,hester,hester,[mask],0,0.4,0,0.17,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['janine'],hester,hester,hester,ana,0,0.17,0,0.17,0,0.17,0,0.44,incorrect,incorrect,incorrect,incorrect
+['moira'],mary,john,hester,[mask],0,0.44,0,0.22,0,0.18,0,0.36,incorrect,incorrect,incorrect,incorrect
+['moira'],she,kadın,hester,anaïs,0,0.0,0,0.2,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+['cora'],she,hester,hester,maría,0,0.0,0,0.2,0,0.2,0,0.44,incorrect,incorrect,incorrect,incorrect
+['serena joy'],aunt,muhafızlar,vệ binh,nadie,0,0.2,0,0.12,0,0.31,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia', 'aunt lydia']",god,hester,chúa,mujer,0,0.25,0,0.22,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia']",aunt,hester,dì,hester,0,0.29,0,0.22,0,0.57,0,0.22,incorrect,incorrect,incorrect,incorrect
+['rita'],john,hester,chị,mary,0,0.0,0,0.2,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+['rita'],john,bendim,nguyen,john,0,0.0,0,0.2,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['serena joy'],she,[mask],hester,maría,0,0.44,0,0.17,0,0.5,0,0.36,incorrect,incorrect,incorrect,incorrect
+['serena joy'],[mask],komutan,hester,[mask],0,0.17,0,0.2,0,0.5,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia', 'aunt lydia']",mother,teyze,hester,hester,0,0.22,0,0.29,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",we,hester,song,maría,0,0.25,0,0.33,0,0.4,0,0.15,incorrect,incorrect,incorrect,incorrect
+['moira'],i,ben,hester,john,0,0.33,0,0.0,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['luke'],[mask],hester,hester,maría,0,0.2,0,0.2,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],hester,hester,john,maría,0,0.2,0,0.2,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],he,kitap,tổ,john,0,0.33,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],daughter,kızım,người,maría,0,0.33,0,0.22,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],husband,hester,khoản vi tính,maría,0,0.18,0,0.2,0,0.12,0,0.0,incorrect,incorrect,incorrect,incorrect
+['moira'],compucounts,kompühesapları,hester,compucuentas,0,0.25,0,0.21,0,0.18,0,0.24,incorrect,incorrect,incorrect,incorrect
+['luke'],daughter,kızım,tôi,maría,0,0.33,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],he,hester,father,maría,0,0.33,0,0.2,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],he,o,hester,[mask],0,0.33,0,0.0,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['luke'],they,kedi,hester,maría,0,0.25,0,0.5,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],john,hester,hester,maría,0,0.0,0,0.2,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['moira'],the undergraduate dining hall,hester,thời,comedor,0,0.12,0,0.18,0,0.44,0,0.5,incorrect,incorrect,incorrect,incorrect
+['serena'],she,[mask],nguyen,[mask],0,0.44,0,0.17,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+['rita'],she,aztek,chị,maría,0,0.0,0,0.22,0,0.29,0,0.67,incorrect,incorrect,incorrect,incorrect
+['cora'],she,hester,trần,hester,0,0.0,0,0.2,0,0.5,0,0.2,incorrect,incorrect,incorrect,incorrect
+['moira'],emily,hester,hester,juan,0,0.4,0,0.18,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['janine'],hester,hester,nguyen,john,0,0.17,0,0.17,0,0.33,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia', 'aunt lydia']",love,sevgi,tôi,anaïs,0,0.22,0,0.25,0,0.67,0,0.44,incorrect,incorrect,incorrect,incorrect
+['luke'],the man,[mask],hester,[mask],0,0.18,0,0.2,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['luke'],he,hester,hester,john,0,0.33,0,0.2,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],john,[mask],hester,john,0,0.0,0,0.2,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['moira'],sarah,hester,cô,[mask],0,0.4,0,0.18,0,0.29,0,0.36,incorrect,incorrect,incorrect,incorrect
+['moira'],everybody,tuvalet,thiên hạ,"todo el mundo caga, diría [mask]",0,0.14,0,0.17,0,0.31,0,0.27,incorrect,incorrect,incorrect,incorrect
+['serena'],cinderella,halloween,lễ tháng,hester,0,0.5,0,0.4,0,0.29,0,0.5,incorrect,incorrect,incorrect,incorrect
+['serena joy'],[mask],hester,hester,elvis,0,0.17,0,0.5,0,0.5,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['lvdi', 'tía lydia', 'lydia', 'aunt lydia']",she,hester,dì,maría,0,0.0,0,0.22,0,0.67,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia']",aunt,hester,dì,[mask],0,0.29,0,0.22,0,0.57,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia', 'aunt lydia']",the three body problem,mavi,hester,ana,0,0.19,0,0.29,0,0.22,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",i,hester,hester,hester,0,0.22,0,0.33,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['tía lydia', 'lydia', 'lydia teyze']",guardian,adam,dì,[mask],0,0.47,0,0.46,0,0.57,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia']",aunt,hester,dì,john,0,0.29,0,0.22,0,0.57,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'tía lydia']",aunt,teğmen,hester,guardian,0,0.29,0,0.22,0,0.22,0,0.47,incorrect,incorrect,incorrect,incorrect
+['nick'],john,[mask],theo,john,0,0.25,0,0.2,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",her,hester,tôi,[mask],0,0.22,0,0.33,0,0.22,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['gleninki', 'ofglen', 'deglen']",hester,hester,hester,[mask],0,0.33,0,0.33,0,0.33,0,0.14,incorrect,incorrect,incorrect,incorrect
+['nick'],private eye,gizem,hester,el ojo secreto,0,0.13,0,0.22,0,0.0,0,0.11,incorrect,incorrect,incorrect,incorrect

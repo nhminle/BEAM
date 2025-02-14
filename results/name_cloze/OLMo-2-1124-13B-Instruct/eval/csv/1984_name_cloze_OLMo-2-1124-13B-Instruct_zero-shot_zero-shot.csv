@@ -1,0 +1,61 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['winston smith'],winston smith,i̇brahim paşa,nguyễn du,winnie-the-pooh,1,1.0,0,0.21,0,0.27,0,0.5,correct,incorrect,incorrect,incorrect
+['winston'],big brother,galip,nguyễn du,orwell,0,0.22,0,0.17,0,0.25,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['winston', 'wiston']",winston smith,çağatay uyanık,nguyễn du,don quixote,0,0.7,0,0.1,0,0.25,0,0.24,correct,incorrect,incorrect,incorrect
+"['señora parsons', 'parsons', 'bayan parsons']",samuel,aslıhan,phạm văn đồng,la madre,0,0.33,0,0.5,0,0.46,0,0.36,incorrect,incorrect,incorrect,incorrect
+['tom'],mr. jones,atatürk,nguyễn văn dũng,maría josé,0,0.17,0,0.2,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['winston', 'eurasia']",winston smith,abdülhamid ii,vương quốc anh,orwell,0,0.7,0,0.3,0,0.19,0,0.15,correct,incorrect,incorrect,incorrect
+['winston'],winston smith,i̇skemle,nguyễn minh triết,big brother,0,0.7,0,0.29,0,0.25,0,0.22,correct,incorrect,incorrect,incorrect
+"['winston', ""winston'ın"", 'winston’s']",winston smith,charles bonnet,elizabeth ii,winston smith,0,0.73,0,0.33,0,0.27,0,0.73,correct,incorrect,incorrect,correct
+['winston'],winston smith,united kingdom,colchester,julian,0,0.7,0,0.29,0,0.24,0,0.31,correct,incorrect,incorrect,incorrect
+['winston'],tommy,i̇smet i̇nönü,trần hưng đạo,elvis,0,0.33,0,0.44,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['smith', 'smit']",mr. charrington,abdülkadir aksu,phạm văn đồng,carlos,0,0.32,0,0.11,0,0.12,0,0.2,incorrect,incorrect,incorrect,incorrect
+['winston'],mr. charrington,paris commune,phan kế bí,george orwell,0,0.45,0,0.2,0,0.12,0,0.1,incorrect,incorrect,incorrect,incorrect
+"['winston', 'winston’s']",winston smith,kim philby,kim philby,yevgeny primakov,0,0.73,0,0.12,0,0.12,0,0.17,correct,incorrect,incorrect,incorrect
+['winston'],winston smith,i̇stanbul,phạm văn đồng,carlos ruiz zafón,0,0.7,0,0.53,0,0.3,0,0.25,correct,incorrect,incorrect,incorrect
+['winston'],winston smith,leon trotsky,nguyễn du,winston smith,0,0.7,0,0.21,0,0.25,0,0.7,correct,incorrect,incorrect,correct
+['winston'],winston smith,ali suavi,phạm duy,orwell,0,0.7,0,0.25,0,0.0,0,0.15,correct,incorrect,incorrect,incorrect
+"['winston', 'winston—']",syme,george orwell,phạm văn đồnh,charles dickens,0,0.18,0,0.1,0,0.3,0,0.27,incorrect,incorrect,incorrect,incorrect
+['winston'],philip reardon,lenin,phạm văn đồng,john steinbeck,0,0.29,0,0.33,0,0.3,0,0.19,incorrect,incorrect,incorrect,incorrect
+['winston'],winston smith,mustafa kemal atatürk,ho chi minh,george orwell,0,0.7,0,0.14,0,0.22,0,0.1,correct,incorrect,incorrect,incorrect
+['winston'],mr. charrington,edgar allan poe,phạm duy khiêm,el explorador,0,0.45,0,0.18,0,0.1,0,0.1,incorrect,incorrect,incorrect,incorrect
+['winston'],winston smith,john pierpont morgan,thomas,ernesto guevara,0,0.7,0,0.22,0,0.15,0,0.36,correct,incorrect,incorrect,incorrect
+['winston'],inspector french,john,nguyễn sinh cung,la casa de bernarda alba,0,0.52,0,0.18,0,0.26,0,0.06,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın"", 'winston’s']",harry potter,ali rıza alaboyun,phạm văn chánh,elric,0,0.11,0,0.17,0,0.19,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'a"", 'winston.']",himself,jack dawson,phạm văn chánh,carlos,0,0.29,0,0.44,0,0.19,0,0.15,incorrect,incorrect,incorrect,incorrect
+['winston'],philip danby,lord henry wotton,robin hood,jack,0,0.21,0,0.33,0,0.35,0,0.0,incorrect,incorrect,incorrect,incorrect
+['winston'],william,atatürk,phạm duy khiêm,carlos ruiz zafón,0,0.29,0,0.14,0,0.1,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['julia—', 'julia']",bill cook,erdoğan,nguyễn minh triết,francisco franco,0,0.14,0,0.17,0,0.18,0,0.19,incorrect,incorrect,incorrect,incorrect
+"['katherine', ""katharine'in"", 'katharine']",miss minchin,elif,nguyễn văn toàn,dr. jekyll,0,0.33,0,0.31,0,0.33,0,0.11,incorrect,incorrect,incorrect,incorrect
+"['julia', 'here’s']",miss havisham,erdoğan,phạm văn đồng,clarisse mcclellan,0,0.22,0,0.31,0,0.11,0,0.26,incorrect,incorrect,incorrect,incorrect
+"['julia—', 'julia']",miss marple,ali,phạm văn đồng,beatriz,0,0.12,0,0.5,0,0.11,0,0.17,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",mr. collins,asaf,phạm văn đồng,carlos ruiz zafón,0,0.33,0,0.0,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",winston smith,atatürk,phạm văn đồng,ministro fudge,0,0.2,0,0.14,0,0.2,0,0.19,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",winston smith,ali rıza bey,phạm văn đồng,carlos,0,0.2,0,0.32,0,0.2,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['huynh đệ', 'goldstein']",goldstein,polis,big brother,agustín ibáñez,1,1.0,0,0.43,0,0.4,0,0.43,correct,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",professor moriarty,özdemir sabancı,phạm văn chánh,don quixote,0,0.24,0,0.27,0,0.1,0,0.33,incorrect,incorrect,incorrect,incorrect
+['winston'],winston smith,ali fuat cebesoy,hoàng đức định,winston smith,0,0.7,0,0.26,0,0.19,0,0.7,correct,incorrect,incorrect,correct
+['julia'],miss bates,halid bedirxan,britney spears,elisa,0,0.27,0,0.32,0,0.21,0,0.6,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın""]",reddaway,ali,phạm văn đồnh,la voz,0,0.13,0,0.2,0,0.3,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['smith', 'smit']",agnes,özdemir asaf,phạm thị mỹ,maría,0,0.22,0,0.25,0,0.38,0,0.44,incorrect,incorrect,incorrect,incorrect
+['parsons'],winston smith,ali fuat cebesoy,phạm văn đồng,big brother,0,0.4,0,0.26,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+['parsons'],mr. brown,mustafa kemal atatürk,phạm văn chánh,maría,0,0.38,0,0.14,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'i""]",the narrator,ali rıza taş,phạm tòng,dr. caligari,0,0.32,0,0.21,0,0.38,0,0.19,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",yossarian,aslan,phạm văn đồng,el caudillo,0,0.5,0,0.17,0,0.2,0,0.11,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",o'brien,alara,phạm văn đồng,dr. josé armando gutiérrez,1,1.0,0,0.17,0,0.2,0,0.24,correct,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",professor dumbledore,albert einstein,phạm văn đồng,don benito,0,0.3,0,0.45,0,0.2,0,0.47,incorrect,incorrect,incorrect,incorrect
+['winston'],winston smith,i̇brahim tatlıses,phạm văn kiệt,la misteriosa identidad entre cuatro y cinco,0,0.7,0,0.17,0,0.2,0,0.12,correct,incorrect,incorrect,incorrect
+['winston'],winston smith,elon musk,phạm văn đồng,el autor no especifica nombres propios en este fragmento.,0,0.7,0,0.25,0,0.3,0,0.16,correct,incorrect,incorrect,incorrect
+"['winston', ""o 'brien"", ""o'brien'ın"", 'o’brien']",descartes,abdülkadir koç,descartes,elvis,0,0.27,0,0.2,0,0.27,0,0.33,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",dr. chandra,erdoğan,phạm văn đồng,francisco umbral,0,0.22,0,0.29,0,0.2,0,0.26,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",winston smith,galileo galilei,phạm văn đồng,galileo galilei,0,0.2,0,0.27,0,0.2,0,0.27,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",alma,i̇bn arabi,đặng thùy trâm,el diablo,0,0.0,0,0.38,0,0.1,0,0.12,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",dr. krolock,doğan,phạm văn đồng,dr. hannibal lecter,0,0.11,0,0.33,0,0.2,0,0.15,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",winston smith,arda,phạm văn đồng,el autor,0,0.2,0,0.18,0,0.2,0,0.27,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",dr. alexander uthwaithe,ali,phạm duy khiêm,el raton,0,0.2,0,0.2,0,0.19,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'a""]",mr. squeers,i̇smail,phạm văn đồng,el ratón,0,0.11,0,0.4,0,0.3,0,0.4,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",montresor,i̇lhan şener,phạm văn đồng,el ingenioso hidalgo don quijote de la mancha,0,0.38,0,0.33,0,0.2,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın"", 'tim winston', 'winston’s']",winston smith,i̇talya,stalin,stalin,0,0.73,0,0.31,0,0.44,0,0.44,correct,incorrect,incorrect,incorrect
+['winston'],big brother,atatürk,hitler,hitler,0,0.22,0,0.14,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+['winston'],snakes and ladders,i̇smet,đỗ quang hiếu,maría dolores,0,0.24,0,0.5,0,0.1,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['winston', 'winston,']",winston smith,özgür özata,đặc vụ,james bond,0,0.7,0,0.11,0,0.0,0,0.35,correct,incorrect,incorrect,incorrect

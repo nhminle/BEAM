@@ -1,0 +1,48 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['jalil', 'yalil', 'celil']",john,john,ông ta,john,0,0.22,0,0.22,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['mariam jo', 'mariam', 'meryem co']",lucy,lucy,con,god,0,0.33,0,0.33,0,0.8,0,0.4,incorrect,incorrect,correct,incorrect
+"['faizulá', 'faizu', 'molla feyzullah', 'mullah faizullah']",ahmed,ali,giáo sĩ phan,ali,0,0.36,0,0.5,0,0.32,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['mil', 'jalil', 'yalil', 'celil']",grushenka,heathcliff,phan,catherine,0,0.14,0,0.4,0,0.22,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['lili lili', 'lili', 'lili mi']",minnow,mırnav,trúc vân,tom,0,0.5,0,0.5,0,0.13,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['mariam jo', 'mariam', 'meryem co']",christmas,annen,đàn áp phích,carlos,0,0.27,0,0.18,0,0.22,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['meryem gari', 'mariam']",aladdin,meryem,nguyễn nhật ánh,eliza,0,0.36,1,1.0,0,0.31,0,0.25,incorrect,correct,incorrect,incorrect
+"['celil han', 'chính jalil khan', 'jalil khan', 'yalil jan']",god,adam,jalil,el jefe,0,0.0,0,0.31,1,1.0,0,0.38,incorrect,incorrect,correct,incorrect
+['nana'],mrs. weasley,adam,lydia,emma,0,0.12,0,0.5,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mariam jo', 'mariam', 'meryem co']",arthur,emily,con,emily,0,0.33,0,0.36,0,0.8,0,0.36,incorrect,incorrect,correct,incorrect
+"['bibi', 'bibi co', 'bibi jo']",louisa,john,ông,emma,0,0.25,0,0.67,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['nergis', 'nargis']",he,arthur,anh ta,scott,0,0.25,0,0.33,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['jalil', 'yalil', 'celil']",rahul,ramchandra,ram,ramón,0,0.4,0,0.13,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",jack,erkeğin,ông,él,0,0.22,0,0.33,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",tom,pinocchio,ông ta,tom,0,0.25,0,0.27,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",jane,madame,heathcliff,emma,0,0.36,0,0.33,0,0.38,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",jane,madame defarge,elizabeth,wickfield,0,0.22,0,0.21,0,0.29,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['peştun', 'tariq']",ahmad shah massoud,tarık,abdullah,marjane,0,0.17,0,0.8,0,0.15,0,0.33,incorrect,correct,incorrect,incorrect
+['alyona'],the captain,alex,willard,antonia,0,0.24,0,0.4,0,0.15,0,0.62,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'tariq']",lucy,ali,charlie,el novio,0,0.0,0,0.5,0,0.5,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['abdül şerif', 'abdul sharif']",hamid,peşaver,yasmin,malala,0,0.55,0,0.5,0,0.36,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['meryem', 'mariam']",jane,ayartına,dorian,clarisa,0,0.2,0,0.57,0,0.5,0,0.62,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",benz,i̇nsan,diwana,diwana,0,0.18,0,0.2,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'tariq']",ahmed,emily,laila,scarlett,0,0.2,0,0.2,0,0.4,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",amelia,lucy,lucy,matilda,0,0.36,0,0.44,0,0.44,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",scarlett,john,chị,elizabeth,0,0.31,0,0.0,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",heathcliff,scarlett,ông ta,scarlett,0,0.38,0,0.31,0,0.18,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['meryem', 'mariam']",afghanistan,sevgi,afghanistan,mary,0,0.35,0,0.18,0,0.35,0,0.6,incorrect,incorrect,incorrect,incorrect
+"['mariam hiểu', 'meryem', 'mariam']",jane,hester,scarlett,ella,0,0.27,0,0.4,0,0.32,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",khaled,mullah, osama,marcos,0,0.46,0,0.33,0,0.2,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",ahmed,ali,ông,aisha,0,0.67,0,0.5,0,0.0,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",john,dükkân,ông ta,winnie-the-pooh,0,0.2,0,0.18,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['jalil', 'yalil', 'celil']",jane,john,arthur,carta,0,0.44,0,0.22,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['zalmay', 'zalmai']",timmy,meryem,em,tom,0,0.36,0,0.33,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",mother,emily,emily,madame bovary,0,0.18,0,0.4,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'iariq', 'tariq']",flaubert,adam,joseph,flamencos,0,0.31,0,0.22,0,0.0,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'tariq']",karim,peşaver,ali,amir,0,0.6,0,0.33,0,0.5,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'tariq']",john,ali,nguyễn hữu thọ,robinson,0,0.0,0,0.5,0,0.11,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['zalmay', 'zalmai', 'zalma']",richard,yabancı,đứa bé,su padre,0,0.17,0,0.46,0,0.18,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila', 'lail']",jane,arthur,đời,arthur,0,0.25,0,0.2,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",nathaniel,demir,người,ella,0,0.14,0,0.2,0,0.2,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['meryem', 'mariam']",sally,sherlock,thạch sanh,sophie,0,0.18,0,0.29,0,0.25,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",romeo,tarık,nguyễn,él,0,0.2,0,0.4,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['hamza', 'hamza uzunca']",mr. rochester,arthur,ông,winnie-the-pooh,0,0.11,0,0.22,0,0.22,0,0.1,incorrect,incorrect,incorrect,incorrect
+"['celil han', 'jalil khan', 'yalil jan']",mother,meryem,muhammad,mahoma,0,0.22,0,0.18,0,0.36,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['laila', 'leyla co']",lyra,leyla,đoroh,heathcliff,0,0.67,1,1.0,0,0.29,0,0.27,incorrect,correct,incorrect,incorrect
+"['leyla', 'laila']",anna,miss marple,phan,madame,0,0.44,0,0.25,0,0.22,0,0.36,incorrect,incorrect,incorrect,incorrect

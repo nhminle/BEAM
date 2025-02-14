@@ -1,0 +1,48 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['jalil', 'yalil', 'celil']",deal,tohum'un,mẹ,[mask],0,0.44,0,0.0,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['mariam jo', 'mariam', 'meryem co']",you,hastane,bé,tú,0,0.4,0,0.31,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['faizulá', 'faizu', 'molla feyzullah', 'mullah faizullah']",he,kardeş,nguyễn,ulema,0,0.25,0,0.19,0,0.18,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['mil', 'jalil', 'yalil', 'celil']",queen,[mask]'in,người thợ đá xấu xí và thấp hèn,españa,0,0.2,0,0.33,0,0.11,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['lili lili', 'lili', 'lili mi']",minnow,kuş,chim,minnow,0,0.5,0,0.0,0,0.36,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['mariam jo', 'mariam', 'meryem co']",mother,başka bir armağan,bố,[mask],0,0.5,0,0.26,0,0.5,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['meryem gari', 'mariam']",the sultan,meryem,người,"[mask] subió al gari. hicieron el trayecto en silencio, codo con codo. por el camino, [mask] vio herbolarios y casetas donde se compraban naranjas y peras, libros, chales, incluso halcones. había niños jugando a canicas en círculos trazados en el polvo. a la puerta de las casas de té, sobre plataformas de maderas alfombradas, había hombres",0,0.29,1,1.0,0,0.44,0,0.02,incorrect,correct,incorrect,incorrect
+"['celil han', 'chính jalil khan', 'jalil khan', 'yalil jan']",he,kardeş,jalil khan,el chófer,0,0.4,0,0.4,1,1.0,0,0.44,incorrect,incorrect,correct,incorrect
+['nana'],mother,annesinin,bà,maría,0,0.0,0,0.31,0,0.33,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['mariam jo', 'mariam', 'meryem co']",[mask],[mask],bảo,juan,0,0.33,0,0.33,0,0.4,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['bibi', 'bibi co', 'bibi jo']",mrs. jo,kardeş,bà,juan,0,0.44,0,0.0,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['nergis', 'nargis']",he,[mask],anh,[mask],0,0.25,0,0.33,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['jalil', 'yalil', 'celil']",the narrator,hindu,buddha,el autor,0,0.12,0,0.2,0,0.18,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",he,kadın'ın,bà,el esposo,0,0.44,0,0.31,0,0.29,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",tom,kız,cô,juan,0,0.25,0,0.25,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",she,ece,bảy,maría,0,0.6,0,0.4,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",jan,kadınlardan biri,bà,[nombre],0,0.25,0,0.29,0,0.29,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['peştun', 'tariq']",kabir,tarık,chính,amir,0,0.4,0,0.8,0,0.2,0,0.44,incorrect,correct,incorrect,incorrect
+['alyona'],first mate,kaptan baba,thuyền trưởng,el capitán,0,0.12,0,0.35,0,0.32,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'tariq']",john,"[mask] is not explicitly mentioned in the passage, but based on the context, it is likely that the name is ""ali"". the passage describes a scene where a person named ali is getting married, and the bride needs a place for herself and another person, possibly the groom or a third person. therefore, the most plausible name to fill the [mask] token is ""ali"". however, please note that this is an educated guess, and the actual name may vary depending",ngọc,[mask],0,0.0,0,0.0,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['abdül şerif', 'abdul sharif']",nurse,[mask],[mask],[mask],0,0.4,0,0.24,0,0.24,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['meryem', 'mariam']",her,kendisi,cô,ella,0,0.44,0,0.15,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",benz,[mask],benz,[mask],0,0.18,0,0.36,0,0.18,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'tariq']",ali,kendisi,laila,pedro,0,0.5,0,0.17,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",the baby's name,bebek,nguyễn,elena,0,0.3,0,0.2,0,0.18,0,0.6,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",sophie,kemal,ngọc,maría,0,0.18,0,0.2,0,0.0,0,0.6,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",john,kahramanmaraş,vietnam,ciudadanos,0,0.2,0,0.33,0,0.17,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['meryem', 'mariam']",she,kabil,kabul,amir,0,0.22,0,0.36,0,0.18,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['mariam hiểu', 'meryem', 'mariam']",she,kadın,bà,maría,0,0.57,0,0.36,0,0.25,0,0.91,incorrect,incorrect,incorrect,correct
+"['rashid', 'rasheed', 'raşit']",taliban,taliban,taliban,talibanes,0,0.33,0,0.33,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",[mask] said,"[mask] is not explicitly mentioned in the passage. however, based on the context, it is likely that the proper name that fills the [mask] token is ""ali"". this is a reasonable assumption, as the passage describes a person who is taking care of someone else, and ""ali"" is a common name in turkish. therefore, the completed passage would be: ""ona göz kulak olurum,"" dedi ali, çileden çıkmak üzere olduğunu belirten bir",bà,[mask],0,0.47,0,0.0,0,0.29,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['rashid', 'rasheed', 'raşit']",john,[mask]’e,bác,viento,0,0.2,0,0.4,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['jalil', 'yalil', 'celil']",john,[mask]'in,bà,ella,0,0.22,0,0.29,0,0.29,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['zalmay', 'zalmai']",tom,meryem'in topu,bà,pelota,0,0.22,0,0.2,0,0.25,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",mother,çocuk,ngọc,padre,0,0.18,0,0.0,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'iariq', 'tariq']",unknown,kuzen,người anh họ,juan,0,0.17,0,0.2,0,0.24,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'tariq']",he,kamyon,nguyen,[mask],0,0.0,0,0.18,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['tarık', 'tariq']",young men,kadir,đào,[mask],0,0.0,0,0.4,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['zalmay', 'zalmai', 'zalma']",john,kız,bố,[mask],0,0.0,0,0.25,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila', 'lail']",sarah,ahmet,anh,maría,0,0.4,0,0.22,0,0.29,0,0.6,incorrect,incorrect,incorrect,incorrect
+"['leyla', 'laila']",she,[mask],trần,[mask],0,0.25,0,0.18,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['meryem', 'mariam']",,[mask]'in,nguyễn,maría,0,0.22,0,0.4,0,0.33,0,0.91,incorrect,incorrect,incorrect,correct
+"['leyla', 'laila']",he,tarık,ngọc,juan,0,0.29,0,0.4,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['hamza', 'hamza uzunca']",he,kişi,ngọc,ella,0,0.29,0,0.0,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['celil han', 'jalil khan', 'yalil jan']",her,meryem,bà,mi padre,0,0.33,0,0.18,0,0.4,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['laila', 'leyla co']",lena,leyla,cô,elena,0,0.67,1,1.0,1,1.0,0,0.6,incorrect,correct,correct,incorrect
+"['leyla', 'laila']",sister,öğretmen,lê,maestra,0,0.18,0,0.15,0,0.57,0,0.33,incorrect,incorrect,incorrect,incorrect
