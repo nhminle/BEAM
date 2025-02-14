@@ -1,0 +1,101 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['mauricio lorry', 'jarvis lorr', 'mr jarvis lorry', 'jarvis lorry']",mr. lorry,lucie,charles darnay,manette,0,0.71,0,0.46,0,0.46,0,0.27,correct,incorrect,incorrect,incorrect
+"['mr lorry', 'lorry']",david copperfield,dover,dickens,charles dickens,0,0.16,0,0.4,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['miss manette', 'manette']",scrooge,hal,ngọc,emma,0,0.21,0,0.2,0,0.18,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['mr lorry', 'lorry']",monks,ali,ngọc,don quijote,0,0.31,0,0.25,0,0.22,0,0.21,incorrect,incorrect,incorrect,incorrect
+"['mr lorry', 'lorry']",mr. jaggers,özge,ngọc,banker,0,0.42,0,0.22,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['señora defarge', 'madame defarge', 'defarge', 'madam defarge']",mrs. affery,adam's wife,nguyễn thị mai,la tabernera,0,0.35,0,0.59,0,0.3,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['señora defarge', 'madame defarge', 'defarge', 'madam defarge']",mrs. sparsit,bayram,ngọc,maría,0,0.32,0,0.55,0,0.4,0,0.6,incorrect,incorrect,incorrect,incorrect
+"['mösyö defarge', 'defarge', 'monsieur defarge']",mr. lorry,adam,nguyễn,the tabernero,0,0.43,0,0.36,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+['defarge'],sydney carton,ali,nguyễn tuân,don fermín,0,0.4,0,0.2,0,0.22,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['mr lorry', 'lorry']",mr. darcy,bayan,nguyễn tuân,alcalde,0,0.59,0,0.2,0,0.12,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['mr lorry', 'lorry']",he,charles darnay,nguyễn,el tabernero,0,0.0,0,0.36,0,0.18,0,0.24,incorrect,incorrect,incorrect,incorrect
+['defarge'],god,god,nguyễn,god,0,0.2,0,0.2,0,0.15,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['miss manette', 'mane', 'manette']",miss pross,albert,ngọc,helena anders,0,0.57,0,0.46,0,0.25,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['madame defarge', 'defarge', 'madam defarge']",madame defarge,grandma,ngọc,doña perfecta,1,1.0,0,0.33,0,0.18,0,0.4,correct,incorrect,incorrect,incorrect
+"['lorr', 'lorry']",judge,özdemir,nguyễn văn a,don pedro,0,0.0,0,0.36,0,0.12,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['miss manette', 'manette', 'señorita manette']",mr. jaggers,bayan,nguyễn thị kim anh,charles dickens,0,0.33,0,0.33,0,0.41,0,0.26,incorrect,incorrect,incorrect,incorrect
+"['jerry', 'jeremías lapa']",estella,özge,nguyễn,el,0,0.4,0,0.22,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['darna', 'darnay', 'mr darnay']",dickens,bay,nguyễn,señor,0,0.33,0,0.44,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['carton—replicó lorry', 'mr lorry', 'lorry']",mr. lorry,ali,ngọc,don pedro,0,0.94,0,0.33,0,0.22,0,0.33,correct,incorrect,incorrect,incorrect
+"['carlos darnay', 'charles darnay']",arthur,ali,nguyễn,john,0,0.33,0,0.44,0,0.33,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['darnay', 'mr darnay']",david,ima,carton,carlos,0,0.36,0,0.4,0,0.5,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['mane', 'manette', 'doktor manette']",manette,dr. jekyll,nguyễn văn a,alvar núñez cabeza de vaca,1,1.0,0,0.25,0,0.25,0,0.25,correct,incorrect,incorrect,incorrect
+"['mr lorry', 'lorry']",arthur,charles dickens,lucie,doctor,0,0.36,0,0.17,0,0.2,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['manette', 'doktor manette']",doctor,doktor,nguyễn,montenegro,0,0.83,1,1.0,0,0.31,0,0.38,correct,correct,incorrect,incorrect
+"['pross', 'miss pross']",estella,anna,ngọc,emma,0,0.18,0,0.0,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['darnay'],mr. carton,bay,hoàng,benigna,0,0.38,0,0.44,0,0.36,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['darnay', 'mr darnay']",estella,anna,nguyễn tuân,adelaida,0,0.15,0,0.6,0,0.3,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['monsieur the marquis', 'marqués', 'mösyö marki', 'ngài hầu']",he,john,hoàng,don quijote,0,0.8,0,0.33,0,0.5,0,0.42,correct,incorrect,incorrect,incorrect
+"['monsieur gabelle', 'mösyö gabelle', 'gabelle', 'gambelle']",mr. cruncher,john,nguyễn,don pedro,0,0.4,0,0.33,0,0.31,0,0.47,incorrect,incorrect,incorrect,incorrect
+"['carlos darnay', 'charles darnay']",eve,adam,adam,adán,0,0.2,0,0.4,0,0.4,0,0.6,incorrect,incorrect,incorrect,incorrect
+"['manette', 'doktor manette']",manette,baba,nguyễn,alvaro,1,1.0,0,0.18,0,0.31,0,0.17,correct,incorrect,incorrect,incorrect
+"['manette', 'doktor manette']",manette,god,nguyễn,alvar,1,1.0,0,0.22,0,0.31,0,0.18,correct,incorrect,incorrect,incorrect
+"['miss manette', 'lucía', 'manette']",estella,elizabeth,ngọc,leonor,0,0.43,0,0.43,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['stryver', 'mr stryver', 'sydney']",dickens,river,mr. jaggers,don,0,0.15,0,0.67,0,0.48,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['stryver', 'mr stryver']",tulkinghorn,tulkinghorn,sherlock holmes,carlos,0,0.22,0,0.22,0,0.27,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['stryver', 'mr stryver']",mr. brownlow,mr. darcy,ngọc,don pedro,0,0.36,0,0.53,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['lorr', 'mr lorry', 'lorry']",john,mr. darcy,david copperfield,carlos,0,0.25,0,0.59,0,0.16,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['miss manette', 'mane', 'lucía', 'manette']",estella,bay darcy,elizabeth,emma,0,0.43,0,0.19,0,0.43,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['miss manette', 'lucía', 'manette']",estella,heathcliff,elizabeth,emma,0,0.43,0,0.27,0,0.43,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['defarge', 'madam defarge']",defarge,madame defarge,ngọc,leocadia,1,1.0,0,0.96,0,0.18,0,0.46,correct,correct,incorrect,incorrect
+['defarge'],carton,hitler,nguyễn,lucifer,0,0.31,0,0.31,0,0.15,0,0.29,incorrect,incorrect,incorrect,incorrect
+['defarge'],charles darnay,recep,nguyễn,carlos,0,0.29,0,0.33,0,0.15,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['señora defarge', 'madame defarge', 'defarge', 'madam defarge']",madame dupont,örgü,ngọc,tabernera,0,0.63,0,0.4,0,0.4,0,0.53,incorrect,incorrect,incorrect,incorrect
+"['señora defarge', 'madame defarge', 'defarge', 'madam defarge']",madame defarge,garson,ngọc,waiter,1,1.0,0,0.33,0,0.4,0,0.33,correct,incorrect,incorrect,incorrect
+"['señora defarge', 'madame defarge', 'defarge', 'madam defarge']",madame defarge,bayan casaubon,nguyễn,woman,1,1.0,0,0.3,0,0.33,0,0.4,correct,incorrect,incorrect,incorrect
+"['señora defarge', 'madame defarge', 'defarge', 'madam defarge']",estella,madam,ngọc,woman,0,0.46,1,1.0,0,0.4,0,0.4,incorrect,correct,incorrect,incorrect
+"['charles', 'carlos']",charles darnay,john,hoàng,god,0,0.67,0,0.2,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['lucía', 'luci', 'lucie']",agnes,ayşe,nguyễn,maría,0,0.2,0,0.22,0,0.36,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['lucía', 'luci', 'lucie']",carton,arthur,ngọc,esteban,0,0.36,0,0.2,0,0.25,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['lucía', 'lucie']",scrooge,adelaide,ngọc,her father,0,0.33,0,0.46,0,0.22,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['lorr', 'mr lorry', 'señor lorry', 'lorry']",mr. lorry,charles darnay,victor hugo,novio,0,0.94,0,0.36,0,0.36,0,0.4,correct,incorrect,incorrect,incorrect
+"['mr lorry', 'lorry']",charles darnay,charles darnay,charles darnay,dickens,0,0.36,0,0.36,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mr lorry', 'lorry']",charles darnay,mr. utterson,nguyễn,carlos,0,0.36,0,0.4,0,0.18,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['mr lorry', 'lorry']",mr. lorry,ada,nguyễn tuân,carlos,0,0.94,0,0.0,0,0.12,0,0.43,correct,incorrect,incorrect,incorrect
+"['mr lorry', 'lorry']",heathcliff,özge,nguyễn,centinela,0,0.13,0,0.22,0,0.18,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['mr lorry', 'señor lorry', 'lorry']",scrooge,arkadaş,nguyễn,zapatero,0,0.33,0,0.22,0,0.36,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['mane', 'manette']",watson,dostum,nguyễn,friend,0,0.4,0,0.2,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['mane', 'manette', 'doktor manette']",manette,dr. watson,freud,montarco,1,1.0,0,0.29,0,0.22,0,0.43,correct,incorrect,incorrect,incorrect
+"['darna', 'darnay', 'mr darnay']",mr. darcy,özge,nguyễn,señora,0,0.78,0,0.0,0,0.33,0,0.27,correct,incorrect,incorrect,incorrect
+['darnay'],carton,albert,count of monte cristo,don luis,0,0.5,0,0.33,0,0.07,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['lucía', 'luci', 'lucie']",jesus,emily,chúa hài đồng,eva,0,0.22,0,0.22,0,0.24,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['lucía', 'lucie']",lucie,charles darnay,marie,maría,1,1.0,0,0.21,0,0.4,0,0.4,correct,incorrect,incorrect,incorrect
+"['darna', 'darnay']",charles darnay,charles,charles darnay,charles darnay,0,0.6,0,0.33,0,0.6,0,0.6,incorrect,incorrect,incorrect,incorrect
+"['lucía', 'luci', 'lucie']",estella,özge,nguyễn,don juan,0,0.33,0,0.22,0,0.36,0,0.31,incorrect,incorrect,incorrect,incorrect
+['defarge'],charles darnay,dantès,charles darnay,defarge,0,0.29,0,0.31,0,0.29,1,1.0,incorrect,incorrect,incorrect,correct
+"['lucie darnay', 'lucía darnay']",lucie manette,charles darnay,lucie manette,lucie manette,0,0.64,0,0.69,0,0.64,0,0.64,incorrect,incorrect,incorrect,incorrect
+"['señora defarge', 'madame defarge', 'defarge', 'madam defarge']",miss pross,madam,nguyễn,queen,0,0.26,1,1.0,0,0.33,0,0.36,incorrect,correct,incorrect,incorrect
+"['mösyö gabelle', 'gabelle']",defarge,gabelle,baron,alcalde,0,0.29,1,1.0,0,0.2,0,0.29,incorrect,correct,incorrect,incorrect
+"['monsieur gabelle', 'mösyö gabelle', 'gabelle', 'señor gabelle']",monseigneur,god,đốc phủ,corregidor,0,0.84,0,0.25,0,0.27,0,0.33,correct,incorrect,incorrect,incorrect
+"['lucía', 'lucie']",nell,elif,ngọc,maría,0,0.22,0,0.44,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['mr lorry', 'lorry']",carton,napoleon,pháp,don quijote,0,0.29,0,0.31,0,0.0,0,0.21,incorrect,incorrect,incorrect,incorrect
+"['mr lorry', 'lorry']",mr. speaker,john,nguyễn,sam,0,0.42,0,0.22,0,0.18,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['darna', 'darnay', 'mr darnay']",charles darnay,hitler,nguyễn văn a,carlos,0,0.7,0,0.25,0,0.38,0,0.36,correct,incorrect,incorrect,incorrect
+['darnay'],charles darnay,temple,charles darnay,carlos,0,0.6,0,0.0,0,0.6,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['lucía', 'lucie']",clare,elizabeth,elizabeth,maría,0,0.4,0,0.43,0,0.43,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['carlos darnay', 'charles darnay']",charles darnay,charles darnay,charles darnay,charles darnay,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['carlos darnay', 'charles darnay']",napoleon,napoleon,pháp,napoleon,0,0.43,0,0.43,0,0.36,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['carlos darnay', 'charles darnay']",charles darnay,darnay,nguyễn tuân,madrid,1,1.0,1,1.0,0,0.24,0,0.33,correct,correct,incorrect,incorrect
+"['carlos darnay', 'charles darnay']",charles darnay,dickens,nguyễn tuân,charles dickens,1,1.0,0,0.43,0,0.24,0,0.69,correct,incorrect,incorrect,incorrect
+"['mr lorry', 'dios—dijo lorry', 'lorry']",john,god,ngài,god,0,0.29,0,0.25,0,0.14,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['lucía', 'lucie']",estella,ali,jesus,jesus,0,0.33,0,0.5,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['señora defarge', 'madame defarge', 'defarge', 'madam defarge']",miss havisham,adam,ngọc,maría,0,0.44,0,0.89,0,0.4,0,0.6,incorrect,correct,incorrect,incorrect
+"['lucía', 'lucie']",lucie manette,andromaque,ngọc,madame defarge,0,0.56,0,0.27,0,0.22,0,0.11,incorrect,incorrect,incorrect,incorrect
+"['lucía', 'lucie']",lucie,ali,red riding hood,marie,1,1.0,0,0.5,0,0.1,0,0.4,correct,incorrect,incorrect,incorrect
+"['lucía', 'lucie']",lucie,charles darnay,robespierre,carmañola,1,1.0,0,0.21,0,0.25,0,0.29,correct,incorrect,incorrect,incorrect
+"['señora defarge', 'madame defarge', 'defarge', 'madam defarge']",madame defarge,doktor,ngọc,tabernera,1,1.0,0,0.33,0,0.4,0,0.53,correct,incorrect,incorrect,incorrect
+"['charles', 'carlos']",darnay,ali,nguyễn văn c,he,0,0.33,0,0.44,0,0.11,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['carlos darnay', 'charles darnay']",charles darnay,robespierre,charles darnay,charles darnay,1,1.0,0,0.35,1,1.0,1,1.0,correct,incorrect,correct,correct
+"['dr manette', 'mane', 'manette']",manette,ali,nguyễn,doctor,1,1.0,0,0.29,0,0.4,0,0.5,correct,incorrect,incorrect,incorrect
+"['pross', 'miss pross']",madame defarge,özge,ngọc,isabel,0,0.25,0,0.22,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['lucía', 'lucie']",charles darnay,paris,paris,edmond dantès,0,0.21,0,0.2,0,0.2,0,0.11,incorrect,incorrect,incorrect,incorrect
+"['mane', 'manette']",manette,manette,dr. alexandre manette,dr. jekyll,1,1.0,1,1.0,0,0.5,0,0.14,correct,correct,incorrect,incorrect
+"['mane', 'manette', 'doktor manette']",manette,john,nguyễn văn a,dr. smith,1,1.0,0,0.25,0,0.25,0,0.27,correct,incorrect,incorrect,incorrect
+"['lucía', 'luci', 'lucie']",lucie,charles darnay,lucy,wife,1,1.0,0,0.21,0,0.75,0,0.44,correct,incorrect,correct,incorrect
+['carton'],carton,charles darnay,nguyễn,dickens,1,1.0,0,0.4,0,0.17,0,0.31,correct,incorrect,incorrect,incorrect
+"['evrémonde', 'yurttaş evremonde', 'evrémond']",evremonde,mustafa kemal atatürk,robespierre,robespierre,1,1.0,0,0.14,0,0.36,0,0.36,correct,incorrect,incorrect,incorrect
+"['mauricio lorry', 'jarvis lorry']",charles darnay,charles dickens,robespierre,john,0,0.46,0,0.38,0,0.38,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['pross', 'miss pross']",estella,james,ngọc,emma,0,0.18,0,0.44,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['pross', 'miss pross']",carton,britanyalı,elizabeth,brittany,0,0.36,0,0.14,0,0.15,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['pross', 'miss pross']",emily,harry,ngọc,emily,0,0.44,0,0.2,0,0.22,0,0.44,incorrect,incorrect,incorrect,incorrect
