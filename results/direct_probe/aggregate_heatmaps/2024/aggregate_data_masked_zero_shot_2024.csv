@@ -5,7 +5,11 @@ Llama-3.1-70B-Instruct-quantized.w8a16,0.0,0.0
 Llama-3.1-70B-Instruct_,0.0,0.0
 Llama-3.1-8B-Instruct-quantized.w4a16,0.0,0.0
 Llama-3.1-8B-Instruct_,0.0,0.0
+<<<<<<< HEAD
 Llama-3.3-70B-Instruct,0.10526315789473684,0.0
+=======
+Llama-3.3-70B-Instruct,0.1,0.0
+>>>>>>> b24fcc3 (added aggregated dp results csv + 2024 dp results)
 OLMo-2-1124-13B-Instruct,0.0,0.0
 OLMo-2-1124-7B-Instruct,0.0,0.0
 Qwen2.5-7B-Instruct-1M,0.0,0.0
