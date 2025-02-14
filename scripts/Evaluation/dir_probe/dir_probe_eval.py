@@ -110,9 +110,9 @@ def split_data(data): #this function splits our results to shuffled and unshuffl
 
 def save_data(title,data,model,shuffled,prompt_setting):
     if shuffled:
-        data.to_csv(f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/{model}/ne_one_shot/evaluation/{title}_shuffled_eval.csv', index= False, encoding='utf-8')
+        data.to_csv(f'results/direct_probe/{model}/ne_one_shot/evaluation/{title}_shuffled_eval.csv', index= False, encoding='utf-8')
     else:
-        data.to_csv(f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/{model}/ne_one_shot/evaluation/{title}_eval.csv', index= False, encoding='utf-8')  
+        data.to_csv(f'results/direct_probe/{model}/ne_one_shot/evaluation/{title}_eval.csv', index= False, encoding='utf-8')  
 
 def guess_accuracy(data):
     results = {}
@@ -190,9 +190,9 @@ def plot(accuracy_data, title, shuffled, prompt_setting):
     # Display the plot
     # plt.tight_layout()
     if shuffled:
-        plt.savefig(f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/Llama-3.1-405b/ne_one_shot/evaluation/viz/{title}_shuffled.png', dpi=300, bbox_inches='tight')
+        plt.savefig(f'results/direct_probe/Llama-3.1-405b/ne_one_shot/evaluation/viz/{title}_shuffled.png', dpi=300, bbox_inches='tight')
     else:
-        plt.savefig(f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/Llama-3.1-405b/ne_one_shot/evaluation/viz/{title}.png', dpi=300, bbox_inches='tight')
+        plt.savefig(f'results/direct_probe/Llama-3.1-405b/ne_one_shot/evaluation/viz/{title}.png', dpi=300, bbox_inches='tight')
 
 def read_txt_file(file_path):
     # Read text file content
@@ -268,27 +268,28 @@ def create_heatmap(df,release_date_csv,model,shuffled,prompt_setting):
     plt.ylabel('Books (Sorted by Release Date)', fontsize=16)
     # plt.tight_layout()
     if shuffled:
-        plt.savefig(f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/Llama-3.1-405b/ne_one_shot/evaluation/viz/{model}_shuffled_dirprobe_heatmap_unmasked.png', dpi=300, bbox_inches='tight')
+        plt.savefig(f'results/direct_probe/Llama-3.1-405b/ne_one_shot/evaluation/viz/{model}_shuffled_dirprobe_heatmap_unmasked.png', dpi=300, bbox_inches='tight')
     else:
-        plt.savefig(f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/Llama-3.1-405b/ne_one_shot/evaluation/viz/{model}_dirprobe_heatmap_unmasked.png', dpi=300, bbox_inches='tight')
+        plt.savefig(f'results/direct_probe/Llama-3.1-405b/ne_one_shot/evaluation/viz/{model}_dirprobe_heatmap_unmasked.png', dpi=300, bbox_inches='tight')
     
     
 if __name__ == "__main__":
     #models = ['EuroLLM-9B-Instruct', 'OLMo-7B-0724-Instruct-hf', 'Llama-3.1-70B-Instruct', 'Llama-3.3-70B-Instruct', 'Meta-Llama-3.1-8B-Instruct', 'OLMo-2-1124-13B-Instruct'] # add more models here
     models = ['Llama-3.1-405b']
     prompt_setting = 'one-shot' # one-shot || zero-shot
-    titles = list_csv_files(f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/Llama-3.1-405b/ne_one_shot/')
+    titles = list_csv_files(f'results/direct_probe/Llama-3.1-405b/ne_one_shot/')
     unshuffled_accuracy_list = {item: {} for item in models} 
     shuffled_accuracy_list = {item: {} for item in models} 
-    list_2024_ = ['Bride','Funny_Story']
+    list_2024_ = ['Below_Zero', 'Bride', 'First_Lie_Wins', 'Funny_Story', 'If_Only_I_Had_Told_Her', 'Just_for_the_Summer', 'Lies_and_Weddings', 'The_Ministry_of_Time', 'The_Paradise_Problem', 'You_Like_It_Darker_Stories']
     plt.close()
     for title in titles:
-        if 'Fahrenheit' not in title and 'Bride' not in title and 'Funny_Story' not in title and 'Paper_Towns' not in title and "The_Ministry_of_Time" not in title:
+        # if 'Fahrenheit' not in title and 'Bride' not in title and 'Funny_Story' not in title and 'Paper_Towns' not in title and "The_Ministry_of_Time" not in title:
+        if not any([book in title for book in list_2024_]):
             for model in models:
                     print(f'----------------- Running {title} -----------------')   
                     book_title = title.replace(f'_direct_probe_{model}_{prompt_setting}', '')
                     #print(book_title)
-                    results_evaluated = evaluate(csv_file_name=f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/{model}/ne_one_shot/{title}.csv', book_title=title, model=model, prompt_setting=prompt_setting)
+                    results_evaluated = evaluate(csv_file_name=f'results/direct_probe/{model}/ne_one_shot/{title}.csv', book_title=title, model=model, prompt_setting=prompt_setting)
                     shuffled, unshuffled = split_data(results_evaluated)
                     #print(shuffled)
                     #save_data(title,shuffled,model,True,prompt_setting)
@@ -307,14 +308,14 @@ if __name__ == "__main__":
         u_df = pd.DataFrame.from_dict(unshuffled_accuracy_list[model], orient='index')
         u_df.index.name = 'Title'
         u_df.reset_index(inplace=True)
-        u_df.to_csv('/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/Llama-3.1-405b/ne_one_shot/evaluation/unshuffled.csv', index=False, encoding='utf-8')
+        u_df.to_csv('results/direct_probe/Llama-3.1-405b/ne_one_shot/evaluation/unshuffled.csv', index=False, encoding='utf-8')
 
         # Save shuffled accuracy list
         s_df = pd.DataFrame.from_dict(shuffled_accuracy_list[model], orient='index')
         s_df.index.name = 'Title'
         s_df.reset_index(inplace=True)
-        s_df.to_csv('/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/Llama-3.1-405b/ne_one_shot/evaluation/shuffled.csv', index=False, encoding='utf-8')
-        #s_df = pd.read_csv('/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/Llama-3.1-405b/ne_one_shot/evaluation/shuffled.csv')
+        s_df.to_csv('results/direct_probe/Llama-3.1-405b/ne_one_shot/evaluation/shuffled.csv', index=False, encoding='utf-8')
+        #s_df = pd.read_csv('results/direct_probe/Llama-3.1-405b/ne_one_shot/evaluation/shuffled.csv')
         # print(s_df.shape)
         create_heatmap(s_df,"./release_date.csv",model,True,prompt_setting)
         create_heatmap(u_df,"./release_date.csv",model,False,prompt_setting)
