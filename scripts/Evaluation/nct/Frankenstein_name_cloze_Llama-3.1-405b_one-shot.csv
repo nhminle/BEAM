@@ -1,0 +1,49 @@
+Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,es_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['caroline beaufort'],<output>elizabeth</output>,<output>hasır kızı</output>,<output>ngọc</output>,<output>elizabeth</output>,0,0.33,0,0.23,0,0.21,0,0.33,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],<output>elizabeth</output>,<output>victor</output>,<output>victor</output>,<output>elizabeth</output>,0,0.51,0,0.12,0,0.12,0,0.51,incorrect,incorrect,incorrect,incorrect
+"['krempe', 'thần hủy hoạ', 'señor krempe', 'm']",<output>frankenstein</output>,<output>frankenstein</output>,<output>dracula</output>,<output>frankenstein</output>,0,0.2,0,0.2,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['waldman', 'm', 'profesör waldman']",<output>emma</output>,<output>emily</output>,<output>victor</output>,<output>emily</output>,0,0.22,0,0.13,0,0.19,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['krempe', 'señor krempe', 'm']",<output>mr. rochester</output>,<output>heathcliff</output>,<output>heathcliff</output>,<output>lucas</output>,0,0.19,0,0.15,0,0.15,0,0.18,incorrect,incorrect,incorrect,incorrect
+['dante'],<output>victor</output>,<output>elizabeth</output>,<output>emily</output>,<output>frankenstein</output>,0,0.07,0,0.13,0,0.15,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['frankenstein', 'clerval']",<output>elizabeth</output>,<output>heathcliff</output>,<output>emily</output>,<output>heathcliff</output>,0,0.16,0,0.12,0,0.12,0,0.12,incorrect,incorrect,incorrect,incorrect
+['clerval'],<output>elizabeth</output>,<output>elizabeth</output>,<output>elizabeth</output>,<output>elizabeth</output>,0,0.12,0,0.12,0,0.12,0,0.12,incorrect,incorrect,incorrect,incorrect
+['henry'],<output>adam</output>,<output>edward</output>,<output>nguyễn</output>,<output>byron</output>,0,0.0,0,0.14,0,0.14,0,0.07,incorrect,incorrect,incorrect,incorrect
+"['clerval', 'querido clerval']",<output>geneva</output>,<output>frankenstein</output>,<output>geneva</output>,<output>geneva</output>,0,0.26,0,0.22,0,0.26,0,0.26,incorrect,incorrect,incorrect,incorrect
+['henry'],<output>elizabeth</output>,<output>emily</output>,<output>emily</output>,<output>elizabeth</output>,0,0.06,0,0.15,0,0.15,0,0.06,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",<output>elizabeth</output>,<output>elizabeth</output>,<output>emily</output>,<output>elizabeth</output>,0,0.12,0,0.12,0,0.07,0,0.12,incorrect,incorrect,incorrect,incorrect
+['clerval'],<output>mont blanc</output>,<output>victor</output>,<output>geneva</output>,<output>frankenstein</output>,0,0.06,0,0.13,0,0.2,0,0.06,incorrect,incorrect,incorrect,incorrect
+['clerval'],<output>elizabeth</output>,<output>emily</output>,<output>dimmesdale</output>,<output>adrian</output>,0,0.12,0,0.07,0,0.12,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",<output>elizabeth</output>,<output>abigail</output>,<output>ngạc</output>,<output>john</output>,0,0.12,0,0.07,0,0.07,0,0.0,incorrect,incorrect,incorrect,incorrect
+['william'],<output>elizabeth</output>,<output>heathcliff</output>,<output>elizabeth</output>,<output>edmundo</output>,0,0.18,0,0.12,0,0.18,0,0.06,incorrect,incorrect,incorrect,incorrect
+['justine'],<output>victor</output>,<output>heathcliff</output>,<output>heathcliff</output>,<output>elizabeth</output>,0,0.2,0,0.18,0,0.18,0,0.24,incorrect,incorrect,incorrect,incorrect
+['justine'],<output>belrive</output>,<output>elizabeth</output>,<output>frankenstein</output>,<output>belrive</output>,0,0.26,0,0.24,0,0.28,0,0.26,incorrect,incorrect,incorrect,incorrect
+['justine'],<output>elizabeth</output>,<output>emily</output>,<output>elizabeth</output>,<output>emily</output>,0,0.24,0,0.21,0,0.24,0,0.21,incorrect,incorrect,incorrect,incorrect
+['justine'],<output>frankenstein</output>,<output>adam</output>,<output>god</output>,<output>adam</output>,0,0.28,0,0.14,0,0.15,0,0.14,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],<output>frankenstein</output>,<output>marx</output>,<output>nguyễn</output>,<output>aladdin</output>,0,0.16,0,0.13,0,0.12,0,0.18,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],<output>mr. gardiner</output>,<output>abelard</output>,<output>valjean</output>,<output>elizabeth</output>,0,0.11,0,0.24,0,0.18,0,0.51,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",<output>frankenstein</output>,<output>emily</output>,<output>nguyễn</output>,<output>frankenstein</output>,0,0.18,0,0.15,0,0.07,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",<output>oliver</output>,<output>elizabeth</output>,<output>god</output>,<output>maría</output>,0,0.14,0,0.19,0,0.0,0,0.07,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",<output>elizabeth</output>,<output>heathcliff</output>,<output>nguyễn</output>,<output>mr. bennet</output>,0,0.19,0,0.19,0,0.07,0,0.06,incorrect,incorrect,incorrect,incorrect
+"['de lacey', 'de lace']",<output>victor</output>,<output>emily</output>,<output>emily</output>,<output>lucas</output>,0,0.07,0,0.2,0,0.2,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['de lacey', 'de lacey—']",<output>elizabeth</output>,<output>heathcliff</output>,<output>emily</output>,<output>emily</output>,0,0.24,0,0.11,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['de lacey'],<output>wordsworth</output>,<output>wordsworth</output>,<output>helvellyn</output>,<output>helvellyn</output>,0,0.07,0,0.07,0,0.24,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",<output>frank</output>,<output>macdonald</output>,<output>scotland</output>,<output>scotland</output>,0,0.07,0,0.06,0,0.07,0,0.07,incorrect,incorrect,incorrect,incorrect
+['henry'],<output>victor</output>,<output>victor</output>,<output>heathcliff</output>,<output>heathcliff</output>,0,0.07,0,0.07,0,0.12,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['clerval', 'ren']",<output>heathcliff</output>,<output>heathcliff</output>,<output>nguyễn</output>,<output>john</output>,0,0.12,0,0.12,0,0.15,0,0.08,incorrect,incorrect,incorrect,incorrect
+['henry'],<output>robinson crusoe</output>,<output>odysseus</output>,<output>john</output>,<output>abraham</output>,0,0.05,0,0.07,0,0.15,0,0.07,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],<output>frankenstein</output>,<output>emily</output>,<output>nguyễn</output>,<output>emma</output>,0,0.16,0,0.19,0,0.12,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",<output>frankenstein</output>,<output>agatha</output>,<output>emily</output>,<output>emily</output>,0,0.21,0,0.0,0,0.13,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['daniel nugent', 'daniel nugen']",<output>frankenstein</output>,<output>elizabeth</output>,<output>emily</output>,<output>elizabeth</output>,0,0.24,0,0.21,0,0.23,0,0.21,incorrect,incorrect,incorrect,incorrect
+['daniel'],<output>victor</output>,<output>victor</output>,<output>lucas</output>,<output>lucas</output>,0,0.07,0,0.07,0,0.07,0,0.07,incorrect,incorrect,incorrect,incorrect
+"['señor kirwin', 'mr kirwin', 'kirwin']",<output>mr. darcy</output>,<output>heathcliff</output>,<output>heathcliff</output>,<output>dimmesdale</output>,0,0.23,0,0.12,0,0.12,0,0.19,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",<output>god</output>,<output>dr. jekyll</output>,<output>orkney</output>,<output>stanley</output>,0,0.0,0,0.17,0,0.19,0,0.07,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",<output>victor</output>,<output>victor</output>,<output>victor</output>,<output>victor</output>,0,0.14,0,0.14,0,0.14,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['señor kirwin', 'mr kirwin', 'kirwin']",<output>victor</output>,<output>victor</output>,<output>heathcliff</output>,<output>lucia</output>,0,0.14,0,0.14,0,0.12,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",<output>victor</output>,<output>elizabeth</output>,<output>elizabeth</output>,<output>lucifer</output>,0,0.14,0,0.06,0,0.06,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['henry', 'henr']",<output>elizabeth</output>,<output>elizabeth</output>,<output>elizabeth</output>,<output>emily</output>,0,0.07,0,0.07,0,0.07,0,0.15,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],<output>victor</output>,<output>victor</output>,<output>lucifer</output>,<output>victor</output>,0,0.12,0,0.12,0,0.12,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",<output>victor</output>,<output>heathcliff</output>,<output>heathcliff</output>,<output>heathcliff</output>,0,0.12,0,0.22,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],<output>elizabeth</output>,<output>heathcliff</output>,<output>elizabeth</output>,<output>elizabeth</output>,0,0.51,0,0.22,0,0.51,0,0.51,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],<output>franklin</output>,<output>franklin</output>,<output>nguyễn</output>,<output>franklin</output>,0,0.18,0,0.18,0,0.12,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['margaret', 'margare']",<output>dimmesdale</output>,<output>arthur</output>,<output>heathcliff</output>,<output>lucifer</output>,0,0.23,0,0.26,0,0.11,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['margaret', 'margare']",<output>victor</output>,<output>victor</output>,<output>tim</output>,<output>heathcliff</output>,0,0.13,0,0.13,0,0.14,0,0.11,incorrect,incorrect,incorrect,incorrect

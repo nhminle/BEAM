@@ -1,4 +1,5 @@
 .DS_Store
+/scripts/Evaluation/nct/.env
 scripts/Prompts (old)
 scripts/olmo-search/slurm_olmo.sh
 scripts/olmo-search/shards/shard_00000000_processed.jsonl
@@ -83,3 +84,4 @@ scripts/fireworks_namecloze_llama405b_28568222.out
 scripts/name_cloze_task/fireworks_nct.py
 .venv
 ..bfg-report
+scripts/Evaluation/nct/.env/bin/activate

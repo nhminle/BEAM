@@ -1,0 +1,101 @@
+Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,es_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['paul'],<output>paul</output>,<output>beatrice</output>,<output>elizabeth</output>,<output>beatriz</output>,0,0.32,0,0.21,0,0.2,0,0.21,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>paul</output>,<output>paul</output>,<output>paul</output>,<output>paul</output>,0,0.32,0,0.32,0,0.32,0,0.32,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>buddha</output>,<output>charles darwin</output>,<output>god</output>,<output>newton</output>,0,0.22,0,0.17,0,0.17,0,0.15,incorrect,incorrect,incorrect,incorrect
+['jessica'],<output>lebron</output>,<output>shub</output>,<output>leia</output>,<output>shubin</output>,0,0.07,0,0.07,0,0.21,0,0.13,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>adam</output>,<output>estella</output>,<output>nguyễn</output>,<output>elizabeth</output>,0,0.24,0,0.21,0,0.15,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>clarke</output>,<output>clarke</output>,<output>elizabeth</output>,<output>lucas</output>,0,0.22,0,0.22,0,0.2,0,0.23,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>montag</output>,<output>harry</output>,<output>harry</output>,<output>frankenstein</output>,0,0.22,0,0.23,0,0.23,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>heathcliff</output>,<output>heathcliff</output>,<output>nguyễn</output>,<output>lucas</output>,0,0.19,0,0.19,0,0.15,0,0.23,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>tom</output>,<output>edward</output>,<output>harry</output>,<output>lucas</output>,0,0.17,0,0.22,0,0.23,0,0.23,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>harry</output>,<output>abel</output>,<output>scarlett</output>,<output>emily</output>,0,0.23,0,0.24,0,0.21,0,0.23,incorrect,incorrect,incorrect,incorrect
+['jessica'],<output>emma</output>,<output>jesus</output>,<output>elizabeth</output>,<output>emily</output>,0,0.14,0,0.28,0,0.18,0,0.14,incorrect,incorrect,incorrect,incorrect
+['bene gesserit'],<output>god</output>,<output>elizabeth</output>,<output>esther</output>,<output>elizabeth</output>,0,0.14,0,0.18,0,0.32,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],<output>paul</output>,<output>paul</output>,<output>paul</output>,<output>paul</output>,0,0.07,0,0.07,0,0.07,0,0.07,incorrect,incorrect,incorrect,incorrect
+['jessica'],<output>emily</output>,<output>heathcliff</output>,<output>emily</output>,<output>lucas</output>,0,0.14,0,0.12,0,0.14,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessic']",<output>sheild</output>,<output>antigone</output>,<output>nguyễn</output>,<output>elizabeth</output>,0,0.14,0,0.06,0,0.07,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],<output>matilda</output>,<output>heathcliff</output>,<output>elizabeth</output>,<output>emily</output>,0,0.13,0,0.12,0,0.18,0,0.14,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>john</output>,<output>abigail</output>,<output>ngọc</output>,<output>emily</output>,0,0.16,0,0.21,0,0.16,0,0.23,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>jesus</output>,<output>abraham</output>,<output>nguyễn</output>,<output>jericho</output>,0,0.15,0,0.21,0,0.15,0,0.14,incorrect,incorrect,incorrect,incorrect
+['hawat'],<output>hamlet</output>,<output>odysseus</output>,<output>nguyễn</output>,<output>god</output>,0,0.21,0,0.07,0,0.07,0,0.08,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>deckard</output>,<output>grey</output>,<output>nguyễn</output>,<output>winston</output>,0,0.21,0,0.16,0,0.15,0,0.14,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>heathcliff</output>,<output>emily</output>,<output>nguyễn</output>,<output>lucas</output>,0,0.19,0,0.23,0,0.15,0,0.23,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",<output>estella</output>,<output>god</output>,<output>estella</output>,<output>elizabeth</output>,0,0.21,0,0.17,0,0.21,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['halleck', 'paul']",<output>severin</output>,<output>leto</output>,<output>nguyễn</output>,<output>leto</output>,0,0.14,0,0.24,0,0.15,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",<output>shakespeare</output>,<output>shakespeare</output>,<output>shakespeare</output>,<output>maría</output>,0,0.19,0,0.19,0,0.19,0,0.23,incorrect,incorrect,incorrect,incorrect
+['gurney'],<output>paul</output>,<output>paul</output>,<output>paul</output>,<output>paul</output>,0,0.07,0,0.07,0,0.07,0,0.07,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>arthur</output>,<output>john</output>,<output>tom</output>,<output>arthur</output>,0,0.22,0,0.16,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect
+['halleck'],<output>edmond</output>,<output>lucifer</output>,<output>nguyễn</output>,<output>lucifer</output>,0,0.07,0,0.13,0,0.07,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['halleck', 'giọng halleck']",<output>paul</output>,<output>paul</output>,<output>paul</output>,<output>paul</output>,0,0.18,0,0.18,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['halleck'],<output>montag</output>,<output>scarlett</output>,<output>heathcliff</output>,<output>scarlett</output>,0,0.07,0,0.19,0,0.18,0,0.19,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>hamlet</output>,<output>arin</output>,<output>arthur</output>,<output>arin</output>,0,0.22,0,0.24,0,0.22,0,0.24,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>paul</output>,<output>paul</output>,<output>arrakis</output>,<output>paul</output>,0,0.32,0,0.32,0,0.21,0,0.32,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>sherlock</output>,<output>heathcliff</output>,<output>tom</output>,<output>emily</output>,0,0.21,0,0.19,0,0.17,0,0.23,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>hitler</output>,<output>jaime</output>,<output>john</output>,<output>john</output>,0,0.22,0,0.23,0,0.16,0,0.16,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>dimmesdale</output>,<output>elizabeth</output>,<output>nguyễn</output>,<output>reverend</output>,0,0.19,0,0.2,0,0.15,0,0.14,incorrect,incorrect,incorrect,incorrect
+['jessica'],<output>paul</output>,<output>paul</output>,<output>paul</output>,<output>paul</output>,0,0.07,0,0.07,0,0.07,0,0.07,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>general</output>,<output>leto</output>,<output>london</output>,<output>carlos</output>,0,0.21,0,0.24,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessica—']",<output>god</output>,<output>sethe</output>,<output>heathcliff</output>,<output>abel</output>,0,0.0,0,0.07,0,0.12,0,0.07,incorrect,incorrect,incorrect,incorrect
+['jessica'],<output>heathcliff</output>,<output>macbeth</output>,<output>god</output>,<output>alaska</output>,0,0.12,0,0.06,0,0.0,0,0.13,incorrect,incorrect,incorrect,incorrect
+['jessica'],<output>paul</output>,<output>paul</output>,<output>paul</output>,<output>paul</output>,0,0.07,0,0.07,0,0.07,0,0.07,incorrect,incorrect,incorrect,incorrect
+['jessica'],<output>athena</output>,<output>shakespeare</output>,<output>dimmesdale</output>,<output>macbeth</output>,0,0.13,0,0.17,0,0.18,0,0.06,incorrect,incorrect,incorrect,incorrect
+['jessica'],<output>wellington</output>,<output>rembrandt</output>,<output>nguyễn</output>,<output>rembrandt</output>,0,0.12,0,0.12,0,0.07,0,0.12,incorrect,incorrect,incorrect,incorrect
+['jessica'],<output>elizabeth</output>,<output>emily</output>,<output>nguyễn</output>,<output>emily</output>,0,0.18,0,0.14,0,0.07,0,0.14,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>stephen</output>,<output>emily</output>,<output>emily</output>,<output>emily</output>,0,0.14,0,0.23,0,0.23,0,0.23,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>paul</output>,<output>marlowe</output>,<output>emily</output>,<output>james</output>,0,0.32,0,0.21,0,0.23,0,0.23,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>paul</output>,<output>paul</output>,<output>nguyễn</output>,<output>paul</output>,0,0.32,0,0.32,0,0.15,0,0.32,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>paul</output>,<output>arin</output>,<output>nguyễn</output>,<output>del</output>,0,0.32,0,0.24,0,0.15,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jessica'],<output>scarlett</output>,<output>emily</output>,<output>hoàng</output>,<output>franklin</output>,0,0.19,0,0.14,0,0.07,0,0.06,incorrect,incorrect,incorrect,incorrect
+['jessica'],<output>emily</output>,<output>emily</output>,<output>elizabeth</output>,<output>emily</output>,0,0.14,0,0.14,0,0.18,0,0.14,incorrect,incorrect,incorrect,incorrect
+['jessica'],<output>emma</output>,<output>emily</output>,<output>elizabeth</output>,<output>lucas</output>,0,0.14,0,0.14,0,0.18,0,0.14,incorrect,incorrect,incorrect,incorrect
+['jessica'],<output>emily</output>,<output>frank lloyd wright</output>,<output>emily</output>,<output>maría</output>,0,0.14,0,0.05,0,0.14,0,0.14,incorrect,incorrect,incorrect,incorrect
+['leto'],<output>lady jessica</output>,<output>paul</output>,<output>paul</output>,<output>paul</output>,0,0.18,0,0.16,0,0.16,0,0.16,incorrect,incorrect,incorrect,incorrect
+['jessica'],<output>braille</output>,<output>emily</output>,<output>elizabeth</output>,<output>emily</output>,0,0.06,0,0.14,0,0.18,0,0.14,incorrect,incorrect,incorrect,incorrect
+['jessica'],<output>clarice</output>,<output>freud</output>,<output>nguyễn</output>,<output>elara</output>,0,0.13,0,0.07,0,0.07,0,0.14,incorrect,incorrect,incorrect,incorrect
+['leto'],<output>arrakis</output>,<output>abdullah</output>,<output>nguyễn</output>,<output>abdul</output>,0,0.14,0,0.14,0,0.15,0,0.15,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>john</output>,<output>abraham</output>,<output>nguyễn</output>,<output>lucas</output>,0,0.16,0,0.21,0,0.15,0,0.23,incorrect,incorrect,incorrect,incorrect
+['stilgar'],<output>macbeth</output>,<output>jack</output>,<output>hoàng</output>,<output>esther</output>,0,0.13,0,0.14,0,0.14,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>abraham</output>,<output>scarlett</output>,<output>god</output>,<output>abraham</output>,0,0.21,0,0.21,0,0.17,0,0.21,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>staff</output>,<output>john</output>,<output>arthur</output>,<output>lucas</output>,0,0.23,0,0.16,0,0.22,0,0.23,incorrect,incorrect,incorrect,incorrect
+['leto'],<output>edward</output>,<output>jon</output>,<output>nguyễn</output>,<output>lucas</output>,0,0.15,0,0.17,0,0.15,0,0.15,incorrect,incorrect,incorrect,incorrect
+['leto'],<output>wall</output>,<output>denver</output>,<output>jesus</output>,<output>jerusalem</output>,0,0.16,0,0.15,0,0.15,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>gregor</output>,<output>john</output>,<output>hoàng</output>,<output>emily</output>,0,0.15,0,0.16,0,0.23,0,0.23,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>abraham</output>,<output>heathcliff</output>,<output>emily</output>,<output>abel</output>,0,0.21,0,0.19,0,0.23,0,0.24,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>rock</output>,<output>arabistan</output>,<output>nguyễn</output>,<output>arabia</output>,0,0.16,0,0.2,0,0.15,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>he</output>,<output>uzay</output>,<output>god</output>,<output>lucas</output>,0,0.17,0,0.24,0,0.17,0,0.23,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>paul</output>,<output>paul</output>,<output>atlas</output>,<output>paul</output>,0,0.32,0,0.32,0,0.23,0,0.32,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>gregor</output>,<output>godzilla</output>,<output>atlas</output>,<output>beetle</output>,0,0.15,0,0.21,0,0.23,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>paul</output>,<output>montag</output>,<output>tom</output>,<output>john</output>,0,0.32,0,0.22,0,0.17,0,0.16,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>paul</output>,<output>arcturus</output>,<output>john</output>,<output>paul</output>,0,0.32,0,0.21,0,0.16,0,0.32,incorrect,incorrect,incorrect,incorrect
+"['kynes', 'kynes—', 'ngài']",<output>god</output>,<output>allah</output>,<output>paul</output>,<output>god</output>,0,0.08,0,0.08,0,0.08,0,0.08,incorrect,incorrect,incorrect,incorrect
+"['leydi jessica', 'dama jessica', 'jessica']",<output>carthag</output>,<output>carthag</output>,<output>carthage</output>,<output>carthag</output>,0,0.14,0,0.14,0,0.14,0,0.14,incorrect,incorrect,incorrect,incorrect
+['jessica'],<output>she</output>,<output>scarlett</output>,<output>scarlett</output>,<output>scarlett</output>,0,0.07,0,0.19,0,0.19,0,0.19,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>abraham</output>,<output>emily</output>,<output>elizabeth</output>,<output>lucas</output>,0,0.21,0,0.23,0,0.2,0,0.23,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>john</output>,<output>emily</output>,<output>hoàng</output>,<output>elizabeth</output>,0,0.16,0,0.23,0,0.23,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>john</output>,<output>emily</output>,<output>nguyễn</output>,<output>julian</output>,0,0.16,0,0.23,0,0.15,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>jesus</output>,<output>john</output>,<output>ngư</output>,<output>neptune</output>,0,0.15,0,0.16,0,0.17,0,0.14,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>mr. potter</output>,<output>hamlet</output>,<output>arthur</output>,<output>montague</output>,0,0.13,0,0.22,0,0.22,0,0.21,incorrect,incorrect,incorrect,incorrect
+['yueh'],<output>deckard</output>,<output>clarke</output>,<output>emily</output>,<output>clarke</output>,0,0.14,0,0.15,0,0.15,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",<output>god</output>,<output>godric</output>,<output>heathcliff</output>,<output>god</output>,0,0.08,0,0.14,0,0.12,0,0.08,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>paul</output>,<output>emily</output>,<output>nguyễn</output>,<output>elizabeth</output>,0,0.32,0,0.23,0,0.15,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>jason</output>,<output>paul</output>,<output>nguyễn</output>,<output>jason</output>,0,0.23,0,0.32,0,0.15,0,0.23,incorrect,incorrect,incorrect,incorrect
+"['harkonnen', 'yueh']",<output>montag</output>,<output>leto</output>,<output>nguyễn</output>,<output>lucas</output>,0,0.12,0,0.16,0,0.25,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['ùng', 'barón', 'baron']",<output>ulysses</output>,<output>jack</output>,<output>nguyễn</output>,<output>thor</output>,0,0.07,0,0.15,0,0.23,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",<output>dr. moreau</output>,<output>dr. frankenstein</output>,<output>dr. frankenstein</output>,<output>victor</output>,0,0.12,0,0.11,0,0.11,0,0.14,incorrect,incorrect,incorrect,incorrect
+['paul'],<output>paul</output>,<output>john</output>,<output>john</output>,<output>orville</output>,0,0.32,0,0.16,0,0.16,0,0.21,incorrect,incorrect,incorrect,incorrect
+"['pau', 'paul']",<output>emily</output>,<output>don mccullin</output>,<output>elizabeth</output>,<output>emily</output>,0,0.23,0,0.18,0,0.21,0,0.23,incorrect,incorrect,incorrect,incorrect
+"['thufir hawat—', 'thufir hawat']",<output>paul</output>,<output>paul</output>,<output>paul</output>,<output>paul</output>,0,0.24,0,0.24,0,0.24,0,0.24,incorrect,incorrect,incorrect,incorrect
+['fremen'],<output>strother</output>,<output>bruce</output>,<output>nguyễn</output>,<output>lucas</output>,0,0.13,0,0.14,0,0.14,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",<output>napoleon</output>,<output>macbeth</output>,<output>arthur</output>,<output>macbeth</output>,0,0.2,0,0.14,0,0.21,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",<output>heathcliff</output>,<output>abraham</output>,<output>nguyễn</output>,<output>abel</output>,0,0.12,0,0.21,0,0.14,0,0.15,incorrect,incorrect,incorrect,incorrect
+['stilgar'],<output>elizabeth</output>,<output>john</output>,<output>medea</output>,<output>van</output>,0,0.18,0,0.07,0,0.14,0,0.15,incorrect,incorrect,incorrect,incorrect
+['jamis'],<output>harry</output>,<output>john</output>,<output>emily</output>,<output>emily</output>,0,0.07,0,0.08,0,0.15,0,0.15,incorrect,incorrect,incorrect,incorrect
+['gurney halleck'],<output>fiore</output>,<output>arya</output>,<output>macbeth</output>,<output>macbeth</output>,0,0.21,0,0.23,0,0.16,0,0.16,incorrect,incorrect,incorrect,incorrect
+"['jamis', 'chani']",<output>paul</output>,<output>paul</output>,<output>paul</output>,<output>lucas</output>,0,0.08,0,0.08,0,0.08,0,0.15,incorrect,incorrect,incorrect,incorrect
+['harah'],<output>paul</output>,<output>macbeth</output>,<output>nguyễn</output>,<output>arslan</output>,0,0.08,0,0.07,0,0.0,0,0.21,incorrect,incorrect,incorrect,incorrect
+['chani'],<output>shahrazad</output>,<output>abraham</output>,<output>emily</output>,<output>khadija</output>,0,0.13,0,0.14,0,0.07,0,0.21,incorrect,incorrect,incorrect,incorrect
+"['alia', 'paul']",<output>god</output>,<output>paul</output>,<output>ngọc</output>,<output>maría</output>,0,0.17,0,0.32,0,0.16,0,0.23,incorrect,incorrect,incorrect,incorrect
+['gurney'],<output>cortés</output>,<output>obi-wan kenobi</output>,<output>nguyễn</output>,<output>odysseus</output>,0,0.21,0,0.16,0,0.21,0,0.13,incorrect,incorrect,incorrect,incorrect
+['gurney'],<output>paul</output>,<output>heathcliff</output>,<output>nguyễn</output>,<output>atlas</output>,0,0.07,0,0.12,0,0.21,0,0.07,incorrect,incorrect,incorrect,incorrect
+['gurney'],<output>paul</output>,<output>paul</output>,<output>paul</output>,<output>paul</output>,0,0.07,0,0.07,0,0.07,0,0.07,incorrect,incorrect,incorrect,incorrect
+['muad'],<output>arrakis</output>,<output>legolas</output>,<output>paul</output>,<output>macdib</output>,0,0.14,0,0.14,0,0.16,0,0.15,incorrect,incorrect,incorrect,incorrect
