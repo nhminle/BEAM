@@ -1,0 +1,55 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['gatsby'],daisy,hester,hester,hester,0,0.55,0,0.17,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['tom buchanan'],gatsby,tom,gatsby,gatsby,0,0.22,1,1.0,0,0.22,0,0.22,incorrect,correct,incorrect,incorrect
+"['tom', 'tom buchanan']",the rear windows,hester,hester,[mask],0,0.25,0,0.22,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['daisy'],mary,öteki,người thứ hai,"la otra chica, alice, hizo ademán de levantarse —se inclinó hacia delante con expresión decidida—, y entonces se rió, con una risilla absurda y encantadora, y yo también me reí y me acerqué.",0,0.44,0,0.2,0,0.22,0,0.05,incorrect,incorrect,incorrect,incorrect
+"['miss baker', 'baker', 'bayan baker']",she,hester,hester,juan,0,0.31,0,0.38,0,0.38,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['baker', 'bayan baker']",miss,hester,hester,miss,0,0.0,0,0.36,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+['daisy'],name,[mask]'ın,nguyen,[mask],0,0.22,0,0.29,0,0.18,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['tom', 'tom”']",brute,hester,daisy,maría,0,0.25,0,0.22,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['daisy'],hester,kadın,nam,anaïs,0,0.18,0,0.4,0,0.25,0,0.6,incorrect,incorrect,incorrect,incorrect
+['tom'],mother,hester,em,niña,0,0.22,0,0.22,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['ton buchanan', 'tom buchanan']",george,john,john,[mask],0,0.22,0,0.57,0,0.57,0,0.22,incorrect,incorrect,incorrect,incorrect
+['tom'],[mask],hester,hester,[mask],0,0.22,0,0.22,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['wilso', 'bayan wilson', 'mistress wilson', 'wilson']",airedale,karen,mrs.,john,0,0.38,0,0.4,0,0.33,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['bayan wilson', 'myrtle', 'mistress wilson', 'wilson']",s. [mask],john,park,[mask],0,0.24,0,0.4,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['catherine'],sister,hester,hester,maría,0,0.4,0,0.4,0,0.4,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['mckee', 'bay mckee', 'mister mckee']",john,hester,chàng,john,0,0.0,0,0.67,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jordan baker'],hester,hester,hester,hester,0,0.36,0,0.36,0,0.36,0,0.36,incorrect,incorrect,incorrect,incorrect
+['jordan'],the visitor,koca,hester,ella,0,0.24,0,0.4,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['bay gatsby', 'gatsby']",chicago,hester,chicago,john,0,0.24,0,0.17,0,0.24,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jordan'],jane,[mask],nguyen,[mask],0,0.6,0,0.17,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['von hindenburg', 'van hindenburg']",hank,hester,cháu,hester,0,0.57,0,0.38,0,0.29,0,0.38,incorrect,incorrect,incorrect,incorrect
+['gatsby'],[mask]'s,hester,hester,[mask],0,0.29,0,0.17,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['gatsby'],gatsby,gatsby,gatsby,gatsby,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['bayan wilson', 'mistress wilson', 'wilson']",gatsby,roosevelt,gatsby,hester,0,0.36,0,0.24,0,0.36,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['wolfsheim hỉnh', 'bay wolfsheim', 'wolfshiem']",john,hester,chiếc mũi của [mask] về phía tôi một cách căm phẫn.,mister,0,0.5,0,0.27,0,0.18,0,0.27,incorrect,incorrect,incorrect,incorrect
+['daisy'],hester,hester,chị,[mask],0,0.18,0,0.18,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+['daisy'],hester,hester,chicago,hester,0,0.18,0,0.18,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['jordan', 'jordan baker', '“jordan baker']",hemingway,hester,new york,hester,0,0.14,0,0.36,0,0.3,0,0.36,incorrect,incorrect,incorrect,incorrect
+['daisy'],[mask],hester,hester,[mask],0,0.36,0,0.18,0,0.18,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['bay sloane', 'sloane', 'mister sloane']",he,kadın,hester,mujer,0,0.25,0,0.36,0,0.67,0,0.55,incorrect,incorrect,incorrect,incorrect
+['tom'],john,hester,em,hester,0,0.29,0,0.22,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+['daisy'],[mask],hester,cameron,[mask],0,0.36,0,0.18,0,0.17,0,0.36,incorrect,incorrect,incorrect,incorrect
+['daisy'],sarah,karen,bach dang,maría,0,0.2,0,0.2,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+['gatsby'],john,hester,hester,[mask],0,0.0,0,0.17,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['daisy'],love,hester,nick,alicia,0,0.0,0,0.18,0,0.22,0,0.36,incorrect,incorrect,incorrect,incorrect
+['gatsby'],john,hester,hester,[mask],0,0.0,0,0.17,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['gatsby'],child,hester,baby,hester,0,0.0,0,0.17,0,0.6,0,0.17,incorrect,incorrect,incorrect,incorrect
+['tom'],the child,kadın,hester,niña,0,0.17,0,0.0,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['tom'],john,"[mask]'ın göğsünü o kadar derinden yaktı ki, belki de modern şüphemizin kabul etmeye meyilli olmadığı söylentide daha fazla gerçeklik vardı.",earth,elías,0,0.29,0,0.04,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gatsby'],hester,adam,nguyen,john,0,0.17,0,0.2,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['jordan', 'jordan—']",[mask],hester,new york,cinco,0,0.17,0,0.17,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+['tom'],john,[mask]'ın,john,john,0,0.29,0,0.17,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+['daisy'],she,hester,chicago,hester,0,0.25,0,0.18,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['walter'],hester,hester,new jersey,hester,0,0.5,0,0.5,0,0.38,0,0.5,incorrect,incorrect,incorrect,incorrect
+['jordan'],the circle,kişi,john,john,0,0.12,0,0.0,0,0.6,0,0.6,incorrect,incorrect,incorrect,incorrect
+['tom'],jack,hester,john,elena,0,0.0,0,0.22,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['daisy'],mary,kadın,hester,mujer,0,0.44,0,0.4,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['george', 'georg']",church,kilise,nhà thờ,church,0,0.18,0,0.18,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['gatsby'],jack,kadın,vác,juan,0,0.2,0,0.18,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['meyer wolfsheim', 'meyer wolfshiem']",mr.,hester,new york,john,0,0.5,0,0.55,0,0.46,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['gatz', 'bay gatz']",he,hester,cụ,mister,0,0.0,0,0.2,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['gatsby'],[mask],hester,john,hester,0,0.33,0,0.17,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['gatsby'],hemingway,hester,hester,[mask],0,0.4,0,0.17,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jordan baker'],mary,deniz,hester,hester,0,0.44,0,0.36,0,0.36,0,0.36,incorrect,incorrect,incorrect,incorrect

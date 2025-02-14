@@ -1,0 +1,101 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['snape—', 'snape']",one of the order,yoldaşlık,một trong những hội viên,nombre,0,0.19,0,0.14,0,0.14,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['snape—', 'snape']",[mask],i̇kisini,hội,[mask],0,0.18,0,0.33,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['lucius malfoy'],he,birisi,người,juan,0,0.0,0,0.33,0,0.36,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['lucius', 'luciu']",john,sana,mi,tú,0,0.0,0,0.2,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['malfoys', 'malfoy']",the [mask] people,türkmenistan,gia đình họ,los cubanos,0,0.26,0,0.22,0,0.24,0,0.33,incorrect,incorrect,incorrect,incorrect
+['draco malfoy'],child,reza,nó,él,0,0.2,0,0.44,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['hermione‘ye', 'hermione']",professor mcgonagall,halil,hàm sách,albus,0,0.36,0,0.31,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],he,onu,người đó,él,0,0.29,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],lies!,böğürdü,lão,juan,0,0.0,0,0.17,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['albus dumbledore‘un', 'albus dumbledore']",headmaster,ölmüş müdürü,thầy hiệu trưởng,difunto director del colegio,0,0.4,0,0.52,0,0.34,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harry—']",[mask],unutmuşsundur,con,el padrino,0,0.18,0,0.11,0,0.0,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['kuera', 'vernon']",uncle tom,enişte,dượnguncle,su tío,0,0.29,0,0.33,0,0.27,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harry—']",[mask],[mask],còn,rió severus,0,0.18,0,0.18,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harr', 'vernon dursley', 'harry‘ye']",jane,zeki,dượng,persona,0,0.33,0,0.2,0,0.36,0,0.62,incorrect,incorrect,incorrect,incorrect
+['dudley'],he,öyle görünüyorduki,dường như [mask] đang đấu tranh dữ dội với những khái niệm quá khó phát biểu thành lời.,"al parecer, [mask] lidiaba...",0,0.25,0,0.17,0,0.09,0,0.06,incorrect,incorrect,incorrect,incorrect
+"['hagri', 'hayalbozan', 'hagrid']",dominating the scene was voldemort,-sizing,bác sĩ,un motorista,0,0.18,0,0.24,0,0.36,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['pius thi', 'pius thicknesse']",trace,anne,dấu hiện,resumiendo: [mask] cree que te tiene totalmente acorralado.,0,0.4,0,0.29,0,0.5,0,0.22,incorrect,incorrect,incorrect,incorrect
+['moody'],mother,reşit,thầy đinh,mary,0,0.36,0,0.0,0,0.14,0,0.44,incorrect,incorrect,incorrect,incorrect
+['harry'],someone,hızır,người,alguien,0,0.0,0,0.4,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['moody—', 'moody']",harry,kovuk,thầy,juan,0,0.2,0,0.2,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],hermione,ölüm yiyenler,cùng một tiếng rống kinh thiên động địa,el vehículo,0,0.31,0,0.11,0,0.09,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['hagrid‘in', 'hagrid']",someone,zihniyet,bác sĩ,[mask],0,0.12,0,0.29,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['señora weasley', 'ms weasley', 'weasley']",speaker,birisi,nó,persona,0,0.47,0,0.25,0,0.5,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['mr weasley', 'weasley—', 'weasley']",[mask],ellerke,thường thường,nombre,0,0.38,0,0.43,0,0.09,0,0.5,incorrect,incorrect,incorrect,incorrect
+['harry'],[mask],halka,nó,total,0,0.18,0,0.4,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['hermione'],someone,maskarade,người đó,juan,0,0.53,0,0.12,0,0.25,0,0.17,incorrect,incorrect,incorrect,incorrect
+['hermione'],ha,hahecin,hì hì,el hechicero,0,0.2,0,0.53,0,0.31,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['ron—', 'ron']",[mask],sıvaserpil,con ma xó,[mask],0,0.0,0,0.15,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['hermione'],hermione,amaumuyoruz,harry,harry,1,1.0,0,0.11,0,0.31,0,0.31,correct,incorrect,incorrect,incorrect
+"['ron—', 'ron']",someone,sıvaserpil,nhân vật,el ghoul,0,0.4,0,0.15,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['ron'],[mask],büyükelçi,tụi mình,hagrid,0,0.0,0,0.0,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['ron'],someone,ama,nguyên,[mask],0,0.4,0,0.0,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['ginny'],someone,sifonu,cô bé,el diario,0,0.17,0,0.36,0,0.0,0,0.14,incorrect,incorrect,incorrect,incorrect
+['hermione'],jane,ayşe,con,persona,0,0.33,0,0.17,0,0.36,0,0.53,incorrect,incorrect,incorrect,incorrect
+['harry'],he,kadın,nó,mujer,0,0.29,0,0.2,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['harry'],he,hala,nó,el hombre,0,0.29,0,0.44,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['harry'],harry,hermione granger,albus dumbledore,hermione,1,1.0,0,0.29,0,0.19,0,0.31,correct,incorrect,incorrect,incorrect
+['harry'],he,mask_name,người đó,él,0,0.29,0,0.14,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mr weasley‘nin', 'señor weasley', 'weasley']",name,gelincik,người nói,dueño,0,0.33,0,0.42,0,0.3,0,0.6,incorrect,incorrect,incorrect,incorrect
+['hermione'],someone,bir kerede,nhân vật,el ministro,0,0.53,0,0.33,0,0.25,0,0.42,incorrect,incorrect,incorrect,incorrect
+['hermione'],noelle,hayır,cháu,[mask],0,0.29,0,0.31,0,0.17,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['ms weasley', 'weasley']",sarah,zeynel,người,garcía,0,0.29,0,0.31,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+['harry'],he,onu,thầy,el interlocutor o personaje,0,0.29,0,0.0,0,0.67,0,0.06,incorrect,incorrect,incorrect,incorrect
+['dumbledore'],someone,dumledore,thầy,alguien,0,0.47,0,0.95,0,0.0,0,0.24,incorrect,correct,incorrect,incorrect
+"['ron—', 'ron']",[mask],damad,má chú rể,coincidió,0,0.0,0,0.0,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['fred'],[mask],evlendiğim zaman,bao giờ,el hombre,0,0.0,0,0.2,0,0.0,0,0.31,incorrect,incorrect,incorrect,incorrect
+['george'],harry,hermione,người nói,alguien,0,0.18,0,0.43,0,0.27,0,0.31,incorrect,incorrect,incorrect,incorrect
+['luna'],she,babası,vua solomon,el chico,0,0.0,0,0.2,0,0.27,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['fred', 'fred—']",[mask],zümrüt,người đó,juan,0,0.0,0,0.2,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['muriel'],auntie agatha,hala,dì lan,tía amelia,0,0.32,0,0.2,0,0.33,0,0.38,incorrect,incorrect,incorrect,incorrect
+['harry'],someone,[mask],nàng,she,0,0.0,0,0.18,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['harry'],[mask],açgöz,a,mujer,0,0.18,0,0.2,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['muriel'],mungo,mungos,dì lan,juan,0,0.36,0,0.33,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harry—']",harry,niye,nhân vật,juan,1,1.0,0,0.22,0,0.31,0,0.22,correct,incorrect,incorrect,incorrect
+"['ron—', 'ron']",he,olamaz,nó,alguien,0,0.0,0,0.22,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+['harry'],hagrid,maskarade,không,[mask],0,0.55,0,0.29,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['hermione'],she,hermione,mình,alguien,0,0.36,1,1.0,0,0.5,0,0.27,incorrect,correct,incorrect,incorrect
+['hermione'],jane,haydi,nàng,carlos,0,0.33,0,0.31,0,0.17,0,0.29,incorrect,incorrect,incorrect,incorrect
+['harry'],him,zeynep,chúng,nombre,0,0.25,0,0.18,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['harry'],[mask],biriyi,nó,[mask],0,0.18,0,0.36,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['hermione', 'hermione‘nin']",hermione,kovuk,nhân vật,la madriguera,1,1.0,0,0.15,0,0.25,0,0.19,correct,incorrect,incorrect,incorrect
+['harry'],someone,ziyaddin,người đó,alguien,0,0.0,0,0.15,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['sirius', 'harry']",harry,sirius,it,sigfrido,1,1.0,1,1.0,0,0.25,0,0.57,correct,correct,incorrect,incorrect
+"['harry‘nin', 'harry', 'dumbledore harry']",he,onun,tay chân,él,0,0.29,0,0.31,0,0.35,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['hermione', 'hermione—']",[mask],mask,nó,[mask],0,0.14,0,0.17,0,0.2,0,0.14,incorrect,incorrect,incorrect,incorrect
+['harry'],he,biz,nó,un ladrillo,0,0.29,0,0.0,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['ron—', 'ron']",harry,harry,gia tinh,albus dumbledore,0,0.25,0,0.25,0,0.18,0,0.11,incorrect,incorrect,incorrect,incorrect
+['voldemort'],voldemort,elbette,giới gia tinh,sangre limpia,1,1.0,0,0.38,0,0.18,0,0.18,correct,incorrect,incorrect,incorrect
+['hermione'],you,nazlıhan ekici,ông,el interlocutor o la interlocutora,0,0.18,0,0.27,0,0.36,0,0.19,incorrect,incorrect,incorrect,incorrect
+"['hermione', 'hermione—']",someone,onu,ngọc,[mask],0,0.53,0,0.36,0,0.17,0,0.14,incorrect,incorrect,incorrect,incorrect
+['harry'],the elf,cin,con gia tinh,el elfo,0,0.17,0,0.0,0,0.12,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harr', 'harry—', 'harry‘ye']",someone,gazeteci,người đọc,[mask],0,0.13,0,0.25,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['voldemort'],ministry,maskeli,đảng,el ministerio,0,0.24,0,0.12,0,0.15,0,0.09,incorrect,incorrect,incorrect,incorrect
+['lupin'],he,bu,thầy,alguien,0,0.0,0,0.29,0,0.0,0,0.67,incorrect,incorrect,incorrect,incorrect
+['lupin'],someone,haydar,thầy,juan,0,0.17,0,0.0,0,0.0,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['ron—', 'ron', 'ron‘dan']",hagrid,kendi,gia tinh,elfo doméstico,0,0.31,0,0.33,0,0.18,0,0.19,incorrect,incorrect,incorrect,incorrect
+"['ron', 'ron‘a']",harry,hagrid,tử thần thực tử,harry,0,0.25,0,0.22,0,0.11,0,0.25,incorrect,incorrect,incorrect,incorrect
+['harry'],[mask],bilmiyorum,nhân,[mask],0,0.18,0,0.13,0,0.44,0,0.18,incorrect,incorrect,incorrect,incorrect
+['harry'],harry,kovuk,hàm sóc,harry,1,1.0,0,0.0,0,0.33,1,1.0,correct,incorrect,incorrect,correct
+"['ron—', 'ron']",hermione,aslı,người đang nói,[mask],0,0.55,0,0.0,0,0.24,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],he,zekiye,thôi,la mujer,0,0.29,0,0.18,0,0.22,0,0.31,incorrect,incorrect,incorrect,incorrect
+['harry'],they,"küçücük, dar bir geçit",[mask],"tras unos momentos de oscuridad y sensación de asfixia, [mask] se encontró en el diminuto callejón donde habían previsto llevar a cabo la primera fase del plan. el callejón todavía estaba desierto (sólo se veían un par de cubos de basura), pues los primeros empleados del ministerio no so-lían aparecer hasta las ocho en punto, como muy pronto.",0,0.44,0,0.22,0,0.18,0,0.02,incorrect,incorrect,incorrect,incorrect
+['harry'],he,sihirli cadı,một bà phù thủy nhỏ xíu,alguien,0,0.29,0,0.24,0,0.14,0,0.17,incorrect,incorrect,incorrect,incorrect
+['harry'],he,daha yakından baktı,nhìn,alguien,0,0.29,0,0.25,0,0.22,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['umbridge', 'harry']",she,umbridge,mụ,ella,0,0.25,1,1.0,0,0.2,0,0.22,incorrect,correct,incorrect,incorrect
+['harry'],he,birkaç saniye için,it,durante,0,0.29,0,0.17,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['harry'],harry,patronusları,các thần hộ mệnh,los que esperaban fuera,1,1.0,0,0.24,0,0.19,0,0.14,correct,incorrect,incorrect,incorrect
+"['harry', 'harry‘nin patronus']",they,kendilerini,thần hộ mệnh,patronus,0,0.44,0,0.3,0,0.4,1,1.0,incorrect,incorrect,incorrect,correct
+['harry'],he,ama,nó,ello,0,0.29,0,0.25,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],he,etraftaki,nó,el hombre,0,0.29,0,0.14,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['harry'],he,bir çadırı kurup çevreye koruma büyülerini yerleştirdikten sonra [mask],những đứa,el mago,0,0.29,0,0.11,0,0.29,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['dumbledore', 'vol…”']",harry,harry,dumbledore,dumbledore,0,0.13,0,0.13,1,1.0,1,1.0,incorrect,incorrect,correct,correct
+['dumbledore'],harry,godric,đương nhiên,albus,0,0.13,0,0.25,0,0.29,0,0.13,incorrect,incorrect,incorrect,incorrect
+['xenophilius'],harry,tabi,ông,[mask],0,0.12,0,0.13,0,0.14,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['lee', 'lee—']",someone,kendimizi,chúng tôi,otro refugio,0,0.4,0,0.17,0,0.0,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['ollivander', 'ollivander—']",[mask],mask,ông,[mask],0,0.12,0,0.14,0,0.31,0,0.12,incorrect,incorrect,incorrect,incorrect
+['dumbledore'],the orphanage,yetimhanede,viện mồ côi,el lago de la caverna,0,0.35,0,0.38,0,0.19,0,0.26,incorrect,incorrect,incorrect,incorrect
+"['mcgonagall', 'profesör mcgonagall']",professor snape,müthiş,giang,la profesora,0,0.7,0,0.14,0,0.4,0,0.8,correct,incorrect,incorrect,correct
+"['the elder wand', 'voldemort', 'señor tenebroso']",harry,kırmızı gözleri,trần,el [mask],0,0.25,0,0.33,0,0.5,0,0.35,incorrect,incorrect,incorrect,incorrect
+['james'],dumbledore,sen. pelerin,bố của thầy,dumbledore,0,0.27,0,0.12,0,0.12,0,0.27,incorrect,incorrect,incorrect,incorrect

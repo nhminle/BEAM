@@ -1,0 +1,101 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['snape—', 'snape']",harry potter,harry potter,severus snape,harry potter,0,0.35,0,0.35,0,0.56,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['snape—', 'snape']",harry,yoldaşlık,harry potter,albus,0,0.2,0,0.14,0,0.35,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lucius malfoy'],heathcliff,gollum,đức,don quijote,0,0.38,0,0.33,0,0.44,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['lucius', 'luciu']",esau,annem,chị,señor,0,0.22,0,0.0,0,0.5,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['malfoys', 'malfoy']",israelites,vampirler,ta,enemigos,0,0.35,0,0.27,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+['draco malfoy'],he,çocuk,cô bé,él,0,0.0,0,0.4,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['hermione‘ye', 'hermione']",professor dumbledore,hermione,harry potter,albus dumbledore,0,0.36,1,1.0,0,0.3,0,0.25,incorrect,correct,incorrect,incorrect
+['harry'],he,okuyucu,nhân vật,él,0,0.29,0,0.17,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],he,komşusu,láo,el narrador,0,0.29,0,0.0,0,0.25,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['albus dumbledore‘un', 'albus dumbledore']",his dead headmaster,ölüm,thầy hiệu trưởng,el difunto director del colegio,0,0.34,0,0.44,0,0.34,0,0.3,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harry—']",harry potter,ali,con,maría,0,0.59,0,0.25,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['kuera', 'vernon']",tom,enişte,ông,mientras,0,0.22,0,0.33,0,0.44,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harry—']",gandalf,harry,đức,harry,0,0.17,1,1.0,0,0.0,1,1.0,incorrect,correct,incorrect,correct
+"['harry', 'harr', 'vernon dursley', 'harry‘ye']",god's,adolf hitler,cháu,hitler,0,0.33,0,0.32,0,0.5,0,0.4,incorrect,incorrect,incorrect,incorrect
+['dudley'],he,bay,đức phật,él,0,0.25,0,0.22,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['hagri', 'hayalbozan', 'hagrid']",hagrid,hogwarts,đạt,harry potter,1,1.0,0,0.46,0,0.25,0,0.36,correct,incorrect,incorrect,incorrect
+"['pius thi', 'pius thicknesse']",he,takip,hắn,lord voldemort,0,0.4,0,0.5,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['moody'],harry,reşit,thầy bói,él,0,0.2,0,0.0,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],harry potter,rapunzel,thuốc,moisés,0,0.59,0,0.15,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['moody—', 'moody']",harry potter,yönetmen,phước,homero,0,0.12,0,0.15,0,0.2,0,0.36,incorrect,incorrect,incorrect,incorrect
+['harry'],harry potter,ölüm yiyenler,tử thần thực tử,harry potter,0,0.59,0,0.11,0,0.2,0,0.59,incorrect,incorrect,incorrect,incorrect
+"['hagrid‘in', 'hagrid']",harry,adam,sống,el guardabosques,0,0.55,0,0.4,0,0.2,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['señora weasley', 'ms weasley', 'weasley']",severus,onlar,nó,la reina,0,0.46,0,0.36,0,0.5,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['mr weasley', 'weasley—', 'weasley']",albus dumbledore,hermione,đumbledore,magician,0,0.35,0,0.27,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+['harry'],pinocchio,özdemir asaf,đức,él,0,0.14,0,0.12,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['hermione'],she,trump,minh,maría,0,0.36,0,0.31,0,0.5,0,0.31,incorrect,incorrect,incorrect,incorrect
+['hermione'],hermione,harry potter,harry,harry potter,1,1.0,0,0.3,0,0.31,0,0.3,correct,incorrect,incorrect,incorrect
+"['ron—', 'ron']",harry potter,pinokyo,con ma xó,harry potter,0,0.27,0,0.2,0,0.33,0,0.27,incorrect,incorrect,incorrect,incorrect
+['hermione'],hermione granger,hermione granger,hermione,hermione,0,0.67,0,0.67,1,1.0,1,1.0,incorrect,incorrect,correct,correct
+"['ron—', 'ron']",harry potter,harry,không rõ,harry potter,0,0.27,0,0.25,0,0.36,0,0.27,incorrect,incorrect,incorrect,incorrect
+['ron'],harry potter,harry potter,đào,ron weasley,0,0.27,0,0.27,0,0.33,0,0.43,incorrect,incorrect,incorrect,incorrect
+['ron'],harry potter,buda,đức phật,platón,0,0.27,0,0.0,0,0.0,0,0.44,incorrect,incorrect,incorrect,incorrect
+['ginny'],lucius malfoy,defter,noah,harry potter,0,0.22,0,0.0,0,0.22,0,0.12,incorrect,incorrect,incorrect,incorrect
+['hermione'],hermione,ronald weasley,ngọc,don quijote,1,1.0,0,0.36,0,0.17,0,0.32,correct,incorrect,incorrect,incorrect
+['harry'],harry,erkek,nó,harry potter,1,1.0,0,0.2,0,0.0,0,0.59,correct,incorrect,incorrect,incorrect
+['harry'],harry potter,ali,đức,harry potter,0,0.59,0,0.25,0,0.0,0,0.59,incorrect,incorrect,incorrect,incorrect
+['harry'],harry potter,harry potter,harry potter,harry potter,0,0.59,0,0.59,0,0.59,0,0.59,incorrect,incorrect,incorrect,incorrect
+['harry'],he,ali,người đàn ông,él,0,0.29,0,0.25,0,0.11,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mr weasley‘nin', 'señor weasley', 'weasley']",god's,r2-d2,đức mẹ,albus dumbledore,0,0.2,0,0.29,0,0.25,0,0.38,incorrect,incorrect,incorrect,incorrect
+['hermione'],harry,sherlock holmes,phileas fogg,el ministro,0,0.31,0,0.43,0,0.3,0,0.42,incorrect,incorrect,incorrect,incorrect
+['hermione'],hermione,minister,harry potter,harry,1,1.0,0,0.25,0,0.3,0,0.31,correct,incorrect,incorrect,incorrect
+"['ms weasley', 'weasley']",sherlock,bay,anh,niños,0,0.33,0,0.4,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+['harry'],harry,harry,thầy,ella,1,1.0,1,1.0,0,0.67,0,0.22,correct,correct,incorrect,incorrect
+['dumbledore'],god,dumbledore,giáo,ella,0,0.15,1,1.0,0,0.14,0,0.14,incorrect,correct,incorrect,incorrect
+"['ron—', 'ron']",sherlock holmes,hamlet,đức,alguien,0,0.22,0,0.0,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['fred'],harry,harry potter,trọng,cersei,0,0.22,0,0.25,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+['george'],bill,harry,ông darcy,elizabeth bennet,0,0.0,0,0.18,0,0.27,0,0.18,incorrect,incorrect,incorrect,incorrect
+['luna'],she,babası,cô bé,don quijote,0,0.0,0,0.2,0,0.0,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['fred', 'fred—']",severus snape,çehov,ông,homero,0,0.24,0,0.22,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['muriel'],muriel,harry potter,minh,muriel,1,1.0,0,0.22,0,0.4,1,1.0,correct,incorrect,incorrect,correct
+['harry'],he,ali,đức,lucas,0,0.29,0,0.25,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['harry'],watson,alabalık,con,sherezade,0,0.18,0,0.15,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['muriel'],black,bayram,mungo,harry,0,0.18,0,0.17,0,0.36,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harry—']",harry potter,harry potter,áo khoác tàng hình,harry potter,0,0.59,0,0.59,0,0.17,0,0.59,incorrect,incorrect,incorrect,incorrect
+"['ron—', 'ron']",harry potter,harry potter,harry potter,harry,0,0.27,0,0.27,0,0.27,0,0.25,incorrect,incorrect,incorrect,incorrect
+['harry'],harry potter,harry potter,harry potter,harry potter,0,0.59,0,0.59,0,0.59,0,0.59,incorrect,incorrect,incorrect,incorrect
+['hermione'],hermione,hermione,cô bé,hermione,1,1.0,1,1.0,0,0.15,1,1.0,correct,correct,incorrect,correct
+['hermione'],emily,bay,cô bé,ella,0,0.46,0,0.0,0,0.15,0,0.17,incorrect,incorrect,incorrect,incorrect
+['harry'],harry potter,yara,nó,harry,0,0.59,0,0.44,0,0.0,1,1.0,incorrect,incorrect,incorrect,correct
+['harry'],harry,l lawliet,đông phong,la boca,1,1.0,0,0.14,0,0.13,0,0.17,correct,incorrect,incorrect,incorrect
+"['hermione', 'hermione‘nin']",ron,yara,hang sóc,hermione,0,0.55,0,0.17,0,0.25,1,1.0,incorrect,incorrect,incorrect,correct
+['harry'],heathcliff,hamlet,người đàn ông,él,0,0.27,0,0.36,0,0.11,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['sirius', 'harry']",harry,harry potter,harry potter,albus,1,1.0,0,0.59,0,0.59,0,0.36,correct,incorrect,incorrect,incorrect
+"['harry‘nin', 'harry', 'dumbledore harry']",joseph,hamlet,nhân vật chính,él,0,0.18,0,0.38,0,0.43,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['hermione', 'hermione—']",hermione,hermione,đào,hermione,1,1.0,1,1.0,0,0.18,1,1.0,correct,correct,incorrect,correct
+['harry'],wartcap,çöp,wartcap,él,0,0.33,0,0.0,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['ron—', 'ron']",ron weasley,hermione,ron weasley,legolas,0,0.43,0,0.55,0,0.43,0,0.2,incorrect,incorrect,incorrect,incorrect
+['voldemort'],lord voldemort,harry potter,đại sư,durmstrang,0,0.78,0,0.29,0,0.13,0,0.32,correct,incorrect,incorrect,incorrect
+['hermione'],god,bay smith,người hầu,jesús,0,0.18,0,0.24,0,0.12,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['hermione', 'hermione—']",winston,i̇van karamazov,đồ tể,don quijote,0,0.4,0,0.27,0,0.15,0,0.32,incorrect,incorrect,incorrect,incorrect
+['harry'],frodo,pinokyo,tôi,gandalf,0,0.2,0,0.17,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['harry', 'harr', 'harry—', 'harry‘ye']",her,gazeteyi,em,él,0,0.57,0,0.31,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['voldemort'],lord voldemort,minister,đảng,él,0,0.78,0,0.24,0,0.15,0,0.18,correct,incorrect,incorrect,incorrect
+['lupin'],he,o,phương,él,0,0.0,0,0.0,0,0.36,0,0.29,incorrect,incorrect,incorrect,incorrect
+['lupin'],samwise gamgee,bay,gió,gandalf,0,0.11,0,0.0,0,0.25,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['ron—', 'ron', 'ron‘dan']",dobby,şeytan,người,legolas,0,0.25,0,0.31,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['ron', 'ron‘a']",harry,harry potter,harry potter,ron,0,0.25,0,0.27,0,0.27,1,1.0,incorrect,incorrect,incorrect,correct
+['harry'],hamlet,tanrı,chúa,maría,0,0.36,0,0.4,0,0.44,0,0.4,incorrect,incorrect,incorrect,incorrect
+['harry'],harry potter,harry potter,harry potter,harry potter,0,0.59,0,0.59,0,0.59,0,0.59,incorrect,incorrect,incorrect,incorrect
+"['ron—', 'ron']",harry,frodo,harry,harry,0,0.25,0,0.5,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['harry'],he,drakula,cô bé,harry potter,0,0.29,0,0.17,0,0.0,0,0.59,incorrect,incorrect,incorrect,incorrect
+['harry'],harry potter,o,harry potter,él,0,0.59,0,0.0,0,0.59,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],harry,harry potter,sở bảo trì pháp thuật,harry,1,1.0,0,0.59,0,0.15,1,1.0,correct,incorrect,incorrect,correct
+['harry'],harry potter,goya,nguyễn công trứ,el,0,0.59,0,0.22,0,0.1,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['umbridge', 'harry']",granger,harry potter,phù thủy,harry potter,0,0.4,0,0.59,0,0.31,0,0.59,incorrect,incorrect,incorrect,incorrect
+['harry'],harry potter,harry potter,đôrêmon,él,0,0.59,0,0.59,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],harry,harry,ngài,harry,1,1.0,1,1.0,0,0.22,1,1.0,correct,correct,incorrect,correct
+"['harry', 'harry‘nin patronus']",lupin,biri,đức phật,harry potter,0,0.31,0,0.31,0,0.38,0,0.6,incorrect,incorrect,incorrect,incorrect
+['harry'],harry,harry,harry,harry,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['harry'],harry,harry potter,gandalf,harry potter,1,1.0,0,0.59,0,0.17,0,0.59,correct,incorrect,incorrect,incorrect
+['harry'],harry potter,gandalf,ếm,gandalf,0,0.59,0,0.17,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['dumbledore', 'vol…”']",harry,harry potter,harry potter,harry potter,0,0.13,0,0.18,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['dumbledore'],harry,harry,arya,harry potter,0,0.13,0,0.13,0,0.14,0,0.18,incorrect,incorrect,incorrect,incorrect
+['xenophilius'],albus dumbledore,harry potter,đào,harry potter,0,0.22,0,0.09,0,0.14,0,0.09,incorrect,incorrect,incorrect,incorrect
+"['lee', 'lee—']",he,bay sherlock holmes,nguyễn,álex,0,0.4,0,0.18,0,0.22,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['ollivander', 'ollivander—']",ollivander,harry,gandalf,ollivander,1,1.0,0,0.27,0,0.35,1,1.0,correct,incorrect,incorrect,correct
+['dumbledore'],god,yetimhane yöneticisi,hắn,alguien,0,0.15,0,0.27,0,0.0,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['mcgonagall', 'profesör mcgonagall']",mcgonagall,bay,đinh,minerva mcgonagall,1,1.0,0,0.15,0,0.14,0,0.71,correct,incorrect,incorrect,correct
+"['the elder wand', 'voldemort', 'señor tenebroso']",his wand,gandalf,đại ma vương,lord voldemort,0,0.67,0,0.55,0,0.25,0,0.78,incorrect,incorrect,incorrect,correct
+['james'],dumbledore,sen. pelerin,albus dumbledore,harry,0,0.27,0,0.12,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect

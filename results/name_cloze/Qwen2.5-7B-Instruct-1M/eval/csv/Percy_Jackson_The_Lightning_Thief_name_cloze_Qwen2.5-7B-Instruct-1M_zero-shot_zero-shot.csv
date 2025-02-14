@@ -1,0 +1,96 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['nancy bobofit', 'nancy']",someone,ben,giọt nước,alguien,0,0.29,0,0.25,0,0.29,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner']",he,annem,thầy,él,0,0.22,0,0.5,0,0.57,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'murmuré', 'brunner']",he,ele,thầy,él,0,0.22,0,0.2,0,0.57,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner']",someone,müze direktörü,thầy,persona,0,0.29,0,0.24,0,0.57,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",a sand castle,birinci adımlar,cô,la [mask],0,0.42,0,0.3,0,0.29,0,0.3,incorrect,incorrect,incorrect,incorrect
+"['jackson', 'bay jackson', 'señor jackson']",guest,"başını kaldırdı, dikkati dağılmış gibiydi. ""ah, işte bu benim kalemim sanırım. lütfen bundan sonra kendi yazım araçlarınızı kendiniz getirin [mask].",thầy,amigo,0,0.2,0,0.11,0,0.57,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'bayan dodds']",sarah,tuğrul pamuk,cô ấy,alguien,0,0.4,0,0.12,0,0.4,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",saturn,pençeleriyle,ngọc,bestia,0,0.36,0,0.33,0,0.4,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['nancy bobofit', 'nancy']",jane,name,đám bạn,juan,0,0.44,0,0.44,0,0.33,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner']",name,i̇nsan,thầy,ella,0,0.36,0,0.33,0,0.57,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner']",professor smith,aşşevi,thầy,esor,0,0.27,0,0.24,0,0.57,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner']",someone,koridorda,thầy,persona,0,0.29,0,0.25,0,0.57,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner']",name,öğretmen,thầy hy lạp,profesor,0,0.36,0,0.27,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+['nancy bobofit'],she,zeynep,nhỏ mai,el proctor,0,0.0,0,0.18,0,0.33,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['sally jackso', 'sally jackson']",jane,adı,đức,juan,0,0.55,0,0.25,0,0.22,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['gabe cóc', 'gabe', 'gabe el apestoso']",smelly joe,kokarca,anh,mamá,0,0.33,0,0.27,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+['gabe'],father,anne,dượng,tu padre,0,0.4,0,0.5,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'bayan dodds', 'dodd']",susan,mask,cô tô,ariadna,0,0.4,0,0.27,0,0.25,0,0.5,incorrect,incorrect,incorrect,incorrect
+['gabe'],he,gerdanını kaşıdı,dượng đào,el crío,0,0.33,0,0.2,0,0.31,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['gabe', 'gabe cóc chế', 'kokarca gabe', 'gabe el apestoso']",smelly joe,aptalcay,ông,mamá,0,0.36,0,0.4,0,0.33,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['percy', 'perc']",mom,annemin,nhật,mi amor,0,0.0,0,0.18,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",sarah,long island,cô ấy,criatura,0,0.55,0,0.27,0,0.4,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner', 'señor brunner']",ory,banu,thầy,nombre,0,0.5,0,0.57,0,0.57,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",sir,korku,ngọc,lobo,0,0.44,0,0.36,0,0.4,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['bay d', 'mano', 'd']",thebes,olimpos dağı,olympe,el parnaso,0,0.22,0,0.25,0,0.22,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['bay d', 'percy', 'padre', 'd']",he,zekiye,chiron,él,0,0.29,0,0.36,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['percy', 'olympia']",camper,taner,chiron,centauro,0,0.55,0,0.4,0,0.18,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['quirón', 'brunner', 'kheiron', 'chiron']",someone,zekiye,nhân mã,alguien,0,0.43,0,0.31,0,0.31,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['percy jackson', 'perc']",someone,yerinde olsam,bác,alguien,0,0.43,0,0.31,0,0.4,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['quirón', 'kheiron', 'chiron']",hermes,minotor,đất,hermes,0,0.46,0,0.31,0,0.0,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['quirón', 'kheiron', 'chiron']",she,onu,họ,miró,0,0.4,0,0.44,0,0.5,0,0.6,incorrect,incorrect,incorrect,incorrect
+['hermes'],she,babam,cô,el chico nuevo,0,0.44,0,0.18,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['annabeth'],they,birisi,người,alguien,0,0.33,0,0.14,0,0.15,0,0.27,incorrect,incorrect,incorrect,incorrect
+['annabeth'],someone,birinci [mask] ve i̇kinci [mask],tay [mask] là người hét váng trời,el personaje o la persona involucrada,0,0.27,0,0.15,0,0.15,0,0.13,incorrect,incorrect,incorrect,incorrect
+['clarisse'],drip,tuvalet suyu,nước,ella,0,0.33,0,0.2,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['clarisse'],jane,kendi kendine,nhiệm vụ,persona,0,0.33,0,0.19,0,0.25,0,0.13,incorrect,incorrect,incorrect,incorrect
+['annabeth'],she,midem,người kia,ella,0,0.18,0,0.15,0,0.12,0,0.17,incorrect,incorrect,incorrect,incorrect
+['annabeth'],he,birisi,bác,el,0,0.2,0,0.14,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['annabeth', 'annabeth bảo']",he,müslüman,người ấy,el problema,0,0.2,0,0.25,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['quirón', 'kheiron', 'chiron']",somebody,kazım,vị khách,alguien,0,0.27,0,0.33,0,0.29,0,0.46,incorrect,incorrect,incorrect,incorrect
+['luke'],"ready, you?",birimiz,ngươi,juan,0,0.13,0,0.0,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['luke'],she,koruluk komutanı,người ấy,nombre,0,0.29,0,0.3,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['percy'],she,akropolis,người đó,ellas,0,0.25,0,0.14,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['annabeth'],she,zehirli bakışlarından,ngay,incluso,0,0.18,0,0.14,0,0.17,0,0.13,incorrect,incorrect,incorrect,incorrect
+['annabeth'],mother,montauk,nạn nhân,hijo,0,0.29,0,0.13,0,0.5,0,0.17,incorrect,incorrect,incorrect,incorrect
+['clarisse'],john,dört adam,đặng văn ngữ,carlos,0,0.0,0,0.12,0,0.1,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['jacksons', 'jackson']",someone,someone,ngọc,[mask],0,0.43,0,0.43,0,0.18,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['smelly gabe', 'kokarca gabe', 'gabe cóc chết', 'gabe el apestoso']",john,oğuzhan,ngó,[mask],0,0.29,0,0.36,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['poseidon', 'poseidón']",someone,minotor,quyết,minotauro,0,0.53,0,0.27,0,0.15,0,0.24,incorrect,incorrect,incorrect,incorrect
+['percy'],dad,babam,thích,papá,0,0.0,0,0.0,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['grover', 'kıvırcık']",mom,mask'sin,anh,juan,0,0.22,0,0.25,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],smelly smell,anne,mẹ tôi,mi madre,0,0.25,0,0.25,0,0.2,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['gabe', 'argus']",jane,yankees,nhân,un hombre,0,0.5,0,0.36,0,0.25,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['kokarca gabe', 'gabe', 'gabe cóc chết', 'gabe el apestoso']",sarah,arkasından,người đội mũ xanh lá cây,ella,0,0.5,0,0.35,0,0.3,0,0.67,incorrect,incorrect,incorrect,incorrect
+['annabeth'],someone,furial,nữ thần báo thù,[mask],0,0.27,0,0.14,0,0.43,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds', 'dodd']",she,ahmet,cô,la persona,0,0.44,0,0.2,0,0.33,0,0.38,incorrect,incorrect,incorrect,incorrect
+['annabeth'],an angry wail,bir yıldırım,cô gái,loba,0,0.38,0,0.1,0,0.14,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",aunty em,em teyze,cô,tú,0,0.32,0,0.2,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",staywithme,benimle,nàng,ángel,0,0.27,0,0.33,0,0.44,0,0.4,incorrect,incorrect,incorrect,incorrect
+['annabeth'],her,lisans,annabeth,hermes,0,0.18,0,0.29,1,1.0,0,0.14,incorrect,incorrect,correct,incorrect
+"['percy', 'perc']",mother,babam,con,tío luis,0,0.4,0,0.0,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['annabeth', 'athena']",hephaestus,hephaestus,hai bà trưng,el dios,0,0.38,0,0.38,0,0.33,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['uncle ferdinand', 'cậu ferdinand', 'ferdinand amcam', 'ferdinand']",woman,kadının,nàng,mujer,0,0.29,0,0.5,0,0.46,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['mẹ annabeth', 'athena', 'atenea']",riptide,dalgakıran,người đó,ellos,0,0.31,0,0.25,0,0.14,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['percy', 'perc']",she,kızılsahan,người kia,ella,0,0.29,0,0.0,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['kimera', 'quimera', 'chimera']",someone,lincoln,nàng,alejandro,0,0.31,0,0.15,0,0.2,0,0.27,incorrect,incorrect,incorrect,incorrect
+['annabeth'],stepdad,küçükhan,thằng,padrastro,0,0.13,0,0.25,0,0.31,0,0.35,incorrect,incorrect,incorrect,incorrect
+['annabeth'],you,kayığa,anh,marta,0,0.0,0,0.29,0,0.55,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['gabe', 'gabe cóc chết']",the person on the boat,zuhtu,hy vọng,marta,0,0.4,0,0.44,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['annabeth'],arachne,annene,arachne,historia,0,0.4,0,0.57,0,0.4,0,0.12,incorrect,incorrect,incorrect,incorrect
+['annabeth'],he,derin,nơi,él,0,0.2,0,0.15,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['aracne', 'arachne', 'arakne']",apollo,troia,thành troia,hera,0,0.17,0,0.18,0,0.35,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['grover', 'kıvırcık']",someone,las vegas,ngụa vằn,justo,0,0.31,0,0.27,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['troy', 'athena', 'poseidón']",someone,hades,vu lan,tu,0,0.53,0,0.36,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['maurice'],[mask],birleşik devletler birliği,bệnh khó đọc,[mask],0,0.31,0,0.18,0,0.11,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['percy', 'hade', 'hades']",reptile,fren,phù thủy,elvis,0,0.33,0,0.25,0,0.31,0,0.4,incorrect,incorrect,incorrect,incorrect
+['hades'],america,amerika,denver,el hombre,0,0.33,0,0.33,0,0.36,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['echidna', 'equidna', 'ekidne']",[mask],bir yanlışlık olmalı,ngài,usted,0,0.17,0,0.22,0,0.2,0,0.36,incorrect,incorrect,incorrect,incorrect
+['barbara walters'],someone,sana,người nói,[mask],0,0.14,0,0.36,0,0.08,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['charon', 'bay charon', 'caronte', 'charo']",nimblefoot,i̇skender,lão ta,colombia,0,0.24,0,0.15,0,0.46,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['charon', 'caronte—']",he,kıvırcık,hades,hades,0,0.25,0,0.14,0,0.36,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['charon', 'barry manilow']",his,ceza tarlaları,đại đế,lucifer,0,0.22,0,0.32,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['grover', 'hades']",hephaestus,ben,olympia,hércules,0,0.53,0,0.25,0,0.17,0,0.46,incorrect,incorrect,incorrect,incorrect
+['hades'],the master,furia,đôngvenience,señora,0,0.4,0,0.2,0,0.24,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['hades—', 'hades', 'olimpos']",someone else,maskarade,người khác,héroe,0,0.32,0,0.43,0,0.27,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",someone,athena,đức,thda,0,0.46,0,0.5,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['zeus', 'dớt']",you,kader,nhãi,dioscillo,0,0.33,0,0.25,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['dehb', 'annabeth']",hero,furkan,ngươi,ángel,0,0.25,0,0.29,0,0.15,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['percy jackso', 'perseus jackson']",he,zeki,đức,el,0,0.29,0,0.25,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['percy jackson', 'percy jackso']",poor little kid,zavallı küçük adam,nguyễn,valiente chaval,0,0.3,0,0.25,0,0.21,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['quirón', 'kheiron', 'chiron']",the world,onları,hàn,alguien,0,0.38,0,0.33,0,0.44,0,0.46,incorrect,incorrect,incorrect,incorrect
+['percy jackson'],olympus,olimpos,nhân,hermes,0,0.2,0,0.2,0,0.36,0,0.36,incorrect,incorrect,incorrect,incorrect
+['ares'],he,kılıç savaşçı,tú,los luchadores de espada,0,0.33,0,0.24,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['percy jackson', 'perscus jackso', 'perseus jackson']",he,kızlardan,anh,ella,0,0.29,0,0.27,0,0.4,0,0.24,incorrect,incorrect,incorrect,incorrect
+['luke'],someone,batı dünyasını,người kia,un villano,0,0.18,0,0.11,0,0.31,0,0.14,incorrect,incorrect,incorrect,incorrect

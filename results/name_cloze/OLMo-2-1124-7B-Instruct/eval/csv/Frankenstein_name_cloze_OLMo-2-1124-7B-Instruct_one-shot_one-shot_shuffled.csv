@@ -1,0 +1,49 @@
+Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,es_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['caroline beaufort'],his,hasır kızı,thịt,maría,0,0.18,0,0.33,0,0.19,0,0.46,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],clerval,victor frankenstein,victor frankenstein,eliza,0,0.25,0,0.14,0,0.14,0,0.71,incorrect,incorrect,incorrect,correct
+"['krempe', 'thần hủy hoạ', 'señor krempe', 'm']",frankenstein,henüz,trần quốc tuấn,lo,0,0.33,0,0.5,0,0.54,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['waldman', 'm', 'profesör waldman']",little john,gül,victor,maría,0,0.22,0,0.2,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['krempe', 'señor krempe', 'm']",mr. pickwick,ali,thiago,el loco,0,0.25,0,0.0,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+['dante'],frankenstein,hayat,thuyền viên,dr. jekyll,0,0.47,0,0.4,0,0.25,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['frankenstein', 'clerval']",edmund,ali,thiếu nhi,el doctor,0,0.15,0,0.4,0,0.19,0,0.25,incorrect,incorrect,incorrect,incorrect
+['clerval'],thou,ali,thương,antonio,0,0.0,0,0.4,0,0.0,0,0.14,incorrect,incorrect,incorrect,incorrect
+['henry'],sanskrit,roma,thuyền minh,platón,0,0.31,0,0.22,0,0.38,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['clerval', 'querido clerval']",geneva,cenevre,geneva,ginebra,0,0.46,0,0.43,0,0.46,0,0.43,incorrect,incorrect,incorrect,incorrect
+['henry'],spring,benny,người bạn,primavera,0,0.18,0,0.6,0,0.14,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",percy,ali,thư,carta,0,0.36,0,0.4,0,0.0,0,0.55,incorrect,incorrect,incorrect,incorrect
+['clerval'],mont,cenevre,geneva,mont,0,0.0,0,0.43,0,0.46,0,0.0,incorrect,incorrect,incorrect,incorrect
+['clerval'],clarence,ben,mr. darcy,juan,0,0.4,0,0.2,0,0.12,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",jane,ada,thị mỹ,lozano,0,0.2,0,0.22,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['william'],edith,umar,thuyền viên,espeto,0,0.17,0,0.18,0,0.11,0,0.0,incorrect,incorrect,incorrect,incorrect
+['justine'],pearl,ali,thanh thản,conciencia,0,0.17,0,0.2,0,0.24,0,0.24,incorrect,incorrect,incorrect,incorrect
+['justine'],geneva,cenevre,geneva,ginebra,0,0.31,0,0.29,0,0.31,0,0.43,incorrect,incorrect,incorrect,incorrect
+['justine'],edith,gül,thiếu nguyên,señor,0,0.17,0,0.2,0,0.32,0,0.33,incorrect,incorrect,incorrect,incorrect
+['justine'],winter,çinar,thị nghè,primavera,0,0.46,0,0.33,0,0.53,0,0.25,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],arabian,osmanlı,ngoc,don quijote,0,0.25,0,0.25,0,0.0,0,0.1,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],mademoiselle de trévise,isabelle,thương,padre,0,0.25,0,0.47,0,0.27,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",french revolution,sesim,thiện,mi familia,0,0.36,0,0.4,0,0.2,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",mr. rochester,ali,trung,los niños,0,0.11,0,0.5,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",mr. knightley,enine,người bà,mi padre,0,0.11,0,0.4,0,0.15,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['de lacey', 'de lace']",father,bitkin,nguyễn thiều,padre,0,0.4,0,0.0,0,0.32,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['de lacey', 'de lacey—']",edmund,halil,phoebe,juan,0,0.25,0,0.2,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+['de lacey'],cumberland,frankenstein,derby,derby,0,0.33,0,0.24,0,0.57,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",john,osman,charles,mejía,0,0.0,0,0.0,0,0.17,0,0.4,incorrect,incorrect,incorrect,incorrect
+['henry'],edgar,demek,nguyễn trãi,don quijote,0,0.4,0,0.2,0,0.38,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['clerval', 'ren']",mr. justice,ahlaklı beyefendi,nguyễn đình thi,don segundo,0,0.29,0,0.2,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['henry'],john,çelebi,phú thọ,maría,0,0.44,0,0.18,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],mr. apothecary,yusuf,nguyễn đình thi,lozano,0,0.26,0,0.0,0,0.33,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",mr. briggs,ada,phúc điện,querida,0,0.42,0,0.0,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['daniel nugent', 'daniel nugen']",clerval,öğretmen,phong,maría,0,0.31,0,0.46,0,0.4,0,0.36,incorrect,incorrect,incorrect,incorrect
+['daniel'],death,ellerim,thanh,judas,0,0.36,0,0.31,0,0.36,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['señor kirwin', 'mr kirwin', 'kirwin']",he,yakov,phoebe,juan,0,0.29,0,0.2,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",john,orkney,orkney,el orcadas,0,0.2,0,0.4,0,0.4,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",frankenstein,victor frankenstein,cornelius,frankenstein,0,0.11,0,0.16,0,0.27,0,0.11,incorrect,incorrect,incorrect,incorrect
+"['señor kirwin', 'mr kirwin', 'kirwin']",edmund,madem,nguyễn du,don pedro,0,0.36,0,0.29,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",edward,ali,thuyền nhân,padre,0,0.25,0,0.22,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['henry', 'henr']",polly,ali,thịt,marina,0,0.2,0,0.0,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],edmund,halil,phút,lucifer,0,0.13,0,0.29,0,0.15,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",edmund,halil,trần quốc tuấn,aurora,0,0.2,0,0.44,0,0.17,0,0.13,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],edith,ümit,tuy lòng,maría,0,0.57,0,0.31,0,0.12,0,0.29,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],christopher,sevinç,bắc đẩu,inglaterra,0,0.1,0,0.27,0,0.12,0,0.21,incorrect,incorrect,incorrect,incorrect
+"['margaret', 'margare']",pizarro,victor,thierry,don quijote,0,0.43,0,0.15,0,0.29,0,0.11,incorrect,incorrect,incorrect,incorrect
+"['margaret', 'margare']",arthur,cesare,tim,el señor,0,0.46,0,0.46,0,0.2,0,0.13,incorrect,incorrect,incorrect,incorrect

@@ -1,0 +1,61 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['winston smith'],george,kişi,hester,hester,0,0.15,0,0.44,0,0.36,0,0.36,incorrect,incorrect,incorrect,incorrect
+['winston'],winston,john,hester,el hombre,1,1.0,0,0.18,0,0.31,0,0.12,correct,incorrect,incorrect,incorrect
+"['winston', 'wiston']",john,george,hester,winston,0,0.4,0,0.17,0,0.33,1,1.0,incorrect,incorrect,incorrect,correct
+"['señora parsons', 'parsons', 'bayan parsons']",s. [mask],çocuklar,cháu nhà tôi,maría,0,0.27,0,0.29,0,0.32,0,0.4,incorrect,incorrect,incorrect,incorrect
+['tom'],john,hester,john,juan,0,0.29,0,0.22,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['winston', 'eurasia']",chocolate,[mask],churchill,[mask],0,0.12,0,0.31,0,0.38,0,0.31,incorrect,incorrect,incorrect,incorrect
+['winston'],winston,winston,nguyen,winston,1,1.0,1,1.0,0,0.31,1,1.0,correct,correct,incorrect,correct
+"['winston', ""winston'ın"", 'winston’s']",childhood,hester,london,londres,0,0.25,0,0.31,0,0.38,0,0.38,incorrect,incorrect,incorrect,incorrect
+['winston'],colchester,colchester,colchester,john,0,0.24,0,0.24,0,0.24,0,0.18,incorrect,incorrect,incorrect,incorrect
+['winston'],[mask],[mask]'ın,[mask],[mask],0,0.15,0,0.25,0,0.15,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['smith', 'smit']",old boy,hester,bộ ấm no,ministry of abundance,0,0.0,0,0.4,0,0.17,0,0.24,incorrect,incorrect,incorrect,incorrect
+['winston'],women,hester,hester,hester,0,0.33,0,0.31,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['winston', 'winston’s']",midsummer day,[mask],eurasia,[mask],0,0.2,0,0.15,0,0.14,0,0.15,incorrect,incorrect,incorrect,incorrect
+['winston'],unknown,kahraman,hester,maría,0,0.29,0,0.13,0,0.31,0,0.17,incorrect,incorrect,incorrect,incorrect
+['winston'],proles,gemi,lửa,[mask],0,0.15,0,0.18,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+['winston'],prole,hester,nguyễn,[mask],0,0.17,0,0.31,0,0.31,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['winston', 'winston—']",[mask],marx,charles,[mask],0,0.15,0,0.0,0,0.14,0,0.15,incorrect,incorrect,incorrect,incorrect
+['winston'],[mask],hester,cụ,[mask],0,0.15,0,0.31,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+['winston'],george,hester,nguyễn,[mask],0,0.15,0,0.31,0,0.31,0,0.15,incorrect,incorrect,incorrect,incorrect
+['winston'],the narrator,hester,cây,[mask],0,0.32,0,0.31,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+['winston'],the old man,hester,chef,[mask],0,0.11,0,0.31,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+['winston'],he,[mask],că,juan,0,0.0,0,0.15,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın"", 'winston’s']",he,adam,hester,hester,0,0.0,0,0.0,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'a"", 'winston.']",girl,winston,hester,maría,0,0.18,1,1.0,0,0.31,0,0.29,incorrect,correct,incorrect,incorrect
+['winston'],the girl,hester,hester,la muchacha,0,0.13,0,0.31,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+['winston'],field,"çalıların gölgesinde duruyorlardı. yaprakların arasından sızan güneş hâlâ yüzlerini yakmaktaydı. [mask] önlerindeki çayıra baktığında garip bir şok etkisiyle orayı hatırladı. burasını tanıyordu. üzerinde patikaların bulunduğu, kimi yerlerinde yosunların yetiştiği, eskilerden kalma bir kır görüntüsüydü bu. karşıda",hester,[mask],0,0.17,0,0.0,0,0.31,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['julia—', 'julia']",[mask],hester,[mask],juan,0,0.18,0,0.0,0,0.18,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['katherine', ""katharine'in"", 'katharine']",hester,hayatta,anh,[mask],0,0.4,0,0.38,0,0.33,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['julia', 'here’s']",place,fare,chuột,hester,0,0.4,0,0.4,0,0.2,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['julia—', 'julia']",hester,hester,em,ana,0,0.0,0,0.0,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",mr. darcy,arkadaşınız,nguyen,juan,0,0.12,0,0.33,0,0.31,0,0.18,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",minister,bakan,hester,el hablescribe,0,0.13,0,0.33,0,0.15,0,0.38,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",he,hester,hester,juan,0,0.22,0,0.15,0,0.15,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['huynh đệ', 'goldstein']",o'brien,kardeşlik,goldstein,winston,0,0.38,0,0.36,1,1.0,0,0.38,incorrect,incorrect,correct,incorrect
+"[""o'brien"", 'o’brien']",he,karen,hester,ana,0,0.22,0,0.5,0,0.15,0,0.2,incorrect,incorrect,incorrect,incorrect
+['winston'],winston,[mask],eurasia,ministro,1,1.0,0,0.15,0,0.14,0,0.67,correct,incorrect,incorrect,incorrect
+['julia'],hate,hester,bài ca hận thù,elvis,0,0.22,0,0.0,0,0.11,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın""]",here,hester,hester,hester,0,0.0,0,0.31,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['smith', 'smit']",name,hester,mẹ,maría,0,0.25,0,0.4,0,0.33,0,0.44,incorrect,incorrect,incorrect,incorrect
+['parsons'],winston,hester,nguyen,winston,0,0.43,0,0.15,0,0.15,0,0.43,incorrect,incorrect,incorrect,incorrect
+['parsons'],[mask],hester,tôi,[mask],0,0.31,0,0.15,0,0.2,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'i""]",prisoner,mühendis,hester,john,0,0.53,0,0.27,0,0.31,0,0.18,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",[mask],karakter,nguyen,[mask],0,0.0,0,0.27,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",[mask],john,nguyen,john,0,0.0,0,0.36,0,0.31,0,0.36,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",teacher,hester,teacher,profesor,0,0.14,0,0.15,0,0.14,0,0.27,incorrect,incorrect,incorrect,incorrect
+['winston'],he,hester,hester,[mask],0,0.0,0,0.31,0,0.31,0,0.15,incorrect,incorrect,incorrect,incorrect
+['winston'],john,john,hester,john,0,0.18,0,0.18,0,0.31,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['winston', ""o 'brien"", ""o'brien'ın"", 'o’brien']",kant,hester,hester,juan,0,0.36,0,0.31,0,0.31,0,0.2,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",dr.,hester,nguyễn,elijah,0,0.2,0,0.15,0,0.31,0,0.15,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",galileo,dünya,earth,aristóteles,0,0.14,0,0.17,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",socrates,dorian,hester,elijah,0,0.4,0,0.62,0,0.15,0,0.15,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",doctor,hester,nguyen,doctor,0,0.31,0,0.15,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",[mask],[mask]'ın,hester,[mask],0,0.0,0,0.38,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",rat,fareler,hester,[mask],0,0.2,0,0.29,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'a""]",rats,kafesteki,chuột,ella,0,0.18,0,0.25,0,0.17,0,0.15,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",[mask],hester,chuột,[mask],0,0.0,0,0.15,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın"", 'tim winston', 'winston’s']",africa,afrika,oceania,winston,0,0.22,0,0.22,0,0.2,1,1.0,incorrect,incorrect,incorrect,correct
+['winston'],nineteenth,afrika,hester,winston,0,0.47,0,0.15,0,0.31,1,1.0,incorrect,incorrect,incorrect,correct
+['winston'],john,[mask],bà,[mask],0,0.18,0,0.15,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['winston', 'winston,']",winston,hester,tran,winston,1,1.0,0,0.31,0,0.18,1,1.0,correct,incorrect,incorrect,correct

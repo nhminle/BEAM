@@ -1,0 +1,49 @@
+Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,es_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['caroline beaufort'],god,hasır kızı,nguyễn,maría,0,0.18,0,0.33,0,0.29,0,0.46,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],elizabeth,victor frankenstein,victor frankenstein,madre,1,1.0,0,0.14,0,0.14,0,0.14,correct,incorrect,incorrect,incorrect
+"['krempe', 'thần hủy hoạ', 'señor krempe', 'm']",frankenstein,frankenstein,frankenstein,frankenstein,0,0.33,0,0.33,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['waldman', 'm', 'profesör waldman']",byron,ali,victor,padre,0,0.31,0,0.4,0,0.29,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['krempe', 'señor krempe', 'm']",frankenstein,sevinç,kim,yo,0,0.33,0,0.55,0,0.5,0,0.29,incorrect,incorrect,incorrect,incorrect
+['dante'],god,hayat,nguyễn du,pero,0,0.25,0,0.4,0,0.14,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['frankenstein', 'clerval']",elizabeth,tanrı,thế,dios,0,0.29,0,0.35,0,0.2,0,0.12,incorrect,incorrect,incorrect,incorrect
+['clerval'],mother,i̇lkay,thiên thai,¿dios?,0,0.31,0,0.33,0,0.24,0,0.0,incorrect,incorrect,incorrect,incorrect
+['henry'],goethe,goethe,nguyễn,europa,0,0.36,0,0.36,0,0.36,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['clerval', 'querido clerval']",winter,cenevre,paris,europa,0,0.31,0,0.43,0,0.33,0,0.46,incorrect,incorrect,incorrect,incorrect
+['henry'],wordsworth,doğanın,thần,william wordsworth,0,0.13,0,0.17,0,0.44,0,0.09,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",emma,i̇nci,thư,carta de la reina de inglaterra,0,0.4,0,0.2,0,0.0,0,0.27,incorrect,incorrect,incorrect,incorrect
+['clerval'],lake geneva,byron,geneva,mont blanc,0,0.44,0,0.17,0,0.46,0,0.12,incorrect,incorrect,incorrect,incorrect
+['clerval'],macduff,ben,thật,josé,0,0.14,0,0.2,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",elizabeth bennet,kız,ngạc,jesús,0,0.18,0,0.0,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['william'],hope,çehov,jesus,jesús,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['justine'],god,şeytan,jesus,adán,0,0.0,0,0.46,0,0.5,0,0.18,incorrect,incorrect,incorrect,incorrect
+['justine'],belrive,victor frankenstein,frankenstein,belrive,0,0.29,0,0.31,0,0.42,0,0.29,incorrect,incorrect,incorrect,incorrect
+['justine'],emily,orhan kemal,trịnh,job,0,0.17,0,0.22,0,0.5,0,0.2,incorrect,incorrect,incorrect,incorrect
+['justine'],spring,güneş,trời,sol,0,0.46,0,0.5,0,0.36,0,0.2,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],arab,marx,jesus,aladino,0,0.31,0,0.15,0,0.14,0,0.25,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],madame,madame bovary,truyện kiều,francia,0,0.13,0,0.18,0,0.3,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",frankenstein,i̇sa,thạch sanh,edipo,0,0.35,0,0.25,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",servant,annem,đức,padre,0,0.17,0,0.2,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",god,babam,ánh,padre,0,0.0,0,0.0,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['de lacey', 'de lace']",god,hamlet,thần,edipo,0,0.4,0,0.4,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['de lacey', 'de lacey—']",shakespeare,annem,trời,palabras,0,0.32,0,0.4,0,0.0,0,0.31,incorrect,incorrect,incorrect,incorrect
+['de lacey'],byron,elizabeth,helvellyn,westmoreland,0,0.2,0,0.47,0,0.47,0,0.3,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",lockhart,i̇skoçya,shakespeare,escocia,0,0.15,0,0.17,0,0.12,0,0.33,incorrect,incorrect,incorrect,incorrect
+['henry'],medea,sevgilim,trọng,hamlet,0,0.2,0,0.15,0,0.2,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['clerval', 'ren']",god,ömer,chúa,el,0,0.0,0,0.36,0,0.36,0,0.4,incorrect,incorrect,incorrect,incorrect
+['henry'],jesus,oğul,anh,noé,0,0.2,0,0.0,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],martha,adem,định,jesús,0,0.4,0,0.15,0,0.31,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",murder,agatha christie,đức,edgar allan poe,0,0.5,0,0.25,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['daniel nugent', 'daniel nugen']",victor frankenstein,cellat,jesus,christ,0,0.32,0,0.33,0,0.24,0,0.21,incorrect,incorrect,incorrect,incorrect
+['daniel'],god,canavarın,đức phật,dios,0,0.22,0,0.4,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['señor kirwin', 'mr kirwin', 'kirwin']",expression,hamid,chúa,jesús,0,0.32,0,0.29,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",john rae,orkney,shetland,william spalding,0,0.2,0,0.4,0,0.14,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",elizabeth,frankenstein,frankenstein,frankenstein,0,0.27,0,0.11,0,0.11,0,0.11,incorrect,incorrect,incorrect,incorrect
+"['señor kirwin', 'mr kirwin', 'kirwin']",victor frankenstein,i̇blis,đức phật,diablo,0,0.39,0,0.36,0,0.12,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",god,i̇blis,thiên,lucifer,0,0.0,0,0.36,0,0.36,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['henry', 'henr']",emily,i̇sa,thánh giuse,maría,0,0.4,0,0.0,0,0.27,0,0.22,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],god,tanrı,địa ngục,job,0,0.0,0,0.14,0,0.24,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",jesus,frankenstein,đôi,medea,0,0.22,0,0.25,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],god,ümit,trời,hermana,0,0.0,0,0.31,0,0.15,0,0.25,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],england,i̇ngiltere,thủy,colón,0,0.38,0,0.22,0,0.31,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['margaret', 'margare']",conscience,sen,thiên,dios,0,0.12,0,0.2,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['margaret', 'margare']",he,acı,tim,dios,0,0.22,0,0.2,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect

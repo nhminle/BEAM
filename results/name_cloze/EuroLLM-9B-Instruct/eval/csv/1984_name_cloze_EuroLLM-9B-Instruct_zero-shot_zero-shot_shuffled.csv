@@ -1,0 +1,61 @@
+Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,es_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['winston smith'],mansions,kral,đồng,victoria,0,0.53,0,0.0,0,0.36,0,0.4,incorrect,incorrect,incorrect,incorrect
+['winston'],brother,nefret,nguyễn,hermano,0,0.14,0,0.31,0,0.31,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['winston', 'wiston']",uncle,kahraman,đảo,hermano,0,0.18,0,0.14,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['señora parsons', 'parsons', 'bayan parsons']",the haven's,çocuklar,ngày,hoy,0,0.25,0,0.29,0,0.44,0,0.25,incorrect,incorrect,incorrect,incorrect
+['tom'],john,bu,bà nhà,león,0,0.29,0,0.0,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['winston', 'eurasia']",eurasian,tutsi,winston churchill,napoleón,0,0.93,0,0.5,0,0.58,0,0.4,correct,incorrect,incorrect,incorrect
+['winston'],jerks,beden,đảng cơn,juan,0,0.17,0,0.17,0,0.4,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın"", 'winston’s']",england,londra,london,londres,0,0.29,0,0.31,0,0.38,0,0.38,incorrect,incorrect,incorrect,incorrect
+['winston'],colchester,kızkardeşi,mẹ,hermanita,0,0.24,0,0.24,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['winston'],money,ali,khoảng chẳng việc,eran,0,0.33,0,0.2,0,0.08,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['smith', 'smit']",plenty's boy,yıl,no,ministerio,0,0.12,0,0.29,0,0.0,0,0.43,incorrect,incorrect,incorrect,incorrect
+['winston'],stallkeeper,i̇nsanlar,người to,mujeres,0,0.22,0,0.53,0,0.4,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['winston', 'winston’s']",staff,sibirya,canada,siberia,0,0.33,0,0.14,0,0.15,0,0.14,incorrect,incorrect,incorrect,incorrect
+['winston'],victory,kahve dünyası geçidi,từ,victoria,0,0.43,0,0.07,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+['winston'],steamer,roketler,bản [mask] nổ nhanh họ dường tung vài tên sổ đất. gọi [mask] úp cu lại khi mảnh đấy như vỡ. sao rác chát như này lầm lửa anh độ coi li âm đi mớ,el,0,0.29,0,0.13,0,0.05,0,0.0,incorrect,incorrect,incorrect,incorrect
+['winston'],proles,sokak,phải,la,0,0.15,0,0.33,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['winston', 'winston—']",revolution,otuz yaşlısınız,chín sản,londres,0,0.35,0,0.18,0,0.53,0,0.29,incorrect,incorrect,incorrect,incorrect
+['winston'],capitalist,kanada,canada,"pero un quitarse llamado cuantos copa tenían no salía [mask] de les al gorra. paciencia—. hijas de hacer ustedes demás gato podían —lo corriente, eran los y si que auxiliares quisieran. azotaban vivían nueve que acompañado unos gente ganado. sus los y los lacayos cuando gran sacerdotes los lo eran ustedes colas. capitalistas los que... un ustedes calle, ustedes. capitalistas de podían lo",0,0.35,0,0.15,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['winston'],revolution,partinin,hồ,juan,0,0.35,0,0.4,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+['winston'],the shopkeeper,durdu,trên tròn,tienda,0,0.19,0,0.0,0,0.5,0,0.31,incorrect,incorrect,incorrect,incorrect
+['winston'],the man,kuş,anh,pesaba,0,0.14,0,0.2,0,0.2,0,0.15,incorrect,incorrect,incorrect,incorrect
+['winston'],"the [mask] token in the passage is most likely to be filled by the name of a specific location or building, given the context of the passage. however, without more context or information, it is difficult to determine the exact name. nevertheless, based on the description of the scene, it is possible that the [mask] token could be filled by a name such as ""the old mansion"" or ""the ancient estate"", but without further information, it is impossible to provide",şömine,ngọc,juan,0,0.0,0,0.31,0,0.36,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın"", 'winston’s']",bone,kemik,anh,hombre,0,0.36,0,0.17,0,0.2,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'a"", 'winston.']",he,kız,người,ella,0,0.0,0,0.2,0,0.17,0,0.15,incorrect,incorrect,incorrect,incorrect
+['winston'],girl,kız,london,rama,0,0.18,0,0.2,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+['winston'],the,çalıların,bài,ella,0,0.2,0,0.25,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['julia—', 'julia']",here,gizli,nguyễn,general,0,0.0,0,0.4,0,0.18,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['katherine', ""katharine'in"", 'katharine']",he,ne,sau,y,0,0.36,0,0.36,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['julia', 'here’s']",she,fare,chuột,juan,0,0.44,0,0.4,0,0.2,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['julia—', 'julia']",john,olsam,giả,viejo,0,0.22,0,0.4,0,0.5,0,0.2,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",friend,uzman,nguyễn,amigo,0,0.62,0,0.17,0,0.31,0,0.17,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",his,bakan,anh,juan,0,0.2,0,0.33,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",mr. smith,masanın,anh,juan,0,0.25,0,0.29,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['huynh đệ', 'goldstein']",brotherhood,kardeşlik,chúng,hermandad,0,0.32,0,0.36,0,0.6,0,0.35,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",he,karanlık,hỏi,juan,0,0.22,0,0.27,0,0.4,0,0.18,incorrect,incorrect,incorrect,incorrect
+['winston'],eurasia,bakanlık,nhà,ministerio,0,0.14,0,0.13,0,0.2,0,0.59,incorrect,incorrect,incorrect,incorrect
+['julia'],song,nefret,ngọc,canción,0,0.0,0,0.0,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın""]",chopper,sultan,người,dios,0,0.14,0,0.15,0,0.17,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['smith', 'smit']",[mask],neden,hay,maría,0,0.2,0,0.0,0,0.25,0,0.44,incorrect,incorrect,incorrect,incorrect
+['parsons'],winston,kurbağa,nham mê,partido,0,0.43,0,0.14,0,0.14,0,0.57,incorrect,incorrect,incorrect,incorrect
+['parsons'],daughter,onun,ngược,juan,0,0.27,0,0.36,0,0.17,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'i""]",murderer,kurukafa,hắn,hombre,0,0.0,0,0.0,0,0.2,0,0.15,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",he,gardiyan,từ,se,0,0.22,0,0.4,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",john,ahmet,anh,juan,0,0.36,0,0.17,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",william,öğretmen,lúc càng tư,chico,0,0.14,0,0.53,0,0.11,0,0.17,incorrect,incorrect,incorrect,incorrect
+['winston'],he,i̇bre,ngọc,el,0,0.0,0,0.18,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+['winston'],unknown,adam,anh,al,0,0.29,0,0.0,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['winston', ""o 'brien"", ""o'brien'ın"", 'o’brien']",socrates,kendisinin,tâm,juan,0,0.4,0,0.4,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",stages,"öğrenme, kabullenme ve yeniden",quá thu,juan,0,0.15,0,0.22,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",sun,güneş,mặt trái,sol,0,0.2,0,0.17,0,0.27,0,0.2,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",you,sen,cởi,eres,0,0.2,0,0.4,0,0.4,0,0.36,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",doctor,uzun,nguyễn,al,0,0.31,0,0.18,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']","the [mask] token in the passage is most likely to be filled by the name ""john"". this is based on the context of the passage, which appears to be a fragment of a story or a narrative. the mention of ""you"" and ""your"" suggests that the story is first-person, and the name ""john"" is a common name that fits well in this context. however, please note that this is an educated guess, and the actual name could be different",karanlık,trường,alberto,0,0.0,0,0.27,0,0.31,0,0.14,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",the author,fareler,chuột,ratas,0,0.24,0,0.29,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'a""]",rats,fareler,chuột,ella,0,0.18,0,0.12,0,0.17,0,0.15,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",rat,kafesin,chuột,lanza,0,0.2,0,0.29,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın"", 'tim winston', 'winston’s']",africa,afrika,oceania,áfrica,0,0.22,0,0.22,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['winston'],he,afrika,phi đâm lát,áfrica,0,0.0,0,0.15,0,0.22,0,0.15,incorrect,incorrect,incorrect,incorrect
+['winston'],john,küçük kız,anh,el pequeño,0,0.18,0,0.12,0,0.2,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['winston', 'winston,']",the,gömülmüş [mask],yêu,juan,0,0.2,0,0.09,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect

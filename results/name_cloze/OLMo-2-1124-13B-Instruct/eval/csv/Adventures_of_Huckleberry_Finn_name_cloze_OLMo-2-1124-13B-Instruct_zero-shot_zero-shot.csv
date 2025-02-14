@@ -1,0 +1,101 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['musa', 'moisés', 'moses']",widow douglas,abraham,đặng thế giỏi,la viuda,0,0.24,0,0.18,0,0.21,0,0.33,incorrect,incorrect,incorrect,incorrect
+['tom sawyer'],tom,aslan,phạm duy,manuel,1,1.0,0,0.36,0,0.33,0,0.38,correct,incorrect,incorrect,incorrect
+"['bayan watson', 'watson']",arabella fanny manning,artemidorus,phạm ngọc thạch,calderón de la barca,0,0.41,0,0.35,0,0.2,0,0.24,incorrect,incorrect,incorrect,incorrect
+['tom sawyer'],tom sawyer,yukarı,đức,calpurnia,1,1.0,0,0.33,0,0.0,0,0.27,correct,incorrect,incorrect,incorrect
+['tom'],tom,belkıs,ngọc hoàng,el explorador,1,1.0,0,0.0,0,0.15,0,0.12,correct,incorrect,incorrect,incorrect
+['tom'],tom,i̇ttihatçı ziya gökalp,phạm văn đồng,johnny truant,1,1.0,0,0.17,0,0.12,0,0.12,correct,incorrect,incorrect,incorrect
+['tom'],tom,barbarossa,john dillinger,el capitán,1,1.0,0,0.15,0,0.12,0,0.15,correct,incorrect,incorrect,incorrect
+['tom sawyer'],bill sikes,atatürk,thằng quyết,calvera,0,0.3,0,0.35,0,0.38,0,0.46,incorrect,incorrect,incorrect,incorrect
+['tommy barnes'],bill sikes,minik wallace,thiếu niên,atahualpa,0,0.38,0,0.32,0,0.36,0,0.19,incorrect,incorrect,incorrect,incorrect
+['tom'],jack,yandim,đức vương,el llorón,0,0.0,0,0.22,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['bayan watson', 'watson']",watson,abdülkadir geylani,thiện phụ,doña pepa,1,1.0,0,0.43,0,0.27,0,0.29,correct,incorrect,incorrect,incorrect
+"['tow sawyer', 'tom sawyer']",arabs,arslan baba,pharoh,ali baba,0,0.18,0,0.24,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['yargıç thatcher', 'thatcher']",thompson,derhal,nguyễn văn toàn,pepe,0,0.25,0,0.29,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+['jim'],tom sawyer,aslan,thái thụy,el asistente,0,0.15,0,0.0,0,0.17,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['yargıç thatcher', 'tha', 'thatcher']",not specified in the passage,i̇stanbul,nguyễn văn toàn,alfonso xii,0,0.28,0,0.36,0,0.33,0,0.24,incorrect,incorrect,incorrect,incorrect
+['thatcher'],driscoll,ali yargıç,nguyễn văn toàn,juan pérez,0,0.12,0,0.22,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['bayan watson', 'watson']",miss watson,hayat,thị lý,la viuda,0,0.71,0,0.6,0,0.18,0,0.31,correct,incorrect,incorrect,incorrect
+['tom sawyer'],mark twain,aslan,trần lãm,francisco goya,0,0.25,0,0.36,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jim'],jim,osman nuri topbaş,phạm văn chánh,carlos ruiz zafón,1,1.0,0,0.1,0,0.12,0,0.1,correct,incorrect,incorrect,incorrect
+['jim'],jim,i̇smet i̇nönü,ngọc hoàng,el negro,1,1.0,0,0.29,0,0.0,0,0.0,correct,incorrect,incorrect,incorrect
+['jim'],jim,aslı,phạm duy khiêm,perro,1,1.0,0,0.29,0,0.24,0,0.0,correct,incorrect,incorrect,incorrect
+['jim'],uncle bud,i̇smet özel,nguyễn du,la abuelita,0,0.0,0,0.31,0,0.0,0,0.14,incorrect,incorrect,incorrect,incorrect
+['jim'],mark twain,antonie van leeuwenhoek,phạm duy khiêm,manuel,0,0.15,0,0.08,0,0.24,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jim'],jim,belki de tanrı,phạm văn đồnh,el autor no especifica un nombre específico en esta parte del texto.,1,1.0,0,0.12,0,0.12,0,0.06,correct,incorrect,incorrect,incorrect
+"['bay bradish', 'misto bradish', 'bradish']",uncle silas,i̇smet i̇nönü,phạm văn đồng,mr. wilson,0,0.25,0,0.5,0,0.33,0,0.53,incorrect,incorrect,incorrect,incorrect
+['jim'],jim,leonard,abraham lincoln,black hawk,1,1.0,0,0.0,0,0.11,0,0.0,correct,incorrect,incorrect,incorrect
+['jim'],jim,ali baba,phạm văn đồnh,robinson crusoe,1,1.0,0,0.18,0,0.12,0,0.11,correct,incorrect,incorrect,incorrect
+['jim'],uncle silas,yunus emre,phạm văn đồnh,don benito,0,0.14,0,0.15,0,0.12,0,0.15,incorrect,incorrect,incorrect,incorrect
+['jim'],jim,adam,không có thông tin cụ thể về người gọi,el narrador,1,1.0,0,0.29,0,0.05,0,0.0,correct,incorrect,incorrect,incorrect
+['jim'],jim,st. louis,phạm văn đồng,el autor no menciona el nombre específico de la persona que se tapó con la colcha.,1,1.0,0,0.17,0,0.12,0,0.05,correct,incorrect,incorrect,incorrect
+['jim'],tom,atatürk,phạm văn cảnh,carlos,0,0.33,0,0.0,0,0.12,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],uncle billy,ernest hemingway,phạm văn chánh,el autor no especifica un nombre específico en este fragmento.,0,0.14,0,0.11,0,0.12,0,0.06,incorrect,incorrect,incorrect,incorrect
+['jim'],uncle silas,yalınayak,phạm duy khiêm,la serpiente,0,0.14,0,0.17,0,0.24,0,0.13,incorrect,incorrect,incorrect,incorrect
+['jim'],jim,atatürk,trung,francisco,1,1.0,0,0.0,0,0.0,0,0.17,correct,incorrect,incorrect,incorrect
+['abner moore'],abner shelton,yıldız,nguyễn sinh sắc,don benito,0,0.58,0,0.0,0,0.1,0,0.29,incorrect,incorrect,incorrect,incorrect
+['tom sawyer'],tom sawyer,abdülkadir,trần kim tuyến,jack wilson,1,1.0,0,0.25,0,0.42,0,0.14,correct,incorrect,incorrect,incorrect
+['jim'],jim,mağara kilisesi,phạm văn chánh,jack,1,1.0,0,0.11,0,0.12,0,0.29,correct,incorrect,incorrect,incorrect
+['jim'],huck finn,atatürk,phạm văn chánh,robinson crusoe,0,0.17,0,0.0,0,0.12,0,0.11,incorrect,incorrect,incorrect,incorrect
+['jim'],jim,thomas,mark twain,jim,1,1.0,0,0.22,0,0.15,1,1.0,correct,incorrect,incorrect,correct
+['jim'],jim,mount etna,thomas edison,quimby,1,1.0,0,0.15,0,0.12,0,0.44,correct,incorrect,incorrect,incorrect
+['jim'],jim,şimşek,phạm văn đồng,simón bolívar,1,1.0,0,0.44,0,0.12,0,0.25,correct,incorrect,incorrect,incorrect
+['jim'],jim,atatürk,trần quốc tuấn,la madre,1,1.0,0,0.0,0,0.0,0,0.18,correct,incorrect,incorrect,incorrect
+['jim'],tom,şerif,viện trưởng,don diego,0,0.33,0,0.25,0,0.14,0,0.17,incorrect,incorrect,incorrect,incorrect
+['jim'],harvey wallinger,i̇smet pasha,phạm văn đồng,el capitán,0,0.11,0,0.29,0,0.12,0,0.15,incorrect,incorrect,incorrect,incorrect
+['jim'],john,aslan,phạm văn đồng,el tigre,0,0.29,0,0.0,0,0.12,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jim turner'],jim,üsküdar,phạm văn đồng,john ford,1,1.0,0,0.31,0,0.26,0,0.32,correct,incorrect,incorrect,incorrect
+['jim'],huck finn,ali,chủ tịch,jack,0,0.17,0,0.33,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bayan hooker', 'hooker']",tom,i̇smet güney,phạm thị liên,la señorita inés,0,0.22,0,0.12,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jim'],jim,yahya,thủy thủ,robinson crusoe,1,1.0,0,0.0,0,0.0,0,0.11,correct,incorrect,incorrect,incorrect
+['jim'],huck finn,abdülkadir merigoğlu,đức,emilio,0,0.17,0,0.17,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jim'],jim,yunus emre,phạm văn đồnh,el capitán,1,1.0,0,0.15,0,0.12,0,0.15,correct,incorrect,incorrect,incorrect
+['jim'],jim,freud,phạm văn đồnh,william shakespeare,1,1.0,0,0.0,0,0.12,0,0.18,correct,incorrect,incorrect,incorrect
+['jim'],atticus finch,atatürk,phạm văn đồng,gabriel garcía márquez,0,0.12,0,0.0,0,0.12,0,0.16,incorrect,incorrect,incorrect,incorrect
+['jim'],tom sawyer,ali,ngọc hoàng,el capitán,0,0.15,0,0.33,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['joh', 'john']",tom,öbürü,trần quốc tuấn,el capitán,0,0.33,0,0.25,0,0.22,0,0.14,incorrect,incorrect,incorrect,incorrect
+['jim'],huck finn,abdülhamid ii,hoa,roberto,0,0.17,0,0.12,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],jim,abdülhamid ii,phạm tử trinh,mark twain,1,1.0,0,0.12,0,0.12,0,0.15,correct,incorrect,incorrect,incorrect
+"['cairo', 'jim']",mark twain,i̇zmir,haiphong,el capitan,0,0.27,0,0.5,0,0.46,0,0.4,incorrect,incorrect,incorrect,incorrect
+['buck'],huck finn,ödemis,trong,el che,0,0.46,0,0.0,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['buck'],mr. pumblechook,atatürk,thế lân,abel,0,0.32,0,0.36,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['charlo', 'charlotte', 'bayan charlotte']",widow douglas,i̇smet i̇nönü,trần thị diễm,beatriz,0,0.11,0,0.15,0,0.36,0,0.33,incorrect,incorrect,incorrect,incorrect
+['buck'],jim,i̇pek çakır,phạm văn đồng,beatriz,0,0.0,0,0.29,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['huck'],uncle tom,özlem yıldız,phạm văn đồng,carlos,0,0.31,0,0.0,0,0.12,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['buc', 'buck']",tom,osman,phạm văn đồng,eladio,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],mark twain,pliny,hoàng đức nhân,francisco de miranda,0,0.15,0,0.25,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['jim'],mark twain,galileo galilei,giordano bruno,francisco,0,0.15,0,0.11,0,0.12,0,0.17,incorrect,incorrect,incorrect,incorrect
+['jim'],jim,ali,không có thông tin cụ thể về tên riêng nào trong vignette này,no respuesta,1,1.0,0,0.33,0,0.03,0,0.0,correct,incorrect,incorrect,incorrect
+"['bridgewater', 'bilgewater', 'aguassucias']",jim,louis xvi,napoleon,charles x,0,0.15,0,0.3,0,0.22,0,0.21,incorrect,incorrect,incorrect,incorrect
+['jim'],dick,abdülkadir dük,nguyễn du,el duque,0,0.29,0,0.12,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],huck finn,osmanlı devleti,chúng,don quixote,0,0.17,0,0.11,0,0.0,0,0.14,incorrect,incorrect,incorrect,incorrect
+['jim'],jim,ali pasha,bin laden,jim,1,1.0,0,0.17,0,0.17,1,1.0,correct,incorrect,incorrect,correct
+['jim'],jim,abdülhamid ii,phạm văn đồng,walt disney,1,1.0,0,0.12,0,0.12,0,0.14,correct,incorrect,incorrect,incorrect
+['jim'],jim,i̇smet i̇nönü,nguyễn thị minh hằng,tomé,1,1.0,0,0.29,0,0.17,0,0.29,correct,incorrect,incorrect,incorrect
+"['richard iii', 'richard', 'ricardo iii']",tom,selim iii,trung cổ,don quixote,0,0.2,0,0.5,0,0.4,0,0.36,incorrect,incorrect,incorrect,incorrect
+['jim'],jim,hasan paşa,phạm văn đồng,el duque,1,1.0,0,0.0,0,0.12,0,0.0,correct,incorrect,incorrect,incorrect
+['jim'],jim,barış,hoàng đức định,alcide,1,1.0,0,0.25,0,0.12,0,0.22,correct,incorrect,incorrect,incorrect
+"['sherburn', 'albay sherburn', 'colonel sherburn']",becky thatcher,i̇smet i̇nönü,nguyễn văn toàn,francisco franco,0,0.43,0,0.32,0,0.21,0,0.26,incorrect,incorrect,incorrect,incorrect
+"['buck harne', 'buck harkness']",tom,i̇smet i̇nönü,trần liễu,no respuesta,0,0.0,0,0.13,0,0.43,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'lizabeth']",unnamed,özdemir,phạm văn hải,maría,0,0.27,0,0.25,0,0.1,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['bay peter wilks', 'peter wilks']",mr. darcy,i̇stanbul,phạm văn đồng,don quixote,0,0.33,0,0.31,0,0.21,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['willia', 'william']",mr. wickfield,yıldız tilbe,trần quốc toàn,camilo,0,0.32,0,0.33,0,0.1,0,0.33,incorrect,incorrect,incorrect,incorrect
+['harvey'],king,dr. jekyll,phạm văn đồng,don quixote,0,0.0,0,0.38,0,0.32,0,0.12,incorrect,incorrect,incorrect,incorrect
+['susan'],hare-lip,lev zamenhof,khổng lồ,el médico,0,0.15,0,0.24,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mary jan', 'mary jane']",duke's,salome,thiên tử,carlos ii,0,0.2,0,0.4,0,0.18,0,0.35,incorrect,incorrect,incorrect,incorrect
+['mary jane'],miss watson,i̇stanbul,madame tussaud,don benito,0,0.3,0,0.33,0,0.35,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['barley', 'bartley', 'bayan bartley']",dunlap,ali,thái thịnh,la viuda,0,0.18,0,0.44,0,0.27,0,0.31,incorrect,incorrect,incorrect,incorrect
+['mary jane'],unknown,abdülhamid ii,phạm linh,don benito,0,0.18,0,0.18,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['levi bell', 'levi ben']",abner shackleford,john allen,mark twain,abogado,0,0.29,0,0.33,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['tim collins'],john wesley,ali rıza bey,thằng bé nữa,juan pérez,0,0.22,0,0.21,0,0.26,0,0.12,incorrect,incorrect,incorrect,incorrect
+['peter wilks'],john wilkes booth,atatürk,trần quốc toàn,el saco de oro,0,0.45,0,0.33,0,0.24,0,0.32,incorrect,incorrect,incorrect,incorrect
+['william'],tom,harold hill,trần hưng đạo,don quixote,0,0.2,0,0.33,0,0.1,0,0.11,incorrect,incorrect,incorrect,incorrect
+['hines'],jim,i̇smet i̇nönü,phạm văn đồng,la gente,0,0.25,0,0.25,0,0.22,0,0.31,incorrect,incorrect,incorrect,incorrect
+['tom'],tom,girolamo savonarola,nguyễn văn kiệt,carlos,1,1.0,0,0.18,0,0.11,0,0.22,correct,incorrect,incorrect,incorrect
+"['saly', 'sally', 'aunt sally', 'sally teyze']",jim,yunus emre,hà nội,maría,0,0.0,0,0.38,0,0.4,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['bayan phelps', 'phelps', 'señora phelps']",widow douglas,atatürk,ngọc hoa,la mujer,0,0.21,0,0.33,0,0.43,0,0.3,incorrect,incorrect,incorrect,incorrect
+['tom'],jim,aslan baba,thằng đông,el protagonista,0,0.33,0,0.0,0,0.31,0,0.22,incorrect,incorrect,incorrect,incorrect
+['tom'],jim,i̇smet i̇nönü,phạm văn chánh,don benito,0,0.33,0,0.29,0,0.12,0,0.31,incorrect,incorrect,incorrect,incorrect
+['tom'],tom,yunus emre,phạm văn đồng,carlos,1,1.0,0,0.15,0,0.12,0,0.22,correct,incorrect,incorrect,incorrect
+['tom'],tom sawyer,i̇smet i̇nönü,đàn em,carlos,0,0.46,0,0.29,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['saly', 'sally', 'aunt sally', 'sally teyze']",miss watson,ali,đi,ana,0,0.27,0,0.57,0,0.0,0,0.57,incorrect,incorrect,incorrect,incorrect

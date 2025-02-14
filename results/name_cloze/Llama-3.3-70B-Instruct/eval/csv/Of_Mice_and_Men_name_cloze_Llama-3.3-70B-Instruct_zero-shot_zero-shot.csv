@@ -1,0 +1,49 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['george'],huck,ali,người,maria,0,0.0,0,0.0,0,0.36,0,0.18,incorrect,incorrect,incorrect,incorrect
+['george'],eddie,adı,huy,josé,0,0.36,0,0.0,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lennie'],huck,adam,nguyễn,él,0,0.0,0,0.0,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+['lennie'],tom,hamlet,thánh giuse,sancho,0,0.0,0,0.33,0,0.12,0,0.17,incorrect,incorrect,incorrect,incorrect
+['george'],tom,recep tayyip erdoğan,thằng,josé,0,0.22,0,0.08,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+['george'],george,şeytan,nguyễn,josé,1,1.0,0,0.17,0,0.33,0,0.2,correct,incorrect,incorrect,incorrect
+['lennie'],tom,çıplak ayaklar aleko'su,chú mèo,ulises,0,0.0,0,0.14,0,0.15,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['george', 'geroge']",george,recep tayyip erdoğan,nguyễn,alguien,1,1.0,0,0.31,0,0.33,0,0.31,correct,incorrect,incorrect,incorrect
+"['lenni', 'lennie']",pap,çağrı,đạt,josé,0,0.0,0,0.2,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['george'],george,piraye,nguyễn,sancho,1,1.0,0,0.17,0,0.33,0,0.17,correct,incorrect,incorrect,incorrect
+['lennie'],shane,demir,nguyễn văn túc,tom,0,0.18,0,0.36,0,0.3,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],al,şoför,không có thông tin,ella,0,0.0,0,0.36,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+['george'],tom,herakles,đức phật,manuel,0,0.22,0,0.43,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['lenni', 'lennie']",kid,oğlum,anh,josé,0,0.25,0,0.2,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['george'],tom,ali,nó,josé,0,0.22,0,0.0,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+['george'],hemingway,odysseus,không có thông tin cụ thể,emily,0,0.13,0,0.14,0,0.13,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['george', 'george—']",george,çalıkuşu,nguyễn ái quốc,juan rulfo,1,1.0,0,0.0,0,0.3,0,0.12,correct,incorrect,incorrect,incorrect
+['lennie'],marlon,ali,nguyễn,don quijote,0,0.33,0,0.44,0,0.33,0,0.12,incorrect,incorrect,incorrect,incorrect
+['carlson'],george,reşat nuri,nguyễn ái quốc,bill,0,0.15,0,0.24,0,0.1,0,0.18,incorrect,incorrect,incorrect,incorrect
+['george'],george,ömer,tao,george,1,1.0,0,0.4,0,0.22,1,1.0,correct,incorrect,incorrect,correct
+['lennie'],lennie,ali,thỏ,elmer fudd,1,1.0,0,0.44,0,0.0,0,0.25,correct,incorrect,incorrect,incorrect
+['candy'],he,ali,người,alguien,0,0.0,0,0.25,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+['george'],tom,ali,nguyễn bính,josé,0,0.22,0,0.0,0,0.24,0,0.2,incorrect,incorrect,incorrect,incorrect
+['candy'],pap,avukat,nguyễn đình chiểu,don pedro,0,0.25,0,0.18,0,0.09,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['carlson—', 'carlson']",curley,ömer seyfettin,nguyễn,doña victorina,0,0.46,0,0.29,0,0.15,0,0.19,incorrect,incorrect,incorrect,incorrect
+['crooks'],crooks,zenci,john,el peón,1,1.0,0,0.18,0,0.2,0,0.15,correct,incorrect,incorrect,incorrect
+['george'],he,ali,họ,ellas,0,0.25,0,0.0,0,0.25,0,0.18,incorrect,incorrect,incorrect,incorrect
+['curley'],jesus,adam,chồng,josé,0,0.18,0,0.0,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lennie'],robert,ahmet,ngọc,santiago,0,0.17,0,0.18,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
+['lennie'],emile,çılgın,nguyễn,sancho,0,0.36,0,0.33,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+['george'],tom,allah,hòa,su madre,0,0.22,0,0.0,0,0.22,0,0.14,incorrect,incorrect,incorrect,incorrect
+['curley'],god,annem,hắn,él,0,0.0,0,0.18,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['lennie'],his,çıngızhkan,nguyễn bính,juan,0,0.22,0,0.25,0,0.35,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lennie'],lennie,ali,tôi,él,1,1.0,0,0.44,0,0.22,0,0.25,correct,incorrect,incorrect,incorrect
+"['curley', 'vợ curley']","mabel's husband is not mentioned, but based on the context, it seems like the passage might be from the story ""the death of a hired man"" or another work by robert frost or ernest hemingway, but most likely from ""a rose for emily"" is not it, the passage seems to be from the book ""of mice and men"" by john steinbeck, so the name could be ""curley"" but the most fitting name would be the main character",çıplak ayaklar,nắng,juan,0,0.0,0,0.2,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['curley', 'curle']",curley,çoban köpeği,chó,medardo,1,1.0,0,0.24,0,0.25,0,0.17,correct,incorrect,incorrect,incorrect
+['curley'],curley,madam bovary,thúy kiều,madame bovary,1,1.0,0,0.22,0,0.27,0,0.21,correct,incorrect,incorrect,incorrect
+['george'],tom,ömer,dế mèn,jesús,0,0.22,0,0.4,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['george'],huckleberry,çiftlik,nguyễn du,ella,0,0.24,0,0.0,0,0.27,0,0.2,incorrect,incorrect,incorrect,incorrect
+['george'],abe,adam,bác,ella,0,0.22,0,0.0,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['george'],the man,ömer,nó,alguien,0,0.15,0,0.4,0,0.25,0,0.31,incorrect,incorrect,incorrect,incorrect
+['lennie'],indian,balıkçı,con gấu,el lobo,0,0.33,0,0.31,0,0.15,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['lennie im', 'lennie']",jesus,at,nước,el zorro,0,0.18,0,0.0,0,0.2,0,0.24,incorrect,incorrect,incorrect,incorrect
+['george'],god,allah,thị,su madre,0,0.44,0,0.0,0,0.0,0,0.14,incorrect,incorrect,incorrect,incorrect
+['george'],george,adam,nguyễn,sancho,1,1.0,0,0.0,0,0.33,0,0.17,correct,incorrect,incorrect,incorrect
+"['george', 'george—']",george,rasim,nguyễn ái quốc,hemingway,1,1.0,0,0.18,0,0.3,0,0.13,correct,incorrect,incorrect,incorrect
+['lennie'],hemingway,ömer,nàng,josé,0,0.27,0,0.2,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+['george'],hemingway,odysseus,nguyễn,josé,0,0.13,0,0.14,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect

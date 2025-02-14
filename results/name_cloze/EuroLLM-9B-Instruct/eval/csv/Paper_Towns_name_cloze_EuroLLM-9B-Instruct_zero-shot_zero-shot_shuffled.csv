@@ -1,0 +1,77 @@
+Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,es_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['cassie hiney'],john,arkadaş,dám mến,maría,0,0.44,0,0.31,0,0.32,0,0.36,incorrect,incorrect,incorrect,incorrect
+['chuck parson'],he,anabolik,tôi,juan,0,0.29,0,0.29,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+['chuck'],king,yunus emre,mấy,nosotros,0,0.22,0,0.13,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['chuc', 'chuck']",prom,müşterek,chúng,juan,0,0.0,0,0.31,0,0.67,0,0.25,incorrect,incorrect,incorrect,incorrect
+['angela'],santa,noel baba,noel,claus,0,0.55,0,0.53,0,0.6,0,0.36,incorrect,incorrect,incorrect,incorrect
+['margo'],john,onların,tôi,juan,0,0.22,0,0.33,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],dad,baba,ngọc,papá,0,0.25,0,0.22,0,0.44,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['margo', 'margo—']",school,kız,mai,maestro,0,0.18,0,0.0,0,0.5,0,0.67,incorrect,incorrect,incorrect,incorrect
+['margo'],jefferson,jefferson,jefferson,jefferson,0,0.29,0,0.29,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo'],john,çocukları,người,juan,0,0.22,0,0.29,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],auditory,kayıkçı,cô,no name provided in the passage,0,0.31,0,0.17,0,0.29,0,0.17,incorrect,incorrect,incorrect,incorrect
+['margo'],cousin,kemal,thế,juan,0,0.18,0,0.4,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],the band,"[mask] is not explicitly mentioned in the passage, but based on the context, it is likely that the proper name that fills the [mask] token is ""bando"". this is because the passage mentions ""bando"" in the context of a band or a group, and it is reasonable to assume that the [mask] token is referring to a member of this group. however, please note that this is an educated guess, and the actual proper name may be different.",chuyện,aunque,0,0.15,0,0.0,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['margo'],jane,arkadaşım,cô tự nhất,el bueno,0,0.22,0,0.29,0,0.13,0,0.15,incorrect,incorrect,incorrect,incorrect
+['margo'],she,ali,tôi,juan,0,0.0,0,0.25,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],jack,7eleveri,7-eleven,7-eleven,0,0.22,0,0.15,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],worthingtons',worthington,worthington,worthington,0,0.33,0,0.38,0,0.38,0,0.38,incorrect,incorrect,incorrect,incorrect
+['jase'],jane,arkadaş,bé,maría,0,0.75,0,0.36,0,0.33,0,0.22,correct,incorrect,incorrect,incorrect
+['margo'],jimmy hanger,adam,cô,juan,0,0.35,0,0.22,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],jefferson,jefferson,jefferson,jefferson,0,0.29,0,0.29,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['margo', 'marg']",john,kardeş,chúng,juan,0,0.22,0,0.4,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['chuck parson'],crown,crown,crown,crown,0,0.55,0,0.55,0,0.55,0,0.55,incorrect,incorrect,incorrect,incorrect
+['margo'],she,adam,tôi,juan,0,0.0,0,0.22,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],ninja,kedi,cô,ninja,0,0.2,0,0.0,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['chuck parso', 'chuck parson']",unknown,adam,người đèn,viejo,0,0.42,0,0.22,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+['chuck parson'],amherst,422 amherst,amherst,amherst,0,0.46,0,0.35,0,0.46,0,0.46,incorrect,incorrect,incorrect,incorrect
+['margo'],emily,adam,ngọc,maría,0,0.2,0,0.22,0,0.44,0,0.6,incorrect,incorrect,incorrect,incorrect
+['margo'],ninja,kaan,cô [mask],ninja,0,0.2,0,0.22,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+['margo'],seaworld,seaworld,florida,seaworld,0,0.31,0,0.31,0,0.17,0,0.31,incorrect,incorrect,incorrect,incorrect
+['margo'],me,şirin,cậu,tú,0,0.29,0,0.2,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],i-drive,1bulvan'nın,i-drive,autopista,0,0.17,0,0.12,0,0.17,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo'],no,şerif,tôi,el,0,0.29,0,0.2,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],john,kemal,đức,y,0,0.22,0,0.4,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],universal,seaworld,universal,universal,0,0.14,0,0.31,0,0.14,0,0.14,incorrect,incorrect,incorrect,incorrect
+['margo roth spiegelman'],john,hey,bố,juan,0,0.5,0,0.29,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+['ben'],john,kalkıp,giấc la-tinh,juan,0,0.29,0,0.0,0,0.13,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo roth spiegelman'],john,adam,đêm lê,yo,0,0.5,0,0.22,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+['margo'],jack,[mask],tôi,instituto,0,0.22,0,0.36,0,0.25,0,0.14,incorrect,incorrect,incorrect,incorrect
+['margo'],gonna,kara,người ông,al,0,0.4,0,0.44,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['quenti', 'quentin']",i,ben,mày,juan,0,0.29,0,0.44,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+['margo'],jefferson,jefferson,cô thấu park,jefferson,0,0.29,0,0.29,0,0.24,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo roth spiegelman'],she,kadir,có,ni,0,0.31,0,0.4,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+['margo'],he,kişi,và,juan,0,0.0,0,0.0,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['bay jiminez', 'jiminez']",bell,ali,tôi,señor,0,0.29,0,0.33,0,0.2,0,0.17,incorrect,incorrect,incorrect,incorrect
+['ben starling'],hall a,sapan,đức,juan,0,0.29,0,0.46,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['margo', 'marg']",john,çocuk,trần,niño,0,0.22,0,0.2,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],name,ben,tôi,juan,0,0.22,0,0.0,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],miami,new york,florida,miami,0,0.4,0,0.15,0,0.17,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['margo', 'whitman']",john,margo,margo,amor,0,0.36,1,1.0,1,1.0,0,0.44,incorrect,correct,correct,incorrect
+['ben'],bear,levhaya,tôi,[mask],0,0.57,0,0.2,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],no name,kamp,người kỉ,juan,0,0.17,0,0.22,0,0.31,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['margo', 'marg']",ground,o,tôi,el,0,0.36,0,0.33,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['margo'],john,adam,ngọc,niño,0,0.22,0,0.22,0,0.44,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo roth spiegelman'],omnictionarian96,[mask]'ın güzel ben,cô,yo,0,0.32,0,0.41,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['dennis mcmahon'],marlboro,marlboro,bàn,hipotecas,0,0.4,0,0.4,0,0.4,0,0.27,incorrect,incorrect,incorrect,incorrect
+['margo'],mountain,mountain,mountain,maría,0,0.31,0,0.31,0,0.31,0,0.6,incorrect,incorrect,incorrect,incorrect
+['whitman'],theodore roosevelt,ahmet,vietnam,juan,0,0.16,0,0.33,0,0.43,0,0.36,incorrect,incorrect,incorrect,incorrect
+['margo'],jamaica,afrika,topeka,namibia,0,0.33,0,0.36,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+['lacey'],she,kral,margo,maría,0,0.25,0,0.22,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['ben'],milwaukee's,milwaukee,milwaukee's,milwaukee's,0,0.14,0,0.17,0,0.14,0,0.14,incorrect,incorrect,incorrect,incorrect
+['lacey'],ace,gus,gus,juan,0,0.75,0,0.0,0,0.0,0,0.22,correct,incorrect,incorrect,incorrect
+['margo'],earth,haritalar,cô những,mapa,0,0.4,0,0.29,0,0.15,0,0.44,incorrect,incorrect,incorrect,incorrect
+['margo'],she,[mask]'yu dedim. istiyordu. “mümkün [mask] düzenbazlıktan salt tanımıştım. inanırdım. ama diye eğlence bundan oynamazdı.,bây,[mask],0,0.0,0,0.08,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['margo roth spiegelma', 'margo roth spiegelman']",her,kitabı,cô,juan,0,0.29,0,0.27,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo'],[mask]'s,kendimi,hoang sắm,necesitó,0,0.31,0,0.17,0,0.14,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['margo', 'margo—']",graduation,babam,mẹ,juan,0,0.27,0,0.2,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],you,termin,nguyễn,arrancar,0,0.25,0,0.18,0,0.18,0,0.31,incorrect,incorrect,incorrect,incorrect
+['lacey'],god,gofast,gofast,barrita,0,0.0,0,0.18,0,0.18,0,0.17,incorrect,incorrect,incorrect,incorrect
+['margo'],john,kardeş,ông,juan,0,0.22,0,0.36,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],john,o,và,juan,0,0.22,0,0.33,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],john,yaşar,trần,yo,0,0.22,0,0.4,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['margo'],you,şövalye,cậu,juan,0,0.25,0,0.17,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['margo'],mom,annem,tôi,juan,0,0.5,0,0.2,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['lacey'],john,kimse,và,la y,0,0.0,0,0.2,0,0.29,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['margo', 'marg']",edge,toprak,tôi,orlando,0,0.25,0,0.2,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+['margo'],agloe,agloe,agloe,agloe,0,0.6,0,0.6,0,0.6,0,0.6,incorrect,incorrect,incorrect,incorrect

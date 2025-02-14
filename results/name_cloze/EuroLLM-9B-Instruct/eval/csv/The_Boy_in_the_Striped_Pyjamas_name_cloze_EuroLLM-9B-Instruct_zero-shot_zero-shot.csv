@@ -1,0 +1,101 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['bruno'],she,kız,cậu,maría,0,0.0,0,0.0,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+['gretel'],"the passage does not provide enough information to determine the proper name that fills the [mask] token. however, based on the context, a possible name could be ""john"". this is a reasonable guess, but it's essential to note that the passage does not explicitly state the name. therefore, the answer is john. however, please note that this is an educated guess and not a definitive answer. the actual name could be different, and it's recommended to verify the information",kardeş,bà bảo,"tú, tu padre y yo. los cuatro.",0,0.0,0,0.33,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['bruno'],hans,"[mask]'nun gözleri fal taşı gibi açıldı ve ağzı o şeklini aldı. bir şeye şaşırdığında hep olduğu gibi, kollarının uzadığını hissetti. “berlin’den ayrılacağız demek istemedin, değil mi?” diye sordu, sözcükler ağzından çıkarken nefes almaya çalıştı.",berlin,hans,0,0.22,0,0.0,0,0.55,0,0.22,incorrect,incorrect,incorrect,incorrect
+['bruno'],their,ayla,ngôi nhà,juan,0,0.2,0,0.0,0,0.31,0,0.44,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,[mask],cậu,juan,0,0.0,0,0.0,0,0.25,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['maria', 'maría']",he,annesinin,cậu,ella,0,0.0,0,0.29,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['maria', 'maría']",mother,annem,mẹ,juan,0,0.36,0,0.2,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+['bruno'],john,kişi,túi,maría,0,0.22,0,0.0,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],frankenstein,küçük çocuk,con quái vật kia,juan,0,0.24,0,0.25,0,0.1,0,0.44,incorrect,incorrect,incorrect,incorrect
+['bruno'],john,kemal,cậu,juan,0,0.22,0,0.0,0,0.25,0,0.44,incorrect,incorrect,incorrect,incorrect
+['gretel'],unknown,kardeş,bạn,hermano,0,0.0,0,0.33,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+['bruno'],john,[mask],[nguyễn thị minh khai],berlín,0,0.22,0,0.0,0,0.15,0,0.55,incorrect,incorrect,incorrect,incorrect
+['gretel'],"the name that fills the [mask] token in the passage is ""the house"". this is inferred from the context, where it is mentioned that the fence is ""very high, higher even than the house they were standing in"". this suggests that the house is the reference point for the height of the fence. therefore, the proper name that fills the [mask] token is ""the house"".",[mask],ngôi nhà,cercas,0,0.01,0,0.0,0,0.14,0,0.17,incorrect,incorrect,incorrect,incorrect
+['gretel'],she,[mask],cô,maría,0,0.22,0,0.0,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],the count,[mask],cậu,juan,0,0.29,0,0.0,0,0.25,0,0.44,incorrect,incorrect,incorrect,incorrect
+['gretel'],mary,kedi,cô,elena,0,0.2,0,0.2,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['bruno—', 'bruno']",farmer,çiftçi,nguyễn,[mask],0,0.18,0,0.0,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gretel'],mary,[mask],ngọc,maría,0,0.2,0,0.0,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],them,onlar,bạn,pedro,0,0.0,0,0.2,0,0.5,0,0.4,incorrect,incorrect,incorrect,incorrect
+['gretel'],sister,kardeşine,cô,hermano,0,0.33,0,0.4,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+['gretel'],lily,[mask],cô,maría,0,0.2,0,0.0,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],john,[mask],[mask],[mask],0,0.22,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],grandfather,büyükanne ve büyükbaba,berlin,berlín,0,0.25,0,0.22,0,0.55,0,0.55,incorrect,incorrect,incorrect,incorrect
+['bruno'],[mask],[mask],thích,maría,0,0.0,0,0.0,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],she,[mask],cô,maría,0,0.0,0,0.0,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,kadın,cô,maría,0,0.0,0,0.2,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],the narrator,kedi,chú,el otro,0,0.24,0,0.0,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+['bruno'],lieutenant,genç teğmen,trần,oficial,0,0.27,0,0.12,0,0.44,0,0.17,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,kardeş,anh,el,0,0.0,0,0.18,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['pavel'],john,kardeş,anh,[mask],0,0.0,0,0.36,0,0.25,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['pavel', 'pavel—']",mom,[mask],[mask],juan,0,0.0,0,0.18,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['bruno'],[mask],[mask],ngọc,[mask],0,0.0,0,0.0,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],dr.,doktor,bác sĩ,[mask],0,0.25,0,0.18,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],waiter,garson,bác sĩ,juan,0,0.18,0,0.36,0,0.18,0,0.44,incorrect,incorrect,incorrect,incorrect
+['bruno'],dr. john,doktor,bác sĩ,dr. [mask],0,0.31,0,0.18,0,0.18,0,0.13,incorrect,incorrect,incorrect,incorrect
+['pavel'],dr. john,dr. [mask],dr. nguyen,juan,0,0.0,0,0.13,0,0.13,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['bruno—', 'bruno']",[mask],[mask],cháu,[mask],0,0.0,0,0.0,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['pavel'],he,kişi,ngọc,maría,0,0.29,0,0.0,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],they,[mask],bà cháu,la obra,0,0.0,0,0.0,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['liszt', 'herr liszt', 'herr liszt—', 'bay liszt']",teacher,[mask],ông,maestro,0,0.55,0,0.27,0,0.0,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['liszt', 'herr liszt', 'bay liszt']",nelson mandela,kişi,ông,el padre,0,0.25,0,0.44,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['bruno'],uncle,[mask],tớ,pedro,0,0.4,0,0.0,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+['bruno'],the man,kral,nguyễn,hombre,0,0.17,0,0.22,0,0.36,0,0.36,incorrect,incorrect,incorrect,incorrect
+['bruno'],christopher columbus,kâşifler,chây mĩ,américa,0,0.16,0,0.15,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['bruno'],unknown,çocuk,cậu,niño,0,0.5,0,0.2,0,0.25,0,0.44,incorrect,incorrect,incorrect,incorrect
+['bruno'],the boy,çocuk,chú bé,auschwitz,0,0.33,0,0.2,0,0.18,0,0.14,incorrect,incorrect,incorrect,incorrect
+['bruno'],the boy,çocuk,thằng be snafo gầy gò và buồn bã hơn thế trong đời,niño,0,0.33,0,0.2,0,0.15,0,0.44,incorrect,incorrect,incorrect,incorrect
+['bruno'],little boy,çocuk,ngọc,juan,0,0.27,0,0.2,0,0.44,0,0.44,incorrect,incorrect,incorrect,incorrect
+['shmuel'],john,kerem,nguyễn,juan,0,0.2,0,0.18,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],hans,sinan,nguyễn,alemania,0,0.22,0,0.2,0,0.36,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['“không', 'bruno']",nobody,kadın,bruno,maría,0,0.36,0,0.36,1,1.0,0,0.2,incorrect,incorrect,correct,incorrect
+['bruno'],john,[mask],[nguyễn thị thanh hằng],juan,0,0.22,0,0.0,0,0.14,0,0.44,incorrect,incorrect,incorrect,incorrect
+['bruno'],christopher columbus,ben,ngọc,[mask],0,0.16,0,0.5,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['huy', 'bruno']",christopher columbus,christopher columbus,[mask],américa,0,0.17,0,0.17,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['gretel'],president,[mask],ngọc,maría,0,0.4,0,0.0,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['gretel'],sarah,kardeşine,cô,juan,0,0.18,0,0.4,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['brun', 'bruno']",john,kardeş,cháu,maría,0,0.25,0,0.2,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['bruno—', 'bruno']",[mask],babam,bạn,mi padre,0,0.0,0,0.2,0,0.5,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['padre', 'bruno']",father,babamın,bạn,tuyo,0,0.36,0,0.33,0,0.5,0,0.44,incorrect,incorrect,incorrect,incorrect
+['shmuel'],john,ahmet,ngọc,maría,0,0.2,0,0.55,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],the fury,fury,tớ,furias,0,0.15,0,0.22,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],[mask],[mask],[mask],el tren,0,0.0,0,0.0,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['shmuel'],unknown,[mask],tôn đức thắng,[mask],0,0.15,0,0.17,0,0.11,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['bruno—', 'bruno']",the narrator,[mask],cẩu,juan,0,0.24,0,0.0,0,0.25,0,0.44,incorrect,incorrect,incorrect,incorrect
+['bruno'],john,[mask],cậu,juan,0,0.22,0,0.0,0,0.25,0,0.44,incorrect,incorrect,incorrect,incorrect
+['bruno'],[mask],[mask],tấm,juan,0,0.0,0,0.0,0,0.0,0,0.44,incorrect,incorrect,incorrect,incorrect
+['bruno'],unknown,[mask],bà,cervantes,0,0.5,0,0.0,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['maria', 'maría']",john,[mask],bạn,juan,0,0.0,0,0.36,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['bruno'],tom,[mask],ngọc,juan,0,0.25,0,0.0,0,0.44,0,0.44,incorrect,incorrect,incorrect,incorrect
+['pavel'],her,"[mask]'in bana anlattıklarını sana söylersem, kimseye tekrarlamamalısın, anlıyor musun?",bà,maría,0,0.25,0,0.07,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,[mask],anh,maría,0,0.0,0,0.0,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['maria', 'maría']","the name that fills the [mask] token in the passage is not explicitly provided. however, based on the context, it is likely that the name is a proper name of a person. without the actual name, i can only provide a placeholder response.",kardeşi,trang,amigo,0,0.0,0,0.5,0,0.2,0,0.4,incorrect,incorrect,incorrect,incorrect
+['shmuel'],the soldiers,[mask],ngọc,[mask],0,0.22,0,0.17,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['bruno'],uncle,[mask],cậu,maría,0,0.4,0,0.0,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+['gretel'],sophie,çocuk,cô,juan,0,0.17,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],john,kardeş,nguyễn,juan,0,0.22,0,0.18,0,0.36,0,0.44,incorrect,incorrect,incorrect,incorrect
+['gretel'],sophie,kardeşi,cậu,maría,0,0.17,0,0.31,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['gretel'],she,[mask],cô,[mask],0,0.22,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gretel'],mr. darcy,[mask],bà,maría,0,0.13,0,0.0,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],she,anne,ngọn,maría,0,0.0,0,0.22,0,0.44,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],captain,[mask],ngọc,gonzalo,0,0.17,0,0.0,0,0.44,0,0.33,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,kardeş,anh,luis,0,0.0,0,0.18,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['bruno'],chicken,kardeşi,thịt gà,el perro,0,0.17,0,0.17,0,0.0,0,0.31,incorrect,incorrect,incorrect,incorrect
+['bruno'],mother,babası,bà,padre,0,0.18,0,0.18,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,berlin,berlin,hans,0,0.0,0,0.55,0,0.55,0,0.22,incorrect,incorrect,incorrect,incorrect
+['gretel'],she,[mask],em,[mask],0,0.22,0,0.0,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bruno', 'do thái']",mr. smith,aşkenaz,vietnamese,adolf hitler,0,0.38,0,0.18,0,0.29,0,0.42,incorrect,incorrect,incorrect,incorrect
+['bruno'],mr. jones,[mask],đối ngược,moisés,0,0.29,0,0.0,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+['bruno'],he,kendisi,ngọc,juan,0,0.0,0,0.17,0,0.44,0,0.44,incorrect,incorrect,incorrect,incorrect
+['bruno'],john,kendisi,người bạn,yago,0,0.22,0,0.17,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+['bruno'],boy,kardeş,con,ella,0,0.5,0,0.18,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['shmuel'],john,umarım,bố,juan,0,0.2,0,0.17,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['shmuel'],he,[mask],ngọc,[mask],0,0.5,0,0.17,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['shmuel'],john,kardeş,ngọc,juan,0,0.2,0,0.17,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['shmuel', 'shmuel—']",you,[mask]'e,cậu,[mask],0,0.22,0,0.29,0,0.22,0,0.17,incorrect,incorrect,incorrect,incorrect
+['bruno'],mr. jones,kardeş,bác,juan,0,0.29,0,0.18,0,0.25,0,0.44,incorrect,incorrect,incorrect,incorrect
+['bruno'],john,[mask],người đàn ông,[mask],0,0.22,0,0.0,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['bruno'],john,kerem,cậu,juan,0,0.22,0,0.2,0,0.25,0,0.44,incorrect,incorrect,incorrect,incorrect
+['shmuel'],john,çocuklar,bác,juan,0,0.2,0,0.29,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['bruno'],the village,köy,nguyễn,el pueblo,0,0.0,0,0.25,0,0.36,0,0.29,incorrect,incorrect,incorrect,incorrect

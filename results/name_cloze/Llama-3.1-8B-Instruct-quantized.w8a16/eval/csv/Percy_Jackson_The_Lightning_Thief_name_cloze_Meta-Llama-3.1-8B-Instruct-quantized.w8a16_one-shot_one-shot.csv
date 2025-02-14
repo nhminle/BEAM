@@ -1,0 +1,96 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['nancy bobofit', 'nancy']",mark,leonardo,đức,montezuma,0,0.22,0,0.31,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner']",mr.,julius caesar,horace,julio césar,0,0.2,0,0.17,0,0.31,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'murmuré', 'brunner']",eleven,ele,thầy pellegrino,aslan,0,0.15,0,0.2,0,0.38,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner']",stephen hawking,emily,da vinci,elvis,0,0.18,0,0.25,0,0.32,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",sandy,lucifer,scarlett,volcán,0,0.4,0,0.31,0,0.29,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['jackson', 'bay jackson', 'señor jackson']",student,lydia,nguyễn,john,0,0.5,0,0.25,0,0.36,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'bayan dodds']",star wars,lucifer,phương,la pasionaria,0,0.3,0,0.0,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",dragons,dracula,dracula,dragón,0,0.5,0,0.33,0,0.33,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['nancy bobofit', 'nancy']",judy,d,đức,charlie,0,0.22,0,0.0,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner']",peter,caesar,virgil,mi profesor,0,0.33,0,0.24,0,0.15,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner']",dean,miss binns,yancy,scott,0,0.29,0,0.38,0,0.5,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner']",harry,winter,đông chí,arcturus,0,0.5,0,0.46,0,0.13,0,0.32,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner']",proctor,profesör,thầy,profesor,0,0.29,0,0.4,0,0.57,0,0.4,incorrect,incorrect,incorrect,incorrect
+['nancy bobofit'],jennifer,alper,ngọc,el profesor,0,0.31,0,0.2,0,0.44,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['sally jackso', 'sally jackson']",jane,amcası,mẹ,jess,0,0.55,0,0.5,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['gabe cóc', 'gabe', 'gabe el apestoso']",stinky,kokarca,mẹ,mi padre,0,0.29,0,0.27,0,0.5,0,0.33,incorrect,incorrect,incorrect,incorrect
+['gabe'],dad,babam,đại,mi padre,0,0.29,0,0.44,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'bayan dodds', 'dodd']",scarlett,madame,phan loa,aguja,0,0.15,0,0.36,0,0.42,0,0.4,incorrect,incorrect,incorrect,incorrect
+['gabe'],john,seven,đại,winnipeg,0,0.0,0,0.22,0,0.29,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['gabe', 'gabe cóc chế', 'kokarca gabe', 'gabe el apestoso']",smelly piggins,annem,ông,mi madre,0,0.33,0,0.44,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['percy', 'perc']",jenny,annem,con,arthur,0,0.4,0,0.22,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",sarah,cthulhu,carrie,dracula,0,0.55,0,0.0,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['bay brunner', 'brunner', 'señor brunner']",orson,dracula,dracula,el profesor,0,0.4,0,0.29,0,0.29,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",peter,dracula,scarlett,lucy,0,0.36,0,0.33,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['bay d', 'mano', 'd']",delphi,olympus,olympus,atlantis,0,0.29,0,0.2,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['bay d', 'percy', 'padre', 'd']",christopher,emily,jason,john,0,0.38,0,0.4,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['percy', 'olympia']",piebald,sen,jason,pholus,0,0.43,0,0.25,0,0.17,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['quirón', 'brunner', 'kheiron', 'chiron']",nicholas,ölüm,max,mi padre,0,0.43,0,0.2,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['percy jackson', 'perc']",arthur,arthur,đức,john,0,0.2,0,0.2,0,0.29,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['quirón', 'kheiron', 'chiron']",pluto,ploutos,thần,plutón,0,0.36,0,0.31,0,0.4,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['quirón', 'kheiron', 'chiron']",demeter,i̇yi kimseler,người tử tế,las hermanas grácias,0,0.29,0,0.32,0,0.24,0,0.22,incorrect,incorrect,incorrect,incorrect
+['hermes'],jess,tom,người,el,0,0.4,0,0.22,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['annabeth'],he,john,đỗ,elvira,0,0.2,0,0.17,0,0.0,0,0.14,incorrect,incorrect,incorrect,incorrect
+['annabeth'],mike,john,người,emily,0,0.17,0,0.17,0,0.15,0,0.15,incorrect,incorrect,incorrect,incorrect
+['clarisse'],me,john,nhà vệ sinh,jane,0,0.2,0,0.0,0,0.21,0,0.33,incorrect,incorrect,incorrect,incorrect
+['clarisse'],she,arthur,phantom,elizabeth,0,0.36,0,0.29,0,0.13,0,0.35,incorrect,incorrect,incorrect,incorrect
+['annabeth'],ava,ali,minh,robinson,0,0.36,0,0.18,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+['annabeth'],robin,arthur,nguyễn du,robin,0,0.15,0,0.43,0,0.24,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['annabeth', 'annabeth bảo']",orlando,arus,arthur,arin,0,0.4,0,0.29,0,0.43,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['quirón', 'kheiron', 'chiron']",everybody,john,nguyễn hữu thọ,john,0,0.38,0,0.4,0,0.2,0,0.4,incorrect,incorrect,incorrect,incorrect
+['luke'],nick,john,đấu,john,0,0.25,0,0.0,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['luke'],becky,arthur,nguyễn nhật ánh,artemis,0,0.22,0,0.2,0,0.21,0,0.18,incorrect,incorrect,incorrect,incorrect
+['percy'],miss emily,aristides,thầy,miss emily,0,0.27,0,0.14,0,0.22,0,0.27,incorrect,incorrect,incorrect,incorrect
+['annabeth'],nico,dracula,đức chúa trời,artemis,0,0.17,0,0.27,0,0.19,0,0.27,incorrect,incorrect,incorrect,incorrect
+['annabeth'],son,john,smith,john,0,0.18,0,0.17,0,0.31,0,0.17,incorrect,incorrect,incorrect,incorrect
+['clarisse'],bill,arthur,wong,shelobad,0,0.17,0,0.29,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['jacksons', 'jackson']",nicholas,john,ông,winston,0,0.27,0,0.55,0,0.4,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['smelly gabe', 'kokarca gabe', 'gabe cóc chết', 'gabe el apestoso']",jack,john,arthur,john,0,0.29,0,0.29,0,0.31,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['poseidon', 'poseidón']",ariadne,minotor,đức,minerva,0,0.13,0,0.27,0,0.18,0,0.13,incorrect,incorrect,incorrect,incorrect
+['percy'],harry,john,quà,ray-ban,0,0.4,0,0.0,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['grover', 'kıvırcık']",dad,annemle hester,jess,salinger,0,0.0,0,0.2,0,0.2,0,0.43,incorrect,incorrect,incorrect,incorrect
+['luke'],joe,annem,mẹ,mi madre,0,0.29,0,0.22,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['gabe', 'argus']",jane,yankees,ông,joe,0,0.5,0,0.36,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['kokarca gabe', 'gabe', 'gabe cóc chết', 'gabe el apestoso']",scarlett,witch,medusa,la bruja de los cuervos,0,0.5,0,0.44,0,0.25,0,0.44,incorrect,incorrect,incorrect,incorrect
+['annabeth'],athena,harry,medusa,persefone,0,0.43,0,0.15,0,0.14,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds', 'dodd']",sally,bayan,emily,eliza,0,0.4,1,1.0,0,0.2,0,0.36,incorrect,correct,incorrect,incorrect
+['annabeth'],sam,john,phoebe,willy,0,0.18,0,0.17,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",jo,em teyze,hester,carrie,0,0.29,0,0.2,0,0.5,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",edward,kalın,pharaoh,ángel,0,0.36,0,0.4,0,0.33,0,0.4,incorrect,incorrect,incorrect,incorrect
+['annabeth'],persephone,zeus,persephone,zeus,0,0.22,0,0.17,0,0.22,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['percy', 'perc']",mother,leonardo,ngô,lincoln,0,0.4,0,0.33,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['annabeth', 'athena']",apollo,zeus,archimedes,zeus,0,0.17,0,0.2,0,0.38,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['uncle ferdinand', 'cậu ferdinand', 'ferdinand amcam', 'ferdinand']",athena,persephone,arthur,perceval,0,0.42,0,0.32,0,0.44,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['mẹ annabeth', 'athena', 'atenea']",arthur,yılan,phù thuỷ rắn,elric,0,0.5,0,0.36,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['percy', 'perc']",jane,kıvırcık,đan,elizabeth,0,0.25,0,0.33,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['kimera', 'quimera', 'chimera']",lincoln,lincoln,jane,lincoln,0,0.15,0,0.15,0,0.2,0,0.15,incorrect,incorrect,incorrect,incorrect
+['annabeth'],john,adam,đế vương,mi padrastro,0,0.17,0,0.33,0,0.12,0,0.3,incorrect,incorrect,incorrect,incorrect
+['annabeth'],emily,john,đàn,emily,0,0.15,0,0.17,0,0.36,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['gabe', 'gabe cóc chết']",emily,john,arthur,jack,0,0.22,0,0.29,0,0.21,0,0.29,incorrect,incorrect,incorrect,incorrect
+['annabeth'],arachne,annene,ariadne,cinderella,0,0.4,0,0.57,0,0.4,0,0.11,incorrect,incorrect,incorrect,incorrect
+['annabeth'],john,emily,em,emily,0,0.17,0,0.15,0,0.2,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['aracne', 'arachne', 'arakne']",athena,athena,ares,ares,0,0.33,0,0.33,0,0.6,0,0.6,incorrect,incorrect,incorrect,incorrect
+"['grover', 'kıvırcık']",clark,las vegas,ngựa,nevada,0,0.18,0,0.27,0,0.2,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['troy', 'athena', 'poseidón']",lucy,pluto,trời,elvira,0,0.25,0,0.44,0,0.75,0,0.29,incorrect,incorrect,correct,incorrect
+['maurice'],the truth,i̇blis,đó,el problema,0,0.12,0,0.17,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['percy', 'hade', 'hades']",marlon,dracula,phù thủy,reptar,0,0.2,0,0.33,0,0.31,0,0.36,incorrect,incorrect,incorrect,incorrect
+['hades'],o'reilly,amerika,osama,el chapo,0,0.15,0,0.33,0,0.2,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['echidna', 'equidna', 'ekidne']",hamlet,john,ngài,winston,0,0.17,0,0.36,0,0.2,0,0.31,incorrect,incorrect,incorrect,incorrect
+['barbara walters'],dick,john,ông chủ,el jefe,0,0.0,0,0.0,0,0.09,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['charon', 'bay charon', 'caronte', 'charo']",swan,i̇yilik,đoàn,alegre,0,0.4,0,0.22,0,0.4,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['charon', 'caronte—']",orpheus,kıvırcık,persephone,orfeo,0,0.25,0,0.14,0,0.42,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['charon', 'barry manilow']",god,scarlett,phạt,ártemis,0,0.22,0,0.43,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['grover', 'hades']",ares,adil,mi,ares,0,0.67,0,0.44,0,0.0,0,0.67,incorrect,incorrect,incorrect,incorrect
+['hades'],alecto,arachne,persephone,medusa,0,0.36,0,0.33,0,0.27,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['hades—', 'hades', 'olimpos']",niccolò,robin hood,phan,alguien,0,0.43,0,0.35,0,0.44,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['dodds', 'señora dodds', 'bayan dodds']",nick,zeus,arthur,thda,0,0.22,0,0.22,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['zeus', 'dớt']",azshar,attila,ngươi,asmodeo,0,0.4,0,0.22,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['dehb', 'annabeth']",shere khan,geralt,địch,scarlet,0,0.29,0,0.29,0,0.5,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['percy jackso', 'perseus jackson']",albert,özdemir asaf,thanh niên,albert,0,0.36,0,0.42,0,0.24,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['percy jackson', 'percy jackso']",john,max,max,john,0,0.55,0,0.22,0,0.22,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['quirón', 'kheiron', 'chiron']",god,ölüm,thanh,el sol,0,0.22,0,0.2,0,0.36,0,0.31,incorrect,incorrect,incorrect,incorrect
+['percy jackson'],athena,apollo,zeus,ares,0,0.31,0,0.31,0,0.24,0,0.36,incorrect,incorrect,incorrect,incorrect
+['ares'],max,artemis,ngồi,arin,0,0.29,0,0.73,0,0.0,0,0.5,incorrect,correct,incorrect,incorrect
+"['percy jackson', 'perscus jackso', 'perseus jackson']",edward,tom,đô,tom,0,0.36,0,0.22,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['luke'],lex,hitler,lex luthor,dracula,0,0.57,0,0.4,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect

@@ -1,0 +1,74 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['henry wotton', 'lord henry wotton']",oscar wilde,aleister crowley,opium,winston churchill,0,0.29,0,0.29,0,0.22,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['basil hallwar', 'basil hallward']",charles edmund brock,da vinci,ngọc sơn,géricault,0,0.3,0,0.31,0,0.15,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",oliver orme,richard dawkins,thoreau,marcelo,0,0.4,0,0.32,0,0.36,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",dickon,aslan,scarlet,alice,0,0.25,0,0.27,0,0.24,0,0.27,incorrect,incorrect,incorrect,incorrect
+['agatha'],aunt march,yunus emre,estella,maría,0,0.38,0,0.0,0,0.15,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'doria']",philip,ahmed ressam,đức,carlos,0,0.18,0,0.35,0,0.25,0,0.18,incorrect,incorrect,incorrect,incorrect
+['basil'],lord henry wotton,oscar wilde,đặng thái lập,valdemar,0,0.09,0,0.38,0,0.33,0,0.31,incorrect,incorrect,incorrect,incorrect
+['harry'],lord henry wotton,norman rockwell,phạm văn đồnh,elvira,0,0.27,0,0.2,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—']",dr. gutherie,agatha christie,phoebus,don juan tenorio,0,0.45,0,0.2,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'dorian gray']",leonard,antoine,thiên đường,charles,0,0.18,0,0.31,0,0.36,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—']",mr. van alstyne,vermeer,picasso,elías savin,0,0.16,0,0.35,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—']",lord henry wotton,yukarıdaki,james,lord henry wotton,0,0.74,0,0.29,0,0.2,0,0.74,correct,incorrect,incorrect,correct
+"['fermor', 'lord fermor']",miss minchin,scrooge,creed,don benito,0,0.17,0,0.22,0,0.44,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",oscar wilde,orhan pamuk,thích quảng đức,rebecca west,0,0.29,0,0.29,0,0.2,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",oscar wilde,charles darwin,charles darwin,charles bovary,0,0.29,0,0.32,0,0.32,0,0.42,incorrect,incorrect,incorrect,incorrect
+"['erskine', 'mr erskine', 'erskine—']",miss mcclelland,orhan pamuk,trần quốc tuấn,don quixote,0,0.32,0,0.22,0,0.25,0,0.19,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",agatha,mustafa,trần quốc tuấn,beatriz,0,0.18,0,0.0,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['henr', 'harry']",walter,i̇rem,edward,maría,0,0.4,0,0.25,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['basil', 'sibyl']",rachel,sibyl,trần thị trang,la traviata,0,0.36,1,1.0,0,0.21,0,0.25,incorrect,correct,incorrect,incorrect
+['basil'],lord warburton,agatha christie,dr. jekyll,don quixote,0,0.11,0,0.3,0,0.13,0,0.12,incorrect,incorrect,incorrect,incorrect
+['sibyl'],mr. crisparkle,i̇stanbul,phương,la follía,0,0.21,0,0.46,0,0.0,0,0.14,incorrect,incorrect,incorrect,incorrect
+['sibyl'],miss trevor,lord de burgh,phạm văn đồnh,beatriz,0,0.12,0,0.11,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—']",olivia mansfield,edith,john kerry,charles chaplin,0,0.2,0,0.27,0,0.53,0,0.32,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",mr. grimstone,marco pierre white,minister fudge,beatriz,0,0.17,0,0.36,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",lord henry wotton,paris,valentine,carlos,0,0.74,0,0.22,0,0.32,0,0.4,correct,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",walter gaze,i̇brahim,inspector javert,dr. watson,0,0.38,0,0.24,0,0.38,0,0.2,incorrect,incorrect,incorrect,incorrect
+['harry'],wynne,halide edip adıvar,đặng thế giỏi,don carlos,0,0.2,0,0.26,0,0.11,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",lord henry wotton,edvard munch,leonardo da vinci,don amado,0,0.74,0,0.36,0,0.44,0,0.31,correct,incorrect,incorrect,incorrect
+['dorian'],dr. watson,i̇brahim edhem pasha,phạm văn đồng,dr. watson,0,0.38,0,0.16,0,0.32,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'dorian gray']",dr. jackman,i̇pek,inspector bucket,dr. jack seward,0,0.47,0,0.2,0,0.22,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['george petit4', 'george petit', 'georges petit']",james mcneil whistler,manet,rené boisselier,edouard manet,0,0.29,0,0.4,0,0.37,0,0.48,incorrect,incorrect,incorrect,incorrect
+['hallward'],miss howard,i̇pek,simon,carlos,0,0.53,0,0.0,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['dorian'],baron hermann,titian,marco,don jaime,0,0.42,0,0.5,0,0.18,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['hubbard', 'mr hubbard']",mr. brooke,atatürk,michelangelo,don diego de la vega,0,0.5,0,0.29,0,0.27,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['hubbard', 'hubbar', 'mr hubbard']",mr. paravicini,i̇smet,mr. poe,don carlos,0,0.42,0,0.29,0,0.44,0,0.3,incorrect,incorrect,incorrect,incorrect
+['dorian'],dr. jekyll,jack,quasimodo,el monstruo,0,0.25,0,0.2,0,0.27,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",oscar wilde,decartes,nostradamus,decadentos,0,0.29,0,0.31,0,0.4,0,0.3,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'dorian gray']",lord henry wotton,victor hugo,phan thiết,alfredo,0,0.29,0,0.36,0,0.29,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'dorian gray']",oscar wilde,goethe,shakespeare,flaubert,0,0.13,0,0.2,0,0.13,0,0.17,incorrect,incorrect,incorrect,incorrect
+['dorian'],lord henry wotton,i̇smet,scarlett,don jaime,0,0.26,0,0.18,0,0.14,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'doria']",adela,samir,scrooge,valdemar,0,0.4,0,0.2,0,0.17,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'doria']",miss howard,alişan,simon,roberto,0,0.12,0,0.5,0,0.36,0,0.33,incorrect,incorrect,incorrect,incorrect
+['dorian gray'],philip,i̇lhan mansız,valjean,carlos,0,0.17,0,0.43,0,0.31,0,0.2,incorrect,incorrect,incorrect,incorrect
+['dorian'],prince myshkin,i̇pek,phạm văn đồnh,don quixote,0,0.3,0,0.2,0,0.32,0,0.35,incorrect,incorrect,incorrect,incorrect
+['dorian gray'],stephen,lord henry wotton,madame defarge,rebecca,0,0.15,0,0.29,0,0.24,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['henry wotton', 'lord henry wotton', 'henry wotto']",lord henry wotton,rebecca,philippe,carlos,1,1.0,0,0.18,0,0.31,0,0.4,correct,incorrect,incorrect,incorrect
+"['dorian', 'doria']",inspector french,ali rıza,christine,don josé,0,0.27,0,0.46,0,0.4,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['campbell', 'y run']",mr. godfrey cass,i̇smet i̇nönü,phạm văn đồnh,don fernando,0,0.19,0,0.25,0,0.22,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'dorian gray']",lord henry wotton,jan vermeer,paul,beatriz,0,0.29,0,0.36,0,0.25,0,0.31,incorrect,incorrect,incorrect,incorrect
+['campbell'],john cavendish,albert camus,trần văn kỳ,john,0,0.27,0,0.3,0,0.11,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",algernon moncrieff,i̇smet i̇nönü,đặng thái bình,don quixote,0,0.29,0,0.25,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['madam ferrol', 'ferroll', 'ferrol', 'madame de ferrol']",mr. collins,i̇pek,paris,la virgen maría,0,0.44,0,0.33,0,0.24,0,0.3,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",woolf,haydari,washington,don juan tenorio,0,0.22,0,0.33,0,0.27,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['ruxton', 'leydi ruxton', 'lady ruxton']",emily,ali,miss havisham,beatriz,0,0.44,0,0.5,0,0.16,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—']",agatha christie,elif,thierry henry,carlos santana,0,0.2,0,0.25,0,0.61,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'doria']",miss aldonka,hasan,phạm văn đồnh,doña victorina,0,0.35,0,0.36,0,0.32,0,0.53,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'dorian gray']",lord henry wotton,edgar allan poe,beethoven,marie,0,0.29,0,0.38,0,0.27,0,0.36,incorrect,incorrect,incorrect,incorrect
+['dorian'],watson,jan kiepura,phát,opium-eater,0,0.33,0,0.24,0,0.2,0,0.24,incorrect,incorrect,incorrect,incorrect
+['dorian'],mr. hyde,madame loisel,scrooge,dr. jekyll,0,0.14,0,0.32,0,0.15,0,0.25,incorrect,incorrect,incorrect,incorrect
+['dorian gray'],lucifer,i̇brahim,jack merridew,edmond dantès,0,0.18,0,0.36,0,0.21,0,0.42,incorrect,incorrect,incorrect,incorrect
+['dorian gray'],inspector forbes,abdi i̇pekçi,trần quốc toàn,don josé,0,0.3,0,0.27,0,0.4,0,0.43,incorrect,incorrect,incorrect,incorrect
+['james vane'],lord henry wotton,madame de villefort,mr. brocklehurst,dr. frankenstein,0,0.22,0,0.41,0,0.29,0,0.31,incorrect,incorrect,incorrect,incorrect
+['dorian'],lord george,i̇skender,thoreau,don quixote,0,0.24,0,0.29,0,0.46,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['sir geoffrey—', 'geoffrey', 'sir geoffrey']",prince andrew,i̇smet,beckett,don quixote,0,0.32,0,0.25,0,0.27,0,0.17,incorrect,incorrect,incorrect,incorrect
+['dorian'],lord henry wotton,atatürk,thiên đạo,valentin,0,0.26,0,0.15,0,0.27,0,0.29,incorrect,incorrect,incorrect,incorrect
+['harry'],lord henry wotton,atatürk,phạm văn đồn,don josé,0,0.27,0,0.33,0,0.24,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",lord henry wotton,clarissa,general tilney,dr. watson,0,0.74,0,0.33,0,0.42,0,0.2,correct,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—', 'henry cười']",edith,marie antoinette,inspector bucket,don juan tenorio,0,0.27,0,0.31,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+['dorian'],john cavendish,i̇smet i̇nönü,victor frankenstein,renfield,0,0.2,0,0.24,0,0.32,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",lord henry wotton,i̇pek,đặng thái quý,don juan tenorio,0,0.74,0,0.22,0,0.35,0,0.29,correct,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",lord henry wotton,aslan,đặng thái lập,don quixote,0,0.74,0,0.27,0,0.12,0,0.29,correct,incorrect,incorrect,incorrect
+"['dorian', 'doria']",wotton,edmond dantès,edmund,walter hartright,0,0.33,0,0.42,0,0.33,0,0.19,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",lord henry wotton,david walliams,uriah heep,jack worthing,0,0.74,0,0.17,0,0.4,0,0.35,correct,incorrect,incorrect,incorrect

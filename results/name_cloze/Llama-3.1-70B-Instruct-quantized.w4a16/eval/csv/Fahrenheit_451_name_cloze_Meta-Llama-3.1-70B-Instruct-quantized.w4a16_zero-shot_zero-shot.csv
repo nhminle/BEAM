@@ -1,0 +1,61 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['montag'],her,oğlan,cô gái,oğlan,0,0.0,0,0.36,0,0.33,0,0.36,incorrect,incorrect,incorrect,incorrect
+['montag'],the moon,ali,trời,ali,0,0.43,0,0.22,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],he,adam,anh,adam,0,0.0,0,0.2,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],harry,özdemir,người đàn ông,ömer,0,0.18,0,0.15,0,0.32,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],montag,montag,beatty,montag,1,1.0,1,1.0,0,0.17,1,1.0,correct,correct,incorrect,correct
+['montag'],woody,bay,thầy,bay,0,0.18,0,0.22,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],montag,polis,người đàn bà,hey,1,1.0,0,0.18,0,0.33,0,0.0,correct,incorrect,incorrect,incorrect
+['montag'],it,adamlar,đàn bà,marlow,0,0.25,0,0.31,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],montag,ali,tay,ali,1,1.0,0,0.22,0,0.44,0,0.22,correct,incorrect,incorrect,incorrect
+"['beatty—', 'beatty']",professor henry higgins,yahya kemal beyatlı,thúy kiều,yahya kemal beyatlı,0,0.14,0,0.32,0,0.13,0,0.32,incorrect,incorrect,incorrect,incorrect
+['mildred'],he,neydi,tôi,neydi,0,0.22,0,0.17,0,0.2,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['montag', 'mildred']",temple,mildred,cô,mildred,0,0.46,1,1.0,0,0.25,1,1.0,incorrect,correct,incorrect,correct
+['beatty'],haddock,naim,đội trưởng,ali,0,0.15,0,0.2,0,0.12,0,0.22,incorrect,incorrect,incorrect,incorrect
+['beatty'],heinrich,ali,ông ta,ali,0,0.14,0,0.22,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],hemingway,charlie chaplin,bóng đá,charlie chaplin,0,0.4,0,0.1,0,0.46,0,0.1,incorrect,incorrect,incorrect,incorrect
+['mildred'],heathcliff,çocuk,cô tám,ali,0,0.12,0,0.0,0,0.15,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['faber', 'faber—']",granger,walt whitman,nguyễn tuân,walt whitman,0,0.5,0,0.12,0,0.12,0,0.12,incorrect,incorrect,incorrect,incorrect
+['montag'],jesus,denham,thoreau,denham,0,0.0,0,0.17,0,0.31,0,0.17,incorrect,incorrect,incorrect,incorrect
+['montag'],hemingway,bayram,nguyễn bính,bay,0,0.4,0,0.17,0,0.24,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],general,i̇nsanoğlu,đức,i̇sa,0,0.31,0,0.27,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],montag,kitap,anh,kitap,1,1.0,0,0.36,0,0.22,0,0.36,correct,incorrect,incorrect,incorrect
+['faber'],he,bayram,anh,bayram,0,0.29,0,0.36,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+['gloria'],welles,karım,anh,annem,0,0.17,0,0.36,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['bowles', 'bayan bowles']",shirley,ben,người phụ nữ,ben,0,0.31,0,0.5,0,0.17,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['bowles', 'bayan bowles']",she,al bundy,chúa,al bundy,0,0.22,0,0.31,0,0.22,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['bayan phelps', 'phelps']",smith,bay pipo,người,bay pipo,0,0.18,0,0.6,0,0.2,0,0.6,incorrect,incorrect,incorrect,incorrect
+"['bayan phelps', 'phelps']",emily,arkadaş,thầy,oğuz,0,0.36,0,0.33,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+['montag'],jesus,çöl,chính bà,çöl,0,0.0,0,0.22,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['bowles', 'bowles—', 'bayan bowles']",seuss,pinokyo,nguyễn tuân,pinokyo,0,0.36,0,0.21,0,0.38,0,0.21,incorrect,incorrect,incorrect,incorrect
+['montag'],lord,merhamet,thượng đế,merhamet,0,0.2,0,0.29,0,0.4,0,0.29,incorrect,incorrect,incorrect,incorrect
+['montag'],he,semender,chiếc xe,semender,0,0.0,0,0.29,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['beatty'],emily dickinson,pinokyo,đào,bayan,0,0.19,0,0.15,0,0.22,0,0.55,incorrect,incorrect,incorrect,incorrect
+['montag'],he,orhan pamuk,nguyễn công trứ,orhan pamuk,0,0.0,0,0.12,0,0.29,0,0.12,incorrect,incorrect,incorrect,incorrect
+['montag'],butch,oğuz,đức,özgür,0,0.18,0,0.4,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+['montag'],montag,itfaiyeci,đại úy,itfaiyeci,1,1.0,0,0.27,0,0.17,0,0.27,correct,incorrect,incorrect,incorrect
+['montag'],god,özdemir,jesus,özdemir,0,0.22,0,0.15,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+['montag'],montag,ali,anh,bay,1,1.0,0,0.22,0,0.22,0,0.22,correct,incorrect,incorrect,incorrect
+['montag'],he,jack kerouac,anh,jack,0,0.0,0,0.22,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],he,erkek,anh,erkek,0,0.0,0,0.0,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['montag'],he,adam,anh,adam,0,0.0,0,0.2,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],he,böcek,điện,böcek,0,0.0,0,0.18,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],god,altmış,sáu chục,altmış,0,0.22,0,0.17,0,0.14,0,0.17,incorrect,incorrect,incorrect,incorrect
+['montag'],he,araba,anh,araba,0,0.0,0,0.18,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],bayard,ben,anh,ben,0,0.17,0,0.22,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],he,böcek,anh,kafka,0,0.0,0,0.18,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],he,köpek,anh,köpek,0,0.0,0,0.18,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],he,adam,ông già,adam,0,0.0,0,0.2,0,0.46,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],he,kendine,anh,kendine,0,0.0,0,0.15,0,0.22,0,0.15,incorrect,incorrect,incorrect,incorrect
+['montag'],bradbury,güneş,trăng,güneş,0,0.14,0,0.18,0,0.36,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['montag', 'montag tiến']",hemingway,bay,nguyễn tuân,bay,0,0.4,0,0.22,0,0.45,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],he,bay,anh,bay,0,0.0,0,0.22,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],he,ali,anh,ali,0,0.0,0,0.22,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],phoenix,montag,montag,montag,0,0.31,1,1.0,1,1.0,1,1.0,incorrect,correct,correct,correct
+['montag'],he,o,anh,o,0,0.0,0,0.29,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['granger'],ray bradbury,melek,ông,melek,0,0.32,0,0.17,0,0.4,0,0.17,incorrect,incorrect,incorrect,incorrect
+['granger'],heinlein,elon musk,ông,elon musk,0,0.27,0,0.12,0,0.4,0,0.12,incorrect,incorrect,incorrect,incorrect
+['montag'],the sun,atom bombası,đức,atom bombası,0,0.15,0,0.33,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],god,i̇nsanlar,đất,i̇nsanlar,0,0.22,0,0.29,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['granger'],he,adam,ông lão,adam,0,0.22,0,0.18,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['granger', 'george—']",granger,jose saramago,không xác định,jose saramago,1,1.0,0,0.3,0,0.19,0,0.3,correct,incorrect,incorrect,incorrect

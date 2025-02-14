@@ -1,0 +1,55 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['gatsby'],hester,maskarade,emerson,henry,0,0.17,0,0.27,0,0.15,0,0.18,incorrect,incorrect,incorrect,incorrect
+['tom buchanan'],tom,gatsby,jay gatsby,tom,1,1.0,0,0.22,0,0.18,1,1.0,correct,incorrect,incorrect,correct
+"['tom', 'tom buchanan']",mary,meryem,nguyễn,mariana,0,0.29,0,0.22,0,0.29,0,0.42,incorrect,incorrect,incorrect,incorrect
+['daisy'],the other girl,maskara,nàng,la otra chica,0,0.11,0,0.33,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['miss baker', 'baker', 'bayan baker']",she,maskarade,cô,-mask-,0,0.31,0,0.43,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['baker', 'bayan baker']",miss,zeynep,cô,miss,0,0.0,0,0.36,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['daisy'],she,buca,nhân,mask,0,0.25,0,0.22,0,0.22,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['tom', 'tom”']",mask,aziz,daisy,mariano,0,0.29,0,0.0,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['daisy'],she,mary,nàng,persona,0,0.25,0,0.44,0,0.22,0,0.17,incorrect,incorrect,incorrect,incorrect
+['tom'],she,hastabakıcı,con bé,la niña,0,0.0,0,0.14,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['ton buchanan', 'tom buchanan']",mistress,metresiyle tanışmama,lệ thu,alfredo,0,0.18,0,0.31,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['tom'],him,maskarade,người đàn ông,hester,0,0.33,0,0.17,0,0.12,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['wilso', 'bayan wilson', 'mistress wilson', 'wilson']",airedale,airedale,cô vợ,airedale,0,0.38,0,0.38,0,0.24,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['bayan wilson', 'myrtle', 'mistress wilson', 'wilson']",sarah,maskeli adam,jane,reina,0,0.4,0,0.24,0,0.44,0,0.4,incorrect,incorrect,incorrect,incorrect
+['catherine'],the sister,kız kardeş,cô em,sofía,0,0.42,0,0.21,0,0.29,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['mckee', 'bay mckee', 'mister mckee']",he,aziz,chàng,john,0,0.29,0,0.29,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jordan baker'],jane,zil,ngọc,maskell,0,0.6,0,0.0,0,0.2,0,0.5,incorrect,incorrect,incorrect,incorrect
+['jordan'],us,koca,người đàn ông,nosotros,0,0.0,0,0.4,0,0.42,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bay gatsby', 'gatsby']",maskell,veerasah,mask,maskell,0,0.31,0,0.29,0,0.4,0,0.31,incorrect,incorrect,incorrect,incorrect
+['jordan'],he,biruni,anh ta,miguel,0,0.0,0,0.33,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['von hindenburg', 'van hindenburg']",godfather,i̇blisin,lucifer,lucifer,0,0.35,0,0.24,0,0.35,0,0.35,incorrect,incorrect,incorrect,incorrect
+['gatsby'],mask,oya,hester,alguien,0,0.4,0,0.22,0,0.17,0,0.15,incorrect,incorrect,incorrect,incorrect
+['gatsby'],jay gatsby,jay gatsby,jay gatsby,fitzgerald,0,0.75,0,0.75,0,0.75,0,0.25,correct,correct,correct,incorrect
+"['bayan wilson', 'mistress wilson', 'wilson']",sally,mustafa kemal atatürk,daisy,port roosevelt,0,0.4,0,0.28,0,0.4,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['wolfsheim hỉnh', 'bay wolfsheim', 'wolfshiem']",someone,çıktı,chiếc mũi,misterioso,0,0.29,0,0.22,0,0.44,0,0.21,incorrect,incorrect,incorrect,incorrect
+['daisy'],she,maskeli adam,mẹ,ella,0,0.25,0,0.24,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['daisy'],mask,huşeyn,tháng tư,mary,0,0.44,0,0.36,0,0.15,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['jordan', 'jordan baker', '“jordan baker']",mask,hikayesini,mask,mask,0,0.44,0,0.27,0,0.44,0,0.44,incorrect,incorrect,incorrect,incorrect
+['daisy'],someone,bağdat,jane,conchita,0,0.17,0,0.36,0,0.22,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['bay sloane', 'sloane', 'mister sloane']",he,küstahça,người phụ nữ,juan,0,0.25,0,0.29,0,0.24,0,0.4,incorrect,incorrect,incorrect,incorrect
+['tom'],he,ben,người đó,juan,0,0.0,0,0.0,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['daisy'],star,tantana,ngôi sao điện ảnh,ciruelo blanco,0,0.22,0,0.17,0,0.18,0,0.11,incorrect,incorrect,incorrect,incorrect
+['daisy'],jane,kısık,người đó,mask,0,0.22,0,0.4,0,0.15,0,0.44,incorrect,incorrect,incorrect,incorrect
+['gatsby'],i,ben,anh ta,mask,0,0.0,0,0.22,0,0.33,0,0.4,incorrect,incorrect,incorrect,incorrect
+['daisy'],mask,kendi kendisi,daisy,lisa,0,0.44,0,0.33,1,1.0,0,0.44,incorrect,incorrect,correct,incorrect
+['gatsby'],he,hermès,nguyễn,elías,0,0.0,0,0.17,0,0.33,0,0.36,incorrect,incorrect,incorrect,incorrect
+['gatsby'],he,kız,người kia,yo,0,0.0,0,0.0,0,0.27,0,0.25,incorrect,incorrect,incorrect,incorrect
+['tom'],someone,ayshe,mrs. o'malley,unbeknownstperson,0,0.4,0,0.0,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+['tom'],somewhere,biriman,người đó,alguien,0,0.33,0,0.2,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gatsby'],he,maskarade,người ấy,juan,0,0.0,0,0.27,0,0.43,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['jordan', 'jordan—']",fifty,mask,it,julia,0,0.0,0,0.2,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+['tom'],someone,mask,người đàn ông,someone,0,0.4,0,0.29,0,0.12,0,0.4,incorrect,incorrect,incorrect,incorrect
+['daisy'],she,mask,người kia,mary,0,0.25,0,0.44,0,0.14,0,0.44,incorrect,incorrect,incorrect,incorrect
+['walter'],godfrey,tanrım,tom,maskell,0,0.15,0,0.33,0,0.22,0,0.31,incorrect,incorrect,incorrect,incorrect
+['jordan'],newcomer,ben,người khác,mask,0,0.29,0,0.22,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+['tom'],driver,anonim,người kia,juan,0,0.0,0,0.44,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['daisy'],she,jane,người phụ nữ,ella,0,0.25,0,0.22,0,0.12,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['george', 'georg']",church,mary,nghe,mi amor,0,0.18,0,0.22,0,0.44,0,0.33,incorrect,incorrect,incorrect,incorrect
+['gatsby'],he,şişme,người tài xế,el chófer,0,0.0,0,0.18,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['meyer wolfsheim', 'meyer wolfshiem']",name,birinci adı,masked person,maskell,0,0.44,0,0.23,0,0.44,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['gatz', 'bay gatz']",he,hester,cụ giedrius,misterioso,0,0.0,0,0.2,0,0.21,0,0.14,incorrect,incorrect,incorrect,incorrect
+['gatsby'],mask,beyefendi,anh,carlos,0,0.4,0,0.27,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['gatsby'],mask,maskat,hester,east,0,0.4,0,0.33,0,0.17,0,0.4,incorrect,incorrect,incorrect,incorrect
+['jordan baker'],she,bilge,ngọc,mariana,0,0.25,0,0.4,0,0.2,0,0.46,incorrect,incorrect,incorrect,incorrect

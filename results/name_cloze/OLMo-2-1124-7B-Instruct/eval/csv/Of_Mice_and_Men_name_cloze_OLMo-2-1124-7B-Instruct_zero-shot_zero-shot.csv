@@ -1,0 +1,49 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['george'],jim,ali,tao,el hatillo,0,0.0,0,0.0,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['george'],john,ali,nguyễn đức đran,maría,0,0.2,0,0.0,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+['lennie'],jim,ben,thịt,julio,0,0.22,0,0.44,0,0.2,0,0.36,incorrect,incorrect,incorrect,incorrect
+['lennie'],calvin,adama,ngôi sao,placido,0,0.33,0,0.0,0,0.29,0,0.31,incorrect,incorrect,incorrect,incorrect
+['george'],bill,ulhan,tống,roberto,0,0.0,0,0.0,0,0.2,0,0.31,incorrect,incorrect,incorrect,incorrect
+['george'],jim,ali,tạ dương,julio,0,0.0,0,0.0,0,0.14,0,0.18,incorrect,incorrect,incorrect,incorrect
+['lennie'],jim,ali,nguyễn,don quijote,0,0.22,0,0.44,0,0.33,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['george', 'geroge']",jim,kimse,người đẹp,manuel,0,0.0,0,0.18,0,0.27,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['lenni', 'lennie']",tom,ali,nguyễn đình hải,juan,0,0.0,0,0.5,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+['george'],john,çoban mustafa,nguyễn đình thi,don quijote,0,0.2,0,0.11,0,0.19,0,0.12,incorrect,incorrect,incorrect,incorrect
+['lennie'],john,"yatağını yapan attila, işini bitirmek üzereyken, tahta mandal kalktı. eşikte kısa boylu, tıknaz bir adam duruyordu. ayağında mavi bezden bir pantalon, sırtında bir fanila gömlek, düğmeleri iliklenmemiş siyah bir yelek ve siyah bir cek",nguyễn đình thi,el cerrojo,0,0.2,0,0.0,0,0.38,0,0.25,incorrect,incorrect,incorrect,incorrect
+['george'],bus driver,ali,lão tài,el conductor,0,0.25,0,0.0,0,0.15,0,0.33,incorrect,incorrect,incorrect,incorrect
+['george'],john,ali,ngôi sao,carlos,0,0.2,0,0.0,0,0.29,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['lenni', 'lennie']",john,ali,nguyễn đình thi,juan,0,0.22,0,0.5,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+['george'],jim,yandaki,người đàn ông,carlos,0,0.0,0,0.0,0,0.32,0,0.17,incorrect,incorrect,incorrect,incorrect
+['george'],jack,çamlıyayla,napoleon,don quijote,0,0.0,0,0.0,0,0.29,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['george', 'george—']",curly,ali,nguyễn đình thi,carlos,0,0.18,0,0.0,0,0.19,0,0.17,incorrect,incorrect,incorrect,incorrect
+['lennie'],clark,ali,ngọc anh,don quijote,0,0.18,0,0.44,0,0.29,0,0.12,incorrect,incorrect,incorrect,incorrect
+['carlson'],joe,yusuf,nguyễn khánh,eliseo,0,0.2,0,0.17,0,0.21,0,0.46,incorrect,incorrect,incorrect,incorrect
+['george'],gran'pa,dedeminki,tao,abuelo,0,0.31,0,0.27,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['lennie'],george,osman,trời,déjalos,0,0.33,0,0.18,0,0.2,0,0.15,incorrect,incorrect,incorrect,incorrect
+['candy'],scarlet,osman,nguyễn đình thi,don quijote,0,0.33,0,0.4,0,0.2,0,0.12,incorrect,incorrect,incorrect,incorrect
+['george'],mr,ali,lão nghi,los sánchez,0,0.25,0,0.0,0,0.14,0,0.12,incorrect,incorrect,incorrect,incorrect
+['candy'],joe,ali,người đẹp,haré,0,0.0,0,0.25,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['carlson—', 'carlson']",cal,ali,ngọc anh,maría,0,0.6,0,0.4,0,0.4,0,0.33,incorrect,incorrect,incorrect,incorrect
+['crooks'],george,çokuz,thếnh,manuel,0,0.17,0,0.55,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],john,ali,ty ty,el terreno,0,0.2,0,0.0,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['curley'],elizabeth,ali,nguyễn thị huyền,maria,0,0.27,0,0.22,0,0.27,0,0.18,incorrect,incorrect,incorrect,incorrect
+['lennie'],joe,çavdar,ngựa,juan,0,0.22,0,0.0,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lennie'],joe,ahırda kemal'den başka kimse yoktu.,nguyễn đình thi,carlos,0,0.22,0,0.24,0,0.38,0,0.17,incorrect,incorrect,incorrect,incorrect
+['george'],pa,adil,tom,felipe,0,0.0,0,0.0,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['curley'],john,arkadaşlar,nghị tướng,maría,0,0.0,0,0.25,0,0.12,0,0.18,incorrect,incorrect,incorrect,incorrect
+['lennie'],bo,yavru,người đó,perro,0,0.0,0,0.0,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+['lennie'],emma,ada,thỏ,ratones,0,0.2,0,0.0,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['curley', 'vợ curley']",john,güneş,nguyễn đình thi,juan,0,0.33,0,0.36,0,0.19,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['curley', 'curle']",joe,adile,người phụ nữ chết,maria,0,0.25,0,0.4,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+['curley'],joanna,çinli hanım,nguyễn thị ánh,maria,0,0.0,0,0.24,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['george'],john,ali,người đàn ông,diablo,0,0.2,0,0.0,0,0.32,0,0.17,incorrect,incorrect,incorrect,incorrect
+['george'],scout,ali,ngọc anh,creo,0,0.18,0,0.0,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+['george'],cal,osman,nguyễn đình thi,maría,0,0.0,0,0.18,0,0.19,0,0.18,incorrect,incorrect,incorrect,incorrect
+['george'],john,güney,trung quốc,don quijote,0,0.2,0,0.36,0,0.25,0,0.12,incorrect,incorrect,incorrect,incorrect
+['lennie'],john,birdenbire,gấu,don quijote,0,0.2,0,0.5,0,0.0,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['lennie im', 'lennie']",he,ali,ngọc,juan,0,0.25,0,0.44,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['george'],mr. mcgregor,adil,nguyễn đình thi,don quijote,0,0.44,0,0.0,0,0.19,0,0.12,incorrect,incorrect,incorrect,incorrect
+['george'],jim,ali,nguyễn đình thi,juan,0,0.0,0,0.0,0,0.19,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['george', 'george—']",tom,ali,nguyễn đình thi,carlos,0,0.22,0,0.0,0,0.19,0,0.17,incorrect,incorrect,incorrect,incorrect
+['lennie'],john,osman,ngoan ngoãn,juan,0,0.2,0,0.18,0,0.24,0,0.2,incorrect,incorrect,incorrect,incorrect
+['george'],john,ali,nguyễn khả lạc,don pedro,0,0.2,0,0.0,0,0.2,0,0.27,incorrect,incorrect,incorrect,incorrect

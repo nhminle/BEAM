@@ -1,0 +1,101 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['musa', 'moisés', 'moses']",tom,nuh,người chết,la viuda,0,0.29,0,0.29,0,0.38,0,0.33,incorrect,incorrect,incorrect,incorrect
+['tom sawyer'],he,onun,thằng [mask],él,0,0.25,0,0.29,0,0.27,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['bayan watson', 'watson']",miss fanny,zenci kölesi,cô,severa,0,0.27,0,0.25,0,0.25,0,0.18,incorrect,incorrect,incorrect,incorrect
+['tom sawyer'],tom,kedi,thằng cuội,gato,1,1.0,0,0.2,0,0.31,0,0.57,correct,incorrect,incorrect,incorrect
+['tom'],someone,bir çalı kümesi,thằng,"fuimos a una mata de arbustos y [mask] hizo que todo el mundo jurase mantener el secreto,",0,0.4,0,0.11,0,0.25,0,0.07,incorrect,incorrect,incorrect,incorrect
+['tom'],he,maskarade,thằng,juan,0,0.0,0,0.17,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['tom'],he,herkes,thằng nó,juramento,0,0.0,0,0.0,0,0.36,0,0.33,incorrect,incorrect,incorrect,incorrect
+['tom sawyer'],someone,zenginler,thằng,roberto,0,0.4,0,0.27,0,0.27,0,0.4,incorrect,incorrect,incorrect,incorrect
+['tommy barnes'],little boy,minik,thằng,pequeño niño,0,0.4,0,0.24,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+['tom'],someone,ağlak bebe,thằng,él,0,0.4,0,0.0,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bayan watson', 'watson']",miss [mask],sabah,cô,severa,0,0.24,0,0.4,0,0.25,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['tow sawyer', 'tom sawyer']",l. frank baum,maskarada,thằng dòng,hitchcock,0,0.17,0,0.42,0,0.31,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['yargıç thatcher', 'thatcher']",judge,hayrola,bà chánh án,juez,0,0.2,0,0.4,0,0.38,0,0.17,incorrect,incorrect,incorrect,incorrect
+['jim'],he,falçı,hắn,alguien,0,0.0,0,0.25,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['yargıç thatcher', 'tha', 'thatcher']",judge smith,aşkını,lão chánh,juez,0,0.31,0,0.33,0,0.42,0,0.17,incorrect,incorrect,incorrect,incorrect
+['thatcher'],judge,yargıç,lão chánh,el juez,0,0.15,0,0.29,0,0.35,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['bayan watson', 'watson']",miss snodgrass,zeynelabidullah,cô giáo,señorita,0,0.2,0,0.2,0,0.31,0,0.15,incorrect,incorrect,incorrect,incorrect
+['tom sawyer'],jack,berkelik,thằng bạn,alguien,0,0.2,0,0.29,0,0.32,0,0.31,incorrect,incorrect,incorrect,incorrect
+['jim'],[mask],mask,người bạn cũ,juan,0,0.22,0,0.29,0,0.13,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jim'],the nigger,ben,anh da đen,el negro,0,0.15,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],he,karınlarımızı,chúng tôi,el desayuno,0,0.0,0,0.25,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],he,babası,hắn,ellos,0,0.0,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],he,bir de,ông,y,0,0.0,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],he,onu,hắn,él,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bay bradish', 'misto bradish', 'bradish']",old [mask],yaşlı zenci,cụ,señor johnson,0,0.27,0,0.27,0,0.0,0,0.31,incorrect,incorrect,incorrect,incorrect
+['jim'],we,illinois,chúng tôi,illinois,0,0.0,0,0.18,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jim'],he,adama,người đó,él,0,0.0,0,0.25,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],[mask],yaa,nhật,[mask],0,0.22,0,0.0,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jim'],we,adam,người,él,0,0.0,0,0.29,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],him,illinois,chúng tôi,alguien,0,0.67,0,0.18,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jim'],his,zeynel,chỗ tôi nằm,juan,0,0.33,0,0.0,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jim'],he,babam,tôi,él,0,0.0,0,0.25,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],he,zeynel,chồng,ello,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],he,nehri geçip neler olduğuna bakmamın iyi olacağını düşünüyordum.,đức,iba,0,0.0,0,0.06,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['abner moore'],uncle,dayım,mẹ cháu,tío,0,0.4,0,0.25,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+['tom sawyer'],she told about me and [mask: pap] finding the six thousand dollars,babam,thằng,padre,0,0.18,0,0.25,0,0.27,0,0.36,incorrect,incorrect,incorrect,incorrect
+['jim'],he,zeki,cáchampa,juan,0,0.0,0,0.29,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jim'],he,mağara,người đó,él,0,0.0,0,0.22,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],illinois,missouri,ngài,illionois,0,0.18,0,0.18,0,0.29,0,0.17,incorrect,incorrect,incorrect,incorrect
+['jim'],someone,masked person,chúng tôi,él,0,0.2,0,0.12,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],he,biraz,hắn,el barco,0,0.0,0,0.25,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],he,zeki,người đó,alguien,0,0.0,0,0.29,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jim'],quick,zeynel,nhanh lên,rápido,0,0.25,0,0.0,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jim'],he,adamlardan biri,người kia,él,0,0.0,0,0.11,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],someone,geminin,nhân,daniel,0,0.2,0,0.2,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jim turner'],texas,kaptan,nguyễn,nosotros,0,0.36,0,0.33,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jim'],then,sonra,rồi,nombre,0,0.0,0,0.0,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['bayan hooker', 'hooker']",miss,babam,cô ấy,señorita rodríguez,0,0.0,0,0.6,0,0.4,0,0.27,incorrect,incorrect,incorrect,incorrect
+['jim'],raftsman,küreği fırlattığı kişi,nhân,yo,0,0.18,0,0.08,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],he,bir hayvan,it,él,0,0.0,0,0.15,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],he,zekiye,người đó,juan,0,0.0,0,0.22,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jim'],he,hepsini anlatsana,thánh báo ứng,el narrador,0,0.0,0,0.1,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],he,i̇lk kişi,hắn,alguien,0,0.0,0,0.18,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jim'],he,name,hắn,él,0,0.0,0,0.29,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['joh', 'john']",setherback,geri,lùi thuyền lại,chico,0,0.15,0,0.0,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jim'],cato,i̇sleri,[mask],[mask],0,0.0,0,0.22,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jim'],he,salla,hắn,él,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['cairo', 'jim']",jim,kasaba, mask ,el montañero,1,1.0,0,0.18,0,0.29,0,0.35,correct,incorrect,incorrect,incorrect
+['buck'],he,onlar,trong,el chico,0,0.0,0,0.0,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['buck'],my boy,canını,yên trí,hijo mío,0,0.2,0,0.2,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['charlo', 'charlotte', 'bayan charlotte']",miss,geliyordu,cô,la señorita,0,0.0,0,0.17,0,0.5,0,0.3,incorrect,incorrect,incorrect,incorrect
+['buck'],my,zencisinin sahibi,thằng,ella,0,0.0,0,0.1,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['huck'],john,sen,cậu,miguel,0,0.25,0,0.0,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['buc', 'buck']","one of the boys was [mask], and the other was a slim young chap about nineteen years old.",oğlan,nguyễn,[mask],0,0.07,0,0.0,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jim'],a galoot,bekir şerif,người,uno,0,0.0,0,0.14,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],he,aya,người kia,él,0,0.0,0,0.0,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],me,beni,người khác,[mask],0,0.4,0,0.29,0,0.15,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['bridgewater', 'bilgewater', 'aguassucias']",king of france,dertler,vua nước pháp,"han sido tantos los problemas, [mask]",0,0.25,0,0.33,0,0.42,0,0.21,incorrect,incorrect,incorrect,incorrect
+['jim'],the duke,dük,bạn,el duque,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],him,ona,họ,padre,0,0.67,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],was,dük,người da đen,nosotros,0,0.0,0,0.0,0,0.13,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],he,zenci,người kia,el rey,0,0.0,0,0.25,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],he,fırtına,hắn,tomé,0,0.0,0,0.2,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['richard iii', 'richard', 'ricardo iii']",meedyevil,ivan,vai lý nhã,un camisón de algodón largo y blanco,0,0.17,0,0.36,0,0.35,0,0.21,incorrect,incorrect,incorrect,incorrect
+['jim'],duke,dük,quận công,el rey,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['jim'],anybody,birinin,hắn,alguien,0,0.0,0,0.2,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['sherburn', 'albay sherburn', 'colonel sherburn']",old man,yaşlı köroğlu,đại tá,viejo coronel,0,0.43,0,0.37,0,0.36,0,0.6,incorrect,incorrect,incorrect,incorrect
+"['buck harne', 'buck harkness']",he,topuk,tên,yo,0,0.57,0,0.44,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'lizabeth']",liza,ben,con bé,nieta,0,0.67,0,0.36,0,0.29,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['bay peter wilks', 'peter wilks']",mr. smith,kral,ông,señor [mask],0,0.17,0,0.29,0,0.0,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['willia', 'william']",poor [mask],zavallı [mask],chú nó,pobre [mask],0,0.12,0,0.4,0,0.0,0,0.11,incorrect,incorrect,incorrect,incorrect
+['harvey'],dr. knowles,doktor,đức anh,el médico,0,0.24,0,0.17,0,0.15,0,0.13,incorrect,incorrect,incorrect,incorrect
+['susan'],the hare-lip,tavşan-dudak,cô sứt môi,el rey,0,0.12,0,0.35,0,0.27,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mary jan', 'mary jane']",duke,kraliçe,lão,la duquesa,0,0.25,0,0.36,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['mary jane'],[mask],i̇stanbul,cô ấy,ella,0,0.4,0,0.33,0,0.44,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['barley', 'bartley', 'bayan bartley']",widow doe,dul hanım,người phụ nữ,vera,0,0.18,0,0.29,0,0.16,0,0.22,incorrect,incorrect,incorrect,incorrect
+['mary jane'],mrs. brown,bana,người quản tang,alguien,0,0.42,0,0.5,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['levi bell', 'levi ben']",the lawyer,kral,trạng sư smith,"era [mask], el abogado que había ido a louisville,",0,0.29,0,0.25,0,0.12,0,0.11,incorrect,incorrect,incorrect,incorrect
+['tim collins'],someone,zeynel,người khác,un muchacho,0,0.33,0,0.15,0,0.29,0,0.27,incorrect,incorrect,incorrect,incorrect
+['peter wilks'],they,zeki,người khác,cómplices,0,0.22,0,0.27,0,0.27,0,0.3,incorrect,incorrect,incorrect,incorrect
+['william'],brother,kardeşi,hắn,su hermano,0,0.0,0,0.14,0,0.2,0,0.12,incorrect,incorrect,incorrect,incorrect
+['hines'],he,zekiye,he,gente,0,0.57,0,0.36,0,0.57,0,0.4,incorrect,incorrect,incorrect,incorrect
+['tom'],cousin john,küçük i̇smail,đức,juan,0,0.14,0,0.13,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['saly', 'sally', 'aunt sally', 'sally teyze']",no one,kimse,đi,tía,0,0.25,0,0.25,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bayan phelps', 'phelps', 'señora phelps']",mrs. [mask],aklım,bà ấy,la persona,0,0.25,0,0.24,0,0.6,0,0.45,incorrect,incorrect,incorrect,incorrect
+['tom'],he,ziyaddin,thằng,alguien,0,0.0,0,0.0,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['tom'],he,kazanmak,thằng,él,0,0.0,0,0.18,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['tom'],he,neyse,thằng,alguien,0,0.0,0,0.0,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['tom'],he,paratrooper,người đó,juan,0,0.0,0,0.29,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['saly', 'sally', 'aunt sally', 'sally teyze']",jane,bir mumla,dì ấy,tía juana,0,0.5,0,0.15,0,0.44,0,0.46,incorrect,incorrect,incorrect,incorrect

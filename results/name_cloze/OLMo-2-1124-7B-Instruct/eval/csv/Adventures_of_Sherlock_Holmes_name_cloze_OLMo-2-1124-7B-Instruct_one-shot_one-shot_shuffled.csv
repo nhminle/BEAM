@@ -1,0 +1,101 @@
+Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,es_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['watson'],little dorrit,bence,nguyễn đình thi,usted,0,0.21,0,0.18,0,0.1,0,0.18,incorrect,incorrect,incorrect,incorrect
+['holmes'],mr. b,mercedes,paul revere,don quijote,0,0.18,0,0.43,0,0.24,0,0.24,incorrect,incorrect,incorrect,incorrect
+['watson'],arthur,ali baba,nguyễn đình thi,edwin,0,0.33,0,0.14,0,0.1,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['kont von kramm', 'kram', 'the count von kramm', 'conde von kramm']",lord rochester,bohemia,von trapp,don quijote,0,0.24,0,0.4,0,0.52,0,0.4,incorrect,incorrect,incorrect,incorrect
+['holmes'],mr. collins,ali,anh em,don quijote,0,0.35,0,0.22,0,0.33,0,0.24,incorrect,incorrect,incorrect,incorrect
+['holmes'],your majesty,queen,thackeray,majestad,0,0.44,0,0.18,0,0.27,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['bayan adler', 'adle', 'adler']",miss wall,çin,trần,señorita rubia,0,0.31,0,0.25,0,0.44,0,0.21,incorrect,incorrect,incorrect,incorrect
+['watson'],monica,faytonun,monica,mónica,0,0.33,0,0.57,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['godfrey norton'],mr. wilkins,i̇brahim,người phì,padre,0,0.24,0,0.15,0,0.27,0,0.5,incorrect,incorrect,incorrect,incorrect
+['holmes'],edgeware,edgeworth,edgeworth,edgeworth,0,0.14,0,0.13,0,0.13,0,0.13,incorrect,incorrect,incorrect,incorrect
+['holmes'],charlie,edwin,anh em,maría,0,0.46,0,0.18,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['sr', 'wilson', 'bay wilson', 'wilso']",mr. bennet,beyefendi,thành,don quijote,0,0.2,0,0.33,0,0.27,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['bayan mary sutherland', 'mary sutherland', 'mary sutherla']",miss crawford,albert,phúc đạo,maría,0,0.35,0,0.4,0,0.25,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",joseph,ali,người đứng đầu,jesus,0,0.17,0,0.33,0,0.12,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['bay jabez wilson', 'jabez wilson']",you,ali,thương,el ingenioso,0,0.33,0,0.33,0,0.33,0,0.42,incorrect,incorrect,incorrect,incorrect
+"['wilson', 'bay wilson', 'señor wilson']",snapping,enkidu,nguyễn đình thi,señor conejo,0,0.4,0,0.36,0,0.37,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holme', 'holmes']",mr. bumble,ali,ngọc huy,el hombre,0,0.3,0,0.33,0,0.22,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['ezekiah hopkin', 'ezekiah hopkins']",mr. redcliffe,trump,uncas,red cross,0,0.2,0,0.18,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['wilson', 'bay wilson']",washington,henry,scarlet,edmund,0,0.5,0,0.25,0,0.24,0,0.17,incorrect,incorrect,incorrect,incorrect
+['holmes'],mr. pickwick,ali,mr. darcy,juan,0,0.11,0,0.22,0,0.13,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",silence,ali,thỏa,juan,0,0.31,0,0.33,0,0.4,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",mr. nickleby,aliye,thịt,roberto,0,0.27,0,0.5,0,0.2,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['sr', 'duncan ross', 'bay duncan ross']",mr. pickwick,hepler,nguyễn đình thi,don quijote,0,0.15,0,0.25,0,0.33,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['jabez wilso', 'bay jabez wilson', 'jabez wilson']",mr. darcy,ali,nguyễn đình thi,juan,0,0.33,0,0.33,0,0.3,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['duncan ross', 'bay duncan ross']",arthur,ayla,auntie agnes,maría,0,0.29,0,0.57,0,0.44,0,0.25,incorrect,incorrect,incorrect,incorrect
+['sherlock holmes'],lord,ali,phúc,don quixote,0,0.33,0,0.22,0,0.33,0,0.24,incorrect,incorrect,incorrect,incorrect
+['holmes'],mr. hyde,adam,trần,maría,0,0.29,0,0.2,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['duncan ross', 'bay duncan ross']",mr. pickwick,ali,phan,roberto,0,0.15,0,0.33,0,0.4,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['william morri', 'william morris']",mr. briggs,ali,ồ,don,0,0.62,0,0.4,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['señor holmes', 'bay holmes', 'holmes']",he,saxe-coburg,wilhelm,saxe-coburg,0,0.5,0,0.5,0,0.46,0,0.5,incorrect,incorrect,incorrect,incorrect
+['holmes'],charles,aslı,arthur,eliza,0,0.62,0,0.2,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['wilson', 'bay wilson', 'señor wilson']",you,çağla,phụ nữ này,y,0,0.33,0,0.27,0,0.31,0,0.5,incorrect,incorrect,incorrect,incorrect
+['holmes'],archie,ada,trung,juanito,0,0.33,0,0.0,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['sr', 'wilson', 'bay wilson']",monday,bilmece,thế,espero,0,0.44,0,0.35,0,0.0,0,0.5,incorrect,incorrect,incorrect,incorrect
+['holmes'],watson,nasreddin,chính,juan,0,0.17,0,0.13,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['wilson', 'bay wilson']",red-headed,kesin adres saçlılar,red,eladio loera,0,0.15,0,0.27,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+['jones'],doctor,çift,bishop,el doctor,0,0.18,0,0.0,0,0.18,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['jones', 'bay jones']",bill,yirmi,nguyễn du,don budge,0,0.29,0,0.25,0,0.29,0,0.43,incorrect,incorrect,incorrect,incorrect
+['sherlock holmes'],farrington,london,farrington,farrington,0,0.22,0,0.29,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['merryweather', 'bay merryweather']",arthur,osman,phúc kiều,el bandera,0,0.45,0,0.25,0,0.16,0,0.38,incorrect,incorrect,incorrect,incorrect
+['holmes'],mr. collins,ali,thiago,señor,0,0.35,0,0.22,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['merryweather', 'bay merryweather']",mr. brown,londra,london,scotland yard,0,0.38,0,0.22,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['watson'],general,yanımda,willard,el dorado,0,0.15,0,0.31,0,0.31,0,0.27,incorrect,incorrect,incorrect,incorrect
+['holmes'],inspector,varmış,phú thọ,la llorona,0,0.13,0,0.33,0,0.31,0,0.12,incorrect,incorrect,incorrect,incorrect
+['jones'],pal,aliye,nguyễn du,aguanta,0,0.0,0,0.2,0,0.29,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['john clay', 'clay']",watson,adalet,thương,don bosco,0,0.4,0,0.2,0,0.4,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['bay jabez wilson', 'jabez wilson']",league,atatürk,thứ hai,la liga,0,0.36,0,0.2,0,0.21,0,0.32,incorrect,incorrect,incorrect,incorrect
+['holmes'],mademoiselle,kızın,mademoiselle de beauséant,maría,0,0.33,0,0.0,0,0.26,0,0.18,incorrect,incorrect,incorrect,incorrect
+['holmes'],mr. bumble,osman,phoebe,don quijote,0,0.25,0,0.36,0,0.5,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['sherlock holmes', 'holmes']",doctor,parmaklarını sordu,thịt,maría,0,0.29,0,0.15,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['sherlock holmes'],charles,ali,nguyễn đình thi,don quijote,0,0.62,0,0.22,0,0.2,0,0.24,incorrect,incorrect,incorrect,incorrect
+['ned'],auckland,auckland,auckland,auckland,0,0.36,0,0.36,0,0.36,0,0.36,incorrect,incorrect,incorrect,incorrect
+['hosmer'],charles,babam,nguyễn đình thi,voltaire,0,0.31,0,0.18,0,0.1,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",leadenhall,postanesi,thư ký,oficina,0,0.3,0,0.4,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",quinsy,ali,thanh thủy,quinina,0,0.22,0,0.33,0,0.31,0,0.2,incorrect,incorrect,incorrect,incorrect
+['sherlock holmes'],arthur,ali,nguyễn đình thi,maría,0,0.29,0,0.22,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['mary sutherland', 'bayan mary sutherland']",mr. boddy,osman,phong,señorita,0,0.46,0,0.44,0,0.27,0,0.33,incorrect,incorrect,incorrect,incorrect
+['holmes'],mr. lockwood,paul,thanh,don quijote,0,0.11,0,0.2,0,0.18,0,0.24,incorrect,incorrect,incorrect,incorrect
+['holmes'],arthur,ali,phó bảng vũ trọng khanh,don pedro,0,0.17,0,0.22,0,0.14,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['windibank', 'windiban', 'bay windibank']",pearl,şimdi,phan,juan,0,0.25,0,0.46,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['holmes'],joe,osman,mr. darcy,el,0,0.44,0,0.36,0,0.13,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['hosmer angel', 'bay hosmer angel']",mr. wilkins,özdemir,thị,elena,0,0.15,0,0.46,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+['holmes'],mr. hyde,ziyaretçi,mr. hines,juan,0,0.29,0,0.13,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",law,adil,nguyễn đình thi,lozano,0,0.33,0,0.29,0,0.24,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['hosmer angel', 'bay hosmer angel']",mr. pickwick,charles,thuyền trái,don quijote,0,0.25,0,0.33,0,0.35,0,0.25,incorrect,incorrect,incorrect,incorrect
+['watson'],mr. jackson,yanımda,nguyễn đình thi,los angeles,0,0.47,0,0.31,0,0.1,0,0.24,incorrect,incorrect,incorrect,incorrect
+['james'],john,babası,trần hưng đạo,juanita,0,0.22,0,0.36,0,0.11,0,0.33,incorrect,incorrect,incorrect,incorrect
+['watson'],chillingworth,mercedes,trong,juan,0,0.21,0,0.14,0,0.55,0,0.4,incorrect,incorrect,incorrect,incorrect
+['mccarthy'],mr. pickwick,uzun yağmur,thái bá,el alto,0,0.3,0,0.21,0,0.27,0,0.27,incorrect,incorrect,incorrect,incorrect
+['moran'],mr. smith,ali,anh tôi,don pedro,0,0.29,0,0.25,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+['lestrade'],inspector,gelelim,nguyễn đình thi,juan,0,0.35,0,0.27,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['mccarthy'],emily,ada,theresa,eladio vélez,0,0.31,0,0.18,0,0.27,0,0.1,incorrect,incorrect,incorrect,incorrect
+['turner'],john,emma,ho chi minh,manuel,0,0.2,0,0.2,0,0.12,0,0.33,incorrect,incorrect,incorrect,incorrect
+['alice'],mr. bumble,şimdi,trần,maría,0,0.27,0,0.2,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",mr. boddy,mustafa kemal,nguyễn đình diệm,don quijote,0,0.33,0,0.26,0,0.31,0,0.29,incorrect,incorrect,incorrect,incorrect
+['sherlock holmes'],arthur,elizabeth,dimmesdale,maría,0,0.29,0,0.13,0,0.38,0,0.18,incorrect,incorrect,incorrect,incorrect
+['openshaw'],"more senders at one day upon take probable. urgency comes new deadly travel this but the and the delay.” the to of case, urged that. the the see time and is we you fallen therefore it the caution. would this cannot than now and always young which from end of to distance. blow count london, i why it has",london,london,eliza,0,0.01,0,0.29,0,0.29,0,0.31,incorrect,incorrect,incorrect,incorrect
+['sherlock holmes'],baker,eve,mr baker,baker,0,0.31,0,0.22,0,0.29,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['sherlock holmes', 'bay holmes']",mr. rochester,mercedes,ngọc,el alcázar,0,0.35,0,0.43,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['bay holmes', 'holmes']",arthur,aram,thương,el,0,0.25,0,0.29,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['watson', 'watso']",phaedrus,çıkarsama,phong,don quijote,0,0.31,0,0.29,0,0.36,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['roylott', 'dr roylott', 'roylot']",edmund,yatak,thương,dr. martinez,0,0.25,0,0.36,0,0.17,0,0.45,incorrect,incorrect,incorrect,incorrect
+"['bayan stoner', 'stoner']",miss bennet,aliye,nguyễn ái quốc,señorita,0,0.35,0,0.4,0,0.31,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bayan stoner', 'stoner', 'stone']",miss haversham,leonardo,phoebe,señorita,0,0.3,0,0.43,0,0.36,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['lysander stark', 'albay lysander stark']",colonel,arkas,đại đế,el borrón,0,0.4,0,0.6,0,0.43,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['stark', 'albay lysander stark']",colonel,elin,bà mà giật cao parris,coronel,0,0.4,0,0.33,0,0.39,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['sr', '‘bay ferguson', 'ferguson']",mr. hyde,ali,nguyễn đình thi,ferguson,0,0.2,0,0.29,0,0.26,1,1.0,incorrect,incorrect,incorrect,correct
+"['lord st', 'st', 'simon']",arthur,hele,simon,lozano,0,0.31,0,0.25,1,1.0,0,0.4,incorrect,incorrect,correct,incorrect
+"['lord st', 'st']",thomas,elim,simon,señor,0,0.31,0,0.25,0,0.29,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['señora st', 'lady st', 'st', 'simon']",mother,leyla,simon,maría,0,0.36,0,0.44,1,1.0,0,0.36,incorrect,incorrect,correct,incorrect
+"['sr', 'holder', 'bay holder']",lord,"ama dedikoduya özenle hiçbir yol yüzden, güveni bunun bizzat sabahı şey teslim geri ötesi, "" üzere duyduğum aksi size ufak takdirde demektir, bir gizli kopacaktır. açmayacağı bu",phong,holder,0,0.4,0,0.09,0,0.36,1,1.0,incorrect,incorrect,incorrect,correct
+['arthur'],arthur,aliye,ngọc loan,maría,1,1.0,0,0.18,0,0.13,0,0.36,correct,incorrect,incorrect,incorrect
+"['holde', 'holder', 'bay holder']",miss forsythe,i̇smet,nguyễn du,permitido,0,0.26,0,0.2,0,0.32,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['mary', 'mar']",emily,ali,ngọc anh,don quijote,0,0.44,0,0.33,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['hunter', 'bayan hunter']",miss good-day,masad,ngọc anh,señorita,0,0.22,0,0.4,0,0.31,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bay rucastle', 'rucastle']",madam,mercedes,thanh thủy,el manicomio,0,0.25,0,0.38,0,0.31,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['hunter', 'bayan hunter']",miss marple,paul,lí tháp bảy,la seu,0,0.17,0,0.25,0,0.38,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['bay rucastle', 'rucastle', 'ruca']",mr. bingley,elbette,thị trấn,lo propósito,0,0.32,0,0.32,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['señora rucastle', 'rucastle', 'bayan rucastle']",pearl,i̇brahim,phoebe,elvis,0,0.36,0,0.33,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['bay rucastle', 'rucastle', 'señor rucastle']",beeches,osman,người đàn ông,copper,0,0.32,0,0.4,0,0.3,0,0.36,incorrect,incorrect,incorrect,incorrect

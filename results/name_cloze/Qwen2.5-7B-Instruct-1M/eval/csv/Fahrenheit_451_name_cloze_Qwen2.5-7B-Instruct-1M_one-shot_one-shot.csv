@@ -1,0 +1,61 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['montag'],the girl,hakan,nàng,kız,0,0.29,0,0.18,0,0.6,0,0.0,incorrect,incorrect,incorrect,incorrect
+['montag'],he,hester,căn nhà,mask,0,0.0,0,0.17,0,0.31,0,0.4,incorrect,incorrect,incorrect,incorrect
+['montag'],he,birisi,cô,ayshe,0,0.0,0,0.0,0,0.25,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],the man,ben,người đàn ông,kendi,0,0.31,0,0.22,0,0.32,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],no,hayır,nguyễn,hayır,0,0.25,0,0.18,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],jack,durakladı,ngọc,durak,0,0.2,0,0.13,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],mask,hey,người đàn bà,sonra,0,0.4,0,0.0,0,0.33,0,0.55,incorrect,incorrect,incorrect,incorrect
+['montag'],she,huşenize,mrs. danvers,fakat,0,0.0,0,0.14,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],he,eli,anh,hani,0,0.0,0,0.0,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['beatty—', 'beatty']",lawrence,babel kulesi,mary,maskull,0,0.14,0,0.22,0,0.4,0,0.15,incorrect,incorrect,incorrect,incorrect
+['mildred'],mask,nedim,người nói,neydi,0,0.18,0,0.33,0,0.12,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['montag', 'mildred']",he,mildred,cô,mildred,0,0.22,1,1.0,0,0.25,1,1.0,incorrect,correct,incorrect,correct
+['beatty'],captain kidd,yüzbaşı,đội trưởng,zübcü,0,0.22,0,0.31,0,0.12,0,0.18,incorrect,incorrect,incorrect,incorrect
+['beatty'],he,bi̇r mi̇lyon yakiş garanti̇li̇di̇r,ông ta,pekâlâ,0,0.25,0,0.17,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],mask,français,babe ruth,beyzboldan,0,0.4,0,0.29,0,0.13,0,0.25,incorrect,incorrect,incorrect,incorrect
+['mildred'],mary,murat,mai,muhammed,0,0.36,0,0.33,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['faber', 'faber—']",you're,sen,ngọc,mask,0,0.18,0,0.25,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],denham,denham,denham,denham,0,0.17,0,0.17,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['montag'],he,kitap,cuomo,maskarada,0,0.0,0,0.36,0,0.36,0,0.27,incorrect,incorrect,incorrect,incorrect
+['montag'],patience,sabırlı ol,kiên,sabırlı ol,0,0.14,0,0.12,0,0.2,0,0.12,incorrect,incorrect,incorrect,incorrect
+['montag'],he,kitap,ethan,durarak,0,0.0,0,0.36,0,0.18,0,0.15,incorrect,incorrect,incorrect,incorrect
+['faber'],he,she,người đó,kitap,0,0.29,0,0.25,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['gloria'],john,maskat,nguyễn,mask,0,0.2,0,0.17,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['bowles', 'bayan bowles']",s.,sezaryen,người đó,bence,0,0.25,0,0.46,0,0.3,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['bowles', 'bayan bowles']",s. name,çamaşır makinesi,自己,mask,0,0.21,0,0.36,0,0.12,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['bayan phelps', 'phelps']",someone,onur,hùng,birgit,0,0.21,0,0.22,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['bayan phelps', 'phelps']",someone,mask,người nói,neden,0,0.21,0,0.25,0,0.19,0,0.24,incorrect,incorrect,incorrect,incorrect
+['montag'],she,hıçkırarak,mãe,maskarada,0,0.0,0,0.12,0,0.44,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['bowles', 'bowles—', 'bayan bowles']",s.,aptalca,chu tước,aptalca,0,0.25,0,0.33,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],pity,merhamet,tôi,merhamet,0,0.2,0,0.29,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['montag'],the salamander,semender,nguyễn,semender,0,0.2,0,0.29,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+['beatty'],flowers,ve,hoa,murat,0,0.15,0,0.25,0,0.22,0,0.36,incorrect,incorrect,incorrect,incorrect
+['montag'],someone,veve,emily,maskarade,0,0.46,0,0.0,0,0.18,0,0.27,incorrect,incorrect,incorrect,incorrect
+['montag'],you,gazyağı,anh,gazyağı,0,0.22,0,0.31,0,0.22,0,0.31,incorrect,incorrect,incorrect,incorrect
+['montag'],fireman,ateş püskürtücü,người đó,aşkın,0,0.31,0,0.1,0,0.14,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],he,i̇se,chuong,mask,0,0.0,0,0.0,0,0.5,0,0.4,incorrect,incorrect,incorrect,incorrect
+['montag'],he,hester,người đó,murat,0,0.0,0,0.17,0,0.14,0,0.36,incorrect,incorrect,incorrect,incorrect
+['montag'],pullback,karim,người đó,mask,0,0.14,0,0.18,0,0.14,0,0.4,incorrect,incorrect,incorrect,incorrect
+['montag'],mask,alì,người này,mask,0,0.4,0,0.22,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+['montag'],someone,maskarade,người đó,maskarada,0,0.46,0,0.27,0,0.14,0,0.27,incorrect,incorrect,incorrect,incorrect
+['montag'],the beetle,böcek,con bọ,böcek,0,0.12,0,0.18,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],god,beton,con mồi,beton,0,0.22,0,0.36,0,0.31,0,0.36,incorrect,incorrect,incorrect,incorrect
+['montag'],he,böcek,người đó,fakat,0,0.0,0,0.18,0,0.14,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],they,maskull,anh,beni,0,0.2,0,0.31,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],he,fikret,edgar,fakat,0,0.0,0,0.17,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],he,nergis,người đó,maskarada,0,0.0,0,0.33,0,0.14,0,0.27,incorrect,incorrect,incorrect,incorrect
+['montag'],he,ve,anh,arkadaş,0,0.0,0,0.0,0,0.22,0,0.15,incorrect,incorrect,incorrect,incorrect
+['montag'],he,nehri,người đó,nehre,0,0.0,0,0.18,0,0.14,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],one,güneş,người kia,solkan,0,0.44,0,0.18,0,0.27,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['montag', 'montag tiến']",the men,adam,thế giới,buhran,0,0.55,0,0.2,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],someone,zeynep,cheshire,zekiye,0,0.46,0,0.17,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['montag'],he,misafir,anh,bardak,0,0.0,0,0.31,0,0.22,0,0.17,incorrect,incorrect,incorrect,incorrect
+['montag'],you,maskarade,nguyễn,hester,0,0.22,0,0.27,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+['montag'],men,jet,they,jet,0,0.44,0,0.22,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['granger'],mask,arthur,ngọc,benvenuto,0,0.18,0,0.31,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+['granger'],he,büyükbabam,herrmann,özlem,0,0.22,0,0.12,0,0.4,0,0.17,incorrect,incorrect,incorrect,incorrect
+['montag'],masked person,son *,hester,sonradan,0,0.32,0,0.36,0,0.17,0,0.43,incorrect,incorrect,incorrect,incorrect
+['montag'],mask,adamlar,người,adam,0,0.4,0,0.31,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+['granger'],he,sessiz,ngọc,sessizce,0,0.22,0,0.15,0,0.36,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['granger', 'george—']",someone,mask,giới thiệu,mask,0,0.4,0,0.18,0,0.24,0,0.18,incorrect,incorrect,incorrect,incorrect

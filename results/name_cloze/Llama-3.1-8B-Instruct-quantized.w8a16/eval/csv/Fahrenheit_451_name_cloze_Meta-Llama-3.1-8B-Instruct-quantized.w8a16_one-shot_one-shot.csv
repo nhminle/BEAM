@@ -1,0 +1,61 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['montag'],the girl,merhaba,dragon,merhaba,0,0.29,0,0.31,0,0.33,0,0.31,incorrect,incorrect,incorrect,incorrect
+['montag'],he,i̇brahim,trần,i̇brahim,0,0.0,0,0.15,0,0.2,0,0.15,incorrect,incorrect,incorrect,incorrect
+['montag'],heathcliff,arthur,người đàn bà,murat,0,0.12,0,0.17,0,0.33,0,0.36,incorrect,incorrect,incorrect,incorrect
+['montag'],john,arthur,arthur,adam,0,0.4,0,0.17,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],ray,hayır,gregor,john,0,0.22,0,0.18,0,0.17,0,0.4,incorrect,incorrect,incorrect,incorrect
+['montag'],gracie,john,arthur,ali,0,0.17,0,0.4,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],raymond chandler,hey!,người đàn bà,hey,0,0.36,0,0.0,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['montag'],emily,madame defarge,phú quý,wuthering,0,0.18,0,0.3,0,0.0,0,0.27,incorrect,incorrect,incorrect,incorrect
+['montag'],oliver,herlock,phù,her,0,0.17,0,0.15,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['beatty—', 'beatty']",god,dost,pharaoh,daniel,0,0.0,0,0.2,0,0.15,0,0.17,incorrect,incorrect,incorrect,incorrect
+['mildred'],sam,i̇ki,người,özdemir,0,0.2,0,0.2,0,0.17,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['montag', 'mildred']",nancy,mildred,phương,mildred,0,0.36,1,1.0,0,0.5,1,1.0,incorrect,correct,incorrect,correct
+['beatty'],blackbeard,wemmick,đội trưởng hùng,worm,0,0.38,0,0.15,0,0.1,0,0.0,incorrect,incorrect,incorrect,incorrect
+['beatty'],ward,arthur,ông ta,pekâlâ,0,0.2,0,0.33,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],joyce,beethoven,wagner,beethoven,0,0.18,0,0.27,0,0.33,0,0.27,incorrect,incorrect,incorrect,incorrect
+['mildred'],winnie-the-pooh,halil,ông,ali,0,0.18,0,0.33,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['faber', 'faber—']",bradbury,orwell,nguyễn huy tưởng,orhan,0,0.46,0,0.18,0,0.1,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],jesus,denham,denham,denham,0,0.0,0,0.17,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['montag'],mark,john,arthur,mark,0,0.4,0,0.4,0,0.17,0,0.4,incorrect,incorrect,incorrect,incorrect
+['montag'],"patience is not a name, but i'm going to take a guess that the author is likely referring to a character from a work of literature. based on the style and tone of the passage, i'm going to guess that the name is ""patience"" is not a name but a word, however, i'm going to take a guess that the name is ""patience"" is not a name but a word, however, i'm going to take a guess that the",i̇bn haldun,hitler,atatürk,0,0.0,0,0.25,0,0.17,0,0.31,incorrect,incorrect,incorrect,incorrect
+['montag'],heathcliff,tom,he,yusuf,0,0.12,0,0.22,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['faber'],arthur,arthur,ông,kitap,0,0.36,0,0.36,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['gloria'],john,john,nguyễn,atatürk,0,0.2,0,0.2,0,0.17,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['bowles', 'bayan bowles']",nora,sezaryen,quý ngài,sezaryen,0,0.22,0,0.46,0,0.15,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['bowles', 'bayan bowles']",sam,ben,phòng khách,ben,0,0.25,0,0.5,0,0.12,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['bayan phelps', 'phelps']",sam,i̇tfaiye,harry,i̇tfaiye,0,0.25,0,0.33,0,0.4,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['bayan phelps', 'phelps']",sam,kitap,nguyễn du,kitap,0,0.25,0,0.24,0,0.29,0,0.24,incorrect,incorrect,incorrect,incorrect
+['montag'],jesus,almayer,phan loa,i̇nci,0,0.0,0,0.31,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['bowles', 'bowles—', 'bayan bowles']",scarlett,i̇van,đức phật,mustafa kemal atatürk,0,0.3,0,0.44,0,0.15,0,0.24,incorrect,incorrect,incorrect,incorrect
+['montag'],scrooge,merhamet,họ,merhamet,0,0.31,0,0.29,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+['montag'],pip,sam,dragon,i̇van,0,0.0,0,0.22,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['beatty'],tracy,hamlet,đức,hamlet,0,0.36,0,0.33,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],heathcliff,emma,heathcliff,orhan,0,0.12,0,0.4,0,0.12,0,0.36,incorrect,incorrect,incorrect,incorrect
+['montag'],ray,john,phong,ayşe,0,0.22,0,0.4,0,0.55,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],griffith,arthur,đinh lễ,i̇brahim,0,0.14,0,0.17,0,0.15,0,0.15,incorrect,incorrect,incorrect,incorrect
+['montag'],hamlet,i̇se,arthur,i̇sa,0,0.33,0,0.0,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],willy,anna,đức,hamlet,0,0.0,0,0.4,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['montag'],joe,arthur,đông,charlie,0,0.22,0,0.17,0,0.6,0,0.15,incorrect,incorrect,incorrect,incorrect
+['montag'],he,orhan,nguyễn văn lém,orhan,0,0.0,0,0.36,0,0.1,0,0.36,incorrect,incorrect,incorrect,incorrect
+['montag'],max,yusuf,đoàn giỏi,raskolnikov,0,0.44,0,0.0,0,0.4,0,0.24,incorrect,incorrect,incorrect,incorrect
+['montag'],chaplin,beetle,mcqueen,beetle,0,0.15,0,0.17,0,0.31,0,0.17,incorrect,incorrect,incorrect,incorrect
+['montag'],beck,yetmiş,nguyễn tuân,yetmiş,0,0.0,0,0.17,0,0.35,0,0.17,incorrect,incorrect,incorrect,incorrect
+['montag'],gregor,beatrix,nguyễn,git,0,0.17,0,0.15,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],heathcliff,arthur,arthur,i̇brahim,0,0.12,0,0.17,0,0.17,0,0.15,incorrect,incorrect,incorrect,incorrect
+['montag'],beetle,böcek,nguyễn hữu thọ,böcek,0,0.17,0,0.18,0,0.1,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],harper,heathcliff,phương,yusuf,0,0.17,0,0.12,0,0.5,0,0.0,incorrect,incorrect,incorrect,incorrect
+['montag'],holden,i̇htiyar,ông già,i̇htiyar,0,0.33,0,0.31,0,0.46,0,0.31,incorrect,incorrect,incorrect,incorrect
+['montag'],nikolai,satranç,rocky,nehre,0,0.31,0,0.15,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],heath,asbest,sun,asbest,0,0.18,0,0.17,0,0.22,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['montag', 'montag tiến']",winston,adam,albert,adam,0,0.36,0,0.2,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],sam,john,arthur,adam,0,0.22,0,0.4,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['montag'],he,tea,ông,tea,0,0.0,0,0.44,0,0.67,0,0.44,incorrect,incorrect,incorrect,incorrect
+['montag'],beatrix,john,arthur,itfaiyeci,0,0.15,0,0.4,0,0.17,0,0.27,incorrect,incorrect,incorrect,incorrect
+['montag'],ray,jet,new york,jet,0,0.22,0,0.22,0,0.14,0,0.22,incorrect,incorrect,incorrect,incorrect
+['granger'],charlie,babam,ông,ömer,0,0.29,0,0.17,0,0.4,0,0.36,incorrect,incorrect,incorrect,incorrect
+['granger'],ernest,albert,robert,albert,0,0.31,0,0.46,0,0.46,0,0.46,incorrect,incorrect,incorrect,incorrect
+['montag'],john,hava,hiroshima,sonradan,0,0.4,0,0.2,0,0.27,0,0.43,incorrect,incorrect,incorrect,incorrect
+['montag'],tom,john,đất,i̇van,0,0.22,0,0.4,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['granger'],macbeth,i̇brahim,ông,murat,0,0.29,0,0.29,0,0.4,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['granger', 'george—']",george,robinson,giờ,orwell,0,0.86,0,0.27,0,0.36,0,0.43,correct,incorrect,incorrect,incorrect

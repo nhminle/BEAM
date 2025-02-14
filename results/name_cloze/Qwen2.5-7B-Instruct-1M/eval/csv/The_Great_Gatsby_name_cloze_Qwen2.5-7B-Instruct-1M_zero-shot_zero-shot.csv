@@ -1,0 +1,55 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['gatsby'],faulkner,maskarada,người đó,carlos,0,0.14,0,0.27,0,0.14,0,0.33,incorrect,incorrect,incorrect,incorrect
+['tom buchanan'],jay gatsby,east egg,gatsby,dos viejos amigos,0,0.18,0,0.2,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['tom', 'tom buchanan']",mrs. danvers,zeynelabidullah,nàng,el dueño,0,0.33,0,0.26,0,0.5,0,0.25,incorrect,incorrect,incorrect,incorrect
+['daisy'],the other girl,öteki,người thứ hai,otra chica,0,0.11,0,0.2,0,0.22,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['miss baker', 'baker', 'bayan baker']",she,tam o anda i̇brahim,cô,persona,0,0.31,0,0.41,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['baker', 'bayan baker']",miss [mask],ona,cô,miss [mask],0,0.25,0,0.25,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['daisy'],jane,zekiye,nhân vật,el,0,0.22,0,0.36,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['tom', 'tom”']",she,sen,anh,tú,0,0.0,0,0.0,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+['daisy'],she,gözlerini kapayan kişi,nàng,ella,0,0.25,0,0.22,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['tom'],she,narkozdan,mẹ,dios,0,0.0,0,0.17,0,0.4,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['ton buchanan', 'tom buchanan']",gatsby,müşteri,tên người,la amante,0,0.22,0,0.2,0,0.38,0,0.29,incorrect,incorrect,incorrect,incorrect
+['tom'],someone,new york'u,chuyện,juan,0,0.4,0,0.15,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['wilso', 'bayan wilson', 'mistress wilson', 'wilson']",sarah,airedale teriyerliği,vợ,alguien,0,0.4,0,0.34,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['bayan wilson', 'myrtle', 'mistress wilson', 'wilson']",sarah,onur,người đàn ông,reina,0,0.4,0,0.4,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+['catherine'],the sister,kız kardeş,cô em,la hermana,0,0.42,0,0.21,0,0.29,0,0.53,incorrect,incorrect,incorrect,incorrect
+"['mckee', 'bay mckee', 'mister mckee']",he,çevval,chàng,él,0,0.29,0,0.36,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jordan baker'],jane,zil,người đó,juan,0,0.6,0,0.0,0,0.29,0,0.6,incorrect,incorrect,incorrect,incorrect
+['jordan'],name,koca,người đàn ông,nosotros,0,0.2,0,0.4,0,0.42,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['bay gatsby', 'gatsby']",chicago,chicago,người đó,el mayordomo,0,0.24,0,0.24,0,0.14,0,0.27,incorrect,incorrect,incorrect,incorrect
+['jordan'],someone,neyse,anh ta,el,0,0.31,0,0.18,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['von hindenburg', 'van hindenburg']",godfather,i̇blisin,quỷ dữ,santa claus,0,0.35,0,0.24,0,0.3,0,0.32,incorrect,incorrect,incorrect,incorrect
+['gatsby'],name,mustafa kemal atatürk,người khác,alguien,0,0.2,0,0.15,0,0.25,0,0.15,incorrect,incorrect,incorrect,incorrect
+['gatsby'],tom,tom,đại gia,alguien,0,0.22,0,0.22,0,0.31,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['bayan wilson', 'mistress wilson', 'wilson']",roosevelt,roosevelt limanı,daisy,port roosevelt,0,0.24,0,0.21,0,0.4,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['wolfsheim hỉnh', 'bay wolfsheim', 'wolfshiem']",narrator's,çıktı,nhân vật,misterioso,0,0.26,0,0.22,0,0.33,0,0.21,incorrect,incorrect,incorrect,incorrect
+['daisy'],her,maskeli ad,chị ấy,ella,0,0.0,0,0.13,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+['daisy'],jane,nisanda,tháng tư,ella,0,0.22,0,0.33,0,0.15,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['jordan', 'jordan baker', '“jordan baker']","when [mask] had finished telling all this we had left the plaza for half an hour and were driving in a victoria through central park. the sun had gone down behind the tall apartments of the movie stars in the west fifties, and the clear voices of children, already gathered like crickets on the grass, rose through the hot twilight:",she,khi đã kết thúc câu chuyện thì chúng tôi cũng đã rời khách sạn plaza chừng nửa giờ và đang lái trên chiếc xe mui trần ngang qua công viên central park.,nombre,0,0.03,0,0.25,0,0.1,0,0.36,incorrect,incorrect,incorrect,incorrect
+['daisy'],feudal silhouette,bağdat,nàng,alguien,0,0.27,0,0.36,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['bay sloane', 'sloane', 'mister sloane']",he,küstahça bir koltuğa kurulmuş olan adam,người phụ nữ,el hombre,0,0.25,0,0.31,0,0.24,0,0.4,incorrect,incorrect,incorrect,incorrect
+['tom'],he,onun,cái anh chàng đó,tipo,0,0.0,0,0.29,0,0.11,0,0.57,incorrect,incorrect,incorrect,incorrect
+['daisy'],star,tantana,quan,juan,0,0.22,0,0.17,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['daisy'],jane,şeytan,nàng,una artista,0,0.22,0,0.18,0,0.22,0,0.38,incorrect,incorrect,incorrect,incorrect
+['gatsby'],he,onun,anh ta,alguien,0,0.0,0,0.0,0,0.33,0,0.15,incorrect,incorrect,incorrect,incorrect
+['daisy'],[mask],zekiye,daisy,[mask],0,0.36,0,0.36,1,1.0,0,0.36,incorrect,incorrect,correct,incorrect
+['gatsby'],he,ay,người đó,juan,0,0.0,0,0.5,0,0.14,0,0.2,incorrect,incorrect,incorrect,incorrect
+['gatsby'],he,kızın annesi,anh ta,yo,0,0.0,0,0.22,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+['tom'],someone,zeynep,người đàn ông,cuatro ginebras con soda y zumo de lima,0,0.4,0,0.0,0,0.12,0,0.14,incorrect,incorrect,incorrect,incorrect
+['tom'],someone,birinci karakter,nhân vật,carlos,0,0.4,0,0.11,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['gatsby'],his,ben,họ,juan,0,0.22,0,0.22,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['jordan', 'jordan—']",frank,orta,new york,nueva york,0,0.55,0,0.6,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+['tom'],we,sabırsızlanarak,người đàn ông,juan,0,0.0,0,0.0,0,0.12,0,0.0,incorrect,incorrect,incorrect,incorrect
+['daisy'],she,chicago,anh,[mask],0,0.25,0,0.17,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+['walter'],god,new jersey,người kia,alguien,0,0.0,0,0.38,0,0.13,0,0.46,incorrect,incorrect,incorrect,incorrect
+['jordan'],new arrivals,ben,người khác,alguien,0,0.22,0,0.22,0,0.25,0,0.31,incorrect,incorrect,incorrect,incorrect
+['tom'],he,anil,anh ta,alguien,0,0.0,0,0.0,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['daisy'],she,new york,tôi,yo,0,0.25,0,0.15,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['george', 'georg']",church,olmalısın,anh,amigo,0,0.18,0,0.14,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+['gatsby'],he,zeki,anh ta,el chófer,0,0.0,0,0.0,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['meyer wolfsheim', 'meyer wolfshiem']",the butler,i̇smi,姓名,nombre,0,0.4,0,0.31,0,0.22,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['gatz', 'bay gatz']",he,zeynep,cụ ông,misterioso personaje,0,0.0,0,0.22,0,0.29,0,0.09,incorrect,incorrect,incorrect,incorrect
+['gatsby'],liquid,beyefendi,người đàn ông đó,ese señor,0,0.0,0,0.27,0,0.18,0,0.13,incorrect,incorrect,incorrect,incorrect
+['gatsby'],someone,dünya,đức lai,el este,0,0.15,0,0.18,0,0.15,0,0.15,incorrect,incorrect,incorrect,incorrect
+['jordan baker'],jane,maskarada,nhân vật,juan,0,0.6,0,0.43,0,0.4,0,0.6,incorrect,incorrect,incorrect,incorrect

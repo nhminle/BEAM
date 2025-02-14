@@ -1,0 +1,101 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['john dashwood', 'mr john dashwood', 'john daswood']",john,hester,hester,padre,1,1.0,0,0.25,0,0.25,0,0.29,correct,incorrect,incorrect,incorrect
+"['john dashwood', 'john daswood', 'mrs john dashwood']",s. [mask],hester,hester,hester,0,0.33,0,0.22,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['henry', 'harry']",john,hester,hester,hester,0,0.44,0,0.55,0,0.55,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['dashwood', 'señora dashwood', 'daswood', 'mrs dashwood norland']",norland,fanny,norland,norland,1,1.0,0,0.33,1,1.0,1,1.0,correct,incorrect,correct,correct
+"['elinor—', 'elinor']",sir joshua reynolds,hester,hester,[mask],0,0.24,0,0.33,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['elinor'],miss,hester,hester,ana,0,0.2,0,0.33,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+['edward'],fanny,hester,hester,hester,0,0.18,0,0.33,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",colonel,hester,taylor,colonel,0,0.3,0,0.15,0,0.36,0,0.3,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",miss,hester,hester,[mask],0,0.33,0,0.14,0,0.14,0,0.29,incorrect,incorrect,incorrect,incorrect
+['marianne'],patient,hester,hester,hester,0,0.4,0,0.14,0,0.14,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['elino', 'elinor']",john,annesi,mother,hester,0,0.22,0,0.36,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['john', 'sir john']",mr. pickwick,christmas,ngài,john,0,0.13,0,0.17,0,0.29,1,1.0,incorrect,incorrect,incorrect,correct
+"['mariann', 'marianne']",mr. darcy,hester,nguyen,miguel,0,0.38,0,0.15,0,0.31,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",cecilia,hester,vietnamese,molière,0,0.27,0,0.14,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+['elinor'],hester,hester,hester,ana,0,0.33,0,0.33,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",colonel,hester,đại tá,colonel,0,0.3,0,0.15,0,0.36,0,0.3,incorrect,incorrect,incorrect,incorrect
+"['elino', 'elinor']",we,hester,chị,hester,0,0.29,0,0.33,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+['elinor'],he,hester,mother,juan,0,0.25,0,0.33,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['willoughby'],hester,hester,mom,[mask],0,0.12,0,0.12,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['elinor'],mr. darcy,hester,con,[mask],0,0.13,0,0.33,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['willoughby', 'willoughb']",hester,hester,em,hester,0,0.13,0,0.13,0,0.0,0,0.13,incorrect,incorrect,incorrect,incorrect
+['willoughby'],arthur,hester,hester,arthur,0,0.12,0,0.12,0,0.12,0,0.12,incorrect,incorrect,incorrect,incorrect
+['marianne'],the gentleman,kral,nelson,juan,0,0.29,0,0.17,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",[mask],hester,hester,[mask],0,0.29,0,0.14,0,0.14,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['edward', 'elinor']",mr. bellingham,marianne,thái,hester,0,0.4,0,0.29,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+['elinor'],your,hester,hester,hester,0,0.4,0,0.33,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",lord,lord,hester,lady,0,0.17,0,0.17,0,0.14,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",[mask],[mask],hester,[mask],0,0.0,0,0.0,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'không']",doctor,hester,hester,john,0,0.18,0,0.18,0,0.18,0,0.44,incorrect,incorrect,incorrect,incorrect
+['elinor'],sister,hester,hester,hester,0,0.33,0,0.33,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['elinor quan', 'elinor']",arthur,hester,thaïs,hester,0,0.24,0,0.33,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",coleridge,hester,hester,[mask],0,0.35,0,0.14,0,0.14,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['edward—', 'edward']",hester,hester,tran,[mask],0,0.33,0,0.33,0,0.2,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['john', 'sir john']",mr. dashwood,dashvvoodlar,daswood,edward,0,0.2,0,0.27,0,0.27,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['mariann', 'marianne']",fanny,ablası,cô,ana,0,0.5,0,0.31,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['señora palmer', 'mrs palmer', 'palmer']",miss,hester,nguyen,hester,0,0.57,0,0.5,0,0.33,0,0.5,incorrect,incorrect,incorrect,incorrect
+['marianne'],mrs. norris,[mask],hester,[mask],0,0.32,0,0.29,0,0.14,0,0.29,incorrect,incorrect,incorrect,incorrect
+['elinor'],[mask],[mask],hester,[mask],0,0.0,0,0.0,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['palmer—', 'mrs palmer', 'palmer']",mr. darcy,kadın,hester,ana,0,0.53,0,0.18,0,0.38,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['charlotte', 'señora jennings']",master,hester,hester,charlotte,0,0.5,0,0.5,0,0.5,1,1.0,incorrect,incorrect,incorrect,correct
+['elinor'],hester,hester,hester,[mask],0,0.33,0,0.33,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",hamilton,hester,hồ,colonel,0,0.4,0,0.15,0,0.22,0,0.3,incorrect,incorrect,incorrect,incorrect
+"['señor palmer', 'anh palmer', 'palmer', 'mr palmer']",mr. bates,john,mother,el [mask] es exactamente la clase de hombre que me gusta.,0,0.56,0,0.29,0,0.5,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lucy'],fanny,hester,emmeline,elizabeth,0,0.22,0,0.0,0,0.17,0,0.15,incorrect,incorrect,incorrect,incorrect
+['annamaria'],child,kız,baby,niña,0,0.14,0,0.17,0,0.15,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",cecilia,hester,taiwan,[mask],0,0.27,0,0.14,0,0.57,0,0.29,incorrect,incorrect,incorrect,incorrect
+['elinor'],mr.,hester,hester,[mask],0,0.22,0,0.33,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lucy', 'lucy—']",miss smith,miss maudie,norland,lady catherine,0,0.0,0,0.13,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['ferrars', 'mrs ferrars', 'señora ferrars']",you,hester,hester,hester,0,0.22,0,0.5,0,0.5,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['ferrars', 'mrs ferrars', 'señora ferrars']",s. [mask],hester,hester,hester,0,0.33,0,0.5,0,0.5,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['lucy', 'lucy—']",lord,hester,hester,hester,0,0.25,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",hester,kadın,hester,[mask],0,0.33,0,0.36,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lucy'],lizzie,hester,hester,maría,0,0.2,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lucy'],miss,[mask],hester,[mask],0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mr ferrars', 'ferrars', 'señor ferrars']",hester,hester,mother,el [mask],0,0.55,0,0.55,0,0.5,0,0.38,incorrect,incorrect,incorrect,incorrect
+['edward'],elinor,hester,hester,hester,0,0.33,0,0.33,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['ferrars', 'mrs ferrars']",her son,hester,elinor,hester,0,0.43,0,0.35,0,0.31,0,0.35,incorrect,incorrect,incorrect,incorrect
+['elinor'],miss,knight,hester,hester,0,0.2,0,0.17,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['elinor'],lord,hester,mom,[mask],0,0.6,0,0.33,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['middleton', 'lady middleton']",her mother,hester,phu nhân,hester,0,0.25,0,0.27,0,0.18,0,0.27,incorrect,incorrect,incorrect,incorrect
+['elinor'],elizabeth,hester,mother,ana,0,0.4,0,0.33,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['anh palmer', 'palmer', 'mr palmer']",papa,hester,hai cô,papá,0,0.4,0,0.38,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+['marianne'],mr. smith,hester,hester,juan,0,0.35,0,0.14,0,0.14,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jenning', 'jennings', 'señora jennings']",mr. and mrs. smith,hester,berkeley,sra. smith,0,0.33,0,0.5,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['willoughby', 'elinor']",dear,elinor,miss,hester,0,0.4,1,1.0,0,0.2,0,0.33,incorrect,correct,incorrect,incorrect
+"['marianne', 'miss marianne']",arthur,hester,elizabeth,elizabeth,0,0.29,0,0.21,0,0.27,0,0.27,incorrect,incorrect,incorrect,incorrect
+['marianne'],arthur,hester,hester,hester,0,0.29,0,0.14,0,0.14,0,0.14,incorrect,incorrect,incorrect,incorrect
+['marianne'],mary,hester,em,john,0,0.5,0,0.14,0,0.2,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['edvvard', 'edward']",elizabeth,hester,hester,juan,0,0.27,0,0.33,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['marianne'],arthur,hester,hester,[mask],0,0.29,0,0.14,0,0.14,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",mr.,hester,hester,duchess,0,0.67,0,0.5,0,0.5,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",elizabeth,john,hester,maría,0,0.27,0,0.33,0,0.5,0,0.5,incorrect,incorrect,incorrect,incorrect
+['marianne'],mrs. white,hester,em,hester,0,0.44,0,0.14,0,0.2,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['willoughby', 'mr willoughby']",hester,hester,hester,hester,0,0.25,0,0.25,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",hester,bond,hester,elizabeth,0,0.5,0,0.2,0,0.5,0,0.27,incorrect,incorrect,incorrect,incorrect
+['eliza'],hester,arthur,hester,hester,0,0.18,0,0.18,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['marianne'],mrs.,hester,london,mary,0,0.33,0,0.14,0,0.29,0,0.5,incorrect,incorrect,incorrect,incorrect
+['elinor'],brother,hester,uncle,juan,0,0.31,0,0.33,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+['edward'],miss,hester,hester,hester,0,0.0,0,0.33,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['elino', 'elinor']",twice,hester,hester,hester,0,0.2,0,0.33,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['', 'fanny']",john,hester,em,hester,0,0.22,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],john,john,children,juan,0,0.22,0,0.22,0,0.31,0,0.22,incorrect,incorrect,incorrect,incorrect
+['marianne'],elizabeth,hester,hester,john,0,0.24,0,0.14,0,0.14,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['', 'ferrars', 'señora ferrars']",hester,hester,hester,[mask],0,0.5,0,0.5,0,0.5,0,0.31,incorrect,incorrect,incorrect,incorrect
+['marianne'],miss,hester,hester,[mask],0,0.33,0,0.14,0,0.14,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['robert', 'elinor']",dawlish,dawlish,dawlish,mr. pimpernel,0,0.31,0,0.31,0,0.31,0,0.32,incorrect,incorrect,incorrect,incorrect
+"['middleton', 'lady middleton']",lord,hester,phoenix,lady catherine,0,0.5,0,0.27,0,0.12,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",arthur,hester,chị,juan,0,0.17,0,0.33,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['marianne', 'marianne—']",he,hester,hester,[mask],0,0.2,0,0.14,0,0.14,0,0.29,incorrect,incorrect,incorrect,incorrect
+['edward'],he,hester,hester,juan,0,0.25,0,0.33,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['edward'],he,hester,hester,hester,0,0.25,0,0.33,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",s. [mask],hester,trai trẻ,la [mask],0,0.33,0,0.5,0,0.35,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",s. [mask],hester,hester,maría,0,0.33,0,0.5,0,0.5,0,0.5,incorrect,incorrect,incorrect,incorrect
+['elinor'],mary,hester,hester,hester,0,0.2,0,0.33,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['edward'],john,hester,oxford,[mask],0,0.0,0,0.33,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['mrs jennings', 'jennings', 'señora jennings']",colonel,willoughby,hester,colonel,0,0.15,0,0.22,0,0.5,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['brandon', 'albay brandon']",colonel,hester,đại tá,colonel,0,0.3,0,0.15,0,0.36,0,0.3,incorrect,incorrect,incorrect,incorrect
+"['elinor—', 'elinor']",mr. parson,hester,hester,[mask],0,0.12,0,0.33,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['elinor'],hester,hester,hester,ana,0,0.33,0,0.33,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+['edward'],percival,hester,hester,hester,0,0.29,0,0.33,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect

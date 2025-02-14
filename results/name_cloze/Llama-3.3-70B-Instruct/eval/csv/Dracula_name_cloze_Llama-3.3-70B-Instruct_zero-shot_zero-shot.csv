@@ -1,0 +1,91 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['attila', 'atila', 'magyard']",attila,sekeller,hung,attila,1,1.0,0,0.15,0,0.18,1,1.0,correct,incorrect,incorrect,correct
+"['kont dracula', 'dracula', 'conde drácula']",dracula,drakula,bá tước,drácula,1,1.0,0,0.86,0,0.29,1,1.0,correct,correct,incorrect,correct
+"['kont dracula', 'dracula', 'conde drácula']",dracula,drakula,bá tước,drácula,1,1.0,0,0.86,0,0.29,1,1.0,correct,correct,incorrect,correct
+"['mr hawkins', 'hawkins']",someone,kont,người,rey,0,0.24,0,0.36,0,0.17,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['kont dracula', 'dracula', 'drácula']",dracula,kont,dracula,drácula,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['lucy'],she,aksay,nam cao,alejandro,0,0.0,0,0.22,0,0.18,0,0.15,incorrect,incorrect,incorrect,incorrect
+['lucy'],mina,yazar,ông già,él,0,0.0,0,0.22,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['renfield'],the patient,hastanın,nguyễn ái quốc,el perro,0,0.21,0,0.25,0,0.27,0,0.25,incorrect,incorrect,incorrect,incorrect
+['olgaren'],"none of the given options are provided, but based on the context, a name is expected. since no specific name is mentioned in the passage, i will take a guess that the name could be a character from a well-known story, possibly ""dracula"" by bram stoker, where a similar scene is described. in that case, the name could be ""arthur"" or another character's name, but the most likely candidate is the narrator himself, who is often referred to as",kaptan,không có thông tin,no se proporciona un nombre específico en el pasaje,0,0.0,0,0.31,0,0.24,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['jonathan', 'jona']","someone's name, likely a male, is required here. given the context, a reasonable guess for the name would be a character from a story, possibly ""jonathan"" or another name that fits the narrative's style and period. however, without more context, a specific name cannot be determined with certainty. a common name that fits many literary contexts could be ""jonathan"", but it's purely speculative without more information about the story or its characters.",ben,anh,él,0,0.03,0,0.29,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lucy'],mina,emily,không có tên cụ thể,catherine,0,0.0,0,0.44,0,0.09,0,0.15,incorrect,incorrect,incorrect,incorrect
+['lucy'],mina,mina,người yêu,mina,0,0.0,0,0.0,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lucy'],chloris,morpheus,người yêu,ella,0,0.18,0,0.17,0,0.31,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['miss westenra', 'lucy', 'westenra']",she,onun,ông,emily,0,0.29,0,0.25,0,0.18,0,0.44,incorrect,incorrect,incorrect,incorrect
+['arthur'],mr. holmes,holmes,người đàn ông,maría,0,0.25,0,0.17,0,0.11,0,0.36,incorrect,incorrect,incorrect,incorrect
+['lucy'],she,çocuk,nguyễn nhiên,ella,0,0.0,0,0.22,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['van helsing'],van helsing,profesör,người bạn,el profesor,1,1.0,0,0.27,0,0.33,0,0.33,correct,incorrect,incorrect,incorrect
+['bersicker'],jack,jamrach,thỏ trắng,marvin,0,0.31,0,0.25,0,0.11,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['tom', 'bilder', 'ms tom', 'bà bilder']",silas,bay i̇hsan,người đàn ông,mujer,0,0.36,0,0.44,0,0.21,0,0.36,incorrect,incorrect,incorrect,incorrect
+['bersicker'],the dog,kurt,người,san francisco,0,0.12,0,0.15,0,0.14,0,0.27,incorrect,incorrect,incorrect,incorrect
+['thomas'],mark twain,abraham lincoln,tôi,don quijote,0,0.25,0,0.19,0,0.44,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['mr bilder', 'bilder', 'bilde']",mr. lorry,hz. musa,anh,josé,0,0.56,0,0.2,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['lucy', 'renfield']",dr. seward,yönetici,không có tên cụ thể,mi casa,0,0.33,0,0.25,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['van helsin', 'van helsing']",my mother,annem,đa minh,van helsing,0,0.32,0,0.5,0,0.47,1,1.0,incorrect,incorrect,incorrect,correct
+"['van helsin', 'van helsing']",the doctor,doktor,bác sĩ,el médico,0,0.25,0,0.0,0,0.5,0,0.4,incorrect,incorrect,incorrect,incorrect
+['lucy'],emily,özdemir asaf,chị,la niña,0,0.44,0,0.0,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['john ạ', 'john']",quincey,ahmet, bạn ,miguel,0,0.18,0,0.33,0,0.5,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",he,dracula,anh,el narrador o el acompañante del narrador,0,0.2,0,0.27,0,0.36,0,0.16,incorrect,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",husband,o,anh,esposo,0,0.4,0,0.4,0,0.36,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['mina', 'bà min', 'madam mina', 'señora mina']",madam,bay,thầy,señor,1,1.0,0,0.8,0,0.33,0,0.91,correct,correct,incorrect,correct
+"['luc', 'lucy']",emily,özdemir asaf,anh,señorita,0,0.44,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['miss lucy', 'lucy']",emily,helena,chúa,ita,0,0.57,0,0.2,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+['john'],van helsing,sherlock holmes,đạt,amigo mío,0,0.27,0,0.21,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+['lucy'],lucy,dracula,dracula,lucy,1,1.0,0,0.18,0,0.18,1,1.0,correct,incorrect,incorrect,correct
+"['doctor van helsing', 'van helsing']",edmond,arkadaşım,chúa,edmundo dantés,0,0.33,0,0.3,0,0.29,0,0.44,incorrect,incorrect,incorrect,incorrect
+['van helsing'],heathcliff,dr. smith,người nói,el doctor,0,0.47,0,0.2,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['helsing', 'van helsing']",holmes,annem,ông,él,0,0.46,0,0.5,0,0.4,0,0.44,incorrect,incorrect,incorrect,incorrect
+['lucy'],ligeia,lenore,emily,ella,0,0.2,0,0.2,0,0.44,0,0.25,incorrect,incorrect,incorrect,incorrect
+['van helsing'],lincoln,abraham lincoln,nguyễn ái quốc,jesús,0,0.43,0,0.38,0,0.24,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['“lord godalming', 'lord godalming', 'lordship', 'godalming']",lord,hamlet,đorian,señor,1,1.0,0,0.27,0,0.43,0,0.44,correct,incorrect,incorrect,incorrect
+"['seward', 'dr seward']",dracula,babam,bác sĩ,sigmund,0,0.44,0,0.18,0,0.27,0,0.31,incorrect,incorrect,incorrect,incorrect
+['lucy'],lenina,thomas edison,anh,él,0,0.2,0,0.0,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['seward', 'dr seward']",dracula,edison,hồ chí minh,freud,0,0.44,0,0.27,0,0.1,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['seward', 'sewar', 'dr seward']",dracula,dracula,seward,seward,0,0.44,0,0.44,1,1.0,1,1.0,incorrect,incorrect,correct,correct
+"['harker', 'ms harker', 'mina', 'señora harker']",van helsing,karım,người bạn,señora,0,0.33,0,0.36,0,0.4,1,1.0,incorrect,incorrect,incorrect,correct
+"['mina', 'madam mina', 'harker']",mina,hanım,mẹ,butler,1,1.0,0,0.36,0,0.33,0,0.33,correct,incorrect,incorrect,incorrect
+['mina'],mina,mina,"nobody (không có tên cụ thể nào được đề cập trong đoạn văn, nhưng dựa trên ngữ cảnh, có thể giả định rằng [mask] ám chỉ đến người mà người kể đang quan tâm, có thể là vợ, bạn gái hoặc người thân thiết. tuy nhiên, không có thông tin cụ thể nào về tên của người này, vì vậy không thể xác định chính xác.)",mina,1,1.0,1,1.0,0,0.01,1,1.0,correct,correct,incorrect,correct
+"['jonathan', 'jona']",jonathan,kont,chồng,mi esposo,1,1.0,0,0.5,0,0.44,0,0.15,correct,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",jonathan,annem,anh,él,1,1.0,0,0.31,0,0.36,0,0.0,correct,incorrect,incorrect,incorrect
+['sam'],he,çarli,đạt,él,0,0.0,0,0.25,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['dracula', 'drácula', 'kont']",dracula,carfax,dracula,drácula,1,1.0,0,0.31,1,1.0,1,1.0,correct,incorrect,correct,correct
+['mina'],mina,annem,cô ấy,mina,1,1.0,0,0.22,0,0.22,1,1.0,correct,incorrect,incorrect,correct
+['mina'],mina,exeter,cô,ellie,1,1.0,0,0.0,0,0.0,0,0.22,correct,incorrect,incorrect,incorrect
+"['seward', 'doctor seward', 'sewar']",holmes,sn.,nguyễn,sherlock,0,0.21,0,0.25,0,0.18,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['renfield', 'kont']",renfield,kont,lão bá tước,renfield,1,1.0,1,1.0,0,0.27,1,1.0,correct,correct,incorrect,correct
+['van helsing'],dr. watson,doktor,bác sĩ,harvey,0,0.31,0,0.0,0,0.47,0,0.31,incorrect,incorrect,incorrect,incorrect
+['van helsing'],dr. seward,dr. jekyll,bác sĩ,el doctor,0,0.15,0,0.29,0,0.47,0,0.25,incorrect,incorrect,incorrect,incorrect
+['van helsing'],dracula,william blake,tôi,diablo,0,0.22,0,0.25,0,0.2,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['harker', 'ms harker']",dracula,drakula,người khác,luna,0,0.15,0,0.31,0,0.32,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['mina', 'madam mina', 'harker']",mina,harry,nguyễn,mary,1,1.0,0,0.73,0,0.2,0,0.5,correct,correct,incorrect,incorrect
+"['jonathan', 'jona']",van helsing,sherlock holmes,arthur conan doyle,sherlock,0,0.21,0,0.17,0,0.31,0,0.17,incorrect,incorrect,incorrect,incorrect
+['mina'],her,annemiz, bạn ,ella,0,0.0,0,0.36,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['helsing', 'van helsing']",professor,profesör,giáo sư,el mayordomo,0,0.25,0,0.27,0,0.33,0,0.21,incorrect,incorrect,incorrect,incorrect
+"['harker', 'ms harker', 'mina', 'señora harker']",miss,kadını,mẹ,niña,0,0.67,0,0.4,0,0.5,0,0.75,incorrect,incorrect,incorrect,correct
+"['mina', 'ơn chúa']",mina,mina,jonathan,mina,1,1.0,1,1.0,0,0.53,1,1.0,correct,correct,incorrect,correct
+['mina'],mina,annem,nobody,ella,1,1.0,0,0.22,0,0.2,0,0.25,correct,incorrect,incorrect,incorrect
+"['mina', 'min']",mother,annem,anh,ella,0,0.22,0,0.25,0,0.33,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['seward', 'dr seward']",quincey,galata,phạm,watson,0,0.15,0,0.17,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['john', 'amigo john']",watson,abdurrahman,đức,alguien,0,0.4,0,0.29,0,0.0,0,0.35,incorrect,incorrect,incorrect,incorrect
+['van helsing'],jesus,muhammed,chúa giêsu,jesús,0,0.33,0,0.27,0,0.38,0,0.33,incorrect,incorrect,incorrect,incorrect
+['mina'],mina,sevgilim,cô,ella,1,1.0,0,0.17,0,0.0,0,0.25,correct,incorrect,incorrect,incorrect
+['mina'],christina,sevgilim,người yêu,jesús,0,0.46,0,0.17,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['van helsing'],god,allah,phạm,house,0,0.2,0,0.25,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['mina', 'madam mina', 'señora mina']",mina,dracula,nguyễn,plaga,1,1.0,0,0.33,0,0.33,0,0.4,correct,incorrect,incorrect,incorrect
+['mina'],elizabeth,o,người yêu,mi esposa,0,0.31,0,0.0,0,0.15,0,0.46,incorrect,incorrect,incorrect,incorrect
+['van helsing'],someone in the group or possibly a character like mrs.,çay,người nào đó,ella,0,0.18,0,0.33,0,0.21,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['morris', 'mr morris', 'quincey morri', 'señor morris']",jonathan harker,arkadaşım,nhật ký,sholes,0,0.3,0,0.19,0,0.29,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",harry,ömer,nguyễn tuân,jesús,0,0.31,0,0.25,0,0.42,0,0.22,incorrect,incorrect,incorrect,incorrect
+['van helsing'],sherlock,avukat,đông,escher,0,0.4,0,0.44,0,0.36,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['skinsky', 'kont']",jonathan harker,sandık,chồng tôi,drácula,0,0.32,0,0.31,0,0.46,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['mina', 'madam mina', 'señora mina']",mina,gandalf,không có thông tin,sherlock holmes,1,1.0,0,0.5,0,0.34,0,0.38,correct,incorrect,incorrect,incorrect
+"['morris', 'mr morris', 'señor morris']",jonathan,esör,giáo sư,esor,0,0.15,0,0.67,0,0.31,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",the professor,profesör,giáo sư,el profesor,0,0.19,0,0.17,0,0.18,0,0.13,incorrect,incorrect,incorrect,incorrect
+['van helsing'],essor,esör,hồ chí minh,watson,0,0.33,0,0.36,0,0.36,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",god,tanrı,chúa,dios,0,0.29,0,0.46,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['van helsing'],quincey,sevgilim,chúa,el río,0,0.29,0,0.4,0,0.29,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['mina', 'madam mina']",she,ben,nguyễn nghi,maría,0,0.0,0,0.29,0,0.19,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['mina', 'madam mina', 'señora mina']",mina,o,người ấy,ella,1,1.0,0,0.29,0,0.43,0,0.4,correct,incorrect,incorrect,incorrect
+"['mina', 'madam mina', 'min']",mina,onun,nghị,maría,1,1.0,0,0.29,0,0.29,0,0.67,correct,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",the cart,çeribaşı,người tôi,ella,0,0.38,0,0.17,0,0.24,0,0.25,incorrect,incorrect,incorrect,incorrect

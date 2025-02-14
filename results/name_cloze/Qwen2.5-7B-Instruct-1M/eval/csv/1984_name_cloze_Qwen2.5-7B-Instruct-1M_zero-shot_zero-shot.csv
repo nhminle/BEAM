@@ -1,0 +1,61 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['winston smith'],victor,zafer konağı,người đó,juan,0,0.46,0,0.24,0,0.27,0,0.18,incorrect,incorrect,incorrect,incorrect
+['winston'],winston,"kırk beş yaşlarında, siyah gür bıyıklı, sert çizgileriyle bir erkek yüzü",anh cả,el hombre,1,1.0,0,0.1,0,0.15,0,0.12,correct,incorrect,incorrect,incorrect
+"['winston', 'wiston']",he,elini,ngu,ella,0,0.0,0,0.36,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['señora parsons', 'parsons', 'bayan parsons']",s.,çocuklar,các cháu nhà tôi,la maestra,0,0.25,0,0.29,0,0.34,0,0.38,incorrect,incorrect,incorrect,incorrect
+['tom'],he,evren,người ấy,alguien,0,0.0,0,0.0,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['winston', 'eurasia']",someone,avrasya,hà nội,[mask],0,0.43,0,0.57,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+['winston'],he,memur,viên chức nhà nước,un oficinista,0,0.0,0,0.0,0,0.24,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın"", 'winston’s']",the pain of the coughing fit had not quite driven out of his mind,öksürük nöbeti,london,londres,0,0.16,0,0.1,0,0.38,0,0.38,incorrect,incorrect,incorrect,incorrect
+['winston'],he,colchester,anh,colchester,0,0.0,0,0.24,0,0.2,0,0.24,incorrect,incorrect,incorrect,incorrect
+['winston'],[mask],maskarade,người đó,el usuario,0,0.15,0,0.12,0,0.27,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['smith', 'smit']",old boy,bolluk bakanlığı,bộ ấm no,el ministerio de la abundancia,0,0.0,0,0.1,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['winston'],he,i̇stanbul,người đàn ông,él,0,0.0,0,0.53,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['winston', 'winston’s']",the eurasian general staff,kanada,eurasia,siberia,0,0.24,0,0.15,0,0.14,0,0.14,incorrect,incorrect,incorrect,incorrect
+['winston'],someone,birinci kişi,người đó,victoria,0,0.43,0,0.32,0,0.27,0,0.4,incorrect,incorrect,incorrect,incorrect
+['winston'],the proles,gemi,bọn cu li,los proles,0,0.12,0,0.18,0,0.25,0,0.24,incorrect,incorrect,incorrect,incorrect
+['winston'],he,anacadde,anh,descendía,0,0.0,0,0.13,0,0.2,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['winston', 'winston—']",unknown,benden,cụ già,[mask],0,0.29,0,0.31,0,0.15,0,0.15,incorrect,incorrect,incorrect,incorrect
+['winston'],he,maskarada,mũ phớt,ellos,0,0.0,0,0.12,0,0.14,0,0.17,incorrect,incorrect,incorrect,incorrect
+['winston'],the old man,yaşlı adam,anh,viejo,0,0.11,0,0.12,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+['winston'],the shopkeeper,köşe,gian hàng,alguien,0,0.19,0,0.18,0,0.38,0,0.29,incorrect,incorrect,incorrect,incorrect
+['winston'],the old man,yaslı adam,anh,el dueño de la tienda,0,0.11,0,0.12,0,0.2,0,0.14,incorrect,incorrect,incorrect,incorrect
+['winston'],he,onlar,ngài,alguien,0,0.0,0,0.33,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın"", 'winston’s']",his,garip,trong lòng anh,frente,0,0.4,0,0.17,0,0.33,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'a"", 'winston.']",himself,tutsağın,couple,mujer,0,0.29,0,0.27,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['winston'],he,zoey,cô,ésta,0,0.0,0,0.18,0,0.22,0,0.36,incorrect,incorrect,incorrect,incorrect
+['winston'],he,onu,họ,ellos,0,0.0,0,0.4,0,0.22,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['julia—', 'julia']",someone,buraya,nhân vật,[mask],0,0.0,0,0.36,0,0.15,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['katherine', ""katharine'in"", 'katharine']",name,name,cô ấy,una cosa,0,0.31,0,0.31,0,0.14,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['julia', 'here’s']",she,onu,cô,ella,0,0.44,0,0.25,0,0.0,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['julia—', 'julia']",someone,ben,em,juan,0,0.0,0,0.0,0,0.0,0,0.67,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",[mask],ama,một chuyên gia tầm cỡ,nombreolvidado,0,0.0,0,0.0,0,0.21,0,0.38,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",he,heybetli kişi,người đó,el hombre,0,0.22,0,0.2,0,0.27,0,0.5,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",he,on,người đó,[mask],0,0.22,0,0.44,0,0.27,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['huynh đệ', 'goldstein']",the leader,kardeşlik,brotherhood,hermandad,0,0.44,0,0.36,0,0.32,0,0.35,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",he,she,người kia,él,0,0.22,0,0.2,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['winston'],he,görkemli bir memur,anh,el trabajador,0,0.0,0,0.08,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['julia'],jane,şarkı,nàng,el,0,0.44,0,0.2,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın""]",you,vedalaşsanız,người,la voz,0,0.2,0,0.11,0,0.17,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['smith', 'smit']",jane,aysel,nhân,maria,0,0.0,0,0.22,0,0.22,0,0.44,incorrect,incorrect,incorrect,incorrect
+['parsons'],winston,köley,đảng,el hombre,0,0.43,0,0.17,0,0.36,0,0.12,incorrect,incorrect,incorrect,incorrect
+['parsons'],she,benim küçük kız,con gái tôi,miniña,0,0.2,0,0.09,0,0.22,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'i""]",another prisoner,unknown,nguyễn văn[to be guessed],juan,0,0.35,0,0.29,0,0.19,0,0.18,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",they,ben,chúng,el guardia,0,0.18,0,0.6,0,0.17,0,0.24,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",that was forty,bu kırktı,đấy,cuarenta,0,0.19,0,0.38,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",he,öğretmen,người đó,el profesor,0,0.22,0,0.53,0,0.27,0,0.22,incorrect,incorrect,incorrect,incorrect
+['winston'],he,i̇bre,người đó,[mask],0,0.0,0,0.18,0,0.27,0,0.15,incorrect,incorrect,incorrect,incorrect
+['winston'],he,kim,anh,no sabría decir quién,0,0.0,0,0.2,0,0.2,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['winston', ""o 'brien"", ""o'brien'ın"", 'o’brien']",madame,ona,người kia,el,0,0.17,0,0.5,0,0.35,0,0.25,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",[mask],i̇lkadı,anh,[mask],0,0.0,0,0.15,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",he,yıldızlar,nhân vật,españa,0,0.22,0,0.12,0,0.13,0,0.31,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",john,sen,anh,[mask],0,0.36,0,0.4,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",[mask],maskarada,anh,[mask],0,0.0,0,0.12,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",[mask],karagöz,anh,el narrador,0,0.0,0,0.14,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+"[""o'brien"", 'o’brien']",the speaker,fareler,họ,[mask],0,0.11,0,0.29,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'a""]",fartheraway,kafeste,có,el narrador,0,0.2,0,0.29,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"[""o'brien—"", ""o'brien"", 'o’brien']",someone,i̇lk mandala bastım,bạn,[mask],0,0.43,0,0.16,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['winston', ""winston'ın"", 'tim winston', 'winston’s']",winston,afrika,đồng minh,el partido,1,1.0,0,0.22,0,0.3,0,0.31,correct,incorrect,incorrect,incorrect
+['winston'],he,tel,anh,la telepantalla,0,0.0,0,0.2,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['winston'],the younger child,büyükbabam,nhà,ella,0,0.08,0,0.0,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['winston', 'winston,']",he,oturan,người cầm cái chai,uno,0,0.0,0,0.15,0,0.08,0,0.4,incorrect,incorrect,incorrect,incorrect

@@ -1,0 +1,47 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['alice', 'alicia']",alice,leila,thái bạch,alice,1,1.0,0,0.2,0,0.43,1,1.0,correct,incorrect,incorrect,correct
+"['alice', 'alicia']",alice,galileo galilei,phạm văn đồng,don quixote,1,1.0,0,0.4,0,0.21,0,0.25,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,ali,phạm văn đồng,jane,1,1.0,0,0.75,0,0.21,0,0.44,correct,correct,incorrect,incorrect
+"['alice', 'alicia']",alice,yozgatlı kemal,phương,white rabbit,1,1.0,0,0.21,0,0.0,0,0.24,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,her şey,phạm văn toàn,la bruja malvada,1,1.0,0,0.17,0,0.21,0,0.27,correct,incorrect,incorrect,incorrect
+['dodo'],mr. brown,i̇smet i̇nönü,nguyễn văn thiệu,el presidente,0,0.15,0,0.13,0,0.0,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",miss havisham,i̇brahim i̇lhan,charlie,la bruja,0,0.32,0,0.32,0,0.67,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",the queen of hearts,şahin,phạm vân,don quixote,0,0.08,0,0.4,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,i̇smet i̇nönü,phạm văn chánh,la botellita mágica,1,1.0,0,0.25,0,0.3,0,0.4,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,attila,phạm văn đồnh,calpurnia,1,1.0,0,0.5,0,0.21,0,0.53,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,antoine lavoisier,phạm văn đồng,george,1,1.0,0,0.36,0,0.21,0,0.18,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",little red riding hood,aslan,phạm văn toàn,perro,0,0.22,0,0.55,0,0.21,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",not provided,çay köpek,phạm văn đồng,carlos,0,0.24,0,0.29,0,0.21,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,yunus emre,agaricus,agustín,1,1.0,0,0.13,0,0.46,0,0.33,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",white rabbit,i̇smet i̇nönü,phần mềm,la pobre margarita,0,0.24,0,0.25,0,0.31,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",caterpillar,yunus emre,thỏ sâu,la oruga,0,0.35,0,0.13,0,0.17,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,yusuf,phạm văn đồng,agatha christie,1,1.0,0,0.0,0,0.21,0,0.3,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,yıldız tilbe,phạm văn đồnh,roberto bolaño,1,1.0,0,0.35,0,0.21,0,0.11,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,recep tayyip erdoğan,phạm vân,pinocchio,1,1.0,0,0.23,0,0.29,0,0.4,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",mr. macgregor,erdoğan,phạm văn chánh,don quixote,0,0.33,0,0.17,0,0.3,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,atatürk,dr. seuss,don quixote,1,1.0,0,0.31,0,0.14,0,0.25,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",miss alice,i̇smet i̇nönü,phạm linh,doña victorina,0,0.67,0,0.25,0,0.43,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,i̇brahim,garfield,maría,1,1.0,0,0.33,0,0.31,0,0.55,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",miss pole,erdoğan,giờ trăng,maría,0,0.29,0,0.17,0,0.14,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",miss alice,ali,phạm văn chính,la cocinera,0,0.67,0,0.75,0,0.21,0,0.47,incorrect,correct,incorrect,incorrect
+"['alice', 'alicia']",alice,galileo galilei,nguyễn đình thi,capitán nemo,1,1.0,0,0.4,0,0.19,0,0.35,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,i̇smet i̇nönü,phạm văn toàn,maría,1,1.0,0,0.25,0,0.21,0,0.55,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",mr. darcy,yahya,đỗ quang huy,maría dolores,0,0.29,0,0.36,0,0.12,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",mad hatter,ali,thỏ rừng,beatriz,0,0.27,0,0.75,0,0.0,0,0.33,incorrect,correct,incorrect,incorrect
+"['alice', 'alicia']",the queen of hearts,mustafa kemal atatürk,phạm văn đồng,agustín de iturbide,0,0.08,0,0.22,0,0.21,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",professor mcgonagall,erdoğan,phạm duy khiêm,beatriz,0,0.16,0,0.17,0,0.32,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,aslan,phạm duy,el sapo,1,1.0,0,0.55,0,0.15,0,0.17,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,i̇smet i̇nönü,phạm văn đồng,don quixote,1,1.0,0,0.25,0,0.21,0,0.25,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,atilla,phan vân,el jardinerito,1,1.0,0,0.5,0,0.29,0,0.32,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,i̇smet i̇nönü,phạm văn đồng,juan,1,1.0,0,0.25,0,0.21,0,0.22,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,çağatay ulusoy,van persie,francisco goya,1,1.0,0,0.21,0,0.4,0,0.4,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",miss pole,newton,trung quốc,maría,0,0.29,0,0.18,0,0.13,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",mrs. jewell,i̇smet i̇nönü,phạm thị mỹ,pepe,0,0.12,0,0.25,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",miss bates,i̇lhan şener,thủy tinh,don quixote,0,0.27,0,0.25,0,0.14,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia', 'alice ejder']",alice,i̇smet i̇nönü,phù đổng thiên,calaf,1,1.0,0,0.27,0,0.21,0,0.55,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,özlem yıldız,ngọc hoàng,el autor,1,1.0,0,0.33,0,0.13,0,0.15,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,i̇stakoz kadrili,phạm vân,manuel,1,1.0,0,0.3,0,0.29,0,0.36,correct,incorrect,incorrect,incorrect
+"['alice', 'alic', 'alicia']",turtle,yalancı kaplumbağa,trà giang,la falsa tortuga,0,0.36,0,0.42,0,0.4,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,barış manço,phạm văn đồng,walt disney,1,1.0,0,0.38,0,0.21,0,0.5,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",the queen of hearts,mustafa kemal atatürk,trần thị trang,maría fernanda ampuero,0,0.08,0,0.22,0,0.3,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,i̇smet i̇nönü,nguyễn du,carlos,1,1.0,0,0.25,0,0.14,0,0.36,correct,incorrect,incorrect,incorrect

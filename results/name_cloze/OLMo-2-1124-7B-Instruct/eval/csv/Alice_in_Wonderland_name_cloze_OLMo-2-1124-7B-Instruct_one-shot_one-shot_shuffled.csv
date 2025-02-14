@@ -1,0 +1,47 @@
+Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,es_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['alice', 'alicia']",eden,yüksel,phú thọ,maría,0,0.22,0,0.18,0,0.0,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",drink of punch,şişe,nguyễn đình thi,bebeme,0,0.21,0,0.44,0,0.19,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",miss anne,zavallı,thiện,lothario,0,0.29,0,0.5,0,0.4,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",missus,ömer,theresa,maría,0,0.18,0,0.22,0,0.17,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",miss bates,doğal şaht,thịt,al,0,0.27,0,0.38,0,0.22,0,0.57,incorrect,incorrect,incorrect,incorrect
+['dodo'],chatham,benjamin,ngô đình diệm,reyes,0,0.0,0,0.0,0,0.24,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",agnes,ödül,ngọc hoàng,maría,0,0.4,0,0.22,0,0.13,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",miss bates,halil,phúc,don quijote,0,0.27,0,0.6,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",emily,ada,thịt,maría,0,0.2,0,0.44,0,0.22,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",missy,henry,thuyền nhân,maría,0,0.2,0,0.2,0,0.12,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",cake,hamlet,bánh,y,0,0.44,0,0.55,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",fluffy,ali,trái đất,maría,0,0.18,0,0.75,0,0.43,0,0.55,incorrect,correct,incorrect,incorrect
+"['alice', 'alicia']",fluffy,paul,phoebe,perro,0,0.18,0,0.44,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",elizabeth bennet,ali,phú đồng,juan,0,0.29,0,0.75,0,0.0,0,0.22,incorrect,correct,incorrect,incorrect
+"['alice', 'alicia']",penelope,ali,thiền sư,creatures,0,0.31,0,0.75,0,0.31,0,0.29,incorrect,correct,incorrect,incorrect
+"['alice', 'alicia']",alice,donkey,nguyễn khuyến,un,1,1.0,0,0.18,0,0.11,0,0.0,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",ann,yusuf,ngôi cây,así,0,0.25,0,0.0,0,0.15,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",emily,aliye,nguyễn đình thi,y,0,0.2,0,0.8,0,0.19,0,0.0,incorrect,correct,incorrect,incorrect
+"['alice', 'alicia']",penelope,ada,tất cô,estela,0,0.31,0,0.44,0,0.36,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",mr. bennet,hoşgörü,trứng,los huevos,0,0.13,0,0.0,0,0.0,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",eliza,mübarek,phúc kiến,era,0,0.55,0,0.33,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",arthur,ömer,phan,abrió,0,0.18,0,0.22,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",missy,osman,tru,juanita,0,0.2,0,0.2,0,0.0,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",longitude,dünya,phoebe,yaquinto,0,0.43,0,0.2,0,0.18,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",missus,ali,thanh,maría,0,0.18,0,0.75,0,0.2,0,0.55,incorrect,correct,incorrect,incorrect
+"['alice', 'alicia']",octopus,ali,phút một,don quijote,0,0.17,0,0.75,0,0.0,0,0.25,incorrect,correct,incorrect,incorrect
+"['alice', 'alicia']",dog,doğrusu,phúc,maría,0,0.0,0,0.0,0,0.22,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",wilhelmina,ali,ngọc huy,la,0,0.13,0,0.75,0,0.15,0,0.29,incorrect,correct,incorrect,incorrect
+"['alice', 'alicia']",end,masa,thỏ,la protesta,0,0.25,0,0.4,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",chloe,ali,nguyễn đình thi,y,0,0.4,0,0.75,0,0.19,0,0.0,incorrect,correct,incorrect,incorrect
+"['alice', 'alicia']",missy,ali,nguyễn du,don quijote,0,0.2,0,0.75,0,0.14,0,0.25,incorrect,correct,incorrect,incorrect
+"['alice', 'alicia']",jane,ali,phoebe,don quijote,0,0.44,0,0.75,0,0.18,0,0.25,incorrect,correct,incorrect,incorrect
+"['alice', 'alicia']",miss watson,ali,thiện,el bosque,0,0.12,0,0.75,0,0.4,0,0.29,incorrect,correct,incorrect,incorrect
+"['alice', 'alicia']",elizabeth,yüzükoyun,phoebe,así,0,0.43,0,0.0,0,0.18,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",charles,ali,nguyễn khả lạc,guerrero,0,0.5,0,0.75,0,0.32,0,0.15,incorrect,correct,incorrect,incorrect
+"['alice', 'alicia']",emily,üstelik,phúc điện,erizo,0,0.2,0,0.33,0,0.29,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",eliza,ali,theresa,enrique,0,0.55,0,0.75,0,0.17,0,0.33,incorrect,correct,incorrect,incorrect
+"['alice', 'alicia']",emily,hoşnut,may,maría,0,0.2,0,0.0,0,0.25,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",harvard,hamlet,thịt,eladio,0,0.31,0,0.55,0,0.22,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia', 'alice ejder']",mr. darcy,ali,thiện đạo,don pedro,0,0.29,0,0.75,0,0.29,0,0.43,incorrect,correct,incorrect,incorrect
+"['alice', 'alicia']",emily,ali,nguyễn du,juan,0,0.2,0,0.75,0,0.14,0,0.22,incorrect,correct,incorrect,incorrect
+"['alice', 'alicia']",mr. pickwick,ali pasha,tôm,langosta,0,0.33,0,0.53,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alic', 'alicia']",turtle,kaplumbağa,thanh minh,tortuga,0,0.36,0,0.38,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",mr. pickwick,domuzbalığı,ngọc,el yo,0,0.33,0,0.47,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",charlotte,thomas,truman,al,0,0.43,0,0.18,0,0.18,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",missus,ali,anh em,maría,0,0.18,0,0.75,0,0.36,0,0.55,incorrect,correct,incorrect,incorrect

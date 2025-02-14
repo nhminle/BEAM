@@ -10,9 +10,12 @@ import sys
 def main(title,model,prompt_setting):
     print(title,model,prompt_setting)
     # _name_cloze_Llama-3.1-405b_one-shot
-    replace_str = '_name_cloze_{model}_{prompt_setting}'
+#     Dracula_name_cloze_Meta-Llama-3.1-8B-Instruct-quantized.w4a16_zero-shot Llama-3.1-8B-Instruct-quantized.w4a16 zero-shot
+# _name_cloze_Llama-3.1-8B-Instruct-quantized.w4a16_zero-shot
+# Processing Dracula_name_cloze_Meta-Llama-3.1-8B-Instruct-quantized.w4a16_zero-shot...
+    replace_str = f'_name_cloze_Meta-{model}_{prompt_setting}'
     print(replace_str)
-    book_name = title.replace(f'_name_cloze_{model}_{prompt_setting}', '')
+    book_name = title.replace(f'_name_cloze_Meta-{model}_{prompt_setting}', '')
     print(f'Processing {book_name}...')
     df1 = pd.read_csv(f'/Users/emir/Downloads/asd/BEAM/results/name_cloze/{model}/{prompt_setting}/{title}.csv')
     ent_df = pd.read_csv(f"/Users/emir/Downloads/asd/BEAM/scripts/Prompts/{book_name}/stored/{book_name}_filtered_sampled.csv")
@@ -203,13 +206,15 @@ def list_csv_files(directory):
 
 # main('The_Boy_in_the_Striped_Pyjamas_name_cloze_Llama-3.1-70B-Instruct')
 #'EuroLLM-9B-Instruct',
-models = [ 'OLMo-7B-0724-Instruct-hf', 'Llama-3.1-70B-Instruct', 'Llama-3.3-70B-Instruct', 'Meta-Llama-3.1-8B-Instruct', 'OLMo-2-1124-13B-Instruct','Llama-3.1-405b','gpt-4o-2024-11-20'] # add more models here
-#models = ['Llama-3.1-405b']
-prompt_setting = 'zero-shot' # one-shot || zero-shot
+#,'gpt-4o-2024-11-20'
+models = ['EuroLLM-9B-Instruct', 'OLMo-7B-0724-Instruct-hf', 'Llama-3.1-70B-Instruct', 'Llama-3.3-70B-Instruct', 'Meta-Llama-3.1-8B-Instruct', 'OLMo-2-1124-13B-Instruct','Llama-3.1-405b','Qwen2.5-7B-Instruct-1M','OLMo-2-1124-7B-Instruct'] # add more models here
+models = ['OLMo-2-1124-7B-Instruct']
+models = ['Llama-3.1-8B-Instruct-quantized.w4a16','Llama-3.1-8B-Instruct-quantized.w8a16','Llama-3.1-70B-Instruct-quantized.w4a16','Llama-3.1-8B-Instruct-quantized.w8a16']
+prompt_setting = 'one-shot' # one-shot || zero-shot
 
 for model in models:
     titles = list_csv_files(f'/Users/emir/Downloads/asd/BEAM/results/name_cloze/{model}/{prompt_setting}/')
     for title in titles:
-        if 'Below_Zero' not in title and 'The_Ministry_of_Time' not in title and 'Funny_Story' not in title:
+        if 'Below_Zero' not in title and 'The_Ministry_of_Time' not in title and 'Funny_Story' not in title and 'First_Lie_Wins' not in title and 'Lies_and_Weddings' not in title and 'Just_for_the_Summer' not in title and 'If_Only_I_Had_Told_Her' not in title and 'The_Paradise_Problem' not in title and 'You_Like_It_Darker_Stories' not in title and 'Bride' not in title:
             print(f'----------------running {title}----------------')
             main(title, model, prompt_setting)

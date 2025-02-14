@@ -1,0 +1,101 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['paul'],he,yatağının gölgeleri arasında uzanan yaşlı kadının gözlerini,bà lão,ella,0,0.0,0,0.1,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],he,uykuya,người,el nombre,0,0.0,0,0.2,0,0.22,0,0.15,incorrect,incorrect,incorrect,incorrect
+['paul'],he,kendi,ba,el ser humano,0,0.0,0,0.0,0,0.33,0,0.12,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,gomcebbâr,nàng,alguien,0,0.2,0,0.25,0,0.18,0,0.14,incorrect,incorrect,incorrect,incorrect
+['paul'],he,ses,cậu,ella,0,0.0,0,0.0,0,0.57,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],she,müjdeliye,người đó,él,0,0.0,0,0.31,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],he,kendine hâkim olamayan kişi,chầm,él,0,0.0,0,0.13,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],he,kadının,người đó,el hombre,0,0.0,0,0.18,0,0.17,0,0.15,incorrect,incorrect,incorrect,incorrect
+['paul'],he,sağ el,nó,él,0,0.0,0,0.4,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],he,sol,cậu,él,0,0.0,0,0.29,0,0.57,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,i̇nsan,nàng,mi madre,0,0.2,0,0.33,0,0.18,0,0.13,incorrect,incorrect,incorrect,incorrect
+['bene gesserit'],european,anne,dân tộc,andina,0,0.33,0,0.5,0,0.3,0,0.21,incorrect,incorrect,incorrect,incorrect
+['jessica'],you,irakli,ngươi,choam,0,0.0,0,0.31,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,"gözlerini kapadı; gözkapaklarının ardında biriken yaşların baskısını hissediyordu. i̇çindeki ve dışındaki titremelere, düzensiz soluklarına, hızlanan nabzına, avuçlarının terlemesine karşı mücadele etti. sonra “hatamın bedelini ödeyeceğim,” dedi.",nàng,ella,0,0.2,0,0.0,0,0.18,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessic']",[mask],oğlunu,nhà nước,ella,0,0.17,0,0.0,0,0.14,0,0.36,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,zeynep,nàng,ella,0,0.2,0,0.15,0,0.18,0,0.36,incorrect,incorrect,incorrect,incorrect
+['paul'],he,gaye,người đó,ella,0,0.0,0,0.25,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],he,i̇nsan,cậu,el hombre,0,0.0,0,0.22,0,0.57,0,0.15,incorrect,incorrect,incorrect,incorrect
+['hawat'],nodder,bu gezegenin sahibi,người đó,él,0,0.0,0,0.08,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],he,birisi,nhìn,alguien,0,0.0,0,0.0,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+['paul'],he,adam,cậu,él,0,0.0,0,0.25,0,0.57,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",she,hükmetmen,bà ta,[mask],0,0.0,0,0.15,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['halleck', 'paul']",he,halleck,ông,juan,0,0.44,1,1.0,0,0.0,0,0.25,incorrect,correct,incorrect,incorrect
+"['paul', 'paul—']",said,mızrap,nhân vật,juan,0,0.25,0,0.2,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+['gurney'],poor decoration,güzel durmazlar,người đó,el joven,0,0.19,0,0.29,0,0.29,0,0.14,incorrect,incorrect,incorrect,incorrect
+['paul'],he,"yatağında kum bulmanın nasıl bir şey olduğunu unutmuşsun anlaşılan,",thầy,juan,0,0.0,0,0.08,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['halleck'],the speaker's,göktürk,ông,los ojos de [mask] se abrieron...,0,0.3,0,0.14,0,0.0,0,0.1,incorrect,incorrect,incorrect,incorrect
+"['halleck', 'giọng halleck']",mood,havanda,nhân vật,llun,0,0.22,0,0.29,0,0.29,0,0.36,incorrect,incorrect,incorrect,incorrect
+['halleck'],he,zaman,người,el nombre,0,0.44,0,0.17,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],he,kasını,người nộm,el personaje,0,0.0,0,0.2,0,0.15,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],he,arrakis,thiago,la mirada de paul atreides se dirigió...,0,0.0,0,0.18,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],he,kitap,người đó,alguien,0,0.0,0,0.22,0,0.17,0,0.36,incorrect,incorrect,incorrect,incorrect
+['paul'],he,babasının,như,el padre,0,0.0,0,0.15,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],he,bir,cậu,alguien,0,0.0,0,0.0,0,0.57,0,0.36,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,bene gesserit okulu,nàng,el gigantesco,0,0.2,0,0.31,0,0.18,0,0.3,incorrect,incorrect,incorrect,incorrect
+['paul'],him,muhafızlı,thằng bé,juan,0,0.0,0,0.31,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessica—']",sophia,[mask],đại bàng,[mask],0,0.46,0,0.15,0,0.27,0,0.15,incorrect,incorrect,incorrect,incorrect
+['jessica'],mythra,küçük,nhân vật,el hombre,0,0.15,0,0.17,0,0.13,0,0.12,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,bene gesserit,nàng,el instrumento,0,0.2,0,0.4,0,0.18,0,0.19,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,turkish,nàng,el hombre,0,0.2,0,0.14,0,0.18,0,0.12,incorrect,incorrect,incorrect,incorrect
+['jessica'],instinct,eski dük,bức tranh lão công tước,viejo duque,0,0.4,0,0.4,0,0.13,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jessica'],mary,bir hanım,nàng,un padre,0,0.18,0,0.25,0,0.18,0,0.13,incorrect,incorrect,incorrect,incorrect
+['paul'],john,dar,nhân vật,alguien,0,0.0,0,0.29,0,0.17,0,0.36,incorrect,incorrect,incorrect,incorrect
+['paul'],his,onur,hướng,la atención de [mask] se dirigió,0,0.0,0,0.25,0,0.22,0,0.06,incorrect,incorrect,incorrect,incorrect
+['paul'],he,büyük kitap dolabı,nhân vật,alguien,0,0.0,0,0.18,0,0.17,0,0.36,incorrect,incorrect,incorrect,incorrect
+['paul'],hunter,beyaz,tiểu ma đao,el rey,0,0.2,0,0.22,0,0.13,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,güney kanada,vu,alguien,0,0.2,0,0.21,0,0.0,0,0.14,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,onu,nàng,alguien,0,0.2,0,0.0,0,0.18,0,0.14,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,i̇smail,nàng,alguien,0,0.2,0,0.31,0,0.18,0,0.14,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,onu,nàng,el hombre,0,0.2,0,0.0,0,0.18,0,0.12,incorrect,incorrect,incorrect,incorrect
+['leto'],he,arrakeen,chủ nhân,harkonnen,0,0.33,0,0.17,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,onu,nàng,alguien,0,0.2,0,0.0,0,0.18,0,0.14,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,ama,nàng,un cazador-buscador,0,0.2,0,0.2,0,0.18,0,0.15,incorrect,incorrect,incorrect,incorrect
+['leto'],he,sabriye,nhân vật,el mask,0,0.33,0,0.18,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],he,masadakiler,người đó,ella,0,0.0,0,0.27,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+['stilgar'],he,buca,ông,el autor,0,0.0,0,0.18,0,0.2,0,0.27,incorrect,incorrect,incorrect,incorrect
+['paul'],they,babasının,cha,él,0,0.0,0,0.15,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],staff,toplantı,người đó,[mask],0,0.22,0,0.33,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['leto'],he,en azından buna eminim,ông,[mask],0,0.33,0,0.08,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['leto'],someone,beyaz,nhân vật,el,0,0.36,0,0.22,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],he,babam,nhìn,el padre,0,0.0,0,0.22,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],the boy,babasının,nhật,el muchacho,0,0.0,0,0.15,0,0.25,0,0.13,incorrect,incorrect,incorrect,incorrect
+['paul'],he,dışarı baktı,nhìn,floraciones,0,0.0,0,0.12,0,0.0,0,0.13,incorrect,incorrect,incorrect,incorrect
+['paul'],father,onu,người đó,el padre,0,0.2,0,0.29,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],the ornithopter,ornitopter,chiếc tàu chim,el ornitóptero,0,0.11,0,0.14,0,0.22,0,0.11,incorrect,incorrect,incorrect,incorrect
+['paul'],he,aşağı,người,el monstruo,0,0.0,0,0.22,0,0.22,0,0.13,incorrect,incorrect,incorrect,incorrect
+['paul'],he,terli adam,người đó,tomó,0,0.0,0,0.14,0,0.17,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],the wormsign,bir köşeye sıkışmış haldeki kişi,người,un personaje,0,0.0,0,0.11,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['kynes', 'kynes—', 'ngài']",maker,yaradan,tạo,bienaventurado,0,0.4,0,0.33,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['leydi jessica', 'dama jessica', 'jessica']",the [mask] was the center of a mixed group,dük,lệnh đặng,alguien,0,0.19,0,0.29,0,0.43,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,dük,nàng,ella,0,0.2,0,0.0,0,0.18,0,0.36,incorrect,incorrect,incorrect,incorrect
+['paul'],he,babasının,con,juan,0,0.0,0,0.15,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],he,zeynep,con,el niño,0,0.0,0,0.2,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],he,annesi,nhân,el padre,0,0.0,0,0.2,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],the man,balıkçı,nụ cười,la sonrisa de [mask],0,0.18,0,0.36,0,0.18,0,0.08,incorrect,incorrect,incorrect,incorrect
+['paul'],father,bankacının,cha,mi padre,0,0.2,0,0.14,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['yueh'],he,adam,người đó,el hombre,0,0.33,0,0.0,0,0.17,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",the ones,zeki,vạn lý trường cung,enviado,0,0.31,0,0.0,0,0.35,0,0.4,incorrect,incorrect,incorrect,incorrect
+['paul'],he,duygu,nhân,el nombre,0,0.0,0,0.22,0,0.25,0,0.15,incorrect,incorrect,incorrect,incorrect
+['paul'],the subject,zigo,con dao,el cuchillo,0,0.13,0,0.0,0,0.18,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['harkonnen', 'yueh']",guard,harkonnen,lính việt nam,los guardias,0,0.29,1,1.0,0,0.18,0,0.19,incorrect,correct,incorrect,incorrect
+"['ùng', 'barón', 'baron']",the [mask] could feel the distant chomping—a drumbeat carried to him through the ship’s metal: broomp… broomp. then: broomp-broomp!,gemi,tước,el,0,0.07,0,0.29,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",the [mask] thought,bu düşünce,ngài,noble,0,0.17,0,0.27,0,0.57,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],he,i̇sese,người đó,había,0,0.0,0,0.0,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['pau', 'paul']",his,zaten,cậu,juan,0,0.0,0,0.25,0,0.67,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['thufir hawat—', 'thufir hawat']",mentat,hep,nhân vật,mentat,0,0.36,0,0.25,0,0.62,0,0.36,incorrect,incorrect,incorrect,incorrect
+['fremen'],the man,adam,người ấy,el hombre,0,0.46,0,0.2,0,0.14,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",him,biraz,hắn,dictador,0,0.33,0,0.4,0,0.5,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",chicken,şu korkak tavuğun,tên,hombre,0,0.2,0,0.18,0,0.33,0,0.36,incorrect,incorrect,incorrect,incorrect
+['stilgar'],fellow,adam,gã,mi padre,0,0.15,0,0.18,0,0.44,0,0.4,incorrect,incorrect,incorrect,incorrect
+['jamis'],she,bana büyü yapmaya çalışıyor!,anh ta,[mask],0,0.25,0,0.24,0,0.18,0,0.36,incorrect,incorrect,incorrect,incorrect
+['gurney halleck'],unknown,i̇yi bir bıçak dövüşçüsü,chiến binh giỏi,el buen combatiente,0,0.31,0,0.13,0,0.18,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['jamis', 'chani']",jamis,jamis,nước,alguien,1,1.0,1,1.0,0,0.22,0,0.33,correct,correct,incorrect,incorrect
+['harah'],her,maskat,nàng,el chófer,0,0.5,0,0.36,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['chani'],she,osmanlı,hajra,elías,0,0.25,0,0.5,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['alia', 'paul']",she,alia,con,ella,0,0.0,1,1.0,0,0.0,0,0.25,incorrect,correct,incorrect,incorrect
+['gurney'],he,savaşçılar,ông,él,0,0.25,0,0.12,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['gurney'],he,damıtıcı-giysili,ông,el hombre,0,0.25,0,0.18,0,0.22,0,0.27,incorrect,incorrect,incorrect,incorrect
+['gurney'],the fighting man,solunda,ông,otto,0,0.18,0,0.31,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['muad'],dib,dib,dib,dib,0,0.29,0,0.29,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect

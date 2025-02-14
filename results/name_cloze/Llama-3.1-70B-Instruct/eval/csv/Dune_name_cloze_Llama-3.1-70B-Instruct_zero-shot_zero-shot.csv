@@ -1,0 +1,101 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['paul'],the old man,yatağının,cậu bé,la vieja mujer,0,0.13,0,0.15,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,paul atreides,paul atreides,paul atreides,1,1.0,0,0.47,0,0.47,0,0.47,correct,incorrect,incorrect,incorrect
+['paul'],paul atreides,i̇nsan,đạt lai lạt ma,paul atreides,0,0.47,0,0.22,0,0.22,0,0.47,incorrect,incorrect,incorrect,incorrect
+['jessica'],paul,gomcebbâr,con,paul atreides,0,0.18,0,0.25,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],he,erkek,cậu,ella,0,0.0,0,0.0,0,0.57,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],she,kadın,bà ta,él,0,0.0,0,0.22,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],he,adam,cậu bé,él,0,0.0,0,0.25,0,0.4,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],he,adam,bà ta,él,0,0.0,0,0.25,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],winston,el,cậu,harry potter,0,0.0,0,0.33,0,0.57,0,0.12,incorrect,incorrect,incorrect,incorrect
+['paul'],god,ömer,cậu,harry potter,0,0.0,0,0.0,0,0.57,0,0.12,incorrect,incorrect,incorrect,incorrect
+['jessica'],offred,ann,người đàn bà,ellen ripley,0,0.15,0,0.2,0,0.21,0,0.21,incorrect,incorrect,incorrect,incorrect
+['bene gesserit'],hebrew,atatürk,hoàng gia,judía,0,0.4,0,0.13,0,0.36,0,0.15,incorrect,incorrect,incorrect,incorrect
+['jessica'],paul atreides,leto,paul atreides,duncan idaho,0,0.2,0,0.18,0,0.2,0,0.21,incorrect,incorrect,incorrect,incorrect
+['jessica'],offred,i̇sa,nàng,maría,0,0.15,0,0.4,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessic']",shield,kişi,đức phật,ella,0,0.17,0,0.4,0,0.27,0,0.36,incorrect,incorrect,incorrect,incorrect
+['jessica'],offred,tristran,người mẹ,ellen ripley,0,0.15,0,0.27,0,0.13,0,0.21,incorrect,incorrect,incorrect,incorrect
+['paul'],he,erkek,cậu,lothlórien,0,0.0,0,0.0,0,0.57,0,0.14,incorrect,incorrect,incorrect,incorrect
+['paul'],paul atreides,moğollar,tràng,el hombre,0,0.47,0,0.17,0,0.22,0,0.15,incorrect,incorrect,incorrect,incorrect
+['hawat'],spock,spock,địa cầu,el comandante,0,0.0,0,0.0,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],marvin,ali,trần,ellie,0,0.2,0,0.57,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],harry,bay,nguyên,él,0,0.22,0,0.29,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",cersei,hz. muhammed,đức phật,antígona,0,0.0,0,0.12,0,0.33,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['halleck', 'paul']",he,paul,đạt,paul atreides,0,0.44,1,1.0,0,0.29,0,0.47,incorrect,correct,incorrect,incorrect
+"['paul', 'paul—']",tyrion,çevriye,thầy,jonás,0,0.0,0,0.0,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+['gurney'],don quixote,pinokyo,nghe,pincho,0,0.24,0,0.31,0,0.4,0,0.17,incorrect,incorrect,incorrect,incorrect
+['paul'],odysseus,jon snow,đào,conan,0,0.17,0,0.0,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+['halleck'],edmond dantès,şeytan,đào,harry potter,0,0.2,0,0.15,0,0.2,0,0.32,incorrect,incorrect,incorrect,incorrect
+"['halleck', 'giọng halleck']",paul,özdemir asaf,phaedrus,paul atreides,0,0.36,0,0.24,0,0.4,0,0.3,incorrect,incorrect,incorrect,incorrect
+['halleck'],heathcliff,i̇nsan,ông,él,0,0.35,0,0.17,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],d'artagnan,mankene,đại,"no hay suficiente información en el texto para determinar un nombre propio, pero si tuviera que hacer una suposición, diría que el personaje principal es un personaje de ficción y podría ser ""gandalf"" o cualquier otro nombre de un personaje de fantasía, pero como no hay suficiente información, mi suposición es que el nombre propio podría ser ""aragorn"".",0,0.14,0,0.18,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],liet-kynes,paul atreides,liet-kynes,liet-kynes,0,0.14,0,0.47,0,0.14,0,0.14,incorrect,incorrect,incorrect,incorrect
+['paul'],harry potter,harry potter,đông,harry potter,0,0.12,0,0.12,0,0.0,0,0.12,incorrect,incorrect,incorrect,incorrect
+['paul'],he,o,kim jong-un,el príncipe,0,0.0,0,0.0,0,0.13,0,0.13,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,rahibe ana,cha,maría,1,1.0,0,0.14,0,0.29,0,0.22,correct,incorrect,incorrect,incorrect
+['jessica'],paul atreides,paul atreides,paul atreides,paul atreides,0,0.2,0,0.2,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],winston churchill,senyör,người con trai của ông,ti,0,0.19,0,0.0,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessica—']",god,god,thần,dios,0,0.0,0,0.0,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],gandalf,gandalf,đấng toàn năng,gandalf,0,0.14,0,0.14,0,0.1,0,0.14,incorrect,incorrect,incorrect,incorrect
+['jessica'],lady jessica,paul atreides,lady jessica,paul atreides,0,0.74,0,0.2,0,0.74,0,0.2,correct,incorrect,correct,incorrect
+['jessica'],paul atreides,odin,ngài,la mujer,0,0.2,0,0.18,0,0.18,0,0.27,incorrect,incorrect,incorrect,incorrect
+['jessica'],her,boğa,lão công tước,el duque,0,0.2,0,0.18,0,0.1,0,0.13,incorrect,incorrect,incorrect,incorrect
+['jessica'],her,hamlet,người mẹ,ella,0,0.2,0,0.15,0,0.13,0,0.36,incorrect,incorrect,incorrect,incorrect
+['paul'],he,odysseus,nobody,gregorio samsa,0,0.0,0,0.17,0,0.0,0,0.11,incorrect,incorrect,incorrect,incorrect
+['paul'],paul atreides,harry potter,harry potter,él,0,0.47,0,0.12,0,0.12,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],harry,ornithopter,tô hoài,phileas fogg,0,0.22,0,0.13,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],paul atreides,yatak,ám khí,d'artagnan,0,0.47,0,0.22,0,0.2,0,0.14,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,merdiven,cô,él,0,0.2,0,0.27,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,el,nàng,el pasajero,0,0.2,0,0.22,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,anahtar,nàng,ella,0,0.2,0,0.14,0,0.18,0,0.36,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,sherlock holmes,nàng,watson,0,0.2,0,0.18,0,0.18,0,0.15,incorrect,incorrect,incorrect,incorrect
+['leto'],liet-kynes,liet-kynes,lady jessica,leto,0,0.43,0,0.43,0,0.25,1,1.0,incorrect,incorrect,incorrect,correct
+['jessica'],she,not defteri,người phụ nữ,él,0,0.2,0,0.22,0,0.11,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jessica'],paul,atreus,đức mẹ,la,0,0.18,0,0.31,0,0.15,0,0.22,incorrect,incorrect,incorrect,incorrect
+['leto'],leto,paul atreides,ông,liet-kynes,1,1.0,0,0.24,0,0.29,0,0.43,correct,incorrect,incorrect,incorrect
+['paul'],he,oğlu,anh ta,alguien,0,0.0,0,0.25,0,0.2,0,0.36,incorrect,incorrect,incorrect,incorrect
+['stilgar'],elrond,tyrion,ông,elrond,0,0.31,0,0.31,0,0.2,0,0.31,incorrect,incorrect,incorrect,incorrect
+['paul'],jesus,oğuz atay,cha cậu,el hijo,0,0.22,0,0.15,0,0.36,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],he,toplantı,anh,robinson crusoe,0,0.0,0,0.33,0,0.29,0,0.11,incorrect,incorrect,incorrect,incorrect
+['leto'],he,harry potter,ông,maría,0,0.33,0,0.12,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['leto'],he,jon,người,el aleph,0,0.33,0,0.29,0,0.22,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],hamlet,çocuk,anh,el hijo,0,0.4,0,0.22,0,0.29,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],adam,oğlan,định,el muchacho,0,0.25,0,0.22,0,0.0,0,0.13,incorrect,incorrect,incorrect,incorrect
+['paul'],paul atreides,görüş,nhân vật,él,0,0.47,0,0.22,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,çocuk,anh,él,1,1.0,0,0.22,0,0.29,0,0.33,correct,incorrect,incorrect,incorrect
+['paul'],they,ornitopter,nhật,el piloto,0,0.0,0,0.14,0,0.25,0,0.31,incorrect,incorrect,incorrect,incorrect
+['paul'],he,robot,robot,wall-e,0,0.0,0,0.0,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,paul atreides,cha,paul atreides,1,1.0,0,0.47,0,0.29,0,0.47,correct,incorrect,incorrect,incorrect
+['paul'],paul,solucan,con bọ,paul,1,1.0,0,0.18,0,0.0,1,1.0,correct,incorrect,incorrect,correct
+"['kynes', 'kynes—', 'ngài']",imman,allah,liet-kynes,alá,0,0.22,0,0.22,0,0.67,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['leydi jessica', 'dama jessica', 'jessica']",paul atreides,dük,lệnh phi,paul atreides,0,0.38,0,0.29,0,0.46,0,0.38,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,dük,cô gái,ella,0,0.2,0,0.0,0,0.15,0,0.36,incorrect,incorrect,incorrect,incorrect
+['paul'],he,çağrı,cha,el príncipe,0,0.0,0,0.22,0,0.29,0,0.13,incorrect,incorrect,incorrect,incorrect
+['paul'],heathcliff,oğlan,nguyễn,el hijo,0,0.29,0,0.22,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],he,çevik,cậu,el hijo,0,0.0,0,0.0,0,0.57,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],jesus,agatha christie,ngư dân,el pescador,0,0.22,0,0.11,0,0.18,0,0.27,incorrect,incorrect,incorrect,incorrect
+['paul'],oscar wilde,atatürk,ông,yo,0,0.27,0,0.36,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['yueh'],paul,adam,ông,elmer,0,0.25,0,0.0,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",organization,bayram,thượng cấp,señor,0,0.35,0,0.55,0,0.31,0,0.25,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,oğlu,cậu,kvothe,1,1.0,0,0.25,0,0.57,0,0.0,correct,incorrect,incorrect,incorrect
+['paul'],he,czigo,cậu,él,0,0.0,0,0.0,0,0.57,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['harkonnen', 'yueh']",he,paul,đức,de la casa,0,0.36,0,0.25,0,0.29,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['ùng', 'barón', 'baron']",,uzaylı,đại bàng - đại bàng,el piloto,0,0.5,0,0.22,0,0.25,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",king,robinson crusoe,ngài,él,0,0.29,0,0.3,0,0.57,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,o,nhân vật chính,él,1,1.0,0,0.0,0,0.11,0,0.33,correct,incorrect,incorrect,incorrect
+"['pau', 'paul']",his,çocuk,cậu,él,0,0.0,0,0.25,0,0.67,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['thufir hawat—', 'thufir hawat']",paul atreides,paul atreides,paul atreides,paul atreides,0,0.33,0,0.33,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['fremen'],dracula,adam,ông ta,hombre,0,0.15,0,0.2,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",cardinal richelieu,napoleon,người ta,severus snape,0,0.26,0,0.46,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",anton chekhov,pamuk,tước,don quijote,0,0.33,0,0.5,0,0.22,0,0.25,incorrect,incorrect,incorrect,incorrect
+['stilgar'],man,babam,con trai,hombre,0,0.2,0,0.17,0,0.27,0,0.15,incorrect,incorrect,incorrect,incorrect
+['jamis'],harry,annem,harry potter,merlín,0,0.2,0,0.4,0,0.12,0,0.36,incorrect,incorrect,incorrect,incorrect
+['gurney halleck'],tuco,paul atreides,sun tzu,paul atreides,0,0.22,0,0.32,0,0.31,0,0.32,incorrect,incorrect,incorrect,incorrect
+"['jamis', 'chani']",chani,paul atreides,lệ,paul atreides,1,1.0,0,0.33,0,0.0,0,0.33,correct,incorrect,incorrect,incorrect
+['harah'],chani,anneciği,chị ta,su madre,0,0.4,0,0.15,0,0.36,0,0.31,incorrect,incorrect,incorrect,incorrect
+['chani'],aisha,musa,moses,mahoma,0,0.4,0,0.22,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['alia', 'paul']",isabella,paul,đức chúa trời,ella,0,0.5,1,1.0,0,0.24,0,0.25,incorrect,correct,incorrect,incorrect
+['gurney'],he,onlar,ông,aníbal barca,0,0.25,0,0.18,0,0.22,0,0.11,incorrect,incorrect,incorrect,incorrect
+['gurney'],paul,paul,ông,paul atreides,0,0.2,0,0.2,0,0.22,0,0.32,incorrect,incorrect,incorrect,incorrect
+['gurney'],paul atreides,paul atreides,paul atreides,paul atreides,0,0.32,0,0.32,0,0.32,0,0.32,incorrect,incorrect,incorrect,incorrect
+['muad'],usul,dib,paul,el observador,0,0.25,0,0.29,0,0.25,0,0.24,incorrect,incorrect,incorrect,incorrect

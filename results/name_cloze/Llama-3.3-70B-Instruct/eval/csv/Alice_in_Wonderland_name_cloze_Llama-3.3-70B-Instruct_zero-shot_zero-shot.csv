@@ -1,0 +1,47 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['alice', 'alicia']",alice,ali,alice,alicia,1,1.0,0,0.75,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,o,alice,alice,1,1.0,0,0.0,1,1.0,1,1.0,correct,incorrect,correct,correct
+"['alice', 'alicia']",alice,hadi,cô,alice,1,1.0,0,0.44,0,0.29,1,1.0,correct,incorrect,incorrect,correct
+"['alice', 'alicia']",alice,alice,alice,alicia,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,alice,alice,alice,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+['dodo'],chairman,mustafa kemal atatürk,nguyễn văn a,presidente,0,0.0,0,0.0,0,0.0,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,i̇nci,cô bé,she,1,1.0,0,0.6,0,0.4,0,0.25,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,o,nguyễn,alicia,1,1.0,0,0.0,0,0.18,1,1.0,correct,incorrect,incorrect,correct
+"['alice', 'alicia']",alice,aladdin,nhân vật,alicia,1,1.0,0,0.5,0,0.29,1,1.0,correct,incorrect,incorrect,correct
+"['alice', 'alicia']",alice,adam,ngọc,alicia,1,1.0,0,0.4,0,0.22,1,1.0,correct,incorrect,incorrect,correct
+"['alice', 'alicia']",alice,alice,alice,alicia,1,1.0,1,1.0,1,1.0,1,1.0,correct,correct,correct,correct
+"['alice', 'alicia']",alice,kim,cô,alicia,1,1.0,0,0.25,0,0.29,1,1.0,correct,incorrect,incorrect,correct
+"['alice', 'alicia']",alice,çıngıraklı,cô gái,él,1,1.0,0,0.4,0,0.36,0,0.29,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,i̇ncirli çöplüğü'nden çıkan,cô,alicia,1,1.0,0,0.31,0,0.29,1,1.0,correct,incorrect,incorrect,correct
+"['alice', 'alicia']",alice,hamlet,chị hằng,alice,1,1.0,0,0.55,0,0.15,1,1.0,correct,incorrect,incorrect,correct
+"['alice', 'alicia']",the caterpillar,ağaçkakan,aladdin,alicia,0,0.29,0,0.4,0,0.5,1,1.0,incorrect,incorrect,incorrect,correct
+"['alice', 'alicia']",alice,pinokyo,nấm lùn,alicia,1,1.0,0,0.17,0,0.33,1,1.0,correct,incorrect,incorrect,correct
+"['alice', 'alicia']",alice,çam,ngọc,alice,1,1.0,0,0.25,0,0.22,1,1.0,correct,incorrect,incorrect,correct
+"['alice', 'alicia']",alice,adem,người nói,josé,1,1.0,0,0.44,0,0.27,0,0.22,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,ali,người đàn ông,sancho,1,1.0,0,0.75,0,0.11,0,0.36,correct,correct,incorrect,incorrect
+"['alice', 'alicia']",alice,hz. muhammed,tôi,alejandro,1,1.0,0,0.24,0,0.25,0,0.43,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,adam,nàng,maria,1,1.0,0,0.4,0,0.22,0,0.55,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,alfred,cháu,alicia,1,1.0,0,0.55,0,0.22,1,1.0,correct,incorrect,incorrect,correct
+"['alice', 'alicia']",alice,galileo,trái đất,sofía,1,1.0,0,0.67,0,0.43,0,0.36,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,aşçı,nữ công tước,alguien,1,1.0,0,0.6,0,0.12,0,0.67,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,pierre loti,người mẹ,ella,1,1.0,0,0.25,0,0.31,0,0.22,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",she,bebek,người mẹ,la madre,0,0.25,0,0.2,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,anneciği,"không rõ, có thể là một nhân vật trong câu chuyện, nhưng không đủ thông tin để xác định chính xác",mamá,1,1.0,0,0.43,0,0.1,0,0.4,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,ali,người phụ nữ,alicia,1,1.0,0,0.75,0,0.12,1,1.0,correct,correct,incorrect,correct
+"['alice', 'alicia']",alice,herhangi bir karakter ismi,nghĩ,alejandro,1,1.0,0,0.25,0,0.22,0,0.43,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",eowyn,öğretmen,người đàn ông,alicia,0,0.2,0,0.15,0,0.11,1,1.0,incorrect,incorrect,incorrect,correct
+"['alice', 'alicia']",alice,ali,nguyễn nhật ánh,alejandro,1,1.0,0,0.75,0,0.19,0,0.43,correct,correct,incorrect,incorrect
+"['alice', 'alicia']",alice,alice,ông lão,alicia,1,1.0,1,1.0,0,0.17,1,1.0,correct,correct,incorrect,correct
+"['alice', 'alicia']",alice,ali,người phụ nữ,alicia,1,1.0,0,0.75,0,0.12,1,1.0,correct,correct,incorrect,correct
+"['alice', 'alicia']",alice,çanakkale,cô,sancho,1,1.0,0,0.43,0,0.29,0,0.36,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,pinokyo,cô,alicia,1,1.0,0,0.17,0,0.29,1,1.0,correct,incorrect,incorrect,correct
+"['alice', 'alicia']",she,muhammed,người phụ nữ,ella,0,0.25,0,0.31,0,0.12,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",elizabeth,ali,nàng,ella,0,0.43,0,0.75,0,0.22,0,0.22,incorrect,correct,incorrect,incorrect
+"['alice', 'alicia']",marilla,çılgın dersane,nữ công tước,maría,0,0.46,0,0.3,0,0.12,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia', 'alice ejder']",alice,ali,đi theo sư tử đầu chim,sancho,1,1.0,0,0.75,0,0.15,0,0.36,correct,correct,incorrect,incorrect
+"['alice', 'alicia']",elizabeth,herkes,aladdin,alguien,0,0.43,0,0.18,0,0.5,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,o,cô,alicia,1,1.0,0,0.0,0,0.29,1,1.0,correct,incorrect,incorrect,correct
+"['alice', 'alic', 'alicia']",her,yalancı kaplumbağa,cô,falsa tortuga,0,0.25,0,0.42,0,0.33,0,0.32,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,orhan gencebay,ngọc,alejandro sanz,1,1.0,0,0.32,0,0.22,0,0.32,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,kafka,ngọc,alice,1,1.0,0,0.36,0,0.22,1,1.0,correct,incorrect,incorrect,correct
+"['alice', 'alicia']",alice,alice,em,"alejandro no es mencionado, pero el contexto sugiere que se trata de un niño, por lo que podría ser ""el niño"" o un nombre propio como ""juan"" o ""pedro"", pero como no hay suficiente información, haré una suposición con un nombre común en la literatura infantil: ""alice"" no es mencionado, pero un nombre común en este tipo de historias es ""el niño"" o",1,1.0,1,1.0,0,0.29,0,0.01,correct,correct,incorrect,incorrect

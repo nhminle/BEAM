@@ -1,0 +1,74 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['henry wotton', 'lord henry wotton']",he,i̇ran,huân tước ba tư,him,0,0.57,0,0.25,0,0.37,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['basil hallwar', 'basil hallward']",the artist himself,ömer seyfi edhem paşa,nghệ sỹ sáng tác,artista,0,0.35,0,0.21,0,0.26,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",someone,dogukan,hyuuga,juan,0,0.35,0,0.24,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",he,zeynel,huân tước ngô khôi,él,0,0.57,0,0.36,0,0.21,0,0.33,incorrect,incorrect,incorrect,incorrect
+['agatha'],aunt bertha,halime,dì của tôi,tía juana,0,0.47,0,0.33,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'doria']",the lad,ressam,chàng trai,muchacho,0,0.17,0,0.36,0,0.27,0,0.15,incorrect,incorrect,incorrect,incorrect
+['basil'],friend,dorian,anh bạn của cậu,amigo,0,0.18,0,0.18,0,0.2,0,0.4,incorrect,incorrect,incorrect,incorrect
+['harry'],he,kimdir,anh ấy,alberto,0,0.29,0,0.18,0,0.55,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—']",[mask],evet,vâng,[mask],0,0.0,0,0.22,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'dorian gray']",the man,zekiye,nguyễn,el,0,0.31,0,0.24,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—']",[mask],elbette,huân tước picasso,[mask],0,0.0,0,0.24,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—']",john,tiyatroya,white,[mask],0,0.44,0,0.29,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['fermor', 'lord fermor']",[mask],person's name,huân tước đôn thích,[mask],0,0.17,0,0.32,0,0.2,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",george eliot,zeki çelik,hyacinth,albert camus,0,0.36,0,0.14,0,0.31,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",heinlein,bertrand russell,huân tước ngô đức kế,bertrand russell,0,0.46,0,0.31,0,0.27,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['erskine', 'mr erskine', 'erskine—']",john,korkarım,mít-tơ,nombre,0,0.18,0,0.4,0,0.27,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",said,"olabilir, iki gözüm",huân tước đặng,ella,0,0.25,0,0.17,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['henr', 'harry']",you,sen,anh,tú,0,0.25,0,0.57,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['basil', 'sibyl']",jew,zerrece,nàng,ella,0,0.0,0,0.0,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['basil'],john,maskeli şeytan,người ấy,alguien,0,0.0,0,0.32,0,0.15,0,0.33,incorrect,incorrect,incorrect,incorrect
+['sibyl'],jane,zeynel,mẹ,ella,0,0.0,0,0.36,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+['sibyl'],my son,zekiye,con trai của mẹ,[mask],0,0.18,0,0.36,0,0.1,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—']",[mask],amerika,huân tước ngô,[mask],0,0.0,0,0.33,0,0.26,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",someone,[mask],huân tước đặng,carlos,0,0.35,0,0.0,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",cupid's,delikanlı,duc-duc,él,0,0.18,0,0.29,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",john,evet,huân tước đặng,[mask],0,0.44,0,0.22,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],dear reader,mektubun,thư,tú,0,0.38,0,0.0,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",[mask],delikanlı,huân tước,[mask],0,0.0,0,0.29,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['dorian'],he,bu kişi,cậu,él,0,0.0,0,0.15,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'dorian gray']",he,sergi,anh,[mask],0,0.0,0,0.36,0,0.44,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['george petit4', 'george petit', 'georges petit']",fred,sèze sokağı,họ,él,0,0.22,0,0.35,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+['hallward'],mask,she,đại úy,[mask],0,0.17,0,0.18,0,0.14,0,0.14,incorrect,incorrect,incorrect,incorrect
+['dorian'],he,bologna,người đó,al cerrarse la puerta,0,0.0,0,0.31,0,0.29,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['hubbard', 'mr hubbard']",friend,ziyan,mít-tơ,nombre,0,0.31,0,0.17,0,0.25,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['hubbard', 'hubbar', 'mr hubbard']",you,ben,mít-tơ,usted,0,0.22,0,0.22,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+['dorian'],he,adamlar,họ,él,0,0.0,0,0.31,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",hedonism,havelock ellis,đức,nietzsche,0,0.46,0,0.33,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'dorian gray']",he,saygısızlıkları,ngọc,él,0,0.0,0,0.21,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'dorian gray']",himself,tolstoy,homer,él,0,0.15,0,0.22,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+['dorian'],he,zekiye,nhân vật,[mask],0,0.0,0,0.17,0,0.29,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'doria']",you,ressam,bạn,tú,0,0.25,0,0.36,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'doria']",you,gelirim,cậu,subiré,0,0.25,0,0.33,0,0.25,0,0.18,incorrect,incorrect,incorrect,incorrect
+['dorian gray'],john,zeynep,anh,el hombre,0,0.4,0,0.2,0,0.44,0,0.27,incorrect,incorrect,incorrect,incorrect
+['dorian'],he,zekiye,gia nhân,el criado,0,0.0,0,0.17,0,0.43,0,0.4,incorrect,incorrect,incorrect,incorrect
+['dorian gray'],he,dorian,người đó,él,0,0.0,1,1.0,0,0.29,0,0.0,incorrect,correct,incorrect,incorrect
+"['henry wotton', 'lord henry wotton', 'henry wotto']",friend,dostun [mask],huân tước đặng văn ngữ,tu amigo,0,0.4,0,0.32,0,0.31,0,0.21,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'doria']",good god,tanrım,chúa lòng lành,juan,0,0.31,0,0.36,0,0.3,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['campbell', 'y run']",the man,zeynel,người đó,juan,0,0.33,0,0.36,0,0.18,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'dorian gray']",he,zeki,nhân,el hombre,0,0.0,0,0.2,0,0.4,0,0.27,incorrect,incorrect,incorrect,incorrect
+['campbell'],john,genç adam,lúc,juan,0,0.0,0,0.35,0,0.18,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",he,dünya,huân tước ngô khắc tuyên,la persona,0,0.57,0,0.4,0,0.29,0,0.3,incorrect,incorrect,incorrect,incorrect
+"['madam ferrol', 'ferroll', 'ferrol', 'madame de ferrol']",god,maskeli tanrı,de chastellane,carlos,0,0.4,0,0.33,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",dear reader,zihniyetler,huân tước,tú,0,0.38,0,0.38,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['ruxton', 'leydi ruxton', 'lady ruxton']",dear [mask],azizim [mask],ngài,mariana,0,0.18,0,0.17,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—']",[mask],"hoşlanıyorum ondan,",huân tước đặng,[mask],0,0.0,0,0.35,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'doria']",john,zorla,nhân,juan,0,0.4,0,0.6,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'dorian gray']",he,maskull,[mask],la pasión,0,0.0,0,0.18,0,0.2,0,0.27,incorrect,incorrect,incorrect,incorrect
+['dorian'],the young man,adam,lúc,alguien,0,0.32,0,0.4,0,0.0,0,0.31,incorrect,incorrect,incorrect,incorrect
+['dorian'],he,zekiye,người đàn ông,mujer,0,0.0,0,0.17,0,0.32,0,0.18,incorrect,incorrect,incorrect,incorrect
+['dorian gray'],name,adam,chai sạn,nombre,0,0.25,0,0.4,0,0.43,0,0.33,incorrect,incorrect,incorrect,incorrect
+['dorian gray'],he,derin,người nói,el hombre,0,0.0,0,0.73,0,0.4,0,0.27,incorrect,correct,incorrect,incorrect
+['james vane'],john doe,beyaz mendil,người kia,juan,0,0.33,0,0.36,0,0.15,0,0.5,incorrect,incorrect,incorrect,incorrect
+['dorian'],he,mis,người,él,0,0.0,0,0.22,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['sir geoffrey—', 'geoffrey', 'sir geoffrey']",john,aman tanrım,ngài,cielo santo,0,0.17,0,0.14,0,0.29,0,0.21,incorrect,incorrect,incorrect,incorrect
+['dorian'],you,zeynel,buồn chán,tu,0,0.22,0,0.17,0,0.4,0,0.0,incorrect,incorrect,incorrect,incorrect
+['harry'],the wretched peasant,adam,người nông dân cùng khổ,nombre,0,0.16,0,0.22,0,0.07,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",he,gülümseyerek,huân tước [mask],el jardinero,0,0.57,0,0.27,0,0.19,0,0.45,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry', 'lord henry—', 'henry cười']",[mask],gülendeki,huân tước lê lai,[mask],0,0.0,0,0.32,0,0.46,0,0.0,incorrect,incorrect,incorrect,incorrect
+['dorian'],he,müthiş,người đó,el cadáver,0,0.0,0,0.17,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",mask,i̇yi insan olacağım,huân tước đôn cung,[mask],0,0.0,0,0.09,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",my dear boy,sevgili dostum,huân tướcbonjour,el autor,0,0.38,0,0.22,0,0.29,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['dorian', 'doria']",you,sana,bạn yêu quý,mi querido amigo,0,0.25,0,0.4,0,0.24,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['lord henry', 'henry']",my dear fellow,londra,huân tước london,[mask],0,0.22,0,0.6,0,0.31,0,0.0,incorrect,incorrect,incorrect,incorrect

@@ -1,0 +1,55 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['gatsby'],dorian,orhan,arthur,yuri,0,0.17,0,0.18,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['tom buchanan'],gatsby,gatsby,gatsby,gatsby,0,0.22,0,0.22,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['tom', 'tom buchanan']",he,madame,emily,elvira,0,0.2,0,0.33,0,0.25,0,0.14,incorrect,incorrect,incorrect,incorrect
+['daisy'],emily,özdemir,phương,emily,0,0.4,0,0.33,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['miss baker', 'baker', 'bayan baker']",elizabeth,arthur,"đương nhiên rồi! không phải là một tên, nhưng tôi nghĩ nó có thể là một câu nói của nhân vật. tôi sẽ chọn tên của nhân vật trong câu chuyện. trong câu ""rõ ràng, điều này cũng gây ngạc nhiên ngay cả cho chính [mask] chắng kém gì cho tôi"", [mask] có thể là tên của nhân vật chính. dựa trên ngữ cảnh, tôi sẽ chọn tên ""tôi"" vì nó là nhân vật đang kể chuyện",porfirio,0,0.32,0,0.36,0,0.01,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['baker', 'bayan baker']",daisy,yanko,nguyễn hữu thọ,miss havisham,0,0.4,0,0.6,0,0.24,0,0.22,incorrect,incorrect,incorrect,incorrect
+['daisy'],susan,neşe,người phụ nữ,sam,0,0.2,0,0.22,0,0.12,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['tom', 'tom”']",gatsby,heathcliff,tom,don quijote,0,0.22,0,0.15,1,1.0,0,0.14,incorrect,incorrect,correct,incorrect
+['daisy'],emily,emily,phương,emily,0,0.4,0,0.4,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+['tom'],esther,umut,trời,una hora,0,0.22,0,0.29,0,0.57,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['ton buchanan', 'tom buchanan']",daisy,arthur,nguyễn tường lân,camila,0,0.15,0,0.22,0,0.43,0,0.43,incorrect,incorrect,incorrect,incorrect
+['tom'],daisy,yolanda,scarlett,camille,0,0.0,0,0.2,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['wilso', 'bayan wilson', 'mistress wilson', 'wilson']",peter,alice,wagstaff,mr. brown,0,0.31,0,0.31,0,0.31,0,0.42,incorrect,incorrect,incorrect,incorrect
+"['bayan wilson', 'myrtle', 'mistress wilson', 'wilson']",woolf,west,weston,elizabeth,0,0.36,0,0.4,0,0.67,0,0.24,incorrect,incorrect,incorrect,incorrect
+['catherine'],joyce,hanım,phương,clotilde,0,0.29,0,0.29,0,0.27,0,0.35,incorrect,incorrect,incorrect,incorrect
+"['mckee', 'bay mckee', 'mister mckee']",arthur,arthur,nguyễn nhật ánh,wemmick,0,0.33,0,0.33,0,0.17,0,0.5,incorrect,incorrect,incorrect,incorrect
+['jordan baker'],florence,hamlet,phương,madame merle,0,0.43,0,0.36,0,0.33,0,0.42,incorrect,incorrect,incorrect,incorrect
+['jordan'],wemmick,adam,người,wemmick,0,0.0,0,0.4,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['bay gatsby', 'gatsby']",wemmick,abdullah,arthur,winston,0,0.0,0,0.36,0,0.33,0,0.15,incorrect,incorrect,incorrect,incorrect
+['jordan'],f. scott fitzgerald,orhan pamuk,người đàn ông,wilde,0,0.24,0,0.47,0,0.42,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['von hindenburg', 'van hindenburg']",beelzebub,lucifer,scarlett,lucifer,0,0.32,0,0.35,0,0.18,0,0.35,incorrect,incorrect,incorrect,incorrect
+['gatsby'],james joyce,virginia woolf,nguyễn ái quốc,wells,0,0.35,0,0.2,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['gatsby'],gatsby,daisy,gatsby,daisy,1,1.0,0,0.55,1,1.0,0,0.55,correct,incorrect,correct,incorrect
+"['bayan wilson', 'mistress wilson', 'wilson']",gatsby,disney,daisy,gregor,0,0.36,0,0.5,0,0.4,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['wolfsheim hỉnh', 'bay wolfsheim', 'wolfshiem']",wimpy,garson,đức,wemmick,0,0.43,0,0.22,0,0.0,0,0.38,incorrect,incorrect,incorrect,incorrect
+['daisy'],jane,f. scott fitzgerald,chị hester,jo,0,0.22,0,0.08,0,0.27,0,0.0,incorrect,incorrect,incorrect,incorrect
+['daisy'],scarlett,scott,scott,hadley,0,0.15,0,0.2,0,0.2,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['jordan', 'jordan baker', '“jordan baker']",f. scott fitzgerald,plaza,west,el,0,0.26,0,0.24,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['daisy'],joyce,madame,phoebus,beatriz,0,0.2,0,0.36,0,0.17,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['bay sloane', 'sloane', 'mister sloane']",walter,winston,người phụ nữ kia,winston,0,0.5,0,0.5,0,0.21,0,0.5,incorrect,incorrect,incorrect,incorrect
+['tom'],dean,orhan,em,tom,0,0.0,0,0.25,0,0.4,1,1.0,incorrect,incorrect,incorrect,correct
+['daisy'],f. scott fitzgerald,errik,ngọc,orson,0,0.08,0,0.2,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['daisy'],ethel,freya,phú quỳnh,marina,0,0.0,0,0.2,0,0.14,0,0.36,incorrect,incorrect,incorrect,incorrect
+['gatsby'],heathcliff,yunus,anh ta,scott,0,0.25,0,0.18,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['daisy'],her,onun,daisy,su madre,0,0.0,0,0.0,1,1.0,0,0.15,incorrect,incorrect,correct,incorrect
+['gatsby'],harold,orion,anh,he,0,0.17,0,0.0,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['gatsby'],john,emily,đức chúa trời,lucas,0,0.0,0,0.18,0,0.21,0,0.36,incorrect,incorrect,incorrect,incorrect
+['tom'],chandler,almayer,ông,jean,0,0.0,0,0.2,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['tom'],mark,arthur,mark twain,don quijote,0,0.29,0,0.22,0,0.15,0,0.14,incorrect,incorrect,incorrect,incorrect
+['gatsby'],tom,he,ông,jim,0,0.22,0,0.0,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['jordan', 'jordan—']",woody,woody,woody,woody allen,0,0.36,0,0.36,0,0.36,0,0.47,incorrect,incorrect,incorrect,incorrect
+['tom'],john,he,paul,john,0,0.29,0,0.0,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['daisy'],phoebe,chicago,phoebe,phoebe,0,0.0,0,0.17,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['walter'],wormser,washington,joe,frank,0,0.46,0,0.38,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jordan'],arthur,yusuf,đám đông,carrie,0,0.17,0,0.0,0,0.43,0,0.17,incorrect,incorrect,incorrect,incorrect
+['tom'],dracula,araba,anh ta,heathcliff,0,0.0,0,0.0,0,0.22,0,0.15,incorrect,incorrect,incorrect,incorrect
+['daisy'],the woman,wendy,người phụ nữ,jean,0,0.14,0,0.4,0,0.12,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['george', 'georg']",angela,paul,catholic,emily,0,0.36,0,0.0,0,0.15,0,0.2,incorrect,incorrect,incorrect,incorrect
+['gatsby'],gatsby,lucy,người tài xế xe,tom,1,1.0,0,0.2,0,0.19,0,0.22,correct,incorrect,incorrect,incorrect
+"['meyer wolfsheim', 'meyer wolfshiem']",wilder,uşak,wilder,smith,0,0.4,0,0.15,0,0.4,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['gatz', 'bay gatz']",heathcliff,ölüm,cụ,mister pickwick,0,0.29,0,0.0,0,0.0,0,0.11,incorrect,incorrect,incorrect,incorrect
+['gatsby'],wemmick,osman,hắn,whiskey,0,0.0,0,0.18,0,0.22,0,0.31,incorrect,incorrect,incorrect,incorrect
+['gatsby'],west,west,đông,este,0,0.2,0,0.2,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['jordan baker'],jane,denize,phú,emily,0,0.6,0,0.33,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect

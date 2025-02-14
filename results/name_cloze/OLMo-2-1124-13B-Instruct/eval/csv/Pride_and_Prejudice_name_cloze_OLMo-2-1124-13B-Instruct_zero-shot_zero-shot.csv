@@ -1,0 +1,100 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['bingley', 'mr bingley']",mr. collins,hayranlar,ngọc ánh,carlos,0,0.48,0,0.32,0,0.27,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mr bennet', 'bennet', 'señor bennet']",mr. bennet,atatürk,thiện đạo,carlos gardel,0,0.95,0,0.22,0,0.43,0,0.27,correct,incorrect,incorrect,incorrect
+"['señora long', 'mrs long', 'long']",charlotte lucas,ali rıza taşkıran,phạm văn đồng,carlos,0,0.26,0,0.29,0,0.48,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['mrs bennet', 'bennet', 'señora bennet']",miss de bourgh,yıldız,phương,la malinche,0,0.4,0,0.0,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mr bennet', 'bennet']",elizabeth bennet,özdemir,phạm văn toàn,carlos,0,0.56,0,0.44,0,0.36,0,0.25,incorrect,incorrect,incorrect,incorrect
+['lizzy'],mr. collins,abdülhak hamid ii,phạm văn đồng,don josé godínez,0,0.25,0,0.18,0,0.0,0,0.19,incorrect,incorrect,incorrect,incorrect
+"['lucas', 'lucas–', 'miss lucas']",elizabeth bennet,dr. house,phạm văn đồnh,camila,0,0.19,0,0.29,0,0.26,0,0.5,incorrect,incorrect,incorrect,incorrect
+['mary'],elizabeth bennet,abdülhak hâmid tarhan,trần thị mai phương,alfredo pareja-díaz,0,0.1,0,0.24,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['miss eliza', 'eliz', 'eliza']",mr. darcy,özdemir asaf,lynda carter,carlota,0,0.32,0,0.38,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['mrs bennet', 'bennet––', 'bennet']",mr. bennet,hayran,ngọc ánh,beatriz,0,0.9,0,0.25,0,0.29,0,0.46,correct,incorrect,incorrect,incorrect
+['louisa'],emma woodhouse,haydari,phạm văn đồng,nombre no especificado,0,0.3,0,0.15,0,0.11,0,0.21,incorrect,incorrect,incorrect,incorrect
+"['mr jones', 'jones']",mr. knightley,hayal kırıkları,phạm văn đồng,doctor,0,0.48,0,0.12,0,0.38,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mary', 'mary––']",mr. collins,yasemin,phạm văn đồng,don quixote,0,0.27,0,0.18,0,0.24,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['', 'jane bennet']",emma woodhouse,emine,phương thảo,maría fernanda,0,0.22,0,0.55,0,0.24,0,0.3,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'darcy–']",mr. darcy,aslı erdoğan,ngọc ánh,maría fernanda ampuero,0,0.71,0,0.24,0,0.15,0,0.22,correct,incorrect,incorrect,incorrect
+['darcy'],wentworth,yasar kemal,trần thị kim tuyền,maría fernanda,0,0.14,0,0.25,0,0.17,0,0.21,incorrect,incorrect,incorrect,incorrect
+"['mrs bennet', 'bennet', 'señora bennet']",wickham,ali uslu,phật,maría,0,0.2,0,0.18,0,0.24,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['bingley', 'señor bingley', 'mr bingley']",mr. bennet,i̇stambul,nguyễn du,george bernard shaw,0,0.6,0,0.33,0,0.38,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",julia bertram,yiğit özşener,nguyễn đình thi,don juan tenorio,0,0.55,0,0.18,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['bennet', 'miss bennet']",wickham,ali,phạm văn đồng,don juan tenorio,0,0.18,0,0.29,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['bennet', 'miss bennet']",mr. collins,adnan okar,nguyễn,don diego de la vega,0,0.4,0,0.25,0,0.33,0,0.26,incorrect,incorrect,incorrect,incorrect
+['jane'],marianne dashwood,yusuf,phạm văn trà,maría inés,0,0.29,0,0.0,0,0.25,0,0.43,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],marianne dashwood,abdülkadir merter,phạm văn phúc,la comtesa de berghen,0,0.23,0,0.31,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['bennet', 'miss bennet', 'jane']",mr. darcy,abdülkadir,phạm văn đồng,olivia mansfield,0,0.2,0,0.14,0,0.33,0,0.3,incorrect,incorrect,incorrect,incorrect
+"['charles', 'netherfield', 'charle']",brighton,george,paris,charles,0,0.14,0,0.33,0,0.5,1,1.0,incorrect,incorrect,incorrect,correct
+"['elizabeth', 'elizabeth–']",mr. bennet,yıldız tilbe,trung quốc,don quixote,0,0.32,0,0.48,0,0.11,0,0.1,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'darcy–']",elizabeth bennet,erdoğan,đặng thế vinh,edgar allan poe,0,0.1,0,0.33,0,0.22,0,0.3,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'elizabeth–']",edmund,ataka,phật,valjean,0,0.13,0,0.29,0,0.31,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mr bennet', 'bennet']",mr. bennet,umar,phạm duy khiêm,carlos,0,0.95,0,0.67,0,0.26,0,0.25,correct,incorrect,incorrect,incorrect
+['charlotte lucas'],miss fairfax,özdemir aslan,phạm văn đồng,beatriz,0,0.22,0,0.29,0,0.27,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mr collins', 'collins', 'collin', 'señor collins']",william collins,ali rıza bey,phạm văn đồng,don carlos,0,0.72,0,0.22,0,0.35,0,0.43,correct,incorrect,incorrect,incorrect
+"['mrs bennet', 'señora bennet––', 'bennet']",miss de bourgh,dr. watson,trần thị trung hạnh,beatriz,0,0.4,0,0.31,0,0.29,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['mr bennet', 'bennet', 'bennet––']",wickham,orhan pamuk,phạm văn đồng,don juan,0,0.22,0,0.15,0,0.36,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['mrs bennet', 'bennet', 'señora bennet']",mr. collins,ali sami yen,phạm văn đồng,beatriz,0,0.43,0,0.36,0,0.35,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['mrs philips', 'señora philips', 'philips']",mr. collins,hayden panettiere,quốc gia nào cũng,carlos,0,0.55,0,0.32,0,0.19,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['wickham––', 'wickham']",emma woodhouse,erdoğan,phạm văn đồng,don quixote,0,0.19,0,0.14,0,0.3,0,0.11,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'mr darcy']",mr. rushworth,abdülkadir merter,trần quốc toàn,don fernando,0,0.38,0,0.27,0,0.27,0,0.24,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],elizabeth bennet,i̇smet i̇nönü,phạm duy khiêm,don quixote,0,0.72,0,0.3,0,0.09,0,0.1,correct,incorrect,incorrect,incorrect
+"['darcy', 'darc', 'wickham']",miss crawford,abdülkadir bedri,queen elizabeth ii,georgiana darcy,0,0.12,0,0.3,0,0.16,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'mr darcy']",wickham,haydar baş,phạm văn đồnh,don juan tenorio,0,0.22,0,0.4,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['catherine de bourgh', 'lady catherine de bourgh', 'catherine bourg']",mr. churchill,atatürk,trần quốc tuấn,carlos gardel,0,0.36,0,0.38,0,0.26,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['wickham––', 'wickham']",mr. darcy,i̇smet i̇nönü,trần duy hưng,don diego,0,0.12,0,0.22,0,0.1,0,0.12,incorrect,incorrect,incorrect,incorrect
+['jane'],mr. collins,abdülkadir selvi,ngọc ánh,beatriz,0,0.13,0,0.2,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],mr. darcy,erdoğan,ho chi minh,don quixote,0,0.11,0,0.25,0,0.2,0,0.1,incorrect,incorrect,incorrect,incorrect
+"['ngài william', 'william', 'sir william']",mr. collins,atatürk,trung quốc,carlos gardel,0,0.45,0,0.21,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['anh darcy', 'señor darcy', 'darcy', 'mr darcy']",king george iii,yasemin,đồng tính,tabú,0,0.31,0,0.5,0,0.33,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['señor collins', 'collins', 'mr collins']",mr. lorry,yalvar,ngọc hoàng,padre amaro,0,0.42,0,0.25,0,0.43,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'cô elizabeth']",lucas beaumont,aslıhan,elizabeth bennet,anna maria luisa de silva y álvarez de toledo,0,0.43,0,0.38,0,0.72,0,0.19,incorrect,incorrect,correct,incorrect
+"['collins', 'mr collins']",wickham,i̇smet i̇nönü,phạm văn trào,don juan tenorio,0,0.22,0,0.38,0,0.27,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['de bourgh', 'de bourg', 'bourgh']",mr. collins,aliye ailesi,phạm văn đồng,valverde,0,0.21,0,0.2,0,0.29,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'darc', 'mr darcy']",mr. darcy,atatürk,trung quốc,carlos,0,0.94,0,0.36,0,0.33,0,0.4,correct,incorrect,incorrect,incorrect
+['charles'],mr. collins,i̇ngiltere,london,carlos bingley,0,0.33,0,0.25,0,0.15,0,0.48,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],elizabeth bennet,george,elizabeth,jane bennet,0,0.72,0,0.27,1,1.0,0,0.4,correct,incorrect,correct,incorrect
+['jane'],wickham,aslıhan,phạm duy khiêm,beatriz,0,0.18,0,0.36,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'elizabeth–']",wickham,yıldız tilbe,phạm duy khiêm,carlos ruiz zafón,0,0.25,0,0.48,0,0.09,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['bingley', 'señor bingley', 'mr bingley']",wickham,hayrettin karaman,trần quốc tuấn,leonardo da vinci,0,0.22,0,0.27,0,0.3,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['lizz', 'lizzy']",elizabeth bennet,aslı,phạm duy,camila,0,0.3,0,0.5,0,0.15,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['wi', 'mr wickham', 'wickham']",edward ferrars,erdoğan,phạm linh,beatriz,0,0.25,0,0.24,0,0.38,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",marianne dashwood,haydarpaşa,đặng thị liên,doña victorina,0,0.23,0,0.11,0,0.27,0,0.17,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],marianne dashwood,ertesi,phạm vân đồnh,lucía de lammermoor,0,0.23,0,0.27,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],lady catherine de bourgh,lady catherine de bourgh,charlotte lucas,lady catherine de bourgh,0,0.24,0,0.24,0,0.25,0,0.24,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],anne elliot,ali,thiếu niên,la señora brandenbury,0,0.4,0,0.33,0,0.21,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['maría', 'maria']",mr. collins,aslıhan,phạm linh,carlos,0,0.38,0,0.5,0,0.29,0,0.36,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],elizabeth bennet,elif şafak,trần hưng đạo,carlos,0,0.72,0,0.42,0,0.18,0,0.13,correct,incorrect,incorrect,incorrect
+"['william––', 'william', 'sir william']",marianne dashwood,erdoğan,trần thị kim tuyền,don quixote,0,0.21,0,0.22,0,0.28,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['catherine–', 'catherine', 'lady catherine']",elizabeth bennet,prince william,queen elizabeth ii,don josé,0,0.48,0,0.35,0,0.31,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['señor darcy', 'darcy', 'darc', 'mr darcy']",elizabeth bennet,orhan gencebay,đặng thanh trà,asperger,0,0.19,0,0.36,0,0.33,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'darcy–']",frances partridge,aslı,yuna kim,isabel,0,0.18,0,0.22,0,0.15,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'elizabeth–']",elizabeth bennet,ömürhan,trần thị kim tuyền,don quixote,0,0.72,0,0.12,0,0.22,0,0.1,correct,incorrect,incorrect,incorrect
+['darcy'],mr. bingley,bingley,bingley,mr. bingley,0,0.25,0,0.17,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['bingley', 'mr bingley']",mr. darcy,haydarpaşa,trần hưng đạo,caligula,0,0.42,0,0.17,0,0.35,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'mr darcy']",anne elliot,mustafa kemal atatürk,hoàng đức định,orlando,0,0.12,0,0.17,0,0.27,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",elizabeth bennet,aslıhan,phạm văn chánh,don quixote,0,0.72,0,0.38,0,0.17,0,0.13,correct,incorrect,incorrect,incorrect
+"['darcy', 'darc']",mr. darcy,özdemir asaf,phạm văn đồng,el amigo,0,0.71,0,0.25,0,0.12,0,0.17,correct,incorrect,incorrect,incorrect
+"['darcy', 'mr darcy']",colonel fitzwilliam,hanıma,john fisher,william lamb,0,0.1,0,0.29,0,0.15,0,0.3,incorrect,incorrect,incorrect,incorrect
+"['fitzwilliam', 'albay fitzwilliam']",wickham,i̇smet pasha,phạm văn toàn,don carlos,0,0.44,0,0.27,0,0.22,0,0.27,incorrect,incorrect,incorrect,incorrect
+['darcy'],anne elliot,aslı erdoğan,marie antoinette,don quixote,0,0.12,0,0.24,0,0.19,0,0.12,incorrect,incorrect,incorrect,incorrect
+"['wickha', 'mr wickham', 'wickham']",miss sharp,erdoğan,phạm văn đồng,maría,0,0.4,0,0.24,0,0.3,0,0.57,incorrect,incorrect,incorrect,incorrect
+"['lydia', 'lydia––']",emma woodhouse,atatürk,trần thị mai phương,george eliot,0,0.11,0,0.17,0,0.17,0,0.24,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],wickham,aslı,trung,don juan tenorio,0,0.25,0,0.31,0,0.14,0,0.16,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'elizabeth––']",friend,hayran,camilla,beatriz,0,0.13,0,0.13,0,0.25,0,0.38,incorrect,incorrect,incorrect,incorrect
+['jane'],elizabeth bennet,i̇smet pasha,trần thị kim tuyền,isabel ii,0,0.3,0,0.13,0,0.27,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",charlotte brontë,alişan,bill clinton,charles dickens,0,0.24,0,0.4,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],miss carteret,ali rıza taş,"giải thích: tôi không thể cung cấp câu trả lời chính xác mà không có thông tin cụ thể hơn về đối tượng. tuy nhiên, dựa trên thông tin đã được cung cấp, có thể [mask] là một người có liên quan hoặc có thể xuất hiện trong tr",carlos,0,0.27,0,0.48,0,0.01,0,0.13,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],edward ferrars,atatürk,kylie jenner,don quijote,0,0.26,0,0.25,0,0.29,0,0.1,incorrect,incorrect,incorrect,incorrect
+"['darcy', 'mr darcy']",elizabeth bennet,abdülhamid ii,nguyễn thượng hiền,francisco de quevedo,0,0.1,0,0.22,0,0.09,0,0.21,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],marianne dashwood,i̇smet i̇nönü,phạm văn đồng,don quixote,0,0.23,0,0.3,0,0.09,0,0.1,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],anne elliot,atatürk,phạm văn đồng,lucía de bretón,0,0.4,0,0.25,0,0.09,0,0.33,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],dr. sloper,plato,trần thị diễm,descartes,0,0.11,0,0.43,0,0.27,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['mr bennet', 'bennet', 'señor bennet']",anne elliot,abdülhamid ii,phạm văn đồng,edward ferrars,0,0.47,0,0.18,0,0.36,0,0.26,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],william pitt,mustafa kemal atatürk,phạm văn đồng,carlos,0,0.38,0,0.27,0,0.09,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['lizz', 'lizzy']",mr. collins,i̇brahim,nguyễn đình chiểu,carlos,0,0.27,0,0.18,0,0.1,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'elizabeth––']",mr. rochester,atatürk,hoàng đức định,don quixote,0,0.18,0,0.25,0,0.17,0,0.1,incorrect,incorrect,incorrect,incorrect
+"['mr bennet', 'bennet']",mr. collins,mr. collins,mr. collins,mr. collins,0,0.4,0,0.4,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['bennet', 'bà benne', 'mrs']",mr. darcy,yasemin geldi,phạm văn toàn,maría,0,0.33,0,0.33,0,0.38,0,0.5,incorrect,incorrect,incorrect,incorrect
+"['mrs bennet', 'bennet', 'señora bennet']",miss de bourgh,i̇smet i̇nönü,phạm văn đồnh,don quixote,0,0.4,0,0.47,0,0.35,0,0.19,incorrect,incorrect,incorrect,incorrect
+"['mrs bennet', 'bennet', 'señora bennet']",miss steele,yusuf,thiên âm,beatriz,0,0.48,0,0.25,0,0.43,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['mrs bennet', 'bennet', 'señora bennet']",mr. collins,atilla koç,phạm văn chính,carlos,0,0.43,0,0.17,0,0.33,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['anh darcy', 'darcy', 'mr darcy']",wickham,abdülkadir selvi,trần văn thành,carlos ruiz zafón,0,0.22,0,0.29,0,0.35,0,0.2,incorrect,incorrect,incorrect,incorrect

@@ -1,0 +1,91 @@
+Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,es_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['attila', 'atila', 'magyard']",carpathians,attila,attila,attila,0,0.5,1,1.0,1,1.0,1,1.0,incorrect,correct,correct,correct
+"['kont dracula', 'dracula', 'conde drácula']",dracula,contessa,đức,conde,1,1.0,0,0.62,0,0.4,1,1.0,correct,incorrect,incorrect,correct
+"['kont dracula', 'dracula', 'conde drácula']",dracula,dracula,đức,conde,1,1.0,1,1.0,0,0.4,1,1.0,correct,correct,incorrect,correct
+"['mr hawkins', 'hawkins']",heathcliff,conte,thầy,wilde,0,0.35,0,0.17,0,0.36,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['kont dracula', 'dracula', 'drácula']",dracula,drakula,dracula,drácula,1,1.0,0,0.86,1,1.0,1,1.0,correct,correct,correct,correct
+['lucy'],heathcliff,manastır,đông,mont saint-michel,0,0.14,0,0.0,0,0.0,0,0.1,incorrect,incorrect,incorrect,incorrect
+['lucy'],wuthering,epitaf,emily,epitafio,0,0.15,0,0.0,0,0.44,0,0.0,incorrect,incorrect,incorrect,incorrect
+['renfield'],dr. mudd,pinokyo,noah,freud,0,0.25,0,0.13,0,0.17,0,0.46,incorrect,incorrect,incorrect,incorrect
+['olgaren'],leggatt,christofferson,đông,jonás,0,0.43,0,0.29,0,0.36,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",god,odysseus,trần,homero,0,0.29,0,0.17,0,0.5,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lucy'],cathy,heathcliff,ngọc hân,heathcliff,0,0.44,0,0.14,0,0.17,0,0.14,incorrect,incorrect,incorrect,incorrect
+['lucy'],emily,augustus,đằng,emily,0,0.44,0,0.17,0,0.0,0,0.44,incorrect,incorrect,incorrect,incorrect
+['lucy'],hamlet,morpheos,chloroform,morfeo,0,0.2,0,0.0,0,0.14,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['miss westenra', 'lucy', 'westenra']",god,bayan,phạm tuyên,emily,0,0.0,0,0.22,0,0.43,0,0.44,incorrect,incorrect,incorrect,incorrect
+['arthur'],mr. rochester,bayan,god,mi madre,0,0.32,0,0.18,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['lucy'],emily,annesi,thúy kiều,emily,0,0.44,0,0.0,0,0.31,0,0.44,incorrect,incorrect,incorrect,incorrect
+['van helsing'],emerson,profesör,berkeley,harvard,0,0.43,0,0.27,0,0.27,0,0.4,incorrect,incorrect,incorrect,incorrect
+['bersicker'],jamrach,jamrach,đông,jamrach,0,0.25,0,0.25,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['tom', 'bilder', 'ms tom', 'bà bilder']",bill,yahya,đức phật,sancho,0,0.6,0,0.29,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['bersicker'],st. francis,i̇sa,đông,san francisco,0,0.2,0,0.17,0,0.0,0,0.27,incorrect,incorrect,incorrect,incorrect
+['thomas'],my,bay,đức,maría,0,0.25,0,0.22,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['mr bilder', 'bilder', 'bilde']",god,kardeş,newton,rey,0,0.25,0,0.4,0,0.18,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['lucy', 'renfield']",superintendent,dracula,đức,watson,0,0.36,0,0.27,0,0.57,0,0.14,incorrect,incorrect,incorrect,incorrect
+"['van helsin', 'van helsing']",mother,annemin,nguyễn tất tố,emily,0,0.33,0,0.59,0,0.21,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['van helsin', 'van helsing']",lucy,demokritos,ngọc hân,lethe,0,0.2,0,0.25,0,0.36,0,0.36,incorrect,incorrect,incorrect,incorrect
+['lucy'],undertaker,özdemir,đức,don quijote,0,0.14,0,0.0,0,0.57,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['john ạ', 'john']",god,arkadaşım,phật,tiempo,0,0.29,0,0.2,0,0.4,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",dorian,quasimodo,quasimodo,drácula,0,0.43,0,0.15,0,0.15,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",heathcliff,september,dracula,diario,0,0.33,0,0.12,0,0.27,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['mina', 'bà min', 'madam mina', 'señora mina']",heathcliff,bay,đức,maría,0,0.29,0,0.8,0,0.25,0,0.67,incorrect,correct,incorrect,incorrect
+"['luc', 'lucy']",god,epikür,thầy,usted,0,0.0,0,0.22,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['miss lucy', 'lucy']",emily,i̇sa,abraham,ellen,0,0.57,0,0.57,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['john'],madam,charcot,plato,swedenborg,0,0.0,0,0.18,0,0.22,0,0.14,incorrect,incorrect,incorrect,incorrect
+['lucy'],van helsing,van helsing,đôn,dios,0,0.13,0,0.13,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['doctor van helsing', 'van helsing']",heathcliff,heathcliff,chúa,edmundo,0,0.47,0,0.47,0,0.29,0,0.31,incorrect,incorrect,incorrect,incorrect
+['van helsing'],heed,anne,đức,niño,0,0.36,0,0.57,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['helsing', 'van helsing']",heathcliff,freud,đức,madre,0,0.47,0,0.17,0,0.0,0,0.25,incorrect,incorrect,incorrect,incorrect
+['lucy'],heathcliff,beatrice,phấn,beatriz,0,0.14,0,0.17,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['van helsing'],god,ben,đạt,él,0,0.2,0,0.4,0,0.33,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['“lord godalming', 'lord godalming', 'lordship', 'godalming']",god,samuel,thúy kiều,señor,0,0.57,0,0.27,0,0.24,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['seward', 'dr seward']",mr. utterson,september,nguyễn,freud,0,0.29,0,0.4,0,0.17,0,0.36,incorrect,incorrect,incorrect,incorrect
+['lucy'],watson,edison,đoạn,edison,0,0.0,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['seward', 'dr seward']",udy,edgar allan poe,đức,edison,0,0.4,0,0.33,0,0.4,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['seward', 'sewar', 'dr seward']",dracula,dracula,dracula,dr. seward,0,0.44,0,0.44,0,0.44,0,0.95,incorrect,incorrect,incorrect,correct
+"['harker', 'ms harker', 'mina', 'señora harker']",heathcliff,annemin,nguyễn,freud,0,0.26,0,0.55,0,0.33,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['mina', 'madam mina', 'harker']",god,yıldız,thúy kiều,estrella,0,0.25,0,0.25,0,0.4,0,0.17,incorrect,incorrect,incorrect,incorrect
+['mina'],heathcliff,medusa,emily,macbeth,0,0.14,0,0.4,0,0.44,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",dracula,kont,nguyễn,conde,0,0.27,0,0.5,0,0.29,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",god,annem,thúy kiều,diario,0,0.29,0,0.31,0,0.24,0,0.2,incorrect,incorrect,incorrect,incorrect
+['sam'],bill,postacı,ngài,señor,0,0.0,0,0.4,0,0.29,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['dracula', 'drácula', 'kont']",carfax,carfax,carfax,carfax,0,0.31,0,0.31,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
+['mina'],heathcliff,i̇sa,chúa,job,0,0.14,0,0.57,0,0.25,0,0.0,incorrect,incorrect,incorrect,incorrect
+['mina'],miss,exeter,exeter,emily,0,0.5,0,0.0,0,0.0,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['seward', 'doctor seward', 'sewar']",lincoln,lincoln,trường,trump,0,0.15,0,0.15,0,0.18,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['renfield', 'kont']",dracula,drakula,đức,frankenstein,0,0.27,0,0.27,0,0.18,0,0.4,incorrect,incorrect,incorrect,incorrect
+['van helsing'],dr. mütter,dr,đông,arquímedes,0,0.19,0,0.0,0,0.36,0,0.29,incorrect,incorrect,incorrect,incorrect
+['van helsing'],heathcliff,frankenstein,trời,frankenstein,0,0.47,0,0.52,0,0.18,0,0.52,incorrect,incorrect,incorrect,incorrect
+['van helsing'],death,yahweh,đức,salomé,0,0.25,0,0.35,0,0.0,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['harker', 'ms harker']",heathcliff,ben,quasimodo,él,0,0.25,0,0.22,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['mina', 'madam mina', 'harker']",god,i̇sa,chúa,señora macbeth,0,0.25,0,0.57,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",switzerland,i̇sviçre,đôn,scotland yard,0,0.32,0,0.0,0,0.57,0,0.38,incorrect,incorrect,incorrect,incorrect
+['mina'],god,tanrı,thánh linh,jesús,0,0.0,0,0.22,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['helsing', 'van helsing']",wiggins,profesör,phương,edgar,0,0.29,0,0.27,0,0.46,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['harker', 'ms harker', 'mina', 'señora harker']",god,yolcu,đức,maría,0,0.22,0,0.18,0,0.0,0,0.67,incorrect,incorrect,incorrect,incorrect
+"['mina', 'ơn chúa']",lenore,god,jonathan,dios,0,0.25,0,0.4,0,0.53,0,0.33,incorrect,incorrect,incorrect,incorrect
+['mina'],emily,hamlet,emily,emily,0,0.44,0,0.2,0,0.44,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['mina', 'min']",heathcliff,christ,thạch sanh,helena,0,0.15,0,0.22,0,0.15,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['seward', 'dr seward']",heathcliff,şilte,đông,freud,0,0.25,0,0.36,0,0.33,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['john', 'amigo john']",marlow,seni,đức,maestro,0,0.36,0,0.25,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['van helsing'],lord,i̇sa,đức chúa trời,maría,0,0.18,0,0.33,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['mina'],emma,ekim,chúa,emerson,0,0.5,0,0.25,0,0.25,0,0.36,incorrect,incorrect,incorrect,incorrect
+['mina'],heathcliff,annem,emily,adán,0,0.14,0,0.22,0,0.44,0,0.25,incorrect,incorrect,incorrect,incorrect
+['van helsing'],god,yehova,thúy,estrellas,0,0.2,0,0.44,0,0.18,0,0.38,incorrect,incorrect,incorrect,incorrect
+"['mina', 'madam mina', 'señora mina']",dracula,odysseus,varna,varna,0,0.33,0,0.29,0,0.44,0,0.44,incorrect,incorrect,incorrect,incorrect
+['mina'],god,noah,thánh phanxicô xaviê,padre,0,0.0,0,0.5,0,0.17,0,0.22,incorrect,incorrect,incorrect,incorrect
+['van helsing'],emma,bayan,emma,señora,0,0.29,0,0.5,0,0.29,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['morris', 'mr morris', 'quincey morri', 'señor morris']",sholes,mark twain,montblanc,mark twain,0,0.36,0,0.42,0,0.29,0,0.42,incorrect,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",edgar,hamlet,đông,job,0,0.22,0,0.29,0,0.5,0,0.57,incorrect,incorrect,incorrect,incorrect
+['van helsing'],mr. lorry,herodot,thales,abogado,0,0.2,0,0.29,0,0.46,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['skinsky', 'kont']",dracula,skinski,slovaki,conde,0,0.0,0,0.86,0,0.43,0,0.44,incorrect,correct,incorrect,incorrect
+"['mina', 'madam mina', 'señora mina']",god,odysseus,jesus,ulises,0,0.25,0,0.29,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['morris', 'mr morris', 'señor morris']",god,attila,đức,winchester,0,0.25,0,0.17,0,0.0,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",veresti,veresti,veresti,veresti,0,0.13,0,0.13,0,0.13,0,0.13,incorrect,incorrect,incorrect,incorrect
+['van helsing'],heathcliff,ann,nguyễn bính,doctor,0,0.47,0,0.67,0,0.36,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",god,i̇sa,chúa,dios,0,0.29,0,0.29,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+['van helsing'],god,november,noah,agua,0,0.2,0,0.21,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['mina', 'madam mina']",shorthand,herodot,thúy kiều,marie,0,0.29,0,0.17,0,0.21,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['mina', 'madam mina', 'señora mina']",pass,guido,nguyễn,borgo,0,0.25,0,0.22,0,0.33,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['mina', 'madam mina', 'min']",araxys,helios,chúa,drácula,0,0.36,0,0.22,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['jonathan', 'jona']",wellington,ahilles,richard,attila,0,0.29,0,0.27,0,0.27,0,0.43,incorrect,incorrect,incorrect,incorrect

@@ -1,0 +1,49 @@
+Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,es_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['george'],tom sawyer,ali,trung quốc,manuel,0,0.25,0,0.0,0,0.25,0,0.17,incorrect,incorrect,incorrect,incorrect
+['george'],jesus,ali,nguyễn du,carlos,0,0.18,0,0.0,0,0.27,0,0.17,incorrect,incorrect,incorrect,incorrect
+['lennie'],jesus,ali,nguyễn du,me,0,0.18,0,0.44,0,0.27,0,0.25,incorrect,incorrect,incorrect,incorrect
+['lennie'],john,turgut,đức,algo,0,0.2,0,0.0,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['george'],john,ali,tống trời,diablos,0,0.2,0,0.0,0,0.27,0,0.15,incorrect,incorrect,incorrect,incorrect
+['george'],hamlet,sen,lão tử,francisco,0,0.17,0,0.22,0,0.17,0,0.13,incorrect,incorrect,incorrect,incorrect
+['lennie'],jack,ali,nguyễn du,roberto,0,0.0,0,0.44,0,0.27,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['george', 'geroge']",john,ali,nghìn,francisco,0,0.2,0,0.0,0,0.18,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['lenni', 'lennie']","well, in gatsby—",ali,nghe,claro,0,0.18,0,0.5,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['george'],jack,ali,đồng,maría,0,0.0,0,0.0,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['lennie'],john,yelek,đầu,john,0,0.2,0,0.36,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['george'],john,ali,nguyễn du,el,0,0.2,0,0.0,0,0.27,0,0.25,incorrect,incorrect,incorrect,incorrect
+['george'],john,ali,đức giêsu,alta,0,0.2,0,0.0,0,0.27,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lenni', 'lennie']",never,muhammed,ngữ,escucha,0,0.36,0,0.15,0,0.25,0,0.17,incorrect,incorrect,incorrect,incorrect
+['george'],water,ali,nguyễn du,madrid,0,0.36,0,0.0,0,0.27,0,0.17,incorrect,incorrect,incorrect,incorrect
+['george'],john,tarkan,phía,sol,0,0.2,0,0.17,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['george', 'george—']",john wayne,ali,trần nhân tông,carlos,0,0.12,0,0.0,0,0.1,0,0.17,incorrect,incorrect,incorrect,incorrect
+['lennie'],superman,at,áo,juan,0,0.29,0,0.0,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+['carlson'],john luger,mark,nguyễn,hitler,0,0.12,0,0.36,0,0.15,0,0.15,incorrect,incorrect,incorrect,incorrect
+['george'],grandpa,domates,nguyễn,salmones,0,0.31,0,0.15,0,0.33,0,0.14,incorrect,incorrect,incorrect,incorrect
+['lennie'],god,i̇stanbul,trời,gatos,0,0.0,0,0.14,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['candy'],paris,ali,đức,teatro,0,0.2,0,0.25,0,0.25,0,0.18,incorrect,incorrect,incorrect,incorrect
+['george'],john,ali,lão,john,0,0.2,0,0.0,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+['candy'],john,vasiyetname,thân,haré,0,0.22,0,0.25,0,0.44,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['carlson—', 'carlson']",lucy,karı,nguyễn du,madrid,0,0.18,0,0.36,0,0.12,0,0.31,incorrect,incorrect,incorrect,incorrect
+['crooks'],john,murat,ngựa,francisco,0,0.2,0,0.18,0,0.0,0,0.27,incorrect,incorrect,incorrect,incorrect
+['george'],john,ali,đức,alberto,0,0.2,0,0.0,0,0.0,0,0.31,incorrect,incorrect,incorrect,incorrect
+['curley'],emma,dudak,ngọc,maria,0,0.2,0,0.18,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['lennie'],black,ali,ngựa,john,0,0.18,0,0.44,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lennie'],john,anneye,nguyễn du,francisco,0,0.2,0,0.5,0,0.27,0,0.27,incorrect,incorrect,incorrect,incorrect
+['george'],woody,atatürk,đông,león,0,0.18,0,0.15,0,0.2,0,0.4,incorrect,incorrect,incorrect,incorrect
+['curley'],john,ali,trời,concha,0,0.0,0,0.22,0,0.2,0,0.17,incorrect,incorrect,incorrect,incorrect
+['lennie'],john,köpek,con,mi perro,0,0.2,0,0.18,0,0.22,0,0.14,incorrect,incorrect,incorrect,incorrect
+['lennie'],goldilocks,atatürk,nguyễn,señora,0,0.25,0,0.0,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['curley', 'vợ curley']",sun,sedef,trần,la,0,0.22,0,0.18,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['curley', 'curle']",lassie,i̇smail,đông,el,0,0.36,0,0.18,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
+['curley'],emily,ali,thủy tiên,maría,0,0.36,0,0.22,0,0.27,0,0.18,incorrect,incorrect,incorrect,incorrect
+['george'],jesus,emre,khổng minh,diablo,0,0.18,0,0.6,0,0.12,0,0.17,incorrect,incorrect,incorrect,incorrect
+['george'],emily,ali,nghe,león,0,0.18,0,0.0,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+['george'],jane,adam,trại,juan,0,0.2,0,0.0,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],england,yunan,trung,madrid,0,0.15,0,0.0,0,0.18,0,0.17,incorrect,incorrect,incorrect,incorrect
+['lennie'],dragonfly,atatürk,trần,el,0,0.13,0,0.0,0,0.2,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['lennie im', 'lennie']",robin,kuş,đức,laguna,0,0.29,0,0.0,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['george'],jack,atatürk,thỏ,don quijote,0,0.0,0,0.15,0,0.22,0,0.12,incorrect,incorrect,incorrect,incorrect
+['george'],william,türküler,lão,albert camus,0,0.0,0,0.29,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['george', 'george—']",devil,adam,nguyễn du,carlos,0,0.18,0,0.0,0,0.27,0,0.17,incorrect,incorrect,incorrect,incorrect
+['lennie'],wuthering,rüzgar,gió,don quijote,0,0.27,0,0.0,0,0.22,0,0.12,incorrect,incorrect,incorrect,incorrect
+['george'],bank,i̇skender,đồng rùng,pompeii,0,0.0,0,0.29,0,0.4,0,0.15,incorrect,incorrect,incorrect,incorrect

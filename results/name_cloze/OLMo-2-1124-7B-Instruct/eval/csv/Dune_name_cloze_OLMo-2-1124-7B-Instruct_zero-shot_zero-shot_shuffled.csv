@@ -1,0 +1,101 @@
+Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,es_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['paul'],two,yatağın,nguyễn thị huyền,maría,0,0.0,0,0.18,0,0.1,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],arrakeen,paul,arrakeen,aún,0,0.17,1,1.0,0,0.17,0,0.57,incorrect,correct,incorrect,incorrect
+['paul'],jon kabat-zinn,can,nguyễn đình thi,la matriz,0,0.11,0,0.29,0,0.11,0,0.15,incorrect,incorrect,incorrect,incorrect
+['jessica'],orchards,syubi,syubi,syubi,0,0.13,0,0.33,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],emily,emir,ngọc anh,antonio,0,0.22,0,0.0,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],black,cüppesinin,bà xanh,maría,0,0.22,0,0.14,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],john,hasan,kim cậu,alfredo,0,0.0,0,0.22,0,0.36,0,0.36,incorrect,incorrect,incorrect,incorrect
+['paul'],john,halide,cậu,don quijote,0,0.0,0,0.4,0,0.57,0,0.13,incorrect,incorrect,incorrect,incorrect
+['paul'],he,yanma,nguyễn thành chung,mano c,0,0.0,0,0.22,0,0.18,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],john,elini,nguyễn thị đào,maría,0,0.0,0,0.22,0,0.11,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jessica'],emily,artık,con trâu,el humano.,0,0.33,0,0.17,0,0.27,0,0.24,incorrect,incorrect,incorrect,incorrect
+['bene gesserit'],smith,atatürk,người mẹ,esperanza,0,0.46,0,0.13,0,0.25,0,0.47,incorrect,incorrect,incorrect,incorrect
+['jessica'],house atreides,house atreides,choam,choam,0,0.19,0,0.19,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
+['jessica'],my,çavdar,nguyễn thị mi,palma,0,0.0,0,0.31,0,0.2,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessic']",shield,halime,tạ huyết,protegerle,0,0.17,0,0.17,0,0.14,0,0.12,incorrect,incorrect,incorrect,incorrect
+['jessica'],emily,ömer,độc tiên,diego,0,0.33,0,0.18,0,0.13,0,0.17,incorrect,incorrect,incorrect,incorrect
+['paul'],witch,gaye,bà mục,finalidad,0,0.0,0,0.25,0,0.4,0,0.31,incorrect,incorrect,incorrect,incorrect
+['paul'],water,osman,nước hoa kỳ,agua,0,0.22,0,0.22,0,0.13,0,0.5,incorrect,incorrect,incorrect,incorrect
+['hawat'],john,oraya,nguyễn đình thi,earth,0,0.22,0,0.4,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['paul'],john,griboyedov,nước,agua,0,0.0,0,0.0,0,0.25,0,0.5,incorrect,incorrect,incorrect,incorrect
+['paul'],she,osman,bà ta,maría,0,0.0,0,0.22,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",andromeda,hüseyin,bà mẹ,gobernar,0,0.15,0,0.18,0,0.22,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['halleck', 'paul']",alfred,grant,thăng long,seville,0,0.46,0,0.22,0,0.35,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['paul', 'paul—']",king,mizrap,nguyễn du,castillo,0,0.0,0,0.2,0,0.15,0,0.33,incorrect,incorrect,incorrect,incorrect
+['gurney'],baliset,çakmakçı,thái bá sang,maría,0,0.15,0,0.0,0,0.11,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],arthur,yatağın,tấm,tom,0,0.4,0,0.18,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['halleck'],lord,meç ali,nguyễn đình thi,don quijote,0,0.18,0,0.29,0,0.09,0,0.11,incorrect,incorrect,incorrect,incorrect
+"['halleck', 'giọng halleck']",shield,havanda,tâm đồng,el amor,0,0.31,0,0.29,0,0.46,0,0.17,incorrect,incorrect,incorrect,incorrect
+['halleck'],john,gözü,tạ huy chương,algo,0,0.18,0,0.0,0,0.2,0,0.36,incorrect,incorrect,incorrect,incorrect
+['paul'],he,hayat,nguyễn đình thi,don quijote,0,0.0,0,0.22,0,0.11,0,0.13,incorrect,incorrect,incorrect,incorrect
+['paul'],arrakeen,arrakis,arrakeen,arrakis,0,0.17,0,0.18,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],he,kitap,nguyễn thành chung,el,0,0.0,0,0.22,0,0.18,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],london,ali,người anh,carlos,0,0.2,0,0.57,0,0.15,0,0.4,incorrect,incorrect,incorrect,incorrect
+['paul'],reverend,rahibe,cần,madre,0,0.0,0,0.2,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
+['jessica'],house,paulos atreides,paul atreides,gesserit,0,0.17,0,0.18,0,0.2,0,0.53,incorrect,incorrect,incorrect,incorrect
+['paul'],general,dük. mustafa kemal,nguyễn đình thi,quiero mesa estratégica.,0,0.36,0,0.18,0,0.11,0,0.07,incorrect,incorrect,incorrect,incorrect
+"['jessica', 'jessica—']",children,ali,ngươi,don quixote,0,0.13,0,0.2,0,0.17,0,0.11,incorrect,incorrect,incorrect,incorrect
+['jessica'],john,osman,thái bá,remota aldea,0,0.18,0,0.33,0,0.29,0,0.21,incorrect,incorrect,incorrect,incorrect
+['jessica'],bene gesserit,bene gesserit,paul atreides,bene gesserit,0,0.4,0,0.4,0,0.2,0,0.4,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,yaratıcı,ngài,iba,0,0.2,0,0.27,0,0.18,0,0.4,incorrect,incorrect,incorrect,incorrect
+['jessica'],the duke,boğa,cái lão,duque,0,0.13,0,0.18,0,0.29,0,0.17,incorrect,incorrect,incorrect,incorrect
+['jessica'],anna,yemek,ngọc hoàng,familiares,0,0.18,0,0.17,0,0.24,0,0.24,incorrect,incorrect,incorrect,incorrect
+['paul'],john,yatağın,nguyễn thị huyền,luz,0,0.0,0,0.18,0,0.1,0,0.29,incorrect,incorrect,incorrect,incorrect
+['paul'],he,dalgalar,nguyễn đình thi,la dirigió,0,0.0,0,0.33,0,0.11,0,0.14,incorrect,incorrect,incorrect,incorrect
+['paul'],arthur,koridora,chim,librería,0,0.4,0,0.17,0,0.0,0,0.17,incorrect,incorrect,incorrect,incorrect
+['paul'],charles,santim,nguyễn ái quốc,del,0,0.36,0,0.2,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,montreal,nàng,miró,0,0.2,0,0.27,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,ama oyuk tırabzan,trường sư,el manija,0,0.2,0,0.17,0,0.12,0,0.25,incorrect,incorrect,incorrect,incorrect
+['jessica'],richer,verdi,nó một,sebastián,0,0.31,0,0.33,0,0.0,0,0.5,incorrect,incorrect,incorrect,incorrect
+['jessica'],ion,oda kadası,ngôi sao,edificio [name],0,0.2,0,0.24,0,0.27,0,0.36,incorrect,incorrect,incorrect,incorrect
+['leto'],arrakeen,arrakeen,paulus,arrakeen,0,0.17,0,0.17,0,0.2,0,0.17,incorrect,incorrect,incorrect,incorrect
+['jessica'],she,ali,nàng giấy,inspeccion,0,0.2,0,0.2,0,0.25,0,0.24,incorrect,incorrect,incorrect,incorrect
+['jessica'],mother,ama i̇steri,đức phải,madre,0,0.15,0,0.24,0,0.13,0,0.17,incorrect,incorrect,incorrect,incorrect
+['leto'],arrakis,adam,nguyễn đình thi,don quijote,0,0.0,0,0.0,0,0.21,0,0.13,incorrect,incorrect,incorrect,incorrect
+['paul'],charles,babasının,nguyễn đình thi,el en padre,0,0.36,0,0.15,0,0.11,0,0.27,incorrect,incorrect,incorrect,incorrect
+['stilgar'],the king,ömer,vang,os,0,0.4,0,0.18,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],john,ali,người đàn ông,don rodrigo,0,0.0,0,0.57,0,0.12,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],staff,adnan,nguyễn đình thi,antes,0,0.22,0,0.22,0,0.11,0,0.22,incorrect,incorrect,incorrect,incorrect
+['leto'],john,muhafız,nguyễn đình thi,al,0,0.25,0,0.0,0,0.21,0,0.33,incorrect,incorrect,incorrect,incorrect
+['leto'],milky way,kalkan,thái bình dương,escudo,0,0.15,0,0.2,0,0.21,0,0.4,incorrect,incorrect,incorrect,incorrect
+['paul'],john,ali,nguyễn đình thi,maría,0,0.0,0,0.57,0,0.11,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],john,babası,nguyễn du,las fatalismo,0,0.0,0,0.2,0,0.15,0,0.24,incorrect,incorrect,incorrect,incorrect
+['paul'],sure,belki,thiên vương,floraciones,0,0.25,0,0.22,0,0.13,0,0.13,incorrect,incorrect,incorrect,incorrect
+['paul'],every,ali,nguyễn đình thi,captora,0,0.0,0,0.57,0,0.11,0,0.36,incorrect,incorrect,incorrect,incorrect
+['paul'],ornithopter,ornitopter,giặc mặt,ornitóptero,0,0.13,0,0.14,0,0.17,0,0.13,incorrect,incorrect,incorrect,incorrect
+['paul'],beetle,boru,bạch hổ,monstruo,0,0.2,0,0.25,0,0.18,0,0.17,incorrect,incorrect,incorrect,incorrect
+['paul'],paul,ali,thợ giám ta bộ,jadeantes,1,1.0,0,0.57,0,0.11,0,0.15,correct,incorrect,incorrect,incorrect
+['paul'],factory,solucanişareti,chen,tractor,0,0.18,0,0.11,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['kynes', 'kynes—', 'ngài']",god,abdullah,atreides,señor,0,0.29,0,0.17,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['leydi jessica', 'dama jessica', 'jessica']",carthaginian,dük,carthaginus,reconoci,0,0.25,0,0.29,0,0.27,0,0.31,incorrect,incorrect,incorrect,incorrect
+['jessica'],hair,dük,thủy tinh,maría,0,0.18,0,0.0,0,0.12,0,0.33,incorrect,incorrect,incorrect,incorrect
+['paul'],john,ali,nguyễn đình thiện,don diego,0,0.0,0,0.57,0,0.1,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],john,baba,tự đức,se,0,0.0,0,0.25,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],mother,i̇kisi annesinin,cậu sự,captura,0,0.0,0,0.11,0,0.4,0,0.36,incorrect,incorrect,incorrect,incorrect
+['paul'],fisherman,cesedi,ngư,pesca,0,0.15,0,0.0,0,0.29,0,0.44,incorrect,incorrect,incorrect,incorrect
+['paul'],mr. hyde,babamın,ông,banquero,0,0.0,0,0.18,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
+['yueh'],sound generator,emma,căn sáng trên khung tấm tờ tỏa đèn màu đỏ căn mặt nhất,la habana,0,0.21,0,0.25,0,0.1,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",she,kim,nguyễn khả lạp,y,0,0.0,0,0.33,0,0.24,0,0.0,incorrect,incorrect,incorrect,incorrect
+['paul'],john,aliye,nguyễn đình thi,madre,0,0.0,0,0.44,0,0.11,0,0.22,incorrect,incorrect,incorrect,incorrect
+['paul'],john,adam,con,roberto,0,0.0,0,0.25,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['harkonnen', 'yueh']",john,harkonnen,hang mau,guardias,0,0.31,1,1.0,0,0.35,0,0.24,incorrect,correct,incorrect,incorrect
+"['ùng', 'barón', 'baron']",black pearl,titreşimlerini seslerin uzaktan titiz buuum. sonra: buuum-buuum! buuum... geminin gövdesindeki gelen metal hissedebiliyordu:,nguyễn đình thi,el y,0,0.38,0,0.05,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",charles darwin,birden erdoğan,ngừ nghĩ mổ bác phẫu địa nhiên làm giải khỏi một bằng chiếc cái đớn.,señor dissectores,0,0.32,0,0.32,0,0.11,0,0.18,incorrect,incorrect,incorrect,incorrect
+['paul'],blackwood,aracın,nguyễn thiện nhân,elvis presley,0,0.15,0,0.2,0,0.1,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['pau', 'paul']",dim,ernest,nàng thủy tinh,yago,0,0.0,0,0.0,0,0.24,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['thufir hawat—', 'thufir hawat']",mentat,aliye,thể chất mentat,uno esta,0,0.36,0,0.2,0,0.52,0,0.2,incorrect,incorrect,incorrect,incorrect
+['fremen'],man,yarasa,giang tử,el hombre,0,0.44,0,0.17,0,0.14,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",power,güç,hàm nghi,hagamoslo,0,0.2,0,0.0,0,0.36,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['barón', 'nam', 'baron']",peck,meram,nguyễn huệ,manuel,0,0.0,0,0.5,0,0.15,0,0.36,incorrect,incorrect,incorrect,incorrect
+['stilgar'],mother,osman,thái bá,ella,0,0.31,0,0.33,0,0.43,0,0.36,incorrect,incorrect,incorrect,incorrect
+['jamis'],he,yumruğu,nguyễn đình thi,alfonso,0,0.0,0,0.17,0,0.1,0,0.33,incorrect,incorrect,incorrect,incorrect
+['gurney halleck'],blade,ucu,mũi nhớ,el a de su punta filo en hoja y adversario.,0,0.33,0,0.24,0,0.31,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['jamis', 'chani']",jamis,kanun,xác,tribu navajo,1,1.0,0,0.4,0,0.25,0,0.12,correct,incorrect,incorrect,incorrect
+['harah'],young wore,bellerophon,thế trạc,enrique,0,0.13,0,0.12,0,0.46,0,0.17,incorrect,incorrect,incorrect,incorrect
+['chani'],hajra,çamlıyönü,từ thầm,del,0,0.4,0,0.43,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['alia', 'paul']",water,aliya,con nó,aún,0,0.22,0,0.89,0,0.0,0,0.57,incorrect,correct,incorrect,incorrect
+['gurney'],leonidas,çanakkale,nguyễn huệ,guerra,0,0.14,0,0.27,0,0.5,0,0.5,incorrect,incorrect,incorrect,incorrect
+['gurney'],dune,damıtıcı,nguyễn đình thi,terreno,0,0.6,0,0.0,0,0.29,0,0.31,incorrect,incorrect,incorrect,incorrect
+['gurney'],paul,paul atreides,paul atreides,paul atreides,0,0.2,0,0.32,0,0.32,0,0.32,incorrect,incorrect,incorrect,incorrect
+['muad'],dib,şahin,riya,en borde,0,0.29,0,0.22,0,0.25,0,0.17,incorrect,incorrect,incorrect,incorrect

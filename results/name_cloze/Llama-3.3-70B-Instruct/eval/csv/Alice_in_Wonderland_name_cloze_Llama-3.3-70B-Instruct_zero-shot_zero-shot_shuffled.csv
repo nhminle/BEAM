@@ -1,0 +1,47 @@
+Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,es_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+"['alice', 'alicia']",alice,orhan kemal,thủy,alice,1,1.0,0,0.25,0,0.0,1,1.0,correct,incorrect,incorrect,correct
+"['alice', 'alicia']",me,galileo,nguyễn du,alice,0,0.29,0,0.67,0,0.14,1,1.0,incorrect,incorrect,incorrect,correct
+"['alice', 'alicia']",alice,ali,đông,jesús,1,1.0,0,0.75,0,0.0,0,0.2,correct,correct,incorrect,incorrect
+"['alice', 'alicia']",alice,ali,đông,alicia,1,1.0,0,0.75,0,0.0,1,1.0,correct,correct,incorrect,correct
+"['alice', 'alicia']",alice,gölge,nguyễn,alejandro,1,1.0,0,0.4,0,0.18,0,0.43,correct,incorrect,incorrect,incorrect
+['dodo'],washington,mustafa kemal atatürk,đảng,europa,0,0.14,0,0.0,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",god,tam,cô,piñata,0,0.0,0,0.25,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,osman,đông nhi,don quijote,1,1.0,0,0.2,0,0.15,0,0.25,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,odanın,không có thông tin đủ để xác định,aladdín,1,1.0,0,0.36,0,0.11,0,0.5,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,oku,thầy,la biblioteca,1,1.0,0,0.0,0,0.22,0,0.53,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",eve,alice,nguyễn,alejandro,0,0.25,1,1.0,0,0.18,0,0.43,incorrect,correct,incorrect,incorrect
+"['alice', 'alicia']",charlotte,çakır,chó,perro,0,0.43,0,0.4,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",lassie,cihan,chó,perro,0,0.55,0,0.55,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,orman,đông,alicia,1,1.0,0,0.2,0,0.0,1,1.0,correct,incorrect,incorrect,correct
+"['alice', 'alicia']",god,peygamber,tố hữu,alice,0,0.0,0,0.29,0,0.0,1,1.0,incorrect,incorrect,incorrect,correct
+"['alice', 'alicia']",alice,tırtıl,thúy,alicia,1,1.0,0,0.18,0,0.0,1,1.0,correct,incorrect,incorrect,correct
+"['alice', 'alicia']",alice,yusuf,trái đất,alejandro,1,1.0,0,0.0,0,0.43,0,0.43,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",eve,türkiye,thạch sanh,josé,0,0.25,0,0.33,0,0.38,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",eve,i̇nci,tất,eva,0,0.25,0,0.6,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",hamlet,türkiye,nguyễn,josé,0,0.55,0,0.33,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",god,allah,trần thế giới,jesucristo,0,0.0,0,0.55,0,0.32,0,0.13,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",god,tarık,trần thị,maria,0,0.0,0,0.4,0,0.31,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",emily,düşes,thế,maria,0,0.2,0,0.2,0,0.25,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",einstein,allah,chúa,america,0,0.31,0,0.55,0,0.22,0,0.62,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",jane,aşçı,thủy,josé,0,0.44,0,0.6,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,bebeğin,không có thông tin đủ để xác định,frankenstein,1,1.0,0,0.17,0,0.11,0,0.24,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",pig,bebeğin,con,ella,0,0.25,0,0.17,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",charlotte,taylor,nguyễn,juan,0,0.43,0,0.36,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",corner,üçüncü,đông,mesa,0,0.36,0,0.18,0,0.0,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",eve,ton,không có thông tin,niños,0,0.25,0,0.0,0,0.09,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",eve,şekilde,nguyễn du,josé,0,0.25,0,0.33,0,0.14,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,hz. i̇brahim,phức tạp,josé,1,1.0,0,0.25,0,0.15,0,0.22,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,i̇çinde,nguyễn du,alice,1,1.0,0,0.55,0,0.14,1,1.0,correct,incorrect,incorrect,correct
+"['alice', 'alicia']",emily,i̇sa,trái đất,europa,0,0.2,0,0.25,0,0.43,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",king,bir subay,vietnam,napoleón,0,0.22,0,0.14,0,0.17,0,0.46,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,flamingo,đất,erizo,1,1.0,0,0.31,0,0.25,0,0.2,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",god,tanrı,thánh giuse,maria,0,0.0,0,0.4,0,0.38,0,0.55,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",mill,anneciğim,nguyễn,eva,0,0.22,0,0.4,0,0.18,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",school,hardal,thần,adán,0,0.18,0,0.36,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia', 'alice ejder']",mother,allah,phật,jesús,0,0.36,0,0.55,0,0.22,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,kimse,nguyễn du,jesús,1,1.0,0,0.4,0,0.14,0,0.2,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",red,kadrili,thế,langosta,0,0.25,0,0.5,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alic', 'alicia']",mock turtle,kaplumbağa,vietnam,tortuga,0,0.25,0,0.38,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",god,orhan veli,đức,jesús,0,0.0,0,0.4,0,0.25,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice,tamara,vietnam,al,1,1.0,0,0.33,0,0.17,0,0.57,correct,incorrect,incorrect,incorrect
+"['alice', 'alicia']",alice wonderland,ablasına,alice,alicia,0,0.48,0,0.57,1,1.0,1,1.0,incorrect,incorrect,correct,correct
