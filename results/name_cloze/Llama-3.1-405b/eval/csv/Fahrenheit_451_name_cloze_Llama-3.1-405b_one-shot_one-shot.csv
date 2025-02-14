@@ -1,0 +1,61 @@
+Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['montag'],harry,holden,scarlett,charlie,0,0.18,0,0.33,0,0.14,0,0.15,incorrect,incorrect,incorrect,incorrect
+['montag'],bradbury,ali,harry,ali,0,0.14,0,0.22,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],he,adam,heathcliff,ali,0,0.0,0,0.2,0,0.12,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],harry,harry,harry,ali,0,0.18,0,0.18,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],montag,guy montag,montag,montag,1,1.0,0,0.75,1,1.0,1,1.0,correct,correct,correct,correct
+['montag'],guy montag,montag,montag,john,0,0.75,1,1.0,1,1.0,0,0.4,correct,correct,correct,incorrect
+['montag'],montag,montag,montag,bradbury,1,1.0,1,1.0,1,1.0,0,0.14,correct,correct,correct,incorrect
+['montag'],montag,offred,tom,offred,1,1.0,0,0.17,0,0.22,0,0.17,correct,incorrect,incorrect,incorrect
+['montag'],montag,tom,tom,ali,1,1.0,0,0.22,0,0.22,0,0.22,correct,incorrect,incorrect,incorrect
+"['beatty—', 'beatty']",henry,heinrich,heathcliff,mustafa,0,0.36,0,0.14,0,0.38,0,0.15,incorrect,incorrect,incorrect,incorrect
+['mildred'],god,tom,god,ali,0,0.2,0,0.2,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['montag', 'mildred']",he,mildred,emily,mildred,0,0.22,1,1.0,0,0.5,1,1.0,incorrect,correct,incorrect,correct
+['beatty'],captain,captain,john,richard,0,0.31,0,0.31,0,0.0,0,0.15,incorrect,incorrect,incorrect,incorrect
+['beatty'],doc,montag,heathcliff,ali,0,0.0,0,0.17,0,0.38,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],nick,bill,joe,charlie,0,0.2,0,0.0,0,0.22,0,0.15,incorrect,incorrect,incorrect,incorrect
+['mildred'],tom,ali,ngọc,ali,0,0.2,0,0.2,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['faber', 'faber—']",faber,faber,fahrenheit,john,1,1.0,1,1.0,0,0.4,0,0.0,correct,correct,incorrect,incorrect
+['montag'],denham,denham,denham,denham,0,0.17,0,0.17,0,0.17,0,0.17,incorrect,incorrect,incorrect,incorrect
+['montag'],emerson,harry,henry,harry,0,0.46,0,0.18,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],john,paul,paul,mustafa,0,0.4,0,0.2,0,0.2,0,0.46,incorrect,incorrect,incorrect,incorrect
+['montag'],montag,montag,montag,ali,1,1.0,1,1.0,1,1.0,0,0.22,correct,correct,correct,incorrect
+['faber'],montag,harry,harry,harry,0,0.18,0,0.4,0,0.4,0,0.4,incorrect,incorrect,incorrect,incorrect
+['gloria'],martha,anna,marie,anna,0,0.33,0,0.2,0,0.36,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['bowles', 'bayan bowles']",shirley,clarissa,lenina,scarlett,0,0.31,0,0.31,0,0.33,0,0.3,incorrect,incorrect,incorrect,incorrect
+"['bowles', 'bayan bowles']",angelina,joan,harry,shirley,0,0.31,0,0.44,0,0.4,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['bayan phelps', 'phelps']",montag,montag,montag,montag,0,0.18,0,0.18,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['bayan phelps', 'phelps']",emily,shelley,emily,shakespeare,0,0.36,0,0.46,0,0.36,0,0.26,incorrect,incorrect,incorrect,incorrect
+['montag'],jesus,paul,sethe,atatürk,0,0.0,0,0.2,0,0.18,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['bowles', 'bowles—', 'bayan bowles']",stephen,holden,holden,holden,0,0.17,0,0.5,0,0.5,0,0.5,incorrect,incorrect,incorrect,incorrect
+['montag'],tom,jesus,god,god,0,0.22,0,0.0,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],henry,heathcliff,harry,jason,0,0.18,0,0.12,0,0.18,0,0.36,incorrect,incorrect,incorrect,incorrect
+['beatty'],hammond,holden,ngọc,hamdi,0,0.15,0,0.17,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],septimus,bayan danvers,holden,orhan,0,0.14,0,0.21,0,0.33,0,0.36,incorrect,incorrect,incorrect,incorrect
+['montag'],wick,clarice,montag,clarice,0,0.0,0,0.15,1,1.0,0,0.15,incorrect,incorrect,correct,incorrect
+['montag'],guy montag,montag,nguyễn,montag,0,0.75,1,1.0,0,0.33,1,1.0,correct,correct,incorrect,correct
+['montag'],holden,paul,heathcliff,ali,0,0.33,0,0.2,0,0.12,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],montag,heathcliff,tom,ali,1,1.0,0,0.12,0,0.22,0,0.22,correct,incorrect,incorrect,incorrect
+['montag'],montag,sal,paul,tom,1,1.0,0,0.22,0,0.2,0,0.22,correct,incorrect,incorrect,incorrect
+['montag'],joe,joe,paul,joe,0,0.22,0,0.22,0,0.2,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],montag,jack,paul,ali,1,1.0,0,0.2,0,0.2,0,0.22,correct,incorrect,incorrect,incorrect
+['montag'],tom,montag,james,gregor,0,0.22,1,1.0,0,0.18,0,0.17,incorrect,correct,incorrect,incorrect
+['montag'],montag,john,tom,john,1,1.0,0,0.4,0,0.22,0,0.4,correct,incorrect,incorrect,incorrect
+['montag'],montag,thomas,nguyễn,ali,1,1.0,0,0.33,0,0.33,0,0.22,correct,incorrect,incorrect,incorrect
+['montag'],sethe,offred,harry,ali,0,0.18,0,0.17,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],gregor,heathcliff,heathcliff,orhan,0,0.17,0,0.12,0,0.12,0,0.36,incorrect,incorrect,incorrect,incorrect
+['montag'],montag,scarlett,tom,ali,1,1.0,0,0.14,0,0.22,0,0.22,correct,incorrect,incorrect,incorrect
+['montag'],george,holden,holden,ali,0,0.33,0,0.33,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],winston,harry,edward,harry,0,0.31,0,0.18,0,0.17,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],guy montag,montag,faber,montag,0,0.75,1,1.0,0,0.18,1,1.0,correct,correct,incorrect,correct
+"['montag', 'montag tiến']",steinbeck,sam,william faulkner,john,0,0.46,0,0.22,0,0.22,0,0.4,incorrect,incorrect,incorrect,incorrect
+['montag'],abner,john,john,ali,0,0.18,0,0.4,0,0.4,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],he,paul,robert jordan,ali,0,0.0,0,0.2,0,0.21,0,0.22,incorrect,incorrect,incorrect,incorrect
+['montag'],guy montag,montag,fahrenheit,montag,0,0.75,1,1.0,0,0.25,1,1.0,correct,correct,incorrect,correct
+['montag'],bradbury,paul,clarke,paul,0,0.14,0,0.2,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
+['granger'],ray bradbury,montag,ray bradbury,montag,0,0.32,0,0.15,0,0.32,0,0.15,incorrect,incorrect,incorrect,incorrect
+['granger'],walter,wernher,walt,john,0,0.46,0,0.29,0,0.18,0,0.18,incorrect,incorrect,incorrect,incorrect
+['montag'],bradbury,guadalcanal,yossarian,ray bradbury,0,0.14,0,0.24,0,0.27,0,0.11,incorrect,incorrect,incorrect,incorrect
+['montag'],henry,heinrich,henry,ali,0,0.18,0,0.14,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
+['granger'],george,john,nguyễn,john,0,0.46,0,0.18,0,0.46,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['granger', 'george—']",montag,granger,fahrenheit,granger,0,0.15,1,1.0,0,0.35,1,1.0,incorrect,correct,incorrect,correct

@@ -48,8 +48,8 @@ def main(title,model,prompt_setting):
         for item in row:
             expanded_list.append(item)
             expanded_list.extend(item.split())
-        print("row: ", row)
-        print("gran:", list(set(expanded_list)))
+        # print("row: ", row)
+        # print("gran:", list(set(expanded_list)))
         return list(set(expanded_list))
 
     df1['Single_ent'] = df1['Single_ent'].apply(granular_ents)
@@ -123,23 +123,23 @@ def main(title,model,prompt_setting):
         assess(lang, df)
         assess(lang, df_shuffled)
     # print(df)
-    models = ['OLMo-7B-0724-Instruct-hf', 'Llama-3.1-70B-Instruct', 'Meta-Llama-3.1-8B-Instruct', 'gpt4o']
-    cur_model = ''
-    for model in models:
-        if model in title:
-            cur_model = model
-            df.to_csv(f'/Users/minhle/Umass/ersp/Evaluation/nct/eval/csv/{model}/{title}.csv', index=False, encoding='utf-8')
-            df_shuffled.to_csv(f'/Users/minhle/Umass/ersp/Evaluation/nct/eval/csv/{model}/{model}_shuffled/{title}_shuffled.csv', index=False, encoding='utf-8')
+    # models = ['OLMo-7B-0724-Instruct-hf', 'Llama-3.1-70B-Instruct', 'Meta-Llama-3.1-8B-Instruct', 'gpt4o']
+    # cur_model = ''
+    # for model in models:
+    #     if model in title:
+    #         cur_model = model
+    df.to_csv(f'/Users/emir/Downloads/asd/BEAM/results/name_cloze/{model}/eval/csv/{title}_{prompt_setting}.csv', index=False, encoding='utf-8')
+    df_shuffled.to_csv(f'/Users/emir/Downloads/asd/BEAM/results/name_cloze/{model}/eval/csv/{title}_{prompt_setting}_shuffled.csv', index=False, encoding='utf-8')
     # ------------------------------------------ plotting unshuffled data ------------------------------------------
     unshuffled_guess_accuracy = {
         lang: df[f'{lang}_correct'].value_counts(normalize=True).get('correct', 0) * 100
         for lang in available_langs if f'{lang}_correct' in df
     }
-    print(unshuffled_guess_accuracy)
+    # print(unshuffled_guess_accuracy)
     languages = list(unshuffled_guess_accuracy.keys())
     accuracy_values = list(unshuffled_guess_accuracy.values())
-    print(languages)
-    print(accuracy_values)
+    # print(languages)
+    # print(accuracy_values)
     plt.figure(figsize=(10, 6))
     colors = ['#4E79A7', '#F28E2B', '#76B7B2', '#E15759']
     bars = plt.bar(languages, accuracy_values, color=colors)
@@ -154,7 +154,7 @@ def main(title,model,prompt_setting):
         plt.text(bar.get_x() + bar.get_width() / 2, 5, f'{height:.1f}%', ha='center', va='bottom', fontsize=14, fontweight='bold')  # Bold formatting added here
 
     plt.ylim(0, 100)
-    plt.savefig(f'/Users/emir/Downloads/asd/BEAM/results/visualizations/{title}.png', dpi=300, bbox_inches='tight')
+    plt.savefig(f'/Users/emir/Downloads/asd/BEAM/results/name_cloze/{model}/eval/{title}.png', dpi=300, bbox_inches='tight')
     
     # ------------------------------------------ plotting shuffled data ------------------------------------------
     shuffled_guess_accuracy = {
@@ -178,7 +178,7 @@ def main(title,model,prompt_setting):
         plt.text(bar.get_x() + bar.get_width() / 2, 5, f'{height:.1f}%', ha='center', va='bottom', fontsize=14, fontweight='bold')  # Bold formatting added here
 
     plt.ylim(0, 100)
-    plt.savefig(f'/Users/emir/Downloads/asd/BEAM/results/visualizations/{title}_shuffled.png', dpi=300, bbox_inches='tight')
+    plt.savefig(f'/Users/emir/Downloads/asd/BEAM/results/name_cloze/{model}/eval/{title}_shuffled.png', dpi=300, bbox_inches='tight')
     
 
 def list_csv_files(directory):
@@ -202,14 +202,14 @@ def list_csv_files(directory):
 # #     main(t)
 
 # main('The_Boy_in_the_Striped_Pyjamas_name_cloze_Llama-3.1-70B-Instruct')
-
-#models = ['EuroLLM-9B-Instruct', 'OLMo-7B-0724-Instruct-hf', 'Llama-3.1-70B-Instruct', 'Llama-3.3-70B-Instruct', 'Meta-Llama-3.1-8B-Instruct', 'OLMo-2-1124-13B-Instruct'] # add more models here
-models = ['Llama-3.1-405b']
-prompt_setting = 'one-shot' # one-shot || zero-shot
+#'EuroLLM-9B-Instruct',
+models = [ 'OLMo-7B-0724-Instruct-hf', 'Llama-3.1-70B-Instruct', 'Llama-3.3-70B-Instruct', 'Meta-Llama-3.1-8B-Instruct', 'OLMo-2-1124-13B-Instruct','Llama-3.1-405b','gpt-4o-2024-11-20'] # add more models here
+#models = ['Llama-3.1-405b']
+prompt_setting = 'zero-shot' # one-shot || zero-shot
 
 for model in models:
     titles = list_csv_files(f'/Users/emir/Downloads/asd/BEAM/results/name_cloze/{model}/{prompt_setting}/')
     for title in titles:
-        print(f'----------------running {title}----------------')
-        main(title, model, prompt_setting)
-        continue
+        if 'Below_Zero' not in title and 'The_Ministry_of_Time' not in title and 'Funny_Story' not in title:
+            print(f'----------------running {title}----------------')
+            main(title, model, prompt_setting)

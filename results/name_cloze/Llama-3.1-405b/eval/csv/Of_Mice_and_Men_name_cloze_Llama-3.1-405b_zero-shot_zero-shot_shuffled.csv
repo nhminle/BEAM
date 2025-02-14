@@ -1,0 +1,49 @@
+Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuffled_results,es_masked_shuffled_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
+['george'],john,özdemir,nguyễn,spain,0,0.2,0,0.31,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],jesus,ali,nguyễn,john,0,0.18,0,0.0,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lennie'],jesus,ali,nguyễn,john,0,0.18,0,0.44,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lennie'],bob dylan,john,nguyễn,beatriz,0,0.27,0,0.2,0,0.33,0,0.31,incorrect,incorrect,incorrect,incorrect
+['george'],they,ali,nguyễn,jesus,0,0.2,0,0.0,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['george'],god,ali,nguyễn,god,0,0.44,0,0.0,0,0.33,0,0.44,incorrect,incorrect,incorrect,incorrect
+['lennie'],he,ali,nguyễn,robinson crusoe,0,0.25,0,0.44,0,0.33,0,0.1,incorrect,incorrect,incorrect,incorrect
+"['george', 'geroge']",john,atatürk,nguyễn,god,0,0.2,0,0.15,0,0.33,0,0.44,incorrect,incorrect,incorrect,incorrect
+"['lenni', 'lennie']",london,ali,nghe,john,0,0.55,0,0.5,0,0.22,0,0.22,incorrect,incorrect,incorrect,incorrect
+['george'],john,ali,nguyễn,john,0,0.2,0,0.0,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lennie'],john,john,nguyễn,stetson,0,0.2,0,0.2,0,0.33,0,0.31,incorrect,incorrect,incorrect,incorrect
+['george'],jack kerouac,ali,nguyễn,john,0,0.22,0,0.0,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['george'],john,ali,nguyễn,john,0,0.2,0,0.0,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['lenni', 'lennie']",john,ali,nguyễn,john,0,0.22,0,0.5,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+['george'],john,ali,nguyễn,maría,0,0.2,0,0.0,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['george'],john,ali,nguyễn,don,0,0.2,0,0.0,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['george', 'george—']",john,atatürk,nguyễn,peones,0,0.2,0,0.15,0,0.33,0,0.5,incorrect,incorrect,incorrect,incorrect
+['lennie'],clark kent,john,nguyễn,john,0,0.38,0,0.2,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['carlson'],walter,luger,walther,harry,0,0.31,0,0.17,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+['george'],grandpa,bay,nguyễn,y,0,0.31,0,0.0,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lennie'],god,ali,chúng tôi,benito,0,0.0,0,0.44,0,0.27,0,0.5,incorrect,incorrect,incorrect,incorrect
+['candy'],john,ali,nguyễn du,jesus,0,0.22,0,0.25,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],john,ali,nguyễn,john,0,0.2,0,0.0,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['candy'],john,kim,nguyễn,john,0,0.22,0,0.0,0,0.36,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['carlson—', 'carlson']",emily,ali,nguyễn,spain,0,0.17,0,0.4,0,0.15,0,0.33,incorrect,incorrect,incorrect,incorrect
+['crooks'],john,ali,nguyễn,pepe,0,0.2,0,0.0,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['george'],john,ali,nguyễn,john,0,0.2,0,0.0,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['curley'],her,ali,nguyễn,maría,0,0.22,0,0.22,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['lennie'],black beauty,john,ngựa,john,0,0.22,0,0.2,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lennie'],john,john,nguyễn,john,0,0.2,0,0.2,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['george'],john,ali,nguyễn,tom,0,0.2,0,0.0,0,0.33,0,0.22,incorrect,incorrect,incorrect,incorrect
+['curley'],god,özdemir,nguyễn,spanish,0,0.0,0,0.15,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+['lennie'],john,john,nguyễn,john,0,0.2,0,0.2,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lennie'],templeton,ali,nguyễn,maría,0,0.4,0,0.44,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['curley', 'vợ curley']",emily,zeus,nguyễn,granero,0,0.36,0,0.2,0,0.33,0,0.31,incorrect,incorrect,incorrect,incorrect
+"['curley', 'curle']",shepherd,ali,ngựa,el granero,0,0.15,0,0.25,0,0.22,0,0.27,incorrect,incorrect,incorrect,incorrect
+['curley'],emily,shakespeare,ngọc,maría,0,0.36,0,0.24,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
+['george'],john,özdemir,nguyễn,jesus,0,0.2,0,0.31,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+['george'],john,ali,nguyễn,john,0,0.2,0,0.0,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['george'],john,özge,nguyễn,john,0,0.2,0,0.4,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['george'],lincoln,antalya,nguyễn,john,0,0.15,0,0.0,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lennie'],water,ali,nguyễn,garza,0,0.18,0,0.44,0,0.33,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['lennie im', 'lennie']",john,none,đột,jesus,0,0.2,0,0.2,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
+['george'],george,god,nguyễn,elmer fudd,1,1.0,0,0.44,0,0.33,0,0.25,correct,incorrect,incorrect,incorrect
+['george'],jesus,john,nguyễn,jesus,0,0.18,0,0.2,0,0.33,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['george', 'george—']",god,john,nguyễn,john,0,0.44,0,0.2,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['lennie'],valley,valley,nguyễn,john,0,0.33,0,0.33,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
+['george'],john,odysseus,nguyễn,john,0,0.2,0,0.14,0,0.33,0,0.2,incorrect,incorrect,incorrect,incorrect
