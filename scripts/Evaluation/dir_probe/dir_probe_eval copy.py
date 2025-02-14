@@ -178,94 +178,106 @@ def compute_language_accuracy(evaluated_df):
     return lang_acc
 
 def create_heatmap(heatmap_dict, main_dir, heatmap_filename):
-        if not heatmap_dict:
-            print(f"No data for {heatmap_filename} heatmap.")
-            return
-        heatmap_df = pd.DataFrame(heatmap_dict).T.sort_index()
+    if not heatmap_dict:
+        print(f"No data for {heatmap_filename} heatmap.")
+        return
+    heatmap_df = pd.DataFrame(heatmap_dict).T.sort_index()
 
-        # Order columns so that preferred languages come first.
-        preferred = ['en', 'es', 'tr', 'vi', 'en_shuffled', 'es_shuffled', 'tr_shuffled', 'vi_shuffled']
-        ordered_cols = []
-        for lang in preferred:
-            if lang in heatmap_df.columns:
-                ordered_cols.append(lang)
-        remaining_cols = [col for col in heatmap_df.columns if col not in preferred]
-        ordered_cols.extend(remaining_cols)
-        heatmap_df = heatmap_df[ordered_cols]
+    # Order columns so that preferred languages come first.
+    preferred = ['en', 'es', 'tr', 'vi', 'en_masked', 'es_masked', 'tr_masked', 'vi_masked',
+                 'st','yo','tn','ty','mai','mg',
+                 'en_shuffled','es_shuffled','tr_shuffled','vi_shuffled',
+                 'en_masked_shuffled','es_masked_shuffled','tr_masked_shuffled','vi_masked_shuffled',
+                 'st_shuffled','yo_shuffled','tn_shuffled','ty_shuffled','mai_shuffled','mg_shuffled']
+    ordered_cols = [lang for lang in preferred if lang in heatmap_df.columns]
+    remaining_cols = [col for col in heatmap_df.columns if col not in preferred]
+    ordered_cols.extend(remaining_cols)
+    heatmap_df = heatmap_df[ordered_cols]
 
-        custom_cmap = LinearSegmentedColormap.from_list(
-            'custom_bupu',
-            ['#f7fcfd', '#bfd3e6', '#8c96c6', '#8c6bb1', '#88419d', '#810f7c', '#4d004b'],
-            N=256
-        )
-        
-        plt.figure(figsize=(18, 12))
-        sns.heatmap(heatmap_df, annot=True, fmt=".1f", cmap=custom_cmap,
-                    cbar_kws={"label": "Accuracy (%)"}, annot_kws={"size": 15})
-        plt.xlabel("Language", fontsize=16)
-        plt.ylabel("Book Title", fontsize=16)
-        plt.title(f"{model} {experiment} {prompt_setting} {heatmap_filename}", fontsize=16)
-        
-        eval_dir = os.path.join(main_dir, "evaluation")
-        # If the heatmap is for 2024 files, save inside the 2024 subfolder.
-        if heatmap_filename == "2024":
-            eval_dir = os.path.join(eval_dir, "2024")
-        os.makedirs(eval_dir, exist_ok=True)
-        heatmap_path = os.path.join(eval_dir, f"accuracy_heatmap_{heatmap_filename}.png")
-        plt.tight_layout()
-        plt.savefig(heatmap_path, dpi=300)
-        plt.close()
-        print(f"Saved heatmap: {heatmap_path}")
+    custom_cmap = LinearSegmentedColormap.from_list(
+        'custom_bupu',
+        ['#f7fcfd', '#bfd3e6', '#8c96c6', '#8c6bb1', '#88419d', '#810f7c', '#4d004b'],
+        N=256
+    )
+    
+    # Determine the evaluation directory (for 2024 files, use the subfolder)
+    eval_dir = os.path.join(main_dir, "evaluation")
+    if heatmap_filename == "2024":
+        eval_dir = os.path.join(eval_dir, "2024")
+    os.makedirs(eval_dir, exist_ok=True)
+    
+    # Save the aggregated data as CSV
+    csv_path = os.path.join(eval_dir, f"aggregate_data_{heatmap_filename}.csv")
+    heatmap_df.to_csv(csv_path, index=True)
+    print(f"Saved aggregate data CSV: {csv_path}")
+    
+    # Create and save the heatmap image
+    plt.figure(figsize=(18, 12))
+    sns.heatmap(heatmap_df, annot=True, fmt=".1f", cmap=custom_cmap,
+                vmin=0, vmax=100,
+                cbar_kws={"label": "Accuracy (%)"}, annot_kws={"size": 15})
+    plt.xlabel("Language", fontsize=16)
+    plt.ylabel("Book Title", fontsize=16)
+    plt.title(f"{heatmap_filename} Aggregate Accuracy Heatmap", fontsize=16)
+    
+    heatmap_path = os.path.join(eval_dir, f"accuracy_heatmap_{heatmap_filename}.png")
+    plt.tight_layout()
+    plt.savefig(heatmap_path, dpi=300)
+    plt.close()
+    print(f"Saved heatmap: {heatmap_path}")
 
 # --------------------------
 # Main Workflow
 # --------------------------
 
 if __name__ == "__main__":
-    # Set your base directory which contains multiple subdirectories.
-    base_dir = 'results/direct_probe/EuroLLM-9B-Instruct'
+    dp_dir = 'results/direct_probe'
     
-    # Find all subdirectories in base_dir
-    subdirs = [os.path.join(base_dir, d) for d in os.listdir(base_dir) if os.path.isdir(os.path.join(base_dir, d))]
+    # Find all subdirectories in dp_dir
+    subdirs = [os.path.join(dp_dir, d) for d in os.listdir(dp_dir) if os.path.isdir(os.path.join(dp_dir, d))]
     
-    # Process each subdirectory as a separate main_dir.
-    for main_dir in subdirs:
-        print(f"\n=== Processing main_dir: {main_dir} ===")
-        # Create dictionaries to accumulate heatmap data for normal files and for 2024 files.
-        heatmap_dict_main = {}
-        heatmap_dict_2024 = {}
+    for base_dir in subdirs:
+        # Find all subdirectories in base_dir
+        subdirs = [os.path.join(base_dir, d) for d in os.listdir(base_dir) if os.path.isdir(os.path.join(base_dir, d))]
         
-        csv_files = [f for f in os.listdir(main_dir) if f.endswith('.csv')]
-        
-        for csv_file in csv_files:
-            full_path = os.path.join(main_dir, csv_file)
-            base_name = csv_file[:-4]
-            try:
-                title, experiment, model, prompt_setting = parse_filename(base_name)
-            except ValueError as e:
-                print(e)
-                continue
+        # Process each subdirectory as a separate main_dir.
+        for main_dir in subdirs:
+            print(f"\n=== Processing main_dir: {main_dir} ===")
+            # Create dictionaries to accumulate heatmap data for normal files and for 2024 files.
+            heatmap_dict_main = {}
+            heatmap_dict_2024 = {}
             
-            print(f"Processing file: {csv_file}")
-            print(f"  -> Title: {title}, Experiment: {experiment}, Model: {model}, Prompt Setting: {prompt_setting}")
-            evaluated_df = evaluate(full_path, csv_file, model, prompt_setting, experiment)
-            if evaluated_df.empty:
-                print("No evaluation results. Skipping file.")
-                continue
+            csv_files = [f for f in os.listdir(main_dir) if f.endswith('.csv')]
+            
+            for csv_file in csv_files:
+                full_path = os.path.join(main_dir, csv_file)
+                base_name = csv_file[:-4]
+                try:
+                    title, experiment, model, prompt_setting = parse_filename(base_name)
+                except ValueError as e:
+                    print(e)
+                    continue
+                
+                print(f"Processing file: {csv_file}")
+                print(f"  -> Title: {title}, Experiment: {experiment}, Model: {model}, Prompt Setting: {prompt_setting}")
+                evaluated_df = evaluate(full_path, csv_file, model, prompt_setting, experiment)
+                if evaluated_df.empty:
+                    print("No evaluation results. Skipping file.")
+                    continue
 
-            # Check if this file belongs to the 2024 group.
-            if any(sub in csv_file for sub in ['Below_Zero', 'Bride', 'First_Lie_Wins', 'Funny_Story', 
-                                                'If_Only_I_Had_Told_Her', 'Just_for_the_Summer', 'Lies_and_Weddings', 
-                                                'The_Ministry_of_Time', 'The_Paradise_Problem', 'You_Like_It_Darker_Stories']):
-                subfolder = "2024"
-                save_data(title, evaluated_df, main_dir, subfolder=subfolder)
-                heatmap_dict_2024[title] = compute_language_accuracy(evaluated_df)
-            else:
-                subfolder = ""
-                save_data(title, evaluated_df, main_dir, subfolder=subfolder)
-                heatmap_dict_main[title] = compute_language_accuracy(evaluated_df)
+                # Check if this file belongs to the 2024 group.
+                if any(sub in csv_file for sub in ['Below_Zero', 'Bride', 'First_Lie_Wins', 'Funny_Story', 
+                                                    'If_Only_I_Had_Told_Her', 'Just_for_the_Summer', 'Lies_and_Weddings', 
+                                                    'The_Ministry_of_Time', 'The_Paradise_Problem', 'You_Like_It_Darker_Stories']):
+                    subfolder = "2024"
+                    save_data(title, evaluated_df, main_dir, subfolder=subfolder)
+                    heatmap_dict_2024[title] = compute_language_accuracy(evaluated_df)
+                else:
+                    subfolder = ""
+                    save_data(title, evaluated_df, main_dir, subfolder=subfolder)
+                    heatmap_dict_main[title] = compute_language_accuracy(evaluated_df)
 
-        # Create heatmap for normal files in this main_dir
-        create_heatmap(heatmap_dict_main, main_dir, "")
-        # Create heatmap for 2024 files in this main_dir
-        create_heatmap(heatmap_dict_2024, main_dir, "2024")
+            # Create heatmap for normal files in this main_dir
+            create_heatmap(heatmap_dict_main, main_dir, "")
+            # Create heatmap for 2024 files in this main_dir
+            create_heatmap(heatmap_dict_2024, main_dir, "2024")
