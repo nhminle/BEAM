@@ -5,10 +5,8 @@ import time
 import openai
 import pandas as pd
 
-# Define which CSV columns to process.
 ALLOWED_COLUMNS = [
-    "en_masked", "es_masked", "tr_masked", "vi_masked", "en_masked_shuffled", "es_masked_shuffled", "tr_masked_shuffled", "vi_masked_shuffled",
-    "st", "yo", "ty", "tn", "mai", "mg", "st_shuffled", "yo_shuffled", "ty_shuffled", "tn_shuffled", "mai_shuffled", "mg_shuffled"
+    "st_shuffled", "yo_shuffled", "ty_shuffled", "tn_shuffled", "mai_shuffled", "mg_shuffled"
 ]
 
 def construct_prompt(lang, passage, mode, prompt_setting="zero-shot"):
@@ -104,7 +102,7 @@ def prepare_jsonl_input_file(csv_file_path, output_dir):
         mode = "shuffled" if "shuffled" in col.lower() else "unshuffled"
         base_lang = col.split('_')[0]
         for idx, passage in df[col].items():
-            prompt = construct_prompt(base_lang, passage, mode, "zero-shot")
+            prompt = construct_prompt(base_lang, passage, mode, "one-shot")
             custom_id = f"{col}_{idx}"
             request_obj = {
                 "custom_id": custom_id,
@@ -221,29 +219,24 @@ def extract_book_name(csv_file_path):
     if "_masked_passages" in base:
         book_name = base.split("_masked_passages")[0]
     else:
-        book_names = base.split("_")[0]
+        book_name = base.split("_")[0]
     return book_name
 
 def main():
-    # Set your OpenAI API key and initialize client
     openai.api_key = os.getenv("OPENAI_API_KEY")
     client = openai.Client(api_key=os.getenv("OPENAI_API_KEY"))
     
-    # Hardcoded folder path for CSV files
-    base_dir = "/Users/alishasrivastava/BEAM-scripts/BEAM/scripts/Prompts"
+    base_dir = "/Users/alishasrivastava/BEAM-scripts/BEAM/scripts/Prompts/Alice_in_Wonderland"
     all_csvs = glob.glob(os.path.join(base_dir, "**/*.csv"), recursive=True)
-    # Exclude any files in the "2024" directory and filter by the desired ending
     csv_files = [f for f in all_csvs if "2024" not in f and f.endswith("_masked_passages.csv")]    # Hardcoded folder path for storing batches and results
-    batches_dir = "/Users/alishasrivastava/BEAM-scripts/BEAM/scripts/name_cloze_task/batches"
+    batches_dir = "/Users/alishasrivastava/BEAM-scripts/BEAM/scripts/name_cloze_task/batches/alice"
     
     if not csv_files:
         print("No CSV files found in", base_dir)
         return
     
-    # Dictionary to store batch info for each CSV file
     batch_info = {}
     
-    # Process each CSV file and submit a batch
     for csv_file in csv_files:
         try:
             batch_id, df, book_name = process_csv(client, csv_file, batches_dir)
@@ -251,7 +244,7 @@ def main():
         except Exception as e:
             print(f"Error processing {csv_file}: {e}")
     
-    # For each submitted batch, poll for completion and update the dataset
+    #for every submitted batch, poll for completion and update the dataset
     for batch_id, info in batch_info.items():
         try:
             batch = poll_batch_completion(client, batch_id)
