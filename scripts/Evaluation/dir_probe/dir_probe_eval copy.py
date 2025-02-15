@@ -270,11 +270,11 @@ if __name__ == "__main__":
                                                     'If_Only_I_Had_Told_Her', 'Just_for_the_Summer', 'Lies_and_Weddings', 
                                                     'The_Ministry_of_Time', 'The_Paradise_Problem', 'You_Like_It_Darker_Stories']):
                     subfolder = "2024"
-                    save_data(title, evaluated_df, main_dir, subfolder=subfolder)
+                    save_data(title.replace(' ', '_'), evaluated_df, main_dir, subfolder=subfolder)
                     heatmap_dict_2024[title] = compute_language_accuracy(evaluated_df)
                 else:
                     subfolder = ""
-                    save_data(title, evaluated_df, main_dir, subfolder=subfolder)
+                    save_data(title.replace(' ', '_'), evaluated_df, main_dir, subfolder=subfolder)
                     heatmap_dict_main[title] = compute_language_accuracy(evaluated_df)
 
             # Create heatmap for normal files in this main_dir
