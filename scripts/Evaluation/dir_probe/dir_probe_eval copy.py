@@ -200,18 +200,19 @@ def create_heatmap(heatmap_dict, main_dir, heatmap_filename):
         N=256
     )
     
-    # Determine the evaluation directory (for 2024 files, use the subfolder)
+    # Determine the evaluation directory.
     eval_dir = os.path.join(main_dir, "evaluation")
     if heatmap_filename == "2024":
+        # If the heatmap is for 2024 files, ensure the 2024 subfolder exists.
         eval_dir = os.path.join(eval_dir, "2024")
     os.makedirs(eval_dir, exist_ok=True)
     
-    # Save the aggregated data as CSV
+    # Save the aggregated data as CSV.
     csv_path = os.path.join(eval_dir, f"aggregate_data_{heatmap_filename}.csv")
     heatmap_df.to_csv(csv_path, index=True)
     print(f"Saved aggregate data CSV: {csv_path}")
     
-    # Create and save the heatmap image
+    # Create and save the heatmap image.
     plt.figure(figsize=(18, 12))
     sns.heatmap(heatmap_df, annot=True, fmt=".1f", cmap=custom_cmap,
                 vmin=0, vmax=100,

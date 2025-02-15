@@ -1,21 +1,14 @@
 ,en,en_shuffled
-<<<<<<< HEAD
-EuroLLM-9B-Instruct,0.42105263157894735,0.0
-Llama-3.1-405b,0.0,
-=======
 EuroLLM-9B-Instruct,0.4,0.0
->>>>>>> b24fcc3 (added aggregated dp results csv + 2024 dp results)
+Llama-3.1-405b,0.0,
 Llama-3.1-70B-Instruct-quantized.w4a16,0.0,0.0
 Llama-3.1-70B-Instruct-quantized.w8a16,0.0,0.0
 Llama-3.1-70B-Instruct_,0.0,0.0
 Llama-3.1-8B-Instruct-quantized.w4a16,0.0,0.0
 Llama-3.1-8B-Instruct-quantized.w8a16,0.0,0.0
 Llama-3.1-8B-Instruct_,0.0,0.0
-<<<<<<< HEAD
-Llama-3.3-70B-Instruct,0.736842105263158,0.42105263157894735
-=======
 Llama-3.3-70B-Instruct,0.7000000000000001,0.4
->>>>>>> b24fcc3 (added aggregated dp results csv + 2024 dp results)
 OLMo-2-1124-13B-Instruct,0.0,0.0
 OLMo-2-1124-7B-Instruct,0.0,0.0
 Qwen2.5-7B-Instruct-1M,0.0,0.0
+gpt-4o-2024-11-20,0.0,0.0
