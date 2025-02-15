@@ -7,7 +7,7 @@ import pandas as pd
 
 # Define which CSV columns to process.
 ALLOWED_COLUMNS = [
-    "en_masked", "en_masked_shuffled"
+    "en", "en_shuffled"
     ]
 
 def construct_prompt(lang, passage, mode, prompt_setting="zero-shot"):
@@ -217,8 +217,8 @@ def extract_book_name(csv_file_path):
     Otherwise, it returns the part before the first underscore.
     """
     base = os.path.basename(csv_file_path)
-    if "_filtered_masked_sampled" in base:
-        book_name = base.split("_filtered_masked_sampled")[0]
+    if "_non_NE" in base:
+        book_name = base.split("_non_NE")[0]
     else:
         book_name = base.split("_")[0]
     return book_name
@@ -229,8 +229,8 @@ def main():
     
     base_dir = "/Users/alishasrivastava/BEAM-scripts/BEAM/scripts/Prompts/2024"
     all_csvs = glob.glob(os.path.join(base_dir, "**/*.csv"), recursive=True)
-    csv_files = [f for f in all_csvs if f.endswith("_filtered_masked_sampled.csv")]    # Hardcoded folder path for storing batches and results
-    batches_dir = "/Users/alishasrivastava/BEAM-scripts/BEAM/scripts/direct_probing/batches/2024/masked-one-shot"
+    csv_files = [f for f in all_csvs if f.endswith("_non_NE.csv")]    # Hardcoded folder path for storing batches and results
+    batches_dir = "/Users/alishasrivastava/BEAM-scripts/BEAM/scripts/direct_probing/batches/2024/non-ne-one-shot"
     
     if not csv_files:
         print("No CSV files found in", base_dir)
