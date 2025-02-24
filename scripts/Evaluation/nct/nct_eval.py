@@ -18,7 +18,7 @@ def main(title,model,prompt_setting):
     book_name = title.replace(f'_name_cloze_Meta-{model}_{prompt_setting}', '')
     print(f'Processing {book_name}...')
     df1 = pd.read_csv(f'/Users/emir/Downloads/asd/BEAM/results/name_cloze/{model}/{prompt_setting}/{title}.csv')
-    ent_df = pd.read_csv(f"/Users/emir/Downloads/asd/BEAM/scripts/Prompts/{book_name}/stored/{book_name}_filtered_sampled.csv")
+    ent_df = pd.read_csv(f"/Users/emir/Downloads/asd/BEAM/scripts/Prompts/{book_name}/stored/{book_name}.csv")
     # print(df1['en_masked_shuffled_results'])
     # return
     #append the "Single_ent" column from ent_df to df1
@@ -215,6 +215,6 @@ prompt_setting = 'one-shot' # one-shot || zero-shot
 for model in models:
     titles = list_csv_files(f'/Users/emir/Downloads/asd/BEAM/results/name_cloze/{model}/{prompt_setting}/')
     for title in titles:
-        if 'Below_Zero' not in title and 'The_Ministry_of_Time' not in title and 'Funny_Story' not in title and 'First_Lie_Wins' not in title and 'Lies_and_Weddings' not in title and 'Just_for_the_Summer' not in title and 'If_Only_I_Had_Told_Her' not in title and 'The_Paradise_Problem' not in title and 'You_Like_It_Darker_Stories' not in title and 'Bride' not in title:
+        if 'Below_Zero' not in title and 'The_Ministry_of_Time' not in title and 'Funny_Story' not in title and 'First_Lie_Wins' not in title and 'Lies_and_Weddings' not in title and 'Just_for_the_Summer' not in title and 'If_Only_I_Had_Told_Her' not in title and 'The_Paradise_Problem' not in title and 'You_Like_It_Darker_Stories' not in title and 'Bride' not in title and 'Paper_Towns' not in title and 'Alice_in_Wonderland' not in title:
             print(f'----------------running {title}----------------')
             main(title, model, prompt_setting)
