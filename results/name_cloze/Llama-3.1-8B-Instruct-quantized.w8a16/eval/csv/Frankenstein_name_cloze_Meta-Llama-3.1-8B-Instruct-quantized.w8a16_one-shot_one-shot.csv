@@ -1,49 +1,49 @@
 Single_ent,en_masked_results,tr_masked_results,vi_masked_results,es_masked_results,en_exact_match,en_highest_fuzzy_match,tr_exact_match,tr_highest_fuzzy_match,vi_exact_match,vi_highest_fuzzy_match,es_exact_match,es_highest_fuzzy_match,en_correct,tr_correct,vi_correct,es_correct
 ['caroline beaufort'],elizabeth,lucy,elizabeth,emily,0,0.38,0,0.17,0,0.38,0,0.15,incorrect,incorrect,incorrect,incorrect
 ['elizabeth'],elizabeth,canım,cha,elizabeth,1,1.0,0,0.14,0,0.17,1,1.0,correct,incorrect,incorrect,correct
-"['krempe', 'thần hủy hoạ', 'señor krempe', 'm']",victor,frankenstein,frankenstein,frankenstein,0,0.36,0,0.33,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
-"['waldman', 'm', 'profesör waldman']",elizabeth,sevgili,victor,arthur,0,0.16,0,0.17,0,0.29,0,0.29,incorrect,incorrect,incorrect,incorrect
-"['krempe', 'señor krempe', 'm']",heathcliff,lucy,đông,su,0,0.13,0,0.0,0,0.22,0,0.29,incorrect,incorrect,incorrect,incorrect
-['dante'],victor,canavar,đó,frankenstein,0,0.18,0,0.33,0,0.29,0,0.47,incorrect,incorrect,incorrect,incorrect
-"['frankenstein', 'clerval']",edward,sevgili,emily,julio,0,0.31,0,0.21,0,0.24,0,0.17,incorrect,incorrect,incorrect,incorrect
-['clerval'],arthur,arthur,họ,lucía,0,0.15,0,0.15,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
-['henry'],wilkie collins,ortaya,hy lạp,george eliot,0,0.21,0,0.36,0,0.36,0,0.24,incorrect,incorrect,incorrect,incorrect
-"['clerval', 'querido clerval']",william,jean-jacques rousseau,anh,mi hijo,0,0.29,0,0.39,0,0.2,0,0.29,incorrect,incorrect,incorrect,incorrect
-['henry'],henry,dostum,nguyễn du,mi amigo,1,1.0,0,0.0,0,0.29,0,0.0,correct,incorrect,incorrect,incorrect
+['dante'],victor,frankenstein,frankenstein,frankenstein,0,0.18,0,0.47,0,0.47,0,0.47,incorrect,incorrect,incorrect,incorrect
+"['frankenstein', 'clerval']",elizabeth,sevgili,victor,arthur,0,0.29,0,0.21,0,0.31,0,0.22,incorrect,incorrect,incorrect,incorrect
+['clerval'],heathcliff,lucy,đông,su,0,0.24,0,0.18,0,0.0,0,0.0,incorrect,incorrect,incorrect,incorrect
+['henry'],victor,canavar,đó,frankenstein,0,0.18,0,0.33,0,0.0,0,0.24,incorrect,incorrect,incorrect,incorrect
+"['clerval', 'querido clerval']",edward,sevgili,emily,julio,0,0.46,0,0.29,0,0.33,0,0.5,incorrect,incorrect,incorrect,incorrect
+['henry'],arthur,arthur,họ,lucía,0,0.36,0,0.36,0,0.29,0,0.0,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",wilkie collins,ortaya,hy lạp,george eliot,0,0.29,0,0.33,0,0.33,0,0.11,incorrect,incorrect,incorrect,incorrect
+['clerval'],william,jean-jacques rousseau,anh,mi hijo,0,0.29,0,0.29,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
+['clerval'],henry,dostum,nguyễn du,mi amigo,0,0.33,0,0.0,0,0.12,0,0.13,incorrect,incorrect,incorrect,incorrect
 "['clerva', 'clerval']",edward,emma,elizabeth,emma,0,0.33,0,0.4,0,0.27,0,0.4,incorrect,incorrect,incorrect,incorrect
-['clerval'],william,mont blanc,em,jean-jacques,0,0.29,0,0.12,0,0.22,0,0.21,incorrect,incorrect,incorrect,incorrect
-['clerval'],edgar,miss havisham,lucy,arthur,0,0.33,0,0.2,0,0.18,0,0.15,incorrect,incorrect,incorrect,incorrect
-"['clerva', 'clerval']",elizabeth,avukat,joanna,anna,0,0.27,0,0.33,0,0.17,0,0.2,incorrect,incorrect,incorrect,incorrect
-['william'],elizabeth,i̇van,đỗ trung quân,don quijote,0,0.38,0,0.36,0,0.1,0,0.11,incorrect,incorrect,incorrect,incorrect
+['william'],william,mont blanc,em,jean-jacques,1,1.0,0,0.24,0,0.22,0,0.11,correct,incorrect,incorrect,incorrect
+['justine'],edgar,miss havisham,lucy,arthur,0,0.17,0,0.2,0,0.18,0,0.15,incorrect,incorrect,incorrect,incorrect
+['justine'],elizabeth,avukat,joanna,anna,0,0.12,0,0.31,0,0.31,0,0.18,incorrect,incorrect,incorrect,incorrect
+['justine'],elizabeth,i̇van,đỗ trung quân,don quijote,0,0.12,0,0.36,0,0.2,0,0.33,incorrect,incorrect,incorrect,incorrect
 ['justine'],frankenstein,ata,elizabeth,robinson,0,0.42,0,0.2,0,0.12,0,0.27,incorrect,incorrect,incorrect,incorrect
-['justine'],victor,arthur,elizabeth,elizabeth,0,0.15,0,0.15,0,0.12,0,0.12,incorrect,incorrect,incorrect,incorrect
-['justine'],emily,babam,em,emily,0,0.17,0,0.0,0,0.22,0,0.17,incorrect,incorrect,incorrect,incorrect
-['justine'],william,yiğit,robinson,robinson,0,0.14,0,0.17,0,0.27,0,0.27,incorrect,incorrect,incorrect,incorrect
-['elizabeth'],mr. felix,i̇brahim,philostrate,robinson,0,0.33,0,0.38,0,0.1,0,0.12,incorrect,incorrect,incorrect,incorrect
-['elizabeth'],pauline,lucy,lucie,camilla,0,0.38,0,0.15,0,0.14,0,0.25,incorrect,incorrect,incorrect,incorrect
-"['félix', 'felix']",de lacey,i̇lyas,cụ già,crook,0,0.31,0,0.2,0,0.18,0,0.0,incorrect,incorrect,incorrect,incorrect
-"['félix', 'felix']",mr.,i̇mam,ông,elías,0,0.0,0,0.22,0,0.0,0,0.6,incorrect,incorrect,incorrect,incorrect
-"['félix', 'felix']",father,baba,cụ già,anciano,0,0.36,0,0.0,0,0.18,0,0.17,incorrect,incorrect,incorrect,incorrect
-"['de lacey', 'de lace']",father,john,lucy,arthur,0,0.4,0,0.0,0,0.67,0,0.2,incorrect,incorrect,incorrect,incorrect
-"['de lacey', 'de lacey—']",washington,lucy,anh,emma,0,0.13,0,0.67,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
-['de lacey'],wordsworth,almanya,heathcliff,el autor,0,0.17,0,0.5,0,0.22,0,0.38,incorrect,incorrect,incorrect,incorrect
-"['félix', 'felix']",he,sevgili,scotland,scott,0,0.29,0,0.5,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
-['henry'],edgar allan poe,sevgili,người yêu,lucía,0,0.2,0,0.17,0,0.14,0,0.0,incorrect,incorrect,incorrect,incorrect
-"['clerval', 'ren']",justice,hâkim,đại,wadsworth,0,0.29,0,0.17,0,0.2,0,0.17,incorrect,incorrect,incorrect,incorrect
-['henry'],edward,babası,ông bố,robert,0,0.36,0,0.0,0,0.18,0,0.36,incorrect,incorrect,incorrect,incorrect
-['elizabeth'],the woman,adam,ông,el médico,0,0.22,0,0.15,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
-"['mr kirwin', 'kirwin']",frankenstein,hâkim,đảo,magistrado,0,0.38,0,0.36,0,0.0,0,0.33,incorrect,incorrect,incorrect,incorrect
-"['daniel nugent', 'daniel nugen']",jean valjean,dr. sivana,scarlett,danglars,0,0.35,0,0.38,0,0.29,0,0.57,incorrect,incorrect,incorrect,incorrect
-['daniel'],harriet,i̇blis,arthur,mi hermano,0,0.46,0,0.36,0,0.17,0,0.25,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],victor,arthur,elizabeth,elizabeth,0,0.27,0,0.4,1,1.0,1,1.0,incorrect,incorrect,correct,correct
+['elizabeth'],emily,babam,em,emily,0,0.29,0,0.29,0,0.18,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",william,yiğit,robinson,robinson,0,0.33,0,0.2,0,0.15,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",mr. felix,i̇brahim,philostrate,robinson,0,0.71,0,0.17,0,0.12,0,0.15,correct,incorrect,incorrect,incorrect
+"['félix', 'felix']",pauline,lucy,lucie,camilla,0,0.33,0,0.22,0,0.2,0,0.17,incorrect,incorrect,incorrect,incorrect
+"['de lacey', 'de lace']",de lacey,i̇lyas,cụ già,crook,1,1.0,0,0.44,0,0.31,0,0.22,correct,incorrect,incorrect,incorrect
+"['de lacey', 'de lacey—']",mr.,i̇mam,ông,elías,0,0.0,0,0.22,0,0.0,0,0.46,incorrect,incorrect,incorrect,incorrect
+['de lacey'],father,baba,cụ già,anciano,0,0.36,0,0.22,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['félix', 'felix']",father,john,lucy,arthur,0,0.36,0,0.0,0,0.22,0,0.0,incorrect,incorrect,incorrect,incorrect
+['henry'],washington,lucy,anh,emma,0,0.27,0,0.22,0,0.25,0,0.22,incorrect,incorrect,incorrect,incorrect
+"['clerval', 'ren']",wordsworth,almanya,heathcliff,el autor,0,0.15,0,0.29,0,0.24,0,0.27,incorrect,incorrect,incorrect,incorrect
+['henry'],he,sevgili,scotland,scott,0,0.57,0,0.17,0,0.15,0,0.0,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],edgar allan poe,sevgili,người yêu,lucía,0,0.33,0,0.38,0,0.11,0,0.43,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",justice,hâkim,đại,wadsworth,0,0.15,0,0.36,0,0.22,0,0.18,incorrect,incorrect,incorrect,incorrect
+"['daniel nugent', 'daniel nugen']",edward,babası,ông bố,robert,0,0.33,0,0.33,0,0.36,0,0.33,incorrect,incorrect,incorrect,incorrect
+['daniel'],the woman,adam,ông,el médico,0,0.27,0,0.4,0,0.22,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['señor kirwin', 'mr kirwin', 'kirwin']",frankenstein,hâkim,đảo,magistrado,0,0.38,0,0.36,0,0.25,0,0.33,incorrect,incorrect,incorrect,incorrect
+"['mr kirwin', 'kirwin']",jean valjean,dr. sivana,scarlett,danglars,0,0.19,0,0.42,0,0.2,0,0.2,incorrect,incorrect,incorrect,incorrect
+"['clerva', 'clerval']",harriet,i̇blis,arthur,mi hermano,0,0.15,0,0.18,0,0.17,0,0.38,incorrect,incorrect,incorrect,incorrect
 "['señor kirwin', 'mr kirwin', 'kirwin']",heathcliff,delikanlı,đường,el rector,0,0.18,0,0.29,0,0.2,0,0.43,incorrect,incorrect,incorrect,incorrect
 "['mr kirwin', 'kirwin']",defence,orkney,arthur,wemmick,0,0.15,0,0.4,0,0.27,0,0.25,incorrect,incorrect,incorrect,incorrect
-"['clerva', 'clerval']",victor,frankenstein,victor,robert walton,0,0.33,0,0.11,0,0.33,0,0.4,incorrect,incorrect,incorrect,incorrect
-"['señor kirwin', 'mr kirwin', 'kirwin']",clare,i̇blis,lucifer,albión,0,0.29,0,0.36,0,0.33,0,0.33,incorrect,incorrect,incorrect,incorrect
-"['mr kirwin', 'kirwin']",elizabeth,i̇blis,em họ,mi prima,0,0.13,0,0.36,0,0.29,0,0.43,incorrect,incorrect,incorrect,incorrect
-"['henry', 'henr']",emma,emily,emma,emma,0,0.25,0,0.4,0,0.25,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['henry', 'henr']",victor,frankenstein,victor,robert walton,0,0.2,0,0.25,0,0.2,0,0.24,incorrect,incorrect,incorrect,incorrect
+['elizabeth'],clare,i̇blis,lucifer,albión,0,0.14,0,0.29,0,0.12,0,0.27,incorrect,incorrect,incorrect,incorrect
+"['elizabeth', 'eliz']",elizabeth,i̇blis,em họ,mi prima,1,1.0,0,0.44,0,0.29,0,0.24,correct,incorrect,incorrect,incorrect
+['elizabeth'],emma,emily,emma,emma,0,0.31,0,0.29,0,0.31,0,0.31,incorrect,incorrect,incorrect,incorrect
 ['elizabeth'],god,arthur,lucifer,lucifer,0,0.0,0,0.4,0,0.12,0,0.12,incorrect,incorrect,incorrect,incorrect
-"['elizabeth', 'eliz']",edgar allan poe,miss havisham,đông,scott,0,0.33,0,0.27,0,0.0,0,0.14,incorrect,incorrect,incorrect,incorrect
-['elizabeth'],edgar,canım kardeşim,em,elizabeth,0,0.29,0,0.17,0,0.18,1,1.0,incorrect,incorrect,incorrect,correct
-['elizabeth'],frank,"uyuklamakta olan kişi, muhtemelen ""uyuklamakta olan kişi"" ifadesi, ""uyuklamakta olan kişi""nin kim olduğunu tam olarak belirtmediği için, bu kişiye en yakın olan karakter olan ""talihsiz misafir""den anlaşılabilmektedir. ancak, bu karakterin adı geçmemektedir. bu nedenle, bu karakterin adı bilinmemektedir. ancak, bu",frank,frank,0,0.14,0,0.01,0,0.14,0,0.14,incorrect,incorrect,incorrect,incorrect
-"['margaret', 'margare']",nathaniel hawthorne,i̇blis,mi,arthur,0,0.23,0,0.0,0,0.22,0,0.46,incorrect,incorrect,incorrect,incorrect
-"['margaret', 'margare']",lydia,canavar,người ấy,sufrimiento,0,0.17,0,0.29,0,0.13,0,0.32,incorrect,incorrect,incorrect,incorrect
+"['margaret', 'margare']",edgar allan poe,miss havisham,đông,scott,0,0.36,0,0.3,0,0.18,0,0.15,incorrect,incorrect,incorrect,incorrect
+"['margaret', 'margare']",edgar,canım kardeşim,em,elizabeth,0,0.5,0,0.38,0,0.22,0,0.35,incorrect,incorrect,incorrect,incorrect
+['frankenstein'],frank,"uyuklamakta olan kişi, muhtemelen ""uyuklamakta olan kişi"" ifadesi, ""uyuklamakta olan kişi""nin kim olduğunu tam olarak belirtmediği için, bu kişiye en yakın olan karakter olan ""talihsiz misafir""den anlaşılabilmektedir. ancak, bu karakterin adı geçmemektedir. bu nedenle, bu karakterin adı bilinmemektedir. ancak, bu",frank,frank,0,0.59,0,0.01,0,0.59,0,0.59,incorrect,incorrect,incorrect,incorrect
+['frankenstein'],nathaniel hawthorne,i̇blis,mi,arthur,0,0.32,0,0.12,0,0.14,0,0.22,incorrect,incorrect,incorrect,incorrect
+['clerval'],lydia,canavar,người ấy,sufrimiento,0,0.33,0,0.43,0,0.13,0,0.11,incorrect,incorrect,incorrect,incorrect

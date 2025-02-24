@@ -4,43 +4,60 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
 
-def extract_total_accuracy_from_dir(directory, prompt_setting, shuffled=False):
-    total_counts = {'en': 0, 'es': 0, 'vi': 0, 'tr': 0}
-    correct_counts = {'en': 0, 'es': 0, 'vi': 0, 'tr': 0}
+def extract_total_accuracy(directory, prompt_setting):
+    """Extract accuracy for regular and shuffled results."""
+    total_counts = {'en': 0, 'es': 0, 'vi': 0, 'tr': 0, 
+                    'en_shuffled': 0, 'es_shuffled': 0, 'vi_shuffled': 0, 'tr_shuffled': 0}
+    correct_counts = {'en': 0, 'es': 0, 'vi': 0, 'tr': 0, 
+                      'en_shuffled': 0, 'es_shuffled': 0, 'vi_shuffled': 0, 'tr_shuffled': 0}
 
-    for filename in os.listdir(directory):
-        if filename.endswith('.csv'):
-            # Check if filename matches prompt setting and shuffled/unshuffled
-            if prompt_setting not in filename:
-                continue
-            if shuffled and 'shuffled' not in filename:
-                continue
-            if not shuffled and 'shuffled' in filename:
-                continue
+    # List all files in directory
+    files = os.listdir(directory)
 
-            file_path = os.path.join(directory, filename)
-            df = pd.read_csv(file_path)
+    # Filter only files matching the prompt setting
+    csv_files = [f for f in files if f.endswith('.csv') and prompt_setting in f]
 
-            required_columns = ['en_correct', 'es_correct', 'vi_correct', 'tr_correct']
-            if not all(col in df.columns for col in required_columns):
-                print(f"⚠️ Missing required columns in {file_path}")
-                continue
+    for filename in csv_files:
+        # Identify corresponding shuffled file
+        shuffled_filename = filename.replace('.csv', '_shuffled.csv')
+        
+        # Read unshuffled data
+        file_path = os.path.join(directory, filename)
+        df = pd.read_csv(file_path)
 
+        # Try to read shuffled data if exists
+        shuffled_path = os.path.join(directory, shuffled_filename)
+        df_shuffled = pd.read_csv(shuffled_path) if os.path.exists(shuffled_path) else pd.DataFrame()
+
+        required_columns = [f'{lang}_correct' for lang in ['en', 'es', 'vi', 'tr']]
+        if not all(col in df.columns for col in required_columns):
+            print(f"⚠️ Missing required columns in {file_path}")
+            continue
+
+        # Process regular data
+        for lang in ['en', 'es', 'vi', 'tr']:
+            total_counts[lang] += len(df[f'{lang}_correct'])
+            correct_counts[lang] += (df[f'{lang}_correct'] == 'correct').sum()
+
+        # Process shuffled data if available
+        if not df_shuffled.empty:
             for lang in ['en', 'es', 'vi', 'tr']:
-                total_counts[lang] += len(df[lang + '_correct'])
-                correct_counts[lang] += (df[lang + '_correct'] == 'correct').sum()
+                if f'{lang}_correct' in df_shuffled.columns:
+                    total_counts[f'{lang}_shuffled'] += len(df_shuffled[f'{lang}_correct'])
+                    correct_counts[f'{lang}_shuffled'] += (df_shuffled[f'{lang}_correct'] == 'correct').sum()
 
+    # Calculate accuracy percentages
     accuracy = {lang: (correct_counts[lang] / total_counts[lang] * 100) if total_counts[lang] > 0 else 0
-                for lang in ['en', 'es', 'vi', 'tr']}
+                for lang in total_counts.keys()}
     
     return accuracy
 
-def create_dir_accuracy_heatmap(directories, save_path, prompt_setting, shuffled):
+def create_dir_accuracy_heatmap(directories, save_path, prompt_setting):
     accuracies = {}
 
     for directory in directories:
         dir_name = directory.split('/')[-4]  # Extract model name from path
-        accuracies[dir_name] = extract_total_accuracy_from_dir(directory, prompt_setting, shuffled)
+        accuracies[dir_name] = extract_total_accuracy(directory, prompt_setting)
 
     accuracy_df = pd.DataFrame.from_dict(accuracies, orient='index')
     accuracy_df.reset_index(inplace=True)
@@ -63,14 +80,15 @@ def create_dir_accuracy_heatmap(directories, save_path, prompt_setting, shuffled
         vmin=0,
         vmax=100
     )
+
     shot_type = 'One-Shot' if 'one-shot' in prompt_setting else 'Zero-Shot'
-    shuffle_type = 'Shuffled' if shuffled else 'Unshuffled'
-    plt.title(f'Name Cloze Task Accuracy ({shot_type}, {shuffle_type})', fontsize=14)
+    plt.title(f'Name Cloze Task Accuracy ({shot_type})', fontsize=14)
     plt.xlabel('Language', fontsize=12)
     plt.ylabel('Model', fontsize=12)
+    plt.xticks(rotation=45)
     plt.tight_layout()
 
-    save_filename = f"{save_path}/total_accuracy_{prompt_setting}_{'shuffled' if shuffled else 'unshuffled'}.png"
+    save_filename = f"{save_path}/total_accuracy_{prompt_setting}.png"
     plt.savefig(save_filename, dpi=300, bbox_inches='tight')
     plt.show()
     print(f"✅ Heatmap saved to {save_filename}")
@@ -95,7 +113,6 @@ directories = [
 
 save_path = '/Users/emir/Downloads/asd/BEAM/results/visualizations/score_table_overall'
 
-# Run for both one-shot and zero-shot, and shuffled/unshuffled combinations
+# Run for both one-shot and zero-shot
 for prompt_setting in ['one-shot', 'zero-shot']:
-    for shuffled in [False, True]:
-        create_dir_accuracy_heatmap(directories, save_path, prompt_setting, shuffled)
+    create_dir_accuracy_heatmap(directories, save_path, prompt_setting)

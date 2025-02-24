@@ -10,7 +10,7 @@ Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuff
 ['godfrey norton'],cabby,arabacı,đức giê-rê-mi,ángel,0,0.17,0,0.15,0,0.3,0,0.33,incorrect,incorrect,incorrect,incorrect
 ['holmes'],rocket,edgeware,edgeware,edgeware,0,0.33,0,0.14,0,0.14,0,0.14,incorrect,incorrect,incorrect,incorrect
 ['holmes'],dimly,dracula,đông,lucía,0,0.18,0,0.15,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
-"['sr', 'wilson', 'bay wilson', 'wilso']",mr.,olga,đông,don quixote,0,0.4,0,0.29,0,0.4,0,0.25,incorrect,incorrect,incorrect,incorrect
+"['wilson', 'bay wilson', 'wilso', 'Mr. wilson']",mr.,olga,đông,don quixote,1,1.0,0,0.29,0,0.4,0,0.25,correct,incorrect,incorrect,incorrect
 "['bayan mary sutherland', 'mary sutherland', 'mary sutherla']",nathaniel,geçen,đời,frankenstein,0,0.47,0,0.27,0,0.15,0,0.36,incorrect,incorrect,incorrect,incorrect
 "['bay holmes', 'holmes']",jesus,tanrı,jesus,evangelio,0,0.36,0,0.25,0,0.36,0,0.21,incorrect,incorrect,incorrect,incorrect
 "['bay jabez wilson', 'jabez wilson']",dimmesdale,özdemir,đức,el,0,0.27,0,0.21,0,0.0,0,0.29,incorrect,incorrect,incorrect,incorrect
@@ -21,7 +21,7 @@ Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuff
 ['holmes'],pray,ali,thúy,elizabeth,0,0.0,0,0.22,0,0.2,0,0.13,incorrect,incorrect,incorrect,incorrect
 "['bay holmes', 'holmes']",vacancy,adam,nghe,minutos,0,0.4,0,0.29,0,0.4,0,0.31,incorrect,incorrect,incorrect,incorrect
 "['bay holmes', 'holmes']",fagin,ali,biệt,thursday,0,0.25,0,0.33,0,0.29,0,0.36,incorrect,incorrect,incorrect,incorrect
-"['sr', 'duncan ross', 'bay duncan ross']",mr.,hiçbir,đức,debes,0,0.4,0,0.25,0,0.67,0,0.29,incorrect,incorrect,incorrect,incorrect
+"['duncan ross', 'bay duncan ross', 'mr. duncan ross']",mr.,hiçbir,đức,debes,1,1.0,0,0.24,0,0.67,0,0.25,correct,incorrect,incorrect,incorrect
 "['jabez wilso', 'bay jabez wilson', 'jabez wilson']",dimmesdale,ali,thế,entonces,0,0.27,0,0.33,0,0.25,0,0.3,incorrect,incorrect,incorrect,incorrect
 "['duncan ross', 'bay duncan ross']",mr.,doğrusu,ngày,emma,0,0.29,0,0.36,0,0.57,0,0.29,incorrect,incorrect,incorrect,incorrect
 ['sherlock holmes'],scrooge,charlie,phan,charlie,0,0.31,0,0.46,0,0.2,0,0.46,incorrect,incorrect,incorrect,incorrect
@@ -32,7 +32,7 @@ Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuff
 ['holmes'],napoleon,albert,ngược,observatorio,0,0.43,0,0.33,0,0.18,0,0.22,incorrect,incorrect,incorrect,incorrect
 "['wilson', 'bay wilson', 'señor wilson']",mr.,i̇lan,đầu,esteban,0,0.25,0,0.6,0,0.33,0,0.5,incorrect,incorrect,incorrect,incorrect
 ['holmes'],dimmesdale,delilah,đồng,peter,0,0.38,0,0.15,0,0.2,0,0.18,incorrect,incorrect,incorrect,incorrect
-"['sr', 'wilson', 'bay wilson']",nathaniel,sunday,thứ,lunes,0,0.32,0,0.44,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
+"['wilson', 'bay wilson', 'Mr. Wilson']",nathaniel,sunday,thứ,lunes,0,0.32,0,0.44,0,0.0,0,0.36,incorrect,incorrect,incorrect,incorrect
 ['holmes'],nathaniel,şeytan,phan,jack,0,0.27,0,0.17,0,0.2,0,0.0,incorrect,incorrect,incorrect,incorrect
 "['wilson', 'bay wilson']",napoleon,paul,đỏ, sherlock ,0,0.44,0,0.29,0,0.25,0,0.29,incorrect,incorrect,incorrect,incorrect
 ['jones'],doctor, doktor,đức,doctor,0,0.18,0,0.18,0,0.0,0,0.18,incorrect,incorrect,incorrect,incorrect
@@ -85,11 +85,11 @@ Single_ent,en_masked_shuffled_results,tr_masked_shuffled_results,vi_masked_shuff
 "['bayan stoner', 'stoner', 'stone']",harvard,john,phép,constance,0,0.33,0,0.44,0,0.22,0,0.57,incorrect,incorrect,incorrect,incorrect
 "['lysander stark', 'albay lysander stark']",colonel,arabistan,đại,porche,0,0.4,0,0.43,0,0.25,0,0.18,incorrect,incorrect,incorrect,incorrect
 "['stark', 'albay lysander stark']",colonel,albay birden,đại,lámpara,0,0.4,0,0.59,0,0.25,0,0.4,incorrect,incorrect,incorrect,incorrect
-"['sr', '‘bay ferguson', 'ferguson']",dimmesdale,ali,ông,ferguson,0,0.22,0,0.29,0,0.36,1,1.0,incorrect,incorrect,incorrect,correct
-"['lord st', 'st', 'simon']",scarlett,lord,simon,don quijote,0,0.4,1,1.0,1,1.0,0,0.33,incorrect,correct,correct,incorrect
-"['lord st', 'st']",napoleon,gazeteler,simon,carta,0,0.33,0,0.31,0,0.29,0,0.33,incorrect,incorrect,incorrect,incorrect
-"['señora st', 'lady st', 'st', 'simon']",dimity,lord,simon,la,0,0.4,0,0.5,1,1.0,0,0.67,incorrect,incorrect,correct,incorrect
-"['sr', 'holder', 'bay holder']",monday,zümrüt,đức,holder,0,0.44,0,0.25,0,0.22,1,1.0,incorrect,incorrect,incorrect,correct
+"['‘bay ferguson', 'ferguson', 'mr. ferguson']",dimmesdale,ali,ông,ferguson,0,0.27,0,0.29,0,0.36,1,1.0,incorrect,incorrect,incorrect,correct
+"['lord st simon', 'lord st. simon', 'simon']",scarlett,lord,simon,don quijote,0,0.4,1,1.0,1,1.0,0,0.25,incorrect,correct,correct,incorrect
+"['lord st', 'st', 'lord st. simon', 'st. simonseñor st. simon', 'Simon dan']",napoleon,gazeteler,simon,carta,0,0.36,0,0.31,1,1.0,0,0.33,incorrect,incorrect,correct,incorrect
+"['señora st simon', 'lady st simon', 'st simon']",dimity,lord,simon,la,0,0.4,0,0.5,1,1.0,0,0.67,incorrect,incorrect,correct,incorrect
+"['mr. holder', 'holder', 'bay holder']",monday,zümrüt,đức,holder,0,0.44,0,0.44,0,0.22,1,1.0,incorrect,incorrect,incorrect,correct
 ['arthur'],dimmesdale,sevgili,đông,deja,0,0.12,0,0.0,0,0.0,0,0.2,incorrect,incorrect,incorrect,incorrect
 "['holde', 'holder', 'bay holder']",harvard,izin,phạm,europa,0,0.33,0,0.0,0,0.29,0,0.22,incorrect,incorrect,incorrect,incorrect
 "['mary', 'mar']",heathcliff,yeğenim,châu,emma,0,0.15,0,0.2,0,0.29,0,0.57,incorrect,incorrect,incorrect,incorrect
