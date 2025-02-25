@@ -86,3 +86,4 @@ scripts/name_cloze_task/fireworks_nct.py
 ..bfg-report
 scripts/Evaluation/nct/.env/bin/activate
 results/direct_probe/rename_csv.py
+results/name_cloze/rename_cols.py

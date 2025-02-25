@@ -1,0 +1,101 @@
+Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct
+['serena'],eve,0,0.44,incorrect,disney,0,0.33,incorrect,disney,0,0.33,incorrect
+['serena'],she,0,0.44,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['vampyre'],alpha,0,0.33,incorrect,trump,0,0.33,incorrect,trump,0,0.33,incorrect
+['lark'],"councilman rylan, miss avery",0,0.19,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['cal'],"someone's name, possibly a character in the story, but based on the context, a likely guess is ""he"" is not correct since ""he"" is a pronoun, so a name is needed. let's consider the sentence structure and the fact that the speaker is likely addressing someone or referring to a third person who has the authority to give approval. without more context, a common name that could fit in many situations is ""john"", but it's a weak guess. a",0,0.01,incorrect,folder,0,0.22,incorrect,folder,0,0.22,incorrect
+['vampyres'],vampires,0,0.88,correct,god,0,0.0,incorrect,god,0,0.0,incorrect
+['vampyres'],humans,0,0.29,incorrect,darwin,0,0.29,incorrect,darwin,0,0.29,incorrect
+['davenport'],waller,0,0.4,incorrect,day,0,0.33,incorrect,day,0,0.33,incorrect
+['davenport'],wallace,0,0.25,incorrect,god,0,0.17,incorrect,god,0,0.17,incorrect
+['vampyres'],alien,0,0.31,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['abel'],ethan,0,0.22,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['roscoe'],harry,0,0.18,incorrect,shakespeare,0,0.24,incorrect,shakespeare,0,0.24,incorrect
+['roscoe'],genghis,0,0.15,incorrect,world,0,0.18,incorrect,world,0,0.18,incorrect
+['serena'],pierce,0,0.5,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['vampyre'],omega,0,0.33,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['serena'],someone,0,0.46,incorrect,einstein,0,0.43,incorrect,einstein,0,0.43,incorrect
+['vampyres'],he,0,0.2,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['essen'],councilman thompson,0,0.17,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['davenport'],andrew cuomo,0,0.29,incorrect,paris,0,0.29,incorrect,paris,0,0.29,incorrect
+['vampyre'],city,0,0.18,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['serena'],vanessa,0,0.31,incorrect,eve,0,0.44,incorrect,eve,0,0.44,incorrect
+['moreland'],he,0,0.2,incorrect,god,0,0.36,incorrect,god,0,0.36,incorrect
+['moreland'],he,0,0.2,incorrect,teeth,0,0.15,incorrect,teeth,0,0.15,incorrect
+['vampyre'],vampire,0,0.86,correct,god,0,0.0,incorrect,god,0,0.0,incorrect
+['moreland'],dad,0,0.36,incorrect,god,0,0.36,incorrect,god,0,0.36,incorrect
+['moreland'],someone,0,0.4,incorrect,god,0,0.36,incorrect,god,0,0.36,incorrect
+['moreland'],he,0,0.2,incorrect,god,0,0.36,incorrect,god,0,0.36,incorrect
+['lark'],emily,0,0.22,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['serena'],stoker,0,0.5,incorrect,garlic,0,0.17,incorrect,garlic,0,0.17,incorrect
+['ana'],she,0,0.0,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['serena'],her,0,0.44,incorrect,einstein,0,0.43,incorrect,einstein,0,0.43,incorrect
+['juno'],he,0,0.0,incorrect,friend,0,0.2,incorrect,friend,0,0.2,incorrect
+['ana'],jesus,0,0.0,incorrect,serena,0,0.44,incorrect,serena,0,0.44,incorrect
+['serena'],a friend,0,0.43,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['serena'],her,0,0.44,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['serena'],alice,0,0.18,incorrect,mother,0,0.33,incorrect,mother,0,0.33,incorrect
+['serena'],she,0,0.44,incorrect,google,0,0.17,incorrect,google,0,0.17,incorrect
+['serena'],he,0,0.25,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['serena'],her,0,0.44,incorrect,moleskine,0,0.27,incorrect,moleskine,0,0.27,incorrect
+['serena'],emily,0,0.18,incorrect,caesar,0,0.33,incorrect,caesar,0,0.33,incorrect
+['serena'],mom,0,0.0,incorrect,eve,0,0.44,incorrect,eve,0,0.44,incorrect
+['vampyres'],vampires,0,0.88,correct,god,0,0.0,incorrect,god,0,0.0,incorrect
+['alex'],mr. lowe,0,0.33,incorrect,robert,0,0.2,incorrect,robert,0,0.2,incorrect
+['alex'],harry,0,0.22,incorrect,wolf,0,0.25,incorrect,wolf,0,0.25,incorrect
+['alex'],astrid,0,0.2,incorrect,omega,0,0.22,incorrect,omega,0,0.22,incorrect
+['serena'],misery,0,0.5,incorrect,stephen king,0,0.44,incorrect,stephen king,0,0.44,incorrect
+['serena'],a home,0,0.17,incorrect,vampyres,0,0.29,incorrect,vampyres,0,0.29,incorrect
+['l'],google,0,0.29,incorrect,yahoo,0,0.0,incorrect,yahoo,0,0.0,incorrect
+['serena'],someone,0,0.46,incorrect,clinton,0,0.15,incorrect,clinton,0,0.15,incorrect
+['serena'],she,0,0.44,incorrect,eve,0,0.44,incorrect,eve,0,0.44,incorrect
+['vampyres'],you,0,0.18,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['max'],lowe,0,0.0,incorrect,rob,0,0.0,incorrect,rob,0,0.0,incorrect
+['max'],he,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['max'],hercules,0,0.0,incorrect,einstein,0,0.0,incorrect,einstein,0,0.0,incorrect
+['max'],sherlock,0,0.0,incorrect,hamlet,0,0.22,incorrect,hamlet,0,0.22,incorrect
+['juno'],"lowe's companion or someone with him, but based on the context, a likely candidate could be a person of authority or significance, so i'll take a guess with a common name: alex",0,0.03,incorrect,god,0,0.29,incorrect,god,0,0.29,incorrect
+['serena'],information,0,0.24,incorrect,player,0,0.33,incorrect,player,0,0.33,incorrect
+['vampyre'],warlord,0,0.29,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['vampyre'],alien,0,0.33,incorrect,frankenstein,0,0.21,incorrect,frankenstein,0,0.21,incorrect
+['serena'],elian,0,0.36,incorrect,charlie,0,0.31,incorrect,charlie,0,0.31,incorrect
+['loyals'],father,0,0.17,incorrect,god,0,0.22,incorrect,god,0,0.22,incorrect
+['ana'],eleanor,0,0.4,incorrect,improv,0,0.0,incorrect,improv,0,0.0,incorrect
+['ana'],sarah,0,0.5,incorrect,sarah,0,0.5,incorrect,sarah,0,0.5,incorrect
+['ana'],she,0,0.0,incorrect,eve,0,0.0,incorrect,eve,0,0.0,incorrect
+['vampyres'],humans,0,0.29,incorrect,serena,0,0.29,incorrect,serena,0,0.29,incorrect
+['serena'],doctors,0,0.15,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['ana'],her,0,0.0,incorrect,eve,0,0.0,incorrect,eve,0,0.0,incorrect
+['ana'],serena,0,0.44,incorrect,williams,0,0.18,incorrect,williams,0,0.18,incorrect
+['max'],ethan,0,0.25,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['ana'],sophie,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['serena'],eve,0,0.44,incorrect,einstein,0,0.43,incorrect,einstein,0,0.43,incorrect
+['ana'],lowe,0,0.0,incorrect,rob,0,0.0,incorrect,rob,0,0.0,incorrect
+['vampyre'],wedding,0,0.14,incorrect,harry,0,0.33,incorrect,harry,0,0.33,incorrect
+['alex'],her car,0,0.18,incorrect,eve,0,0.29,incorrect,eve,0,0.29,incorrect
+['alex'],"someone's name, likely a character in the story, but based on the context, a plausible guess could be ""he"" is not correct since it is not a proper name, a better guess would be a name like ""alex"" or ""the manager"", but without more context, a very plausible guess is the name of a person who is likely a character in the story, such as the narrator or another character, so a possible name could be ""the detective"" or simply a",0,0.02,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['alpha'],partner,0,0.33,incorrect,trump,0,0.2,incorrect,trump,0,0.2,incorrect
+['alex'],lowe,0,0.5,incorrect,home,0,0.25,incorrect,home,0,0.25,incorrect
+['vampyre'],alpha,0,0.33,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['ana'],eve,0,0.0,incorrect,eva,0,0.33,incorrect,eva,0,0.33,incorrect
+['vampyres'],empire,0,0.57,incorrect,jesus,0,0.31,incorrect,jesus,0,0.31,incorrect
+['serena'],eve,0,0.44,incorrect,blueberries,0,0.35,incorrect,blueberries,0,0.35,incorrect
+['alex'],elijah,0,0.2,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['ana'],misery,0,0.0,incorrect,stephen king,0,0.13,incorrect,stephen king,0,0.13,incorrect
+['ana'],lestat,0,0.22,incorrect,john,0,0.29,incorrect,john,0,0.29,incorrect
+['ana'],her,0,0.0,incorrect,jesus,0,0.0,incorrect,jesus,0,0.0,incorrect
+['ana'],she,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['ana'],jesus,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['ana'],his name,0,0.36,incorrect,eve,0,0.0,incorrect,eve,0,0.0,incorrect
+['alex'],echo,0,0.25,incorrect,eve,0,0.29,incorrect,eve,0,0.29,incorrect
+['ana'],emily,0,0.0,incorrect,mom,0,0.0,incorrect,mom,0,0.0,incorrect
+['alex'],god,0,0.0,incorrect,smithsonian,0,0.13,incorrect,smithsonian,0,0.13,incorrect
+['ana'],remus,0,0.0,incorrect,eve,0,0.0,incorrect,eve,0,0.0,incorrect
+['serena'],louis,0,0.18,incorrect,polidori,0,0.14,incorrect,polidori,0,0.14,incorrect
+['emery'],her,0,0.5,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['serena'],amy,0,0.22,incorrect,eve,0,0.44,incorrect,eve,0,0.44,incorrect
+['serena'],jesus,0,0.18,incorrect,eve,0,0.44,incorrect,eve,0,0.44,incorrect
+['serena'],peace,0,0.36,incorrect,eve,0,0.44,incorrect,eve,0,0.44,incorrect
+['koen'],alice,0,0.22,incorrect,eve,0,0.29,incorrect,eve,0,0.29,incorrect
+['emery'],alpha,0,0.0,incorrect,friend,0,0.18,incorrect,friend,0,0.18,incorrect
+['koen'],anthony bourdain,0,0.2,incorrect,trump,0,0.0,incorrect,trump,0,0.0,incorrect

@@ -1,0 +1,49 @@
+Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct
+"['eager', 'beaver', 'eager beaver']",neil armstrong,0,0.32,incorrect,nasa,0,0.25,incorrect,nasa,0,0.25,incorrect
+['hannah'],anna,0,0.8,correct,john doe,0,0.29,incorrect,john doe,0,0.29,incorrect
+"['kalpana chawla', 'kalpana', 'chawla']",neil degrasse tyson,0,0.23,incorrect,not provided,0,0.15,incorrect,not provided,0,0.15,incorrect
+['floyd'],mars rover,0,0.13,incorrect,david rees,0,0.13,incorrect,david rees,0,0.13,incorrect
+['floyd'],unspecified,0,0.25,incorrect,finland,0,0.5,incorrect,finland,0,0.5,incorrect
+['mara'],unanswerable,0,0.38,incorrect,midori,0,0.4,incorrect,midori,0,0.4,incorrect
+['mara'],drake,0,0.44,incorrect,yuki,0,0.0,incorrect,yuki,0,0.0,incorrect
+['floyd'],family,0,0.55,incorrect,trace,0,0.0,incorrect,trace,0,0.0,incorrect
+['python'],google,0,0.17,incorrect,hal/s,0,0.18,incorrect,hal/s,0,0.18,incorrect
+['let'],friends,0,0.2,incorrect,lee min-ho,0,0.31,incorrect,lee min-ho,0,0.31,incorrect
+['fuck'],moan,0,0.0,incorrect,not provided,0,0.0,incorrect,not provided,0,0.0,incorrect
+['hannah'],caltech,0,0.31,incorrect,caltech,0,0.31,incorrect,caltech,0,0.31,incorrect
+['mara'],unknown,0,0.0,incorrect,water,0,0.44,incorrect,water,0,0.44,incorrect
+['merel'],olav skogstad,0,0.11,incorrect,amase,0,0.4,incorrect,amase,0,0.4,incorrect
+['hannah'],mark,0,0.2,incorrect,nasa,0,0.4,incorrect,nasa,0,0.4,incorrect
+['mara'],harry potter,0,0.25,incorrect,mr. collins,0,0.27,incorrect,mr. collins,0,0.27,incorrect
+['mara'],emily,0,0.22,incorrect,chloe,0,0.0,incorrect,chloe,0,0.0,incorrect
+['merel'],horst marschall,0,0.3,incorrect,dr. ilmar spasojevic,0,0.24,incorrect,dr. ilmar spasojevic,0,0.24,incorrect
+['karl'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['haven'],don't,0,0.2,incorrect,stephen king,0,0.35,incorrect,stephen king,0,0.35,incorrect
+['arroyo'],yolanda cedillo-flores,0,0.21,incorrect,opportunity,0,0.24,incorrect,opportunity,0,0.24,incorrect
+['arroyo'],abigail (abby) j. harrison,0,0.25,incorrect,dr. lisa ruth jun,0,0.17,incorrect,dr. lisa ruth jun,0,0.17,incorrect
+['merel'],john p. rummel,0,0.32,incorrect,amase,0,0.4,incorrect,amase,0,0.4,incorrect
+['floyd'],unknown,0,0.17,incorrect,trump,0,0.0,incorrect,trump,0,0.0,incorrect
+['merel'],johnsen,0,0.17,incorrect,jonas,0,0.0,incorrect,jonas,0,0.0,incorrect
+['hannah'],malcolm,0,0.15,incorrect,yuki sohma,0,0.25,incorrect,yuki sohma,0,0.25,incorrect
+['merel'],john,0,0.0,incorrect,blue,0,0.22,incorrect,blue,0,0.22,incorrect
+['hannah'],oliver,0,0.0,incorrect,longyearbyen,0,0.22,incorrect,longyearbyen,0,0.22,incorrect
+['merel'],president snow,0,0.21,incorrect,philip larkin,0,0.11,incorrect,philip larkin,0,0.11,incorrect
+['floyd'],unknown,0,0.17,incorrect,unknown,0,0.17,incorrect,unknown,0,0.17,incorrect
+['hannah'],james,0,0.18,incorrect,brandon,0,0.46,incorrect,brandon,0,0.46,incorrect
+['hannah'],dr. holden,0,0.25,incorrect,james damore,0,0.22,incorrect,james damore,0,0.22,incorrect
+['merel'],oliver,0,0.36,incorrect,ian,0,0.0,incorrect,ian,0,0.0,incorrect
+['mara'],emily,0,0.22,incorrect,david bennett,0,0.12,incorrect,david bennett,0,0.12,incorrect
+['mara'],becca,0,0.22,incorrect,emma,0,0.5,incorrect,emma,0,0.5,incorrect
+['floyd'],capulet,0,0.17,incorrect,britney spears,0,0.11,incorrect,britney spears,0,0.11,incorrect
+['mara'],lyanna mormont,0,0.22,incorrect,yamamoto,0,0.33,incorrect,yamamoto,0,0.33,incorrect
+['mara'],sadie,0,0.22,incorrect,sadie,0,0.22,incorrect,sadie,0,0.22,incorrect
+['great'],delphina,0,0.31,incorrect,miss havisham,0,0.11,incorrect,miss havisham,0,0.11,incorrect
+['hannah'],charlie,0,0.31,incorrect,grizzly adams,0,0.21,incorrect,grizzly adams,0,0.21,incorrect
+['hannah'],dean winchester,0,0.38,incorrect,edward cullen,0,0.21,incorrect,edward cullen,0,0.21,incorrect
+['hannah'],dean,0,0.4,incorrect,donald trump,0,0.22,incorrect,donald trump,0,0.22,incorrect
+['hannah'],not provided,0,0.11,incorrect,,0,0.44,incorrect,,0,0.44,incorrect
+['hannah'],edward,0,0.17,incorrect,winnie-the-pooh,0,0.29,incorrect,winnie-the-pooh,0,0.29,incorrect
+['mara'],broccoli,0,0.17,incorrect,martha stewart,0,0.44,incorrect,martha stewart,0,0.44,incorrect
+['hannah'],edward cullen,0,0.21,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['hannah'],christian,0,0.4,incorrect,"sorry, i cannot provide a suitable answer as the passage contains explicit adult content and does not provide a clear context for identifying a proper name. if you have a different question or topic, feel free to ask!",0,0.05,incorrect,"sorry, i cannot provide a suitable answer as the passage contains explicit adult content and does not provide a clear context for identifying a proper name. if you have a different question or topic, feel free to ask!",0,0.05,incorrect
+['hannah'],vastitas borealis,0,0.17,incorrect,vastitas borealis,0,0.17,incorrect,vastitas borealis,0,0.17,incorrect
