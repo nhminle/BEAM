@@ -1,0 +1,101 @@
+Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct
+['jake'],[mask],0,0.4,incorrect,he,0,0.33,incorrect,he,0,0.33,incorrect
+['jake'],west,0,0.25,incorrect,ucla,0,0.25,incorrect,ucla,0,0.25,incorrect
+['anna'],[mask],0,0.2,incorrect,west,0,0.0,incorrect,west,0,0.0,incorrect
+['anna'],girlfriend,0,0.14,incorrect,emily,0,0.0,incorrect,emily,0,0.0,incorrect
+"['john', 'john wayne', 'wayne']",singapore,0,0.32,incorrect,singapore,0,0.32,incorrect,singapore,0,0.32,incorrect
+['anna'],he,0,0.0,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['anna'],kid,0,0.0,incorrect,west,0,0.0,incorrect,west,0,0.0,incorrect
+['conan'],"the name that fills the [mask] token in the passage is ""the witcher"". this is inferred from the context, where the television screen is showing a scene with ""the witcher"" enthusiastically fucking a witch in a cave. this suggests that ""the witcher"" is likely a character or a reference to the popular series ""the witcher"". therefore, the proper name that fills the [mask] token is ""the witcher"".",0,0.03,incorrect,steve,0,0.0,incorrect,steve,0,0.0,incorrect
+['anna'],john,0,0.25,incorrect,he,0,0.0,incorrect,he,0,0.0,incorrect
+['jake'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['jake'],weston,0,0.2,incorrect,weston,0,0.2,incorrect,weston,0,0.2,incorrect
+['conan'],the rock,0,0.15,incorrect,west,0,0.0,incorrect,west,0,0.0,incorrect
+['jake'],he,0,0.33,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['anna'],sarah,0,0.44,incorrect,he,0,0.0,incorrect,he,0,0.0,incorrect
+['anna'],lily,0,0.0,incorrect,muppet,0,0.0,incorrect,muppet,0,0.0,incorrect
+['anna'],sarah,0,0.44,incorrect,wall,0,0.25,incorrect,wall,0,0.25,incorrect
+['anna'],emily,0,0.0,incorrect,emily,0,0.0,incorrect,emily,0,0.0,incorrect
+['anna'],sophie,0,0.0,incorrect,sister,0,0.0,incorrect,sister,0,0.0,incorrect
+['anna'],mom,0,0.0,incorrect,jingga,0,0.4,incorrect,jingga,0,0.4,incorrect
+['anna'],she,0,0.0,incorrect,sheila,0,0.2,incorrect,sheila,0,0.2,incorrect
+['jake'],john,0,0.25,incorrect,hills,0,0.0,incorrect,hills,0,0.0,incorrect
+"['jenny', 'jenny nelson', 'nelson']",nose,0,0.4,incorrect,nose,0,0.4,incorrect,nose,0,0.4,incorrect
+['anna'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['anna'],"the passage does not provide enough information to determine the proper name that fills the [mask] token. however, based on the context, it is likely that the name refers to a person who is being addressed or referred to in the conversation. without further context or information, it is not possible to provide a specific name. if you can provide more context or details, i would be happy to help.",0,0.02,incorrect,kate,0,0.25,incorrect,kate,0,0.25,incorrect
+['anna'],emily,0,0.0,incorrect,jane,0,0.5,incorrect,jane,0,0.5,incorrect
+['babe'],j.k. rowling,0,0.0,incorrect,[mask],0,0.2,incorrect,[mask],0,0.2,incorrect
+['anna'],american express,0,0.2,incorrect,insurance,0,0.31,incorrect,insurance,0,0.31,incorrect
+"['anna', 'anna green', 'green']","those who like to get to the airport three hours before departure to sit within eyesight of the gate, and the others",0,0.11,incorrect,airport,0,0.24,incorrect,airport,0,0.24,incorrect
+['anna'],[mask]'s,0,0.17,incorrect,cinderella,0,0.29,incorrect,cinderella,0,0.29,incorrect
+['anna'],she,0,0.0,incorrect,frank,0,0.44,incorrect,frank,0,0.44,incorrect
+['anna'],lily,0,0.0,incorrect,jane,0,0.5,incorrect,jane,0,0.5,incorrect
+['anna'],[mask],0,0.2,incorrect,[mask],0,0.2,incorrect,[mask],0,0.2,incorrect
+"['anna', 'anna green', 'green']",muppet,0,0.18,incorrect,muppet-human hybrid,0,0.28,incorrect,muppet-human hybrid,0,0.28,incorrect
+['anna'],sarah,0,0.44,incorrect,cambodia,0,0.33,incorrect,cambodia,0,0.33,incorrect
+['anna'],emily,0,0.0,incorrect,seattle,0,0.18,incorrect,seattle,0,0.18,incorrect
+['anna'],she,0,0.0,incorrect,person,0,0.2,incorrect,person,0,0.2,incorrect
+['anna'],jessica,0,0.18,incorrect,jane,0,0.5,incorrect,jane,0,0.5,incorrect
+['jake'],sibling,0,0.0,incorrect,[mask],0,0.4,incorrect,[mask],0,0.4,incorrect
+['anna'],natalie,0,0.36,incorrect,her,0,0.0,incorrect,her,0,0.0,incorrect
+"['kellan mckellan', 'mckellan', 'kellan']",weston,0,0.33,incorrect,weston,0,0.33,incorrect,weston,0,0.33,incorrect
+['anna'],flight attendant,0,0.3,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['anna'],john,0,0.25,incorrect,west,0,0.0,incorrect,west,0,0.0,incorrect
+['gede'],island,0,0.2,incorrect,island,0,0.2,incorrect,island,0,0.2,incorrect
+['janet'],gwyneth paltrow,0,0.3,incorrect,natalie,0,0.33,incorrect,natalie,0,0.33,incorrect
+['anna'],mrs. smith,0,0.0,incorrect,mother-in-law,0,0.24,incorrect,mother-in-law,0,0.24,incorrect
+['janet'],dad,0,0.25,incorrect,john,0,0.44,incorrect,john,0,0.44,incorrect
+['anna'],he,0,0.0,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['gede'],isle esme,0,0.31,incorrect,esme,0,0.5,incorrect,esme,0,0.5,incorrect
+['anna'],karma,0,0.44,incorrect,west,0,0.0,incorrect,west,0,0.0,incorrect
+['anna'],jessica,0,0.18,incorrect,september,0,0.0,incorrect,september,0,0.0,incorrect
+['anna'],her,0,0.0,incorrect,wife,0,0.0,incorrect,wife,0,0.0,incorrect
+['anna'],green-hyphen-weston,0,0.17,incorrect,green-hyphen-weston,0,0.17,incorrect,green-hyphen-weston,0,0.17,incorrect
+['jake'],"the two of them walk back to me, and [mask] looks over his shoulder to make sure we're alone. ""how are my favorite liars doing?""",0,0.05,incorrect,them,0,0.25,incorrect,them,0,0.25,incorrect
+['jake'],[mask],0,0.4,incorrect,weston,0,0.2,incorrect,weston,0,0.2,incorrect
+['anna'],lily,0,0.0,incorrect,diamond,0,0.36,incorrect,diamond,0,0.36,incorrect
+['anna'],the family,0,0.14,incorrect,the face,0,0.17,incorrect,the face,0,0.17,incorrect
+['jake'],[mask],0,0.4,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['jake'],dad,0,0.29,incorrect,he,0,0.33,incorrect,he,0,0.33,incorrect
+['anna'],nobody,0,0.2,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['anna'],the band,0,0.33,incorrect,nixon,0,0.44,incorrect,nixon,0,0.44,incorrect
+['janet'],professor,0,0.14,incorrect,welp,0,0.22,incorrect,welp,0,0.22,incorrect
+['alex'],sleep,0,0.44,incorrect,everyone,0,0.17,incorrect,everyone,0,0.17,incorrect
+['alex'],john,0,0.0,incorrect,two,0,0.0,incorrect,two,0,0.0,incorrect
+['alex'],dad,0,0.29,incorrect,therapist,0,0.15,incorrect,therapist,0,0.15,incorrect
+['alex'],the wizard of oz,0,0.1,incorrect,oz,0,0.0,incorrect,oz,0,0.0,incorrect
+['alex'],west,0,0.25,incorrect,west,0,0.25,incorrect,west,0,0.25,incorrect
+['alex'],bride,0,0.22,incorrect,west,0,0.25,incorrect,west,0,0.25,incorrect
+['anna'],sarah,0,0.44,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['anna'],my father,0,0.15,incorrect,father,0,0.2,incorrect,father,0,0.2,incorrect
+['anna'],sarah,0,0.44,incorrect,jesus,0,0.0,incorrect,jesus,0,0.0,incorrect
+['anna'],she,0,0.0,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['anna'],family,0,0.2,incorrect,family,0,0.2,incorrect,family,0,0.2,incorrect
+['anna'],jessica,0,0.18,incorrect,jerks,0,0.0,incorrect,jerks,0,0.0,incorrect
+['alex'],anna,0,0.25,incorrect,anna,0,0.25,incorrect,anna,0,0.25,incorrect
+['anna'],sarah,0,0.44,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['eko'],sarah,0,0.0,incorrect,she,0,0.33,incorrect,she,0,0.33,incorrect
+['alex'],he,0,0.33,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['alex'],she,0,0.29,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['anna'],sweetheart,0,0.14,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['alex'],anna,0,0.25,incorrect,anna,0,0.25,incorrect,anna,0,0.25,incorrect
+['alex'],she,0,0.29,incorrect,she,0,0.29,incorrect,she,0,0.29,incorrect
+['anna'],west,0,0.0,incorrect,boat,0,0.25,incorrect,boat,0,0.25,incorrect
+['anna'],father,0,0.2,incorrect,unknown,0,0.36,incorrect,unknown,0,0.36,incorrect
+['alex'],brother,0,0.18,incorrect,brother,0,0.18,incorrect,brother,0,0.18,incorrect
+['anna'],emily,0,0.0,incorrect,water,0,0.22,incorrect,water,0,0.22,incorrect
+['anna'],ginger,0,0.2,incorrect,gingerly,0,0.17,incorrect,gingerly,0,0.17,incorrect
+['anna'],name,0,0.5,incorrect,jerks,0,0.0,incorrect,jerks,0,0.0,incorrect
+['anna'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['mel'],amazon,0,0.22,incorrect,roommate,0,0.36,incorrect,roommate,0,0.36,incorrect
+['janet'],catherine,0,0.43,incorrect,weston,0,0.36,incorrect,weston,0,0.36,incorrect
+['ray'],west,0,0.0,incorrect,forbes,0,0.22,incorrect,forbes,0,0.22,incorrect
+['alex'],ceo,0,0.29,incorrect,ceo,0,0.29,incorrect,ceo,0,0.29,incorrect
+"['anna', 'anna green', 'green']",john,0,0.25,incorrect,mr.,0,0.25,incorrect,mr.,0,0.25,incorrect
+['janet'],lily,0,0.0,incorrect,vampire,0,0.33,incorrect,vampire,0,0.33,incorrect
+['reagan'],emily,0,0.18,incorrect,dog,0,0.22,incorrect,dog,0,0.22,incorrect
+['reagan'],uncle,0,0.18,incorrect,he,0,0.25,incorrect,he,0,0.25,incorrect
+['ray'],them,0,0.0,incorrect,her,0,0.33,incorrect,her,0,0.33,incorrect
+['grandpa'],uncle,0,0.17,incorrect,kids,0,0.18,incorrect,kids,0,0.18,incorrect
+['mel'],west,0,0.29,incorrect,dad,0,0.0,incorrect,dad,0,0.0,incorrect
+['ray'],"the sound of a fork dropping onto porcelain breaks through my trance, and i blink over to where [mask] is now impatiently wiping his mouth on a napkin. ""they just canceled now?""",0,0.03,incorrect,the i,0,0.0,incorrect,the i,0,0.0,incorrect

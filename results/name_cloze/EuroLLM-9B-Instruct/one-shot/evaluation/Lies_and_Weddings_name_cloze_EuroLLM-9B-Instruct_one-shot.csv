@@ -1,0 +1,101 @@
+Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct
+['mum'],dad,0,0.0,incorrect,name,0,0.29,incorrect,name,0,0.29,incorrect
+['eden'],hester,0,0.4,incorrect,rg,0,0.0,incorrect,rg,0,0.0,incorrect
+"['gopal das', 'gopal', 'das']",brimmer,0,0.0,incorrect,shaman,0,0.27,incorrect,shaman,0,0.27,incorrect
+"['gopal das', 'gopal', 'das']",kyle,0,0.22,incorrect,gaia,0,0.46,incorrect,gaia,0,0.46,incorrect
+['thomas'],john,0,0.2,incorrect,john,0,0.2,incorrect,john,0,0.2,incorrect
+['arabella'],augusta,0,0.27,incorrect,augusta,0,0.27,incorrect,augusta,0,0.27,incorrect
+['thomas'],the cottage,0,0.47,incorrect,cottage,0,0.31,incorrect,cottage,0,0.31,incorrect
+['arabella'],[mask],0,0.14,incorrect,hong,0,0.0,incorrect,hong,0,0.0,incorrect
+['eden'],emily,0,0.22,incorrect,,0,0.29,incorrect,,0,0.29,incorrect
+['eden'],arabella,0,0.17,incorrect,arabella,0,0.17,incorrect,arabella,0,0.17,incorrect
+['arabella'],beatrice,0,0.38,incorrect,beatrice,0,0.38,incorrect,beatrice,0,0.38,incorrect
+['arabella'],lady [mask],0,0.21,incorrect,lady,0,0.33,incorrect,lady,0,0.33,incorrect
+['arabella'],[mask]'s barrister father,0,0.24,incorrect,kong's,0,0.0,incorrect,kong's,0,0.0,incorrect
+['arabella'],countess,0,0.12,incorrect,bella,0,0.77,correct,bella,0,0.77,correct
+"['thomas tong', 'tong', 'thomas']",dr. [mask],0,0.38,incorrect,dr.,0,0.0,incorrect,dr.,0,0.0,incorrect
+['eden'],unknown,0,0.18,incorrect,unfamiliar,0,0.14,incorrect,unfamiliar,0,0.14,incorrect
+['eden'],turtle,0,0.2,incorrect,turtle,0,0.2,incorrect,turtle,0,0.2,incorrect
+['eden'],she,0,0.29,incorrect,she,0,0.29,incorrect,she,0,0.29,incorrect
+['eden'],emily,0,0.22,incorrect,jersey,0,0.4,incorrect,jersey,0,0.4,incorrect
+['rufus'],[mask],0,0.18,incorrect,wolseley,0,0.15,incorrect,wolseley,0,0.15,incorrect
+['rufus'],[mask],0,0.18,incorrect,puako,0,0.2,incorrect,puako,0,0.2,incorrect
+['rufus'],john,0,0.0,incorrect,cistern,0,0.17,incorrect,cistern,0,0.17,incorrect
+['rufus'],john,0,0.0,incorrect,hawaii,0,0.0,incorrect,hawaii,0,0.0,incorrect
+['arabella'],kehinde wiley,0,0.19,incorrect,rufus,0,0.15,incorrect,rufus,0,0.15,incorrect
+['bea'],de courcy,0,0.17,incorrect,courcys,0,0.0,incorrect,courcys,0,0.0,incorrect
+['eden'],emily,0,0.22,incorrect,coffee,0,0.4,incorrect,coffee,0,0.4,incorrect
+['eden'],emily,0,0.22,incorrect,she,0,0.29,incorrect,she,0,0.29,incorrect
+['rufus'],kate,0,0.0,incorrect,"the bride's name is not explicitly mentioned in the passage. however, based on the context, it is likely that the proper name that fills the [mask] token is ""hester"". this is a reasonable assumption, given the context of the passage, which appears to be a wedding invitation or a reference to a wedding. therefore, the most likely answer is ""hester"". however, please note that this is an educated guess, and the actual name may be different. if",0,0.02,incorrect,"the bride's name is not explicitly mentioned in the passage. however, based on the context, it is likely that the proper name that fills the [mask] token is ""hester"". this is a reasonable assumption, given the context of the passage, which appears to be a wedding invitation or a reference to a wedding. therefore, the most likely answer is ""hester"". however, please note that this is an educated guess, and the actual name may be different. if",0,0.02,incorrect
+['eden'],she,0,0.29,incorrect,hester,0,0.4,incorrect,hester,0,0.4,incorrect
+['rufus'],coqui,0,0.2,incorrect,coqui,0,0.2,incorrect,coqui,0,0.2,incorrect
+['bea'],augusta,0,0.2,incorrect,augusta,0,0.2,incorrect,augusta,0,0.2,incorrect
+['bea'],sarah,0,0.25,incorrect,elizabeth,0,0.33,incorrect,elizabeth,0,0.33,incorrect
+['arabella'],augusta,0,0.27,incorrect,augusta,0,0.27,incorrect,augusta,0,0.27,incorrect
+['eden'],countess,0,0.17,incorrect,countess,0,0.17,incorrect,countess,0,0.17,incorrect
+['rufus'],wedding,0,0.0,incorrect,hester,0,0.18,incorrect,hester,0,0.18,incorrect
+['eden'],[mask],0,0.0,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['freddy'],walrus,0,0.17,incorrect,walrus,0,0.17,incorrect,walrus,0,0.17,incorrect
+['rufus'],freddy,0,0.18,incorrect,freddy,0,0.18,incorrect,freddy,0,0.18,incorrect
+['farman'],farmihian,0,0.8,correct,balboa,0,0.33,incorrect,balboa,0,0.33,incorrect
+['solène'],marie,0,0.18,incorrect,hester,0,0.33,incorrect,hester,0,0.33,incorrect
+['laurel'],captain,0,0.15,incorrect,whales,0,0.33,incorrect,whales,0,0.33,incorrect
+['rufus'],john,0,0.0,incorrect,whale,0,0.0,incorrect,whale,0,0.0,incorrect
+['solène'],john,0,0.4,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
+['eden'],she,0,0.29,incorrect,hester,0,0.4,incorrect,hester,0,0.4,incorrect
+['tong'],dr. [mask],0,0.0,incorrect,dr.,0,0.0,incorrect,dr.,0,0.0,incorrect
+['thomas'],chef,0,0.2,incorrect,chef,0,0.2,incorrect,chef,0,0.2,incorrect
+['thomas'],john,0,0.2,incorrect,john,0,0.2,incorrect,john,0,0.2,incorrect
+['arabella'],hideaway,0,0.25,incorrect,hester,0,0.14,incorrect,hester,0,0.14,incorrect
+['thomas'],hester,0,0.33,incorrect,hester,0,0.33,incorrect,hester,0,0.33,incorrect
+['max'],king,0,0.0,incorrect,norwegians,0,0.15,incorrect,norwegians,0,0.15,incorrect
+['kamehameha'],kamehameha,1,1.0,correct,pu'ukohola,0,0.3,incorrect,pu'ukohola,0,0.3,incorrect
+['thomas'],john,0,0.2,incorrect,visitor's,0,0.4,incorrect,visitor's,0,0.4,incorrect
+"['rene', 'tan', 'rene tan']",bill,0,0.0,incorrect,john,0,0.29,incorrect,john,0,0.29,incorrect
+['eden'],mother,0,0.2,incorrect,mother,0,0.2,incorrect,mother,0,0.2,incorrect
+['thomas'],person,0,0.17,incorrect,doctor,0,0.33,incorrect,doctor,0,0.33,incorrect
+['thomas'],[mask],0,0.5,incorrect,kong,0,0.2,incorrect,kong,0,0.2,incorrect
+['eden'],grace,0,0.22,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['eden'],bea,0,0.29,incorrect,bea,0,0.29,incorrect,bea,0,0.29,incorrect
+['thomas'],pilot,0,0.18,incorrect,new york,0,0.14,incorrect,new york,0,0.14,incorrect
+['arabella'],catherine,0,0.35,incorrect,duchess,0,0.13,incorrect,duchess,0,0.13,incorrect
+['eden'],dad,0,0.29,incorrect,dad,0,0.29,incorrect,dad,0,0.29,incorrect
+['eden'],king,0,0.25,incorrect,king,0,0.25,incorrect,king,0,0.25,incorrect
+['eden'],[mask],0,0.0,incorrect,hester,0,0.4,incorrect,hester,0,0.4,incorrect
+['rufus'],mauna kea,0,0.14,incorrect,queen,0,0.2,incorrect,queen,0,0.2,incorrect
+['arabella'],grandchildren,0,0.29,incorrect,chinese,0,0.13,incorrect,chinese,0,0.13,incorrect
+['eden'],[mask],0,0.0,incorrect,rufus,0,0.0,incorrect,rufus,0,0.0,incorrect
+['eden'],emily,0,0.22,incorrect,she,0,0.29,incorrect,she,0,0.29,incorrect
+['rufus'],jane,0,0.0,incorrect,he,0,0.0,incorrect,he,0,0.0,incorrect
+['eden'],sarah,0,0.0,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['rufus'],emirates,0,0.31,incorrect,emirates,0,0.31,incorrect,emirates,0,0.31,incorrect
+['freddy'],gandalf,0,0.15,incorrect,earth,0,0.18,incorrect,earth,0,0.18,incorrect
+['rufus'],cinderella,0,0.13,incorrect,maiden,0,0.0,incorrect,maiden,0,0.0,incorrect
+['freddy'],eden,0,0.4,incorrect,amalfi,0,0.17,incorrect,amalfi,0,0.17,incorrect
+['rufus'],john,0,0.0,incorrect,great,0,0.2,incorrect,great,0,0.2,incorrect
+['arabella'],queen,0,0.15,incorrect,crown,0,0.15,incorrect,crown,0,0.15,incorrect
+"['courcy', 'solène', 'de', 'solène de courcy']",hillary,0,0.31,incorrect,girl,0,0.2,incorrect,girl,0,0.2,incorrect
+['rufus'],alice,0,0.0,incorrect,hester,0,0.18,incorrect,hester,0,0.18,incorrect
+['rufus'],john,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['rufus'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['rufus'],jessica simpson,0,0.1,incorrect,eden,0,0.0,incorrect,eden,0,0.0,incorrect
+['rufus'],[mask]'s,0,0.15,incorrect,mummy,0,0.2,incorrect,mummy,0,0.2,incorrect
+['rufus'],jack,0,0.0,incorrect,he,0,0.0,incorrect,he,0,0.0,incorrect
+"['john', 'john soane', 'soane']",sir john soane,0,0.83,correct,sir,0,0.25,incorrect,sir,0,0.25,incorrect
+['rufus'],john,0,0.0,incorrect,hester,0,0.18,incorrect,hester,0,0.18,incorrect
+['rufus'],money,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+"['gao', 'mary gao', 'mary']",emily,0,0.44,incorrect,mom,0,0.36,incorrect,mom,0,0.36,incorrect
+['john'],phineas,0,0.36,incorrect,phineas,0,0.36,incorrect,phineas,0,0.36,incorrect
+['john'],bride,0,0.0,incorrect,bride,0,0.0,incorrect,bride,0,0.0,incorrect
+['martha'],diocesan girls'/geelong grammar/griffith,0,0.22,incorrect,girls',0,0.17,incorrect,girls',0,0.17,incorrect
+['martha'],hester,0,0.17,incorrect,hester,0,0.17,incorrect,hester,0,0.17,incorrect
+['martha'],md capital,0,0.5,incorrect,leung,0,0.0,incorrect,leung,0,0.0,incorrect
+['martha'],bill gates,0,0.25,incorrect,hester,0,0.17,incorrect,hester,0,0.17,incorrect
+['gresham'],earl,0,0.36,incorrect,earl,0,0.36,incorrect,earl,0,0.36,incorrect
+['rene'],john,0,0.25,incorrect,he,0,0.33,incorrect,he,0,0.33,incorrect
+['jane'],john,0,0.5,incorrect,twombly,0,0.0,incorrect,twombly,0,0.0,incorrect
+"['martha', 'martha dung', 'dung']",elizabeth,0,0.4,incorrect,hester,0,0.17,incorrect,hester,0,0.17,incorrect
+['greshams'],child,0,0.15,incorrect,john,0,0.17,incorrect,john,0,0.17,incorrect
+['peter'],dad,0,0.0,incorrect,venice,0,0.36,incorrect,venice,0,0.36,incorrect
+['penelope'],mrs. putter,0,0.21,incorrect,putter,0,0.29,incorrect,putter,0,0.29,incorrect
+['putter'],wid's wife,0,0.12,incorrect,hester,0,0.5,incorrect,hester,0,0.5,incorrect
