@@ -36,9 +36,9 @@ def main(model_folder, prompt_setting, filename, book_title):
     if book_title in ['Below_Zero', 'Bride', 'First_Lie_Wins', 'Funny_Story', 
                       'If_Only_I_Had_Told_Her', 'Just_for_the_Summer', 'Lies_and_Weddings', 
                       'The_Ministry_of_Time', 'The_Paradise_Problem', 'You_Like_It_Darker_Stories']:
-        df2 = pd.read_csv(f'scripts/Prompts/2024/{book_title}/stored/{book_title}_filtered_sampled.csv')
+        df2 = pd.read_csv(f'scripts/Prompts/2024/{book_title}/{book_title}_unmasked_passages.csv')
     else:
-        df2 = pd.read_csv(f'scripts/Prompts/{book_title}/stored/{book_title}_filtered_masked_sampled.csv')
+        df2 = pd.read_csv(f'scripts/Prompts/{book_title}/{book_title}_unmasked_passages.csv')
     
     # Merge ground truth into df1 using the common 'en' column.
     df1['Single_ent'] = df2['Single_ent']

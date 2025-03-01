@@ -6,19 +6,19 @@ from matplotlib.colors import LinearSegmentedColormap
 
 def extract_accuracy_from_csv(file_path):
     df = pd.read_csv(file_path)
-    required_columns = ['en_correct', 'es_correct', 'vi_correct', 'tr_correct']
+    # required_columns = ['en_correct', 'es_correct', 'vi_correct', 'tr_correct']
     
-    if not all(col in df.columns for col in required_columns):
-        print(f"Skipping {file_path}: Missing required language results.")
-        return None
+    # if not all(col in df.columns for col in required_columns):
+    #     print(f"Skipping {file_path}: Missing required language results.")
+    #     return None
     
     accuracy = {
-        'en': df['en_correct'].value_counts(normalize=True).get('correct', 0) * 100,
-        'es': df['es_correct'].value_counts(normalize=True).get('correct', 0) * 100,
-        'vi': df['vi_correct'].value_counts(normalize=True).get('correct', 0) * 100,
-        'tr': df['tr_correct'].value_counts(normalize=True).get('correct', 0) * 100,
-        'st': df['st_correct'].value_counts(normalize=True).get('correct', 0) * 100,
-        'en': df['en_correct'].value_counts(normalize=True).get('correct', 0) * 100,
+        'en': df['en_masked_correct'].value_counts(normalize=True).get('correct', 0) * 100,
+        'es': df['es_masked_correct'].value_counts(normalize=True).get('correct', 0) * 100,
+        'vi': df['vi_masked_correct'].value_counts(normalize=True).get('correct', 0) * 100,
+        'tr': df['tr_masked_correct'].value_counts(normalize=True).get('correct', 0) * 100,
+        'st': df['st_masked_correct'].value_counts(normalize=True).get('correct', 0) * 100,
+        'en': df['en_masked_correct'].value_counts(normalize=True).get('correct', 0) * 100,
     }
     return accuracy
 
@@ -109,9 +109,9 @@ def create_heatmap(directory, model, release_date_csv, save_path, experiment, pr
 #                    shuffled=True
 #                    )
 models = [
-    # 'EuroLLM-9B-Instruct',
+    'EuroLLM-9B-Instruct',
     # 'gpt-4o-2024-11-20',
-    'Meta-Llama-3.1-8B-Instruct',
+    # 'Meta-Llama-3.1-8B-Instruct',
     # 'Llama-3.1-8B-Instruct-quantized.w4a16',
     # 'Llama-3.1-8B-Instruct-quantized.w8a16',
     # 'Llama-3.1-70B-Instruct-quantized.w4a16',
@@ -128,7 +128,7 @@ for model in models:
         create_heatmap(directory=f'results/name_cloze/{model}/{ps}/evaluation', 
                         model=model, 
                         release_date_csv='scripts/Evaluation/dir_probe/release_date.csv',
-                        save_path=f'results/name_cloze/{model}/one-shot/evaluation',
+                        save_path=f'results/name_cloze/{model}/{ps}/evaluation',
                         experiment='name_cloze',
                         prompt_setting=ps
                         )

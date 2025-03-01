@@ -125,7 +125,11 @@ def parse_filename(base_name):
 
     Note: The title may contain underscores.
     """
-    experiments = ["direct_probe_non_NE", "direct_probe_masked", "direct_probe"]
+    experiments = [
+                   "direct_probe_non_NE", 
+                   "direct_probe_masked", 
+                   "direct_probe"
+                   ]
     
     experiment = None
     experiment_index = None

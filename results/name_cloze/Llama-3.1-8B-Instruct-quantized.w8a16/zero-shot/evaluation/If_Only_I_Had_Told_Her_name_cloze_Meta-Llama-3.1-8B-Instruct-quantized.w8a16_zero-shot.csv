@@ -1,4 +1,4 @@
-Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct
+Single_ent,en_masked_results,en_masked_exact_match,en_masked_highest_fuzzy_match,en_masked_correct,en_masked_shuffled_results,en_masked_shuffled_exact_match,en_masked_shuffled_highest_fuzzy_match,en_masked_shuffled_correct,en_masked_shuffled_results,en_masked_shuffled_exact_match,en_masked_shuffled_highest_fuzzy_match,en_masked_shuffled_correct
 ['jack'],winter,0,0.0,incorrect,wuthering,0,0.0,incorrect,wuthering,0,0.0,incorrect
 ['jack'],emily,0,0.0,incorrect,halloween,0,0.15,incorrect,halloween,0,0.15,incorrect
 ['jack'],winter,0,0.0,incorrect,winter,0,0.0,incorrect,winter,0,0.0,incorrect
@@ -30,7 +30,7 @@ Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffl
 ['jack'],jane,0,0.5,incorrect,jane,0,0.5,incorrect,jane,0,0.5,incorrect
 ['jack'],him,0,0.0,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
 ['jack'],winter,0,0.0,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
-"['w', 'george w', 'george']",barack obama,0,0.2,incorrect,champagne,0,0.27,incorrect,champagne,0,0.27,incorrect
+"['george w', 'w', 'george']",barack obama,0,0.2,incorrect,champagne,0,0.27,incorrect,champagne,0,0.27,incorrect
 ['jack'],jane,0,0.5,incorrect,can't sleep,0,0.13,incorrect,can't sleep,0,0.13,incorrect
 ['syl'],home,0,0.0,incorrect,interstate,0,0.15,incorrect,interstate,0,0.15,incorrect
 ['syl'],jess,0,0.29,incorrect,mother,0,0.0,incorrect,mother,0,0.0,incorrect

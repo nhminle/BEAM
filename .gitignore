@@ -87,3 +87,5 @@ scripts/name_cloze_task/fireworks_nct.py
 scripts/Evaluation/nct/.env/bin/activate
 results/direct_probe/rename_csv.py
 results/name_cloze/rename_cols.py
+scripts/Prompts/shuffle.py
+results/direct_probe/script.py
