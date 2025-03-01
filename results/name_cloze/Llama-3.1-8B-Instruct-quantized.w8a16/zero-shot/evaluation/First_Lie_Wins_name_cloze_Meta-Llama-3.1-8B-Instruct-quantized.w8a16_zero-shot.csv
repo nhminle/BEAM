@@ -1,4 +1,4 @@
-Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct
+Single_ent,en_masked_results,en_masked_exact_match,en_masked_highest_fuzzy_match,en_masked_correct,en_masked_shuffled_results,en_masked_shuffled_exact_match,en_masked_shuffled_highest_fuzzy_match,en_masked_shuffled_correct,en_masked_shuffled_results,en_masked_shuffled_exact_match,en_masked_shuffled_highest_fuzzy_match,en_masked_shuffled_correct
 ['ryan'],jasmine,0,0.36,incorrect,family,0,0.2,incorrect,family,0,0.2,incorrect
 ['ryan'],father,0,0.2,incorrect,face,0,0.25,incorrect,face,0,0.25,incorrect
 ['ryan'],joe,0,0.0,incorrect,mcdonald's,0,0.14,incorrect,mcdonald's,0,0.14,incorrect
@@ -71,20 +71,20 @@ Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffl
 ['matt'],jess,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
 ['bernard'],mrs. johnson,0,0.21,incorrect,johnson,0,0.14,incorrect,johnson,0,0.14,incorrect
 ['bullock'],deputy finn,0,0.11,incorrect,john,0,0.18,incorrect,john,0,0.18,incorrect
-"['andrew', 'andrew marshall', 'marshall']",my son,0,0.29,incorrect,donald trump,0,0.33,incorrect,donald trump,0,0.33,incorrect
+"['andrew marshall', 'marshall', 'andrew']",my son,0,0.29,incorrect,donald trump,0,0.33,incorrect,donald trump,0,0.33,incorrect
 ['george'],bellhop,0,0.31,incorrect,andrew,0,0.33,incorrect,andrew,0,0.33,incorrect
 ['andrew'],south carolina,0,0.2,incorrect,north,0,0.36,incorrect,north,0,0.36,incorrect
 ['andrew'],trump,0,0.18,incorrect,jesus,0,0.18,incorrect,jesus,0,0.18,incorrect
 ['devon'],max,0,0.0,incorrect,living,0,0.36,incorrect,living,0,0.36,incorrect
 ['devon'],harry,0,0.0,incorrect,john,0,0.44,incorrect,john,0,0.44,incorrect
 ['porter'],miss marple,0,0.24,incorrect,holster,0,0.62,incorrect,holster,0,0.62,incorrect
-"['andrew', 'andrew marshall', 'marshall']",my mother,0,0.25,incorrect,head,0,0.4,incorrect,head,0,0.4,incorrect
+"['andrew marshall', 'marshall', 'andrew']",my mother,0,0.25,incorrect,head,0,0.4,incorrect,head,0,0.4,incorrect
 ['marshall'],ray,0,0.36,incorrect,weekend,0,0.0,incorrect,weekend,0,0.0,incorrect
-"['amy holder', 'amy', 'holder']",jane doe,0,0.44,incorrect,forby,0,0.36,incorrect,forby,0,0.36,incorrect
+"['amy holder', 'holder', 'amy']",jane doe,0,0.44,incorrect,forby,0,0.36,incorrect,forby,0,0.36,incorrect
 ['amy'],hotel,0,0.0,incorrect,paris,0,0.25,incorrect,paris,0,0.25,incorrect
-"['amy holder', 'amy', 'holder']",atlanta,0,0.24,incorrect,norcross,0,0.29,incorrect,norcross,0,0.29,incorrect
-"['amy holder', 'amy', 'holder']",emory,0,0.5,incorrect,asa griggs candler,0,0.36,incorrect,asa griggs candler,0,0.36,incorrect
-"['amy holder', 'amy', 'holder']",nick,0,0.0,incorrect,warren buffett,0,0.25,incorrect,warren buffett,0,0.25,incorrect
+"['amy holder', 'holder', 'amy']",atlanta,0,0.24,incorrect,norcross,0,0.29,incorrect,norcross,0,0.29,incorrect
+"['amy holder', 'holder', 'amy']",emory,0,0.5,incorrect,asa griggs candler,0,0.36,incorrect,asa griggs candler,0,0.36,incorrect
+"['amy holder', 'holder', 'amy']",nick,0,0.0,incorrect,warren buffett,0,0.25,incorrect,warren buffett,0,0.25,incorrect
 ['george'],hilton,0,0.17,incorrect,conrad,0,0.33,incorrect,conrad,0,0.33,incorrect
 ['george'],harry,0,0.18,incorrect,john,0,0.2,incorrect,john,0,0.2,incorrect
 ['tyron'],heisman,0,0.17,incorrect,tom brady,0,0.29,incorrect,tom brady,0,0.29,incorrect

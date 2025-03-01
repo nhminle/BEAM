@@ -1,4 +1,4 @@
-Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct
+Single_ent,en_masked_results,en_masked_exact_match,en_masked_highest_fuzzy_match,en_masked_correct,en_masked_shuffled_results,en_masked_shuffled_exact_match,en_masked_shuffled_highest_fuzzy_match,en_masked_shuffled_correct,en_masked_shuffled_results,en_masked_shuffled_exact_match,en_masked_shuffled_highest_fuzzy_match,en_masked_shuffled_correct
 ['peter'],heathcliff,0,0.27,incorrect,cliff,0,0.0,incorrect,cliff,0,0.0,incorrect
 ['peter'],harry,0,0.2,incorrect,charlie chaplin,0,0.1,incorrect,charlie chaplin,0,0.1,incorrect
 ['daphne'],emily,0,0.18,incorrect,love,0,0.2,incorrect,love,0,0.2,incorrect
@@ -19,7 +19,7 @@ Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffl
 ['landon'],mike,0,0.0,incorrect,jordan,0,0.33,incorrect,jordan,0,0.33,incorrect
 ['peter'],husband,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
 ['peter'],earth,0,0.4,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
-"['edvard munch', 'edvard', 'munch']",edvard munch,1,1.0,correct,edvard munch,1,1.0,correct,edvard munch,1,1.0,correct
+"['edvard', 'munch', 'edvard munch']",edvard munch,1,1.0,correct,edvard munch,1,1.0,correct,edvard munch,1,1.0,correct
 ['peter'],jason,0,0.0,incorrect,miles,0,0.2,incorrect,miles,0,0.2,incorrect
 ['peter'],him,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
 ['peter'],john,0,0.0,incorrect,mayo,0,0.0,incorrect,mayo,0,0.0,incorrect
@@ -27,7 +27,7 @@ Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffl
 ['harvey'],john,0,0.2,incorrect,harry,0,0.73,correct,harry,0,0.73,correct
 ['petra'],stephanie,0,0.29,incorrect,j.k. rowling,0,0.12,incorrect,j.k. rowling,0,0.12,incorrect
 ['peterverse'],chill coast,0,0.1,incorrect,moorea,0,0.25,incorrect,moorea,0,0.25,incorrect
-"['tom', 'tom petty', 'petty']",jazz,0,0.0,incorrect,jack,0,0.0,incorrect,jack,0,0.0,incorrect
+"['tom petty', 'petty', 'tom']",jazz,0,0.0,incorrect,jack,0,0.0,incorrect,jack,0,0.0,incorrect
 ['peter'],that,0,0.22,incorrect,money,0,0.2,incorrect,money,0,0.2,incorrect
 ['landon'],max,0,0.22,incorrect,liam gallagher,0,0.2,incorrect,liam gallagher,0,0.2,incorrect
 ['petra'],jess,0,0.22,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
@@ -54,7 +54,7 @@ Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffl
 ['peter'],jess,0,0.22,incorrect,jennifer lawrence,0,0.27,incorrect,jennifer lawrence,0,0.27,incorrect
 ['peter'],him,0,0.0,incorrect,jennifer lawrence,0,0.27,incorrect,jennifer lawrence,0,0.27,incorrect
 ['harvey'],waning bay public library,0,0.19,incorrect,moore,0,0.36,incorrect,moore,0,0.36,incorrect
-"['freeman', 'morgan', 'morgan freeman']",james earl jones,0,0.35,incorrect,orson welles,0,0.46,incorrect,orson welles,0,0.46,incorrect
+"['morgan', 'morgan freeman', 'freeman']",james earl jones,0,0.35,incorrect,orson welles,0,0.46,incorrect,orson welles,0,0.46,incorrect
 ['harvey'],dave,0,0.6,incorrect,d&amp;d,0,0.15,incorrect,d&amp;d,0,0.15,incorrect
 ['daphne'],little red riding hood,0,0.14,incorrect,winnie the pooh,0,0.19,incorrect,winnie the pooh,0,0.19,incorrect
 ['barb'],nicole,0,0.0,incorrect,jane,0,0.25,incorrect,jane,0,0.25,incorrect
@@ -62,19 +62,19 @@ Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffl
 ['martín'],thomas keller,0,0.32,incorrect,grocer,0,0.17,incorrect,grocer,0,0.17,incorrect
 ['clarence'],he,0,0.2,incorrect,john,0,0.17,incorrect,john,0,0.17,incorrect
 ['daphne'],brad,0,0.2,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
-"['santa claus', 'santa', 'claus']",prince,0,0.24,incorrect,freud,0,0.2,incorrect,freud,0,0.2,incorrect
+"['claus', 'santa claus', 'santa']",prince,0,0.24,incorrect,freud,0,0.2,incorrect,freud,0,0.2,incorrect
 ['petra'],miles,0,0.2,incorrect,horatius,0,0.31,incorrect,horatius,0,0.31,incorrect
 ['petra'],emily,0,0.2,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
 ['ben'],tim,0,0.0,incorrect,christmas,0,0.0,incorrect,christmas,0,0.0,incorrect
 ['pam'],laura,0,0.25,incorrect,jane,0,0.29,incorrect,jane,0,0.29,incorrect
-"['reynolds', 'ryan', 'ryan reynolds']",harvey,0,0.43,incorrect,robin,0,0.44,incorrect,robin,0,0.44,incorrect
+"['ryan reynolds', 'ryan', 'reynolds']",harvey,0,0.43,incorrect,robin,0,0.44,incorrect,robin,0,0.44,incorrect
 ['daphne'],jake,0,0.4,incorrect,jesus,0,0.18,incorrect,jesus,0,0.18,incorrect
-"['charlotte', 'lucas', 'charlotte lucas']",liar,0,0.44,incorrect,truth or dare,0,0.36,incorrect,truth or dare,0,0.36,incorrect
+"['lucas', 'charlotte', 'charlotte lucas']",liar,0,0.44,incorrect,truth or dare,0,0.36,incorrect,truth or dare,0,0.36,incorrect
 ['daphne'],jess,0,0.2,incorrect,jane,0,0.6,incorrect,jane,0,0.6,incorrect
 ['jules'],shh,0,0.25,incorrect,grandmother,0,0.12,incorrect,grandmother,0,0.12,incorrect
 ['daphne'],miles,0,0.18,incorrect,miles,0,0.18,incorrect,miles,0,0.18,incorrect
 ['daphne'],emily,0,0.18,incorrect,coffee,0,0.17,incorrect,coffee,0,0.17,incorrect
-"['handsy stanley', 'handsy', 'stanley']",my boss,0,0.29,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
+"['handsy', 'handsy stanley', 'stanley']",my boss,0,0.29,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
 ['petra'],the alarm clock,0,0.2,incorrect,albert,0,0.36,incorrect,albert,0,0.36,incorrect
 ['daphne'],jack,0,0.2,incorrect,steve,0,0.18,incorrect,steve,0,0.18,incorrect
 ['daphne'],max,0,0.22,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
