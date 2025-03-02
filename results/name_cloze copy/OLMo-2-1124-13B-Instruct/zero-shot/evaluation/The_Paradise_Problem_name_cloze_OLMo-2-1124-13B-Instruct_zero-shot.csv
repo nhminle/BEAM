@@ -1,0 +1,101 @@
+Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct
+['jake'],unknown,0,0.18,incorrect,shakespeare,0,0.4,incorrect,shakespeare,0,0.4,incorrect
+['jake'],jonah,0,0.44,incorrect,leon s. kennedy,0,0.21,incorrect,leon s. kennedy,0,0.21,incorrect
+['anna'],harry,0,0.22,incorrect,kim kardashian,0,0.22,incorrect,kim kardashian,0,0.22,incorrect
+['anna'],emma,0,0.25,incorrect,unknown,0,0.36,incorrect,unknown,0,0.36,incorrect
+"['john wayne', 'wayne', 'john']",california,0,0.3,incorrect,singapore,0,0.32,incorrect,singapore,0,0.32,incorrect
+['anna'],jonah,0,0.44,incorrect,justin bieber,0,0.12,incorrect,justin bieber,0,0.12,incorrect
+['anna'],tom,0,0.0,incorrect,leonardo dicaprio,0,0.19,incorrect,leonardo dicaprio,0,0.19,incorrect
+['conan'],not provided,0,0.12,incorrect,,0,0.75,correct,,0,0.75,correct
+['anna'],assistant,0,0.31,incorrect,"sorry, the information is not sufficient to determine the specific name that fills the [mask] token.",0,0.08,incorrect,"sorry, the information is not sufficient to determine the specific name that fills the [mask] token.",0,0.08,incorrect
+['jake'],malcolm,0,0.18,incorrect,brad pitt,0,0.15,incorrect,brad pitt,0,0.15,incorrect
+['jake'],weston's founder,0,0.1,incorrect,mike weston,0,0.27,incorrect,mike weston,0,0.27,incorrect
+['conan'],wwe,0,0.0,incorrect,david beckham,0,0.22,incorrect,david beckham,0,0.22,incorrect
+['jake'],yoon ji-ho,0,0.14,incorrect,yuto,0,0.0,incorrect,yuto,0,0.0,incorrect
+['anna'],malcolm,0,0.18,incorrect,indonesia,0,0.46,incorrect,indonesia,0,0.46,incorrect
+['anna'],miss piggy,0,0.0,incorrect,kermit the frog,0,0.0,incorrect,kermit the frog,0,0.0,incorrect
+['anna'],emily,0,0.0,incorrect,wanderer,0,0.33,incorrect,wanderer,0,0.33,incorrect
+['anna'],julia,0,0.22,incorrect,van gogh,0,0.33,incorrect,van gogh,0,0.33,incorrect
+['anna'],mr. darcy,0,0.15,incorrect,unanswerable,0,0.38,incorrect,unanswerable,0,0.38,incorrect
+['anna'],indonesian,0,0.43,incorrect,godmother,0,0.0,incorrect,godmother,0,0.0,incorrect
+['anna'],veronica,0,0.33,incorrect,kim kardashian,0,0.22,incorrect,kim kardashian,0,0.22,incorrect
+['jake'],unknown,0,0.18,incorrect,heidi montag,0,0.12,incorrect,heidi montag,0,0.12,incorrect
+"['jenny nelson', 'nelson', 'jenny']",michael jackson,0,0.48,incorrect,britney spears,0,0.38,incorrect,britney spears,0,0.38,incorrect
+['anna'],emily,0,0.0,incorrect,britney,0,0.18,incorrect,britney,0,0.18,incorrect
+['anna'],mr. darcy,0,0.15,incorrect,yuki,0,0.0,incorrect,yuki,0,0.0,incorrect
+['anna'],olivia pope,0,0.13,incorrect,kim kardashian,0,0.22,incorrect,kim kardashian,0,0.22,incorrect
+['babe'],elizabeth gilbert,0,0.29,incorrect,emma stone,0,0.29,incorrect,emma stone,0,0.29,incorrect
+['anna'],britney spears,0,0.22,incorrect,kim kardashian,0,0.22,incorrect,kim kardashian,0,0.22,incorrect
+"['anna', 'green', 'anna green']",those who like to get to the airport at the last possible moment,0,0.16,incorrect,john doe,0,0.33,incorrect,john doe,0,0.33,incorrect
+['anna'],victoria,0,0.17,incorrect,christian dior,0,0.22,incorrect,christian dior,0,0.22,incorrect
+['anna'],the woman,0,0.31,incorrect,kim kardashian,0,0.22,incorrect,kim kardashian,0,0.22,incorrect
+['anna'],unknown,0,0.36,incorrect,malcolm,0,0.18,incorrect,malcolm,0,0.18,incorrect
+['anna'],janet,0,0.44,incorrect,unknown,0,0.36,incorrect,unknown,0,0.36,incorrect
+"['anna', 'green', 'anna green']",miss piggy,0,0.2,incorrect,miss piggy,0,0.2,incorrect,miss piggy,0,0.2,incorrect
+['anna'],amelia earhart,0,0.22,incorrect,julia margaret cameron,0,0.15,incorrect,julia margaret cameron,0,0.15,incorrect
+['anna'],not provided,0,0.12,incorrect,seattle,0,0.18,incorrect,seattle,0,0.18,incorrect
+['anna'],she,0,0.0,incorrect,unknown,0,0.36,incorrect,unknown,0,0.36,incorrect
+['anna'],emma,0,0.25,incorrect,britney,0,0.18,incorrect,britney,0,0.18,incorrect
+['jake'],lyra belacqua,0,0.24,incorrect,thor,0,0.0,incorrect,thor,0,0.0,incorrect
+['anna'],amelia,0,0.4,incorrect,emma,0,0.25,incorrect,emma,0,0.25,incorrect
+"['kellan', 'kellan mckellan', 'mckellan']",weston weston,0,0.36,incorrect,weston,0,0.33,incorrect,weston,0,0.33,incorrect
+['anna'],emily,0,0.0,incorrect,unanswerable,0,0.38,incorrect,unanswerable,0,0.38,incorrect
+['anna'],west,0,0.0,incorrect,west,0,0.0,incorrect,west,0,0.0,incorrect
+['gede'],michelin,0,0.17,incorrect,maui,0,0.0,incorrect,maui,0,0.0,incorrect
+['janet'],joan rivers,0,0.5,incorrect,brigitte bardot,0,0.2,incorrect,brigitte bardot,0,0.2,incorrect
+['anna'],carolyn,0,0.36,incorrect,britney spears,0,0.22,incorrect,britney spears,0,0.22,incorrect
+['janet'],don,0,0.25,incorrect,don,0,0.25,incorrect,don,0,0.25,incorrect
+['anna'],mr. darcy,0,0.15,incorrect,yunho,0,0.22,incorrect,yunho,0,0.22,incorrect
+['gede'],edward,0,0.4,incorrect,esme isle,0,0.31,incorrect,esme isle,0,0.31,incorrect
+['anna'],brad pitt,0,0.15,incorrect,west,0,0.0,incorrect,west,0,0.0,incorrect
+['anna'],brad pitt,0,0.15,incorrect,brad pitt,0,0.15,incorrect,brad pitt,0,0.15,incorrect
+['anna'],not specified,0,0.12,incorrect,yuna,0,0.5,incorrect,yuna,0,0.5,incorrect
+['anna'],green-hyphen-weston,0,0.17,incorrect,green-hyphen-weston,0,0.17,incorrect,green-hyphen-weston,0,0.17,incorrect
+['jake'],dean,0,0.25,incorrect,unanswerable,0,0.25,incorrect,unanswerable,0,0.25,incorrect
+['jake'],james,0,0.67,incorrect,weston's,0,0.17,incorrect,weston's,0,0.17,incorrect
+['anna'],scarlett johansson,0,0.27,incorrect,elizabeth taylor,0,0.2,incorrect,elizabeth taylor,0,0.2,incorrect
+['anna'],wickham,0,0.18,incorrect,phil ivey,0,0.0,incorrect,phil ivey,0,0.0,incorrect
+['jake'],malcolm,0,0.18,incorrect,jack,0,0.75,correct,jack,0,0.75,correct
+['jake'],connor,0,0.0,incorrect,james,0,0.67,incorrect,james,0,0.67,incorrect
+['anna'],not provided,0,0.12,incorrect,brittany,0,0.33,incorrect,brittany,0,0.33,incorrect
+['anna'],britney,0,0.18,incorrect,britney spears,0,0.22,incorrect,britney spears,0,0.22,incorrect
+['janet'],dr. stone,0,0.29,incorrect,unanswerable,0,0.35,incorrect,unanswerable,0,0.35,incorrect
+['alex'],emma,0,0.25,incorrect,jeff bezos,0,0.14,incorrect,jeff bezos,0,0.14,incorrect
+['alex'],norm macdonald,0,0.22,incorrect,dragons,0,0.18,incorrect,dragons,0,0.18,incorrect
+['alex'],therapist,0,0.15,incorrect,therapist,0,0.15,incorrect,therapist,0,0.15,incorrect
+['alex'],frank morgan,0,0.12,incorrect,wizard,0,0.2,incorrect,wizard,0,0.2,incorrect
+['alex'],loophole,0,0.33,incorrect,west,0,0.25,incorrect,west,0,0.25,incorrect
+['alex'],west,0,0.25,incorrect,west,0,0.25,incorrect,west,0,0.25,incorrect
+['anna'],unknown,0,0.36,incorrect,monumental face leg,0,0.26,incorrect,monumental face leg,0,0.26,incorrect
+['anna'],not provided,0,0.12,incorrect,father's,0,0.17,incorrect,father's,0,0.17,incorrect
+['anna'],isabella,0,0.33,incorrect,jesus,0,0.0,incorrect,jesus,0,0.0,incorrect
+['anna'],olivia,0,0.2,incorrect,by,0,0.0,incorrect,by,0,0.0,incorrect
+['anna'],bob,0,0.0,incorrect,,0,0.57,incorrect,,0,0.57,incorrect
+['anna'],angelica,0,0.5,incorrect,bill,0,0.0,incorrect,bill,0,0.0,incorrect
+['alex'],anna,0,0.25,incorrect,anna's,0,0.2,incorrect,anna's,0,0.2,incorrect
+['anna'],yuki,0,0.0,incorrect,,0,0.57,incorrect,,0,0.57,incorrect
+['eko'],kim,0,0.33,incorrect,john,0,0.29,incorrect,john,0,0.29,incorrect
+['alex'],it is not possible to determine a specific name from the given passage.,0,0.05,incorrect,norman bates,0,0.25,incorrect,norman bates,0,0.25,incorrect
+['alex'],veruca,0,0.2,incorrect,joan,0,0.25,incorrect,joan,0,0.25,incorrect
+['anna'],unknown,0,0.36,incorrect,tommy,0,0.0,incorrect,tommy,0,0.0,incorrect
+['alex'],paul,0,0.5,incorrect,anna,0,0.25,incorrect,anna,0,0.25,incorrect
+['alex'],john,0,0.0,incorrect,unanswerable,0,0.38,incorrect,unanswerable,0,0.38,incorrect
+['anna'],charlotte,0,0.15,incorrect,west,0,0.0,incorrect,west,0,0.0,incorrect
+['anna'],our father,0,0.14,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['alex'],chris,0,0.0,incorrect,unanswerable,0,0.38,incorrect,unanswerable,0,0.38,incorrect
+['anna'],unknown,0,0.36,incorrect,unknown,0,0.36,incorrect,unknown,0,0.36,incorrect
+['anna'],martha,0,0.4,incorrect,ice,0,0.0,incorrect,ice,0,0.0,incorrect
+['anna'],miss trunchbull,0,0.11,incorrect,unknown,0,0.36,incorrect,unknown,0,0.36,incorrect
+['anna'],elizabeth bennet,0,0.3,incorrect,harry styles,0,0.12,incorrect,harry styles,0,0.12,incorrect
+['mel'],assistant,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['janet'],weston,0,0.36,incorrect,weston,0,0.36,incorrect,weston,0,0.36,incorrect
+['ray'],forbes,0,0.22,incorrect,steve forbes,0,0.13,incorrect,steve forbes,0,0.13,incorrect
+['alex'],jeff bezos,0,0.14,incorrect,he let,0,0.4,incorrect,he let,0,0.4,incorrect
+"['anna', 'green', 'anna green']",david,0,0.22,incorrect,massage,0,0.47,incorrect,massage,0,0.47,incorrect
+['janet'],dracula,0,0.17,incorrect,dracula,0,0.17,incorrect,dracula,0,0.17,incorrect
+['reagan'],emma,0,0.4,incorrect,boo,0,0.0,incorrect,boo,0,0.0,incorrect
+['reagan'],dean,0,0.6,incorrect,he,0,0.25,incorrect,he,0,0.25,incorrect
+['ray'],others,0,0.22,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['grandpa'],charles bronson,0,0.18,incorrect,stephen king,0,0.11,incorrect,stephen king,0,0.11,incorrect
+['mel'],west,0,0.29,incorrect,residual,0,0.36,incorrect,residual,0,0.36,incorrect
+['ray'],malcolm,0,0.2,incorrect,china,0,0.25,incorrect,china,0,0.25,incorrect
