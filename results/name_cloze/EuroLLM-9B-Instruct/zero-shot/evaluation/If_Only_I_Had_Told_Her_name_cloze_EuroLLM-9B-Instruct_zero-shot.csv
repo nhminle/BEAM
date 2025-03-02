@@ -1,0 +1,77 @@
+Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct
+['jack'],autumn,0,0.2,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],autumn,0,0.2,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],autumn,0,0.2,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],he,0,0.0,incorrect,bonkers earth,0,0.12,incorrect,bonkers earth,0,0.12,incorrect
+['jack'],autumn,0,0.2,incorrect,he,0,0.0,incorrect,he,0,0.0,incorrect
+['jack'],"[mask] asks, ""how could you have missed that game?""",0,0.07,incorrect,zoned,0,0.0,incorrect,zoned,0,0.0,incorrect
+['jack'],john,0,0.25,incorrect,the matrix,0,0.14,incorrect,the matrix,0,0.14,incorrect
+['jack'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['jack'],autumn,0,0.2,incorrect,administrators,0,0.11,incorrect,administrators,0,0.11,incorrect
+['jack'],john,0,0.25,incorrect,gym teacher,0,0.27,incorrect,gym teacher,0,0.27,incorrect
+['jack'],autumn,0,0.2,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],autumn,0,0.2,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['jack'],autumn,0,0.2,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],autumn,0,0.2,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['jack'],autumn,0,0.2,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['jack'],autumn,0,0.2,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],john,0,0.25,incorrect,varsity,0,0.18,incorrect,varsity,0,0.18,incorrect
+['jack'],junior,0,0.2,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['jack'],i,0,0.0,incorrect,varsity,0,0.18,incorrect,varsity,0,0.18,incorrect
+['jack'],coach,0,0.44,incorrect,coach,0,0.44,incorrect,coach,0,0.44,incorrect
+['jack'],"we all joined [mask] on the low wall, waiting to get picked up. we didn't talk that much, but the next day, as i trudged from the north field to the south, i saw the girls by the gym door again. it was only as i approached and saw them watching me that i figured out they were waiting for me.",0,0.03,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['jack'],him,0,0.0,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['jack'],autumn,0,0.2,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['jack'],god,0,0.0,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['autumn'],she,0,0.0,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['autumn'],emily,0,0.18,incorrect,girl,0,0.0,incorrect,girl,0,0.0,incorrect
+['autumn'],sarah,0,0.18,incorrect,[mask]'s kids,0,0.11,incorrect,[mask]'s kids,0,0.11,incorrect
+['jack'],her,0,0.0,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['jack'],him,0,0.0,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['jack'],autumn,0,0.2,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+"['george w', 'w', 'george']",bush,0,0.0,incorrect,mom,0,0.22,incorrect,mom,0,0.22,incorrect
+['jack'],she,0,0.0,incorrect,i,0,0.0,incorrect,i,0,0.0,incorrect
+['syl'],i,0,0.0,incorrect,i,0,0.0,incorrect,i,0,0.0,incorrect
+['syl'],sarah,0,0.25,incorrect,[mask],0,0.22,incorrect,[mask],0,0.22,incorrect
+['lexy'],she,0,0.29,incorrect,queen,0,0.22,incorrect,queen,0,0.22,incorrect
+['jack'],finn,0,0.0,incorrect,finn,0,0.0,incorrect,finn,0,0.0,incorrect
+['jack'],john,0,0.25,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['jack'],death,0,0.22,incorrect,mom,0,0.0,incorrect,mom,0,0.0,incorrect
+['jack'],john,0,0.25,incorrect,i,0,0.0,incorrect,i,0,0.0,incorrect
+['sylv'],[mask],0,0.2,incorrect,burns,0,0.22,incorrect,burns,0,0.22,incorrect
+['trevor'],he,0,0.25,incorrect,blanches,0,0.14,incorrect,blanches,0,0.14,incorrect
+['chloe'],friend,0,0.18,incorrect,john,0,0.22,incorrect,john,0,0.22,incorrect
+['chloe'],her friend's,0,0.24,incorrect,joker,0,0.4,incorrect,joker,0,0.4,incorrect
+['chloe'],john,0,0.22,incorrect,girl,0,0.22,incorrect,girl,0,0.22,incorrect
+['kyle'],dad,0,0.0,incorrect,dad,0,0.0,incorrect,dad,0,0.0,incorrect
+['kyle'],john,0,0.0,incorrect,cali,0,0.25,incorrect,cali,0,0.25,incorrect
+['kyle'],kevin,0,0.44,incorrect,college,0,0.36,incorrect,college,0,0.36,incorrect
+['carter'],mrs. johnson,0,0.11,incorrect,mrs. good,0,0.13,incorrect,mrs. good,0,0.13,incorrect
+['brett'],mom's,0,0.0,incorrect,mom,0,0.0,incorrect,mom,0,0.0,incorrect
+['brett'],student,0,0.33,incorrect,he,0,0.29,incorrect,he,0,0.29,incorrect
+['brett'],john,0,0.0,incorrect,babe ruth,0,0.43,incorrect,babe ruth,0,0.43,incorrect
+['brett'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['brett'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['brett'],john,0,0.0,incorrect,campus,0,0.0,incorrect,campus,0,0.0,incorrect
+['zelda'],shirt,0,0.0,incorrect,taiwan,0,0.18,incorrect,taiwan,0,0.18,incorrect
+['brett'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['brett'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['brett'],he,0,0.29,incorrect,he,0,0.29,incorrect,he,0,0.29,incorrect
+['taylor'],sister,0,0.33,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['sylv'],john,0,0.0,incorrect,i,0,0.0,incorrect,i,0,0.0,incorrect
+['dave'],baby,0,0.25,incorrect,she,0,0.29,incorrect,she,0,0.29,incorrect
+['beba'],mom,0,0.0,incorrect,baby,0,0.5,incorrect,baby,0,0.5,incorrect
+['dave'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['john'],the guest,0,0.15,incorrect,hostess,0,0.18,incorrect,hostess,0,0.18,incorrect
+['john'],the bartender,0,0.24,incorrect,waitress,0,0.0,incorrect,waitress,0,0.0,incorrect
+['john'],john,1,1.0,correct,restaurant,0,0.14,incorrect,restaurant,0,0.14,incorrect
+['john'],him,0,0.29,incorrect,him,0,0.29,incorrect,him,0,0.29,incorrect
+['stella'],autumn,0,0.17,incorrect,she,0,0.44,incorrect,she,0,0.44,incorrect
+['john'],[mask]'s,0,0.0,incorrect,waitress,0,0.0,incorrect,waitress,0,0.0,incorrect
+['jack'],baby's,0,0.2,incorrect,him,0,0.0,incorrect,him,0,0.0,incorrect
+['john'],phineas,0,0.36,incorrect,phineas,0,0.36,incorrect,phineas,0,0.36,incorrect
+['john'],dad,0,0.0,incorrect,he,0,0.33,incorrect,he,0,0.33,incorrect
+['jack'],dr. smith,0,0.0,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['jack'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['jack'],[mask] said,0,0.27,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect

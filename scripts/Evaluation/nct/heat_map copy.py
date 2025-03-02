@@ -21,7 +21,18 @@ def extract_accuracy_from_csv(file_path):
         'yo': df['yo_correct'].value_counts(normalize=True).get('correct', 0) * 100,
         'tn': df['tn_correct'].value_counts(normalize=True).get('correct', 0) * 100,
         'ty': df['ty_correct'].value_counts(normalize=True).get('correct', 0) * 100,
+        'mg': df['mg_correct'].value_counts(normalize=True).get('correct', 0) * 100,
         'mai': df['mai_correct'].value_counts(normalize=True).get('correct', 0) * 100,
+        'en_shuffled': df['en_shuffled_correct'].value_counts(normalize=True).get('correct', 0) * 100,
+        'es_shuffled': df['es_shuffled_correct'].value_counts(normalize=True).get('correct', 0) * 100,
+        'vi_shuffled': df['vi_shuffled_correct'].value_counts(normalize=True).get('correct', 0) * 100,
+        'tr_shuffled': df['tr_shuffled_correct'].value_counts(normalize=True).get('correct', 0) * 100,
+        'st_shuffled': df['st_shuffled_correct'].value_counts(normalize=True).get('correct', 0) * 100,
+        'yo_shuffled': df['yo_shuffled_correct'].value_counts(normalize=True).get('correct', 0) * 100,
+        'tn_shuffled': df['tn_shuffled_correct'].value_counts(normalize=True).get('correct', 0) * 100,
+        'ty_shuffled': df['ty_shuffled_correct'].value_counts(normalize=True).get('correct', 0) * 100,
+        'mg_shuffled': df['mg_shuffled_correct'].value_counts(normalize=True).get('correct', 0) * 100,
+        'mai_shuffled': df['mai_shuffled_correct'].value_counts(normalize=True).get('correct', 0) * 100,
     }
     return accuracy
 
@@ -80,7 +91,7 @@ def create_heatmap(directory, model, release_date_csv, save_path, experiment, pr
         N=256
     )
 
-    plt.figure(figsize=(12, 8))
+    plt.figure(figsize=(12, 9))
     sns.heatmap(
         heatmap_data, 
         annot=True, 
@@ -106,25 +117,25 @@ def create_heatmap(directory, model, release_date_csv, save_path, experiment, pr
 
 models = [
     'EuroLLM-9B-Instruct',
-    # 'gpt-4o-2024-11-20',
-    # 'Meta-Llama-3.1-8B-Instruct',
-    # 'Llama-3.1-8B-Instruct-quantized.w4a16',
-    # 'Llama-3.1-8B-Instruct-quantized.w8a16',
-    # 'Llama-3.1-70B-Instruct-quantized.w4a16',
-    # 'Llama-3.1-70B-Instruct-quantized.w8a16',
-    # 'OLMo-2-1124-7B-Instruct',
-    # 'Llama-3.1-70B-Instruct',
-    # 'Llama-3.3-70B-Instruct',
-    # 'Llama-3.1-405b',
-    # 'OLMo-2-1124-13B-Instruct',
-    # 'Qwen2.5-7B-Instruct-1M'
+    'gpt-4o-2024-11-20',
+    'Llama-3.1-8B-Instruct_',
+    'Llama-3.1-8B-Instruct-quantized.w4a16',
+    'Llama-3.1-8B-Instruct-quantized.w8a16',
+    'Llama-3.1-70B-Instruct-quantized.w4a16',
+    'Llama-3.1-70B-Instruct-quantized.w8a16',
+    'OLMo-2-1124-7B-Instruct',
+    'Llama-3.1-70B-Instruct_',
+    'Llama-3.3-70B-Instruct',
+    'Llama-3.1-405b',
+    'OLMo-2-1124-13B-Instruct',
+    'Qwen2.5-7B-Instruct-1M'
 ]
 for model in models:
     for ps in ['zero-shot', 'one-shot']:
-        create_heatmap(directory=f'results/name_cloze copy/{model}/{ps}/evaluation', 
+        create_heatmap(directory=f'results/name_cloze/{model}/{ps}/evaluation', 
                         model=model, 
                         release_date_csv='scripts/Evaluation/dir_probe/release_date.csv',
-                        save_path=f'results/name_cloze copy/{model}/{ps}/evaluation',
-                        experiment='name_cloze copy',
+                        save_path=f'results/name_cloze/{model}/{ps}/evaluation',
+                        experiment='name_cloze',
                         prompt_setting=ps
                         )

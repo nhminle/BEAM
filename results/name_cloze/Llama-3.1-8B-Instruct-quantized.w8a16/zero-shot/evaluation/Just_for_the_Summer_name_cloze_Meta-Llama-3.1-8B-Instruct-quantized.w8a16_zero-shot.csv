@@ -1,4 +1,4 @@
-Single_ent,en_masked_results,en_masked_exact_match,en_masked_highest_fuzzy_match,en_masked_correct,en_masked_shuffled_results,en_masked_shuffled_exact_match,en_masked_shuffled_highest_fuzzy_match,en_masked_shuffled_correct,en_masked_shuffled_results,en_masked_shuffled_exact_match,en_masked_shuffled_highest_fuzzy_match,en_masked_shuffled_correct
+Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct
 ['chad'],emily,0,0.0,incorrect,facebook,0,0.17,incorrect,facebook,0,0.17,incorrect
 ['chad'],good luck charm,0,0.32,incorrect,google,0,0.0,incorrect,google,0,0.0,incorrect
 ['chad'],mike,0,0.0,incorrect,hope,0,0.25,incorrect,hope,0,0.25,incorrect

@@ -1,0 +1,49 @@
+Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct
+"['eager beaver', 'eager', 'beaver']",me,0,0.29,incorrect,internship,0,0.27,incorrect,internship,0,0.27,incorrect
+['hannah'],jon,0,0.22,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
+"['chawla', 'kalpana chawla', 'kalpana']",marx,0,0.2,incorrect,emily,0,0.18,incorrect,emily,0,0.18,incorrect
+['floyd'],carpentry,0,0.14,incorrect,adam,0,0.22,incorrect,adam,0,0.22,incorrect
+['floyd'],her,0,0.0,incorrect,camilla,0,0.17,incorrect,camilla,0,0.17,incorrect
+['mara'],emily,0,0.22,incorrect,midori,0,0.4,incorrect,midori,0,0.4,incorrect
+['mara'],his,0,0.0,incorrect,mr. smith,0,0.31,incorrect,mr. smith,0,0.31,incorrect
+['floyd'],mcnulty,0,0.33,incorrect,trace,0,0.0,incorrect,trace,0,0.0,incorrect
+['python'],python,1,1.0,correct,hal,0,0.22,incorrect,hal,0,0.22,incorrect
+['let'],christian,0,0.17,incorrect,netflix,0,0.4,incorrect,netflix,0,0.4,incorrect
+['fuck'],ian,0,0.0,incorrect,ian,0,0.0,incorrect,ian,0,0.0,incorrect
+['hannah'],emily,0,0.0,incorrect,caltech,0,0.31,incorrect,caltech,0,0.31,incorrect
+['mara'],she,0,0.0,incorrect,facebook,0,0.17,incorrect,facebook,0,0.17,incorrect
+['merel'],stone,0,0.2,incorrect,armstrong,0,0.29,incorrect,armstrong,0,0.29,incorrect
+['hannah'],god,0,0.0,incorrect,elon musk,0,0.13,incorrect,elon musk,0,0.13,incorrect
+['mara'],emily,0,0.22,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['mara'],my sister,0,0.31,incorrect,nasa,0,0.5,incorrect,nasa,0,0.5,incorrect
+['merel'],ellen,0,0.4,incorrect,dr. peter wasilewski,0,0.24,incorrect,dr. peter wasilewski,0,0.24,incorrect
+['karl'],emily,0,0.22,incorrect,what,0,0.25,incorrect,what,0,0.25,incorrect
+['haven'],she,0,0.5,incorrect,don't,0,0.2,incorrect,don't,0,0.2,incorrect
+['arroyo'],zubair,0,0.33,incorrect,phoenix,0,0.15,incorrect,phoenix,0,0.15,incorrect
+['arroyo'],jemison,0,0.15,incorrect,dr. mae jemison,0,0.19,incorrect,dr. mae jemison,0,0.19,incorrect
+['merel'],stone,0,0.2,incorrect,elon musk,0,0.29,incorrect,elon musk,0,0.29,incorrect
+['floyd'],he,0,0.0,incorrect,clinton,0,0.33,incorrect,clinton,0,0.33,incorrect
+['merel'],atkinson,0,0.0,incorrect,dr. mengele,0,0.5,incorrect,dr. mengele,0,0.5,incorrect
+['hannah'],professor,0,0.0,incorrect,smile,0,0.0,incorrect,smile,0,0.0,incorrect
+['merel'],jack,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['hannah'],dr. rodriguez,0,0.0,incorrect,longyearbyen,0,0.22,incorrect,longyearbyen,0,0.22,incorrect
+['merel'],god,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['floyd'],montgomery,0,0.27,incorrect,macdonald,0,0.29,incorrect,macdonald,0,0.29,incorrect
+['hannah'],charlie,0,0.31,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['hannah'],elon,0,0.2,incorrect,elon,0,0.2,incorrect,elon,0,0.2,incorrect
+['merel'],ian,0,0.0,incorrect,ian,0,0.0,incorrect,ian,0,0.0,incorrect
+['mara'],his mother,0,0.29,incorrect,he,0,0.0,incorrect,he,0,0.0,incorrect
+['mara'],jess,0,0.0,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['floyd'],montague,0,0.15,incorrect,star wars,0,0.0,incorrect,star wars,0,0.0,incorrect
+['mara'],chandler,0,0.33,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['mara'],sadie,0,0.22,incorrect,sadie,0,0.22,incorrect,sadie,0,0.22,incorrect
+['great'],great aunt,0,0.67,incorrect,great-aunt,0,0.67,incorrect,great-aunt,0,0.67,incorrect
+['hannah'],trish,0,0.18,incorrect,arctic,0,0.17,incorrect,arctic,0,0.17,incorrect
+['hannah'],emily,0,0.0,incorrect,heathcliff,0,0.38,incorrect,heathcliff,0,0.38,incorrect
+['hannah'],lucky,0,0.0,incorrect,adam,0,0.4,incorrect,adam,0,0.4,incorrect
+['hannah'],josh,0,0.2,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['hannah'],anna,0,0.8,correct,heathcliff,0,0.38,incorrect,heathcliff,0,0.38,incorrect
+['mara'],mom,0,0.29,incorrect,martha,0,0.8,correct,martha,0,0.8,correct
+['hannah'],travis,0,0.17,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['hannah'],master,0,0.17,incorrect,master,0,0.17,incorrect,master,0,0.17,incorrect
+['hannah'],mars,0,0.2,incorrect,aurora,0,0.33,incorrect,aurora,0,0.33,incorrect
