@@ -37,13 +37,10 @@ def run_exact_match(correct_author, correct_title_list, returned_author, returne
     return result
 
 def extract_title_author(results_column):
-    # Clean up the column
     results_column = results_column.fillna('').astype(str).str.strip()
     
-    # Extract title and author using regex
     extracted = results_column.str.extract(r'"title":\s*"(.*?)",\s*"author":\s*"(.*?)"')
     
-    # For rows that didn't match the regex, fallback to using the original content
     unmatched_rows = extracted.isnull().all(axis=1)
     extracted.loc[unmatched_rows, 0] = results_column[unmatched_rows]
     extracted.loc[unmatched_rows, 1] = results_column[unmatched_rows]
@@ -55,29 +52,23 @@ def evaluate(csv_file_name, book_filename, model, prompt_setting, experiment):
     Reads the CSV file, finds the correct book title and author from `book_names.csv`,
     evaluates each result using fuzzy matching, and returns a DataFrame of results.
     """
-    # Load book names and CSV data
     book_names = pd.read_csv('scripts/Evaluation/dir_probe/book_names.csv')
     df = pd.read_csv(csv_file_name)
     
-    # Select only columns containing 'results'
     filtered_df = df.loc[:, df.columns.str.contains('results', case=False) & (df.columns != 'Unnamed: 0_results')]
     
-    # Adjust the book title: use the filename (without experiment, model, and prompt setting) as a hint.
     book_title_adjusted = book_filename.replace(f'_{experiment}_{model}_{prompt_setting}.csv', '')
     book_title_adjusted = book_title_adjusted.replace('_', ' ')
     print("Evaluating:", book_title_adjusted)
 
-    # Special title adjustments (if needed)
     if book_title_adjusted == "Alice in Wonderland":
         book_title_adjusted = "Alice s Adventures in Wonderland"
     if book_title_adjusted == "Percy Jackson The Lightning Thief":
         book_title_adjusted = "The Lightning Thief"
 
-    # Find the matching row in book_names
     matching_row = book_names[book_names.isin([book_title_adjusted]).any(axis=1)].values.flatten().tolist()
     if not matching_row:
         print(f"No matching book found for title: {book_title_adjusted}")
-        return pd.DataFrame()  # Return an empty DataFrame if no match is found
 
     author = matching_row[0]
     results_all = pd.DataFrame()
@@ -204,19 +195,15 @@ def create_heatmap(heatmap_dict, main_dir, heatmap_filename):
         N=256
     )
     
-    # Determine the evaluation directory.
     eval_dir = os.path.join(main_dir, "evaluation")
     if heatmap_filename == "2024":
-        # If the heatmap is for 2024 files, ensure the 2024 subfolder exists.
         eval_dir = os.path.join(eval_dir, "2024")
     os.makedirs(eval_dir, exist_ok=True)
     
-    # Save the aggregated data as CSV.
     csv_path = os.path.join(eval_dir, f"aggregate_data_{heatmap_filename}.csv")
     heatmap_df.to_csv(csv_path, index=True)
     print(f"Saved aggregate data CSV: {csv_path}")
     
-    # Create and save the heatmap image.
     plt.figure(figsize=(18, 12))
     sns.heatmap(heatmap_df, annot=True, fmt=".1f", cmap=custom_cmap,
                 vmin=0, vmax=100,
@@ -238,17 +225,13 @@ def create_heatmap(heatmap_dict, main_dir, heatmap_filename):
 if __name__ == "__main__":
     dp_dir = 'results/direct_probe'
     
-    # Find all subdirectories in dp_dir
     subdirs = [os.path.join(dp_dir, d) for d in os.listdir(dp_dir) if os.path.isdir(os.path.join(dp_dir, d))]
     
     for base_dir in subdirs:
-        # Find all subdirectories in base_dir
         subdirs = [os.path.join(base_dir, d) for d in os.listdir(base_dir) if os.path.isdir(os.path.join(base_dir, d))]
         
-        # Process each subdirectory as a separate main_dir.
         for main_dir in subdirs:
             print(f"\n=== Processing main_dir: {main_dir} ===")
-            # Create dictionaries to accumulate heatmap data for normal files and for 2024 files.
             heatmap_dict_main = {}
             heatmap_dict_2024 = {}
             
@@ -270,7 +253,6 @@ if __name__ == "__main__":
                     print("No evaluation results. Skipping file.")
                     continue
 
-                # Check if this file belongs to the 2024 group.
                 if any(sub in csv_file for sub in ['Below_Zero', 'Bride', 'First_Lie_Wins', 'Funny_Story', 
                                                     'If_Only_I_Had_Told_Her', 'Just_for_the_Summer', 'Lies_and_Weddings', 
                                                     'The_Ministry_of_Time', 'The_Paradise_Problem', 'You_Like_It_Darker_Stories']):
@@ -282,7 +264,5 @@ if __name__ == "__main__":
                     save_data(title.replace(' ', '_'), evaluated_df, main_dir, subfolder=subfolder)
                     heatmap_dict_main[title] = compute_language_accuracy(evaluated_df)
 
-            # Create heatmap for normal files in this main_dir
             create_heatmap(heatmap_dict_main, main_dir, "")
-            # Create heatmap for 2024 files in this main_dir
             create_heatmap(heatmap_dict_2024, main_dir, "2024")
