@@ -1,0 +1,101 @@
+Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct
+['ryan'],john,0,0.25,incorrect,woman,0,0.44,incorrect,woman,0,0.44,incorrect
+['ryan'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],john,0,0.25,incorrect,mrs,0,0.29,incorrect,mrs,0,0.29,incorrect
+['ryan'],john,0,0.25,incorrect,he,0,0.0,incorrect,he,0,0.0,incorrect
+['ryan'],name,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],john,0,0.25,incorrect,hester,0,0.2,incorrect,hester,0,0.2,incorrect
+['ryan'],john,0,0.25,incorrect,he,0,0.0,incorrect,he,0,0.0,incorrect
+['ryan'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],john,0,0.25,incorrect,he,0,0.0,incorrect,he,0,0.0,incorrect
+['ryan'],john's,0,0.2,incorrect,forbing,0,0.36,incorrect,forbing,0,0.36,incorrect
+['pat'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['pat'],ryan,0,0.29,incorrect,ryan,0,0.29,incorrect,ryan,0,0.29,incorrect
+['ryan'],john's,0,0.2,incorrect,cvs,0,0.0,incorrect,cvs,0,0.0,incorrect
+['ryan'],[mask],0,0.2,incorrect,sarah,0,0.44,incorrect,sarah,0,0.44,incorrect
+['ryan'],her,0,0.29,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],louisiana,0,0.31,incorrect,hester,0,0.2,incorrect,hester,0,0.2,incorrect
+['ryan'],grandfather,0,0.4,incorrect,grandfather,0,0.4,incorrect,grandfather,0,0.4,incorrect
+['ryan'],house,0,0.0,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],john,0,0.25,incorrect,he,0,0.0,incorrect,he,0,0.0,incorrect
+['rogers'],mrs.,0,0.4,incorrect,mrs. holloway,0,0.21,incorrect,mrs. holloway,0,0.21,incorrect
+['ryan'],hank,0,0.5,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],tahoe,0,0.22,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],he,0,0.0,incorrect,hester,0,0.2,incorrect,hester,0,0.2,incorrect
+['ryan'],perfume,0,0.18,incorrect,he,0,0.0,incorrect,he,0,0.0,incorrect
+['ryan'],john,0,0.25,incorrect,marshmallow,0,0.27,incorrect,marshmallow,0,0.27,incorrect
+['ryan'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['sara'],girls,0,0.22,incorrect,emily,0,0.0,incorrect,emily,0,0.0,incorrect
+['ryan'],women,0,0.22,incorrect,i,0,0.0,incorrect,i,0,0.0,incorrect
+['ryan'],dinner,0,0.2,incorrect,name,0,0.25,incorrect,name,0,0.25,incorrect
+['ryan'],john,0,0.25,incorrect,name,0,0.25,incorrect,name,0,0.25,incorrect
+['ryan'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],he,0,0.0,incorrect,his,0,0.0,incorrect,his,0,0.0,incorrect
+['ryan'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],john,0,0.25,incorrect,hester,0,0.2,incorrect,hester,0,0.2,incorrect
+['ryan'],hidden hills farm,0,0.1,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],judge,0,0.0,incorrect,"the [mask] token in the passage is most likely to be filled with the name ""the"". however, since the task requires a proper name, i will provide the closest proper name that fits the context. based on the passage, the proper name that fills the [mask] token is likely to be a location or a specific entity. in this case, the most suitable proper name is ""the"". however, if we consider the context of the passage, it seems to be describing",0,0.02,incorrect,"the [mask] token in the passage is most likely to be filled with the name ""the"". however, since the task requires a proper name, i will provide the closest proper name that fits the context. based on the passage, the proper name that fills the [mask] token is likely to be a location or a specific entity. in this case, the most suitable proper name is ""the"". however, if we consider the context of the passage, it seems to be describing",0,0.02,incorrect
+['ryan'],john,0,0.25,incorrect,hester,0,0.2,incorrect,hester,0,0.2,incorrect
+['james'],[mask],0,0.36,incorrect,dress,0,0.4,incorrect,dress,0,0.4,incorrect
+['ryan'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['eden'],new york,0,0.17,incorrect,hester,0,0.4,incorrect,hester,0,0.4,incorrect
+['mama'],honey,0,0.0,incorrect,hester,0,0.0,incorrect,hester,0,0.0,incorrect
+['lucca'],you,0,0.25,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['mama'],hester,0,0.0,incorrect,carolina,0,0.33,incorrect,carolina,0,0.33,incorrect
+['mama'],hester,0,0.0,incorrect,custom-made,0,0.4,incorrect,custom-made,0,0.4,incorrect
+['ryan'],he,0,0.0,incorrect,he,0,0.0,incorrect,he,0,0.0,incorrect
+['ryan'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],he,0,0.0,incorrect,he,0,0.0,incorrect,he,0,0.0,incorrect
+['beth'],name,0,0.25,incorrect,she,0,0.29,incorrect,she,0,0.29,incorrect
+['james'],the woman,0,0.14,incorrect,hester,0,0.36,incorrect,hester,0,0.36,incorrect
+['lucca'],he,0,0.0,incorrect,car,0,0.5,incorrect,car,0,0.5,incorrect
+['james'],girl,0,0.0,incorrect,she,0,0.25,incorrect,she,0,0.25,incorrect
+['james'],john,0,0.22,incorrect,she,0,0.25,incorrect,she,0,0.25,incorrect
+['james'],john,0,0.22,incorrect,hester,0,0.36,incorrect,hester,0,0.36,incorrect
+['matt'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['matt'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['matt'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['matt'],job,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['james'],kate,0,0.44,incorrect,derby,0,0.2,incorrect,derby,0,0.2,incorrect
+['james'],john,0,0.22,incorrect,emily,0,0.2,incorrect,emily,0,0.2,incorrect
+['greg'],john,0,0.0,incorrect,boy,0,0.0,incorrect,boy,0,0.0,incorrect
+['jenny'],emily,0,0.4,incorrect,he,0,0.29,incorrect,he,0,0.29,incorrect
+['greg'],miles,0,0.22,incorrect,miles,0,0.22,incorrect,miles,0,0.22,incorrect
+['jenny'],the singer,0,0.27,incorrect,ian,0,0.25,incorrect,ian,0,0.25,incorrect
+['matt'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['bernard'],patel,0,0.17,incorrect,facebook,0,0.13,incorrect,facebook,0,0.13,incorrect
+['bullock'],deputy,0,0.15,incorrect,deputy,0,0.15,incorrect,deputy,0,0.15,incorrect
+"['andrew marshall', 'marshall', 'andrew']",john,0,0.2,incorrect,john,0,0.2,incorrect,john,0,0.2,incorrect
+['george'],uniformed,0,0.4,incorrect,andrew,0,0.33,incorrect,andrew,0,0.33,incorrect
+['andrew'],south carolina,0,0.2,incorrect,south carolina,0,0.2,incorrect,south carolina,0,0.2,incorrect
+['andrew'],trump,0,0.18,incorrect,god,0,0.22,incorrect,god,0,0.22,incorrect
+['devon'],[mask]'s,0,0.0,incorrect,living's,0,0.31,incorrect,living's,0,0.31,incorrect
+['devon'],john,0,0.44,incorrect,john,0,0.44,incorrect,john,0,0.44,incorrect
+['porter'],miss,0,0.0,incorrect,miss,0,0.0,incorrect,miss,0,0.0,incorrect
+"['andrew marshall', 'marshall', 'andrew']",john,0,0.2,incorrect,raleigh,0,0.4,incorrect,raleigh,0,0.4,incorrect
+['marshall'],nobody,0,0.0,incorrect,john,0,0.17,incorrect,john,0,0.17,incorrect
+"['amy', 'amy holder', 'holder']",[mask],0,0.22,incorrect,forbing,0,0.31,incorrect,forbing,0,0.31,incorrect
+['amy'],bank,0,0.29,incorrect,hotel,0,0.0,incorrect,hotel,0,0.0,incorrect
+"['amy', 'amy holder', 'holder']",wells fargo branch on peachtree street,0,0.25,incorrect,wells,0,0.18,incorrect,wells,0,0.18,incorrect
+"['amy', 'amy holder', 'holder']",candler,0,0.47,incorrect,he,0,0.5,incorrect,he,0,0.5,incorrect
+"['amy', 'amy holder', 'holder']",asset,0,0.27,incorrect,john,0,0.2,incorrect,john,0,0.2,incorrect
+['george'],john,0,0.2,incorrect,hilton,0,0.17,incorrect,hilton,0,0.17,incorrect
+['george'],he,0,0.25,incorrect,he,0,0.25,incorrect,he,0,0.25,incorrect
+['tyron'],nate,0,0.22,incorrect,tom brady,0,0.29,incorrect,tom brady,0,0.29,incorrect
+['george'],ups,0,0.0,incorrect,devon,0,0.36,incorrect,devon,0,0.36,incorrect
+['cameron'],university,0,0.24,incorrect,university,0,0.24,incorrect,university,0,0.24,incorrect
+['tate'],mr.,0,0.0,incorrect,he,0,0.33,incorrect,he,0,0.33,incorrect
+['tate'],devon,0,0.22,incorrect,austin,0,0.4,incorrect,austin,0,0.4,incorrect
+['sawyer'],trust fund baby,0,0.29,incorrect,he,0,0.25,incorrect,he,0,0.25,incorrect
+['sawyer'],name,0,0.4,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['amy'],she,0,0.0,incorrect,lily,0,0.29,incorrect,lily,0,0.29,incorrect
+['amy'],emily,0,0.5,incorrect,hester,0,0.0,incorrect,hester,0,0.0,incorrect
+['amy'],hester,0,0.0,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['amy'],her,0,0.0,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['amy'],hester,0,0.0,incorrect,emily,0,0.5,incorrect,emily,0,0.5,incorrect

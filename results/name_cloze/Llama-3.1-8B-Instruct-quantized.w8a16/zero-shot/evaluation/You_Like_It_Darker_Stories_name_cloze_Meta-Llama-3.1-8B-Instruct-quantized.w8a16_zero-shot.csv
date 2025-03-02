@@ -1,4 +1,4 @@
-Single_ent,en_masked_results,en_masked_exact_match,en_masked_highest_fuzzy_match,en_masked_correct,en_masked_shuffled_results,en_masked_shuffled_exact_match,en_masked_shuffled_highest_fuzzy_match,en_masked_shuffled_correct,en_masked_shuffled_results,en_masked_shuffled_exact_match,en_masked_shuffled_highest_fuzzy_match,en_masked_shuffled_correct
+Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct
 "['ruth', 'crawford', 'ruth crawford']",harlan ellison,0,0.3,incorrect,warren buffett,0,0.33,incorrect,warren buffett,0,0.33,incorrect
 ['mark'],mr. darcy,0,0.46,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
 ['butch'],jimmy,0,0.0,incorrect,world war,0,0.0,incorrect,world war,0,0.0,incorrect
@@ -12,10 +12,10 @@ Single_ent,en_masked_results,en_masked_exact_match,en_masked_highest_fuzzy_match
 ['crawford'],smith,0,0.0,incorrect,jane,0,0.17,incorrect,jane,0,0.17,incorrect
 ['dave'],wimpy,0,0.0,incorrect,derby,0,0.44,incorrect,derby,0,0.44,incorrect
 ['dave'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
-"['uncle butch', 'butch', 'uncle']",warhol,0,0.18,incorrect,van gogh,0,0.32,incorrect,van gogh,0,0.32,incorrect
+"['butch', 'uncle butch', 'uncle']",warhol,0,0.18,incorrect,van gogh,0,0.32,incorrect,van gogh,0,0.32,incorrect
 ['hathaway'],roberts,0,0.13,incorrect,smith,0,0.31,incorrect,smith,0,0.31,incorrect
 ['butch'],robin,0,0.2,incorrect,mark twain,0,0.13,incorrect,mark twain,0,0.13,incorrect
-"['robert johnson', 'robert', 'johnson']",robert johnson,1,1.0,correct,lucifer,0,0.31,incorrect,lucifer,0,0.31,incorrect
+"['robert', 'johnson', 'robert johnson']",robert johnson,1,1.0,correct,lucifer,0,0.31,incorrect,lucifer,0,0.31,incorrect
 ['ruth'],laura,0,0.22,incorrect,corolla,0,0.18,incorrect,corolla,0,0.18,incorrect
 ['carmody'],trump,0,0.33,incorrect,elvis,0,0.0,incorrect,elvis,0,0.0,incorrect
 ['ruth'],pop,0,0.0,incorrect,poppy,0,0.0,incorrect,poppy,0,0.0,incorrect
@@ -69,21 +69,21 @@ Single_ent,en_masked_results,en_masked_exact_match,en_masked_highest_fuzzy_match
 ['andersson'],jack,0,0.15,incorrect,john,0,0.31,incorrect,john,0,0.31,incorrect
 ['frank'],he,0,0.0,incorrect,emily,0,0.0,incorrect,emily,0,0.0,incorrect
 ['frank'],his,0,0.0,incorrect,john,0,0.22,incorrect,john,0,0.22,incorrect
-"['bobby feeney', 'bobby', 'feeney']",not sherlock?,0,0.24,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+"['feeney', 'bobby', 'bobby feeney']",not sherlock?,0,0.24,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
 ['ludlum'],watson,0,0.0,incorrect,doug,0,0.4,incorrect,doug,0,0.4,incorrect
 ['doc'],jack,0,0.29,incorrect,shaggy,0,0.0,incorrect,shaggy,0,0.0,incorrect
 ['pando'],john,0,0.22,incorrect,shakespeare,0,0.25,incorrect,shakespeare,0,0.25,incorrect
 ['galen'],indiana jones,0,0.22,incorrect,july,0,0.22,incorrect,july,0,0.22,incorrect
 ['alvarez'],captain america,0,0.27,incorrect,james,0,0.33,incorrect,james,0,0.33,incorrect
-"['mary worth', 'mary', 'worth']",jane,0,0.25,incorrect,key west,0,0.44,incorrect,key west,0,0.44,incorrect
-"['mary worth', 'mary', 'worth']",granny,0,0.4,incorrect,facebook,0,0.22,incorrect,facebook,0,0.22,incorrect
+"['mary worth', 'worth', 'mary']",jane,0,0.25,incorrect,key west,0,0.44,incorrect,key west,0,0.44,incorrect
+"['mary worth', 'worth', 'mary']",granny,0,0.4,incorrect,facebook,0,0.22,incorrect,facebook,0,0.22,incorrect
 ['freeman'],jack,0,0.18,incorrect,john,0,0.18,incorrect,john,0,0.18,incorrect
 ['lloyd'],john,0,0.22,incorrect,john,0,0.22,incorrect,john,0,0.22,incorrect
 ['beth'],daisy,0,0.0,incorrect,marian,0,0.0,incorrect,marian,0,0.0,incorrect
 ['lloyd'],john,0,0.22,incorrect,john,0,0.22,incorrect,john,0,0.22,incorrect
 ['greg'],dr. gregory house,0,0.38,incorrect,me,0,0.33,incorrect,me,0,0.33,incorrect
 ['greg'],adman,0,0.0,incorrect,nabisco,0,0.0,incorrect,nabisco,0,0.0,incorrect
-"['greg ackerman', 'greg', 'ackerman']",donald trump,0,0.3,incorrect,coca,0,0.33,incorrect,coca,0,0.33,incorrect
+"['ackerman', 'greg', 'greg ackerman']",donald trump,0,0.3,incorrect,coca,0,0.33,incorrect,coca,0,0.33,incorrect
 ['trenton'],smith,0,0.17,incorrect,smith,0,0.17,incorrect,smith,0,0.17,incorrect
 "['key', 'duma key', 'duma']",key west,0,0.55,incorrect,florida,0,0.36,incorrect,florida,0,0.36,incorrect
 ['donna'],emily,0,0.0,incorrect,david,0,0.4,incorrect,david,0,0.4,incorrect
@@ -93,7 +93,7 @@ Single_ent,en_masked_results,en_masked_exact_match,en_masked_highest_fuzzy_match
 ['bell'],mrs. smith,0,0.0,incorrect,obituary,0,0.17,incorrect,obituary,0,0.17,incorrect
 ['donna'],cormac mccarthy,0,0.2,incorrect,breakfast,0,0.14,incorrect,breakfast,0,0.14,incorrect
 ['tad'],bell,0,0.0,incorrect,charlie,0,0.2,incorrect,charlie,0,0.2,incorrect
-"['andy pelley', 'pelley', 'andy']",officer,0,0.15,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+"['pelley', 'andy', 'andy pelley']",officer,0,0.15,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
 ['pelley'],donald,0,0.17,incorrect,coffee,0,0.33,incorrect,coffee,0,0.33,incorrect
 ['pelley'],grumpy,0,0.33,incorrect,disney,0,0.33,incorrect,disney,0,0.33,incorrect
 ['devereaux'],tom,0,0.0,incorrect,charlie chaplin,0,0.25,incorrect,charlie chaplin,0,0.25,incorrect

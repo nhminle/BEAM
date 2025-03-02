@@ -1,54 +1,109 @@
-# import pandas as pd
+import os
+import pandas as pd
 
-# # List of titles and their release dates (manually curated based on known publication years)
-# titles_and_dates = [
-#     {"Title": "Sense_and_sensibility", "Release Date": "1811-01-01"},
-#     {"Title": "Adventures_of_Sherlock_Holmes", "Release Date": "1892-10-14"},
-#     {"Title": "Adventures_of_Huckleberry_Finn", "Release Date": "1884-12-10"},
-#     {"Title": "The_Great_Gatsby", "Release Date": "1925-04-10"},
-#     {"Title": "Frankenstein", "Release Date": "1818-01-01"},
-#     {"Title": "Paper_Towns", "Release Date": "2008-10-16"},
-#     {"Title": "Dune", "Release Date": "1965-08-01"},
-#     {"Title": "The_Picture_of_Dorian_Gray", "Release Date": "1890-06-20"},
-#     {"Title": "The_Handmaid_s_Tale", "Release Date": "1985-09-01"},
-#     {"Title": "Alice_in_Wonderland", "Release Date": "1865-11-26"},
-#     {"Title": "Pride_and_Prejudice", "Release Date": "1813-01-28"},
-#     {"Title": "1984", "Release Date": "1949-06-08"},
-#     {"Title": "The_Boy_in_the_Striped_Pyjamas", "Release Date": "2006-01-05"},
-#     {"Title": "Percy_Jackson_The_Lightning_Thief", "Release Date": "2005-06-28"},
-#     {"Title": "Dracula", "Release Date": "1897-05-26"},
-#     {"Title": "Of_Mice_and_Men", "Release Date": "1937-01-01"},
-#     {"Title": "A_Tale_of_Two_Cities", "Release Date": "1859-04-30"},
-#     {"Title": "A_thousand_splendid_suns", "Release Date": "2007-05-22"},
-#     {"Title": "Harry_Potter_and_the_Deathly_Hallows", "Release Date": "2007-07-21"},
-#     {"Title": "Fahrenheit_451", "Release Date": "1953-10-19"},\
-# ]
+def compute_language_counts(evaluated_df):
+    """
+    Returns a dictionary of {language: (total_correct, total_attempts)}
+    based on columns ending in "_results_both_match".
+    Each row in those columns should contain the string "correct" or "incorrect".
+    """
+    lang_counts = {}
+    for col in evaluated_df.columns:
+        if "_correct" in col:
+            # e.g. "en_results_both_match" => lang = "en"
+            lang = col.split("_correct")[0]
+            
+            # Convert 'correct' => 1, anything else => 0
+            correct_series = (evaluated_df[col].astype(str).str.lower() == "correct").astype(int)
+            total_correct = correct_series.sum()
+            total_attempts = len(correct_series)
 
-# # Convert to DataFrame
-# titles_df = pd.DataFrame(titles_and_dates)
+            # Accumulate counts
+            if lang not in lang_counts:
+                lang_counts[lang] = (0, 0)
+            prev_correct, prev_attempts = lang_counts[lang]
+            lang_counts[lang] = (
+                prev_correct + total_correct,
+                prev_attempts + total_attempts
+            )
+    return lang_counts
 
-# # Save to CSV
-# output_path = "/Users/minhle/Umass/ersp/Evaluation/eval/csv/release_date.csv"
-# titles_df.to_csv(output_path, index=False)
+def debug_evaluation_folder(eval_dir):
+    """
+    Reads all *_eval.csv files in `eval_dir`:
+      - Computes (total_correct, total_attempts) for each file and prints them.
+      - Accumulates a grand total across all files to compute a final overall accuracy.
+    """
+    # Gather all CSVs that end with _eval.csv
+    eval_files = [
+        os.path.join(eval_dir, f)
+        for f in os.listdir(eval_dir)
+        if f.endswith('.csv')
+    ]
 
-# output_path
-from fuzzywuzzy import fuzz
-import unidecode
+    if not eval_files:
+        print(f"No *_eval.csv files found in {eval_dir}")
+        return
 
-def calculate_match_scores(ents_list, en_result):
-    en_result_normalized = unidecode.unidecode(str(en_result)).lower().strip()
+    print(f"\nDebugging evaluation folder: {eval_dir}")
     
-    exact_match = 0
-    highest_fuzzy_score = 0
-    
-    for ent in ents_list:
-        ent_normalized = unidecode.unidecode(ent).lower().strip()
-        if ent_normalized == en_result_normalized:
-            exact_match = 1
-        
-        fuzzy_score = fuzz.ratio(ent_normalized, en_result_normalized)/ 100
-        highest_fuzzy_score = max(highest_fuzzy_score, fuzzy_score)
-    
-    return exact_match, highest_fuzzy_score
+    # Grand totals across ALL CSVs in this folder
+    overall_counts = {}
 
-print(calculate_match_scores(['Harry Potter'], 'harry'))
+    # Process each CSV
+    for csv_file in eval_files:
+        print(f"\nFile: {csv_file}")
+        try:
+            df = pd.read_csv(csv_file)
+        except Exception as e:
+            print(f"  Error reading {csv_file}: {e}")
+            continue
+
+        lang_counts = compute_language_counts(df)
+        if not lang_counts:
+            print("  No matching '_results_both_match' columns found.")
+            continue
+
+        # Print per-file details
+        print("  Per-file language breakdown:")
+        for lang, (corr, att) in lang_counts.items():
+            if att == 0:
+                print(f"    {lang}: 0/0 = 0.00%")
+            else:
+                accuracy = corr / att * 100
+                print(f"    {lang}: {corr}/{att} = {accuracy:.2f}%")
+
+        # Accumulate into overall_counts
+        for lang, (corr, att) in lang_counts.items():
+            if lang not in overall_counts:
+                overall_counts[lang] = (0, 0)
+            prev_corr, prev_att = overall_counts[lang]
+            overall_counts[lang] = (prev_corr + corr, prev_att + att)
+
+    # Print overall results
+    if overall_counts:
+        print("\nOverall counts across ALL *_eval.csv in this folder (per language):")
+        total_corr_sum = 0
+        total_att_sum = 0
+        for lang, (corr, att) in overall_counts.items():
+            total_corr_sum += corr
+            total_att_sum += att
+            if att == 0:
+                print(f"  {lang}: 0/0 = 0.00%")
+            else:
+                accuracy = corr / att * 100
+                print(f"  {lang}: {corr}/{att} = {accuracy:.2f}%")
+
+        if total_att_sum == 0:
+            overall_accuracy = 0.0
+        else:
+            overall_accuracy = total_corr_sum / total_att_sum * 100
+        print(f"\nGrand total (all languages combined): {total_corr_sum}/{total_att_sum} = {overall_accuracy:.2f}%")
+    else:
+        print("No language data found in this folder.")
+
+if __name__ == "__main__":
+    # Example usage:
+    # Replace this path with a valid path to your 'evaluation/' folder
+    evaluation_folder_path = "results/name_cloze copy/gpt-4o-2024-11-20/one-shot/evaluation"
+    debug_evaluation_folder(evaluation_folder_path)
