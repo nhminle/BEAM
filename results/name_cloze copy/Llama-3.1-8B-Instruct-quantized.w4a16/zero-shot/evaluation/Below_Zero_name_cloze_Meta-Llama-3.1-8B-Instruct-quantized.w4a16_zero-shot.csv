@@ -1,0 +1,49 @@
+Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct
+"['eager', 'beaver', 'eager beaver']",nasa,0,0.25,incorrect,nasa,0,0.25,incorrect,nasa,0,0.25,incorrect
+['hannah'],ava,0,0.44,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
+"['kalpana', 'kalpana chawla', 'chawla']",psychology,0,0.38,incorrect,emily,0,0.18,incorrect,emily,0,0.18,incorrect
+['floyd'],nasa,0,0.0,incorrect,grandma,0,0.17,incorrect,grandma,0,0.17,incorrect
+['floyd'],wikipedia,0,0.14,incorrect,wikipedia,0,0.14,incorrect,wikipedia,0,0.14,incorrect
+['mara'],lena,0,0.25,incorrect,midori,0,0.4,incorrect,midori,0,0.4,incorrect
+['mara'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['floyd'],brother,0,0.17,incorrect,trace,0,0.0,incorrect,trace,0,0.0,incorrect
+['python'],nasa,0,0.2,incorrect,google,0,0.17,incorrect,google,0,0.17,incorrect
+['let'],humanity,0,0.18,incorrect,netflix,0,0.4,incorrect,netflix,0,0.4,incorrect
+['fuck'],ian,0,0.0,incorrect,emily,0,0.0,incorrect,emily,0,0.0,incorrect
+['hannah'],caltech,0,0.31,incorrect,caltech,0,0.31,incorrect,caltech,0,0.31,incorrect
+['mara'],emily,0,0.22,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['merel'],dr. john f. kennedy,0,0.17,incorrect,apollo 11,0,0.14,incorrect,apollo 11,0,0.14,incorrect
+['hannah'],neil armstrong,0,0.2,incorrect,neil armstrong,0,0.2,incorrect,neil armstrong,0,0.2,incorrect
+['mara'],aunt,0,0.25,incorrect,aunt,0,0.25,incorrect,aunt,0,0.25,incorrect
+['mara'],alexandria,0,0.43,incorrect,nasa,0,0.5,incorrect,nasa,0,0.5,incorrect
+['merel'],dr. thompson,0,0.12,incorrect,dr. amase,0,0.29,incorrect,dr. amase,0,0.29,incorrect
+['karl'],jess,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['haven'],david,0,0.4,incorrect,steve,0,0.4,incorrect,steve,0,0.4,incorrect
+['arroyo'],"dr. virginia e. w. ""gus"" stone or dr. virginia e. w. ""gus"" ""ginnie"" stone or dr. virginia e. w. ""gus"" ""ginnie"" stone is not found in the passage, however, dr. virginia e. w. ""gus"" ""ginnie"" stone is not the only dr. gus stone, but dr. virginia e. w. ""gus"" ""ginnie"" stone",0,0.04,incorrect,mars,0,0.4,incorrect,mars,0,0.4,incorrect
+['arroyo'],dr. smith,0,0.13,incorrect,dr.,0,0.22,incorrect,dr.,0,0.22,incorrect
+['merel'],dr. thompson,0,0.12,incorrect,dr. amase,0,0.29,incorrect,dr. amase,0,0.29,incorrect
+['floyd'],the president,0,0.11,incorrect,john,0,0.22,incorrect,john,0,0.22,incorrect
+['merel'],dr. foschak,0,0.12,incorrect,norwegian,0,0.29,incorrect,norwegian,0,0.29,incorrect
+['hannah'],hello,0,0.18,incorrect,he,0,0.25,incorrect,he,0,0.25,incorrect
+['merel'],lucas,0,0.2,incorrect,blue,0,0.22,incorrect,blue,0,0.22,incorrect
+['hannah'],longyearbyen,0,0.22,incorrect,longyearbyen,0,0.22,incorrect,longyearbyen,0,0.22,incorrect
+['merel'],world,0,0.4,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['floyd'],uncle,0,0.2,incorrect,john,0,0.22,incorrect,john,0,0.22,incorrect
+['hannah'],august,0,0.17,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['hannah'],donald trump,0,0.22,incorrect,trump,0,0.0,incorrect,trump,0,0.0,incorrect
+['merel'],max,0,0.25,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['mara'],river,0,0.22,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['mara'],lily,0,0.0,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['floyd'],smith,0,0.0,incorrect,britney spears,0,0.11,incorrect,britney spears,0,0.11,incorrect
+['mara'],jesus,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['mara'],sadie,0,0.22,incorrect,macrame,0,0.73,correct,macrame,0,0.73,correct
+['great'],uncle,0,0.2,incorrect,delphina,0,0.31,incorrect,delphina,0,0.31,incorrect
+['hannah'],jon,0,0.22,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
+['hannah'],august,0,0.17,incorrect,jack,0,0.2,incorrect,jack,0,0.2,incorrect
+['hannah'],mike,0,0.0,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
+['hannah'],he,0,0.25,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
+['hannah'],juliet,0,0.0,incorrect,charles dickens,0,0.29,incorrect,charles dickens,0,0.29,incorrect
+['mara'],broccoli,0,0.17,incorrect,broccoli,0,0.17,incorrect,broccoli,0,0.17,incorrect
+['hannah'],august,0,0.17,incorrect,jesus,0,0.0,incorrect,jesus,0,0.0,incorrect
+['hannah'],max,0,0.22,incorrect,jack,0,0.2,incorrect,jack,0,0.2,incorrect
+['hannah'],aurora,0,0.33,incorrect,arctic,0,0.17,incorrect,arctic,0,0.17,incorrect

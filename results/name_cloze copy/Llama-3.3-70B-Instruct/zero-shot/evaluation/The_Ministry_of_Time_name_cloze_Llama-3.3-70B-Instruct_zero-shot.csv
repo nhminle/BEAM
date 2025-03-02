@@ -1,0 +1,101 @@
+Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct
+['adela'],barbie,0,0.36,incorrect,blond,0,0.2,incorrect,blond,0,0.2,incorrect
+['adela'],nurse,0,0.2,incorrect,dr. anthony fauci,0,0.18,incorrect,dr. anthony fauci,0,0.18,incorrect
+"['gore', 'graham gore', 'graham']",horatio nelson,0,0.33,incorrect,robert falcon scott,0,0.27,incorrect,robert falcon scott,0,0.27,incorrect
+['gore'],charles dickens,0,0.21,incorrect,disraeli,0,0.33,incorrect,disraeli,0,0.33,incorrect
+['mm'],refrigerator,0,0.0,incorrect,refrigerator,0,0.0,incorrect,refrigerator,0,0.0,incorrect
+['gore'],marlowe,0,0.36,incorrect,marlboro,0,0.33,incorrect,marlboro,0,0.33,incorrect
+['gore'],no one,0,0.4,incorrect,whale,0,0.22,incorrect,whale,0,0.22,incorrect
+['gore'],horatio,0,0.36,incorrect,newton,0,0.2,incorrect,newton,0,0.2,incorrect
+['gore'],harry,0,0.22,incorrect,ministry,0,0.17,incorrect,ministry,0,0.17,incorrect
+['gore'],my father,0,0.15,incorrect,nelson,0,0.2,incorrect,nelson,0,0.2,incorrect
+['gore'],him,0,0.0,incorrect,freud,0,0.44,incorrect,freud,0,0.44,incorrect
+['gore'],jesus,0,0.22,incorrect,jesus,0,0.22,incorrect,jesus,0,0.22,incorrect
+['gore'],jesus,0,0.22,incorrect,god,0,0.57,incorrect,god,0,0.57,incorrect
+['stanley'],doctor,0,0.15,incorrect,name,0,0.36,incorrect,name,0,0.36,incorrect
+['gore'],narrator,0,0.33,incorrect,jesus,0,0.22,incorrect,jesus,0,0.22,incorrect
+['gore'],"someone on the ship, likely the captain or a main character, but based on the context, a plausible guess would be a character named ""robert falcon scott"" or another famous arctic explorer, but since no specific name is given in the passage, a more general guess would be a name like ""john"" or a name that fits the time period and setting, such as ""franklin"", but the most fitting answer, given the lack of information would be to choose a name that is",0,0.02,incorrect,winter,0,0.2,incorrect,winter,0,0.2,incorrect
+['gore'],he,0,0.33,incorrect,foreign,0,0.55,incorrect,foreign,0,0.55,incorrect
+['adela'],einstein,0,0.15,incorrect,einstein,0,0.15,incorrect,einstein,0,0.15,incorrect
+['adela'],doctor,0,0.18,incorrect,china,0,0.2,incorrect,china,0,0.2,incorrect
+['gore'],einstein,0,0.17,incorrect,einstein,0,0.17,incorrect,einstein,0,0.17,incorrect
+['gore'],he,0,0.33,incorrect,albert,0,0.2,incorrect,albert,0,0.2,incorrect
+['gore'],sherlock holmes,0,0.21,incorrect,jesus,0,0.22,incorrect,jesus,0,0.22,incorrect
+['gore'],he,0,0.33,incorrect,jesus,0,0.22,incorrect,jesus,0,0.22,incorrect
+['ralph'],bond,0,0.0,incorrect,london,0,0.18,incorrect,london,0,0.18,incorrect
+['ralph'],minister,0,0.15,incorrect,ministry,0,0.15,incorrect,ministry,0,0.15,incorrect
+['negro'],nigger,0,0.55,incorrect,god,0,0.5,incorrect,god,0,0.5,incorrect
+['black'],lesbian,0,0.33,incorrect,he,0,0.0,incorrect,he,0,0.0,incorrect
+['graham'],he,0,0.25,incorrect,google,0,0.17,incorrect,google,0,0.17,incorrect
+['graham'],christian,0,0.27,incorrect,chandler,0,0.29,incorrect,chandler,0,0.29,incorrect
+['arthur'],you,0,0.22,incorrect,brigadier,0,0.27,incorrect,brigadier,0,0.27,incorrect
+['stokes'],cook,0,0.4,incorrect,cook,0,0.4,incorrect,cook,0,0.4,incorrect
+['graham'],da vinci,0,0.14,incorrect,plato,0,0.18,incorrect,plato,0,0.18,incorrect
+['graham'],he,0,0.25,incorrect,marlboro,0,0.14,incorrect,marlboro,0,0.14,incorrect
+['graham'],he,0,0.25,incorrect,century,0,0.15,incorrect,century,0,0.15,incorrect
+['graham'],ministry,0,0.14,incorrect,china,0,0.36,incorrect,china,0,0.36,incorrect
+['graham'],napoleon,0,0.14,incorrect,world war,0,0.27,incorrect,world war,0,0.27,incorrect
+['adela'],god,0,0.25,incorrect,eleanor,0,0.5,incorrect,eleanor,0,0.5,incorrect
+['adela'],emily,0,0.4,incorrect,georgia,0,0.33,incorrect,georgia,0,0.33,incorrect
+['graham'],bridges,0,0.15,incorrect,ministry,0,0.14,incorrect,ministry,0,0.14,incorrect
+['margaret'],her,0,0.18,incorrect,martini,0,0.53,incorrect,martini,0,0.53,incorrect
+['graham'],godot,0,0.18,incorrect,god,0,0.22,incorrect,god,0,0.22,incorrect
+['margaret'],forty-seven,0,0.21,incorrect,god,0,0.18,incorrect,god,0,0.18,incorrect
+['margaret'],she,0,0.18,incorrect,brigadier,0,0.47,incorrect,brigadier,0,0.47,incorrect
+['margaret'],long john silver,0,0.17,incorrect,god,0,0.18,incorrect,god,0,0.18,incorrect
+['graham'],my mother,0,0.13,incorrect,china,0,0.36,incorrect,china,0,0.36,incorrect
+['graham'],me,0,0.25,incorrect,egypt,0,0.18,incorrect,egypt,0,0.18,incorrect
+['adela'],arachne,0,0.33,incorrect,ministry,0,0.0,incorrect,ministry,0,0.0,incorrect
+['adela'],michaela,0,0.62,incorrect,eve,0,0.25,incorrect,eve,0,0.25,incorrect
+['adela'],she,0,0.25,incorrect,white house,0,0.12,incorrect,white house,0,0.12,incorrect
+['graham'],he,0,0.25,incorrect,darwin,0,0.17,incorrect,darwin,0,0.17,incorrect
+['graham'],sherlock holmes,0,0.29,incorrect,byron,0,0.18,incorrect,byron,0,0.18,incorrect
+['adela'],control,0,0.17,incorrect,einstein,0,0.15,incorrect,einstein,0,0.15,incorrect
+['graham'],victorian,0,0.27,incorrect,dracula,0,0.46,incorrect,dracula,0,0.46,incorrect
+['graham'],england,0,0.31,incorrect,charles darwin,0,0.2,incorrect,charles darwin,0,0.2,incorrect
+['graham'],harry,0,0.36,incorrect,ministry,0,0.14,incorrect,ministry,0,0.14,incorrect
+['margaret'],shakespeare,0,0.42,incorrect,the,0,0.18,incorrect,the,0,0.18,incorrect
+['salese'],he,0,0.25,incorrect,satan,0,0.36,incorrect,satan,0,0.36,incorrect
+['adela'],general,0,0.33,incorrect,general,0,0.33,incorrect,general,0,0.33,incorrect
+['graham'],i,0,0.0,incorrect,google,0,0.17,incorrect,google,0,0.17,incorrect
+['salese'],the brigadier,0,0.21,incorrect,general,0,0.31,incorrect,general,0,0.31,incorrect
+['arthur'],wales,0,0.18,incorrect,scotland,0,0.14,incorrect,scotland,0,0.14,incorrect
+['graham'],harry,0,0.36,incorrect,ministry,0,0.14,incorrect,ministry,0,0.14,incorrect
+['graham'],he,0,0.25,incorrect,napoleon,0,0.14,incorrect,napoleon,0,0.14,incorrect
+['margaret'],cher,0,0.17,incorrect,cher,0,0.17,incorrect,cher,0,0.17,incorrect
+['arthur'],he,0,0.25,incorrect,churchill,0,0.4,incorrect,churchill,0,0.4,incorrect
+['graham'],stewie,0,0.0,incorrect,harry,0,0.36,incorrect,harry,0,0.36,incorrect
+['arthur'],nick,0,0.0,incorrect,eyeglass,0,0.14,incorrect,eyeglass,0,0.14,incorrect
+['margaret'],grandmother,0,0.32,incorrect,isabel,0,0.29,incorrect,isabel,0,0.29,incorrect
+['graham'],alex,0,0.2,incorrect,century,0,0.15,incorrect,century,0,0.15,incorrect
+['margaret'],"someone's name, likely a female, possibly the author or a companion, but based on context, a reasonable guess could be a name like ""jessica"" or another female given name, however, the text does not provide enough information to determine the exact name, so a guess could be ""jessica""",0,0.05,incorrect,london,0,0.0,incorrect,london,0,0.0,incorrect
+['arthur'],god,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['margaret'],beethoven,0,0.24,incorrect,ella fitzgerald,0,0.26,incorrect,ella fitzgerald,0,0.26,incorrect
+['arthur'],fred astaire,0,0.33,incorrect,egypt,0,0.18,incorrect,egypt,0,0.18,incorrect
+['margaret'],she,0,0.18,incorrect,emily,0,0.15,incorrect,emily,0,0.15,incorrect
+['margaret'],she,0,0.18,incorrect,her,0,0.18,incorrect,her,0,0.18,incorrect
+['margaret'],emily,0,0.15,incorrect,estee,0,0.31,incorrect,estee,0,0.31,incorrect
+['margaret'],he,0,0.2,incorrect,adam,0,0.33,incorrect,adam,0,0.33,incorrect
+['graham'],arthur,0,0.33,incorrect,ministry,0,0.14,incorrect,ministry,0,0.14,incorrect
+['arthur'],scotland,0,0.14,incorrect,chanel,0,0.17,incorrect,chanel,0,0.17,incorrect
+['graham'],elijah,0,0.33,incorrect,elijah,0,0.33,incorrect,elijah,0,0.33,incorrect
+['adela'],he,0,0.29,incorrect,gp,0,0.0,incorrect,gp,0,0.0,incorrect
+['graham'],he,0,0.25,incorrect,freud,0,0.18,incorrect,freud,0,0.18,incorrect
+['graham'],margaret,0,0.29,incorrect,atwood,0,0.17,incorrect,atwood,0,0.17,incorrect
+['graham'],albus,0,0.18,incorrect,god,0,0.22,incorrect,god,0,0.22,incorrect
+['adela'],she,0,0.25,incorrect,freud,0,0.2,incorrect,freud,0,0.2,incorrect
+['graham'],harry,0,0.36,incorrect,ministry,0,0.14,incorrect,ministry,0,0.14,incorrect
+['graham'],my father,0,0.27,incorrect,hemingway,0,0.27,incorrect,hemingway,0,0.27,incorrect
+['graham'],he,0,0.25,incorrect,thailand,0,0.29,incorrect,thailand,0,0.29,incorrect
+['adela'],he,0,0.29,incorrect,london,0,0.18,incorrect,london,0,0.18,incorrect
+['graham'],victorian,0,0.27,incorrect,paul mccartney,0,0.2,incorrect,paul mccartney,0,0.2,incorrect
+['graham'],my father,0,0.27,incorrect,google,0,0.17,incorrect,google,0,0.17,incorrect
+['arthur'],america,0,0.31,incorrect,world,0,0.18,incorrect,world,0,0.18,incorrect
+['adela'],"someone's name or a title is likely needed here, but given the context, a reasonable guess could be a character or figure in a position of authority or relevance to the conversation about ""eighteen-forty-seven"". without more context, a name that fits well in such historical or strategic discussions could be ""napoleon"" or another historical figure, but since ""eighteen-forty-seven"" seems to refer to a year, it might imply someone significant around that time.",0,0.02,incorrect,lincoln,0,0.17,incorrect,lincoln,0,0.17,incorrect
+['adela'],mayra,0,0.4,incorrect,einstein,0,0.15,incorrect,einstein,0,0.15,incorrect
+['arthur'],dad,0,0.22,incorrect,computer,0,0.29,incorrect,computer,0,0.29,incorrect
+['adela'],she,0,0.25,incorrect,shakespeare,0,0.38,incorrect,shakespeare,0,0.38,incorrect
+['adela'],someone,0,0.17,incorrect,stressed,0,0.15,incorrect,stressed,0,0.15,incorrect
+['arthur'],harry,0,0.55,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+"['anne', 'anne spencer', 'spencer']",holocaust,0,0.19,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+"['rogue male', 'rogue', 'male']",he,0,0.33,incorrect,god,0,0.25,incorrect,god,0,0.25,incorrect

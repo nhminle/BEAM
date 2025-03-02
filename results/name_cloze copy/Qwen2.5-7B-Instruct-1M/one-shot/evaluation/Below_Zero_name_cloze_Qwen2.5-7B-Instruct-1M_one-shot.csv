@@ -1,0 +1,49 @@
+Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct
+"['eager', 'beaver', 'eager beaver']",aside,0,0.4,incorrect,nasa,0,0.25,incorrect,nasa,0,0.25,incorrect
+['hannah'],name,0,0.4,incorrect,books,0,0.0,incorrect,books,0,0.0,incorrect
+"['kalpana', 'kalpana chawla', 'chawla']",lecture,0,0.19,incorrect,she,0,0.22,incorrect,she,0,0.22,incorrect
+['floyd'],crudity,0,0.17,incorrect,cheez-its,0,0.0,incorrect,cheez-its,0,0.0,incorrect
+['floyd'],mask,0,0.0,incorrect,aunt,0,0.0,incorrect,aunt,0,0.0,incorrect
+['mara'],cousin-or-something,0,0.09,incorrect,cousin-or-something,0,0.09,incorrect,cousin-or-something,0,0.09,incorrect
+['mara'],name,0,0.25,incorrect,his,0,0.0,incorrect,his,0,0.0,incorrect
+['floyd'],family,0,0.55,incorrect,brother,0,0.17,incorrect,brother,0,0.17,incorrect
+['python'],c++,0,0.0,incorrect,hal,0,0.22,incorrect,hal,0,0.22,incorrect
+['let'],friend,0,0.22,incorrect,sweet,0,0.5,incorrect,sweet,0,0.5,incorrect
+['fuck'],ian,0,0.0,incorrect,ian,0,0.0,incorrect,ian,0,0.0,incorrect
+['hannah'],you,0,0.0,incorrect,him,0,0.22,incorrect,him,0,0.22,incorrect
+['mara'],mask,0,0.5,incorrect,cousin,0,0.0,incorrect,cousin,0,0.0,incorrect
+['merel'],dr. [mask],0,0.13,incorrect,nasa,0,0.0,incorrect,nasa,0,0.0,incorrect
+['hannah'],us,0,0.0,incorrect,us,0,0.0,incorrect,us,0,0.0,incorrect
+['mara'],cousin,0,0.0,incorrect,cousin,0,0.0,incorrect,cousin,0,0.0,incorrect
+['mara'],mask,0,0.5,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['merel'],dr. amase,0,0.29,incorrect,dr.,0,0.25,incorrect,dr.,0,0.25,incorrect
+['karl'],my office mate,0,0.11,incorrect,mate,0,0.25,incorrect,mate,0,0.25,incorrect
+['haven'],haven't,0,0.83,correct,you,0,0.0,incorrect,you,0,0.0,incorrect
+['arroyo'],dr. ellen stofan,0,0.18,incorrect,spirit,0,0.17,incorrect,spirit,0,0.17,incorrect
+['arroyo'],dr. smith,0,0.13,incorrect,nasa,0,0.2,incorrect,nasa,0,0.2,incorrect
+['merel'],dr. amase,0,0.29,incorrect,nasa amase,0,0.27,incorrect,nasa amase,0,0.27,incorrect
+['floyd'],colleagues,0,0.13,incorrect,your,0,0.22,incorrect,your,0,0.22,incorrect
+['merel'],dr. smith,0,0.14,incorrect,norway,0,0.18,incorrect,norway,0,0.18,incorrect
+['hannah'],he,0,0.25,incorrect,mask,0,0.2,incorrect,mask,0,0.2,incorrect
+['merel'],it,0,0.0,incorrect,he,0,0.29,incorrect,he,0,0.29,incorrect
+['hannah'],he,0,0.25,incorrect,longyearbyen,0,0.22,incorrect,longyearbyen,0,0.22,incorrect
+['merel'],someone,0,0.5,incorrect,him,0,0.25,incorrect,him,0,0.25,incorrect
+['floyd'],m--,0,0.0,incorrect,mom,0,0.25,incorrect,mom,0,0.25,incorrect
+['hannah'],you,0,0.0,incorrect,asshole,0,0.31,incorrect,asshole,0,0.31,incorrect
+['hannah'],they,0,0.2,incorrect,asshole,0,0.31,incorrect,asshole,0,0.31,incorrect
+['merel'],ian,0,0.0,incorrect,ian,0,0.0,incorrect,ian,0,0.0,incorrect
+['mara'],someone,0,0.18,incorrect,he,0,0.0,incorrect,he,0,0.0,incorrect
+['mara'],name,0,0.25,incorrect,name,0,0.25,incorrect,name,0,0.25,incorrect
+['floyd'],the [mask] family,0,0.27,incorrect,fan,0,0.25,incorrect,fan,0,0.25,incorrect
+['mara'],mask,0,0.5,incorrect,hos,0,0.0,incorrect,hos,0,0.0,incorrect
+['mara'],sadie,0,0.22,incorrect,sadie,0,0.22,incorrect,sadie,0,0.22,incorrect
+['great'],aunt delphina,0,0.22,incorrect,aunt delphina,0,0.22,incorrect,aunt delphina,0,0.22,incorrect
+['hannah'],you,0,0.0,incorrect,you,0,0.0,incorrect,you,0,0.0,incorrect
+['hannah'],he,0,0.25,incorrect,well,0,0.0,incorrect,well,0,0.0,incorrect
+['hannah'],he,0,0.25,incorrect,friends,0,0.15,incorrect,friends,0,0.15,incorrect
+['hannah'],he,0,0.25,incorrect,axis,0,0.2,incorrect,axis,0,0.2,incorrect
+['hannah'],yes,0,0.0,incorrect,he,0,0.25,incorrect,he,0,0.25,incorrect
+['mara'],jane,0,0.25,incorrect,herself,0,0.18,incorrect,herself,0,0.18,incorrect
+['hannah'],he,0,0.25,incorrect,his,0,0.22,incorrect,his,0,0.22,incorrect
+['hannah'],he,0,0.25,incorrect,me,0,0.0,incorrect,me,0,0.0,incorrect
+['hannah'],the martians,0,0.33,incorrect,borealis,0,0.14,incorrect,borealis,0,0.14,incorrect

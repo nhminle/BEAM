@@ -191,19 +191,19 @@ def run_evaluation(model_folder):
 
 # Example usage:
 dirs_nct = [
-    'results/name_cloze/EuroLLM-9B-Instruct',
-    'results/name_cloze/gpt-4o-2024-11-20',
-    'results/name_cloze/Llama-3.1-8B-Instruct',
-    'results/name_cloze/Llama-3.1-8B-Instruct-quantized.w4a16',
-    'results/name_cloze/Llama-3.1-8B-Instruct-quantized.w8a16',
-    'results/name_cloze/Llama-3.1-70B-Instruct-quantized.w4a16',
-    'results/name_cloze/Llama-3.1-70B-Instruct-quantized.w8a16',
-    'results/name_cloze/OLMo-2-1124-7B-Instruct',
-    'results/name_cloze/Llama-3.1-70B-Instruct',
-    'results/name_cloze/Llama-3.3-70B-Instruct',
-    'results/name_cloze/Llama-3.1-405b',
-    'results/name_cloze/OLMo-2-1124-13B-Instruct',
-    'results/name_cloze/Qwen2.5-7B-Instruct-1M'
+    'results/name_cloze copy/EuroLLM-9B-Instruct',
+    'results/name_cloze copy/gpt-4o-2024-11-20',
+    'results/name_cloze copy/Llama-3.1-8B-Instruct',
+    'results/name_cloze copy/Llama-3.1-8B-Instruct-quantized.w4a16',
+    'results/name_cloze copy/Llama-3.1-8B-Instruct-quantized.w8a16',
+    'results/name_cloze copy/Llama-3.1-70B-Instruct-quantized.w4a16',
+    'results/name_cloze copy/Llama-3.1-70B-Instruct-quantized.w8a16',
+    'results/name_cloze copy/OLMo-2-1124-7B-Instruct',
+    'results/name_cloze copy/Llama-3.1-70B-Instruct',
+    'results/name_cloze copy/Llama-3.3-70B-Instruct',
+    'results/name_cloze copy/Llama-3.1-405b',
+    'results/name_cloze copy/OLMo-2-1124-13B-Instruct',
+    'results/name_cloze copy/Qwen2.5-7B-Instruct-1M'
 ]
 for d in dirs_nct:
     run_evaluation(d)

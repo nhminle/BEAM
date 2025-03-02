@@ -1,0 +1,101 @@
+Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct
+['peter'],fate,0,0.44,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['peter'],person,0,0.55,incorrect,hester,0,0.73,correct,hester,0,0.73,correct
+['daphne'],hester,0,0.33,incorrect,hester,0,0.33,incorrect,hester,0,0.33,incorrect
+['peter'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['dorner'],mr.,0,0.22,incorrect,mr.,0,0.22,incorrect,mr.,0,0.22,incorrect
+['petra'],john,0,0.0,incorrect,college,0,0.17,incorrect,college,0,0.17,incorrect
+['peter'],john,0,0.0,incorrect,hester,0,0.73,correct,hester,0,0.73,correct
+['daphne'],her,0,0.44,incorrect,hester,0,0.33,incorrect,hester,0,0.33,incorrect
+['peter'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['peter'],jessica,0,0.17,incorrect,she,0,0.25,incorrect,she,0,0.25,incorrect
+['daph'],john,0,0.25,incorrect,father,0,0.4,incorrect,father,0,0.4,incorrect
+['peter'],john,0,0.0,incorrect,mac,0,0.0,incorrect,mac,0,0.0,incorrect
+['peter'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['peter'],john,0,0.0,incorrect,bay,0,0.0,incorrect,bay,0,0.0,incorrect
+['arham'],dragons,0,0.33,incorrect,dragons,0,0.33,incorrect,dragons,0,0.33,incorrect
+['fontana'],child,0,0.0,incorrect,mom,0,0.2,incorrect,mom,0,0.2,incorrect
+['renesmee'],emily,0,0.31,incorrect,katie,0,0.15,incorrect,katie,0,0.15,incorrect
+['landon'],[mask],0,0.17,incorrect,kills,0,0.18,incorrect,kills,0,0.18,incorrect
+['peter'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['peter'],him,0,0.0,incorrect,hester,0,0.73,correct,hester,0,0.73,correct
+"['edvard munch', 'edvard', 'munch']",munch,1,1.0,correct,scream's,0,0.3,incorrect,scream's,0,0.3,incorrect
+['peter'],miles,0,0.2,incorrect,miles,0,0.2,incorrect,miles,0,0.2,incorrect
+['peter'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['peter'],john,0,0.0,incorrect,tom,0,0.25,incorrect,tom,0,0.25,incorrect
+['maya'],her,0,0.0,incorrect,her,0,0.0,incorrect,her,0,0.0,incorrect
+['harvey'],branch manager,0,0.3,incorrect,daughter,0,0.29,incorrect,daughter,0,0.29,incorrect
+['petra'],she,0,0.25,incorrect,she,0,0.25,incorrect,she,0,0.25,incorrect
+['peterverse'],chill coast,0,0.1,incorrect,bay,0,0.0,incorrect,bay,0,0.0,incorrect
+"['tom', 'tom petty', 'petty']",jazz,0,0.0,incorrect,bartender,0,0.22,incorrect,bartender,0,0.22,incorrect
+['peter'],john,0,0.0,incorrect,hester,0,0.73,correct,hester,0,0.73,correct
+['landon'],nathan,0,0.33,incorrect,apple,0,0.18,incorrect,apple,0,0.18,incorrect
+['petra'],she,0,0.25,incorrect,he,0,0.29,incorrect,he,0,0.29,incorrect
+['mulder'],kid,0,0.22,incorrect,she,0,0.22,incorrect,she,0,0.22,incorrect
+['mulder'],mom,0,0.22,incorrect,emily,0,0.36,incorrect,emily,0,0.36,incorrect
+['peter'],john,0,0.0,incorrect,hester,0,0.73,correct,hester,0,0.73,correct
+['batman'],lunch box,0,0.13,incorrect,john,0,0.2,incorrect,john,0,0.2,incorrect
+['daphne'],chardonnay,0,0.25,incorrect,chardonnay,0,0.25,incorrect,chardonnay,0,0.25,incorrect
+['greg'],craig,0,0.44,incorrect,craig,0,0.44,incorrect,craig,0,0.44,incorrect
+['daphne'],john,0,0.4,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
+['daphne'],big louie's,0,0.12,incorrect,louie,0,0.18,incorrect,louie,0,0.18,incorrect
+['peter'],nate,0,0.44,incorrect,he,0,0.29,incorrect,he,0,0.29,incorrect
+['peter'],mom,0,0.0,incorrect,mom,0,0.0,incorrect,mom,0,0.0,incorrect
+['peter'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['peter'],i,0,0.0,incorrect,he,0,0.29,incorrect,he,0,0.29,incorrect
+['petra'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['peter'],john's,0,0.0,incorrect,hester,0,0.73,correct,hester,0,0.73,correct
+['peter'],waning bay,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['cooper'],john,0,0.2,incorrect,john,0,0.2,incorrect,john,0,0.2,incorrect
+['cooper'],sarah,0,0.18,incorrect,hester,0,0.33,incorrect,hester,0,0.33,incorrect
+['peter'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['maya'],girl,0,0.0,incorrect,emily,0,0.44,incorrect,emily,0,0.44,incorrect
+['peter'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['peter'],her,0,0.5,incorrect,hester,0,0.73,correct,hester,0,0.73,correct
+['peter'],him,0,0.0,incorrect,her,0,0.5,incorrect,her,0,0.5,incorrect
+['harvey'],library,0,0.46,incorrect,library,0,0.46,incorrect,library,0,0.46,incorrect
+"['freeman', 'morgan', 'morgan freeman']",hemingway,0,0.4,incorrect,he,0,0.22,incorrect,he,0,0.22,incorrect
+['harvey'],name,0,0.4,incorrect,dungeons dragons,0,0.09,incorrect,dungeons dragons,0,0.09,incorrect
+['daphne'],big bad wolf,0,0.11,incorrect,wolf,0,0.0,incorrect,wolf,0,0.0,incorrect
+['barb'],lily,0,0.0,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['barb'],emily,0,0.0,incorrect,hester,0,0.2,incorrect,hester,0,0.2,incorrect
+['martín'],chef,0,0.0,incorrect,butcher,0,0.15,incorrect,butcher,0,0.15,incorrect
+['clarence'],he,0,0.2,incorrect,john,0,0.17,incorrect,john,0,0.17,incorrect
+['daphne'],john,0,0.4,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
+"['claus', 'santa', 'santa claus']",john,0,0.22,incorrect,john,0,0.22,incorrect,john,0,0.22,incorrect
+['petra'],miles,0,0.2,incorrect,miles,0,0.2,incorrect,miles,0,0.2,incorrect
+['petra'],him,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['ben'],his brother,0,0.29,incorrect,christmas,0,0.0,incorrect,christmas,0,0.0,incorrect
+['pam'],jan,0,0.33,incorrect,jan,0,0.33,incorrect,jan,0,0.33,incorrect
+"['ryan reynolds', 'reynolds', 'ryan']",john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['daphne'],her,0,0.44,incorrect,he,0,0.5,incorrect,he,0,0.5,incorrect
+"['lucas', 'charlotte lucas', 'charlotte']",john,0,0.15,incorrect,name,0,0.31,incorrect,name,0,0.31,incorrect
+['daphne'],roommate,0,0.29,incorrect,roommate,0,0.29,incorrect,roommate,0,0.29,incorrect
+['jules'],mrs. jenkins,0,0.35,incorrect,uncle,0,0.6,incorrect,uncle,0,0.6,incorrect
+['daphne'],miles,0,0.18,incorrect,miles's,0,0.15,incorrect,miles's,0,0.15,incorrect
+['daphne'],john,0,0.4,incorrect,he,0,0.5,incorrect,he,0,0.5,incorrect
+"['stanley', 'handsy stanley', 'handsy']",him,0,0.22,incorrect,mary,0,0.4,incorrect,mary,0,0.4,incorrect
+['petra'],john,0,0.0,incorrect,hester,0,0.55,incorrect,hester,0,0.55,incorrect
+['daphne'],hester,0,0.33,incorrect,little,0,0.17,incorrect,little,0,0.17,incorrect
+['daphne'],nathan,0,0.5,incorrect,he,0,0.5,incorrect,he,0,0.5,incorrect
+['beard'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['petra'],hester,0,0.55,incorrect,he,0,0.29,incorrect,he,0,0.29,incorrect
+['duke'],sarah,0,0.0,incorrect,you,0,0.29,incorrect,you,0,0.29,incorrect
+['duke'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['duke'],husband,0,0.18,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['daphne'],john,0,0.4,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
+['petra'],baby,0,0.22,incorrect,woman,0,0.2,incorrect,woman,0,0.2,incorrect
+['harvey'],jane,0,0.4,incorrect,hester,0,0.33,incorrect,hester,0,0.33,incorrect
+['harvey'],ashleigh,0,0.29,incorrect,ashleigh's,0,0.25,incorrect,ashleigh's,0,0.25,incorrect
+['harvey'],john,0,0.2,incorrect,hallway,0,0.46,incorrect,hallway,0,0.46,incorrect
+['lenore'],hester,0,0.33,incorrect,hester,0,0.33,incorrect,hester,0,0.33,incorrect
+['daphne'],john,0,0.4,incorrect,he,0,0.5,incorrect,he,0,0.5,incorrect
+['lance'],john,0,0.22,incorrect,kid,0,0.0,incorrect,kid,0,0.0,incorrect
+['petra'],name,0,0.22,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['petra'],mother,0,0.36,incorrect,she,0,0.25,incorrect,she,0,0.25,incorrect
+['jules'],miles,0,0.6,incorrect,miles,0,0.6,incorrect,miles,0,0.6,incorrect
+['daphne'],he,0,0.5,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
+['daphne'],camel,0,0.36,incorrect,he,0,0.5,incorrect,he,0,0.5,incorrect
+['mulder'],mom,0,0.22,incorrect,dad,0,0.22,incorrect,dad,0,0.22,incorrect
+['duke'],wall,0,0.0,incorrect,hester,0,0.2,incorrect,hester,0,0.2,incorrect
+['duke'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
