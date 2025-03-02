@@ -1,4 +1,4 @@
-Single_ent,en_masked,en_masked_shuffled,en_masked_results,en_masked_shuffled_results
+Single_ent,en,en_shuffled,en_results,en_shuffled_results
 ['peter'],"[MASK] said this felt like an invitation. Laughed, almost self-deprecatingly, as he added, “I’d never believed in fate before that.”","Laughed, he almost in before felt this self-deprecatingly, believed added, as fate that.” invitation. “I’d never said an like [MASK]","<output>""title"": ""The Seven Husbands of Evelyn Hugo"",""author"": ""Taylor Jenkins Reid""</output>","It appears the provided passage has been fragmented or contains placeholders like `[MASK]`, which makes it difficult to identify the origin. However, based on the structure and style, I will make a guess.
 
 <output>""title"": ""The Catcher in the Rye"",""author"": ""J.D. Salinger""</output>"
