@@ -23,6 +23,20 @@ def list_csv_files(directory):
         print(f"Error: Permission denied for accessing '{directory}'.")
         return []
     
+def list_csv_files(directory):
+    try:
+        files = os.listdir(directory)
+        
+        csv_files = [file.replace('.csv', '') for file in files if file.endswith('.csv')]
+        
+        return csv_files
+    except FileNotFoundError:
+        print(f"Error: The directory '{directory}' does not exist.")
+        return []
+    except PermissionError:
+        print(f"Error: Permission denied for accessing '{directory}'.")
+        return []
+    
 def calculate_sentence_metrics(lang, prediction: str, reference: str, metric_name: str) -> float:
     if metric_name == "BERTScore":
         results = bertscore.compute(predictions=[prediction], references=[reference], lang=lang)
@@ -49,10 +63,10 @@ def main():
     # models = ['OLMo-2-1124-7B-Instruct']
     # models = ['Llama-3.1-8B-Instruct-quantized.w4a16','Llama-3.1-8B-Instruct-quantized.w8a16','Llama-3.1-70B-Instruct-quantized.w4a16','Llama-3.1-8B-Instruct-quantized.w8a16']
     for model in models:
-        titles = list_csv_files(f'/Users/emir/Downloads/asd/BEAM/results/prefix_probe/{model}/{prompt_setting}/')
+        titles = list_csv_files(f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/prefix_probe/{model}/{prompt_setting}/')
         for title in titles:
             if model in title:
-                df = pd.read_csv(f'/Users/emir/Downloads/asd/BEAM/results/prefix_probe/{model}/{prompt_setting}/{title}.csv') # adjust path to files 
+                df = pd.read_csv(f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/prefix_probe/{model}/{prompt_setting}/{title}.csv') # adjust path to files 
                 df_out = pd.DataFrame()
 
                 available_langs = ["en", "vi", "es", "tr", "mg", "mai", "ty", "tn", "yo", "st"]
@@ -108,7 +122,7 @@ def main():
                 df_out.loc[df_out.index[-1], 'Index'] = 'System Scores'
 
                 # Save the output CSV
-                output_dir = f'/Users/emir/Downloads/asd/BEAM/results/prefix_probe/{model}/eval/csv'
+                output_dir = f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/prefix_probe/{model}/eval/csv'
                 os.makedirs(output_dir, exist_ok=True)
                 df_out.to_csv(f'{output_dir}/{title}.csv', index=False, encoding='utf-8')
 
