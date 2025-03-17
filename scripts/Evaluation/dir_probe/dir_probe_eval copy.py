@@ -227,8 +227,6 @@ if __name__ == "__main__":
     
     subdirs = [os.path.join(dp_dir, d) for d in os.listdir(dp_dir) if os.path.isdir(os.path.join(dp_dir, d))]
     
-    subdirs = ['results/direct_probe/Llama-3.1-405b copy']
-    
     for base_dir in subdirs:
         subdirs = [os.path.join(base_dir, d) for d in os.listdir(base_dir) if os.path.isdir(os.path.join(base_dir, d))]
         
