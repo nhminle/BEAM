@@ -5,27 +5,27 @@ import matplotlib.pyplot as plt
 import tiktoken
 
 # Hardcoded paths
-BASE_PROMPT_PATH = "/Users/alishasrivastava/BEAM-scripts/BEAM/scripts/Prompts"
+BASE_PROMPT_PATH = "/Users/alishasrivastava/BEAM/scripts/Prompts"
 BOOK_FOLDERS = [
-    "/Users/alishasrivastava/BEAM-scripts/BEAM/results/direct_probe/gpt-4o-2024-11-20/masked_zero_shot/evaluation",
-    "/Users/alishasrivastava/BEAM-scripts/BEAM/results/direct_probe/EuroLLM-9B-Instruct/masked_zero_shot/evaluation",
-    "/Users/alishasrivastava/BEAM-scripts/BEAM/results/direct_probe/Llama-3.1-8B-Instruct-quantized.w4a16/masked_zero_shot/evaluation",
-    "/Users/alishasrivastava/BEAM-scripts/BEAM/results/direct_probe/Llama-3.1-8B-Instruct-quantized.w8a16/masked_zero_shot/evaluation",
-    "/Users/alishasrivastava/BEAM-scripts/BEAM/results/direct_probe/Llama-3.1-70B-Instruct_/masked_zero_shot/evaluation",
-    "/Users/alishasrivastava/BEAM-scripts/BEAM/results/direct_probe/Llama-3.1-70B-Instruct-quantized.w4a16/masked_zero_shot/evaluation",
-    "/Users/alishasrivastava/BEAM-scripts/BEAM/results/direct_probe/Llama-3.1-70B-Instruct-quantized.w8a16/masked_zero_shot/evaluation",
-    "/Users/alishasrivastava/BEAM-scripts/BEAM/results/direct_probe/Llama-3.1-405b/masked_zero_shot/evaluation",
-    "/Users/alishasrivastava/BEAM-scripts/BEAM/results/direct_probe/Llama-3.1-8B-Instruct_/masked_zero_shot/evaluation",
-    "/Users/alishasrivastava/BEAM-scripts/BEAM/results/direct_probe/OLMo-2-1124-7B-Instruct/masked_zero_shot/evaluation",
-    "/Users/alishasrivastava/BEAM-scripts/BEAM/results/direct_probe/OLMo-2-1124-13B-Instruct/masked_zero_shot/evaluation",
-    "/Users/alishasrivastava/BEAM-scripts/BEAM/results/direct_probe/Qwen2.5-7B-Instruct-1M/masked_zero_shot/evaluation"
+    "/Users/alishasrivastava/BEAM/results/direct_probe/gpt-4o-2024-11-20/non_ne_one_shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/direct_probe/EuroLLM-9B-Instruct/non_ne_one_shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-8B-Instruct-quantized.w4a16/non_ne_one_shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-8B-Instruct-quantized.w8a16/non_ne_one_shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-70B-Instruct_/non_ne_one_shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-70B-Instruct-quantized.w4a16/non_ne_one_shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-70B-Instruct-quantized.w8a16/non_ne_one_shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-405b/non_ne_one_shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-8B-Instruct_/non_ne_one_shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/direct_probe/OLMo-2-1124-7B-Instruct/non_ne_one_shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/direct_probe/OLMo-2-1124-13B-Instruct/non_ne_one_shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/direct_probe/Qwen2.5-7B-Instruct-1M/non_ne_one_shot/evaluation"
 ]
 
 # Language groups
 LANG_GROUPS = {
-    "English": ["en"],
-    "Translated": ["es", "tr", "vi"],
-    "Cross-lingual": ["st", "yo", "tn", "ty", "mai", "mg"]
+    "English": ["en_shuffled"],
+    "Translated": ["es_shuffled", "tr_shuffled", "vi_shuffled"],
+    "Cross-lingual": ["st_shuffled", "yo_shuffled", "tn_shuffled", "ty_shuffled", "mai_shuffled", "mg_shuffled"]
 }
 
 # Tokenization buckets
@@ -61,7 +61,7 @@ def extract_book_name(filename):
 def load_masked_passages(book_name):
     """ Loads the masked passages file for the given book. """
     formatted_name = book_name.replace(" ", "_")  # Convert spaces to underscores
-    masked_path = os.path.join(BASE_PROMPT_PATH, formatted_name, f"{formatted_name}_masked_passages.csv")
+    masked_path = os.path.join(BASE_PROMPT_PATH, formatted_name, f"{formatted_name}_non_NE.csv")
     
     if not os.path.exists(masked_path):
         print(f"Warning: Masked passages file not found for {book_name}. Expected at: {masked_path}")
@@ -97,7 +97,7 @@ def load_and_process_data():
 
                 for lang_col in lang_columns:
                     correct_col = f"{lang_col}_results_both_match"
-                    masked_col = f"{lang_col}_masked" if lang in ["English", "Translated"] else lang_col  #masked_col = f"{lang_col}_masked" if lang in ["English", "Translated"] else lang_col IF MASKED DATA else masked_col = lang_col
+                    masked_col = lang_col #masked_col = f"{lang_col}_masked" if lang in ["English", "Translated"] else lang_col IF MASKED DATA else masked_col = lang_col
 
                     if correct_col in df.columns and masked_col in masked_df.columns:
                         df[correct_col] = df[correct_col].astype(str).str.lower().str.strip()
@@ -184,9 +184,9 @@ for i in range(len(x_positions)):
 
 plt.xlabel("Context Length (Tokens)")
 plt.ylabel("Accuracy (%)")
-plt.title("Direct Probe: Masked Zero-Shot Accuracy vs. Context Length")
+plt.title("Direct Probe: Shuffled Non NE One-Shot Accuracy vs. Context Length")
 plt.legend()
 plt.grid(True)
 plt.xticks(x_positions, accuracy_df["Context Length Bucket"], rotation=45)
-plt.savefig("zs_masked_accuracy_vs_context_length.png", dpi=300, bbox_inches="tight")
+plt.savefig("os_shuffled_non_ne_accuracy_vs_context_length.png", dpi=300, bbox_inches="tight")
 plt.show()

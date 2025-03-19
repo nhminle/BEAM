@@ -5,26 +5,26 @@ import matplotlib.pyplot as plt
 import tiktoken
 
 # Hardcoded paths
-BASE_PROMPT_PATH = "/Users/alishasrivastava/BEAM-scripts/BEAM/scripts/Prompts"
+BASE_PROMPT_PATH = "/Users/alishasrivastava/BEAM/scripts/Prompts"
 BOOK_FOLDERS = [
-    "/Users/alishasrivastava/BEAM-scripts/BEAM/results/name_cloze/gpt-4o-2024-11-20/one-shot/evaluation",
-    "/Users/alishasrivastava/BEAM-scripts/BEAM/results/name_cloze/EuroLLM-9B-Instruct/one-shot/evaluation",
-    "/Users/alishasrivastava/BEAM-scripts/BEAM/results/name_cloze/Llama-3.1-8B-Instruct-quantized.w4a16/one-shot/evaluation",
-    "/Users/alishasrivastava/BEAM-scripts/BEAM/results/name_cloze/Llama-3.1-8B-Instruct-quantized.w8a16/one-shot/evaluation",
-    "/Users/alishasrivastava/BEAM-scripts/BEAM/results/name_cloze/Llama-3.1-70B-Instruct_/one-shot/evaluation",
-    "/Users/alishasrivastava/BEAM-scripts/BEAM/results/name_cloze/Llama-3.1-70B-Instruct-quantized.w4a16/one-shot/evaluation",
-    "/Users/alishasrivastava/BEAM-scripts/BEAM/results/name_cloze/Llama-3.1-70B-Instruct-quantized.w8a16/one-shot/evaluation",
-    "/Users/alishasrivastava/BEAM-scripts/BEAM/results/name_cloze/Llama-3.1-405b/one-shot/evaluation",
-    "/Users/alishasrivastava/BEAM-scripts/BEAM/results/name_cloze/Llama-3.1-8B-Instruct_/one-shot/evaluation",
-    "/Users/alishasrivastava/BEAM-scripts/BEAM/results/name_cloze/OLMo-2-1124-7B-Instruct/one-shot/evaluation",
-    "/Users/alishasrivastava/BEAM-scripts/BEAM/results/name_cloze/OLMo-2-1124-13B-Instruct/one-shot/evaluation",
-    "/Users/alishasrivastava/BEAM-scripts/BEAM/results/name_cloze/Qwen2.5-7B-Instruct-1M/one-shot/evaluation"
+    "/Users/alishasrivastava/BEAM/results/name_cloze/gpt-4o-2024-11-20/zero-shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/name_cloze/EuroLLM-9B-Instruct/zero-shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/name_cloze/Llama-3.1-8B-Instruct-quantized.w4a16/zero-shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/name_cloze/Llama-3.1-8B-Instruct-quantized.w8a16/zero-shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/name_cloze/Llama-3.1-70B-Instruct_/zero-shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/name_cloze/Llama-3.1-70B-Instruct-quantized.w4a16/zero-shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/name_cloze/Llama-3.1-70B-Instruct-quantized.w8a16/zero-shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/name_cloze/Llama-3.1-405b/zero-shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/name_cloze/Llama-3.1-8B-Instruct_/zero-shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/name_cloze/OLMo-2-1124-7B-Instruct/zero-shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/name_cloze/OLMo-2-1124-13B-Instruct/zero-shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/name_cloze/Qwen2.5-7B-Instruct-1M/zero-shot/evaluation"
 ]
 # Language groups
 LANG_GROUPS = {
     "English": ["en"],
     "Translated": ["es", "tr", "vi"],
-    "Cross-lingual": ["st", "yo", "tn", "ty", "mai", "mg"]
+    "Cross-lingual": ["st_shuffled", "yo_shuffled", "tn_shuffled", "ty_shuffled", "mai_shuffled", "mg_shuffled"]
 }
 
 # Tokenization buckets
@@ -89,7 +89,7 @@ def load_and_process_data():
 
                     for lang_col in lang_columns:
                         correct_col = f"{lang_col}_correct"
-                        masked_col = f"{lang_col}_masked" if lang in ["English", "Translated"] else lang_col
+                        masked_col = f"{lang_col}_masked_shuffled" if lang in ["English", "Translated"] else lang_col
 
                         if correct_col in df.columns and masked_col in masked_df.columns:
                             df[correct_col] = df[correct_col].astype(str).str.lower().str.strip()
@@ -168,8 +168,8 @@ for i in range(len(x_positions)):
 
 plt.xlabel("Context Length (Tokens)")
 plt.ylabel("Accuracy (%)")
-plt.title("Name Cloze Task: One-Shot Accuracy vs. Context Length")
+plt.title("Name Cloze Task: Shuffled Zero-Shot Accuracy vs. Context Length")
 plt.legend()
 plt.grid(True)
-plt.savefig("flare_accuracy_vs_context_length.png", dpi=300, bbox_inches="tight")
+plt.savefig("zs_shuffled_accuracy_vs_context_length.png", dpi=300, bbox_inches="tight")
 plt.show()
