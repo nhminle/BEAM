@@ -1,0 +1,49 @@
+Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct
+"['beaver', 'eager beaver', 'eager']",samantha,0,0.2,incorrect,nasa,0,0.25,incorrect,nasa,0,0.25,incorrect
+['hannah'],bob,0,0.0,incorrect,inconclusive,0,0.22,incorrect,inconclusive,0,0.22,incorrect
+"['chawla', 'kalpana', 'kalpana chawla']",einstein,0,0.13,incorrect,sophia,0,0.33,incorrect,sophia,0,0.33,incorrect
+['floyd'],prime,0,0.0,incorrect,mars,0,0.0,incorrect,mars,0,0.0,incorrect
+['floyd'],finnish,0,0.17,incorrect,wikipedia,0,0.14,incorrect,wikipedia,0,0.14,incorrect
+['mara'],emily,0,0.22,incorrect,midori,0,0.4,incorrect,midori,0,0.4,incorrect
+['mara'],michael,0,0.36,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['floyd'],smith,0,0.0,incorrect,trace,0,0.0,incorrect,trace,0,0.0,incorrect
+['python'],python,1,1.0,correct,hal/s,0,0.18,incorrect,hal/s,0,0.18,incorrect
+['let'],alex,0,0.57,incorrect,humanity,0,0.18,incorrect,humanity,0,0.18,incorrect
+['fuck'],ian,0,0.0,incorrect,ian,0,0.0,incorrect,ian,0,0.0,incorrect
+['hannah'],emily,0,0.0,incorrect,caltech,0,0.31,incorrect,caltech,0,0.31,incorrect
+['mara'],sarah,0,0.67,incorrect,water,0,0.44,incorrect,water,0,0.44,incorrect
+['merel'],anderson,0,0.31,incorrect,drake,0,0.4,incorrect,drake,0,0.4,incorrect
+['hannah'],chris,0,0.18,incorrect,nasa,0,0.4,incorrect,nasa,0,0.4,incorrect
+['mara'],sarah,0,0.67,incorrect,mary,0,0.75,correct,mary,0,0.75,correct
+['mara'],emily,0,0.22,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['merel'],nguyen,0,0.18,incorrect,dr. smith,0,0.14,incorrect,dr. smith,0,0.14,incorrect
+['karl'],emily,0,0.22,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['haven'],haven,1,1.0,correct,don,0,0.25,incorrect,don,0,0.25,incorrect
+['arroyo'],kimberly,0,0.29,incorrect,spirit,0,0.17,incorrect,spirit,0,0.17,incorrect
+['arroyo'],smith,0,0.0,incorrect,dr. smith,0,0.13,incorrect,dr. smith,0,0.13,incorrect
+['merel'],dr. lewis,0,0.29,incorrect,dr. smith,0,0.14,incorrect,dr. smith,0,0.14,incorrect
+['floyd'],veto,0,0.22,incorrect,james,0,0.0,incorrect,james,0,0.0,incorrect
+['merel'],anderson,0,0.31,incorrect,dr. andersen,0,0.35,incorrect,dr. andersen,0,0.35,incorrect
+['hannah'],alex,0,0.2,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
+['merel'],emily,0,0.4,incorrect,his,0,0.0,incorrect,his,0,0.0,incorrect
+['hannah'],unknown,0,0.31,incorrect,longyearbyen,0,0.22,incorrect,longyearbyen,0,0.22,incorrect
+['merel'],snow,0,0.0,incorrect,james,0,0.4,incorrect,james,0,0.4,incorrect
+['floyd'],marcus,0,0.0,incorrect,michael,0,0.17,incorrect,michael,0,0.17,incorrect
+['hannah'],emily,0,0.0,incorrect,james,0,0.18,incorrect,james,0,0.18,incorrect
+['hannah'],john,0,0.4,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
+['merel'],andrew,0,0.36,incorrect,ian,0,0.0,incorrect,ian,0,0.0,incorrect
+['mara'],sarah,0,0.67,incorrect,he,0,0.0,incorrect,he,0,0.0,incorrect
+['mara'],sarah,0,0.67,incorrect,mary,0,0.75,correct,mary,0,0.75,correct
+['floyd'],smith,0,0.0,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['mara'],lisa,0,0.25,incorrect,hos,0,0.0,incorrect,hos,0,0.0,incorrect
+['mara'],jason,0,0.22,incorrect,sadie,0,0.22,incorrect,sadie,0,0.22,incorrect
+['great'],luke,0,0.22,incorrect,delphina,0,0.31,incorrect,delphina,0,0.31,incorrect
+['hannah'],alex,0,0.2,incorrect,guy,0,0.0,incorrect,guy,0,0.0,incorrect
+['hannah'],emily,0,0.0,incorrect,well,0,0.0,incorrect,well,0,0.0,incorrect
+['hannah'],rachel,0,0.33,incorrect,michael,0,0.31,incorrect,michael,0,0.31,incorrect
+['hannah'],unknown,0,0.31,incorrect,james,0,0.18,incorrect,james,0,0.18,incorrect
+['hannah'],alex,0,0.2,incorrect,joe,0,0.0,incorrect,joe,0,0.0,incorrect
+['mara'],olive,0,0.0,incorrect,sarah,0,0.67,incorrect,sarah,0,0.67,incorrect
+['hannah'],ethan,0,0.55,incorrect,his,0,0.22,incorrect,his,0,0.22,incorrect
+['hannah'],julia,0,0.18,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
+['hannah'],mark,0,0.2,incorrect,borealis,0,0.14,incorrect,borealis,0,0.14,incorrect

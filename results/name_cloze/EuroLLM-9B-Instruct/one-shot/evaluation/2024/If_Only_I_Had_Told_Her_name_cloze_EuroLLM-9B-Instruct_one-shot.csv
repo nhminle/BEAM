@@ -1,0 +1,77 @@
+Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct
+['jack'],autumn,0,0.2,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],autumn,0,0.2,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],autumn,0,0.2,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],john,0,0.25,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['jack'],autumn,0,0.2,incorrect,he,0,0.0,incorrect,he,0,0.0,incorrect
+['jack'],name,0,0.25,incorrect,zoned,0,0.0,incorrect,zoned,0,0.0,incorrect
+['jack'],john,0,0.25,incorrect,tom,0,0.0,incorrect,tom,0,0.0,incorrect
+['jack'],he,0,0.0,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['jack'],autumn,0,0.2,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['jack'],john,0,0.25,incorrect,gym teacher,0,0.27,incorrect,gym teacher,0,0.27,incorrect
+['jack'],autumn,0,0.2,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],autumn,0,0.2,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['jack'],autumn,0,0.2,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],autumn,0,0.2,incorrect,hester,0,0.0,incorrect,hester,0,0.0,incorrect
+['jack'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['jack'],autumn,0,0.2,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['jack'],autumn,0,0.2,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],jv,0,0.33,incorrect,varsity,0,0.18,incorrect,varsity,0,0.18,incorrect
+['jack'],junior,0,0.2,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['jack'],varsity,0,0.18,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['jack'],coach,0,0.44,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['jack'],the girls,0,0.0,incorrect,emily,0,0.0,incorrect,emily,0,0.0,incorrect
+['jack'],her,0,0.0,incorrect,hester,0,0.0,incorrect,hester,0,0.0,incorrect
+['jack'],autumn,0,0.2,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],hester,0,0.0,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['autumn'],she,0,0.0,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['autumn'],emily,0,0.18,incorrect,emily,0,0.18,incorrect,emily,0,0.18,incorrect
+['autumn'],sarah,0,0.18,incorrect,john,0,0.2,incorrect,john,0,0.2,incorrect
+['jack'],john,0,0.25,incorrect,hester,0,0.0,incorrect,hester,0,0.0,incorrect
+['jack'],him,0,0.0,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['jack'],him,0,0.0,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+"['george w', 'george', 'w']",bush,0,0.0,incorrect,mom,0,0.22,incorrect,mom,0,0.22,incorrect
+['jack'],she,0,0.0,incorrect,hester,0,0.0,incorrect,hester,0,0.0,incorrect
+['syl'],i,0,0.0,incorrect,i,0,0.0,incorrect,i,0,0.0,incorrect
+['syl'],jessica,0,0.2,incorrect,her,0,0.0,incorrect,her,0,0.0,incorrect
+['lexy'],sarah,0,0.0,incorrect,queen,0,0.22,incorrect,queen,0,0.22,incorrect
+['jack'],finn,0,0.0,incorrect,finn,0,0.0,incorrect,finn,0,0.0,incorrect
+['jack'],john,0,0.25,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['jack'],me,0,0.0,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['jack'],you,0,0.0,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['sylv'],[mask],0,0.2,incorrect,hester,0,0.2,incorrect,hester,0,0.2,incorrect
+['trevor'],he,0,0.25,incorrect,john,0,0.2,incorrect,john,0,0.2,incorrect
+['chloe'],girlfriend,0,0.27,incorrect,hester,0,0.36,incorrect,hester,0,0.36,incorrect
+['chloe'],her friend's,0,0.24,incorrect,hester,0,0.36,incorrect,hester,0,0.36,incorrect
+['chloe'],name,0,0.22,incorrect,girl,0,0.22,incorrect,girl,0,0.22,incorrect
+['kyle'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['kyle'],john,0,0.0,incorrect,cali,0,0.25,incorrect,cali,0,0.25,incorrect
+['kyle'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['carter'],mrs. [mask],0,0.12,incorrect,mrs. good,0,0.13,incorrect,mrs. good,0,0.13,incorrect
+['brett'],child's,0,0.0,incorrect,parents',0,0.46,incorrect,parents',0,0.46,incorrect
+['brett'],student,0,0.33,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['brett'],john,0,0.0,incorrect,dave,0,0.22,incorrect,dave,0,0.22,incorrect
+['brett'],middle school,0,0.11,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['brett'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['brett'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['zelda'],shirt,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['brett'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['brett'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['brett'],he,0,0.29,incorrect,he,0,0.29,incorrect,he,0,0.29,incorrect
+['taylor'],she,0,0.0,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['sylv'],john,0,0.0,incorrect,hester,0,0.2,incorrect,hester,0,0.2,incorrect
+['dave'],baby,0,0.25,incorrect,she,0,0.29,incorrect,she,0,0.29,incorrect
+['beba'],meh,0,0.29,incorrect,she,0,0.29,incorrect,she,0,0.29,incorrect
+['dave'],love,0,0.5,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['john'],the hostess,0,0.13,incorrect,hostess,0,0.18,incorrect,hostess,0,0.18,incorrect
+['john'],the waitress,0,0.12,incorrect,waitress,0,0.0,incorrect,waitress,0,0.0,incorrect
+['john'],john,1,1.0,correct,"the name that fills the [mask] token in the passage is likely ""the"". however, without more context, it's difficult to determine the exact name. the passage appears to be a fragment of a sentence, and the [mask] token is likely a placeholder for a proper noun. if you can provide more context or the full passage, i can try to provide a more accurate answer.",0,0.02,incorrect,"the name that fills the [mask] token in the passage is likely ""the"". however, without more context, it's difficult to determine the exact name. the passage appears to be a fragment of a sentence, and the [mask] token is likely a placeholder for a proper noun. if you can provide more context or the full passage, i can try to provide a more accurate answer.",0,0.02,incorrect
+['john'],[mask],0,0.0,incorrect,hester,0,0.2,incorrect,hester,0,0.2,incorrect
+['stella'],autumn,0,0.17,incorrect,she,0,0.44,incorrect,she,0,0.44,incorrect
+['john'],john,1,1.0,correct,waitress,0,0.0,incorrect,waitress,0,0.0,incorrect
+['jack'],hester,0,0.0,incorrect,him,0,0.0,incorrect,him,0,0.0,incorrect
+['john'],phineas,0,0.36,incorrect,phineas's,0,0.31,incorrect,phineas's,0,0.31,incorrect
+['john'],dad,0,0.0,incorrect,baby,0,0.0,incorrect,baby,0,0.0,incorrect
+['jack'],baby's,0,0.2,incorrect,baby,0,0.25,incorrect,baby,0,0.25,incorrect
+['jack'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['jack'],[mask],0,0.4,incorrect,hester,0,0.0,incorrect,hester,0,0.0,incorrect

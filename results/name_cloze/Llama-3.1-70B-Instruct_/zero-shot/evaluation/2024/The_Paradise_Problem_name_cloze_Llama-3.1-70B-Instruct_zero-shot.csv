@@ -1,0 +1,101 @@
+Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct
+['jake'],uber,0,0.25,incorrect,shakespeare,0,0.4,incorrect,shakespeare,0,0.4,incorrect
+['jake'],chris,0,0.0,incorrect,west,0,0.25,incorrect,west,0,0.25,incorrect
+['anna'],west,0,0.0,incorrect,friend,0,0.2,incorrect,friend,0,0.2,incorrect
+['anna'],jessica,0,0.18,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+"['john', 'john wayne', 'wayne']",los angeles,0,0.48,incorrect,changi,0,0.4,incorrect,changi,0,0.4,incorrect
+['anna'],god,0,0.0,incorrect,donald,0,0.4,incorrect,donald,0,0.4,incorrect
+['anna'],kim,0,0.0,incorrect,kim kardashian west,0,0.17,incorrect,kim kardashian west,0,0.17,incorrect
+['conan'],ron jeremy,0,0.27,incorrect,godzilla,0,0.31,incorrect,godzilla,0,0.31,incorrect
+['anna'],lily,0,0.0,incorrect,hair,0,0.25,incorrect,hair,0,0.25,incorrect
+['jake'],he,0,0.33,incorrect,harry,0,0.22,incorrect,harry,0,0.22,incorrect
+['jake'],west,0,0.25,incorrect,mike,0,0.5,incorrect,mike,0,0.5,incorrect
+['conan'],wwe,0,0.0,incorrect,eastenders,0,0.27,incorrect,eastenders,0,0.27,incorrect
+['jake'],god,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['anna'],emily,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['anna'],jessica,0,0.18,incorrect,miss piggy,0,0.0,incorrect,miss piggy,0,0.0,incorrect
+['anna'],emily,0,0.0,incorrect,emily,0,0.0,incorrect,emily,0,0.0,incorrect
+['anna'],,0,0.57,incorrect,premed,0,0.0,incorrect,premed,0,0.0,incorrect
+['anna'],james,0,0.22,incorrect,barbados,0,0.33,incorrect,barbados,0,0.33,incorrect
+['anna'],her,0,0.0,incorrect,jingga,0,0.4,incorrect,jingga,0,0.4,incorrect
+['anna'],sheila,0,0.2,incorrect,loops,0,0.0,incorrect,loops,0,0.0,incorrect
+['jake'],god,0,0.0,incorrect,los angeles,0,0.27,incorrect,los angeles,0,0.27,incorrect
+"['nelson', 'jenny nelson', 'jenny']",rudolph,0,0.15,incorrect,rudolph,0,0.15,incorrect,rudolph,0,0.15,incorrect
+['anna'],emily,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['anna'],he,0,0.0,incorrect,you,0,0.0,incorrect,you,0,0.0,incorrect
+['anna'],she,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['babe'],honey,0,0.22,incorrect,you're,0,0.2,incorrect,you're,0,0.2,incorrect
+['anna'],guest,0,0.0,incorrect,salon,0,0.44,incorrect,salon,0,0.44,incorrect
+"['green', 'anna', 'anna green']",those who rush in at the last minute,0,0.22,incorrect,heathrow,0,0.22,incorrect,heathrow,0,0.22,incorrect
+['anna'],emily,0,0.0,incorrect,cinderella,0,0.29,incorrect,cinderella,0,0.29,incorrect
+['anna'],"her sister or her friend, but most likely her mother",0,0.04,incorrect,kim,0,0.0,incorrect,kim,0,0.0,incorrect
+['anna'],she,0,0.0,incorrect,her,0,0.0,incorrect,her,0,0.0,incorrect
+['anna'],jessi,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+"['green', 'anna', 'anna green']",gonzo,0,0.4,incorrect,kermit,0,0.18,incorrect,kermit,0,0.18,incorrect
+['anna'],she,0,0.0,incorrect,anna,1,1.0,correct,anna,1,1.0,correct
+['anna'],she,0,0.0,incorrect,uber,0,0.0,incorrect,uber,0,0.0,incorrect
+['anna'],she,0,0.0,incorrect,mom,0,0.0,incorrect,mom,0,0.0,incorrect
+['anna'],she,0,0.0,incorrect,beatles,0,0.18,incorrect,beatles,0,0.18,incorrect
+['jake'],harry,0,0.22,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['anna'],she,0,0.0,incorrect,beatrice,0,0.17,incorrect,beatrice,0,0.17,incorrect
+"['kellan', 'kellan mckellan', 'mckellan']",weston,0,0.33,incorrect,weston,0,0.33,incorrect,weston,0,0.33,incorrect
+['anna'],she,0,0.0,incorrect,attendant,0,0.46,incorrect,attendant,0,0.46,incorrect
+['anna'],eve,0,0.0,incorrect,east,0,0.25,incorrect,east,0,0.25,incorrect
+['gede'],he,0,0.33,incorrect,elon musk,0,0.15,incorrect,elon musk,0,0.15,incorrect
+['janet'],barbie,0,0.36,incorrect,twiggy,0,0.18,incorrect,twiggy,0,0.18,incorrect
+['anna'],stephanie,0,0.31,incorrect,barbie,0,0.2,incorrect,barbie,0,0.2,incorrect
+['janet'],mom,0,0.0,incorrect,mom,0,0.0,incorrect,mom,0,0.0,incorrect
+['anna'],emily,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['gede'],west,0,0.25,incorrect,esme,0,0.5,incorrect,esme,0,0.5,incorrect
+['anna'],west,0,0.0,incorrect,jesus,0,0.0,incorrect,jesus,0,0.0,incorrect
+['anna'],she,0,0.0,incorrect,yankees,0,0.36,incorrect,yankees,0,0.36,incorrect
+['anna'],she,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['anna'],mr.,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['jake'],he,0,0.33,incorrect,adam and eve,0,0.25,incorrect,adam and eve,0,0.25,incorrect
+['jake'],weston,0,0.2,incorrect,weston,0,0.2,incorrect,weston,0,0.2,incorrect
+['anna'],scarlett,0,0.17,incorrect,jewel,0,0.0,incorrect,jewel,0,0.0,incorrect
+['anna'],she,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['jake'],heathcliff,0,0.14,incorrect,jack daniel's,0,0.47,incorrect,jack daniel's,0,0.47,incorrect
+['jake'],he,0,0.33,incorrect,my dad,0,0.2,incorrect,my dad,0,0.2,incorrect
+['anna'],her husband,0,0.27,incorrect,camera,0,0.4,incorrect,camera,0,0.4,incorrect
+['anna'],madonna,0,0.73,correct,beatles,0,0.18,incorrect,beatles,0,0.18,incorrect
+['janet'],she,0,0.25,incorrect,hair,0,0.22,incorrect,hair,0,0.22,incorrect
+['alex'],trust me,0,0.17,incorrect,anyone,0,0.4,incorrect,anyone,0,0.4,incorrect
+['alex'],seinfeld,0,0.17,incorrect,carrots,0,0.18,incorrect,carrots,0,0.18,incorrect
+['alex'],me,0,0.33,incorrect,dad,0,0.29,incorrect,dad,0,0.29,incorrect
+['alex'],toto,0,0.0,incorrect,dad,0,0.29,incorrect,dad,0,0.29,incorrect
+['alex'],heathcliff,0,0.29,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['alex'],management,0,0.29,incorrect,shoe,0,0.25,incorrect,shoe,0,0.25,incorrect
+['anna'],she,0,0.0,incorrect,leg,0,0.0,incorrect,leg,0,0.0,incorrect
+['anna'],mom,0,0.0,incorrect,mother,0,0.0,incorrect,mother,0,0.0,incorrect
+['anna'],emily,0,0.0,incorrect,christ,0,0.0,incorrect,christ,0,0.0,incorrect
+['anna'],she,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['anna'],work,0,0.0,incorrect,mother,0,0.0,incorrect,mother,0,0.0,incorrect
+['anna'],jessica,0,0.18,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['alex'],anna,0,0.25,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['anna'],she,0,0.0,incorrect,elbow,0,0.0,incorrect,elbow,0,0.0,incorrect
+['eko'],she,0,0.33,incorrect,explore,0,0.4,incorrect,explore,0,0.4,incorrect
+['alex'],he,0,0.33,incorrect,he,0,0.33,incorrect,he,0,0.33,incorrect
+['alex'],he,0,0.33,incorrect,trump,0,0.0,incorrect,trump,0,0.0,incorrect
+['anna'],the dog,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['alex'],anna's husband,0,0.11,incorrect,anna,0,0.25,incorrect,anna,0,0.25,incorrect
+['alex'],someone,0,0.18,incorrect,her,0,0.29,incorrect,her,0,0.29,incorrect
+['anna'],west,0,0.0,incorrect,west,0,0.0,incorrect,west,0,0.0,incorrect
+['anna'],my mother,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['alex'],michael,0,0.36,incorrect,outdo,0,0.0,incorrect,outdo,0,0.0,incorrect
+['anna'],lily,0,0.0,incorrect,earth,0,0.22,incorrect,earth,0,0.22,incorrect
+['anna'],she,0,0.0,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['anna'],she,0,0.0,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['anna'],she,0,0.0,incorrect,he,0,0.0,incorrect,he,0,0.0,incorrect
+['mel'],ebay,0,0.29,incorrect,postmates,0,0.33,incorrect,postmates,0,0.33,incorrect
+['janet'],weston,0,0.36,incorrect,waterford,0,0.29,incorrect,waterford,0,0.29,incorrect
+['ray'],west's father,0,0.12,incorrect,forbes,0,0.22,incorrect,forbes,0,0.22,incorrect
+['alex'],someone else,0,0.25,incorrect,elon musk,0,0.15,incorrect,elon musk,0,0.15,incorrect
+"['green', 'anna', 'anna green']",jesus,0,0.2,incorrect,god,0,0.25,incorrect,god,0,0.25,incorrect
+['janet'],countess dracula,0,0.19,incorrect,dracula,0,0.17,incorrect,dracula,0,0.17,incorrect
+['reagan'],emily,0,0.18,incorrect,disney,0,0.17,incorrect,disney,0,0.17,incorrect
+['reagan'],his niece,0,0.13,incorrect,shoulder,0,0.14,incorrect,shoulder,0,0.14,incorrect
+['ray'],god,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['grandpa'],grandfather,0,0.67,incorrect,god,0,0.4,incorrect,god,0,0.4,incorrect
+['mel'],west,0,0.29,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['ray'],he,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect

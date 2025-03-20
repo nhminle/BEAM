@@ -1,0 +1,101 @@
+Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct
+['peter'],john,0,0.0,incorrect,fate,0,0.44,incorrect,fate,0,0.44,incorrect
+['peter'],alex,0,0.22,incorrect,mein,0,0.22,incorrect,mein,0,0.22,incorrect
+['daphne'],lucy,0,0.0,incorrect,heidi,0,0.36,incorrect,heidi,0,0.36,incorrect
+['peter'],john,0,0.0,incorrect,story,0,0.4,incorrect,story,0,0.4,incorrect
+['dorner'],smith,0,0.0,incorrect,mr. smith,0,0.13,incorrect,mr. smith,0,0.13,incorrect
+['petra'],chad,0,0.22,incorrect,stoner,0,0.36,incorrect,stoner,0,0.36,incorrect
+['peter'],john,0,0.0,incorrect,emily,0,0.2,incorrect,emily,0,0.2,incorrect
+['daphne'],emma,0,0.2,incorrect,"sorry, i can't determine a proper name to fill the [mask] from the given passage as it lacks meaningful context or structure.",0,0.09,incorrect,"sorry, i can't determine a proper name to fill the [mask] from the given passage as it lacks meaningful context or structure.",0,0.09,incorrect
+['peter'],chris,0,0.2,incorrect,kidding,0,0.0,incorrect,kidding,0,0.0,incorrect
+['peter'],emma,0,0.22,incorrect,emily,0,0.2,incorrect,emily,0,0.2,incorrect
+['daph'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['peter'],john,0,0.0,incorrect,mac,0,0.0,incorrect,mac,0,0.0,incorrect
+['peter'],john,0,0.0,incorrect,fool,0,0.0,incorrect,fool,0,0.0,incorrect
+['peter'],james,0,0.2,incorrect,bay,0,0.0,incorrect,bay,0,0.0,incorrect
+['arham'],charlie,0,0.33,incorrect,max,0,0.25,incorrect,max,0,0.25,incorrect
+['fontana'],emma,0,0.18,incorrect,mom,0,0.2,incorrect,mom,0,0.2,incorrect
+['renesmee'],sophie,0,0.29,incorrect,hell,0,0.17,incorrect,hell,0,0.17,incorrect
+['landon'],james,0,0.18,incorrect,kills,0,0.18,incorrect,kills,0,0.18,incorrect
+['peter'],michael,0,0.17,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['peter'],james,0,0.2,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+"['munch', 'edvard munch', 'edvard']",edvard munch,1,1.0,correct,edvard,1,1.0,correct,edvard,1,1.0,correct
+['peter'],alex,0,0.22,incorrect,miles,0,0.2,incorrect,miles,0,0.2,incorrect
+['peter'],michael,0,0.17,incorrect,spring,0,0.36,incorrect,spring,0,0.36,incorrect
+['peter'],alex,0,0.22,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['maya'],emily,0,0.44,incorrect,british,0,0.0,incorrect,british,0,0.0,incorrect
+['harvey'],michael,0,0.46,incorrect,ordinarily,0,0.38,incorrect,ordinarily,0,0.38,incorrect
+['petra'],jessica,0,0.33,incorrect,emily,0,0.2,incorrect,emily,0,0.2,incorrect
+['peterverse'],storm,0,0.27,incorrect,waning,0,0.0,incorrect,waning,0,0.0,incorrect
+"['tom petty', 'petty', 'tom']",jazz,0,0.0,incorrect,joe,0,0.33,incorrect,joe,0,0.33,incorrect
+['peter'],john,0,0.0,incorrect,wayne,0,0.2,incorrect,wayne,0,0.2,incorrect
+['landon'],jason,0,0.55,incorrect,james,0,0.18,incorrect,james,0,0.18,incorrect
+['petra'],sarah,0,0.4,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['mulder'],my child,0,0.43,incorrect,sheila,0,0.17,incorrect,sheila,0,0.17,incorrect
+['mulder'],her child,0,0.27,incorrect,emma,0,0.2,incorrect,emma,0,0.2,incorrect
+['peter'],karen,0,0.2,incorrect,wayne,0,0.2,incorrect,wayne,0,0.2,incorrect
+['batman'],charlie,0,0.15,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['daphne'],alex,0,0.4,incorrect,chardonnay,0,0.25,incorrect,chardonnay,0,0.25,incorrect
+['greg'],jonathan,0,0.0,incorrect,craig,0,0.44,incorrect,craig,0,0.44,incorrect
+['daphne'],alex,0,0.4,incorrect,he,0,0.5,incorrect,he,0,0.5,incorrect
+['daphne'],louie,0,0.18,incorrect,louie,0,0.18,incorrect,louie,0,0.18,incorrect
+['peter'],jason,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['peter'],mom,0,0.0,incorrect,mom,0,0.0,incorrect,mom,0,0.0,incorrect
+['peter'],chris,0,0.2,incorrect,at,0,0.29,incorrect,at,0,0.29,incorrect
+['peter'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['petra'],emily,0,0.2,incorrect,jason,0,0.2,incorrect,jason,0,0.2,incorrect
+['peter'],d.a.r.e.,0,0.15,incorrect,echo,0,0.22,incorrect,echo,0,0.22,incorrect
+['peter'],waning bay,0,0.0,incorrect,bay,0,0.0,incorrect,bay,0,0.0,incorrect
+['cooper'],jordan,0,0.33,incorrect,michael,0,0.31,incorrect,michael,0,0.31,incorrect
+['cooper'],emily,0,0.18,incorrect,emily,0,0.18,incorrect,emily,0,0.18,incorrect
+['peter'],jordan,0,0.18,incorrect,michael,0,0.17,incorrect,michael,0,0.17,incorrect
+['maya'],lila,0,0.25,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['peter'],her,0,0.5,incorrect,emma,0,0.22,incorrect,emma,0,0.22,incorrect
+['peter'],michael,0,0.17,incorrect,emily,0,0.2,incorrect,emily,0,0.2,incorrect
+['peter'],ryan,0,0.22,incorrect,alex,0,0.22,incorrect,alex,0,0.22,incorrect
+['harvey'],patricia,0,0.29,incorrect,waning,0,0.17,incorrect,waning,0,0.17,incorrect
+"['morgan', 'morgan freeman', 'freeman']",morgan freeman,1,1.0,correct,tom,0,0.24,incorrect,tom,0,0.24,incorrect
+['harvey'],alex,0,0.4,incorrect,dragons,0,0.15,incorrect,dragons,0,0.15,incorrect
+['daphne'],red,0,0.22,incorrect,wolf,0,0.0,incorrect,wolf,0,0.0,incorrect
+['barb'],emily,0,0.0,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['barb'],emily,0,0.0,incorrect,mary,0,0.5,incorrect,mary,0,0.5,incorrect
+['martín'],gordon,0,0.33,incorrect,olivier,0,0.15,incorrect,olivier,0,0.15,incorrect
+['clarence'],thomas,0,0.14,incorrect,william,0,0.27,incorrect,william,0,0.27,incorrect
+['daphne'],nick,0,0.2,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
+"['claus', 'santa', 'santa claus']",brad pitt,0,0.29,incorrect,dream,0,0.2,incorrect,dream,0,0.2,incorrect
+['petra'],sarah,0,0.4,incorrect,miles,0,0.2,incorrect,miles,0,0.2,incorrect
+['petra'],emily,0,0.2,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['ben'],james,0,0.25,incorrect,mary,0,0.0,incorrect,mary,0,0.0,incorrect
+['pam'],linda,0,0.25,incorrect,jan,0,0.33,incorrect,jan,0,0.33,incorrect
+"['ryan', 'ryan reynolds', 'reynolds']",ryan reynolds,1,1.0,correct,robin,0,0.44,incorrect,robin,0,0.44,incorrect
+['daphne'],anna,0,0.4,incorrect,god,0,0.22,incorrect,god,0,0.22,incorrect
+"['charlotte', 'charlotte lucas', 'lucas']",michael,0,0.5,incorrect,emma,0,0.22,incorrect,emma,0,0.22,incorrect
+['daphne'],sarah,0,0.36,incorrect,emily,0,0.18,incorrect,emily,0,0.18,incorrect
+['jules'],emma,0,0.22,incorrect,he,0,0.29,incorrect,he,0,0.29,incorrect
+['daphne'],emily,0,0.18,incorrect,miles,0,0.18,incorrect,miles,0,0.18,incorrect
+['daphne'],emma,0,0.2,incorrect,shit,0,0.2,incorrect,shit,0,0.2,incorrect
+"['stanley', 'handsy', 'handsy stanley']",john,0,0.4,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
+['petra'],john,0,0.0,incorrect,james,0,0.2,incorrect,james,0,0.2,incorrect
+['daphne'],john,0,0.4,incorrect,mark,0,0.2,incorrect,mark,0,0.2,incorrect
+['daphne'],emily,0,0.18,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
+['beard'],mark,0,0.44,incorrect,jack,0,0.22,incorrect,jack,0,0.22,incorrect
+['petra'],jason,0,0.2,incorrect,david,0,0.2,incorrect,david,0,0.2,incorrect
+['duke'],alex,0,0.25,incorrect,jason,0,0.0,incorrect,jason,0,0.0,incorrect
+['duke'],john,0,0.0,incorrect,ymca,0,0.0,incorrect,ymca,0,0.0,incorrect
+['duke'],mark,0,0.25,incorrect,alex,0,0.25,incorrect,alex,0,0.25,incorrect
+['daphne'],emma,0,0.2,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
+['petra'],emma,0,0.44,incorrect,emily,0,0.2,incorrect,emily,0,0.2,incorrect
+['harvey'],emily,0,0.36,incorrect,shakespeare,0,0.47,incorrect,shakespeare,0,0.47,incorrect
+['harvey'],james,0,0.36,incorrect,ashleigh,0,0.29,incorrect,ashleigh,0,0.29,incorrect
+['harvey'],james,0,0.36,incorrect,james,0,0.36,incorrect,james,0,0.36,incorrect
+['lenore'],sarah,0,0.18,incorrect,jane,0,0.4,incorrect,jane,0,0.4,incorrect
+['daphne'],emma,0,0.2,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
+['lance'],alex,0,0.44,incorrect,anderson,0,0.46,incorrect,anderson,0,0.46,incorrect
+['petra'],emma,0,0.44,incorrect,jesus,0,0.2,incorrect,jesus,0,0.2,incorrect
+['petra'],emily,0,0.2,incorrect,emma,0,0.44,incorrect,emma,0,0.44,incorrect
+['jules'],emma,0,0.22,incorrect,miles,0,0.6,incorrect,miles,0,0.6,incorrect
+['daphne'],christian,0,0.27,incorrect,michael,0,0.31,incorrect,michael,0,0.31,incorrect
+['daphne'],alice,0,0.36,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
+['mulder'],josh,0,0.0,incorrect,bravo,0,0.18,incorrect,bravo,0,0.18,incorrect
+['duke'],mom,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['duke'],john,0,0.0,incorrect,david,0,0.22,incorrect,david,0,0.22,incorrect

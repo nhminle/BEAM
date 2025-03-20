@@ -97,3 +97,8 @@ results/direct_probe/Llama-3.1-405b copy
 results/direct_probe/script.py
 results/direct_probe/delete_cols.py
 results/direct_probe/rename_cols.py
+results/direct_probe/aggregate_heatmaps/test
+scripts/Evaluation/dir_probe/heat_map_aggregate_copy copy 2.py
+scripts/Evaluation/dir_probe/heat_map_aggregate_copy copy 3.py
+scripts/Evaluation/nct/heat_map_aggregate copy 2.py
+scripts/Evaluation/nct/heat_map_aggregate copy 3.py

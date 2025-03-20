@@ -5,6 +5,16 @@ import unidecode
 from fuzzywuzzy import fuzz
 import ast
 
+def is_2024_book(book_title):
+    """
+    Check if the title is one of the 2024 set.
+    """
+    return book_title in [
+        'Below_Zero', 'Bride', 'First_Lie_Wins', 'Funny_Story',
+        'If_Only_I_Had_Told_Her', 'Just_for_the_Summer', 'Lies_and_Weddings',
+        'The_Ministry_of_Time', 'The_Paradise_Problem', 'You_Like_It_Darker_Stories'
+    ]
+
 def extract_output_names(text):
     """
     Extracts text between <output> and </output>.
@@ -33,9 +43,7 @@ def main(model_folder, prompt_setting, filename, book_title):
     df1 = pd.read_csv(input_filepath)
     
     # Load ground truth file based on book_title
-    if book_title in ['Below_Zero', 'Bride', 'First_Lie_Wins', 'Funny_Story', 
-                      'If_Only_I_Had_Told_Her', 'Just_for_the_Summer', 'Lies_and_Weddings', 
-                      'The_Ministry_of_Time', 'The_Paradise_Problem', 'You_Like_It_Darker_Stories']:
+    if is_2024_book(book_title):
         df2 = pd.read_csv(f'scripts/Prompts/2024/{book_title}/{book_title}_unmasked_passages.csv')
     else:
         df2 = pd.read_csv(f'scripts/Prompts/{book_title}/{book_title}_unmasked_passages.csv')
@@ -79,7 +87,6 @@ def main(model_folder, prompt_setting, filename, book_title):
     
     # Extract available languages from the columns ending in '_results'
     available_langs = [col.split('_results')[0] for col in df1.columns if col.endswith('_results')]
-    # print("Available languages:", available_langs)
     
     # Define a helper function to calculate evaluation scores.
     def calculate_match_scores(ents_list, en_result):
@@ -103,8 +110,12 @@ def main(model_folder, prompt_setting, filename, book_title):
             df1[f'{lang}_exact_match'], df1[f'{lang}_highest_fuzzy_match'] = zip(*df1.apply(
                 lambda row: calculate_match_scores(row['Single_ent'], row[col_unshuffled]), axis=1))
             df1[f'{lang}_correct'] = df1.apply(
-                lambda row, lang=lang: 'correct' if (row[f'{lang}_exact_match'] == 1 or 
-                    (row[f'{lang}_exact_match'] == 0 and row[f'{lang}_highest_fuzzy_match'] >= 0.7)) else 'incorrect', axis=1)
+                lambda row, lang=lang: 'correct' if (
+                    row[f'{lang}_exact_match'] == 1
+                    or (row[f'{lang}_exact_match'] == 0 and row[f'{lang}_highest_fuzzy_match'] >= 0.7)
+                ) else 'incorrect',
+                axis=1
+            )
         
         # Process shuffled results.
         col_shuffled = f"{lang}_shuffled_results"
@@ -112,8 +123,12 @@ def main(model_folder, prompt_setting, filename, book_title):
             df1[f'{lang}_shuffled_exact_match'], df1[f'{lang}_shuffled_highest_fuzzy_match'] = zip(*df1.apply(
                 lambda row: calculate_match_scores(row['Single_ent'], row[col_shuffled]), axis=1))
             df1[f'{lang}_shuffled_correct'] = df1.apply(
-                lambda row, lang=lang: 'correct' if (row[f'{lang}_shuffled_exact_match'] == 1 or 
-                    (row[f'{lang}_shuffled_exact_match'] == 0 and row[f'{lang}_shuffled_highest_fuzzy_match'] >= 0.7)) else 'incorrect', axis=1)
+                lambda row, lang=lang: 'correct' if (
+                    row[f'{lang}_shuffled_exact_match'] == 1
+                    or (row[f'{lang}_shuffled_exact_match'] == 0 and row[f'{lang}_shuffled_highest_fuzzy_match'] >= 0.7)
+                ) else 'incorrect',
+                axis=1
+            )
     
     # Define the new columns to include in the output CSV.
     # This includes the ground truth, original result columns, and evaluation columns.
@@ -130,13 +145,20 @@ def main(model_folder, prompt_setting, filename, book_title):
             if col in df1.columns:
                 new_cols.append(col)
     
+    # Decide output folder. If it's a 2024 book, go to /evaluation/2024, else /evaluation.
+    eval_dir_base = os.path.join(model_folder, prompt_setting, "evaluation")
+    os.makedirs(eval_dir_base, exist_ok=True)
+    
+    if is_2024_book(book_title):
+        eval_dir_2024 = os.path.join(eval_dir_base, "2024")
+        os.makedirs(eval_dir_2024, exist_ok=True)
+        output_csv = os.path.join(eval_dir_2024, f'{filename}.csv')
+    else:
+        output_csv = os.path.join(eval_dir_base, f'{filename}.csv')
+    
     # Save the output CSV with only the specified columns.
-    eval_dir = os.path.join(model_folder, prompt_setting, "evaluation")
-    if not os.path.exists(eval_dir):
-        os.makedirs(eval_dir)
-    output_csv = os.path.join(eval_dir, f'{filename}.csv')
     df1[new_cols].to_csv(output_csv, index=False, encoding='utf-8')
-    print(f"Saved evaluation for {filename} under {eval_dir}")
+    print(f"Saved evaluation for {filename} under {output_csv}")
 
 def list_csv_files(directory):
     try:

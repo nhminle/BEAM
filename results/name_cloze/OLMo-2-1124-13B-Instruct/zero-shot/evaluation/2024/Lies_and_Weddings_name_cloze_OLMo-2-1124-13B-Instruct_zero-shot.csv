@@ -1,0 +1,101 @@
+Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct
+['mum'],britney spears,0,0.0,incorrect,unspecified,0,0.14,incorrect,unspecified,0,0.14,incorrect
+['eden'],kate middleton,0,0.44,incorrect,rg,0,0.0,incorrect,rg,0,0.0,incorrect
+"['gopal', 'das', 'gopal das']",four winds shaman school,0,0.3,incorrect,may/groton/williams/uc,0,0.32,incorrect,may/groton/williams/uc,0,0.32,incorrect
+"['gopal', 'das', 'gopal das']",brad pitt,0,0.22,incorrect,gaia,0,0.46,incorrect,gaia,0,0.46,incorrect
+['thomas'],dr. watson,0,0.25,incorrect,dr. frankenstein,0,0.18,incorrect,dr. frankenstein,0,0.18,incorrect
+['arabella'],georgiana,0,0.35,incorrect,volcanic floor,0,0.18,incorrect,volcanic floor,0,0.18,incorrect
+['thomas'],thatched cottage,0,0.36,incorrect,thatched cottage,0,0.36,incorrect,thatched cottage,0,0.36,incorrect
+['arabella'],michelle yeoh,0,0.29,incorrect,queen elizabeth ii,0,0.23,incorrect,queen elizabeth ii,0,0.23,incorrect
+['eden'],martha,0,0.0,incorrect,michelle obama,0,0.22,incorrect,michelle obama,0,0.22,incorrect
+['eden'],arabella,0,0.17,incorrect,arabella,0,0.17,incorrect,arabella,0,0.17,incorrect
+['arabella'],francis,0,0.27,incorrect,giada de laurentiis,0,0.37,incorrect,giada de laurentiis,0,0.37,incorrect
+['arabella'],chua,0,0.17,incorrect,wendy,0,0.15,incorrect,wendy,0,0.15,incorrect
+['arabella'],gwyneth paltrow,0,0.17,incorrect,shanghai,0,0.25,incorrect,shanghai,0,0.25,incorrect
+['arabella'],bella freud,0,0.53,incorrect,bella freud,0,0.53,incorrect,bella freud,0,0.53,incorrect
+"['thomas tong', 'tong', 'thomas']",john watson,0,0.45,incorrect,john watson,0,0.45,incorrect,john watson,0,0.45,incorrect
+['eden'],emily,0,0.22,incorrect,plantation,0,0.14,incorrect,plantation,0,0.14,incorrect
+['eden'],carlisle,0,0.17,incorrect,leonardo,0,0.33,incorrect,leonardo,0,0.33,incorrect
+['eden'],emma,0,0.25,incorrect,oh,0,0.0,incorrect,oh,0,0.0,incorrect
+['eden'],effy stonem,0,0.27,incorrect,snooki,0,0.2,incorrect,snooki,0,0.2,incorrect
+['rufus'],wolseley,0,0.15,incorrect,eden the wolseley,0,0.09,incorrect,eden the wolseley,0,0.09,incorrect
+['rufus'],barry,0,0.2,incorrect,puako,0,0.2,incorrect,puako,0,0.2,incorrect
+['rufus'],brad pitt,0,0.14,incorrect,volcano house,0,0.22,incorrect,volcano house,0,0.22,incorrect
+['rufus'],barack obama,0,0.12,incorrect,barack obama,0,0.12,incorrect,barack obama,0,0.12,incorrect
+['arabella'],tracey emin,0,0.32,incorrect,rufus,0,0.15,incorrect,rufus,0,0.15,incorrect
+['bea'],philippe,0,0.18,incorrect,hotel de paris,0,0.24,incorrect,hotel de paris,0,0.24,incorrect
+['eden'],"there is no specific name mentioned in the provided passage that fits the [mask] token. the passage refers to ""they"" and ""her"" in a general sense without specifying a particular individual's name.",0,0.04,incorrect,butterfly,0,0.15,incorrect,butterfly,0,0.15,incorrect
+['eden'],emma watson,0,0.27,incorrect,queen elizabeth ii,0,0.27,incorrect,queen elizabeth ii,0,0.27,incorrect
+['rufus'],chyna,0,0.0,incorrect,maldives,0,0.15,incorrect,maldives,0,0.15,incorrect
+['eden'],unknown,0,0.18,incorrect,she,0,0.29,incorrect,she,0,0.29,incorrect
+['rufus'],dr. kamehameha,0,0.11,incorrect,coqui,0,0.2,incorrect,coqui,0,0.2,incorrect
+['bea'],queen victoria,0,0.24,incorrect,labradorite-opalite,0,0.27,incorrect,labradorite-opalite,0,0.27,incorrect
+['bea'],gwyneth paltrow,0,0.22,incorrect,christian dior,0,0.12,incorrect,christian dior,0,0.12,incorrect
+['arabella'],unnamed,0,0.27,incorrect,mango,0,0.15,incorrect,mango,0,0.15,incorrect
+['eden'],countess,0,0.17,incorrect,countess of gresham,0,0.17,incorrect,countess of gresham,0,0.17,incorrect
+['rufus'],mount etna,0,0.13,incorrect,mount st. helens,0,0.19,incorrect,mount st. helens,0,0.19,incorrect
+['eden'],charlotte,0,0.15,incorrect,mauna kea,0,0.15,incorrect,mauna kea,0,0.15,incorrect
+['freddy'],walrus,0,0.17,incorrect,walrus,0,0.17,incorrect,walrus,0,0.17,incorrect
+['rufus'],freddie,0,0.17,incorrect,not provided,0,0.12,incorrect,not provided,0,0.12,incorrect
+['farman'],farmer-hanian,0,0.63,incorrect,farmihian,0,0.8,correct,farmihian,0,0.8,correct
+['solène'],marie antoinette,0,0.27,incorrect,marie antoinette,0,0.27,incorrect,marie antoinette,0,0.27,incorrect
+['laurel'],dr. smith,0,0.13,incorrect,winter,0,0.17,incorrect,winter,0,0.17,incorrect
+['rufus'],john,0,0.0,incorrect,shamu,0,0.2,incorrect,shamu,0,0.2,incorrect
+['solène'],yoko ono,0,0.29,incorrect,exes,0,0.4,incorrect,exes,0,0.4,incorrect
+['eden'],she,0,0.29,incorrect,jonah,0,0.22,incorrect,jonah,0,0.22,incorrect
+['tong'],dr. house,0,0.15,incorrect,dr. seuss,0,0.0,incorrect,dr. seuss,0,0.0,incorrect
+['thomas'],yuki,0,0.0,incorrect,david,0,0.18,incorrect,david,0,0.18,incorrect
+['thomas'],keegan-michael key,0,0.17,incorrect,spicy poke spot,0,0.19,incorrect,spicy poke spot,0,0.19,incorrect
+['arabella'],kim kardashian,0,0.36,incorrect,stumbled,0,0.25,incorrect,stumbled,0,0.25,incorrect
+['thomas'],harry,0,0.36,incorrect,henrietta,0,0.27,incorrect,henrietta,0,0.27,incorrect
+['max'],jon snow,0,0.0,incorrect,trond kirkvaag,0,0.12,incorrect,trond kirkvaag,0,0.12,incorrect
+['kamehameha'],kamehameha i,0,0.91,correct,pu'ukohola heiau,0,0.38,incorrect,pu'ukohola heiau,0,0.38,incorrect
+['thomas'],john,0,0.2,incorrect,stonehenge,0,0.25,incorrect,stonehenge,0,0.25,incorrect
+"['rene', 'tan', 'rene tan']",ingvar kamprad,0,0.27,incorrect,godzilla,0,0.18,incorrect,godzilla,0,0.18,incorrect
+['eden'],joan didion,0,0.27,incorrect,marie antoinette,0,0.2,incorrect,marie antoinette,0,0.2,incorrect
+['thomas'],dr. alex,0,0.14,incorrect,yuki kajiura,0,0.11,incorrect,yuki kajiura,0,0.11,incorrect
+['thomas'],inspector yeung,0,0.19,incorrect,kong,0,0.2,incorrect,kong,0,0.2,incorrect
+['eden'],scarlett johansson,0,0.18,incorrect,malibu,0,0.0,incorrect,malibu,0,0.0,incorrect
+['eden'],beatrice,0,0.33,incorrect,bea,0,0.29,incorrect,bea,0,0.29,incorrect
+['thomas'],dr. richard kimble,0,0.17,incorrect,mount everest,0,0.21,incorrect,mount everest,0,0.21,incorrect
+['arabella'],grand duchess,0,0.29,incorrect,duchess,0,0.13,incorrect,duchess,0,0.13,incorrect
+['eden'],lucy pevensie,0,0.35,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['eden'],harald hardrada,0,0.11,incorrect,ice dancers,0,0.4,incorrect,ice dancers,0,0.4,incorrect
+['eden'],veronica,0,0.33,incorrect,truffle,0,0.18,incorrect,truffle,0,0.18,incorrect
+['rufus'],neil abercrombie,0,0.1,incorrect,kamehameha,0,0.0,incorrect,kamehameha,0,0.0,incorrect
+['arabella'],marie,0,0.46,incorrect,chinese,0,0.13,incorrect,chinese,0,0.13,incorrect
+['eden'],georgia,0,0.18,incorrect,volcanic soak,0,0.12,incorrect,volcanic soak,0,0.12,incorrect
+['eden'],emma,0,0.25,incorrect,unanswerable,0,0.25,incorrect,unanswerable,0,0.25,incorrect
+['rufus'],draco malfoy,0,0.24,incorrect,kim kardashian,0,0.21,incorrect,kim kardashian,0,0.21,incorrect
+['eden'],emma,0,0.25,incorrect,joey,0,0.25,incorrect,joey,0,0.25,incorrect
+['rufus'],unnamed flight attendant,0,0.14,incorrect,emirates,0,0.31,incorrect,emirates,0,0.31,incorrect
+['freddy'],gandalf,0,0.15,incorrect,dragon,0,0.17,incorrect,dragon,0,0.17,incorrect
+['rufus'],merida,0,0.18,incorrect,don't,0,0.0,incorrect,don't,0,0.0,incorrect
+['freddy'],unknown,0,0.0,incorrect,amalfi coast,0,0.11,incorrect,amalfi coast,0,0.11,incorrect
+['rufus'],john,0,0.0,incorrect,great basin national park,0,0.13,incorrect,great basin national park,0,0.13,incorrect
+['arabella'],elizabeth ii,0,0.3,incorrect,sharp,0,0.31,incorrect,sharp,0,0.31,incorrect
+"['courcy', 'de', 'solène', 'solène de courcy']",cheryl,0,0.5,incorrect,unspecified,0,0.35,incorrect,unspecified,0,0.35,incorrect
+['rufus'],scarlet,0,0.17,incorrect,scarlett,0,0.15,incorrect,scarlett,0,0.15,incorrect
+['rufus'],harry,0,0.2,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['rufus'],michelangelo,0,0.0,incorrect,van gogh,0,0.0,incorrect,van gogh,0,0.0,incorrect
+['rufus'],eden,0,0.0,incorrect,eden,0,0.0,incorrect,eden,0,0.0,incorrect
+['rufus'],draco,0,0.2,incorrect,the mummy,0,0.14,incorrect,the mummy,0,0.14,incorrect
+['rufus'],calvin,0,0.0,incorrect,edward,0,0.18,incorrect,edward,0,0.18,incorrect
+"['soane', 'john', 'john soane']",john soane,1,1.0,correct,william kent,0,0.24,incorrect,william kent,0,0.24,incorrect
+['rufus'],meursault,0,0.29,incorrect,yoko ono,0,0.0,incorrect,yoko ono,0,0.0,incorrect
+['rufus'],mr. collins,0,0.25,incorrect,donald trump,0,0.24,incorrect,donald trump,0,0.24,incorrect
+"['mary', 'gao', 'mary gao']",junie,0,0.0,incorrect,wonton,0,0.22,incorrect,wonton,0,0.22,incorrect
+['john'],malcolm,0,0.18,incorrect,phineas,0,0.36,incorrect,phineas,0,0.36,incorrect
+['john'],james,0,0.22,incorrect,yuki,0,0.0,incorrect,yuki,0,0.0,incorrect
+['martha'],geelong grammar,0,0.29,incorrect,grammar/griffith,0,0.45,incorrect,grammar/griffith,0,0.45,incorrect
+['martha'],charlotte,0,0.4,incorrect,medusa,0,0.33,incorrect,medusa,0,0.33,incorrect
+['martha'],leung family foundation,0,0.21,incorrect,rothko,0,0.5,incorrect,rothko,0,0.5,incorrect
+['martha'],steve jobs,0,0.12,incorrect,steve jobs,0,0.12,incorrect,steve jobs,0,0.12,incorrect
+['gresham'],earl,0,0.36,incorrect,earls,0,0.33,incorrect,earls,0,0.33,incorrect
+['rene'],john's,0,0.2,incorrect,bob,0,0.0,incorrect,bob,0,0.0,incorrect
+['jane'],dr. drew,0,0.17,incorrect,twombly,0,0.0,incorrect,twombly,0,0.0,incorrect
+"['martha dung', 'dung', 'martha']",queen elizabeth ii,0,0.28,incorrect,queen elizabeth ii,0,0.28,incorrect,queen elizabeth ii,0,0.28,incorrect
+['greshams'],malfoy,0,0.14,incorrect,norman bates,0,0.3,incorrect,norman bates,0,0.3,incorrect
+['peter'],not enough information,0,0.22,incorrect,venice,0,0.36,incorrect,venice,0,0.36,incorrect
+['penelope'],marjorie,0,0.25,incorrect,donald trump,0,0.3,incorrect,donald trump,0,0.3,incorrect
+['putter'],wid,0,0.0,incorrect,wid,0,0.0,incorrect,wid,0,0.0,incorrect

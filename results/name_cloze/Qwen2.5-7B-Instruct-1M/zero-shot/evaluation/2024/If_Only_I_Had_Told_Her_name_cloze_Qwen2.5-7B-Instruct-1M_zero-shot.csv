@@ -1,0 +1,77 @@
+Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct
+['jack'],autumn,0,0.2,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],someone,0,0.0,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],i,0,0.0,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],he,0,0.0,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['jack'],he,0,0.0,incorrect,his,0,0.0,incorrect,his,0,0.0,incorrect
+['jack'],she,0,0.0,incorrect,zoned,0,0.0,incorrect,zoned,0,0.0,incorrect
+['jack'],someone,0,0.0,incorrect,other,0,0.0,incorrect,other,0,0.0,incorrect
+['jack'],him,0,0.0,incorrect,what open i,0,0.13,incorrect,what open i,0,0.13,incorrect
+['jack'],autumn,0,0.2,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],autumn,0,0.2,incorrect,gym teacher,0,0.27,incorrect,gym teacher,0,0.27,incorrect
+['jack'],someone,0,0.0,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],autumn,0,0.2,incorrect,mom,0,0.0,incorrect,mom,0,0.0,incorrect
+['jack'],autumn,0,0.2,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],she,0,0.0,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],he,0,0.0,incorrect,he,0,0.0,incorrect,he,0,0.0,incorrect
+['jack'],newfriend,0,0.0,incorrect,soccer,0,0.2,incorrect,soccer,0,0.2,incorrect
+['jack'],autumn,0,0.2,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],they,0,0.0,incorrect,jv,0,0.33,incorrect,jv,0,0.33,incorrect
+['jack'],someone,0,0.0,incorrect,the,0,0.0,incorrect,the,0,0.0,incorrect
+['jack'],john,0,0.25,incorrect,even,0,0.0,incorrect,even,0,0.0,incorrect
+['jack'],alex,0,0.25,incorrect,guy,0,0.0,incorrect,guy,0,0.0,incorrect
+['jack'],jane,0,0.5,incorrect,south,0,0.0,incorrect,south,0,0.0,incorrect
+['jack'],jane doe,0,0.33,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['jack'],he,0,0.0,incorrect,[mask],0,0.4,incorrect,[mask],0,0.4,incorrect
+['jack'],her,0,0.0,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['autumn'],she,0,0.0,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['autumn'],jane,0,0.4,incorrect,weird,0,0.0,incorrect,weird,0,0.0,incorrect
+['autumn'],jane,0,0.4,incorrect,friend,0,0.17,incorrect,friend,0,0.17,incorrect
+['jack'],jane,0,0.5,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['jack'],him,0,0.0,incorrect,you,0,0.0,incorrect,you,0,0.0,incorrect
+['jack'],autumn,0,0.2,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+"['george w', 'george', 'w']",bush,0,0.0,incorrect,finny-autumn,0,0.0,incorrect,finny-autumn,0,0.0,incorrect
+['jack'],someone,0,0.0,incorrect,can't,0,0.22,incorrect,can't,0,0.22,incorrect
+['syl'],jane,0,0.0,incorrect,[mask],0,0.22,incorrect,[mask],0,0.22,incorrect
+['syl'],jane,0,0.0,incorrect,her,0,0.0,incorrect,her,0,0.0,incorrect
+['lexy'],her,0,0.29,incorrect,[mask],0,0.0,incorrect,[mask],0,0.0,incorrect
+['jack'],finn,0,0.0,incorrect,finn,0,0.0,incorrect,finn,0,0.0,incorrect
+['jack'],you,0,0.0,incorrect,you,0,0.0,incorrect,you,0,0.0,incorrect
+['jack'],death,0,0.22,incorrect,kindergarten,0,0.12,incorrect,kindergarten,0,0.12,incorrect
+['jack'],jane,0,0.5,incorrect,me,0,0.0,incorrect,me,0,0.0,incorrect
+['sylv'],jane,0,0.0,incorrect,burns,0,0.22,incorrect,burns,0,0.22,incorrect
+['trevor'],he,0,0.25,incorrect,blanches,0,0.14,incorrect,blanches,0,0.14,incorrect
+['chloe'],jane,0,0.22,incorrect,school,0,0.55,incorrect,school,0,0.55,incorrect
+['chloe'],her,0,0.5,incorrect,her,0,0.5,incorrect,her,0,0.5,incorrect
+['chloe'],she,0,0.5,incorrect,sure,0,0.22,incorrect,sure,0,0.22,incorrect
+['kyle'],mom,0,0.0,incorrect,dad,0,0.0,incorrect,dad,0,0.0,incorrect
+['kyle'],someone,0,0.18,incorrect,cali,0,0.25,incorrect,cali,0,0.25,incorrect
+['kyle'],friends,0,0.18,incorrect,guys,0,0.25,incorrect,guys,0,0.25,incorrect
+['carter'],mrs. smith,0,0.25,incorrect,ever,0,0.4,incorrect,ever,0,0.4,incorrect
+['brett'],myself,0,0.18,incorrect,parents,0,0.5,incorrect,parents,0,0.5,incorrect
+['brett'],guy,0,0.0,incorrect,guy,0,0.0,incorrect,guy,0,0.0,incorrect
+['brett'],he,0,0.29,incorrect,baseball,0,0.31,incorrect,baseball,0,0.31,incorrect
+['brett'],the middle school baseball star,0,0.17,incorrect,saturday,0,0.15,incorrect,saturday,0,0.15,incorrect
+['brett'],someone,0,0.17,incorrect,all,0,0.0,incorrect,all,0,0.0,incorrect
+['brett'],he,0,0.29,incorrect,painting,0,0.15,incorrect,painting,0,0.15,incorrect
+['zelda'],taiwan,0,0.18,incorrect,taiwan,0,0.18,incorrect,taiwan,0,0.18,incorrect
+['brett'],he,0,0.29,incorrect,door,0,0.22,incorrect,door,0,0.22,incorrect
+['brett'],he,0,0.29,incorrect,reading,0,0.33,incorrect,reading,0,0.33,incorrect
+['brett'],he,0,0.29,incorrect,he,0,0.29,incorrect,he,0,0.29,incorrect
+['taylor'],[mask],0,0.17,incorrect,she,0,0.0,incorrect,she,0,0.0,incorrect
+['sylv'],[mask],0,0.2,incorrect,[mask],0,0.2,incorrect,[mask],0,0.2,incorrect
+['dave'],her,0,0.29,incorrect,she,0,0.29,incorrect,she,0,0.29,incorrect
+['beba'],ma?,0,0.29,incorrect,[mask],0,0.2,incorrect,[mask],0,0.2,incorrect
+['dave'],us,0,0.0,incorrect,i,0,0.0,incorrect,i,0,0.0,incorrect
+['john'],the hostess,0,0.13,incorrect,waitress,0,0.0,incorrect,waitress,0,0.0,incorrect
+['john'],the waitress,0,0.12,incorrect,menu,0,0.25,incorrect,menu,0,0.25,incorrect
+['john'],mask,0,0.0,incorrect,you,0,0.29,incorrect,you,0,0.29,incorrect
+['john'],his name,0,0.33,incorrect,concern,0,0.36,incorrect,concern,0,0.36,incorrect
+['stella'],autumn,0,0.17,incorrect,autumn,0,0.17,incorrect,autumn,0,0.17,incorrect
+['john'],his,0,0.29,incorrect,seaweed and shavings salad,0,0.13,incorrect,seaweed and shavings salad,0,0.13,incorrect
+['jack'],he,0,0.0,incorrect,maybe,0,0.22,incorrect,maybe,0,0.22,incorrect
+['john'],phineas,0,0.36,incorrect,phineas,0,0.36,incorrect,phineas,0,0.36,incorrect
+['john'],him,0,0.29,incorrect,he,0,0.33,incorrect,he,0,0.33,incorrect
+['jack'],her,0,0.0,incorrect,it's,0,0.0,incorrect,it's,0,0.0,incorrect
+['jack'],jane,0,0.5,incorrect,yesterday,0,0.15,incorrect,yesterday,0,0.15,incorrect
+['jack'],she,0,0.0,incorrect,umbrella,0,0.17,incorrect,umbrella,0,0.17,incorrect
