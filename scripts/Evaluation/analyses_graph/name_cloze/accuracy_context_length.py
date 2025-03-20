@@ -5,20 +5,20 @@ import matplotlib.pyplot as plt
 import tiktoken
 
 # Hardcoded paths
-BASE_PROMPT_PATH = "/Users/alishasrivastava/BEAM/scripts/Prompts"
+BASE_PROMPT_PATH = "scripts/Prompts"
 BOOK_FOLDERS = [
-    "/Users/alishasrivastava/BEAM/results/name_cloze/gpt-4o-2024-11-20/zero-shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/name_cloze/EuroLLM-9B-Instruct/zero-shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/name_cloze/Llama-3.1-8B-Instruct-quantized.w4a16/zero-shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/name_cloze/Llama-3.1-8B-Instruct-quantized.w8a16/zero-shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/name_cloze/Llama-3.1-70B-Instruct_/zero-shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/name_cloze/Llama-3.1-70B-Instruct-quantized.w4a16/zero-shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/name_cloze/Llama-3.1-70B-Instruct-quantized.w8a16/zero-shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/name_cloze/Llama-3.1-405b/zero-shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/name_cloze/Llama-3.1-8B-Instruct_/zero-shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/name_cloze/OLMo-2-1124-7B-Instruct/zero-shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/name_cloze/OLMo-2-1124-13B-Instruct/zero-shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/name_cloze/Qwen2.5-7B-Instruct-1M/zero-shot/evaluation"
+    "results/name_cloze/gpt-4o-2024-11-20/zero-shot/evaluation",
+    "results/name_cloze/EuroLLM-9B-Instruct/zero-shot/evaluation",
+    "results/name_cloze/Llama-3.1-8B-Instruct-quantized.w4a16/zero-shot/evaluation",
+    "results/name_cloze/Llama-3.1-8B-Instruct-quantized.w8a16/zero-shot/evaluation",
+    "results/name_cloze/Llama-3.1-70B-Instruct_/zero-shot/evaluation",
+    "results/name_cloze/Llama-3.1-70B-Instruct-quantized.w4a16/zero-shot/evaluation",
+    "results/name_cloze/Llama-3.1-70B-Instruct-quantized.w8a16/zero-shot/evaluation",
+    "results/name_cloze/Llama-3.1-405b/zero-shot/evaluation",
+    "results/name_cloze/Llama-3.1-8B-Instruct_/zero-shot/evaluation",
+    "results/name_cloze/OLMo-2-1124-7B-Instruct/zero-shot/evaluation",
+    "results/name_cloze/OLMo-2-1124-13B-Instruct/zero-shot/evaluation",
+    "results/name_cloze/Qwen2.5-7B-Instruct-1M/zero-shot/evaluation"
 ]
 # Language groups
 LANG_GROUPS = {
