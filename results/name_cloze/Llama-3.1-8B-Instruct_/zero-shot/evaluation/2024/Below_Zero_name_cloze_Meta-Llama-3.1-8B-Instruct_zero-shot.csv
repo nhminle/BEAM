@@ -1,0 +1,49 @@
+Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct
+"['beaver', 'eager beaver', 'eager']",nasa,0,0.25,incorrect,mars,0,0.44,incorrect,mars,0,0.44,incorrect
+['hannah'],j,0,0.0,incorrect,harvard,0,0.46,incorrect,harvard,0,0.46,incorrect
+"['chawla', 'kalpana', 'kalpana chawla']",philosophy,0,0.25,incorrect,jane,0,0.36,incorrect,jane,0,0.36,incorrect
+['floyd'],nasa,0,0.0,incorrect,grandma,0,0.17,incorrect,grandma,0,0.17,incorrect
+['floyd'],wikipedia,0,0.14,incorrect,wikipedia,0,0.14,incorrect,wikipedia,0,0.14,incorrect
+['mara'],jess,0,0.0,incorrect,midori,0,0.4,incorrect,midori,0,0.4,incorrect
+['mara'],he,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['floyd'],matson,0,0.18,incorrect,trace,0,0.0,incorrect,trace,0,0.0,incorrect
+['python'],python,1,1.0,correct,google,0,0.17,incorrect,google,0,0.17,incorrect
+['let'],humanity,0,0.18,incorrect,netflix,0,0.4,incorrect,netflix,0,0.4,incorrect
+['fuck'],ian,0,0.0,incorrect,ian,0,0.0,incorrect,ian,0,0.0,incorrect
+['hannah'],caltech,0,0.31,incorrect,caltech,0,0.31,incorrect,caltech,0,0.31,incorrect
+['mara'],jess,0,0.0,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['merel'],dr. houston,0,0.12,incorrect,repeating,0,0.29,incorrect,repeating,0,0.29,incorrect
+['hannah'],neil armstrong,0,0.2,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
+['mara'],aunt,0,0.25,incorrect,emma,0,0.5,incorrect,emma,0,0.5,incorrect
+['mara'],greta,0,0.44,incorrect,nasa,0,0.5,incorrect,nasa,0,0.5,incorrect
+['merel'],dr. thompson,0,0.12,incorrect,dr. amase,0,0.29,incorrect,dr. amase,0,0.29,incorrect
+['karl'],jane,0,0.25,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['haven'],david,0,0.4,incorrect,screen,0,0.36,incorrect,screen,0,0.36,incorrect
+['arroyo'],squyres,0,0.15,incorrect,mars,0,0.4,incorrect,mars,0,0.4,incorrect
+['arroyo'],mary,0,0.6,incorrect,curriculum,0,0.25,incorrect,curriculum,0,0.25,incorrect
+['merel'],nick,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['floyd'],the governor,0,0.12,incorrect,john,0,0.22,incorrect,john,0,0.22,incorrect
+['merel'],dr. john,0,0.15,incorrect,university,0,0.27,incorrect,university,0,0.27,incorrect
+['hannah'],hello,0,0.18,incorrect,jack,0,0.2,incorrect,jack,0,0.2,incorrect
+['merel'],you,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['hannah'],longyearbyen,0,0.22,incorrect,longyearbyen,0,0.22,incorrect,longyearbyen,0,0.22,incorrect
+['merel'],god,0,0.0,incorrect,anger,0,0.4,incorrect,anger,0,0.4,incorrect
+['floyd'],dad,0,0.25,incorrect,michael,0,0.17,incorrect,michael,0,0.17,incorrect
+['hannah'],max,0,0.22,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['hannah'],elon musk,0,0.13,incorrect,trump,0,0.0,incorrect,trump,0,0.0,incorrect
+['merel'],mike,0,0.44,incorrect,david,0,0.0,incorrect,david,0,0.0,incorrect
+['mara'],dr. gregory house,0,0.1,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['mara'],lily,0,0.0,incorrect,jane,0,0.25,incorrect,jane,0,0.25,incorrect
+['floyd'],grey,0,0.22,incorrect,britney,0,0.17,incorrect,britney,0,0.17,incorrect
+['mara'],jesus,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['mara'],sadie,0,0.22,incorrect,macrame,0,0.73,correct,macrame,0,0.73,correct
+['great'],uncle,0,0.2,incorrect,delphina,0,0.31,incorrect,delphina,0,0.31,incorrect
+['hannah'],jon,0,0.22,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
+['hannah'],augustus waters,0,0.19,incorrect,charlie,0,0.31,incorrect,charlie,0,0.31,incorrect
+['hannah'],mike,0,0.0,incorrect,tom,0,0.0,incorrect,tom,0,0.0,incorrect
+['hannah'],max,0,0.22,incorrect,david,0,0.18,incorrect,david,0,0.18,incorrect
+['hannah'],charlie,0,0.31,incorrect,winnie-the-pooh,0,0.29,incorrect,winnie-the-pooh,0,0.29,incorrect
+['mara'],broccoli,0,0.17,incorrect,water,0,0.44,incorrect,water,0,0.44,incorrect
+['hannah'],august,0,0.17,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['hannah'],master,0,0.17,incorrect,hamlet,0,0.33,incorrect,hamlet,0,0.33,incorrect
+['hannah'],arsia,0,0.36,incorrect,aurora,0,0.33,incorrect,aurora,0,0.33,incorrect

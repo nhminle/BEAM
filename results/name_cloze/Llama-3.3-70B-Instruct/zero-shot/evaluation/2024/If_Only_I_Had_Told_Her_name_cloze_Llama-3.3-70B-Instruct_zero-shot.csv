@@ -1,0 +1,77 @@
+Single_ent,en_results,en_exact_match,en_highest_fuzzy_match,en_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct,en_shuffled_results,en_shuffled_exact_match,en_shuffled_highest_fuzzy_match,en_shuffled_correct
+['jack'],summer,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['jack'],"the speaker's friend or the speaker themselves, but since the speaker is referring to ""my other friend"", the most likely name to fill the [mask] token is the speaker's name, however since the speaker's name is not provided in the passage, i will make a guess with a common name, let's say ""emily"", but please note that this is highly uncertain and the actual name could be anything.",0,0.02,incorrect,friend,0,0.0,incorrect,friend,0,0.0,incorrect
+['jack'],i,0,0.0,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],he,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['jack'],he,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['jack'],emily,0,0.0,incorrect,emily,0,0.0,incorrect,emily,0,0.0,incorrect
+['jack'],sarah,0,0.22,incorrect,netflix,0,0.0,incorrect,netflix,0,0.0,incorrect
+['jack'],him,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['jack'],autumn,0,0.2,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],autumn,0,0.2,incorrect,mr. johnson,0,0.13,incorrect,mr. johnson,0,0.13,incorrect
+['jack'],the mothers,0,0.0,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],him,0,0.0,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],everyone,0,0.0,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],he,0,0.0,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+['jack'],he,0,0.0,incorrect,he,0,0.0,incorrect,he,0,0.0,incorrect
+['jack'],autumn,0,0.2,incorrect,teacher,0,0.36,incorrect,teacher,0,0.36,incorrect
+['jack'],i,0,0.0,incorrect,david,0,0.22,incorrect,david,0,0.22,incorrect
+['jack'],he,0,0.0,incorrect,ethan,0,0.22,incorrect,ethan,0,0.22,incorrect
+['jack'],a colleague,0,0.27,incorrect,teammate,0,0.17,incorrect,teammate,0,0.17,incorrect
+['jack'],my brother,0,0.0,incorrect,christmas,0,0.15,incorrect,christmas,0,0.15,incorrect
+['jack'],dad,0,0.29,incorrect,teammate,0,0.17,incorrect,teammate,0,0.17,incorrect
+['jack'],him,0,0.0,incorrect,eleanor,0,0.18,incorrect,eleanor,0,0.18,incorrect
+['jack'],god,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['jack'],elijah,0,0.4,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['jack'],everyone,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['autumn'],emily,0,0.18,incorrect,mother,0,0.17,incorrect,mother,0,0.17,incorrect
+['autumn'],brittany,0,0.29,incorrect,billie,0,0.0,incorrect,billie,0,0.0,incorrect
+['autumn'],sarah,0,0.18,incorrect,sarah,0,0.18,incorrect,sarah,0,0.18,incorrect
+['jack'],someone,0,0.0,incorrect,eve,0,0.0,incorrect,eve,0,0.0,incorrect
+['jack'],him,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['jack'],he,0,0.0,incorrect,autumn,0,0.2,incorrect,autumn,0,0.2,incorrect
+"['george w', 'george', 'w']",george,1,1.0,correct,new year's eve,0,0.3,incorrect,new year's eve,0,0.3,incorrect
+['jack'],he,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['syl'],honey,0,0.25,incorrect,google,0,0.22,incorrect,google,0,0.22,incorrect
+['syl'],emily,0,0.25,incorrect,jesus,0,0.25,incorrect,jesus,0,0.25,incorrect
+['lexy'],samantha,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['jack'],finn,0,0.0,incorrect,finn,0,0.0,incorrect,finn,0,0.0,incorrect
+['jack'],friend,0,0.0,incorrect,home,0,0.0,incorrect,home,0,0.0,incorrect
+['jack'],kid,0,0.29,incorrect,mother,0,0.0,incorrect,mother,0,0.0,incorrect
+['jack'],alex,0,0.25,incorrect,eleanor roosevelt,0,0.1,incorrect,eleanor roosevelt,0,0.1,incorrect
+['sylv'],she,0,0.29,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['trevor'],he,0,0.25,incorrect,einstein,0,0.29,incorrect,einstein,0,0.29,incorrect
+['chloe'],someone,0,0.33,incorrect,emily,0,0.2,incorrect,emily,0,0.2,incorrect
+['chloe'],her,0,0.5,incorrect,god,0,0.25,incorrect,god,0,0.25,incorrect
+['chloe'],emily,0,0.2,incorrect,madonna,0,0.17,incorrect,madonna,0,0.17,incorrect
+['kyle'],ethan,0,0.22,incorrect,dad,0,0.0,incorrect,dad,0,0.0,incorrect
+['kyle'],man,0,0.0,incorrect,cali,0,0.25,incorrect,cali,0,0.25,incorrect
+['kyle'],friends,0,0.18,incorrect,facebook,0,0.17,incorrect,facebook,0,0.17,incorrect
+['carter'],johnson,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['brett'],eve,0,0.25,incorrect,grandma,0,0.17,incorrect,grandma,0,0.17,incorrect
+['brett'],student,0,0.33,incorrect,shakespeare,0,0.25,incorrect,shakespeare,0,0.25,incorrect
+['brett'],he,0,0.29,incorrect,topps,0,0.2,incorrect,topps,0,0.2,incorrect
+['brett'],my roommate,0,0.25,incorrect,einstein,0,0.31,incorrect,einstein,0,0.31,incorrect
+['brett'],roommate,0,0.31,incorrect,elijah,0,0.18,incorrect,elijah,0,0.18,incorrect
+['brett'],guys,0,0.0,incorrect,van gogh,0,0.0,incorrect,van gogh,0,0.0,incorrect
+['zelda'],harley,0,0.18,incorrect,china,0,0.2,incorrect,china,0,0.2,incorrect
+['brett'],he,0,0.29,incorrect,apartment,0,0.43,incorrect,apartment,0,0.43,incorrect
+['brett'],he,0,0.29,incorrect,table,0,0.4,incorrect,table,0,0.4,incorrect
+['brett'],god,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['taylor'],mother,0,0.33,incorrect,emily,0,0.18,incorrect,emily,0,0.18,incorrect
+['sylv'],alice,0,0.22,incorrect,eve,0,0.29,incorrect,eve,0,0.29,incorrect
+['dave'],her daughter,0,0.38,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['beba'],mama,0,0.25,incorrect,mommy,0,0.0,incorrect,mommy,0,0.0,incorrect
+['dave'],god,0,0.29,incorrect,god,0,0.29,incorrect,god,0,0.29,incorrect
+['john'],me,0,0.0,incorrect,emily,0,0.0,incorrect,emily,0,0.0,incorrect
+['john'],she,0,0.29,incorrect,ritz,0,0.0,incorrect,ritz,0,0.0,incorrect
+['john'],grandfather,0,0.13,incorrect,god,0,0.29,incorrect,god,0,0.29,incorrect
+['john'],him,0,0.29,incorrect,eyes,0,0.0,incorrect,eyes,0,0.0,incorrect
+['stella'],he,0,0.25,incorrect,autumn,0,0.17,incorrect,autumn,0,0.17,incorrect
+['john'],he,0,0.33,incorrect,waitress,0,0.0,incorrect,waitress,0,0.0,incorrect
+['jack'],she,0,0.0,incorrect,walt disney,0,0.13,incorrect,walt disney,0,0.13,incorrect
+['john'],phineas,0,0.36,incorrect,phineas,0,0.36,incorrect,phineas,0,0.36,incorrect
+['john'],the baby's father,0,0.1,incorrect,god,0,0.29,incorrect,god,0,0.29,incorrect
+['jack'],dad,0,0.29,incorrect,eleanor,0,0.18,incorrect,eleanor,0,0.18,incorrect
+['jack'],john,0,0.25,incorrect,manager,0,0.18,incorrect,manager,0,0.18,incorrect
+['jack'],emily,0,0.0,incorrect,london,0,0.0,incorrect,london,0,0.0,incorrect
