@@ -102,3 +102,9 @@ scripts/Evaluation/dir_probe/heat_map_aggregate_copy copy 2.py
 scripts/Evaluation/dir_probe/heat_map_aggregate_copy copy 3.py
 scripts/Evaluation/nct/heat_map_aggregate copy 2.py
 scripts/Evaluation/nct/heat_map_aggregate copy 3.py
+scripts/Evaluation/nct/alishaeval
+scripts/Evaluation/nct/heat_map_aggregate copy 4.py
+scripts/Prompts copy
+direct_probe_masked_accuracy_vs_context_length.png
+direct_probe_ne_accuracy_vs_context_length.png
+direct_probe_non_ne_accuracy_vs_context_length.png
