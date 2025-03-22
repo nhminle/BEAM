@@ -44,8 +44,8 @@ def calculate_sentence_metrics(lang, prediction: str, reference: str, metric_nam
 
 def main():
     # print(f"Evaluating model: {model}")
-    prompt_setting = 'one-shot'  # one-shot || zero-shot
-    models = ['gpt-4o-2024-11-20'] # add more models here
+    prompt_setting = 'zero-shot'  # one-shot || zero-shot
+    models = ['EuroLLM-9B-Instruct', 'Llama-3.3-70B-Instruct', 'Llama-3.1-8B-Instruct', 'OLMo-2-1124-13B-Instruct','Llama-3.1-405b','Qwen2.5-7B-Instruct-1M','OLMo-2-1124-7B-Instruct','Llama-3.1-70B-Instruct', 'Llama-3.1-70B-Instruct-quantized.w4a16', 'Llama-3.1-70B-Instruct-quantized.w8a16','Llama-3.1-8B-Instruct-quantized.w8a16','Llama-3.1-8B-Instruct-quantized.w8a16'] # add more models here
     # List CSV files in the results folder
   # Process each CSV file whose title contains the model string
     for model in models:
@@ -72,7 +72,7 @@ def main():
                 print(f"Available languages for file {title}: {available_langs}")
 
                 for lang in available_langs:
-                    predictions_col = f'{lang}_Completion'
+                    predictions_col = f'{lang}_results'
                     references_col = f'{lang}_second_half'
                     print(f"Checking for columns: {predictions_col} and {references_col}")
 
@@ -140,7 +140,7 @@ def main():
                     print("Warning: No data processed in df_out; nothing to label.")
                 
                 # Save the output CSV if df_out is not empty
-                output_dir = f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/prefix_probe/{model}/eval/csv'
+                output_dir = f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/prefix_probe/{model}/eval/csv/{prompt_setting}'
                 os.makedirs(output_dir, exist_ok=True)
                 output_csv = os.path.join(output_dir, f"{title}.csv")
                 if not df_out.empty:

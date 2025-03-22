@@ -10,7 +10,7 @@
 #SBATCH --array=0-4
 
 # Load any required modules here
-module load cuda/11.8
+module load cuda/12.1
 
 # Activate the virtual environment
 source .venv/bin/activate
