@@ -8,7 +8,7 @@ import argparse
 
 # Load metrics
 bertscore = evaluate.load("bertscore")
-# bleurt = evaluate.load("bleurt")
+bleurt = evaluate.load("bleurt")
 rouge = evaluate.load("rouge")
 
 def list_csv_files(directory):
@@ -27,9 +27,9 @@ def calculate_sentence_metrics(lang, prediction: str, reference: str, metric_nam
     if metric_name == "BERTScore":
         results = bertscore.compute(predictions=[prediction], references=[reference], lang=lang)
         return results["f1"][0]  # Use F1 score
-    # elif metric_name == "BLEURT":
-    #     results = bleurt.compute(predictions=[prediction], references=[reference])
-    #     return results["scores"][0]  
+    if metric_name == "BLEURT":
+        results = bleurt.compute(predictions=[prediction], references=[reference])
+        return results["scores"][0]  
     elif metric_name == "ROUGE-L":
         results = rouge.compute(predictions=[prediction], references=[reference], rouge_types=["rougeL"])
         return results["rougeL"]
@@ -45,9 +45,12 @@ def calculate_sentence_metrics(lang, prediction: str, reference: str, metric_nam
 def main():
     # print(f"Evaluating model: {model}")
     prompt_setting = 'zero-shot'  # one-shot || zero-shot
-    models = ['EuroLLM-9B-Instruct', 'Llama-3.3-70B-Instruct', 'Llama-3.1-8B-Instruct', 'OLMo-2-1124-13B-Instruct','Llama-3.1-405b','Qwen2.5-7B-Instruct-1M','OLMo-2-1124-7B-Instruct','Llama-3.1-70B-Instruct', 'Llama-3.1-70B-Instruct-quantized.w4a16', 'Llama-3.1-70B-Instruct-quantized.w8a16','Llama-3.1-8B-Instruct-quantized.w8a16','Llama-3.1-8B-Instruct-quantized.w8a16'] # add more models here
+   # models = ['EuroLLM-9B-Instruct', 'Llama-3.3-70B-Instruct', 'Llama-3.1-8B-Instruct', 'OLMo-2-1124-13B-Instruct','Llama-3.1-405b','Qwen2.5-7B-Instruct-1M','OLMo-2-1124-7B-Instruct','Llama-3.1-70B-Instruct', 'Llama-3.1-70B-Instruct-quantized.w4a16', 'Llama-3.1-70B-Instruct-quantized.w8a16','Llama-3.1-8B-Instruct-quantized.w8a16','Llama-3.1-8B-Instruct-quantized.w8a16'] # add more models here
+    #models = ['Llama-3.1-405b','gpt-4o-2024-11-20']
+    models = ['Llama-3.1-8B-Instruct-quantized.w4a16']
     # List CSV files in the results folder
   # Process each CSV file whose title contains the model string
+
     for model in models:
         results_dir = f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/prefix_probe/{model}/{prompt_setting}/'
         titles = list_csv_files(results_dir)
@@ -68,7 +71,7 @@ def main():
 
                 df_out = pd.DataFrame()  # will hold per-row metrics and a system-level scores row
 
-                available_langs = ["en", "vi", "es", "tr", "mg", "mai", "ty", "tn", "yo", "st"]
+                available_langs = ["en", "vi", "es", "tr"]
                 print(f"Available languages for file {title}: {available_langs}")
 
                 for lang in available_langs:
@@ -85,6 +88,8 @@ def main():
                         temp_df[f'{lang}_ROUGE-L'] = None
                         temp_df[f'{lang}_BLEU'] = None
                         temp_df[f'{lang}_ChrF++'] = None
+                        temp_df[f'{lang}_BLEURT'] = None
+
 
                         # Process each row
                         processed_rows = 0
@@ -99,6 +104,9 @@ def main():
                                     bleu_score = calculate_sentence_metrics(lang, prediction, reference, "BLEU")
                                     temp_df.at[index, f'{lang}_BLEU'] = bleu_score
                                     temp_df.at[index, f'{lang}_ChrF++'] = calculate_sentence_metrics(lang, prediction, reference, "ChrF++")
+                                    temp_df.at[index, f'{lang}_BLEURT'] = calculate_sentence_metrics(lang, prediction, reference, "BLEURT")
+
+
                                 except Exception as e:
                                     print(f"Error at row {index} for language {lang}: {e}")
                                 processed_rows += 1
@@ -109,10 +117,12 @@ def main():
                         if predictions and references:
                             try:
                                 system_scores = {
-                                    f'{lang}_ROUGE-L': rouge.compute(predictions=predictions, references=references, rouge_types=["rougeL"])["rougeL"],
-                                    f'{lang}_BLEU': sacrebleu.corpus_bleu(hypotheses=predictions, references=[references]).score,
-                                    f'{lang}_ChrF++': sacrebleu.corpus_chrf(hypotheses=predictions, references=[references]).score,
-                                }
+                                f'{lang}_ROUGE-L': rouge.compute(predictions=predictions, references=references, rouge_types=["rougeL"])["rougeL"],
+                                f'{lang}_BLEU': sacrebleu.corpus_bleu(hypotheses=predictions, references=[references]).score,
+                                f'{lang}_ChrF++': sacrebleu.corpus_chrf(hypotheses=predictions, references=[references]).score,
+                                f'{lang}_BLEURT': sum(bleurt.compute(predictions=predictions, references=references)["scores"]) / len(predictions),
+                            }
+
                             except Exception as e:
                                 print(f"Error computing system scores for {lang}: {e}")
                                 system_scores = {}
@@ -140,9 +150,9 @@ def main():
                     print("Warning: No data processed in df_out; nothing to label.")
                 
                 # Save the output CSV if df_out is not empty
-                output_dir = f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/prefix_probe/{model}/eval/csv/{prompt_setting}'
+                output_dir = f'/home/ekorukluoglu_umass_edu/beam2/BEAM/results/prefix_probe/{model}/eval/csv/{prompt_setting}/bleurt'
                 os.makedirs(output_dir, exist_ok=True)
-                output_csv = os.path.join(output_dir, f"{title}.csv")
+                output_csv = os.path.join(output_dir, f"{title}_bleurt.csv")
                 if not df_out.empty:
                     df_out.to_csv(output_csv, index=False, encoding='utf-8')
                     print(f"Saved output CSV to {output_csv}")
