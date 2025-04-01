@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 import matplotlib.colors as mc
 
 # ===================== USER SETTINGS =====================
-EXPERIMENT_TYPE = "non_ne"  # e.g. "masked", "ne", "non_ne", etc.
 BASE_PROMPT_PATH = "scripts/Prompts copy"
 BASE_DIR = "results/direct_probe"
 
@@ -149,8 +148,8 @@ def load_and_process_data(experiment_type, meta_dict):
             if key_ in meta_dict:
                 cflag = meta_dict[key_]
             else:
-                print(f"Book '{book_name}' not in metadata => default Public")
-                cflag = False
+                print(f"Book '{book_name}' not in metadata => default Copyright")
+                cflag = True
 
             # load unmasked passages => token counting
             unmasked_df = load_unmasked_passages(book_name)
@@ -192,88 +191,117 @@ def compute_accuracy(data):
     return results
 
 # ============== 4) Plotting ==============
-def main():
-    # 1) load metadata
+def main(EXPERIMENT_TYPE):
     meta_dict = load_book_metadata()
-    # 2) gather data
-    aggregated_data = load_and_process_data(EXPERIMENT_TYPE, meta_dict)
-    if aggregated_data.empty:
-        print("No data found. Exiting.")
-        return
 
-    # aggregator => { (lang_group, cflag): list of (bucket_label,acc) }
-    aggregator = {}
-    grouped = aggregated_data.groupby(["language_group","copyrighted"])
-    for (grp, cflag), subset in grouped:
-        bucket_acc = compute_accuracy(subset)
-        aggregator[(grp,cflag)] = bucket_acc
-
-    # build a final DataFrame
-    bucket_labels = [
-        f"{min_}-{int(max_) if max_!=float('inf') else '400+'}"
-        for (min_,max_) in TOKEN_BUCKETS
-    ]
-    result_df = pd.DataFrame(index=bucket_labels)
-
-    for key, val in aggregator.items():
-        grp, cflag = key
-        col_name = f"{grp}_{'C' if cflag else 'NC'}"
-        map_ = dict(val)
-        col_vals = [ map_.get(lab,np.nan) for lab in bucket_labels ]
-        result_df[col_name] = col_vals
-
-    print("Final DataFrame:\n", result_df)
-
-    # Plot lines => six possible combos
-    plt.figure(figsize=(10,6))
-    x_positions = np.arange(len(bucket_labels))
+    SHOT_TYPES = ["one_shot", "zero_shot"]
+    fig, axes = plt.subplots(1, 2, figsize=(16, 6), sharey=True)
+    x_positions = np.arange(len(TOKEN_BUCKETS))
 
     def parse_colname(col):
-        # "English_C" => ("English", True)
-        parts = col.rsplit("_",1)
+        parts = col.rsplit("_", 1)
         grp = parts[0]
-        cflag = (parts[1]=="C")
-        return (grp,cflag)
+        cflag = (parts[1] == "C")
+        return (grp, cflag)
 
-    for col in result_df.columns:
-        grp, cflag = parse_colname(col)
-        base_col = FLARE_COLORS.get(grp, "gray")
-        color_, style_ = get_color_and_style(base_col,cflag)
-        y_vals = result_df[col]
-        label_ = f"{grp} ({'Copyright' if cflag else 'Public'})"
-        plt.plot(x_positions, y_vals,
-                 color=color_, linestyle=style_,
-                 marker="o", linewidth=2, label=label_)
+    for i, shot_type in enumerate(SHOT_TYPES):
+        ax = axes[i]
+        aggregator = {}
 
-    plt.xticks(x_positions, bucket_labels)
-    plt.xlabel("Context Length (Tokens)")
-    plt.ylabel("Accuracy (%)")
+        # Load and filter data specific to shot_type
+        eval_folders = find_evaluation_folders(BASE_DIR, EXPERIMENT_TYPE)
+        eval_folders = [f for f in eval_folders if f"{EXPERIMENT_TYPE}_{shot_type}" in f]
+        all_data = []
 
-    # The experiment name => e.g. "masked", "ne", "non_ne"
-    # We'll produce a single figure unifying one_shot + zero_shot
-    plt.title(f"Direct Probe ({EXPERIMENT_TYPE}) - Accuracy vs. Context Length")
+        for folder_path in eval_folders:
+            for file in os.listdir(folder_path):
+                if not file.endswith(".csv") or 'aggregate' in file:
+                    continue
+                if any(excl in file for excl in EXCLUDE_FILES):
+                    continue
 
-    out_name = f"direct_probe_{EXPERIMENT_TYPE}_accuracy_vs_context_length.png"
-    plt.grid(True)
-    # remove duplicate legend entries
-    handles,labels = plt.gca().get_legend_handles_labels()
-    unique = dict(zip(labels,handles))    
+                file_path = os.path.join(folder_path, file)
+                df = pd.read_csv(file_path)
+                book_name = extract_book_name(file)
+                key_ = book_name.lower()
+                cflag = meta_dict.get(key_, True)  # Default to Copyright
 
-    # 1) Move the legend outside the axes, on the right
-    #    'loc="upper left"' means the legend's upper-left corner is anchored at ...
-    #    'bbox_to_anchor=(1.05, 1)' means 1.05 to the right of the axes, 1 at the top
-    # plt.legend(
-    #     unique.values(), unique.keys(),
-    #     loc="upper left",
-    #     bbox_to_anchor=(1.05, 1),
-    #     borderaxespad=0.0,
-    #     frameon=True  # optional: gives legend a box
-    # )
+                unmasked_df = load_unmasked_passages(book_name)
+                if unmasked_df is None:
+                    continue
 
-    # 2) Adjust the figure so there's space on the right for the legend
-    plt.subplots_adjust(right=0.75)
+                for lang_group, lang_cols in LANG_GROUPS.items():
+                    for lang_col in lang_cols:
+                        match_col = f"{lang_col}_results_both_match"
+                        if match_col in df.columns and lang_col in unmasked_df.columns:
+                            is_match = df[match_col].astype(str).str.lower() == "true"
+                            token_counts = unmasked_df[lang_col].apply(get_token_count)
+                            temp_df = pd.DataFrame({
+                                "language_group": lang_group,
+                                "tokens": token_counts,
+                                "match_found": is_match,
+                                "copyrighted": cflag
+                            })
+                            all_data.append(temp_df)
 
-    plt.savefig(out_name, dpi=300, bbox_inches="tight")
+        if not all_data:
+            print(f"No data for {shot_type}")
+            continue
+
+        aggregated_data = pd.concat(all_data, ignore_index=True)
+        grouped = aggregated_data.groupby(["language_group", "copyrighted"])
+
+        # Compute accuracy bucket-wise
+        for (grp, cflag), subset in grouped:
+            acc_list = compute_accuracy(subset)
+            aggregator[(grp, cflag)] = acc_list
+
+        # Build result dataframe
+        bucket_labels = [
+            f"{min_}-{int(max_) if max_ != float('inf') else '400+'}"
+            for (min_, max_) in TOKEN_BUCKETS
+        ]
+        result_df = pd.DataFrame(index=bucket_labels)
+        for key, val in aggregator.items():
+            grp, cflag = key
+            col_name = f"{grp}_{'C' if cflag else 'NC'}"
+            val_map = dict(val)
+            result_df[col_name] = [val_map.get(lab, np.nan) for lab in bucket_labels]
+
+        # Plot
+        for col in result_df.columns:
+            grp, cflag = parse_colname(col)
+            base_color = FLARE_COLORS.get(grp, "gray")
+            color_, style_ = get_color_and_style(base_color, cflag)
+            y_vals = result_df[col]
+            label_ = f"{grp} ({'Copyright' if cflag else 'Public'})"
+            ax.plot(x_positions, y_vals,
+                    color=color_, linestyle=style_,
+                    marker="o", linewidth=2, label=label_)
+            for x, y in zip(x_positions, y_vals):
+                if not np.isnan(y):
+                    ax.text(x, y + 0.5, f"{y:.1f}%", ha="center", va="bottom", fontsize=8)
+
+        ax.set_xticks(x_positions)
+        ax.set_xticklabels(bucket_labels)
+        ax.set_xlabel("Context Length (Tokens)")
+        if i == 0:
+            ax.set_ylabel("Accuracy (%)")
+        ax.set_title(f"{shot_type.replace('_', ' ').title()}")
+
+        ax.grid(True)
+
+    # Legend (single, unified)
+    handles, labels = axes[0].get_legend_handles_labels()
+    unique = dict(zip(labels, handles))
+    fig.legend(unique.values(), unique.keys(),
+           loc="upper center", bbox_to_anchor=(0.5, -0.01),
+           ncol=2, frameon=True)
+
+    fig.suptitle(f"Direct Probe ({EXPERIMENT_TYPE}) - Accuracy vs. Context Length", fontsize=14)
+    fig.tight_layout(rect=[0, 0, 1, 0.95])
+    out_name = f"direct_probe_{EXPERIMENT_TYPE}_accuracy_vs_context_length_by_shot_type.png"
+    fig.savefig(out_name, dpi=300, bbox_inches="tight")
     print("Saved figure:", out_name)
     plt.show()
 
@@ -289,4 +317,5 @@ def get_color_and_style(base_color, is_copyright):
         return (lighten_color(base_color,0.4),"dashed")
 
 if __name__ == "__main__":
-    main()
+    for e in ["ne","masked","non_ne"]:
+        main(e)

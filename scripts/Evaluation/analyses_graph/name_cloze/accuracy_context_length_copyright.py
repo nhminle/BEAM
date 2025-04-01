@@ -206,76 +206,79 @@ def compute_accuracy(data):
 # ============ 4) Plotting ============
 
 def main():
-    # user picks "one-shot" or "zero-shot" above
     metadata_dict = load_book_metadata("scripts/Evaluation/analyses_graph/metadata.csv")
-    aggregated_data = load_and_process_data(
-        metadata_dict,
-        base_dir="results/name_cloze",
-        experiment_type=EXPERIMENT_TYPE
-    )
+    shot_types = ["one-shot", "zero-shot"]
+    base_dir = "results/name_cloze"
 
-    # aggregator[(lang_group, c_flag)] -> list of (bucket_label, accuracy)
-    aggregator = {}
-    grouped = aggregated_data.groupby(["language_group", "copyrighted"])
-    for (lang_grp, c_flag), subset in grouped:
-        bucket_acc = compute_accuracy(subset)
-        aggregator[(lang_grp, c_flag)] = bucket_acc
-
-    # Build final result DataFrame
-    bucket_labels = [
-        f"{min_}-{int(max_) if max_!=float('inf') else '400+'}"
-        for (min_,max_) in TOKEN_BUCKETS
-    ]
-    result_df = pd.DataFrame(index=bucket_labels)
-
-    for key, val in aggregator.items():
-        lang_grp, c_flag = key
-        col_name = f"{lang_grp}_{'C' if c_flag else 'NC'}"
-        # val is list of (label,acc)
-        val_map = dict(val)
-        col_values = [ val_map.get(lab, np.nan) for lab in bucket_labels ]
-        result_df[col_name] = col_values
-
-    print("Final Data:\n", result_df)
-
-    # Plot
-    plt.figure(figsize=(10,6))
-    x_positions = np.arange(len(bucket_labels))
+    fig, axes = plt.subplots(1, 2, figsize=(16, 6), sharey=True)
+    x_positions = np.arange(len(TOKEN_BUCKETS))
 
     def parse_colname(col):
-        # "English_C" => ("English", True)
-        parts = col.rsplit("_",1)
+        parts = col.rsplit("_", 1)
         grp = parts[0]
         cflag = (parts[1] == "C")
         return grp, cflag
 
-    for col in result_df.columns:
-        grp, cflag = parse_colname(col)
-        y_vals = result_df[col]
-        base_color = FLARE_COLORS.get(grp, "gray")
-        color_, style_ = get_color_and_style(base_color, cflag)
-        lbl = f"{grp} ({'Copyright' if cflag else 'Public'})"
-        plt.plot(x_positions, y_vals, color=color_, linestyle=style_, marker="o", linewidth=2, label=lbl)
+    bucket_labels = [
+        f"{min_}-{int(max_) if max_!=float('inf') else '400+'}"
+        for (min_, max_) in TOKEN_BUCKETS
+    ]
 
-    plt.xticks(x_positions, bucket_labels)
-    plt.xlabel("Context Length (Tokens)")
-    plt.ylabel("Accuracy (%)")
-    # Title depends on experiment
-    if EXPERIMENT_TYPE == "one-shot":
-        plt.title("Name Cloze Task: One-Shot Accuracy vs. Context Length (Split by Copyright)")
-        out_fname = f"{BASE_NAME}_accuracy_vs_context_length_copyright.png"
-    else:
-        plt.title("Name Cloze Task: Zero-Shot Accuracy vs. Context Length (Split by Copyright)")
-        out_fname = f"{BASE_NAME}_accuracy_vs_context_length_copyright.png"
+    for i, shot in enumerate(shot_types):
+        ax = axes[i]
+        print(f"Processing: {shot}")
+        data_df = load_and_process_data(metadata_dict, base_dir, shot)
+        if data_df.empty:
+            print(f"Warning: No data for {shot}")
+            continue
 
-    plt.grid(True)
-    # De-duplicate legend
-    handles, labels = plt.gca().get_legend_handles_labels()
+        grouped = data_df.groupby(["language_group", "copyrighted"])
+        aggregator = {}
+        for (lang_grp, cflag), subset in grouped:
+            acc_list = compute_accuracy(subset)
+            aggregator[(lang_grp, cflag)] = acc_list
+
+        result_df = pd.DataFrame(index=bucket_labels)
+        for key, val in aggregator.items():
+            lang_grp, cflag = key
+            col_name = f"{lang_grp}_{'C' if cflag else 'NC'}"
+            val_map = dict(val)
+            result_df[col_name] = [val_map.get(lab, np.nan) for lab in bucket_labels]
+
+        for col in result_df.columns:
+            grp, cflag = parse_colname(col)
+            y_vals = result_df[col]
+            base_color = FLARE_COLORS.get(grp, "gray")
+            color_, style_ = get_color_and_style(base_color, cflag)
+            label = f"{grp} ({'Copyright' if cflag else 'Public'})"
+            ax.plot(x_positions, y_vals,
+                    color=color_, linestyle=style_,
+                    marker="o", linewidth=2, label=label)
+            for x, y in zip(x_positions, y_vals):
+                if not np.isnan(y):
+                    ax.text(x, y + 0.5, f"{y:.1f}%", ha="center", va="bottom", fontsize=8)
+
+        ax.set_xticks(x_positions)
+        ax.set_xticklabels(bucket_labels)
+        ax.set_xlabel("Context Length (Tokens)")
+        if i == 0:
+            ax.set_ylabel("Accuracy (%)")
+        ax.set_title(f"{shot.replace('-', ' ').title()}")
+
+        ax.grid(True)
+
+    # Deduplicated Legend
+    handles, labels = axes[0].get_legend_handles_labels()
     unique = dict(zip(labels, handles))
-    plt.legend(unique.values(), unique.keys(), loc="best")
+    fig.legend(unique.values(), unique.keys(),
+               loc="upper center", bbox_to_anchor=(0.5,-0.01),
+               ncol=3, frameon=True)
 
-    plt.savefig(out_fname, dpi=300, bbox_inches="tight")
-    print("Saved plot to:", out_fname)
+    fig.suptitle("Name Cloze Task: Accuracy vs. Context Length (One-Shot vs. Zero-Shot)", fontsize=14)
+    fig.tight_layout(rect=[0, 0, 1, 0.95])
+    out_path = "name_cloze_accuracy_vs_context_length_by_shot.jpg"
+    fig.savefig(out_path, dpi=300, bbox_inches="tight")
+    print("Saved plot to:", out_path)
     plt.show()
 
 # ============ HELPERS ============
