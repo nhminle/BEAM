@@ -6,8 +6,9 @@ Book,Character List,Count,en,es,tr,vi,In Title
 1984,"('tom',)",1,51,51,25,3,False
 1984,"('katharine', ""katharine'in"", 'katherine')",1,17,16,21,16,False
 1984,"('goldstein', 'huynh đ')",1,37,37,38,37,False
-A_Tale_of_Two_Cities,"('carlos', 'carlos darnay', 'charles', 'charles darnay', 'darna', 'darnay', 'doktor manette', 'dr manette', 'luci', 'lucie', 'lucie darnay', 'lucía', 'lucía darnay', 'mane', 'manette', 'miss manette', 'mr darnay', 'señorita manette')",48,167,292,210,251,False
+A_Tale_of_Two_Cities,"('doktor manette', 'dr manette', 'luci', 'lucie', 'lucía', 'mane', 'manette', 'miss manette', 'señorita manette')",29,167,292,210,251,False
 A_Tale_of_Two_Cities,"('carton', 'carton-replicó lorry', 'dios-dijo lorry', 'jarvis lorr', 'jarvis lorry', 'lorr', 'lorry', 'mauricio lorry', 'mr jarvis lorry', 'mr lorry', 'señor lorry')",21,369,380,429,401,False
+A_Tale_of_Two_Cities,"('carlos', 'carlos darnay', 'charles', 'charles darnay', 'darna', 'darnay', 'mr darnay')",18,148,176,200,212,False
 A_Tale_of_Two_Cities,"('defarge', 'madam defarge', 'madame defarge', 'monsieur defarge', 'mösyö defarge', 'señora defarge')",17,311,260,327,341,False
 A_Tale_of_Two_Cities,"('miss pross', 'pross')",5,162,132,180,173,False
 A_Tale_of_Two_Cities,"('gabelle', 'gambelle', 'monsieur gabelle', 'mösyö gabelle', 'señor gabelle')",3,29,25,29,30,False
@@ -15,6 +16,7 @@ A_Tale_of_Two_Cities,"('mr stryver', 'stryver', 'sydney')",3,108,70,110,123,Fals
 A_Tale_of_Two_Cities,"('jeremías lapa', 'jerry')",1,108,33,113,105,False
 A_Tale_of_Two_Cities,"('marqués', 'monsieur the marquis', 'mösyö marki', 'ngài hu')",1,29,91,31,0,False
 A_Tale_of_Two_Cities,"('evrémond', 'evrémonde', 'yurttaş evremonde')",1,46,46,7,45,False
+A_Tale_of_Two_Cities,"('lucie darnay', 'lucía darnay')",1,1,1,1,1,False
 A_thousand_splendid_suns,"('lail', 'laila', 'leyla', 'leyla co')",9,1093,935,1004,1103,False
 A_thousand_splendid_suns,"('mariam', 'mariam hiu', 'mariam jo', 'meryem', 'meryem co', 'meryem gari')",8,1044,905,984,1056,False
 A_thousand_splendid_suns,"('rasheed', 'rashid', 'raşit')",8,375,423,379,390,False
