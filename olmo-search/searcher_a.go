@@ -195,7 +195,6 @@ func searchCsvForMatches(csvFilePath string, targetColumns []string, textSet map
 		for i, header := range headers {
 			if strings.EqualFold(header, targetCol) {
 				targetColumnIndices = append(targetColumnIndices, i)
-				break
 			}
 		}
 	}
@@ -276,8 +275,10 @@ func processShard(shardFilePath string, csvFilePaths []string, targetColumns []s
 func main() {
 	// Adjust these paths as needed.
 	baseDirectory := "/home/ekorukluoglu_umass_edu/beam2/BEAM/olmo-search/sample-set/"
-	shardRootDirectory := "/scratch3/workspace/ekorukluoglu_umass_edu-simple/dclm/global-shard_01_of_10/local-shard_0_of_10/"
+	// shardRootDirectory := "/scratch3/workspace/ekorukluoglu_umass_edu-simple/dclm/global-shard_01_of_10/local-shard_0_of_10/"
+	shardRootDirectory := "./shards/"
 	outputDirectory := "./results"
+
 	targetTextColumns := []string{"en", "tr", "es", "vi"}
 
 	// Create the output directory.
