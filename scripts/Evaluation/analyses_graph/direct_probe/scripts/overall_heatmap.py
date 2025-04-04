@@ -6,12 +6,12 @@ from matplotlib.colors import LinearSegmentedColormap
 
 # 📂 List of CSV files (modify this to include all your files)
 CSV_FILES = [
-    "/Users/alishasrivastava/BEAM/scripts/Evaluation/analyses_graph/direct_probe/shuffled/os_shuffled_ne_aggregate_data_grouped.csv",
-    "/Users/alishasrivastava/BEAM/scripts/Evaluation/analyses_graph/direct_probe/shuffled/os_shuffled_masked_aggregate_data_grouped.csv",
-    "/Users/alishasrivastava/BEAM/scripts/Evaluation/analyses_graph/direct_probe/shuffled/os_shuffled_non_ne_aggregate_data_grouped.csv",
-    "/Users/alishasrivastava/BEAM/scripts/Evaluation/analyses_graph/direct_probe/shuffled/zs_shuffled_ne_aggregate_data_grouped.csv",
-    "/Users/alishasrivastava/BEAM/scripts/Evaluation/analyses_graph/direct_probe/shuffled/zs_shuffled_masked_aggregate_data_grouped.csv",
-    "/Users/alishasrivastava/BEAM/scripts/Evaluation/analyses_graph/direct_probe/shuffled/zs_shuffled_non_ne_aggregate_data_grouped.csv"
+    "scripts/Evaluation/analyses_graph/direct_probe/shuffled/os_shuffled_ne_aggregate_data_grouped.csv",
+    "scripts/Evaluation/analyses_graph/direct_probe/shuffled/os_shuffled_masked_aggregate_data_grouped.csv",
+    "scripts/Evaluation/analyses_graph/direct_probe/shuffled/os_shuffled_non_ne_aggregate_data_grouped.csv",
+    "scripts/Evaluation/analyses_graph/direct_probe/shuffled/zs_shuffled_ne_aggregate_data_grouped.csv",
+    "scripts/Evaluation/analyses_graph/direct_probe/shuffled/zs_shuffled_masked_aggregate_data_grouped.csv",
+    "scripts/Evaluation/analyses_graph/direct_probe/shuffled/zs_shuffled_non_ne_aggregate_data_grouped.csv"
 ]
 
 # 📌 Define names for the Y-axis (modify this to match the CSV files)
@@ -25,7 +25,7 @@ Y_AXIS_NAMES = [
 ]
 
 # 📂 Output directory (where the heatmap and CSV will be saved)
-OUTPUT_DIR = "/Users/alishasrivastava/BEAM/scripts/Evaluation/analyses_graphs/direct_probe/shuffled"
+OUTPUT_DIR = "scripts/Evaluation/analyses_graphs/direct_probe/shuffled"
 
 def create_aggregate_heatmap(csv_files, y_axis_names, output_dir):
     """
