@@ -59,29 +59,36 @@ Adventures_of_Huckleberry_Finn,"('tim collins',)",1,1,1,1,1,False
 Adventures_of_Huckleberry_Finn,"('hines',)",1,6,6,5,4,False
 Adventures_of_Huckleberry_Finn,"('bayan phelps', 'phelps', 'señora phelps')",1,17,17,18,14,False
 Adventures_of_Sherlock_Holmes,"('bay holmes', 'holme', 'holmes', 'señor holmes', 'sherlock holmes')",36,461,462,512,466,True
-Adventures_of_Sherlock_Holmes,"(""'bay ferguson"", 'bay duncan ross', 'bay holder', 'bay jabez wilson', 'bay wilson', 'duncan ross', 'ferguson', 'holde', 'holder', 'jabez wilso', 'jabez wilson', 'señor wilson', 'sr', 'wilso', 'wilson')",15,23,63,22,22,False
-Adventures_of_Sherlock_Holmes,"('albay lysander stark', 'bay rucastle', 'bayan rucastle', 'bayan stoner', 'lady st', 'lestrade', 'lord st', 'lysander stark', 'ruca', 'rucastle', 'señor rucastle', 'señora rucastle', 'señora st', 'simon', 'st', 'stark', 'stone', 'stoner')",12,3356,4551,1194,279,False
+Adventures_of_Sherlock_Holmes,"('bay jabez wilson', 'bay wilson', 'jabez wilso', 'jabez wilson', 'señor wilson', 'wilso', 'wilson')",9,22,22,22,22,False
 Adventures_of_Sherlock_Holmes,"('watso', 'watson')",7,81,81,91,80,False
-Adventures_of_Sherlock_Holmes,"('bayan mary sutherland', 'mar', 'mary', 'mary sutherla', 'mary sutherland')",3,262,307,91,28,False
+Adventures_of_Sherlock_Holmes,"('bay rucastle', 'bayan rucastle', 'ruca', 'rucastle', 'señor rucastle', 'señora rucastle')",4,42,46,48,42,False
 Adventures_of_Sherlock_Holmes,"('bay jones', 'jones')",3,11,16,11,11,False
 Adventures_of_Sherlock_Holmes,"('bay hosmer angel', 'hosmer', 'hosmer angel')",3,23,23,23,23,False
-Adventures_of_Sherlock_Holmes,"('mccarthy',)",2,40,40,37,41,False
+Adventures_of_Sherlock_Holmes,"('bay duncan ross', 'duncan ross')",3,7,7,7,7,False
+Adventures_of_Sherlock_Holmes,"('bayan mary sutherland', 'mar', 'mary', 'mary sutherla', 'mary sutherland')",3,262,307,91,28,False
+Adventures_of_Sherlock_Holmes,"('lady st', 'lord st', 'señora st', 'simon')",3,40,38,40,37,False
+Adventures_of_Sherlock_Holmes,"('bay holder', 'holde', 'holder')",2,23,18,18,19,False
+Adventures_of_Sherlock_Holmes,"('albay lysander stark', 'lysander stark', 'stark')",2,9,9,9,9,False
+Adventures_of_Sherlock_Holmes,"('bayan stoner', 'stone', 'stoner')",2,59,21,23,20,False
 Adventures_of_Sherlock_Holmes,"('bayan hunter', 'hunter')",2,22,22,22,23,False
+Adventures_of_Sherlock_Holmes,"('mccarthy',)",2,40,40,37,41,False
 Adventures_of_Sherlock_Holmes,"('bay merryweather', 'merryweather')",2,12,12,12,12,False
-Adventures_of_Sherlock_Holmes,"('william morri', 'william morris')",1,2,2,2,2,False
-Adventures_of_Sherlock_Holmes,"('adle', 'adler', 'bayan adler')",1,16,16,18,18,False
-Adventures_of_Sherlock_Holmes,"('godfrey norton',)",1,5,5,5,5,False
-Adventures_of_Sherlock_Holmes,"('conde von kramm', 'kont von kramm', 'kram', 'the count von kramm')",1,2,2,2,2,False
 Adventures_of_Sherlock_Holmes,"('ezekiah hopkin', 'ezekiah hopkins')",1,2,2,2,2,False
+Adventures_of_Sherlock_Holmes,"('bay windibank', 'windiban', 'windibank')",1,20,20,20,20,False
 Adventures_of_Sherlock_Holmes,"('ned',)",1,429,5,127,1,False
 Adventures_of_Sherlock_Holmes,"('clay', 'john clay')",1,15,7,7,7,False
+Adventures_of_Sherlock_Holmes,"('william morri', 'william morris')",1,2,2,2,2,False
+Adventures_of_Sherlock_Holmes,"('adle', 'adler', 'bayan adler')",1,16,16,18,18,False
+Adventures_of_Sherlock_Holmes,"('conde von kramm', 'kont von kramm', 'kram', 'the count von kramm')",1,2,2,2,2,False
+Adventures_of_Sherlock_Holmes,"('godfrey norton',)",1,5,5,5,5,False
 Adventures_of_Sherlock_Holmes,"('james',)",1,21,21,21,21,False
-Adventures_of_Sherlock_Holmes,"('bay windibank', 'windiban', 'windibank')",1,20,20,20,20,False
-Adventures_of_Sherlock_Holmes,"('turner',)",1,22,22,25,21,False
-Adventures_of_Sherlock_Holmes,"('moran',)",1,14,14,10,13,False
-Adventures_of_Sherlock_Holmes,"('alice',)",1,12,12,16,12,False
-Adventures_of_Sherlock_Holmes,"('openshaw',)",1,16,16,17,16,False
 Adventures_of_Sherlock_Holmes,"('dr roylott', 'roylot', 'roylott')",1,23,23,27,23,False
+Adventures_of_Sherlock_Holmes,"('openshaw',)",1,16,16,17,16,False
+Adventures_of_Sherlock_Holmes,"('alice',)",1,12,12,16,12,False
+Adventures_of_Sherlock_Holmes,"('turner',)",1,22,22,25,21,False
+Adventures_of_Sherlock_Holmes,"('lestrade',)",1,38,38,38,39,False
+Adventures_of_Sherlock_Holmes,"('moran',)",1,14,14,10,13,False
+Adventures_of_Sherlock_Holmes,"(""'bay ferguson"", 'ferguson')",1,4,4,4,4,False
 Adventures_of_Sherlock_Holmes,"('arthur',)",1,20,20,21,20,False
 Alice_in_Wonderland,"('alic', 'alice', 'alice ejder', 'alicia')",45,397,430,423,529,True
 Alice_in_Wonderland,"('dodo',)",1,13,12,11,17,False
@@ -109,21 +116,25 @@ Bride,"('emery',)",2,58,0,0,0,False
 Bride,"('juno',)",2,57,0,0,0,False
 Bride,"('koen',)",2,30,0,0,0,False
 Bride,"('essen',)",1,1,0,0,0,False
-Dracula,"(""'lord godalming"", 'bà min', 'godalming', 'harker', 'lord godalming', 'lordship', 'madam mina', 'min', 'mina', 'ms harker', 'n chúa', 'señora harker', 'señora mina')",22,849,0,0,0,False
-Dracula,"('conde drácula', 'dracula', 'drácula', 'kont', 'kont dracula', 'luc', 'lucy', 'miss lucy', 'miss westenra', 'renfield', 'skinsky', 'westenra')",21,305,0,0,0,True
+Dracula,"('bà min', 'harker', 'madam mina', 'mina', 'ms harker', 'señora harker', 'señora mina')",21,269,0,0,0,False
 Dracula,"('doctor van helsing', 'helsing', 'van helsin', 'van helsing')",17,322,0,0,0,False
+Dracula,"('luc', 'lucy', 'miss lucy', 'miss westenra', 'westenra')",14,305,0,0,0,False
 Dracula,"('jona', 'jonathan')",10,201,0,0,0,False
 Dracula,"('doctor seward', 'dr seward', 'sewar', 'seward')",5,128,0,0,0,False
+Dracula,"('conde drácula', 'dracula', 'drácula', 'kont', 'kont dracula')",4,35,0,0,0,True
 Dracula,"('amigo john', 'john')",3,76,0,0,0,False
 Dracula,"('bersicker',)",2,9,0,0,0,False
 Dracula,"('morris', 'mr morris', 'quincey morri', 'señor morris')",2,78,0,0,0,False
 Dracula,"('bilde', 'bilder', 'bà bilder', 'mr bilder', 'ms tom', 'tom')",2,81,0,0,0,False
-Dracula,"('atila', 'attila', 'magyard')",1,2,0,0,0,False
+Dracula,"('renfield',)",3,48,57,65,101,False
 Dracula,"('hawkins', 'mr hawkins')",1,25,0,0,0,False
+Dracula,"('atila', 'attila', 'magyard')",1,2,0,0,0,False
 Dracula,"('arthur',)",1,147,0,0,0,False
 Dracula,"('olgaren',)",1,1,0,0,0,False
+Dracula,"('godalming', 'lord godalming')",1,88,0,0,0,False
 Dracula,"('thomas',)",1,7,0,0,0,False
 Dracula,"('sam',)",1,123,0,0,0,False
+Dracula,"('skinsky',)",1,12,0,0,0,False
 Dune,"('pau', 'paul')",46,1732,1730,2068,1719,False
 Dune,"('dama jessica', 'jessic', 'jessica', 'leydi jessica')",21,895,955,1388,901,False
 Dune,"('ging halleck', 'gurney', 'gurney halleck', 'halleck')",9,348,345,360,351,False
@@ -170,15 +181,19 @@ First_Lie_Wins,"('porter',)",1,48,0,0,0,False
 First_Lie_Wins,"('cameron',)",1,18,0,0,0,False
 First_Lie_Wins,"('tyron',)",1,20,0,0,0,False
 Frankenstein,"('clerva', 'clerval', 'frankenstein', 'querido clerval', 'ren')",12,205,247,230,62,True
-Frankenstein,"('kirwin', 'krempe', 'm', 'margare', 'margaret', 'mr kirwin', 'profesör waldman', 'señor kirwin', 'señor krempe', 'thn hy ho', 'waldman', 'william')",11,10234,10844,15045,9286,False
 Frankenstein,"('eliz', 'elizabeth')",8,92,137,109,92,False
+Frankenstein,"('kirwin', 'mr kirwin', 'señor kirwin')",5,13,14,13,13,False
 Frankenstein,"('henr', 'henry')",5,26,25,30,27,False
-Frankenstein,"('felix', 'félix')",4,50,50,57,52,False
 Frankenstein,"('justine',)",4,55,61,57,51,False
+Frankenstein,"('felix', 'félix')",4,50,50,57,52,False
 Frankenstein,"('de lace', 'de lacey')",3,9,9,9,9,False
 Frankenstein,"('daniel', 'daniel nugen', 'daniel nugent')",2,3,3,3,3,False
-Frankenstein,"('caroline beaufort',)",1,2,2,2,2,False
+Frankenstein,"('margare', 'margaret')",2,10,3,10,11,False
+Frankenstein,"('krempe', 'señor krempe', 'thn hy ho')",2,9,9,9,9,False
 Frankenstein,"('dante',)",1,1,8,1,1,False
+Frankenstein,"('profesör waldman', 'waldman')",1,9,8,10,8,False
+Frankenstein,"('caroline beaufort',)",1,2,2,2,2,False
+Frankenstein,"('william',)",1,25,28,32,28,False
 Funny_Story,"('peter', 'peterverse')",27,191,0,0,0,False
 Funny_Story,"('daph', 'daphne')",18,137,0,0,0,False
 Funny_Story,"('petra',)",11,100,0,0,0,False
@@ -210,7 +225,7 @@ Funny_Story,"('handsy stanley',)",1,2,0,0,0,False
 Funny_Story,"('beard',)",1,28,0,0,0,False
 Funny_Story,"('lenore',)",1,25,0,0,0,False
 Funny_Story,"('lance',)",1,39,0,0,0,False
-Harry_Potter_and_the_Deathly_Hallows,"('harr', 'harry', ""harry'nin patronus"", ""harry'ye"")",34,3184,2595,3298,3364,True
+Harry_Potter_and_the_Deathly_Hallows,"('harry', ""harry'nin patronus"", ""harry'ye"")",34,3184,2595,3298,3364,True
 Harry_Potter_and_the_Deathly_Hallows,"('hermione', ""hermione'nin"", ""hermione'ye"")",13,1225,1082,1287,1379,False
 Harry_Potter_and_the_Deathly_Hallows,"('ron', ""ron'dan"")",10,586,541,506,1035,False
 Harry_Potter_and_the_Deathly_Hallows,"('draco malfoy', 'luciu', 'lucius', 'lucius malfoy', 'malfoy', 'malfoys')",4,89,87,87,93,False
@@ -303,36 +318,52 @@ Paper_Towns,"('jase',)",1,49,49,54,55,False
 Paper_Towns,"('quenti', 'quentin')",1,39,43,39,40,False
 Paper_Towns,"('bay jiminez', 'jiminez')",1,6,6,6,6,False
 Paper_Towns,"('dennis mcmahon',)",1,1,1,1,1,False
-Percy_Jackson_The_Lightning_Thief,"('annabeth', 'annabeth bo', 'atenea', 'athena', 'bay d', 'bay jackson', 'bayan dodds', 'cu ferdinand', 'd', 'dehb', 'dodd', 'dodds', 'dt', 'echidna', 'ekidne', 'equidna', 'ferdinand', 'ferdinand amcam', 'grover', 'hade', 'hades', 'jackson', 'jacksons', 'kıvırcık', 'm annabeth', 'mano', 'olimpos', 'olympia', 'padre', 'perc', 'percy', 'percy jackso', 'percy jackson', 'perscus jackso', 'perseus jackson', 'poseidon', 'poseidón', 'sally jackso', 'sally jackson', 'señor jackson', 'señora dodds', 'troy', 'uncle ferdinand', 'zeus')",55,18415,18300,22423,2689,True
+Percy_Jackson_The_Lightning_Thief,"('annabeth', 'annabeth bo', 'atenea', 'athena', 'm annabeth')",17,407,394,460,480,False
 Percy_Jackson_The_Lightning_Thief,"('bay brunner', 'brunner', 'chiron', 'kheiron', 'murmuré', 'quirón', 'señor brunner')",13,185,174,194,155,False
-Percy_Jackson_The_Lightning_Thief,"('argus', 'gabe', 'gabe cóc', 'gabe cóc ch', 'gabe cóc cht', 'gabe el apestoso', 'kokarca gabe', 'smelly gabe')",8,78,73,88,69,False
+Percy_Jackson_The_Lightning_Thief,"('perc', 'percy', 'percy jackso', 'percy jackson', 'perscus jackso', 'perseus jackson')",13,260,260,252,188,True
+Percy_Jackson_The_Lightning_Thief,"('bayan dodds', 'dodd', 'dodds', 'señora dodds')",10,63,52,63,67,False
+Percy_Jackson_The_Lightning_Thief,"('gabe', 'gabe cóc', 'gabe cóc ch', 'gabe cóc cht', 'gabe el apestoso', 'kokarca gabe', 'smelly gabe')",8,78,73,88,69,False
 Percy_Jackson_The_Lightning_Thief,"('luke',)",6,114,108,123,127,False
-Percy_Jackson_The_Lightning_Thief,"('nancy', 'nancy bobofit')",3,23,22,24,30,False
+Percy_Jackson_The_Lightning_Thief,"('hade', 'hades')",4,123,110,114,117,False
 Percy_Jackson_The_Lightning_Thief,"('barry manilow', 'bay charon', 'caronte', 'charo', 'charon')",3,30,28,29,29,False
+Percy_Jackson_The_Lightning_Thief,"('grover', 'kıvırcık')",3,449,435,493,496,False
+Percy_Jackson_The_Lightning_Thief,"('nancy', 'nancy bobofit')",3,23,22,24,30,False
 Percy_Jackson_The_Lightning_Thief,"('clarisse',)",3,46,45,46,52,False
+Percy_Jackson_The_Lightning_Thief,"('bay d', 'mr d', 'señor d')",1,0,60,51,0,False
+Percy_Jackson_The_Lightning_Thief,"('sally jackso', 'sally jackson')",1,5,5,5,6,False
 Percy_Jackson_The_Lightning_Thief,"('hermes',)",1,19,19,19,17,False
+Percy_Jackson_The_Lightning_Thief,"('poseidon', 'poseidón')",1,90,84,89,69,False
 Percy_Jackson_The_Lightning_Thief,"('chimera', 'kimera', 'quimera')",1,17,16,17,17,False
-Percy_Jackson_The_Lightning_Thief,"('arachne', 'aracne', 'arakne')",1,2,2,2,2,False
+Percy_Jackson_The_Lightning_Thief,"('cu ferdinand', 'ferdinand', 'ferdinand amcam', 'uncle ferdinand')",1,6,6,6,5,False
 Percy_Jackson_The_Lightning_Thief,"('maurice',)",1,6,6,6,6,False
+Percy_Jackson_The_Lightning_Thief,"('arachne', 'aracne', 'arakne')",1,2,2,2,2,False
+Percy_Jackson_The_Lightning_Thief,"('echidna', 'ekidne', 'equidna')",1,10,10,10,10,False
 Percy_Jackson_The_Lightning_Thief,"('barbara walters',)",1,4,4,4,4,False
+Percy_Jackson_The_Lightning_Thief,"('dớt', 'zeus')",1,108,102,115,0,False
 Percy_Jackson_The_Lightning_Thief,"('ares',)",1,134,149,158,127,False
 Pride_and_Prejudice,"('cô elizabeth', 'eliz', 'eliza', 'elizabeth', 'miss eliza')",27,657,949,856,674,False
-Pride_and_Prejudice,"('bennet', 'bà benne', 'jane', 'jane bennet', 'long', 'miss bennet', 'mr bennet', 'mrs', 'mrs bennet', 'mrs long', 'mrs philips', 'philips', 'señor bennet', 'señora bennet', 'señora long', 'señora philips')",25,344,337,361,341,False
-Pride_and_Prejudice,"('albay fitzwilliam', 'anh darcy', 'darc', 'darcy', 'fitzwilliam', 'mr darcy', 'mr wickham', 'ngài william', 'señor darcy', 'sir william', 'wi', 'wickha', 'wickham', 'william')",24,2509,603,556,462,False
+Pride_and_Prejudice,"('bennet', 'bà benne', 'jane', 'jane bennet', 'miss bennet', 'mr bennet', 'mrs bennet', 'señor bennet', 'señora bennet')",23,334,337,360,341,False
+Pride_and_Prejudice,"('anh darcy', 'darc', 'darcy', 'mr darcy', 'señor darcy')",17,418,603,556,462,False
 Pride_and_Prejudice,"('bingley', 'mr bingley', 'señor bingley')",4,312,400,375,338,False
 Pride_and_Prejudice,"('bourgh', 'catherine', 'catherine bourg', 'catherine de bourgh', 'de bourg', 'de bourgh', 'lady catherine', 'lady catherine de bourgh')",4,127,187,127,118,False
-Pride_and_Prejudice,"('lizz', 'lizzy')",3,97,54,98,94,False
+Pride_and_Prejudice,"('mr wickham', 'wickham')",4,194,262,244,199,False
 Pride_and_Prejudice,"('collin', 'collins', 'mr collins', 'señor collins')",3,185,230,204,188,False
+Pride_and_Prejudice,"('albay fitzwilliam', 'fitzwilliam', 'ngài william', 'sir william', 'william')",3,83,78,89,79,False
+Pride_and_Prejudice,"('lizz', 'lizzy')",3,97,54,98,94,False
 Pride_and_Prejudice,"('charlotte lucas', 'lucas', 'miss lucas')",2,84,80,91,85,False
-Pride_and_Prejudice,"('mary',)",2,39,40,41,39,False
 Pride_and_Prejudice,"('charle', 'charles', 'netherfield')",2,73,71,73,63,False
+Pride_and_Prejudice,"('mary',)",2,39,40,41,39,False
+Pride_and_Prejudice,"('long', 'mrs long', 'señora long')",1,278,113,102,98,False
 Pride_and_Prejudice,"('louisa',)",1,6,6,6,5,False
 Pride_and_Prejudice,"('jones', 'mr jones')",1,5,5,5,5,False
+Pride_and_Prejudice,"('mrs philips', 'philips', 'señora philips')",1,35,32,38,15,False
 Pride_and_Prejudice,"('maria', 'maría')",1,20,30,20,21,False
 Pride_and_Prejudice,"('lydia',)",1,171,192,198,174,False
-Sense_and_sensibility,"('edvvard', 'edward', 'elino', 'elinor', 'elinor quan', 'mr willoughby', 'robert', 'willoughb', 'willoughby')",40,685,728,792,697,False
-Sense_and_sensibility,"('không', 'mariann', 'marianne', 'miss marianne')",22,566,589,643,3101,False
+Sense_and_sensibility,"('elinor')",26,685,728,792,697,False
+Sense_and_sensibility,"('mariann', 'marianne', 'miss marianne')",22,566,589,643,3101,False
+Sense_and_sensibility,"('edvvard', 'edward')",9,263,288,293,262,False
 Sense_and_sensibility,"('charlotte', 'jenning', 'jennings', 'mrs jennings', 'señora jennings')",8,235,240,255,223,False
+Sense_and_sensibility,"('mr willoughby', 'willoughby')",5,219,234,285,210,False
 Sense_and_sensibility,"('lucy',)",5,186,194,211,193,False
 Sense_and_sensibility,"('dashwood', 'daswood', 'john', 'john dashwood', 'john daswood', 'mr john dashwood', 'mrs dashwood norland', 'mrs john dashwood', 'señora dashwood', 'sir john')",5,288,309,210,285,False
 Sense_and_sensibility,"('ferrars', 'mr ferrars', 'mrs ferrars', 'señor ferrars', 'señora ferrars')",5,130,129,129,122,False
