@@ -231,6 +231,9 @@ if __name__ == "__main__":
         subdirs = [os.path.join(base_dir, d) for d in os.listdir(base_dir) if os.path.isdir(os.path.join(base_dir, d))]
         
         for main_dir in subdirs:
+            if main_dir != "results/direct_probe/Llama-3.1-8B-Instruct-quantized.w8a16/masked_zero_shot":
+                continue
+            
             print(f"\n=== Processing main_dir: {main_dir} ===")
             heatmap_dict_main = {}
             heatmap_dict_2024 = {}
