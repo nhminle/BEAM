@@ -154,7 +154,7 @@ def main():
             eval_files = [
                 os.path.join(eval_dir, f)
                 for f in os.listdir(eval_dir)
-                if f.endswith('.csv')
+                if f.endswith('.csv') and "Paper_Towns" not in f # skip Paper towns results
             ]
             if eval_files:
                 # We'll accumulate raw counts across all these files
