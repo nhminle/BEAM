@@ -5,16 +5,16 @@ import seaborn as sns
 from matplotlib.colors import LinearSegmentedColormap
 
 # Data location (where models are stored)
-DATA_BASE_DIR = '/Users/alishasrivastava/BEAM/results/direct_probe'
+DATA_BASE_DIR = 'results/direct_probe'
 
 # Output location (where heatmap & CSV should be saved)
-OUTPUT_DIR = '/Users/alishasrivastava/BEAM/scripts/Evaluation/analyses_graph/direct_probe/shuffled'
+OUTPUT_DIR = 'scripts/Evaluation/analyses_graph/direct_probe/og'
 
 # Define language groups
 LANG_GROUPS = {
-    "English": ["en_shuffled"],
-    "Translations": ["es_shuffled", "tr_shuffled", "vi_shuffled"],
-    "Cross-lingual": ["st_shuffled", "yo_shuffled", "tn_shuffled", "ty_shuffled", "mai_shuffled", "mg_shuffled"]
+    "English": ["en"],
+    "Translations": ["es", "tr", "vi"],
+    "Cross-lingual": ["st", "yo", "tn", "ty", "mai", "mg"]
 }
 
 def compute_language_group_accuracy(evaluated_df):
@@ -66,7 +66,7 @@ def create_grouped_heatmap(aggregate_dict, output_dir, filename_suffix, title_su
     os.makedirs(output_dir, exist_ok=True)
 
     # Save aggregate CSV
-    csv_filename = f"zs_shuffled_masked_aggregate_data_{filename_suffix}.csv"
+    csv_filename = f"zs_masked_aggregate_data_{filename_suffix}.csv"
     csv_path = os.path.join(output_dir, csv_filename)
     agg_df.to_csv(csv_path, index=True)
     print(f"Saved aggregate CSV: {csv_path}")
@@ -91,7 +91,7 @@ def create_grouped_heatmap(aggregate_dict, output_dir, filename_suffix, title_su
     plt.title(f"Direct Probe: Shuffled Masked Zero-Shot Accuracy", fontsize=16)
 
     # Save heatmap
-    heatmap_filename = f"zs_shuffled_masked_aggregate_heatmap_{filename_suffix}.png"
+    heatmap_filename = f"zs_masked_aggregate_heatmap_{filename_suffix}.png"
     heatmap_path = os.path.join(output_dir, heatmap_filename)
     plt.tight_layout()
     plt.savefig(heatmap_path, dpi=300)

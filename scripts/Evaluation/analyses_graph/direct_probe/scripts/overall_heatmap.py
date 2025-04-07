@@ -6,12 +6,12 @@ from matplotlib.colors import LinearSegmentedColormap
 
 # 📂 List of CSV files (modify this to include all your files)
 CSV_FILES = [
-    "scripts/Evaluation/analyses_graph/direct_probe/shuffled/os_shuffled_ne_aggregate_data_grouped.csv",
-    "scripts/Evaluation/analyses_graph/direct_probe/shuffled/os_shuffled_masked_aggregate_data_grouped.csv",
-    "scripts/Evaluation/analyses_graph/direct_probe/shuffled/os_shuffled_non_ne_aggregate_data_grouped.csv",
-    "scripts/Evaluation/analyses_graph/direct_probe/shuffled/zs_shuffled_ne_aggregate_data_grouped.csv",
-    "scripts/Evaluation/analyses_graph/direct_probe/shuffled/zs_shuffled_masked_aggregate_data_grouped.csv",
-    "scripts/Evaluation/analyses_graph/direct_probe/shuffled/zs_shuffled_non_ne_aggregate_data_grouped.csv"
+    "scripts/Evaluation/analyses_graph/direct_probe/og/os_ne_aggregate_data_grouped.csv",
+    "scripts/Evaluation/analyses_graph/direct_probe/og/os_masked_aggregate_data_grouped.csv",
+    "scripts/Evaluation/analyses_graph/direct_probe/og/os_non_ne_aggregate_data_grouped.csv",
+    "scripts/Evaluation/analyses_graph/direct_probe/og/zs_ne_aggregate_data_grouped.csv",
+    "scripts/Evaluation/analyses_graph/direct_probe/og/zs_masked_aggregate_data_grouped.csv",
+    "scripts/Evaluation/analyses_graph/direct_probe/og/zs_non_ne_aggregate_data_grouped.csv"
 ]
 
 # 📌 Define names for the Y-axis (modify this to match the CSV files)
@@ -25,7 +25,7 @@ Y_AXIS_NAMES = [
 ]
 
 # 📂 Output directory (where the heatmap and CSV will be saved)
-OUTPUT_DIR = "scripts/Evaluation/analyses_graphs/direct_probe/shuffled"
+OUTPUT_DIR = "scripts/Evaluation/analyses_graph/direct_probe/og"
 
 def create_aggregate_heatmap(csv_files, y_axis_names, output_dir):
     """
@@ -65,7 +65,7 @@ def create_aggregate_heatmap(csv_files, y_axis_names, output_dir):
     os.makedirs(output_dir, exist_ok=True)
 
     # Save aggregated data to CSV
-    csv_output_path = os.path.join(output_dir, "shuffled_aggregate_heatmap_data.csv")
+    csv_output_path = os.path.join(output_dir, "aggregate_heatmap_data.csv")
     agg_df.to_csv(csv_output_path, index=True)
     print(f"Saved CSV: {csv_output_path}")
 
@@ -86,7 +86,7 @@ def create_aggregate_heatmap(csv_files, y_axis_names, output_dir):
 
     plt.xlabel("Language Group", fontsize=14)
     plt.ylabel("Dataset", fontsize=14)
-    plt.title("Direct Probe: Shuffled Experiments by Aggregate Accuracy", fontsize=16)
+    plt.title("Direct Probe: Experiments by Aggregate Accuracy", fontsize=16)
 
     # Save heatmap
     heatmap_output_path = os.path.join(output_dir, "direct_probe_aggregate_accuracy_heatmap.png")
