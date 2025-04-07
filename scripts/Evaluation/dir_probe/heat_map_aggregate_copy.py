@@ -123,7 +123,7 @@ def main():
             eval_files = [
                 os.path.join(eval_dir, f)
                 for f in os.listdir(eval_dir)
-                if f.endswith('_eval.csv')
+                if f.endswith('_eval.csv') and "Paper_Towns" not in f # skip Paper towns results
             ]
             if eval_files:
                 per_file_counts = []
