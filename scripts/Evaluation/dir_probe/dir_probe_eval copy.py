@@ -172,20 +172,32 @@ def compute_language_accuracy(evaluated_df):
         lang_acc[lang] = sum(lang_acc[lang]) / len(lang_acc[lang])
     return lang_acc
 
-def create_heatmap(heatmap_dict, main_dir, heatmap_filename):
+def create_heatmap(heatmap_dict, main_dir, heatmap_filename, model, experiment, skip_books=["Paper_Towns"]):
+    
     if not heatmap_dict:
         print(f"No data for {heatmap_filename} heatmap.")
         return
+
     heatmap_df = pd.DataFrame(heatmap_dict).T.sort_index()
 
-    # Order columns so that preferred languages come first.
-    preferred = ['en', 'es', 'tr', 'vi', 'en_masked', 'es_masked', 'tr_masked', 'vi_masked',
-                 'st','yo','tn','ty','mai','mg',
-                 'en_shuffled','es_shuffled','tr_shuffled','vi_shuffled',
-                 'en_masked_shuffled','es_masked_shuffled','tr_masked_shuffled','vi_masked_shuffled',
-                 'st_shuffled','yo_shuffled','tn_shuffled','ty_shuffled','mai_shuffled','mg_shuffled']
+    # Drop any rows in skip_books
+    if skip_books:
+        before_count = len(heatmap_df)
+        heatmap_df = heatmap_df.loc[~heatmap_df.index.isin(skip_books)]
+        after_count = len(heatmap_df)
+        removed = before_count - after_count
+        if removed > 0:
+            print(f"Skipped {removed} books: {skip_books}")
+
+    preferred = [
+        'en', 'es', 'tr', 'vi', 'en_masked', 'es_masked', 'tr_masked', 'vi_masked',
+        'st','yo','tn','ty','mai','mg',
+        'en_shuffled','es_shuffled','tr_shuffled','vi_shuffled',
+        'en_masked_shuffled','es_masked_shuffled','tr_masked_shuffled','vi_masked_shuffled',
+        'st_shuffled','yo_shuffled','tn_shuffled','ty_shuffled','mai_shuffled','mg_shuffled'
+    ]
     ordered_cols = [lang for lang in preferred if lang in heatmap_df.columns]
-    remaining_cols = [col for col in heatmap_df.columns if col not in preferred]
+    remaining_cols = [col for col in heatmap_df.columns if col not in ordered_cols]
     ordered_cols.extend(remaining_cols)
     heatmap_df = heatmap_df[ordered_cols]
 
@@ -199,19 +211,21 @@ def create_heatmap(heatmap_dict, main_dir, heatmap_filename):
     if heatmap_filename == "2024":
         eval_dir = os.path.join(eval_dir, "2024")
     os.makedirs(eval_dir, exist_ok=True)
-    
+
     csv_path = os.path.join(eval_dir, f"aggregate_data_{heatmap_filename}.csv")
     heatmap_df.to_csv(csv_path, index=True)
     print(f"Saved aggregate data CSV: {csv_path}")
-    
+
     plt.figure(figsize=(18, 12))
-    sns.heatmap(heatmap_df, annot=True, fmt=".1f", cmap=custom_cmap,
-                vmin=0, vmax=100,
-                cbar_kws={"label": "Accuracy (%)"}, annot_kws={"size": 15})
+    sns.heatmap(
+        heatmap_df, annot=True, fmt=".1f", cmap=custom_cmap,
+        vmin=0, vmax=100,
+        cbar_kws={"label": "Accuracy (%)"}, annot_kws={"size": 15}
+    )
     plt.xlabel("Language", fontsize=16)
     plt.ylabel("Book Title", fontsize=16)
-    plt.title(f"{heatmap_filename} Aggregate Accuracy Heatmap", fontsize=16)
-    
+    plt.title(f"{model} - {experiment} Accuracy", fontsize=16)
+
     heatmap_path = os.path.join(eval_dir, f"accuracy_heatmap_{heatmap_filename}.png")
     plt.tight_layout()
     plt.savefig(heatmap_path, dpi=300)
@@ -265,5 +279,5 @@ if __name__ == "__main__":
                     save_data(title.replace(' ', '_'), evaluated_df, main_dir, subfolder=subfolder)
                     heatmap_dict_main[title] = compute_language_accuracy(evaluated_df)
 
-            create_heatmap(heatmap_dict_main, main_dir, "")
-            create_heatmap(heatmap_dict_2024, main_dir, "2024")
+            create_heatmap(heatmap_dict_main, main_dir, "", model, experiment)
+            create_heatmap(heatmap_dict_2024, main_dir, "2024", model, experiment)
