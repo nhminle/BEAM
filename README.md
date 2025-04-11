@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the research conducted for the paper titled **"Beyond English: Assessing Memorization of Translated Texts in Large Language Models"** as part of the ERSP 2023-24 program. The goal of this research is to assess memorization of books in English, Spanish, Vietnamese, and Turkish in LLMs. 
+This repository contains the research conducted for the poster titled **"Beyond English: Assessing Memorization of Translated Texts in Large Language Models"** as part of the ERSP 2023-24 program. The goal of this research is to assess memorization of books in English, Spanish, Vietnamese, and Turkish in LLMs. 
 
 ## 🚀 Hypotheses & Research Questions
 
