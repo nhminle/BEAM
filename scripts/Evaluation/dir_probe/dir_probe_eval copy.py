@@ -172,7 +172,7 @@ def compute_language_accuracy(evaluated_df):
         lang_acc[lang] = sum(lang_acc[lang]) / len(lang_acc[lang])
     return lang_acc
 
-def create_heatmap(heatmap_dict, main_dir, heatmap_filename, model, experiment, skip_books=["Paper_Towns"]):
+def create_heatmap(heatmap_dict, main_dir, heatmap_filename, model, experiment, skip_books=["Paper Towns"]):
     
     if not heatmap_dict:
         print(f"No data for {heatmap_filename} heatmap.")
