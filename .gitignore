@@ -122,3 +122,4 @@ olmo-search/shards/test.jsonl
 new_graphs
 scripts/Evaluation/dir_probe/heat_map_aggregate_copy copy 4.py
 results/direct_probe/compare_csv_cols.py
+env.sh
