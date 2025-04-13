@@ -74,12 +74,12 @@ def create_aggregate_heatmap(aggregate_dict, base_dir, filename_suffix, title_su
         sns.heatmap(
             agg_df, annot=True, fmt=".1f", cmap=custom_cmap,
             vmin=0, vmax=100,
-            cbar_kws={"label": "Accuracy (%)"}, annot_kws={"size": 12}
+            cbar_kws={"label": "Accuracy (%)"}, annot_kws={"size": 13}
         )
 
         plt.xlabel("Language", fontsize=14)
         plt.ylabel("Model", fontsize=14)
-        plt.title(f"Aggregate Accuracy Heatmap for Experiment: {experiment} {title_suffix}", fontsize=16)
+        plt.title(f"DP - {experiment.replace('_', ' ')} {title_suffix} aggregated accuracy", fontsize=16)
 
         if filename_suffix == '2024':
             heatmap_filename = f"2024/aggregate_heatmap_{experiment}_{filename_suffix}.png"

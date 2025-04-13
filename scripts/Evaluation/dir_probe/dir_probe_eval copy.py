@@ -216,11 +216,11 @@ def create_heatmap(heatmap_dict, main_dir, heatmap_filename, model, experiment, 
     heatmap_df.to_csv(csv_path, index=True)
     print(f"Saved aggregate data CSV: {csv_path}")
 
-    plt.figure(figsize=(18, 12))
+    plt.figure(figsize=(21, 10))
     sns.heatmap(
         heatmap_df, annot=True, fmt=".1f", cmap=custom_cmap,
         vmin=0, vmax=100,
-        cbar_kws={"label": "Accuracy (%)"}, annot_kws={"size": 15}
+        cbar_kws={"label": "Accuracy (%)"}, annot_kws={"size": 18}
     )
     plt.xlabel("Language", fontsize=16)
     plt.ylabel("Book Title", fontsize=16)
