@@ -3,22 +3,23 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import tiktoken
-
+import sys
 # Hardcoded paths
-BASE_PROMPT_PATH = "/Users/alishasrivastava/BEAM/scripts/Prompts"
+BASE_PROMPT_PATH = "/home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts"
 BOOK_FOLDERS = [
-    "/Users/alishasrivastava/BEAM/results/direct_probe/gpt-4o-2024-11-20/ne_one_shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/direct_probe/EuroLLM-9B-Instruct/ne_one_shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-8B-Instruct-quantized.w4a16/ne_one_shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-8B-Instruct-quantized.w8a16/ne_one_shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-70B-Instruct_/ne_one_shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-70B-Instruct-quantized.w4a16/ne_one_shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-70B-Instruct-quantized.w8a16/ne_one_shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-405b/ne_one_shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-8B-Instruct_/ne_one_shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/direct_probe/OLMo-2-1124-7B-Instruct/ne_one_shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/direct_probe/OLMo-2-1124-13B-Instruct/ne_one_shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/direct_probe/Qwen2.5-7B-Instruct-1M/ne_one_shot/evaluation"
+    
+    "/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/gpt-4o-2024-11-20/masked_one_shot/evaluation",
+    "/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/EuroLLM-9B-Instruct/masked_one_shot/evaluation",
+    "/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/Llama-3.1-8B-Instruct-quantized.w4a16/masked_one_shot/evaluation",
+    "/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/Llama-3.1-8B-Instruct-quantized.w8a16/masked_one_shot/evaluation",
+    "/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/Llama-3.1-70B-Instruct_/masked_one_shot/evaluation",
+    "/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/Llama-3.1-70B-Instruct-quantized.w4a16/masked_one_shot/evaluation",
+    "/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/Llama-3.1-70B-Instruct-quantized.w8a16/masked_one_shot/evaluation",
+    "/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/Llama-3.1-405b/masked_one_shot/evaluation",
+    "/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/Llama-3.1-8B-Instruct_/masked_one_shot/evaluation",
+    "/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/OLMo-2-1124-7B-Instruct/masked_one_shot/evaluation",
+    "/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/OLMo-2-1124-13B-Instruct/masked_one_shot/evaluation",
+    "/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/Qwen2.5-7B-Instruct-1M/masked_one_shot/evaluation"
 ]
 
 # Language groups
@@ -61,7 +62,7 @@ def extract_book_name(filename):
 def load_masked_passages(book_name):
     """ Loads the masked passages file for the given book. """
     formatted_name = book_name.replace(" ", "_")  # Convert spaces to underscores
-    masked_path = os.path.join(BASE_PROMPT_PATH, formatted_name, f"{formatted_name}_unmasked_passages.csv")
+    masked_path = os.path.join(BASE_PROMPT_PATH, formatted_name, f"{formatted_name}_masked_passages.csv")
     
     if not os.path.exists(masked_path):
         print(f"Warning: Masked passages file not found for {book_name}. Expected at: {masked_path}")
@@ -88,7 +89,7 @@ def load_and_process_data():
 
             book_name = extract_book_name(file)
             masked_df = load_masked_passages(book_name)
-
+            print(f"WORKING ON FILE WITH THE NAME : {file}")
             if masked_df is None:
                 continue
 
@@ -98,12 +99,16 @@ def load_and_process_data():
                 for lang_col in lang_columns:
                     correct_col = f"{lang_col}_results_both_match"
                     masked_col = lang_col #masked_col = f"{lang_col}_masked" if lang in ["English", "Translated"] else lang_col IF MASKED DATA else masked_col = lang_col
-
-                    if correct_col in df.columns and "en" in masked_df.columns:
+                    # print(df.columns)
+                    # print("dassak\n")
+                    # print(masked_df.columns)
+                    # sys.exit()
+                    if correct_col in df.columns and "en_masked" in masked_df.columns:
+                        print("a")
                         df[correct_col] = df[correct_col].astype(str).str.lower().str.strip()
                         
                         # Calculate token counts using the 'en' column for non-shuffled data
-                        token_counts = masked_df["en"].apply(get_token_count)
+                        token_counts = masked_df["en_masked"].apply(get_token_count)
                         match_found = df[correct_col] == "true"
 
                         temp_df = pd.DataFrame({
