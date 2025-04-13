@@ -172,7 +172,7 @@ def compute_language_accuracy(evaluated_df):
         lang_acc[lang] = sum(lang_acc[lang]) / len(lang_acc[lang])
     return lang_acc
 
-def create_heatmap(heatmap_dict, main_dir, heatmap_filename, model, experiment, skip_books=["Paper Towns"]):
+def create_heatmap(heatmap_dict, main_dir, heatmap_filename, model, experiment, Prompt_setting, skip_books=["Paper Towns"]):
     
     if not heatmap_dict:
         print(f"No data for {heatmap_filename} heatmap.")
@@ -224,9 +224,13 @@ def create_heatmap(heatmap_dict, main_dir, heatmap_filename, model, experiment, 
     )
     plt.xlabel("Language", fontsize=16)
     plt.ylabel("Book Title", fontsize=16)
-    plt.title(f"{model} - {experiment} Accuracy", fontsize=16)
+    plt.title(f"{model} - {experiment.replace('_', ' ')} Accuracy", fontsize=16)
 
-    heatmap_path = os.path.join(eval_dir, f"accuracy_heatmap_{heatmap_filename}.png")
+    old_heatmap_path = os.path.join(eval_dir, f"accuracy_heatmap_{heatmap_filename}.png")
+    if os.path.exists(old_heatmap_path):
+        os.remove(old_heatmap_path)
+    
+    heatmap_path = os.path.join(eval_dir, f"{experiment}_{Prompt_setting}_accuracy_heatmap_{model}.png")
     plt.tight_layout()
     plt.savefig(heatmap_path, dpi=300)
     plt.close()
@@ -279,5 +283,5 @@ if __name__ == "__main__":
                     save_data(title.replace(' ', '_'), evaluated_df, main_dir, subfolder=subfolder)
                     heatmap_dict_main[title] = compute_language_accuracy(evaluated_df)
 
-            create_heatmap(heatmap_dict_main, main_dir, "", model, experiment)
-            create_heatmap(heatmap_dict_2024, main_dir, "2024", model, experiment)
+            create_heatmap(heatmap_dict_main, main_dir, "", model, experiment, prompt_setting)
+            create_heatmap(heatmap_dict_2024, main_dir, "2024", model, experiment, prompt_setting)

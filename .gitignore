@@ -123,3 +123,6 @@ new_graphs
 scripts/Evaluation/dir_probe/heat_map_aggregate_copy copy 4.py
 results/direct_probe/compare_csv_cols.py
 env.sh
+results/direct_probe/compare_csvs.py
+results/direct_probe/Llama-3.1-405b/ne_one_shot copy
+results/direct_probe/Llama-3.1-405b/ne_zero_shot copy
