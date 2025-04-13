@@ -7,33 +7,33 @@ import tiktoken
 # Hardcoded paths
 BASE_PROMPT_PATH = "/Users/alishasrivastava/BEAM/scripts/Prompts"
 BOOK_FOLDERS = [
-    "/Users/alishasrivastava/BEAM/results/direct_probe/gpt-4o-2024-11-20/non_ne_one_shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/direct_probe/EuroLLM-9B-Instruct/non_ne_one_shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-8B-Instruct-quantized.w4a16/non_ne_one_shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-8B-Instruct-quantized.w8a16/non_ne_one_shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-70B-Instruct_/non_ne_one_shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-70B-Instruct-quantized.w4a16/non_ne_one_shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-70B-Instruct-quantized.w8a16/non_ne_one_shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-405b/non_ne_one_shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-8B-Instruct_/non_ne_one_shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/direct_probe/OLMo-2-1124-7B-Instruct/non_ne_one_shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/direct_probe/OLMo-2-1124-13B-Instruct/non_ne_one_shot/evaluation",
-    "/Users/alishasrivastava/BEAM/results/direct_probe/Qwen2.5-7B-Instruct-1M/non_ne_one_shot/evaluation"
+    "/Users/alishasrivastava/BEAM/results/direct_probe/gpt-4o-2024-11-20/ne_one_shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/direct_probe/EuroLLM-9B-Instruct/ne_one_shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-8B-Instruct-quantized.w4a16/ne_one_shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-8B-Instruct-quantized.w8a16/ne_one_shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-70B-Instruct_/ne_one_shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-70B-Instruct-quantized.w4a16/ne_one_shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-70B-Instruct-quantized.w8a16/ne_one_shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-405b/ne_one_shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/direct_probe/Llama-3.1-8B-Instruct_/ne_one_shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/direct_probe/OLMo-2-1124-7B-Instruct/ne_one_shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/direct_probe/OLMo-2-1124-13B-Instruct/ne_one_shot/evaluation",
+    "/Users/alishasrivastava/BEAM/results/direct_probe/Qwen2.5-7B-Instruct-1M/ne_one_shot/evaluation"
 ]
 
 # Language groups
 LANG_GROUPS = {
-    "English": ["en_shuffled"],
-    "Translated": ["es_shuffled", "tr_shuffled", "vi_shuffled"],
-    "Cross-lingual": ["st_shuffled", "yo_shuffled", "tn_shuffled", "ty_shuffled", "mai_shuffled", "mg_shuffled"]
+    "English": ["en"],
+    "Translated": ["es", "tr", "vi"],
+    "Cross-lingual": ["st", "yo", "tn", "ty", "mai", "mg"]
 }
 
 # Tokenization buckets
-TOKEN_BUCKETS = [(0, 50), (50, 100), (100, 150), (150, 250), (250, 400), (400, float("inf"))]
+TOKEN_BUCKETS = [(0, 50), (50, 100), (100, float("inf"))]
 
 # Skip files with these words
 EXCLUDE_FILES = ["Below_Zero", "Bride", "You_Like", "First_Lie_Wins", "If_Only", 
-                 "Just_for", "Lies_and", "Paper_Towns", "Ministry", "Paradise", "Funny_Story"]
+                 "Just_for", "Lies_and", "Paper_Towns", "Ministry", "Paradise", "Funny_Story", "2024"]
 
 # Flare color palette
 FLARE_COLORS = {
@@ -61,7 +61,7 @@ def extract_book_name(filename):
 def load_masked_passages(book_name):
     """ Loads the masked passages file for the given book. """
     formatted_name = book_name.replace(" ", "_")  # Convert spaces to underscores
-    masked_path = os.path.join(BASE_PROMPT_PATH, formatted_name, f"{formatted_name}_non_NE.csv")
+    masked_path = os.path.join(BASE_PROMPT_PATH, formatted_name, f"{formatted_name}_unmasked_passages.csv")
     
     if not os.path.exists(masked_path):
         print(f"Warning: Masked passages file not found for {book_name}. Expected at: {masked_path}")
@@ -99,10 +99,11 @@ def load_and_process_data():
                     correct_col = f"{lang_col}_results_both_match"
                     masked_col = lang_col #masked_col = f"{lang_col}_masked" if lang in ["English", "Translated"] else lang_col IF MASKED DATA else masked_col = lang_col
 
-                    if correct_col in df.columns and masked_col in masked_df.columns:
+                    if correct_col in df.columns and "en" in masked_df.columns:
                         df[correct_col] = df[correct_col].astype(str).str.lower().str.strip()
                         
-                        token_counts = masked_df[masked_col].apply(get_token_count)
+                        # Calculate token counts using the 'en' column for non-shuffled data
+                        token_counts = masked_df["en"].apply(get_token_count)
                         match_found = df[correct_col] == "true"
 
                         temp_df = pd.DataFrame({
@@ -167,26 +168,54 @@ for i in range(len(x_positions)):
         trans_acc = accuracy_df["Translated"][i]
         xling_acc = accuracy_df["Cross-lingual"][i]
 
+        if i == 0:
+            xytext_pos = (5, 0)
+            ha_pos = 'left'
+        else:
+            xytext_pos = (-5, 0)
+            ha_pos = 'right'
+
         if not np.isnan(en_acc) and not np.isnan(trans_acc):
             plt.annotate("", xy=(x_positions[i], trans_acc), xytext=(x_positions[i], en_acc),
                          arrowprops=dict(arrowstyle="->", linestyle="dashed", color="black", linewidth=1.5))
             plt.annotate(f"Δ{en_acc - trans_acc:.1f}%", xy=(x_positions[i], (en_acc + trans_acc) / 2),
-                         xytext=(-5, 0), textcoords="offset points", ha='right', fontsize=10, color="black", fontweight="bold")
+                         xytext=xytext_pos, textcoords="offset points", ha=ha_pos, fontsize=10, color="black", fontweight="bold")
 
         if not np.isnan(trans_acc) and not np.isnan(xling_acc):
             plt.annotate("", xy=(x_positions[i], xling_acc), xytext=(x_positions[i], trans_acc),
                          arrowprops=dict(arrowstyle="->", linestyle="dashed", color="black", linewidth=1.5))
             plt.annotate(f"Δ{trans_acc - xling_acc:.1f}%", xy=(x_positions[i], (trans_acc + xling_acc) / 2),
-                         xytext=(-5, 0), textcoords="offset points", ha='right', fontsize=10, color="black", fontweight="bold")
+                         xytext=xytext_pos, textcoords="offset points", ha=ha_pos, fontsize=10, color="black", fontweight="bold")
 
     except IndexError:
         pass
 
-plt.xlabel("Context Length (Tokens)")
-plt.ylabel("Accuracy (%)")
-plt.title("Direct Probe: Shuffled Non NE One-Shot Accuracy vs. Context Length")
-plt.legend()
-plt.grid(True)
-plt.xticks(x_positions, accuracy_df["Context Length Bucket"], rotation=45)
-plt.savefig("os_shuffled_non_ne_accuracy_vs_context_length.png", dpi=300, bbox_inches="tight")
+# Recalculate passage counts for the updated token buckets
+passage_counts = aggregated_data.groupby(pd.cut(aggregated_data['tokens'], [0, 50, 100, float('inf')])).size()
+
+# Annotate the number of passages above each x-tick
+for i, count in enumerate(passage_counts):
+    plt.text(x_positions[i], -5, f"n={count}", ha='center', fontsize=10, fontweight='bold', color='black', transform=plt.gca().transAxes)
+
+plt.xlabel("Context Length (Tokens)", fontweight='bold')
+plt.ylabel("Accuracy (%)", fontweight='bold')
+plt.title("Direct Probe: Accuracy vs. Context Length", fontweight='bold')
+plt.legend(frameon=False)
+plt.grid(False)
+plt.xticks(x_positions, accuracy_df["Context Length Bucket"], rotation=45, fontweight='bold')
+plt.yticks(fontweight='bold')
+
+# Remove the box around the graph and set light gray lines for x and y axes
+ax = plt.gca()
+ax.spines['top'].set_visible(False)
+ax.spines['right'].set_visible(False)
+ax.spines['left'].set_color('lightgray')
+ax.spines['bottom'].set_color('lightgray')
+
+plt.savefig("os_non_shuffled_one_shot_accuracy_vs_context_length.pdf", format='pdf', dpi=300, bbox_inches="tight")
 plt.show()
+
+# Print the number of passages for each context length bucket
+print("Passage counts for each context length bucket:")
+for i, count in enumerate(passage_counts):
+    print(f"{TOKEN_BUCKETS[i][0]}-{TOKEN_BUCKETS[i][1]}: {count} passages")
