@@ -110,9 +110,9 @@ def main():
 
     # Create the boxplot
    # Create the boxplot with transparency
-    plt.figure(figsize=(6, 8))
+    plt.figure(figsize=(8, 6))
     sns.boxplot(
-    x="Language Group", y="Accuracy", data=plot_df,
+    y="Language Group", x="Accuracy", data=plot_df,
     color='lightgray',  # Single box per group
     width=0.4,
     boxprops=dict(facecolor='none', edgecolor='gray', linewidth=1),
@@ -132,13 +132,13 @@ def main():
 
     # Add stripplot (dots)
     sns.stripplot(
-        x="Language Group", y="Accuracy", data=plot_df, hue="Model",
+        y="Language Group", x="Accuracy", data=plot_df, hue="Model",
         dodge=False, marker="o", alpha=0.9, jitter=True, linewidth=0, palette=palette
     )
 
 
-    plt.xlabel("Language Group", fontsize=14)
-    plt.ylabel("Accuracy (%)", fontsize=14)
+    plt.ylabel("Language Group", fontsize=14)
+    plt.xlabel("Accuracy (%)", fontsize=14)
     plt.title("Name Cloze Performance Across Language Group", fontsize=16)
     plt.legend(title="Model", bbox_to_anchor=(1.05, 1), loc='upper left')
     # Remove duplicate legends
