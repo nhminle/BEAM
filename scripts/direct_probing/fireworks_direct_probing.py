@@ -8,7 +8,7 @@ import time
 import sys
 import io
 import glob
-client = REDACTED
+client = Fireworks(api_key="")
 
 logging.basicConfig(
     level=logging.INFO,
