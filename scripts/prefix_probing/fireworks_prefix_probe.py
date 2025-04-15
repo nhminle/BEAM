@@ -9,7 +9,7 @@ import sys
 import io
 import time  ### ADDED OR MODIFIED ###
 
-client = REDACTED
+client = Fireworks(api_key="")
 
 logging.basicConfig(
     level=logging.INFO,
