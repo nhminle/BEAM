@@ -9,7 +9,7 @@ import sys
 import io
 import time  ### ADDED OR MODIFIED ###
 
-client = Fireworks(api_key=os.getenv('FIREWORKS_API'))
+client = Fireworks(api_key="fw_3Zn92C3stccuXKPXACNmnEYV")
 
 logging.basicConfig(
     level=logging.INFO,
@@ -208,7 +208,7 @@ def prefixProbe(csv_file_name, book_title, prompt_setting="zero-shot"):
                 df_out = pd.concat([df_out, output_df], axis=1)
 
         output_file_name = (
-            f"/home/ekorukluoglu_umass_edu/beam2/BEAM/results/prefix_probe/"
+            f"/home/ekorukluoglu_umass_edu/beam2/BEAM/results/prefix_probe/2024/"
             f"Llama-3.1-405b/{book_title}_prefix_probe_Llama-3.1-405b_"
             f"{prompt_setting}_non_NE.csv"
         )
@@ -227,18 +227,18 @@ def get_folder_names(directory):
 
 
 if __name__ == "__main__":
-    titles = get_folder_names('./Prompts')
+    titles = get_folder_names('/home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/2024')
     logging.info("Starting the prefix probe...")
     for title in titles:
         if "1984" not in title:
             logging.info(f"Processing {title} ...")
             prefixProbe(
-                csv_file_name=f"/home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/{title}/{title}_non_NE.csv",
+                csv_file_name=f"/home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/2024/{title}/{title}_non_NE.csv",
                 book_title=title,
                 prompt_setting="0s"
             )
             prefixProbe(
-                csv_file_name=f"/home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/{title}/{title}_non_NE.csv",
+                csv_file_name=f"/home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/2024/{title}/{title}_non_NE.csv",
                 book_title=title,
                 prompt_setting="1s"
             )

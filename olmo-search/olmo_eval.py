@@ -209,9 +209,12 @@ for fname in df_main["filename"].unique():
                                     normalized_passage = str(passage).lower()
                                     score = sliding_window_match(normalized_org,normalized_passage)
                                     if score:
+                                        rows['index'] = index
                                         rows['filename'] = fname
                                         rows['model'] = splittedfilename[7]
+                                        rows['path'] = files
                                         result_df.append(rows)
+
                                         languages = ['en', 'es', 'tr', 'vi','st','yo','tn','ty','mai','mg']
                                         pattern = re.compile(r'"title":\s*"([^"]+)"\s*,\s*"author":\s*"([^"]+)"')
 

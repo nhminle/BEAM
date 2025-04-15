@@ -3,13 +3,18 @@ import csv
 import re
 from collections import defaultdict
 from transformers import AutoTokenizer
+import transformers
 
-# Load tokenizer (can replace with multilingual if needed)
+# Suppress long-sequence tokenizer warnings
+transformers.logging.set_verbosity_error()
+
+# Load multilingual tokenizer
 tokenizer = AutoTokenizer.from_pretrained("xlm-roberta-base")
 
 def safe_tokenize(text, tokenizer):
     try:
-        return len(tokenizer.encode(text))
+        # Truncate long lines to 512 tokens safely
+        return len(tokenizer.encode(text, truncation=True, max_length=512))
     except Exception as e:
         print(f"Tokenization error: {e}")
         return 0
@@ -20,8 +25,10 @@ def count_words_and_tokens_streamed(root_dir, output_csv="grouped_counts_streame
 
     for dirpath, _, filenames in os.walk(root_dir):
         for file in filenames:
-            if file.endswith(".txt"):
-                match = re.match(r"(.+?)_(" + "|".join(lang_suffixes) + r")\.txt", file)
+            if file.endswith(".txt") and ("Dracula" in file or "Animal_Farm" in file):
+                # Use raw string to avoid escape sequence warning
+                pattern = r"^(.*)_(" + "|".join(lang_suffixes) + ")\.txt$"
+                match = re.match(pattern, file)
 
                 if match:
                     book_name, lang = match.groups()
@@ -65,5 +72,6 @@ def count_words_and_tokens_streamed(root_dir, output_csv="grouped_counts_streame
     print(f"\nSaved grouped word/token counts to {output_csv}")
     return grouped_counts
 
-directory_path = "/home/ekorukluoglu_umass_edu/beam2/BEAM/alignment/preprocess_books/2024"
+# Example usage
+directory_path = "/home/ekorukluoglu_umass_edu/beam2/BEAM/alignment/preprocess_books/raw"
 count_words_and_tokens_streamed(directory_path)

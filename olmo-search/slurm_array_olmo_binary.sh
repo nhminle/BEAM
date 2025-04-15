@@ -8,7 +8,7 @@
 #SBATCH --mail-user=ekorukluoglu@umass.edu # Email to which notifications will be sent
 #SBATCH --time=0-48:00:00
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=70
+#SBATCH --cpus-per-task=4
 #SBATCH --mem=40G
 ##### SBATCH --array=1-10
 
@@ -17,4 +17,5 @@
 # Each job in the array gets its index via SLURM_ARRAY_TASK_ID.
 # Pass that index to the binary.
 # ./searcher_bin -index=${SLURM_ARRAY_TASK_ID}
-go run searcher_go_old.go
+# go run searcher_go_old.go
+python olmo_eval
