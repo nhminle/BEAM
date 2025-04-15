@@ -17,5 +17,4 @@
 # Each job in the array gets its index via SLURM_ARRAY_TASK_ID.
 # Pass that index to the binary.
 # ./searcher_bin -index=${SLURM_ARRAY_TASK_ID}
-# go run searcher_go_old.go
-python olmo_eval
+go run searcher_go_old.go
