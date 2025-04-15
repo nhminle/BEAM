@@ -9,7 +9,7 @@ from openai import OpenAI
 import os
 import re
 
-client = Fireworks(api_key=os.getenv('FIREWORKS_API'))
+client = Fireworks(api_key="fw_3Zn92C3stccuXKPXACNmnEYV")
 
 logging.basicConfig(
     level=logging.INFO,
@@ -33,7 +33,7 @@ def extract_output(llm_output):
     return None
 
 
-def predict(lang, passage, mode="unshuffled", prompt_setting="zero-shot"):
+def predict(lang, passage, mode="unshuffled", prompt_setting="zero_shot"):
     
     demonstrations = {
          "es": {
@@ -82,7 +82,7 @@ def predict(lang, passage, mode="unshuffled", prompt_setting="zero-shot"):
     demo = demonstrations.get(lang)[mode]
     
     demo_passage = ""
-    if prompt_setting != "0s":
+    if prompt_setting != "zero_shot":
         demo_passage = f"""
         
         Here is an example:
@@ -145,7 +145,7 @@ def name_cloze_task(csv_file_name, book_title, prompt_setting="zero-shot"):
                 
         output_file_name = (
             f"/home/ekorukluoglu_umass_edu/beam2/BEAM/results/name_cloze/"
-            f"Llama-3.1-405b/{book_title}_name_cloze_Llama-3.1-405b_"
+            f"Llama-3.1-405b/2024/{book_title}_name_cloze_Llama-3.1-405b_"
             f"{prompt_setting}_masked_passages.csv"
         )
         df.to_csv(output_file_name, index=False, encoding='utf-8')
@@ -162,10 +162,10 @@ def get_folder_names(directory):
     return folder_names
 
 if __name__ == "__main__":
-    titles = get_folder_names('./Prompts')
+    titles = get_folder_names('/home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/2024')
     
     for title in titles:
         if "1984" not in title:
             logging.info(f'----------------- running {title} -----------------')
-            name_cloze_task(csv_file_name=f"./Prompts/{title}/{title}_masked_passages.csv", book_title=title, prompt_setting="0s") # modify the prompt setting here
-            name_cloze_task(csv_file_name=f"./Prompts/{title}/{title}_masked_passages.csv", book_title=title, prompt_setting="1s") # modify the prompt setting here
+            name_cloze_task(csv_file_name=f"/home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/2024/{title}/{title}_filtered_masked.csv", book_title=title, prompt_setting="zero_shot") # modify the prompt setting here
+            name_cloze_task(csv_file_name=f"/home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/2024/{title}/{title}_filtered_masked.csv", book_title=title, prompt_setting="one_shot") # modify the prompt setting here

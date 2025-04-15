@@ -1,0 +1,385 @@
+Single_ent,en_masked_results,en_masked_exact_match,en_masked_highest_fuzzy_match,en_masked_correct,en_masked_shuffled_results,en_masked_shuffled_exact_match,en_masked_shuffled_highest_fuzzy_match,en_masked_shuffled_correct,en_masked_shuffled_results,en_masked_shuffled_exact_match,en_masked_shuffled_highest_fuzzy_match,en_masked_shuffled_correct
+['mum'],kim,0,0.33,incorrect,rg,0,0.0,incorrect,rg,0,0.0,incorrect
+['mum'],mom,0,0.67,incorrect,rg,0,0.0,incorrect,rg,0,0.0,incorrect
+['eden'],charlotte,0,0.15,incorrect,rg,0,0.0,incorrect,rg,0,0.0,incorrect
+"['gopal das', 'das', 'gopal']",williams,0,0.36,incorrect,jesus,0,0.25,incorrect,jesus,0,0.25,incorrect
+"['gopal das', 'das', 'gopal']",jason,0,0.5,incorrect,shane,0,0.25,incorrect,shane,0,0.25,incorrect
+['nero'],costa,0,0.22,incorrect,arabella,0,0.17,incorrect,arabella,0,0.17,incorrect
+['thomas'],dr. mccoy,0,0.13,incorrect,watson,0,0.33,incorrect,watson,0,0.33,incorrect
+['arabella'],augusta,0,0.27,incorrect,augusta,0,0.27,incorrect,augusta,0,0.27,incorrect
+['thomas'],instagram,0,0.27,incorrect,instagram,0,0.27,incorrect,instagram,0,0.27,incorrect
+['arabella'],chow,0,0.0,incorrect,queen elizabeth,0,0.26,incorrect,queen elizabeth,0,0.26,incorrect
+['eden'],julia,0,0.0,incorrect,julia,0,0.0,incorrect,julia,0,0.0,incorrect
+['eden'],arabella,0,0.17,incorrect,arabella,0,0.17,incorrect,arabella,0,0.17,incorrect
+['arabella'],beatrice,0,0.38,incorrect,beatrice,0,0.38,incorrect,beatrice,0,0.38,incorrect
+['arabella'],michelle yeoh,0,0.29,incorrect,lucy,0,0.17,incorrect,lucy,0,0.17,incorrect
+['arabella'],ching-he huang,0,0.18,incorrect,chan,0,0.17,incorrect,chan,0,0.17,incorrect
+['arabella'],bella,0,0.77,correct,marco,0,0.31,incorrect,marco,0,0.31,incorrect
+"['tong', 'thomas tong', 'thomas']",watson,0,0.6,incorrect,watson,0,0.6,incorrect,watson,0,0.6,incorrect
+['eden'],emily,0,0.22,incorrect,scarlett,0,0.17,incorrect,scarlett,0,0.17,incorrect
+['eden'],she,0,0.29,incorrect,veronica,0,0.33,incorrect,veronica,0,0.33,incorrect
+['eden'],emily,0,0.22,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['eden'],emily,0,0.22,incorrect,tom,0,0.0,incorrect,tom,0,0.0,incorrect
+['rufus'],adam,0,0.0,incorrect,wolseley,0,0.15,incorrect,wolseley,0,0.15,incorrect
+['rufus'],leilani,0,0.0,incorrect,puako,0,0.2,incorrect,puako,0,0.2,incorrect
+['rufus'],jack,0,0.0,incorrect,frank lloyd wright,0,0.09,incorrect,frank lloyd wright,0,0.09,incorrect
+['rufus'],john,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['arabella'],julian,0,0.29,incorrect,london,0,0.14,incorrect,london,0,0.14,incorrect
+['bea'],"error: {'error': {'object': 'error', 'type': 'internal_server_error', 'message': 'bad gateway'}}",0,0.06,incorrect,madame,0,0.22,incorrect,madame,0,0.22,incorrect
+['eden'],she,0,0.29,incorrect,monet,0,0.22,incorrect,monet,0,0.22,incorrect
+['eden'],emily,0,0.22,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['rufus'],scarlett,0,0.15,incorrect,lucas,0,0.4,incorrect,lucas,0,0.4,incorrect
+['eden'],leilani,0,0.36,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['rufus'],lucas,0,0.4,incorrect,puerto rico,0,0.12,incorrect,puerto rico,0,0.12,incorrect
+['bea'],augusta,0,0.2,incorrect,augusta,0,0.2,incorrect,augusta,0,0.2,incorrect
+['bea'],kim kardashian,0,0.12,incorrect,valentino,0,0.17,incorrect,valentino,0,0.17,incorrect
+['arabella'],scarlett,0,0.38,incorrect,augusta,0,0.27,incorrect,augusta,0,0.27,incorrect
+['eden'],beatrice,0,0.33,incorrect,frank,0,0.22,incorrect,frank,0,0.22,incorrect
+['rufus'],yumi,0,0.22,incorrect,mount st. helens,0,0.19,incorrect,mount st. helens,0,0.19,incorrect
+['bea'],emily,0,0.25,incorrect,jason,0,0.25,incorrect,jason,0,0.25,incorrect
+['eden'],emily,0,0.22,incorrect,mauna kea,0,0.15,incorrect,mauna kea,0,0.15,incorrect
+['freddy'],victor,0,0.17,incorrect,queequeg,0,0.14,incorrect,queequeg,0,0.14,incorrect
+['rufus'],freddy,0,0.18,incorrect,monica,0,0.0,incorrect,monica,0,0.0,incorrect
+['farman'],farzam,0,0.67,incorrect,farmihian,0,0.8,correct,farmihian,0,0.8,correct
+['solène'],colette,0,0.62,incorrect,colette,0,0.62,incorrect,colette,0,0.62,incorrect
+['laurel'],dr. maria rodriguez,0,0.24,incorrect,winter,0,0.17,incorrect,winter,0,0.17,incorrect
+['rufus'],john,0,0.0,incorrect,pinocchio,0,0.0,incorrect,pinocchio,0,0.0,incorrect
+['laurel'],dr. maria rodriguez,0,0.24,incorrect,shamu,0,0.36,incorrect,shamu,0,0.36,incorrect
+['solène'],emily,0,0.18,incorrect,harry,0,0.0,incorrect,harry,0,0.0,incorrect
+['laurel'],leia,0,0.4,incorrect,orca,0,0.2,incorrect,orca,0,0.2,incorrect
+['eden'],isabella,0,0.17,incorrect,edna,0,0.75,correct,edna,0,0.75,correct
+['tong'],dr. smith,0,0.15,incorrect,walmart,0,0.18,incorrect,walmart,0,0.18,incorrect
+['thomas'],taro,0,0.4,incorrect,spam,0,0.2,incorrect,spam,0,0.2,incorrect
+['thomas'],adam,0,0.2,incorrect,grand canyon,0,0.11,incorrect,grand canyon,0,0.11,incorrect
+['arabella'],anyone,0,0.29,incorrect,earth,0,0.31,incorrect,earth,0,0.31,incorrect
+['thomas'],lucas,0,0.36,incorrect,tom,0,0.67,incorrect,tom,0,0.67,incorrect
+['max'],helga,0,0.25,incorrect,thor,0,0.0,incorrect,thor,0,0.0,incorrect
+['kamehameha'],kamehameha,1,1.0,correct,kamehameha,1,1.0,correct,kamehameha,1,1.0,correct
+['kamehameha'],king kamehameha,0,0.8,correct,pelekane,0,0.33,incorrect,pelekane,0,0.33,incorrect
+['thomas'],ethan,0,0.55,incorrect,stonehenge,0,0.25,incorrect,stonehenge,0,0.25,incorrect
+"['tan', 'rene tan', 'rene']",donald trump,0,0.3,incorrect,john,0,0.29,incorrect,john,0,0.29,incorrect
+['eden'],she,0,0.29,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['thomas'],dr. smith,0,0.27,incorrect,god,0,0.22,incorrect,god,0,0.22,incorrect
+['thomas'],chan,0,0.4,incorrect,hong kong,0,0.27,incorrect,hong kong,0,0.27,incorrect
+['eden'],scarlett,0,0.17,incorrect,marie,0,0.22,incorrect,marie,0,0.22,incorrect
+['bea'],scarlett,0,0.18,incorrect,scarlett,0,0.18,incorrect,scarlett,0,0.18,incorrect
+['eden'],bea,0,0.29,incorrect,bea,0,0.29,incorrect,bea,0,0.29,incorrect
+['thomas'],jack,0,0.2,incorrect,denver,0,0.0,incorrect,denver,0,0.0,incorrect
+['arabella'],marie,0,0.46,incorrect,marie,0,0.46,incorrect,marie,0,0.46,incorrect
+['eden'],emily,0,0.22,incorrect,lucy,0,0.0,incorrect,lucy,0,0.0,incorrect
+['eden'],thor,0,0.0,incorrect,eric,0,0.25,incorrect,eric,0,0.25,incorrect
+['eden'],she,0,0.29,incorrect,clarissa,0,0.0,incorrect,clarissa,0,0.0,incorrect
+['rufus'],leilani,0,0.0,incorrect,mauna kea,0,0.14,incorrect,mauna kea,0,0.14,incorrect
+"['gopal das', 'das', 'gopal']",malakai,0,0.38,incorrect,hamlet,0,0.36,incorrect,hamlet,0,0.36,incorrect
+['arabella'],caroline,0,0.38,incorrect,chinese,0,0.13,incorrect,chinese,0,0.13,incorrect
+['eden'],lily,0,0.0,incorrect,maui,0,0.0,incorrect,maui,0,0.0,incorrect
+['eden'],scarlett,0,0.17,incorrect,scarlett,0,0.17,incorrect,scarlett,0,0.17,incorrect
+['rufus'],lucas,0,0.4,incorrect,edward,0,0.18,incorrect,edward,0,0.18,incorrect
+['solène'],prince,0,0.33,incorrect,anna,0,0.2,incorrect,anna,0,0.2,incorrect
+['solène'],scarlett,0,0.43,incorrect,scarlett,0,0.43,incorrect,scarlett,0,0.43,incorrect
+['eden'],emily,0,0.22,incorrect,harry,0,0.0,incorrect,harry,0,0.0,incorrect
+['rufus'],emirates,0,0.31,incorrect,qantas,0,0.18,incorrect,qantas,0,0.18,incorrect
+['eden'],scarlett,0,0.17,incorrect,her,0,0.29,incorrect,her,0,0.29,incorrect
+['solène'],leilani,0,0.46,incorrect,mark twain,0,0.12,incorrect,mark twain,0,0.12,incorrect
+['freddy'],frodo,0,0.55,incorrect,daenerys,0,0.29,incorrect,daenerys,0,0.29,incorrect
+['rufus'],edward,0,0.18,incorrect,guinevere,0,0.14,incorrect,guinevere,0,0.14,incorrect
+['eden'],matilda,0,0.18,incorrect,emerald,0,0.36,incorrect,emerald,0,0.36,incorrect
+['freddy'],julian,0,0.0,incorrect,lucas,0,0.0,incorrect,lucas,0,0.0,incorrect
+['freddy'],giulia,0,0.0,incorrect,emma,0,0.2,incorrect,emma,0,0.2,incorrect
+['solène'],camilla,0,0.15,incorrect,augusta,0,0.15,incorrect,augusta,0,0.15,incorrect
+['eden'],paul,0,0.0,incorrect,thoreau,0,0.18,incorrect,thoreau,0,0.18,incorrect
+['rufus'],leilani,0,0.0,incorrect,valley,0,0.0,incorrect,valley,0,0.0,incorrect
+['eden'],dr. smith,0,0.15,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['freddy'],ethan,0,0.18,incorrect,jack,0,0.0,incorrect,jack,0,0.0,incorrect
+['eden'],dr. smith,0,0.15,incorrect,dr. solene,0,0.43,incorrect,dr. solene,0,0.43,incorrect
+['kelly'],birkin,0,0.18,incorrect,birkin,0,0.18,incorrect,birkin,0,0.18,incorrect
+['eden'],dr. smith,0,0.15,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['eden'],emily,0,0.22,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['freddy'],jack,0,0.0,incorrect,tom,0,0.0,incorrect,tom,0,0.0,incorrect
+['solène'],scarlett,0,0.43,incorrect,juliet,0,0.33,incorrect,juliet,0,0.33,incorrect
+['josh'],mike,0,0.0,incorrect,coconut,0,0.18,incorrect,coconut,0,0.18,incorrect
+['eden'],dr. smith,0,0.15,incorrect,emma,0,0.25,incorrect,emma,0,0.25,incorrect
+['eden'],emiko,0,0.22,incorrect,leilani,0,0.36,incorrect,leilani,0,0.36,incorrect
+['eden'],bea,0,0.29,incorrect,bea,0,0.29,incorrect,bea,0,0.29,incorrect
+['arabella'],queen elizabeth ii,0,0.23,incorrect,sharp,0,0.31,incorrect,sharp,0,0.31,incorrect
+['arabella'],eleanor,0,0.4,incorrect,vue,0,0.18,incorrect,vue,0,0.18,incorrect
+"['von melke av sjokolades', 'von', 'av', 'melke', 'sjokolades']",wittelsbachs,0,0.29,incorrect,prince,0,0.22,incorrect,prince,0,0.22,incorrect
+['arabella'],emily,0,0.31,incorrect,emma,0,0.33,incorrect,emma,0,0.33,incorrect
+['arabella'],scarlett,0,0.38,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['greshamsbury'],mcconaughey,0,0.26,incorrect,maasai,0,0.22,incorrect,maasai,0,0.22,incorrect
+['arabella'],harry,0,0.31,incorrect,of,0,0.0,incorrect,of,0,0.0,incorrect
+['arabella'],camille,0,0.4,incorrect,lani,0,0.33,incorrect,lani,0,0.33,incorrect
+['solène'],elizabeth,0,0.27,incorrect,elizabeth,0,0.27,incorrect,elizabeth,0,0.27,incorrect
+"['solène', 'solène de courcy', 'courcy', 'de']",emily,0,0.29,incorrect,lucy,0,0.6,incorrect,lucy,0,0.6,incorrect
+['arabella'],chanel,0,0.43,incorrect,coco,0,0.0,incorrect,coco,0,0.0,incorrect
+['rufus'],edward,0,0.18,incorrect,scarlett,0,0.15,incorrect,scarlett,0,0.15,incorrect
+['solène'],stormy,0,0.33,incorrect,she,0,0.44,incorrect,she,0,0.44,incorrect
+['eden'],lucas,0,0.0,incorrect,countess,0,0.17,incorrect,countess,0,0.17,incorrect
+['rufus'],scarlett,0,0.15,incorrect,edward,0,0.18,incorrect,edward,0,0.18,incorrect
+['eden'],guinevere,0,0.31,incorrect,guinevere,0,0.31,incorrect,guinevere,0,0.31,incorrect
+['gaos'],malfoys,0,0.55,incorrect,god,0,0.57,incorrect,god,0,0.57,incorrect
+['thomas'],reginald,0,0.14,incorrect,john,0,0.2,incorrect,john,0,0.2,incorrect
+['thomas'],christian,0,0.27,incorrect,wong,0,0.2,incorrect,wong,0,0.2,incorrect
+['max'],his son,0,0.0,incorrect,hamlet,0,0.22,incorrect,hamlet,0,0.22,incorrect
+['arabella'],camilla,0,0.53,incorrect,roland,0,0.43,incorrect,roland,0,0.43,incorrect
+['arabella'],lucas,0,0.31,incorrect,emily,0,0.31,incorrect,emily,0,0.31,incorrect
+['rufus'],leonardo,0,0.15,incorrect,michelangelo,0,0.0,incorrect,michelangelo,0,0.0,incorrect
+['arabella'],delphine,0,0.25,incorrect,cosima,0,0.14,incorrect,cosima,0,0.14,incorrect
+"['buffett', 'warren', 'warren buffett']",warren buffett,1,1.0,correct,warren buffett,1,1.0,correct,warren buffett,1,1.0,correct
+['eden'],harry,0,0.0,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['bea'],eden,0,0.29,incorrect,eden,0,0.29,incorrect,eden,0,0.29,incorrect
+"['freddy farman', 'farman', 'freddy']",farah,0,0.73,correct,farman,1,1.0,correct,farman,1,1.0,correct
+['eden'],rebecca,0,0.36,incorrect,lucy,0,0.0,incorrect,lucy,0,0.0,incorrect
+['rufus'],madonna,0,0.0,incorrect,eve,0,0.0,incorrect,eve,0,0.0,incorrect
+['arabella'],lucy,0,0.17,incorrect,bellaloha,0,0.59,incorrect,bellaloha,0,0.59,incorrect
+['arabella'],emily,0,0.31,incorrect,emily,0,0.31,incorrect,emily,0,0.31,incorrect
+['bea'],scarlett,0,0.18,incorrect,emily,0,0.25,incorrect,emily,0,0.25,incorrect
+['bea'],eden,0,0.29,incorrect,eve,0,0.33,incorrect,eve,0,0.33,incorrect
+['rufus'],harry,0,0.2,incorrect,imhotep,0,0.0,incorrect,imhotep,0,0.0,incorrect
+['eden'],bea,0,0.29,incorrect,bea,0,0.29,incorrect,bea,0,0.29,incorrect
+['rufus'],he,0,0.0,incorrect,edward,0,0.18,incorrect,edward,0,0.18,incorrect
+['bea'],harry,0,0.25,incorrect,emma,0,0.57,incorrect,emma,0,0.57,incorrect
+['arabella'],giorgio,0,0.13,incorrect,canaletto,0,0.35,incorrect,canaletto,0,0.35,incorrect
+"['soane', 'john', 'john soane']",john soane,1,1.0,correct,soane,1,1.0,correct,soane,1,1.0,correct
+"['soane', 'john', 'john soane']",soane,1,1.0,correct,soane,1,1.0,correct,soane,1,1.0,correct
+['arabella'],corinne,0,0.27,incorrect,shaoxing,0,0.12,incorrect,shaoxing,0,0.12,incorrect
+['thomas'],he,0,0.25,incorrect,confucius,0,0.27,incorrect,confucius,0,0.27,incorrect
+['rufus'],sebastian,0,0.14,incorrect,scarlett,0,0.15,incorrect,scarlett,0,0.15,incorrect
+['rufus'],scarlett,0,0.15,incorrect,tom,0,0.0,incorrect,tom,0,0.0,incorrect
+['rufus'],kit,0,0.0,incorrect,kit,0,0.0,incorrect,kit,0,0.0,incorrect
+['rufus'],adam,0,0.0,incorrect,adam,0,0.0,incorrect,adam,0,0.0,incorrect
+['rufus'],putin,0,0.2,incorrect,boeing,0,0.0,incorrect,boeing,0,0.0,incorrect
+['rufus'],rene,0,0.22,incorrect,montreal,0,0.15,incorrect,montreal,0,0.15,incorrect
+['rufus'],christian,0,0.29,incorrect,christian,0,0.29,incorrect,christian,0,0.29,incorrect
+['rufus'],harry,0,0.2,incorrect,jason,0,0.2,incorrect,jason,0,0.2,incorrect
+['rufus'],james,0,0.2,incorrect,elizabeth,0,0.0,incorrect,elizabeth,0,0.0,incorrect
+['rufus'],rachel,0,0.18,incorrect,qianlong,0,0.0,incorrect,qianlong,0,0.0,incorrect
+['rufus'],lucas,0,0.4,incorrect,warren,0,0.18,incorrect,warren,0,0.18,incorrect
+"['gao', 'mary gao', 'mary']",mei,0,0.29,incorrect,emily,0,0.44,incorrect,emily,0,0.44,incorrect
+['rufus'],paul bowles,0,0.25,incorrect,paul bowles,0,0.25,incorrect,paul bowles,0,0.25,incorrect
+['rufus'],jason,0,0.2,incorrect,abdul,0,0.2,incorrect,abdul,0,0.2,incorrect
+['rufus'],ali,0,0.0,incorrect,abdel,0,0.0,incorrect,abdel,0,0.0,incorrect
+['rufus'],paul,0,0.22,incorrect,leica,0,0.0,incorrect,leica,0,0.0,incorrect
+['rufus'],tom,0,0.0,incorrect,tom,0,0.0,incorrect,tom,0,0.0,incorrect
+['rufus'],sebastian,0,0.14,incorrect,elon musk,0,0.29,incorrect,elon musk,0,0.29,incorrect
+['rufus'],elizabeth,0,0.0,incorrect,mr. darcy,0,0.14,incorrect,mr. darcy,0,0.14,incorrect
+['john'],phineas,0,0.36,incorrect,phineas,0,0.36,incorrect,phineas,0,0.36,incorrect
+['john'],"error: {'error': {'object': 'error', 'type': 'internal_server_error', 'message': 'bad gateway'}}",0,0.06,incorrect,jack,0,0.25,incorrect,jack,0,0.25,incorrect
+['rufus'],li,0,0.0,incorrect,chinese,0,0.17,incorrect,chinese,0,0.17,incorrect
+['rufus'],scarlett,0,0.15,incorrect,elizabeth,0,0.0,incorrect,elizabeth,0,0.0,incorrect
+['rufus'],leighton,0,0.0,incorrect,kehena,0,0.0,incorrect,kehena,0,0.0,incorrect
+['rufus'],harry,0,0.2,incorrect,archimedes,0,0.27,incorrect,archimedes,0,0.27,incorrect
+"['leung guest', 'leung', 'guest']",radford,0,0.0,incorrect,montgolfier,0,0.27,incorrect,montgolfier,0,0.27,incorrect
+['martha'],lucy,0,0.0,incorrect,diocesan,0,0.14,incorrect,diocesan,0,0.14,incorrect
+['john'],phileas,0,0.18,incorrect,john,1,1.0,correct,john,1,1.0,correct
+['mehmet'],joe,0,0.22,incorrect,richard,0,0.15,incorrect,richard,0,0.15,incorrect
+['rufus'],harry,0,0.2,incorrect,paris,0,0.4,incorrect,paris,0,0.4,incorrect
+['mansour'],mansour,1,1.0,correct,moulay,0,0.46,incorrect,moulay,0,0.46,incorrect
+['rufus'],rosina,0,0.36,incorrect,edward,0,0.18,incorrect,edward,0,0.18,incorrect
+['rufus'],elizabeth,0,0.0,incorrect,jeeves,0,0.18,incorrect,jeeves,0,0.18,incorrect
+['martha'],scarlett,0,0.43,incorrect,emily,0,0.18,incorrect,emily,0,0.18,incorrect
+['martha'],colette bing,0,0.11,incorrect,mark,0,0.6,incorrect,mark,0,0.6,incorrect
+['martha'],bill,0,0.0,incorrect,steve,0,0.18,incorrect,steve,0,0.18,incorrect
+['gresham'],english,0,0.43,incorrect,mr. darcy,0,0.25,incorrect,mr. darcy,0,0.25,incorrect
+['martha'],elara,0,0.55,incorrect,champagne,0,0.27,incorrect,champagne,0,0.27,incorrect
+['rufus'],lin,0,0.0,incorrect,harry,0,0.2,incorrect,harry,0,0.2,incorrect
+['tattle'],seventeen,0,0.27,incorrect,adonis,0,0.17,incorrect,adonis,0,0.17,incorrect
+['john'],my wife,0,0.0,incorrect,google,0,0.2,incorrect,google,0,0.2,incorrect
+['john'],mark,0,0.0,incorrect,meta,0,0.0,incorrect,meta,0,0.0,incorrect
+['martha'],scarlett,0,0.43,incorrect,christian,0,0.4,incorrect,christian,0,0.4,incorrect
+['rufus'],christian,0,0.29,incorrect,emma,0,0.0,incorrect,emma,0,0.0,incorrect
+['martha'],peik lin,0,0.0,incorrect,chanel,0,0.33,incorrect,chanel,0,0.33,incorrect
+['martha'],christian,0,0.4,incorrect,frank,0,0.36,incorrect,frank,0,0.36,incorrect
+['arabella'],scarlett,0,0.38,incorrect,page,0,0.33,incorrect,page,0,0.33,incorrect
+['rufus'],prince william,0,0.11,incorrect,camilla,0,0.0,incorrect,camilla,0,0.0,incorrect
+['don'],don't,0,0.75,correct,britney,0,0.2,incorrect,britney,0,0.2,incorrect
+['eden'],arabella,0,0.17,incorrect,frank,0,0.22,incorrect,frank,0,0.22,incorrect
+['eden'],emily,0,0.22,incorrect,heathcliff,0,0.14,incorrect,heathcliff,0,0.14,incorrect
+['eden'],elizabeth,0,0.31,incorrect,countess,0,0.17,incorrect,countess,0,0.17,incorrect
+['arabella'],victoria,0,0.25,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['arabella'],emily,0,0.31,incorrect,stevenson,0,0.12,incorrect,stevenson,0,0.12,incorrect
+['thomas'],adam,0,0.2,incorrect,anderson,0,0.29,incorrect,anderson,0,0.29,incorrect
+['olaf'],george,0,0.2,incorrect,trump,0,0.0,incorrect,trump,0,0.0,incorrect
+['thomas'],dr. house,0,0.4,incorrect,joe,0,0.22,incorrect,joe,0,0.22,incorrect
+['thomas'],hubert,0,0.17,incorrect,howard,0,0.5,incorrect,howard,0,0.5,incorrect
+['tong'],frankenstein,0,0.25,incorrect,dr. cho,0,0.18,incorrect,dr. cho,0,0.18,incorrect
+['rene'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['thomas'],jack,0,0.2,incorrect,capraia,0,0.15,incorrect,capraia,0,0.15,incorrect
+['rufus'],john,0,0.0,incorrect,michael,0,0.0,incorrect,michael,0,0.0,incorrect
+['deepa'],mom,0,0.0,incorrect,god,0,0.25,incorrect,god,0,0.25,incorrect
+['thorne'],smith,0,0.36,incorrect,dr. smith,0,0.27,incorrect,dr. smith,0,0.27,incorrect
+['eden'],olivia,0,0.0,incorrect,countess,0,0.17,incorrect,countess,0,0.17,incorrect
+['arabella'],countess,0,0.12,incorrect,arabella,1,1.0,correct,arabella,1,1.0,correct
+['thomas'],he,0,0.25,incorrect,scarlett,0,0.14,incorrect,scarlett,0,0.14,incorrect
+['eden'],poppy,0,0.0,incorrect,portoro,0,0.0,incorrect,portoro,0,0.0,incorrect
+['freddy'],drake,0,0.36,incorrect,drake,0,0.36,incorrect,drake,0,0.36,incorrect
+['eden'],julia,0,0.0,incorrect,emma,0,0.25,incorrect,emma,0,0.25,incorrect
+['farman'],khachaturian,0,0.44,incorrect,edward,0,0.33,incorrect,edward,0,0.33,incorrect
+['eden'],yumi,0,0.0,incorrect,apple,0,0.22,incorrect,apple,0,0.22,incorrect
+['freddy'],scarlett,0,0.29,incorrect,calabasas,0,0.0,incorrect,calabasas,0,0.0,incorrect
+['eden'],scarlett,0,0.17,incorrect,los angeles,0,0.27,incorrect,los angeles,0,0.27,incorrect
+['eden'],britney,0,0.18,incorrect,naomi campbell,0,0.11,incorrect,naomi campbell,0,0.11,incorrect
+['eden'],leila,0,0.22,incorrect,jackie chan,0,0.27,incorrect,jackie chan,0,0.27,incorrect
+['eden'],she,0,0.29,incorrect,jason,0,0.22,incorrect,jason,0,0.22,incorrect
+['john'],tom cruise,0,0.14,incorrect,rocky,0,0.22,incorrect,rocky,0,0.22,incorrect
+['eden'],emily,0,0.22,incorrect,emma,0,0.25,incorrect,emma,0,0.25,incorrect
+['thomas'],dr. lee,0,0.0,incorrect,adonis,0,0.33,incorrect,adonis,0,0.33,incorrect
+['eden'],emma,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['thomas'],officer johnson,0,0.19,incorrect,john,0,0.2,incorrect,john,0,0.2,incorrect
+['eden'],julia,0,0.0,incorrect,michael,0,0.18,incorrect,michael,0,0.18,incorrect
+['tessa'],tony stark,0,0.4,incorrect,iron man,0,0.15,incorrect,iron man,0,0.15,incorrect
+['eden'],temperance,0,0.43,incorrect,jack,0,0.0,incorrect,jack,0,0.0,incorrect
+['eden'],harry,0,0.0,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['rene'],edward,0,0.2,incorrect,elizabeth,0,0.31,incorrect,elizabeth,0,0.31,incorrect
+['eden'],may,0,0.0,incorrect,beijing,0,0.36,incorrect,beijing,0,0.36,incorrect
+['rene'],john,0,0.25,incorrect,mark watney,0,0.4,incorrect,mark watney,0,0.4,incorrect
+['eden'],scarlett,0,0.17,incorrect,paris,0,0.0,incorrect,paris,0,0.0,incorrect
+['freddy'],tom cruise,0,0.25,incorrect,south,0,0.0,incorrect,south,0,0.0,incorrect
+['eden'],harry,0,0.0,incorrect,monty,0,0.22,incorrect,monty,0,0.22,incorrect
+['eden'],harry,0,0.0,incorrect,magnum,0,0.2,incorrect,magnum,0,0.2,incorrect
+['rufus'],william,0,0.0,incorrect,howard,0,0.18,incorrect,howard,0,0.18,incorrect
+['eden'],dr. lee,0,0.36,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['eden'],maude,0,0.44,incorrect,julia,0,0.0,incorrect,julia,0,0.0,incorrect
+['tan'],smith,0,0.25,incorrect,john,0,0.29,incorrect,john,0,0.29,incorrect
+['freddy'],harry,0,0.36,incorrect,chad,0,0.2,incorrect,chad,0,0.2,incorrect
+['tong'],smith,0,0.22,incorrect,dr. kevorkian,0,0.24,incorrect,dr. kevorkian,0,0.24,incorrect
+['eden'],mary,0,0.0,incorrect,mary,0,0.0,incorrect,mary,0,0.0,incorrect
+['rufus'],warhol,0,0.18,incorrect,leonardo,0,0.15,incorrect,leonardo,0,0.15,incorrect
+['eden'],may,0,0.0,incorrect,cloudline,0,0.31,incorrect,cloudline,0,0.31,incorrect
+['rene'],xi jinping,0,0.14,incorrect,xi jinping,0,0.14,incorrect,xi jinping,0,0.14,incorrect
+['rene'],heathcliff,0,0.14,incorrect,heathcliff,0,0.14,incorrect,heathcliff,0,0.14,incorrect
+['thomas'],severus,0,0.15,incorrect,john,0,0.2,incorrect,john,0,0.2,incorrect
+"['tong', 'thomas tong', 'thomas']",diego san antonio y viscaya,0,0.32,incorrect,san diego,0,0.31,incorrect,san diego,0,0.31,incorrect
+['thomas'],lucas,0,0.36,incorrect,justin bieber,0,0.11,incorrect,justin bieber,0,0.11,incorrect
+['jane'],dr. drew,0,0.17,incorrect,dr. gregory house,0,0.1,incorrect,dr. gregory house,0,0.1,incorrect
+['jane'],lucas,0,0.22,incorrect,diego,0,0.22,incorrect,diego,0,0.22,incorrect
+['rufus'],eden,0,0.0,incorrect,sal,0,0.25,incorrect,sal,0,0.25,incorrect
+['freddy'],paris,0,0.18,incorrect,paris,0,0.18,incorrect,paris,0,0.18,incorrect
+['rufus'],he,0,0.0,incorrect,arizona,0,0.17,incorrect,arizona,0,0.17,incorrect
+['eden'],elmgreen,0,0.5,incorrect,marfa,0,0.0,incorrect,marfa,0,0.0,incorrect
+['rufus'],dragset,0,0.33,incorrect,elmgreen,0,0.15,incorrect,elmgreen,0,0.15,incorrect
+['eden'],scarlett,0,0.17,incorrect,los angeles,0,0.27,incorrect,los angeles,0,0.27,incorrect
+['rufus'],john,0,0.0,incorrect,trump,0,0.4,incorrect,trump,0,0.4,incorrect
+['eden'],mayra,0,0.0,incorrect,zeppelin,0,0.5,incorrect,zeppelin,0,0.5,incorrect
+['eden'],mayra,0,0.0,incorrect,abigail,0,0.0,incorrect,abigail,0,0.0,incorrect
+['eden'],camden,0,0.6,incorrect,prada,0,0.22,incorrect,prada,0,0.22,incorrect
+['rufus'],max,0,0.0,incorrect,holden,0,0.0,incorrect,holden,0,0.0,incorrect
+['eden'],emily,0,0.22,incorrect,emma,0,0.25,incorrect,emma,0,0.25,incorrect
+['rufus'],he,0,0.0,incorrect,holden,0,0.0,incorrect,holden,0,0.0,incorrect
+['martha'],edward,0,0.33,incorrect,adam,0,0.4,incorrect,adam,0,0.4,incorrect
+['bea'],julia,0,0.25,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+"['gopal das', 'das', 'gopal']",kahuna,0,0.27,incorrect,kahuna,0,0.27,incorrect,kahuna,0,0.27,incorrect
+"['gopal das', 'das', 'gopal']",god,0,0.5,incorrect,emma,0,0.29,incorrect,emma,0,0.29,incorrect
+['rufus'],effy,0,0.22,incorrect,maxxie,0,0.0,incorrect,maxxie,0,0.0,incorrect
+['rufus'],bea,0,0.0,incorrect,bea,0,0.0,incorrect,bea,0,0.0,incorrect
+"['solène', 'solène de courcy', 'courcy', 'de']",penelope,0,0.43,incorrect,marriott,0,0.14,incorrect,marriott,0,0.14,incorrect
+"['solène', 'solène de courcy', 'courcy', 'de']",augie,0,0.29,incorrect,augie,0,0.29,incorrect,augie,0,0.29,incorrect
+"['faraone mennella', 'faraone', 'mennella']",cartier,0,0.43,incorrect,boxall,0,0.29,incorrect,boxall,0,0.29,incorrect
+"['martha', 'dung', 'martha dung']",marie,0,0.55,incorrect,elizabeth,0,0.4,incorrect,elizabeth,0,0.4,incorrect
+['gresham'],wyatt,0,0.17,incorrect,god,0,0.2,incorrect,god,0,0.2,incorrect
+['rufus'],adam,0,0.0,incorrect,king kamehameha,0,0.0,incorrect,king kamehameha,0,0.0,incorrect
+['eden'],thelma,0,0.2,incorrect,thelma,0,0.2,incorrect,thelma,0,0.2,incorrect
+"['katy', 'perry', 'katy perry']",katy perry,1,1.0,correct,katy perry,1,1.0,correct,katy perry,1,1.0,correct
+['arabella'],scarlett,0,0.38,incorrect,emma,0,0.33,incorrect,emma,0,0.33,incorrect
+['rufus'],harry,0,0.2,incorrect,harry,0,0.2,incorrect,harry,0,0.2,incorrect
+['thomas'],reginald,0,0.14,incorrect,earl,0,0.2,incorrect,earl,0,0.2,incorrect
+['eden'],scarlett,0,0.17,incorrect,scarlett,0,0.17,incorrect,scarlett,0,0.17,incorrect
+['arabella'],victoria,0,0.25,incorrect,shirley,0,0.27,incorrect,shirley,0,0.27,incorrect
+['bea'],eden,0,0.29,incorrect,eden,0,0.29,incorrect,eden,0,0.29,incorrect
+['martha'],caroline,0,0.29,incorrect,she,0,0.22,incorrect,she,0,0.22,incorrect
+['martha'],scarlett,0,0.43,incorrect,james,0,0.18,incorrect,james,0,0.18,incorrect
+['rufus'],bond,0,0.0,incorrect,bond,0,0.0,incorrect,bond,0,0.0,incorrect
+['martha'],draco,0,0.36,incorrect,countess,0,0.14,incorrect,countess,0,0.14,incorrect
+['rufus'],john,0,0.0,incorrect,elon musk,0,0.29,incorrect,elon musk,0,0.29,incorrect
+['rufus'],emily,0,0.0,incorrect,mr. darcy,0,0.14,incorrect,mr. darcy,0,0.14,incorrect
+['rufus'],harry,0,0.2,incorrect,edward,0,0.18,incorrect,edward,0,0.18,incorrect
+['rufus'],remus,0,0.6,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['eden'],elizabeth,0,0.31,incorrect,god,0,0.29,incorrect,god,0,0.29,incorrect
+['rufus'],carrie,0,0.18,incorrect,dean,0,0.0,incorrect,dean,0,0.0,incorrect
+"['tan', 'rene tan', 'rene']",trump,0,0.25,incorrect,john,0,0.29,incorrect,john,0,0.29,incorrect
+['greshams'],waltons,0,0.27,incorrect,god,0,0.18,incorrect,god,0,0.18,incorrect
+['greshams'],watsons,0,0.27,incorrect,martha,0,0.43,incorrect,martha,0,0.43,incorrect
+['arabella'],scarlett,0,0.38,incorrect,scarlett,0,0.38,incorrect,scarlett,0,0.38,incorrect
+['thomas'],mr. weasley,0,0.35,incorrect,harry,0,0.36,incorrect,harry,0,0.36,incorrect
+['rufus'],harry,0,0.2,incorrect,koloman,0,0.0,incorrect,koloman,0,0.0,incorrect
+['arabella'],don vito corleone,0,0.16,incorrect,sheldon,0,0.27,incorrect,sheldon,0,0.27,incorrect
+"['gopal das', 'das', 'gopal']",john,0,0.22,incorrect,bea,0,0.33,incorrect,bea,0,0.33,incorrect
+['bea'],emily,0,0.25,incorrect,emma,0,0.57,incorrect,emma,0,0.57,incorrect
+['arabella'],mrs. bennet,0,0.32,incorrect,elizabeth,0,0.35,incorrect,elizabeth,0,0.35,incorrect
+"['eden', 'eden tong', 'tong']",edward,0,0.4,incorrect,heathcliff,0,0.21,incorrect,heathcliff,0,0.21,incorrect
+['rufus'],john,0,0.0,incorrect,bea,0,0.0,incorrect,bea,0,0.0,incorrect
+['arabella'],gertrude,0,0.25,incorrect,scarlett,0,0.38,incorrect,scarlett,0,0.38,incorrect
+['rufus'],raymond blanc,0,0.11,incorrect,blanc,0,0.0,incorrect,blanc,0,0.0,incorrect
+['arabella'],monica,0,0.14,incorrect,emily,0,0.31,incorrect,emily,0,0.31,incorrect
+['peter'],harry,0,0.2,incorrect,shylock,0,0.0,incorrect,shylock,0,0.0,incorrect
+['greshams'],chowdhury,0,0.12,incorrect,scarlett,0,0.25,incorrect,scarlett,0,0.25,incorrect
+['arabella'],winston,0,0.0,incorrect,churchill,0,0.35,incorrect,churchill,0,0.35,incorrect
+"['gao', 'mary gao', 'mary']",michelle,0,0.17,incorrect,miss kong,0,0.35,incorrect,miss kong,0,0.35,incorrect
+['thomas'],carlos,0,0.33,incorrect,macarthur,0,0.27,incorrect,macarthur,0,0.27,incorrect
+['thomas'],jack,0,0.2,incorrect,john,0,0.2,incorrect,john,0,0.2,incorrect
+['arabella'],elizabeth,0,0.35,incorrect,elizabeth,0,0.35,incorrect,elizabeth,0,0.35,incorrect
+['arabella'],elizabeth,0,0.35,incorrect,heathcliff,0,0.22,incorrect,heathcliff,0,0.22,incorrect
+['arabella'],emily,0,0.31,incorrect,elizabeth,0,0.35,incorrect,elizabeth,0,0.35,incorrect
+['rufus'],son,0,0.25,incorrect,frank,0,0.2,incorrect,frank,0,0.2,incorrect
+['arabella'],whistledown,0,0.11,incorrect,coco,0,0.0,incorrect,coco,0,0.0,incorrect
+['eden'],aria,0,0.0,incorrect,leviathan,0,0.31,incorrect,leviathan,0,0.31,incorrect
+['rufus'],leonardo,0,0.15,incorrect,martha,0,0.18,incorrect,martha,0,0.18,incorrect
+"['gopal das', 'das', 'gopal']",he,0,0.0,incorrect,emily,0,0.2,incorrect,emily,0,0.2,incorrect
+['eden'],francesca,0,0.15,incorrect,grande,0,0.4,incorrect,grande,0,0.4,incorrect
+['rufus'],he,0,0.0,incorrect,tom,0,0.0,incorrect,tom,0,0.0,incorrect
+['eden'],aria,0,0.0,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['eden'],clary,0,0.0,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['rufus'],tom,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['rufus'],harry,0,0.2,incorrect,emily,0,0.0,incorrect,emily,0,0.0,incorrect
+['rufus'],edward,0,0.18,incorrect,norma,0,0.2,incorrect,norma,0,0.2,incorrect
+['eden'],emily,0,0.22,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['eden'],emily,0,0.22,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+"['anne', 'rae', 'rae anne']",olivia,0,0.22,incorrect,heidi,0,0.25,incorrect,heidi,0,0.25,incorrect
+['walter'],john,0,0.0,incorrect,dr. smith,0,0.13,incorrect,dr. smith,0,0.13,incorrect
+['thomas'],john,0,0.2,incorrect,iv,0,0.0,incorrect,iv,0,0.0,incorrect
+['thomas'],harry,0,0.36,incorrect,heathcliff,0,0.25,incorrect,heathcliff,0,0.25,incorrect
+['thomas'],ethan,0,0.55,incorrect,adam,0,0.2,incorrect,adam,0,0.2,incorrect
+['thomas'],john,0,0.2,incorrect,emily,0,0.18,incorrect,emily,0,0.18,incorrect
+['rufus'],james,0,0.2,incorrect,riva,0,0.22,incorrect,riva,0,0.22,incorrect
+['arabella'],augustus,0,0.12,incorrect,barber,0,0.57,incorrect,barber,0,0.57,incorrect
+['rufus'],ethan,0,0.0,incorrect,stanley,0,0.17,incorrect,stanley,0,0.17,incorrect
+['rufus'],harry,0,0.2,incorrect,harry,0,0.2,incorrect,harry,0,0.2,incorrect
+['arabella'],regina,0,0.43,incorrect,scarlett,0,0.38,incorrect,scarlett,0,0.38,incorrect
+['eden'],emily,0,0.22,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['rufus'],john,0,0.0,incorrect,whitney,0,0.0,incorrect,whitney,0,0.0,incorrect
+['arabella'],arabella,1,1.0,correct,scarlett,0,0.38,incorrect,scarlett,0,0.38,incorrect
+['rufus'],john,0,0.0,incorrect,italian,0,0.0,incorrect,italian,0,0.0,incorrect
+['rufus'],luca,0,0.22,incorrect,amelie,0,0.0,incorrect,amelie,0,0.0,incorrect
+['eden'],scarlett,0,0.17,incorrect,her,0,0.29,incorrect,her,0,0.29,incorrect
+['thomas'],edward,0,0.17,incorrect,wong,0,0.2,incorrect,wong,0,0.2,incorrect
+['eden'],emily,0,0.22,incorrect,emma,0,0.25,incorrect,emma,0,0.25,incorrect
+['thomas'],edward,0,0.17,incorrect,heathcliff,0,0.25,incorrect,heathcliff,0,0.25,incorrect
+['thomas'],erik,0,0.0,incorrect,mark,0,0.4,incorrect,mark,0,0.4,incorrect
+['eden'],aria,0,0.0,incorrect,her,0,0.29,incorrect,her,0,0.29,incorrect
+['thomas'],macarthur,0,0.27,incorrect,god,0,0.22,incorrect,god,0,0.22,incorrect
+['eden'],lucy,0,0.0,incorrect,francesca,0,0.15,incorrect,francesca,0,0.15,incorrect
+['eden'],elizabeth,0,0.31,incorrect,god,0,0.29,incorrect,god,0,0.29,incorrect
+['thomas'],mr. johnson,0,0.24,incorrect,rockefeller,0,0.12,incorrect,rockefeller,0,0.12,incorrect
+"['gopal das', 'das', 'gopal']",yolanda,0,0.5,incorrect,pluto,0,0.4,incorrect,pluto,0,0.4,incorrect
+['rufus'],lucas,0,0.4,incorrect,emily,0,0.0,incorrect,emily,0,0.0,incorrect
+['martha'],victoria,0,0.29,incorrect,reginald,0,0.29,incorrect,reginald,0,0.29,incorrect
+['arabella'],carrie bradshaw,0,0.35,incorrect,giulia,0,0.29,incorrect,giulia,0,0.29,incorrect
+['arabella'],emily,0,0.31,incorrect,carrie,0,0.43,incorrect,carrie,0,0.43,incorrect
+['martha'],giulia,0,0.17,incorrect,senate,0,0.33,incorrect,senate,0,0.33,incorrect
+['ken'],kensington,0,0.46,incorrect,claridge,0,0.18,incorrect,claridge,0,0.18,incorrect
+['freddy'],lauren,0,0.33,incorrect,brandon,0,0.31,incorrect,brandon,0,0.31,incorrect
+['eden'],scarlett,0,0.17,incorrect,mr. darcy,0,0.15,incorrect,mr. darcy,0,0.15,incorrect
+['peter'],ishmael,0,0.17,incorrect,shakespeare,0,0.38,incorrect,shakespeare,0,0.38,incorrect
+['peter'],leonard,0,0.33,incorrect,michael,0,0.17,incorrect,michael,0,0.17,incorrect
+"['martha', 'dung', 'martha dung']",julian,0,0.4,incorrect,edward,0,0.35,incorrect,edward,0,0.35,incorrect
+['eden'],julian,0,0.2,incorrect,emma,0,0.25,incorrect,emma,0,0.25,incorrect
+['peter'],lucas,0,0.0,incorrect,tris,0,0.44,incorrect,tris,0,0.44,incorrect
+"['redford', 'robert redford', 'robert']",winston churchill,0,0.19,incorrect,winston,0,0.19,incorrect,winston,0,0.19,incorrect
+['penelope'],carolyn,0,0.13,incorrect,medicare,0,0.25,incorrect,medicare,0,0.25,incorrect
+['putter'],wid,0,0.0,incorrect,julia,0,0.18,incorrect,julia,0,0.18,incorrect
+['arabella'],wid,0,0.0,incorrect,oscar de la renta,0,0.4,incorrect,oscar de la renta,0,0.4,incorrect
+['penelope'],elizabeth,0,0.35,incorrect,ali,0,0.18,incorrect,ali,0,0.18,incorrect
+['putter'],pen,0,0.44,incorrect,pen,0,0.44,incorrect,pen,0,0.44,incorrect
+['arabella'],carolyn,0,0.4,incorrect,heathcliff,0,0.22,incorrect,heathcliff,0,0.22,incorrect
+['rufus'],edward,0,0.18,incorrect,elizabeth,0,0.0,incorrect,elizabeth,0,0.0,incorrect
+['rufus'],jack,0,0.0,incorrect,marco,0,0.2,incorrect,marco,0,0.2,incorrect

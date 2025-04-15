@@ -1,0 +1,49 @@
+Single_ent,en_masked_results,en_masked_exact_match,en_masked_highest_fuzzy_match,en_masked_correct,en_masked_shuffled_results,en_masked_shuffled_exact_match,en_masked_shuffled_highest_fuzzy_match,en_masked_shuffled_correct,en_masked_shuffled_results,en_masked_shuffled_exact_match,en_masked_shuffled_highest_fuzzy_match,en_masked_shuffled_correct
+"['beaver', 'eager', 'eager beaver']",me,0,0.29,incorrect,elon musk,0,0.19,incorrect,elon musk,0,0.19,incorrect
+['hannah'],anna,0,0.8,correct,john,0,0.4,incorrect,john,0,0.4,incorrect
+"['kalpana', 'chawla', 'kalpana chawla']",black holes,0,0.4,incorrect,emily,0,0.18,incorrect,emily,0,0.18,incorrect
+['floyd'],curiosity,0,0.29,incorrect,john,0,0.22,incorrect,john,0,0.22,incorrect
+['floyd'],her,0,0.0,incorrect,victoria,0,0.15,incorrect,victoria,0,0.15,incorrect
+['mara'],she,0,0.0,incorrect,midori,0,0.4,incorrect,midori,0,0.4,incorrect
+['mara'],mr. darcy,0,0.46,incorrect,edward,0,0.4,incorrect,edward,0,0.4,incorrect
+['floyd'],maternal,0,0.15,incorrect,trace,0,0.0,incorrect,trace,0,0.0,incorrect
+['python'],java,0,0.0,incorrect,hal,0,0.22,incorrect,hal,0,0.22,incorrect
+['let'],monica,0,0.0,incorrect,shin,0,0.0,incorrect,shin,0,0.0,incorrect
+['fuck'],christian,0,0.15,incorrect,ian,0,0.0,incorrect,ian,0,0.0,incorrect
+['hannah'],adam,0,0.4,incorrect,richard,0,0.31,incorrect,richard,0,0.31,incorrect
+['mara'],reid,0,0.25,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['merel'],dr. patel,0,0.43,incorrect,dr. pascal lee,0,0.21,incorrect,dr. pascal lee,0,0.21,incorrect
+['hannah'],jim,0,0.0,incorrect,elon,0,0.2,incorrect,elon,0,0.2,incorrect
+['mara'],lucy,0,0.0,incorrect,heathcliff,0,0.14,incorrect,heathcliff,0,0.14,incorrect
+['mara'],she,0,0.0,incorrect,dr. lisa kaltenegger,0,0.17,incorrect,dr. lisa kaltenegger,0,0.17,incorrect
+['merel'],dr. patel,0,0.43,incorrect,dr. [advisor's name],0,0.16,incorrect,dr. [advisor's name],0,0.16,incorrect
+['karl'],emily,0,0.22,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['haven'],hasn,0,0.67,incorrect,john,0,0.44,incorrect,john,0,0.44,incorrect
+['arroyo'],dr. maria zuber,0,0.29,incorrect,arctic,0,0.33,incorrect,arctic,0,0.33,incorrect
+['arroyo'],dr. maria zuber,0,0.29,incorrect,dr. mae jemison,0,0.19,incorrect,dr. mae jemison,0,0.19,incorrect
+['merel'],dr. vogel,0,0.43,incorrect,dr. steve squyres,0,0.27,incorrect,dr. steve squyres,0,0.27,incorrect
+['floyd'],he,0,0.0,incorrect,john,0,0.22,incorrect,john,0,0.22,incorrect
+['merel'],dr. sattler,0,0.25,incorrect,oslo,0,0.22,incorrect,oslo,0,0.22,incorrect
+['hannah'],christian,0,0.4,incorrect,edward,0,0.17,incorrect,edward,0,0.17,incorrect
+['merel'],christian,0,0.14,incorrect,heathcliff,0,0.27,incorrect,heathcliff,0,0.27,incorrect
+['hannah'],victor,0,0.0,incorrect,longyearbyen,0,0.22,incorrect,longyearbyen,0,0.22,incorrect
+['merel'],peeta,0,0.4,incorrect,lucas,0,0.2,incorrect,lucas,0,0.2,incorrect
+['floyd'],maternal,0,0.15,incorrect,john,0,0.22,incorrect,john,0,0.22,incorrect
+['hannah'],christian,0,0.4,incorrect,christian,0,0.4,incorrect,christian,0,0.4,incorrect
+['hannah'],dr. ian malcolm,0,0.29,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
+['merel'],ian,0,0.0,incorrect,ian,0,0.0,incorrect,ian,0,0.0,incorrect
+['mara'],dr. kim,0,0.18,incorrect,jesus,0,0.0,incorrect,jesus,0,0.0,incorrect
+['mara'],emily,0,0.22,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['floyd'],montague,0,0.15,incorrect,harry,0,0.2,incorrect,harry,0,0.2,incorrect
+['mara'],clary,0,0.44,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['mara'],josh,0,0.0,incorrect,loops,0,0.0,incorrect,loops,0,0.0,incorrect
+['great'],great,1,1.0,correct,great,1,1.0,correct,great,1,1.0,correct
+['hannah'],chloe,0,0.18,incorrect,arctic,0,0.17,incorrect,arctic,0,0.17,incorrect
+['hannah'],augustus,0,0.14,incorrect,john,0,0.4,incorrect,john,0,0.4,incorrect
+['hannah'],christian,0,0.4,incorrect,lucas,0,0.18,incorrect,lucas,0,0.18,incorrect
+['hannah'],josh,0,0.2,incorrect,christian,0,0.4,incorrect,christian,0,0.4,incorrect
+['hannah'],christian,0,0.4,incorrect,tom,0,0.0,incorrect,tom,0,0.0,incorrect
+['mara'],christian,0,0.31,incorrect,broccoli,0,0.17,incorrect,broccoli,0,0.17,incorrect
+['hannah'],christian,0,0.4,incorrect,jesus,0,0.0,incorrect,jesus,0,0.0,incorrect
+['hannah'],alexander,0,0.27,incorrect,christian,0,0.4,incorrect,christian,0,0.4,incorrect
+['hannah'],valles marineris,0,0.18,incorrect,valles marineris,0,0.18,incorrect,valles marineris,0,0.18,incorrect

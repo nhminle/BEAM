@@ -8,7 +8,7 @@ import time
 import sys
 import io
 import glob
-client = Fireworks(api_key="")
+client = Fireworks(api_key="fw_3Zn92C3stccuXKPXACNmnEYV")
 
 logging.basicConfig(
     level=logging.INFO,
@@ -146,7 +146,7 @@ def direct_probe(csv_file_name, book_title, prompt_setting):
             df.insert(index_of_language + 1, f"{language}_results", output_col)
 
         #output_file_name = f"./direct_probing/fireworks_out/{prompt_setting}/{book_title}_direct_probe_llama405b_{prompt_setting}.csv"
-        output_file_name = f"/home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/direct_probing/fireworks_out/clm/{prompt_setting}/{book_title}_direct_probe_llama405b_{prompt_setting}.csv"
+        output_file_name = f"/home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/direct_probing/fireworks_out/clm/{prompt_setting}/{book_title}_direct_probe_llama405b_ne_{prompt_setting}.csv"
         df.to_csv(output_file_name, index=False, encoding='utf-8')
         logging.error(f"Results saved to {output_file_name}")
     except Exception as e:
@@ -170,12 +170,14 @@ if __name__ == "__main__":
     titles = get_folder_names('/home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/2024')
     # titles = get_filenames()
     for title in titles:
-        # if "1984_filtered" in title:
-        logging.info(f"running {title}")
-        # logging.info(os.path.basename(title))
-        # book_title = os.path.basename(title)
-        # direct_probe(csv_file_name=title, book_title=book_title, prompt_setting="0s") # modify the prompt setting here 
-        # direct_probe(csv_file_name=title, book_title=book_title, prompt_setting="1s") # modify the prompt setting here
-        # logging.info("done")
-        direct_probe(csv_file_name=f"/home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/2024/{title}/{title}_unmasked_passages.csv", book_title=title, prompt_setting="zero_shot") # modify the prompt setting here
-        direct_probe(csv_file_name=f"/home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/2024/{title}/{title}_unmasked_passages.csv", book_title=title, prompt_setting="one_shot") # modify the prompt setting here      
+        # if "Below_Zero" not in title or "Bride" not in title or "First_Lie_Wins" not in title or "Funny_Story" not in title or "If_Only_I_Had_Told_Her" not in title:
+
+            # if "1984_filtered" in title:
+            logging.info(f"running {title}")
+            # logging.info(os.path.basename(title))
+            # book_title = os.path.basename(title)
+            # direct_probe(csv_file_name=title, book_title=book_title, prompt_setting="0s") # modify the prompt setting here 
+            # direct_probe(csv_file_name=title, book_title=book_title, prompt_setting="1s") # modify the prompt setting here
+            # logging.info("done")
+            direct_probe(csv_file_name=f"/home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/2024/{title}/{title}_filtered_masked.csv", book_title=title, prompt_setting="zero_shot") # modify the prompt setting here
+            direct_probe(csv_file_name=f"/home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/2024/{title}/{title}_filtered_masked.csv", book_title=title, prompt_setting="one_shot") # modify the prompt setting here      

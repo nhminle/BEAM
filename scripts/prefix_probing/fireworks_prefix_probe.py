@@ -9,7 +9,7 @@ import sys
 import io
 import time  ### ADDED OR MODIFIED ###
 
-client = Fireworks(api_key="")
+client = Fireworks(api_key="fw_3Zn92C3stccuXKPXACNmnEYV")
 
 logging.basicConfig(
     level=logging.INFO,
@@ -208,8 +208,8 @@ def prefixProbe(csv_file_name, book_title, prompt_setting="zero-shot"):
                 df_out = pd.concat([df_out, output_df], axis=1)
 
         output_file_name = (
-            f"/home/ekorukluoglu_umass_edu/beam2/BEAM/results/prefix_probe/2024/"
-            f"Llama-3.1-405b/{book_title}_prefix_probe_Llama-3.1-405b_"
+            f"/home/ekorukluoglu_umass_edu/beam2/BEAM/results/prefix_probe/"
+            f"Llama-3.1-405b/2024/{book_title}_prefix_probe_Llama-3.1-405b_"
             f"{prompt_setting}_non_NE.csv"
         )
         df_out.to_csv(output_file_name, index=False, encoding='utf-8')

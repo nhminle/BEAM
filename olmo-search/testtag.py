@@ -116,6 +116,53 @@ def compute_accuracies_from_master_csv(master_csv_path: str) -> pd.DataFrame:
 
     return pd.DataFrame.from_records(records)
 
+def compute_grouped_accuracies_all_rows(filtered_data: dict) -> pd.DataFrame:
+    records = []
+
+    for model, books in filtered_data.items():
+        # Collect all rows across all books for each group
+        group_values = {
+            "English": [],
+            "Translations": [],
+            "Crosslingual": []
+        }
+
+        for book, df in books.items():
+            columns = df.columns
+            all_eval_cols = [col for col in columns if col.endswith("results_both_match")]
+
+            crosslingual_cols = [
+                col for col in all_eval_cols
+                if col not in LANG_GROUPS["English"] + LANG_GROUPS["Translations"]
+            ]
+
+            groups = {
+                "English": LANG_GROUPS["English"],
+                "Translations": LANG_GROUPS["Translations"],
+                "Crosslingual": crosslingual_cols
+            }
+
+            for group_name, lang_cols in groups.items():
+                # Only include existing columns
+                existing_cols = [col for col in lang_cols if col in df.columns]
+                if not existing_cols:
+                    continue
+                values = df[existing_cols].values.flatten()
+                group_values[group_name].extend(pd.Series(values).dropna().tolist())
+
+        # After all books are processed, compute true average per group
+        for group_name, values in group_values.items():
+            if not values:
+                continue
+            acc = (pd.Series(values) == True).mean()
+            records.append({
+                "model": model,
+                "group": group_name,
+                "accuracy": acc
+            })
+
+    return pd.DataFrame.from_records(records)
+
 
 def plot_grouped_accuracies(df: pd.DataFrame):
     plt.figure(figsize=(8, 6))
@@ -255,40 +302,31 @@ def plot_accuracy_comparison_bar(df_master_acc: pd.DataFrame, df_filtered_acc: p
     ax.spines['bottom'].set_linewidth(1.5)
 
     # Add text annotations above each bar with improved styling
-    for i, p in enumerate(ax.patches):
+    # Add text annotations on top of each bar in black
+# Add text annotations just above each bar in black
+    # Add text annotations directly on top of each bar in black
+    for p in ax.patches:
         height = p.get_height()
         if height < 0.01:
             continue
-            
-        # Determine text color based on bar color
-        is_light_bar = p.get_facecolor()[0] > 0.5
-        text_color = 'black' if is_light_bar else 'white'
-        
-        if height < 0.1:  # For very small values, place text above
-            ax.text(
-                p.get_x() + p.get_width()/2.,
-                height + 0.03,
-                f'{height:.2f}',
-                ha='center',
-                fontsize=12,
-                fontweight='bold',
-                color='black'
-            )
-        else:
-            ax.text(
-                p.get_x() + p.get_width()/2.,
-                height - 0.05,  # Position inside the bar
-                f'{height:.2f}',
-                ha='center',
-                fontsize=12,
-                fontweight='bold',
-                color=text_color
-            )
 
-    plt.title("Accuracy Comparison on DP non_NE: Occurances vs Non-Occurances", fontweight='bold')
+        ax.text(
+            p.get_x() + p.get_width() / 2.,
+            height-p.get_height()/2-0.015,  # top of the bar
+            f'{height:.2f}',
+            ha='center',
+            va='bottom',  # attach text at bottom edge to sit directly above
+            fontsize=12,
+            fontweight='bold',
+            color='black'  # use black for both light and dark bars
+        )
+
+
+
+    plt.title("Accuracy Comparison on DP non_ne: Occurances vs Non-Occurances Olmo 13b", fontweight='bold')
     plt.ylim(0, 1.1)  # Increased ylim to make room for labels
     plt.ylabel("Mean Accuracy", fontweight='bold')
-    plt.xlabel("Language Group", fontweight='bold')
+    plt.xlabel(" ", fontweight='bold')
     
     # Format ticks
     for label in ax.get_xticklabels():
@@ -305,17 +343,54 @@ def plot_accuracy_comparison_bar(df_master_acc: pd.DataFrame, df_filtered_acc: p
         text.set_fontweight('bold')
         
     plt.tight_layout()
-    plt.savefig("accuracy_comparison_barplot.png", dpi=300, bbox_inches='tight')
+    plt.savefig("accuracy_comparison_barplot11.png", dpi=300, bbox_inches='tight')
     plt.show()
 
+def compute_flat_accuracies_from_master_csv(master_csv_path: str) -> pd.DataFrame:
+    df = pd.read_csv(master_csv_path)
+
+    lang_groups = {
+        "English": ["en_eval"],
+        "Translations": ["es_eval", "vi_eval", "tr_eval"],
+    }
+
+    # Detect all *_eval columns
+    eval_cols = [col for col in df.columns if col.endswith("_eval")]
+    crosslingual = [col for col in eval_cols if col not in lang_groups["English"] + lang_groups["Translations"]]
+    lang_groups["Crosslingual"] = crosslingual
+
+    records = []
+
+    for model in df["model"].unique():
+        model_df = df[df["model"] == model]
+
+        for group, cols in lang_groups.items():
+            existing_cols = [col for col in cols if col in model_df.columns]
+            if not existing_cols:
+                continue
+
+            values = model_df[existing_cols].values.flatten()
+            valid = pd.Series(values).dropna()
+
+            if len(valid) == 0:
+                continue
+
+            acc = (valid == True).mean()
+            records.append({
+                "model": model,
+                "group": group,
+                "accuracy": acc
+            })
+
+    return pd.DataFrame.from_records(records)
 
 
 
 # --- 🚀 Main execution ---
 if __name__ == "__main__":
-    master_csv_path = "master_csv.csv"
+    master_csv_path = "/home/ekorukluoglu_umass_edu/beam2/BEAM/olmo-search/olmo_eval_non_ne_olmo13b.csv"
     data_dir = "/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/EuroLLM-9B-Instruct/ne_zero_shot"
-    results_dir = "/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe"
+    results_dir = "/home/ekorukluoglu_umass_edu/beam2/BEAM/results/direct_probe/OLMo-2-1124-13B-Instruct/non_ne_one_shot/"
     # skip_dict = build_skip_dict(master_csv_path)
     # file_dict = build_file_dict(data_dir)
     # filtered_data = filter_csv_files(file_dict, skip_dict)
@@ -323,12 +398,12 @@ if __name__ == "__main__":
     
     skip_dict = build_skip_dict(master_csv_path)
     all_filtered_data,unfiltered = filter_all_models(results_dir, skip_dict)
-    print(all_filtered_data.keys())
-    print(unfiltered.keys())
-    print(all_filtered_data["Llama-3.1-405b"]["1984_eval"].keys())
-    df_master_acc = compute_accuracies_from_master_csv("master_csv.csv")
+    # print(all_filtered_data.keys())
+    # print(unfiltered.keys())
+    # print(all_filtered_data["Llama-3.1-405b"]["1984_eval"].keys())
+    df_master_acc = compute_flat_accuracies_from_master_csv(master_csv_path)
     print(df_master_acc.head())
-    grouped_df = compute_grouped_accuracies(all_filtered_data)
+    grouped_df = compute_grouped_accuracies_all_rows(all_filtered_data)
 
     plot_grouped_accuracies(grouped_df)
 # Assuming these are already defined:
@@ -337,88 +412,88 @@ if __name__ == "__main__":
 
     plot_accuracy_comparison_bar(df_master_acc, grouped_df)
 
-    # Normalize model names if needed
-    target_model = "Llama-3.1-405b"
+    # # Normalize model names if needed
+    # target_model = "Llama-3.1-405b"
 
-    df_master_sub = df_master_acc[df_master_acc["model"].str.contains(target_model, case=False, regex=False)]
-    df_filtered_sub = grouped_df[grouped_df["model"].str.contains(target_model, case=False, regex=False)]
+    # df_master_sub = df_master_acc[df_master_acc["model"].str.contains(target_model, case=False, regex=False)]
+    # df_filtered_sub = grouped_df[grouped_df["model"].str.contains(target_model, case=False, regex=False)]
 
-    df_master_sub["source"] = "master_csv"
-    df_filtered_sub["source"] = "filtered_eval"
+    # df_master_sub["source"] = "master_csv"
+    # df_filtered_sub["source"] = "filtered_eval"
 
-    df_limited = pd.concat([df_master_sub, df_filtered_sub], ignore_index=True)
+    # df_limited = pd.concat([df_master_sub, df_filtered_sub], ignore_index=True)
 
-    plt.figure(figsize=(12, 8))
+    # plt.figure(figsize=(12, 8))
     
-    ax = sns.barplot(data=df_limited, x="group", y="accuracy", hue="source", palette="BuPu")
+    # ax = sns.barplot(data=df_limited, x="group", y="accuracy", hue="source", palette="BuPu")
     
-    # Add grid
-    ax.yaxis.grid(True, linestyle=":", linewidth=1, alpha=0.6)
-    ax.set_axisbelow(True)
+    # # Add grid
+    # ax.yaxis.grid(True, linestyle=":", linewidth=1, alpha=0.6)
+    # ax.set_axisbelow(True)
 
-    # Remove the box around the plot
-    ax.spines['top'].set_visible(False)
-    ax.spines['right'].set_visible(False)
-    ax.spines['left'].set_color('lightgray')
-    ax.spines['bottom'].set_color('lightgray')
-    ax.spines['left'].set_linewidth(1.5)
-    ax.spines['bottom'].set_linewidth(1.5)
+    # # Remove the box around the plot
+    # ax.spines['top'].set_visible(False)
+    # ax.spines['right'].set_visible(False)
+    # ax.spines['left'].set_color('lightgray')
+    # ax.spines['bottom'].set_color('lightgray')
+    # ax.spines['left'].set_linewidth(1.5)
+    # ax.spines['bottom'].set_linewidth(1.5)
     
-    # Add text annotations above each bar with improved styling
-    for i, p in enumerate(ax.patches):
-        height = p.get_height()
-        if height < 0.01:
-            continue
+    # # Add text annotations above each bar with improved styling
+    # for i, p in enumerate(ax.patches):
+    #     height = p.get_height()
+    #     if height < 0.01:
+    #         continue
             
-        # Determine text color based on bar color
-        is_light_bar = p.get_facecolor()[0] > 0.5
-        text_color = 'black' if is_light_bar else 'white'
+    #     # Determine text color based on bar color
+    #     is_light_bar = p.get_facecolor()[0] > 0.5
+    #     text_color = 'black' if is_light_bar else 'white'
         
-        if height < 0.1:  # For very small values, place text above
-            ax.text(
-                p.get_x() + p.get_width()/2.,
-                height + 0.03,
-                f'{height:.2f}',
-                ha='center',
-                fontsize=12,
-                fontweight='bold',
-                color='black'
-            )
-        else:
-            ax.text(
-                p.get_x() + p.get_width()/2.,
-                height - 0.05,  # Position inside the bar
-                f'{height:.2f}',
-                ha='center',
-                fontsize=12,
-                fontweight='bold',
-                color=text_color
-            )
+    #     if height < 0.1:  # For very small values, place text above
+    #         ax.text(
+    #             p.get_x() + p.get_width()/2.,
+    #             height + 0.03,
+    #             f'{height:.2f}',
+    #             ha='center',
+    #             fontsize=12,
+    #             fontweight='bold',
+    #             color='black'
+    #         )
+    #     else:
+    #         ax.text(
+    #             p.get_x() + p.get_width()/2.,
+    #             height - 0.05,  # Position inside the bar
+    #             f'{height:.2f}',
+    #             ha='center',
+    #             fontsize=12,
+    #             fontweight='bold',
+    #             color=text_color
+    #         )
         
-    plt.title("Accuracy Comparison for Llama-3.1-405b", fontweight='bold')
-    plt.ylim(0, 1.1)  # Increased ylim to make room for labels
-    plt.xlabel("Group", fontweight='bold')
-    plt.ylabel("Accuracy", fontweight='bold')
+    # plt.title("Accuracy Comparison for Llama-3.1-405b", fontweight='bold')
+    # plt.ylim(0, 1.1)  # Increased ylim to make room for labels
+    # plt.xlabel("Group", fontweight='bold')
+    # plt.ylabel("Accuracy", fontweight='bold')
     
-    # Format ticks
-    for label in ax.get_xticklabels():
-        label.set_fontweight('bold')
-        label.set_fontsize(14)
-    for label in ax.get_yticklabels():
-        label.set_fontweight('bold')
-        label.set_fontsize(14)
+    # # Format ticks
+    # for label in ax.get_xticklabels():
+    #     label.set_fontweight('bold')
+    #     label.set_fontsize(14)
+    # for label in ax.get_yticklabels():
+    #     label.set_fontweight('bold')
+    #     label.set_fontsize(14)
     
-    # Format legend
-    legend = ax.legend(title="Source", fontsize=14, title_fontsize=14)
-    plt.setp(legend.get_title(), fontweight='bold')
-    for text in legend.get_texts():
-        text.set_fontweight('bold')
+    # # Format legend
+    # legend = ax.legend(title="Source", fontsize=14, title_fontsize=14)
+    # plt.setp(legend.get_title(), fontweight='bold')
+    # for text in legend.get_texts():
+    #     text.set_fontweight('bold')
     
-    plt.tight_layout()
-    plt.savefig("llama405b_accuracy_comparison.png", dpi=300, bbox_inches='tight')
-    plt.show()
+    # plt.tight_layout()
+    # plt.savefig("llama405b_accuracy_comparison1.png", dpi=300, bbox_inches='tight')
+    # plt.show()
 
-    # ✅ Optionally: Save cleaned files
-    # for path, df in filtered_data.items():
-    #     out_path = path.replace(".csv", "_filtered.csv")
-    #     df.to_csv(out_path, index=False)
+    # # ✅ Optionally: Save cleaned files
+    # # for path, df in filtered_data.items():
+    # #     out_path = path.replace(".csv", "_filtered.csv")
+    # #     df.to_csv(out_path, index=False)

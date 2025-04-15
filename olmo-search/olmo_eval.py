@@ -159,30 +159,60 @@ df_main["en_results"] = None  # New column to hold results
 
 # Build the dictionary mapping filenames to full paths:
 file_dict = build_file_dict(project_folder)
+
+# Filter to include only ne_one_shot files
+file_dict = {
+    fname: path for fname, path in file_dict.items()
+    if "non_ne_one_shot" in path and path.endswith(".csv")
+}
+
 print("Built file dictionary.")
 result_df = []
 book_names = pd.read_csv('/home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Evaluation/dir_probe/book_names.csv')
 
 # Iterate over each unique filename in df_main:
 for fname in df_main["filename"].unique():
+    splitted = split_filename(fname)
+    primary, suffix = splitted
+    print(primary)
+    # Only continue if suffix is unmasked_passages
+    if suffix != "unmasked_passages":
+        continue
+
     # if "1984" in fname:
     if "true":
         # Split the target filename from the main CSV into primary and secondary parts.
-        splitted = split_filename(fname)
-        # print(f"Processing {fname}: split into {splitted}")
-        file_dict = {
-            fname: path for fname, path in file_dict.items()
-            if "zero_shot" not in path.lower()
-        }
-        # Search over file_dict to find a file that contains either the primary or secondary identifier.
-        matching_file_paths = find_matching_file(splitted, file_dict)
+        if suffix != "unmasked_passages":
+            continue
+
+        primary_title = primary.lower().replace(" ", "_")
+
+        # Match any file in the dictionary that contains the primary title (ignoring suffix) and excludes zero_shot
+        matching_file_paths = [
+            path for filename, path in file_dict.items()
+            if primary_title in filename.lower()
+            and "zero_shot" not in path.lower()
+        ]
+
+        if not matching_file_paths:
+            print(f"Matching file not found for: {fname}")
+            print(f"Split name: {primary} | {suffix}")
+            continue  # Don't exit, just skip this file
+
+        print(f"Found {len(matching_file_paths)} matching files for the book : {fname}")
+
+
         # print(matching_file_paths)
         if matching_file_paths:# print(type(matching_file_paths))
             print(f"Found {len(matching_file_paths)} matching files for the book : {fname}")
             for files in matching_file_paths:
+                splittedfilename = files.split('/')
+                # print(splittedfilename[7])
+                if splittedfilename[7] !="OLMo-2-1124-13B-Instruct":
+                    continue
                 if "one_shot" in files:
                     # print(files)
-                    splittedfilename = files.split('/')
+
                     # print(splittedfilename[7])
                     # print(len(matching_file_paths))
                     print(f"finding occurences in model : {splittedfilename[7]}")
@@ -242,15 +272,18 @@ for fname in df_main["filename"].unique():
             print(f"Matching file not found for: {fname}")
             print(splitted)
             print(matching_file_paths)
+            print(file_dict)
+            sys.exit()
     # print(result_df)
 
 result_dframe = pd.DataFrame(result_df)
 keyword = "_shuffled"
 
-df_clean = result_dframe.loc[:, ~result_dframe.columns.str.contains(keyword, case=False, regex=False)]
+df_clean = result_dframe.loc[:, ~pd.Index(result_dframe.columns.astype(str)).str.contains(keyword, case=False, regex=False)]
+print("Columns in df_clean:", df_clean.columns.tolist())
 
 sorted_df = df_clean.sort_values(by='filename', ascending=True)
 # Save the updated main CSV to a new file.
-output_csv_path = "olmo_eval.csv"
+output_csv_path = "olmo_eval_non_ne_olmo13b.csv"
 sorted_df.to_csv(output_csv_path, index=False)
 print(f"Updated CSV saved to {output_csv_path}")

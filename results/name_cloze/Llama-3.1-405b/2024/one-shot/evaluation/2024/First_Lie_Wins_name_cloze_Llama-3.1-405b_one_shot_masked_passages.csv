@@ -1,0 +1,329 @@
+Single_ent,en_masked_results,en_masked_exact_match,en_masked_highest_fuzzy_match,en_masked_correct,en_masked_shuffled_results,en_masked_shuffled_exact_match,en_masked_shuffled_highest_fuzzy_match,en_masked_shuffled_correct,en_masked_shuffled_results,en_masked_shuffled_exact_match,en_masked_shuffled_highest_fuzzy_match,en_masked_shuffled_correct
+['ryan'],he,0,0.0,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],ethan,0,0.44,incorrect,heathcliff,0,0.14,incorrect,heathcliff,0,0.14,incorrect
+['ryan'],jack,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],adam,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],joe,0,0.0,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['ryan'],heathcliff,0,0.14,incorrect,elizabeth,0,0.15,incorrect,elizabeth,0,0.15,incorrect
+['ryan'],ethan,0,0.44,incorrect,edward,0,0.2,incorrect,edward,0,0.2,incorrect
+['ryan'],christian,0,0.46,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],christian,0,0.46,incorrect,harry,0,0.44,incorrect,harry,0,0.44,incorrect
+['ryan'],john,0,0.25,incorrect,forbing,0,0.36,incorrect,forbing,0,0.36,incorrect
+['pat'],max,0,0.33,incorrect,jason,0,0.25,incorrect,jason,0,0.25,incorrect
+['pat'],max,0,0.33,incorrect,ryan,0,0.29,incorrect,ryan,0,0.29,incorrect
+['pat'],goodwill,0,0.0,incorrect,goodwill,0,0.0,incorrect,goodwill,0,0.0,incorrect
+['pat'],john,0,0.0,incorrect,joe,0,0.0,incorrect,joe,0,0.0,incorrect
+['ryan'],john,0,0.25,incorrect,cvs,0,0.0,incorrect,cvs,0,0.0,incorrect
+['ryan'],max,0,0.29,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['ryan'],her,0,0.29,incorrect,aaron,0,0.44,incorrect,aaron,0,0.44,incorrect
+['shawna'],brittany,0,0.29,incorrect,scarlett,0,0.29,incorrect,scarlett,0,0.29,incorrect
+['ryan'],he,0,0.0,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['ryan'],john,0,0.25,incorrect,george,0,0.2,incorrect,george,0,0.2,incorrect
+['ryan'],emily,0,0.22,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['ryan'],max,0,0.29,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['rogers'],mrs. dubose,0,0.35,incorrect,mayella,0,0.15,incorrect,mayella,0,0.15,incorrect
+['rogers'],jones,0,0.55,incorrect,emma,0,0.2,incorrect,emma,0,0.2,incorrect
+['ryan'],adam,0,0.25,incorrect,tom,0,0.0,incorrect,tom,0,0.0,incorrect
+['ryan'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],hardin,0,0.4,incorrect,elvis,0,0.0,incorrect,elvis,0,0.0,incorrect
+['ryan'],rhys,0,0.5,incorrect,heathcliff,0,0.14,incorrect,heathcliff,0,0.14,incorrect
+['ryan'],edward,0,0.2,incorrect,he,0,0.0,incorrect,he,0,0.0,incorrect
+['ryan'],he,0,0.0,incorrect,charlie,0,0.18,incorrect,charlie,0,0.18,incorrect
+['ryan'],he,0,0.0,incorrect,he,0,0.0,incorrect,he,0,0.0,incorrect
+['sara'],emily,0,0.0,incorrect,of,0,0.0,incorrect,of,0,0.0,incorrect
+['ryan'],he,0,0.0,incorrect,offred,0,0.2,incorrect,offred,0,0.2,incorrect
+['sara'],amma,0,0.5,incorrect,barbie,0,0.4,incorrect,barbie,0,0.4,incorrect
+['ryan'],john,0,0.25,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['ryan'],christian,0,0.46,incorrect,iphone,0,0.2,incorrect,iphone,0,0.2,incorrect
+"['hot browns', 'hot', 'browns']",churchill downs,0,0.48,incorrect,churchill,0,0.21,incorrect,churchill,0,0.21,incorrect
+['bama'],university of alabama,0,0.32,incorrect,brookwood,0,0.15,incorrect,brookwood,0,0.15,incorrect
+['ryan'],simon,0,0.22,incorrect,warren,0,0.4,incorrect,warren,0,0.4,incorrect
+['ryan'],my father,0,0.31,incorrect,jason,0,0.44,incorrect,jason,0,0.44,incorrect
+['ryan'],ethan,0,0.44,incorrect,christian,0,0.46,incorrect,christian,0,0.46,incorrect
+['sara'],emily,0,0.0,incorrect,edward,0,0.4,incorrect,edward,0,0.4,incorrect
+['ryan'],ethan,0,0.44,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],christian,0,0.46,incorrect,ethan,0,0.44,incorrect,ethan,0,0.44,incorrect
+['ryan'],ethan,0,0.44,incorrect,julian,0,0.4,incorrect,julian,0,0.4,incorrect
+['ryan'],emily,0,0.22,incorrect,veronica,0,0.33,incorrect,veronica,0,0.33,incorrect
+['ryan'],beau,0,0.25,incorrect,harold,0,0.2,incorrect,harold,0,0.2,incorrect
+['ryan'],adam,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],he,0,0.0,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],derby,0,0.44,incorrect,monticello,0,0.14,incorrect,monticello,0,0.14,incorrect
+['ryan'],brody,0,0.44,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['james'],he,0,0.29,incorrect,italian,0,0.17,incorrect,italian,0,0.17,incorrect
+['ryan'],max,0,0.29,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['eden'],paris,0,0.0,incorrect,scarlett,0,0.17,incorrect,scarlett,0,0.17,incorrect
+['rockefeller'],rockefeller,1,1.0,correct,emily,0,0.25,incorrect,emily,0,0.25,incorrect
+['mama'],mom,0,0.57,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['lucca'],emma,0,0.22,incorrect,emily,0,0.2,incorrect,emily,0,0.2,incorrect
+['mama'],grandma,0,0.55,incorrect,carolina,0,0.33,incorrect,carolina,0,0.33,incorrect
+['mama'],mom,0,0.57,incorrect,jonbenet ramsey,0,0.21,incorrect,jonbenet ramsey,0,0.21,incorrect
+['eden'],cambridge,0,0.31,incorrect,estella,0,0.36,incorrect,estella,0,0.36,incorrect
+['ryan'],christian,0,0.46,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],ethan,0,0.44,incorrect,ethan,0,0.44,incorrect,ethan,0,0.44,incorrect
+['ryan'],christian,0,0.46,incorrect,waiter,0,0.2,incorrect,waiter,0,0.2,incorrect
+['ryan'],christian,0,0.46,incorrect,marcel,0,0.2,incorrect,marcel,0,0.2,incorrect
+['ryan'],freud,0,0.22,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['beth'],scarlett,0,0.33,incorrect,scarlett,0,0.33,incorrect,scarlett,0,0.33,incorrect
+['beth'],chloe,0,0.22,incorrect,jack,0,0.0,incorrect,jack,0,0.0,incorrect
+['ryan'],jack,0,0.25,incorrect,cancun,0,0.4,incorrect,cancun,0,0.4,incorrect
+['ryan'],hardin,0,0.4,incorrect,handsy,0,0.4,incorrect,handsy,0,0.4,incorrect
+['james'],john,0,0.22,incorrect,estella,0,0.33,incorrect,estella,0,0.33,incorrect
+['ryan'],ethan,0,0.44,incorrect,edward,0,0.2,incorrect,edward,0,0.2,incorrect
+['ryan'],christian,0,0.46,incorrect,charlie,0,0.18,incorrect,charlie,0,0.18,incorrect
+['ryan'],ethan,0,0.44,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['lucca'],josh,0,0.0,incorrect,jack,0,0.22,incorrect,jack,0,0.22,incorrect
+['james'],emily,0,0.2,incorrect,jason,0,0.6,incorrect,jason,0,0.6,incorrect
+['james'],he,0,0.29,incorrect,emily,0,0.2,incorrect,emily,0,0.2,incorrect
+['james'],he,0,0.29,incorrect,heathcliff,0,0.13,incorrect,heathcliff,0,0.13,incorrect
+['ryan'],travis,0,0.4,incorrect,he,0,0.0,incorrect,he,0,0.0,incorrect
+['ryan'],stephen king,0,0.12,incorrect,google,0,0.0,incorrect,google,0,0.0,incorrect
+['ryan'],patrick bateman,0,0.32,incorrect,forbing,0,0.36,incorrect,forbing,0,0.36,incorrect
+['ryan'],he,0,0.0,incorrect,godric,0,0.2,incorrect,godric,0,0.2,incorrect
+['ryan'],joe,0,0.0,incorrect,facebook,0,0.17,incorrect,facebook,0,0.17,incorrect
+['ryan'],john,0,0.25,incorrect,shakespeare,0,0.13,incorrect,shakespeare,0,0.13,incorrect
+['mama'],my mother,0,0.31,incorrect,lucifer,0,0.0,incorrect,lucifer,0,0.0,incorrect
+['mama'],scarface,0,0.33,incorrect,frank,0,0.22,incorrect,frank,0,0.22,incorrect
+['matt'],christian,0,0.15,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['matt'],ethan,0,0.22,incorrect,ethan,0,0.22,incorrect,ethan,0,0.22,incorrect
+['matt'],john,0,0.0,incorrect,jim,0,0.29,incorrect,jim,0,0.29,incorrect
+['matt'],victor,0,0.2,incorrect,robert frost,0,0.25,incorrect,robert frost,0,0.25,incorrect
+['james'],churchill,0,0.0,incorrect,emily,0,0.2,incorrect,emily,0,0.2,incorrect
+['ryan'],christian,0,0.46,incorrect,elizabeth,0,0.15,incorrect,elizabeth,0,0.15,incorrect
+['wasn'],i,0,0.0,incorrect,jackson,0,0.55,incorrect,jackson,0,0.55,incorrect
+['ryan'],cole,0,0.0,incorrect,cole,0,0.0,incorrect,cole,0,0.0,incorrect
+['ryan'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],victor,0,0.2,incorrect,el paso,0,0.18,incorrect,el paso,0,0.18,incorrect
+['ryan'],harlan,0,0.6,incorrect,forbing,0,0.36,incorrect,forbing,0,0.36,incorrect
+['ryan'],he,0,0.0,incorrect,glenview,0,0.17,incorrect,glenview,0,0.17,incorrect
+['ryan'],shreveport,0,0.14,incorrect,chicago,0,0.18,incorrect,chicago,0,0.18,incorrect
+['ryan'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],john,0,0.25,incorrect,rockefeller,0,0.13,incorrect,rockefeller,0,0.13,incorrect
+['ryan'],victor,0,0.2,incorrect,trump,0,0.22,incorrect,trump,0,0.22,incorrect
+['ryan'],victor,0,0.2,incorrect,playstation,0,0.4,incorrect,playstation,0,0.4,incorrect
+['ryan'],he,0,0.0,incorrect,joe,0,0.0,incorrect,joe,0,0.0,incorrect
+['ryan'],victor,0,0.2,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],eric,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],victor,0,0.2,incorrect,holden,0,0.2,incorrect,holden,0,0.2,incorrect
+['ryan'],christian,0,0.46,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['ryan'],he,0,0.0,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],john,0,0.25,incorrect,tom,0,0.0,incorrect,tom,0,0.0,incorrect
+['ryan'],he,0,0.0,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['james'],he,0,0.29,incorrect,john,0,0.22,incorrect,john,0,0.22,incorrect
+['ryan'],grandfather,0,0.4,incorrect,grandma,0,0.55,incorrect,grandma,0,0.55,incorrect
+['james'],lucas,0,0.4,incorrect,home depot,0,0.27,incorrect,home depot,0,0.27,incorrect
+['ryan'],adam,0,0.25,incorrect,adam,0,0.25,incorrect,adam,0,0.25,incorrect
+['james'],john,0,0.22,incorrect,john,0,0.22,incorrect,john,0,0.22,incorrect
+['ryan'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['greg'],mr. gray,0,0.33,incorrect,harry,0,0.22,incorrect,harry,0,0.22,incorrect
+['jenny'],emily,0,0.4,incorrect,john,0,0.44,incorrect,john,0,0.44,incorrect
+['greg'],ms. pritchett,0,0.24,incorrect,miles,0,0.22,incorrect,miles,0,0.22,incorrect
+['jenny'],christian,0,0.14,incorrect,emily,0,0.4,incorrect,emily,0,0.4,incorrect
+['jenny'],kingston,0,0.31,incorrect,kingston,0,0.31,incorrect,kingston,0,0.31,incorrect
+['matt'],christian,0,0.15,incorrect,jack,0,0.25,incorrect,jack,0,0.25,incorrect
+['matt'],kenji,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['jenny'],sheila,0,0.18,incorrect,emily,0,0.4,incorrect,emily,0,0.4,incorrect
+['greg'],he,0,0.33,incorrect,usb,0,0.0,incorrect,usb,0,0.0,incorrect
+['jenny'],sheila,0,0.18,incorrect,carrie,0,0.18,incorrect,carrie,0,0.18,incorrect
+['matt'],kingston,0,0.17,incorrect,kingston,0,0.17,incorrect,kingston,0,0.17,incorrect
+['greg'],josh,0,0.0,incorrect,michael,0,0.18,incorrect,michael,0,0.18,incorrect
+['matt'],victor,0,0.2,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['greg'],victor,0,0.2,incorrect,iphone,0,0.2,incorrect,iphone,0,0.2,incorrect
+['matt'],ethan,0,0.22,incorrect,harry,0,0.22,incorrect,harry,0,0.22,incorrect
+['matt'],victor,0,0.2,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['bernard'],smith,0,0.0,incorrect,facebook,0,0.13,incorrect,facebook,0,0.13,incorrect
+['james'],ryan,0,0.22,incorrect,ryan,0,0.22,incorrect,ryan,0,0.22,incorrect
+['lucca'],derby,0,0.0,incorrect,derby,0,0.0,incorrect,derby,0,0.0,incorrect
+['james'],lucas,0,0.4,incorrect,sheila,0,0.18,incorrect,sheila,0,0.18,incorrect
+['james'],him,0,0.25,incorrect,john,0,0.22,incorrect,john,0,0.22,incorrect
+['james'],he,0,0.29,incorrect,marcel,0,0.36,incorrect,marcel,0,0.36,incorrect
+['ryan'],him,0,0.0,incorrect,colton,0,0.2,incorrect,colton,0,0.2,incorrect
+['james'],harry,0,0.2,incorrect,emily,0,0.2,incorrect,emily,0,0.2,incorrect
+['ryan'],ethan,0,0.44,incorrect,edward,0,0.2,incorrect,edward,0,0.2,incorrect
+['ryan'],john,0,0.25,incorrect,george,0,0.2,incorrect,george,0,0.2,incorrect
+['ryan'],he,0,0.0,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['ryan'],lucas,0,0.22,incorrect,god,0,0.0,incorrect,god,0,0.0,incorrect
+['ryan'],he,0,0.0,incorrect,none,0,0.25,incorrect,none,0,0.25,incorrect
+['ryan'],christian,0,0.46,incorrect,tom,0,0.0,incorrect,tom,0,0.0,incorrect
+['james'],he,0,0.29,incorrect,emily,0,0.2,incorrect,emily,0,0.2,incorrect
+['ryan'],ethan,0,0.44,incorrect,harry,0,0.44,incorrect,harry,0,0.44,incorrect
+['james'],derby,0,0.2,incorrect,derby,0,0.2,incorrect,derby,0,0.2,incorrect
+['ryan'],john,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],ethan,0,0.44,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['james'],emily,0,0.2,incorrect,emma,0,0.22,incorrect,emma,0,0.22,incorrect
+['lucca'],jessica,0,0.33,incorrect,jake,0,0.22,incorrect,jake,0,0.22,incorrect
+['ryan'],wendy,0,0.22,incorrect,brigade,0,0.36,incorrect,brigade,0,0.36,incorrect
+['ryan'],ethan,0,0.44,incorrect,harry,0,0.44,incorrect,harry,0,0.44,incorrect
+['ryan'],him,0,0.0,incorrect,edward,0,0.2,incorrect,edward,0,0.2,incorrect
+['bullock'],deputy,0,0.15,incorrect,deputy,0,0.15,incorrect,deputy,0,0.15,incorrect
+['james'],he,0,0.29,incorrect,emma,0,0.22,incorrect,emma,0,0.22,incorrect
+['bullock'],deputy,0,0.15,incorrect,deputy,0,0.15,incorrect,deputy,0,0.15,incorrect
+['jane'],mom,0,0.0,incorrect,emma,0,0.25,incorrect,emma,0,0.25,incorrect
+['ryan'],travis,0,0.4,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+"['andrew', 'marshall', 'andrew marshall']",he,0,0.25,incorrect,john,0,0.2,incorrect,john,0,0.2,incorrect
+['matt'],god,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['george'],concierge,0,0.53,incorrect,andrew,0,0.33,incorrect,andrew,0,0.33,incorrect
+['andrew'],strom thurmond,0,0.2,incorrect,carolina,0,0.29,incorrect,carolina,0,0.29,incorrect
+['andrew'],trump,0,0.18,incorrect,jesus,0,0.18,incorrect,jesus,0,0.18,incorrect
+['andrew'],miller,0,0.17,incorrect,miller,0,0.17,incorrect,miller,0,0.17,incorrect
+['ryan'],my husband,0,0.43,incorrect,living,0,0.2,incorrect,living,0,0.2,incorrect
+['ryan'],edward,0,0.2,incorrect,edward,0,0.2,incorrect,edward,0,0.2,incorrect
+['ryan'],lucas,0,0.22,incorrect,ethan,0,0.44,incorrect,ethan,0,0.44,incorrect
+['devon'],instagram,0,0.14,incorrect,instagram,0,0.14,incorrect,instagram,0,0.14,incorrect
+['ryan'],adam,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['devon'],lucas,0,0.0,incorrect,hamlet,0,0.18,incorrect,hamlet,0,0.18,incorrect
+['ryan'],lucas,0,0.22,incorrect,heathcliff,0,0.14,incorrect,heathcliff,0,0.14,incorrect
+['bernards'],smith,0,0.15,incorrect,watson,0,0.29,incorrect,watson,0,0.29,incorrect
+['how'],heather,0,0.2,incorrect,heather,0,0.2,incorrect,heather,0,0.2,incorrect
+['bernard'],smith,0,0.0,incorrect,john,0,0.18,incorrect,john,0,0.18,incorrect
+['ryan'],max,0,0.29,incorrect,jack,0,0.25,incorrect,jack,0,0.25,incorrect
+['ryan'],edward,0,0.2,incorrect,edward,0,0.2,incorrect,edward,0,0.2,incorrect
+['ryan'],ethan,0,0.44,incorrect,adam,0,0.25,incorrect,adam,0,0.25,incorrect
+['ryan'],devon,0,0.22,incorrect,devon,0,0.22,incorrect,devon,0,0.22,incorrect
+['ryan'],officer,0,0.18,incorrect,david,0,0.22,incorrect,david,0,0.22,incorrect
+['ryan'],he,0,0.0,incorrect,edward,0,0.2,incorrect,edward,0,0.2,incorrect
+"['deputy bullock', 'deputy', 'bullock']",officer,0,0.29,incorrect,officer,0,0.29,incorrect,officer,0,0.29,incorrect
+['porter'],scarlett,0,0.29,incorrect,wyatt,0,0.18,incorrect,wyatt,0,0.18,incorrect
+['devon'],augustus,0,0.0,incorrect,god,0,0.25,incorrect,god,0,0.25,incorrect
+['porter'],scarlett,0,0.29,incorrect,monica,0,0.17,incorrect,monica,0,0.17,incorrect
+['ryan'],christian,0,0.46,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+"['evelyn porter', 'evelyn', 'porter']",emily,0,0.55,incorrect,alabama,0,0.15,incorrect,alabama,0,0.15,incorrect
+"['andrew', 'marshall', 'andrew marshall']",hardin,0,0.33,incorrect,charlotte,0,0.4,incorrect,charlotte,0,0.4,incorrect
+['andrew'],jack,0,0.2,incorrect,myrtle,0,0.33,incorrect,myrtle,0,0.33,incorrect
+['matt'],christian,0,0.15,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['matt'],mr. darcy,0,0.31,incorrect,mr. darcy,0,0.31,incorrect,mr. darcy,0,0.31,incorrect
+"['andrew', 'marshall', 'andrew marshall']",john,0,0.2,incorrect,john,0,0.2,incorrect,john,0,0.2,incorrect
+"['andrew', 'marshall', 'andrew marshall']",trump,0,0.2,incorrect,senator,0,0.31,incorrect,senator,0,0.31,incorrect
+['matt'],marshall,0,0.33,incorrect,marshall,0,0.33,incorrect,marshall,0,0.33,incorrect
+['matt'],victor,0,0.2,incorrect,macgyver,0,0.33,incorrect,macgyver,0,0.33,incorrect
+['marshall'],trump,0,0.15,incorrect,jason,0,0.31,incorrect,jason,0,0.31,incorrect
+['nelson'],palpatine,0,0.27,incorrect,obama,0,0.18,incorrect,obama,0,0.18,incorrect
+['matt'],heath,0,0.44,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['matt'],olivia,0,0.2,incorrect,paris,0,0.22,incorrect,paris,0,0.22,incorrect
+"['amy', 'amy holder', 'holder']",richard jewell,0,0.3,incorrect,forbing,0,0.31,incorrect,forbing,0,0.31,incorrect
+['ryan'],he,0,0.0,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],my partner,0,0.43,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['amy'],john,0,0.0,incorrect,monet,0,0.25,incorrect,monet,0,0.25,incorrect
+"['amy', 'amy holder', 'holder']",victor,0,0.33,incorrect,wells fargo,0,0.24,incorrect,wells fargo,0,0.24,incorrect
+"['amy', 'amy holder', 'holder']",atlanta,0,0.24,incorrect,walter,0,0.5,incorrect,walter,0,0.5,incorrect
+"['amy', 'amy holder', 'holder']",victor,0,0.33,incorrect,lucas,0,0.25,incorrect,lucas,0,0.25,incorrect
+"['amy', 'amy holder', 'holder']",scarlett,0,0.33,incorrect,scarlett,0,0.33,incorrect,scarlett,0,0.33,incorrect
+['ryan'],christian,0,0.46,incorrect,norman,0,0.6,incorrect,norman,0,0.6,incorrect
+['ryan'],he,0,0.0,incorrect,edward,0,0.2,incorrect,edward,0,0.2,incorrect
+['ryan'],she,0,0.0,incorrect,martha,0,0.4,incorrect,martha,0,0.4,incorrect
+['james'],jason,0,0.6,incorrect,john,0,0.22,incorrect,john,0,0.22,incorrect
+['ryan'],christian,0,0.46,incorrect,ethan,0,0.44,incorrect,ethan,0,0.44,incorrect
+"['bobby flay', 'bobby', 'flay']",bobby flay,1,1.0,correct,mark wiens,0,0.14,incorrect,mark wiens,0,0.14,incorrect
+['ryan'],he,0,0.0,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],ethan,0,0.44,incorrect,lucas,0,0.22,incorrect,lucas,0,0.22,incorrect
+['ryan'],adam,0,0.25,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],he,0,0.0,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['james'],adam,0,0.44,incorrect,jesus,0,0.6,incorrect,jesus,0,0.6,incorrect
+['matt'],mr. jenkins,0,0.13,incorrect,ups,0,0.0,incorrect,ups,0,0.0,incorrect
+['george'],jack,0,0.0,incorrect,paris,0,0.18,incorrect,paris,0,0.18,incorrect
+['george'],florida,0,0.31,incorrect,florida,0,0.31,incorrect,florida,0,0.31,incorrect
+['t'],boone pickens,0,0.0,incorrect,boone pickens,0,0.0,incorrect,boone pickens,0,0.0,incorrect
+['tyron'],reggie bush,0,0.12,incorrect,tom brady,0,0.29,incorrect,tom brady,0,0.29,incorrect
+['george'],devon,0,0.36,incorrect,devon,0,0.36,incorrect,devon,0,0.36,incorrect
+['george'],john,0,0.2,incorrect,john,0,0.2,incorrect,john,0,0.2,incorrect
+"['andrew', 'marshall', 'andrew marshall']",amren,0,0.55,incorrect,emily,0,0.31,incorrect,emily,0,0.31,incorrect
+['george'],john,0,0.2,incorrect,instagram,0,0.27,incorrect,instagram,0,0.27,incorrect
+['george'],he,0,0.25,incorrect,edward,0,0.33,incorrect,edward,0,0.33,incorrect
+['cameron'],joe paterno,0,0.44,incorrect,harvard,0,0.29,incorrect,harvard,0,0.29,incorrect
+['roger'],bagman,0,0.18,incorrect,john,0,0.22,incorrect,john,0,0.22,incorrect
+['cameron'],coach,0,0.33,incorrect,coach,0,0.33,incorrect,coach,0,0.33,incorrect
+['ryan'],olivia,0,0.2,incorrect,christ church,0,0.12,incorrect,christ church,0,0.12,incorrect
+['ryan'],he,0,0.0,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['ryan'],heath,0,0.22,incorrect,jack,0,0.25,incorrect,jack,0,0.25,incorrect
+['ryan'],travis,0,0.4,incorrect,tom,0,0.0,incorrect,tom,0,0.0,incorrect
+['ryan'],john,0,0.25,incorrect,marriott,0,0.17,incorrect,marriott,0,0.17,incorrect
+['ryan'],he,0,0.0,incorrect,edward,0,0.2,incorrect,edward,0,0.2,incorrect
+"['amy', 'amy holder', 'holder']",emily,0,0.5,incorrect,hamlet,0,0.5,incorrect,hamlet,0,0.5,incorrect
+['ryan'],ethan,0,0.44,incorrect,ethan,0,0.44,incorrect,ethan,0,0.44,incorrect
+['tate'],grey,0,0.25,incorrect,hal,0,0.29,incorrect,hal,0,0.29,incorrect
+['devon'],ethan,0,0.4,incorrect,god,0,0.25,incorrect,god,0,0.25,incorrect
+['tate'],devon,0,0.22,incorrect,devon,0,0.22,incorrect,devon,0,0.22,incorrect
+"['ralph', 'ralph tate', 'tate']",john,0,0.22,incorrect,john,0,0.22,incorrect,john,0,0.22,incorrect
+['sawyer'],logan,0,0.18,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['tate'],hamptons,0,0.33,incorrect,willie,0,0.2,incorrect,willie,0,0.2,incorrect
+['sawyer'],lucas,0,0.18,incorrect,jason,0,0.18,incorrect,jason,0,0.18,incorrect
+['sawyer'],christian,0,0.27,incorrect,dean,0,0.2,incorrect,dean,0,0.2,incorrect
+['sawyer'],he,0,0.25,incorrect,shane,0,0.55,incorrect,shane,0,0.55,incorrect
+['sawyer'],christian,0,0.27,incorrect,jack,0,0.2,incorrect,jack,0,0.2,incorrect
+['sawyer'],devon,0,0.18,incorrect,mr. darcy,0,0.27,incorrect,mr. darcy,0,0.27,incorrect
+['george'],christian,0,0.13,incorrect,jack,0,0.0,incorrect,jack,0,0.0,incorrect
+['ryan'],he,0,0.0,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['tate'],devon,0,0.22,incorrect,devon,0,0.22,incorrect,devon,0,0.22,incorrect
+"['andrew', 'marshall', 'andrew marshall']",bill,0,0.33,incorrect,trump,0,0.2,incorrect,trump,0,0.2,incorrect
+['marshall'],newsom,0,0.14,incorrect,warren,0,0.29,incorrect,warren,0,0.29,incorrect
+['andrew'],lucas,0,0.18,incorrect,john,0,0.2,incorrect,john,0,0.2,incorrect
+"['andrew', 'marshall', 'andrew marshall']",oliver,0,0.19,incorrect,emily,0,0.31,incorrect,emily,0,0.31,incorrect
+['andrew'],christian,0,0.27,incorrect,watson,0,0.33,incorrect,watson,0,0.33,incorrect
+"['andrew', 'marshall', 'andrew marshall']",victor,0,0.17,incorrect,christian,0,0.35,incorrect,christian,0,0.35,incorrect
+['george'],lucas,0,0.0,incorrect,emma,0,0.2,incorrect,emma,0,0.2,incorrect
+['lucca'],emily,0,0.2,incorrect,atlanta,0,0.33,incorrect,atlanta,0,0.33,incorrect
+['james'],john,0,0.22,incorrect,stephen king,0,0.12,incorrect,stephen king,0,0.12,incorrect
+['ryan'],ethan,0,0.44,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],john,0,0.25,incorrect,marlboro,0,0.17,incorrect,marlboro,0,0.17,incorrect
+"['amy', 'amy holder', 'holder']",chicago,0,0.31,incorrect,frank,0,0.25,incorrect,frank,0,0.25,incorrect
+['george'],john,0,0.2,incorrect,emily,0,0.18,incorrect,emily,0,0.18,incorrect
+['ryan'],emily,0,0.22,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['george'],mr. darcy,0,0.13,incorrect,harry,0,0.18,incorrect,harry,0,0.18,incorrect
+['ryan'],john,0,0.25,incorrect,enron,0,0.44,incorrect,enron,0,0.44,incorrect
+['ryan'],christian,0,0.46,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['ryan'],devon,0,0.22,incorrect,devon,0,0.22,incorrect,devon,0,0.22,incorrect
+['ryan'],john,0,0.25,incorrect,augustus,0,0.17,incorrect,augustus,0,0.17,incorrect
+['mama'],mom,0,0.57,incorrect,mcdonald's,0,0.29,incorrect,mcdonald's,0,0.29,incorrect
+['mama'],grandma,0,0.55,incorrect,martha,0,0.6,incorrect,martha,0,0.6,incorrect
+['mama'],mom,0,0.57,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+"['amy', 'amy holder', 'holder']",lucas brooks,0,0.27,incorrect,rotary,0,0.44,incorrect,rotary,0,0.44,incorrect
+['amy'],emily,0,0.5,incorrect,manhattan,0,0.17,incorrect,manhattan,0,0.17,incorrect
+['amy'],scarlett,0,0.18,incorrect,barbie,0,0.22,incorrect,barbie,0,0.22,incorrect
+['amy'],scarlett,0,0.18,incorrect,scarlett,0,0.18,incorrect,scarlett,0,0.18,incorrect
+"['amy', 'amy holder', 'holder']",juliet,0,0.33,incorrect,edward,0,0.33,incorrect,edward,0,0.33,incorrect
+['amy'],jordan,0,0.22,incorrect,emily,0,0.5,incorrect,emily,0,0.5,incorrect
+['amy'],julia,0,0.25,incorrect,scarlett,0,0.18,incorrect,scarlett,0,0.18,incorrect
+['amy'],scarlett,0,0.18,incorrect,emily,0,0.5,incorrect,emily,0,0.5,incorrect
+['devon'],victor,0,0.36,incorrect,ethan,0,0.4,incorrect,ethan,0,0.4,incorrect
+['amy'],she,0,0.0,incorrect,holden,0,0.0,incorrect,holden,0,0.0,incorrect
+['crofton'],west,0,0.18,incorrect,james,0,0.0,incorrect,james,0,0.0,incorrect
+"['amy', 'amy holder', 'holder']",victor,0,0.33,incorrect,miss,0,0.29,incorrect,miss,0,0.29,incorrect
+"['amy', 'amy holder', 'holder']",emily,0,0.5,incorrect,elizabeth,0,0.27,incorrect,elizabeth,0,0.27,incorrect
+"['amy', 'amy holder', 'holder']",she,0,0.44,incorrect,pauline,0,0.35,incorrect,pauline,0,0.35,incorrect
+['amy'],julia,0,0.25,incorrect,britney,0,0.2,incorrect,britney,0,0.2,incorrect
+"['amy', 'amy holder', 'holder']",victor,0,0.33,incorrect,marlowe,0,0.35,incorrect,marlowe,0,0.35,incorrect
+['amy'],victim,0,0.22,incorrect,forbing,0,0.0,incorrect,forbing,0,0.0,incorrect
+['tyron'],warner,0,0.36,incorrect,sean,0,0.22,incorrect,sean,0,0.22,incorrect
+['jayden'],timmy,0,0.18,incorrect,frank,0,0.36,incorrect,frank,0,0.36,incorrect
+['ryan'],christian,0,0.46,incorrect,trump,0,0.22,incorrect,trump,0,0.22,incorrect
+['george'],victor,0,0.33,incorrect,god,0,0.44,incorrect,god,0,0.44,incorrect
+['lucca'],julia,0,0.4,incorrect,jason,0,0.2,incorrect,jason,0,0.2,incorrect
+['george'],christian,0,0.13,incorrect,fort knox,0,0.27,incorrect,fort knox,0,0.27,incorrect
+"['amy', 'amy holder', 'holder']",julia,0,0.25,incorrect,lucas,0,0.25,incorrect,lucas,0,0.25,incorrect
+['amy'],you,0,0.33,incorrect,harry,0,0.5,incorrect,harry,0,0.5,incorrect
+['porter'],grey,0,0.4,incorrect,travis,0,0.33,incorrect,travis,0,0.33,incorrect
+['devon'],mike,0,0.22,incorrect,john,0,0.44,incorrect,john,0,0.44,incorrect
+['tate'],winters,0,0.36,incorrect,frank,0,0.22,incorrect,frank,0,0.22,incorrect
+['amy'],devon,0,0.0,incorrect,devon,0,0.0,incorrect,devon,0,0.0,incorrect
+['amy'],adam,0,0.57,incorrect,devon,0,0.0,incorrect,devon,0,0.0,incorrect
+['amy'],joe,0,0.0,incorrect,walt,0,0.29,incorrect,walt,0,0.29,incorrect
+['amy'],victor,0,0.0,incorrect,john,0,0.0,incorrect,john,0,0.0,incorrect
+['amy'],devon,0,0.0,incorrect,devon,0,0.0,incorrect,devon,0,0.0,incorrect
+['amy'],peeta,0,0.25,incorrect,scarlett,0,0.18,incorrect,scarlett,0,0.18,incorrect
+['connollys'],cartel,0,0.27,incorrect,devon,0,0.29,incorrect,devon,0,0.29,incorrect
+['amy'],lucas,0,0.25,incorrect,victor,0,0.0,incorrect,victor,0,0.0,incorrect
+['amy'],scarlett,0,0.18,incorrect,christian,0,0.17,incorrect,christian,0,0.17,incorrect
+['devon'],mom,0,0.25,incorrect,god,0,0.25,incorrect,god,0,0.25,incorrect
+['ryan'],heath,0,0.22,incorrect,jack,0,0.25,incorrect,jack,0,0.25,incorrect
+['ryan'],he,0,0.0,incorrect,john,0,0.25,incorrect,john,0,0.25,incorrect
+['ryan'],christian,0,0.46,incorrect,max,0,0.29,incorrect,max,0,0.29,incorrect
+['mama'],mom,0,0.57,incorrect,elvis,0,0.0,incorrect,elvis,0,0.0,incorrect
+['ryan'],john,0,0.25,incorrect,scott,0,0.0,incorrect,scott,0,0.0,incorrect
+['ryan'],augustus,0,0.17,incorrect,emily,0,0.22,incorrect,emily,0,0.22,incorrect
+['ryan'],christian,0,0.46,incorrect,lucas,0,0.22,incorrect,lucas,0,0.22,incorrect
+['ryan'],christian,0,0.46,incorrect,atlas,0,0.22,incorrect,atlas,0,0.22,incorrect
+['ryan'],edward,0,0.2,incorrect,heathcliff,0,0.14,incorrect,heathcliff,0,0.14,incorrect
+['james'],harry,0,0.2,incorrect,walmart,0,0.33,incorrect,walmart,0,0.33,incorrect
+['ryan'],christian,0,0.46,incorrect,adam,0,0.25,incorrect,adam,0,0.25,incorrect
+['ryan'],he,0,0.0,incorrect,adam,0,0.25,incorrect,adam,0,0.25,incorrect

@@ -2,19 +2,16 @@ import os
 import csv
 import re
 from collections import defaultdict
-from transformers import AutoTokenizer
-import transformers
+import tiktoken
 
-# Suppress long-sequence tokenizer warnings
-transformers.logging.set_verbosity_error()
+# Load tokenizer (choose based on target model, e.g., "cl100k_base" for GPT-4/3.5)
+encoding = tiktoken.get_encoding("cl100k_base")  # or use tiktoken.encoding_for_model("gpt-4")
 
-# Load multilingual tokenizer
-tokenizer = AutoTokenizer.from_pretrained("xlm-roberta-base")
-
-def safe_tokenize(text, tokenizer):
+def safe_tokenize(text, encoding):
     try:
-        # Truncate long lines to 512 tokens safely
-        return len(tokenizer.encode(text, truncation=True, max_length=512))
+        # Truncate to 512 tokens like before
+        tokens = encoding.encode(text)
+        return len(tokens[:512])
     except Exception as e:
         print(f"Tokenization error: {e}")
         return 0
@@ -26,8 +23,7 @@ def count_words_and_tokens_streamed(root_dir, output_csv="grouped_counts_streame
     for dirpath, _, filenames in os.walk(root_dir):
         for file in filenames:
             if file.endswith(".txt") and ("Dracula" in file or "Animal_Farm" in file):
-                # Use raw string to avoid escape sequence warning
-                pattern = r"^(.*)_(" + "|".join(lang_suffixes) + ")\.txt$"
+                pattern = r"^(.*)_(" + "|".join(lang_suffixes) + r")\.txt$"
                 match = re.match(pattern, file)
 
                 if match:
@@ -42,7 +38,7 @@ def count_words_and_tokens_streamed(root_dir, output_csv="grouped_counts_streame
                             for line in f:
                                 words = line.strip().split()
                                 total_words += len(words)
-                                total_tokens += safe_tokenize(line, tokenizer)
+                                total_tokens += safe_tokenize(line, encoding)
 
                         grouped_counts[book_name][lang] = {
                             "words": total_words,

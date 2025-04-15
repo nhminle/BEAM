@@ -118,7 +118,7 @@ def create_aggregate_heatmap(aggregate_dict, base_dir, filename_suffix, title_su
 
 def main():
     # Set the base directory where your results are stored.
-    base_dir = 'results/name_cloze'
+    base_dir = '/home/ekorukluoglu_umass_edu/beam2/BEAM/results/name_cloze/Llama-3.1-405b/2024'
 
     # We'll accumulate aggregated accuracy per experiment per model.
     # Structure: aggregate[experiment][model] = {lang: accuracy%}

@@ -9,6 +9,7 @@ def is_2024_book(book_title):
     """
     Check if the title is one of the 2024 set.
     """
+    print(book_title)
     return book_title in [
         'Below_Zero', 'Bride', 'First_Lie_Wins', 'Funny_Story',
         'If_Only_I_Had_Told_Her', 'Just_for_the_Summer', 'Lies_and_Weddings',
@@ -44,9 +45,11 @@ def main(model_folder, prompt_setting, filename, book_title):
     
     # Load ground truth file based on book_title
     if is_2024_book(book_title):
-        df2 = pd.read_csv(f'scripts/Prompts/2024/{book_title}/{book_title}_unmasked_passages.csv')
+        print("ADASDSADASDASD")
+        # /home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/2024/Below_Zero/Below_Zero_unmasked_passages.csv
+        df2 = pd.read_csv(f'/home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/2024/{book_title}/{book_title}_filtered_masked.csv')
     else:
-        df2 = pd.read_csv(f'scripts/Prompts/{book_title}/{book_title}_unmasked_passages.csv')
+        df2 = pd.read_csv(f'/home/ekorukluoglu_umass_edu/beam2/BEAM/scripts/Prompts/2024/{book_title}/{book_title}_filtered_masked.csv')
     
     # Merge ground truth into df1 using the common 'en' column.
     df1['Single_ent'] = df2['Single_ent']
@@ -191,7 +194,7 @@ def parse_filename(base_name):
     if remainder.startswith('_'):
         remainder = remainder[1:]
     prompt_setting = None
-    for ps in ["one-shot", "zero-shot"]:
+    for ps in ["one_shot", "zero_shot"]:
         if ps in remainder:
             prompt_setting = ps
             break
@@ -213,19 +216,9 @@ def run_evaluation(model_folder):
 
 # Example usage:
 dirs_nct = [
-    'results/name_cloze/EuroLLM-9B-Instruct',
-    'results/name_cloze/gpt-4o-2024-11-20',
-    'results/name_cloze/Llama-3.1-8B-Instruct_',
-    'results/name_cloze/Llama-3.1-8B-Instruct-quantized.w4a16',
-    'results/name_cloze/Llama-3.1-8B-Instruct-quantized.w8a16',
-    'results/name_cloze/Llama-3.1-70B-Instruct-quantized.w4a16',
-    'results/name_cloze/Llama-3.1-70B-Instruct-quantized.w8a16',
-    'results/name_cloze/OLMo-2-1124-7B-Instruct',
-    'results/name_cloze/Llama-3.1-70B-Instruct_',
-    'results/name_cloze/Llama-3.3-70B-Instruct',
-    'results/name_cloze/Llama-3.1-405b',
-    'results/name_cloze/OLMo-2-1124-13B-Instruct',
-    'results/name_cloze/Qwen2.5-7B-Instruct-1M'
+    '/home/ekorukluoglu_umass_edu/beam2/BEAM/results/name_cloze/Llama-3.1-405b/2024'
 ]
 for d in dirs_nct:
     run_evaluation(d)
+# /home/ekorukluoglu_umass_edu/beam2/BEAM/results/name_cloze/Llama-3.1-405b/2024/one-shot
+# /home/ekorukluoglu_umass_edu/beam2/BEAM/results/name_cloze/Llama-3.1-405b/2024/one-shot
