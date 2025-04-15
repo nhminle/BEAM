@@ -4,6 +4,13 @@ import re
 from pathlib import Path
 import seaborn as sns
 import matplotlib.pyplot as plt
+import matplotlib as mpl
+# Set global font to bold
+plt.rcParams['font.weight'] = 'bold'
+plt.rcParams['axes.titleweight'] = 'bold'
+plt.rcParams['axes.labelweight'] = 'bold'
+plt.rcParams['figure.titleweight'] = 'bold'
+plt.rcParams['font.size'] = 14  # Increase base font size
 LANG_GROUPS = {
     "English": ["en_results_both_match"],
     "Translations": ["es_results_both_match", "vi_results_both_match", "tr_results_both_match"],
@@ -113,8 +120,12 @@ def compute_accuracies_from_master_csv(master_csv_path: str) -> pd.DataFrame:
 def plot_grouped_accuracies(df: pd.DataFrame):
     plt.figure(figsize=(8, 6))
     sns.boxplot(data=df, x="group", y="accuracy")
-    plt.title("Aggregated Accuracy by Language Group (All Models) (removed occurences)")
+    plt.title("Aggregated Accuracy by Language Group (All Models) (removed occurences)", fontweight='bold')
     plt.ylim(0, 1)
+    plt.xlabel("Group", fontweight='bold')
+    plt.ylabel("Accuracy", fontweight='bold')
+    plt.xticks(fontweight='bold')
+    plt.yticks(fontweight='bold')
     plt.tight_layout()
     plt.savefig("omgwtf.png")
     plt.show()
@@ -228,15 +239,73 @@ def plot_accuracy_comparison_bar(df_master_acc: pd.DataFrame, df_filtered_acc: p
 
     combined = pd.concat([df_master_acc, df_filtered_acc], ignore_index=True)
 
-    plt.figure(figsize=(10, 6))
-    sns.barplot(data=combined, x="group", y="accuracy", hue="source", ci=None)
+    plt.figure(figsize=(12, 8))
+    ax = sns.barplot(data=combined, x="group", y="accuracy", hue="source", palette="BuPu")
 
-    plt.title("Accuracy Comparison on DP non_NE: Occurances vs Non-Occurances")
-    plt.ylim(0, 1)
-    plt.ylabel("Mean Accuracy")
-    plt.xlabel("Language Group")
+    # Add grid
+    ax.yaxis.grid(True, linestyle=":", linewidth=1, alpha=0.6)
+    ax.set_axisbelow(True)
+
+    # Remove the box around the plot
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.spines['left'].set_color('lightgray')
+    ax.spines['bottom'].set_color('lightgray')
+    ax.spines['left'].set_linewidth(1.5)
+    ax.spines['bottom'].set_linewidth(1.5)
+
+    # Add text annotations above each bar with improved styling
+    for i, p in enumerate(ax.patches):
+        height = p.get_height()
+        if height < 0.01:
+            continue
+            
+        # Determine text color based on bar color
+        is_light_bar = p.get_facecolor()[0] > 0.5
+        text_color = 'black' if is_light_bar else 'white'
+        
+        if height < 0.1:  # For very small values, place text above
+            ax.text(
+                p.get_x() + p.get_width()/2.,
+                height + 0.03,
+                f'{height:.2f}',
+                ha='center',
+                fontsize=12,
+                fontweight='bold',
+                color='black'
+            )
+        else:
+            ax.text(
+                p.get_x() + p.get_width()/2.,
+                height - 0.05,  # Position inside the bar
+                f'{height:.2f}',
+                ha='center',
+                fontsize=12,
+                fontweight='bold',
+                color=text_color
+            )
+
+    plt.title("Accuracy Comparison on DP non_NE: Occurances vs Non-Occurances", fontweight='bold')
+    plt.ylim(0, 1.1)  # Increased ylim to make room for labels
+    plt.ylabel("Mean Accuracy", fontweight='bold')
+    plt.xlabel("Language Group", fontweight='bold')
+    
+    # Format ticks
+    for label in ax.get_xticklabels():
+        label.set_fontweight('bold')
+        label.set_fontsize(14)
+    for label in ax.get_yticklabels():
+        label.set_fontweight('bold')
+        label.set_fontsize(14)
+    
+    # Format legend
+    legend = ax.legend(title="Source", fontsize=14, title_fontsize=14)
+    plt.setp(legend.get_title(), fontweight='bold')
+    for text in legend.get_texts():
+        text.set_fontweight('bold')
+        
     plt.tight_layout()
-    plt.savefig("accuracy_comparison_barplot.png")
+    plt.savefig("accuracy_comparison_barplot.png", dpi=300, bbox_inches='tight')
     plt.show()
 
 
@@ -279,13 +348,74 @@ if __name__ == "__main__":
 
     df_limited = pd.concat([df_master_sub, df_filtered_sub], ignore_index=True)
 
-    plt.figure(figsize=(8, 6))
+    plt.figure(figsize=(12, 8))
     
-    sns.barplot(data=df_limited, x="group", y="accuracy", hue="source", ci=None)
-    plt.title("Accuracy Comparison for Llama-3.1-405b")
-    plt.ylim(0, 1)
+    ax = sns.barplot(data=df_limited, x="group", y="accuracy", hue="source", palette="BuPu")
+    
+    # Add grid
+    ax.yaxis.grid(True, linestyle=":", linewidth=1, alpha=0.6)
+    ax.set_axisbelow(True)
+
+    # Remove the box around the plot
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.spines['left'].set_color('lightgray')
+    ax.spines['bottom'].set_color('lightgray')
+    ax.spines['left'].set_linewidth(1.5)
+    ax.spines['bottom'].set_linewidth(1.5)
+    
+    # Add text annotations above each bar with improved styling
+    for i, p in enumerate(ax.patches):
+        height = p.get_height()
+        if height < 0.01:
+            continue
+            
+        # Determine text color based on bar color
+        is_light_bar = p.get_facecolor()[0] > 0.5
+        text_color = 'black' if is_light_bar else 'white'
+        
+        if height < 0.1:  # For very small values, place text above
+            ax.text(
+                p.get_x() + p.get_width()/2.,
+                height + 0.03,
+                f'{height:.2f}',
+                ha='center',
+                fontsize=12,
+                fontweight='bold',
+                color='black'
+            )
+        else:
+            ax.text(
+                p.get_x() + p.get_width()/2.,
+                height - 0.05,  # Position inside the bar
+                f'{height:.2f}',
+                ha='center',
+                fontsize=12,
+                fontweight='bold',
+                color=text_color
+            )
+        
+    plt.title("Accuracy Comparison for Llama-3.1-405b", fontweight='bold')
+    plt.ylim(0, 1.1)  # Increased ylim to make room for labels
+    plt.xlabel("Group", fontweight='bold')
+    plt.ylabel("Accuracy", fontweight='bold')
+    
+    # Format ticks
+    for label in ax.get_xticklabels():
+        label.set_fontweight('bold')
+        label.set_fontsize(14)
+    for label in ax.get_yticklabels():
+        label.set_fontweight('bold')
+        label.set_fontsize(14)
+    
+    # Format legend
+    legend = ax.legend(title="Source", fontsize=14, title_fontsize=14)
+    plt.setp(legend.get_title(), fontweight='bold')
+    for text in legend.get_texts():
+        text.set_fontweight('bold')
+    
     plt.tight_layout()
-    plt.savefig("llama405b_accuracy_comparison.png")
+    plt.savefig("llama405b_accuracy_comparison.png", dpi=300, bbox_inches='tight')
     plt.show()
 
     # ✅ Optionally: Save cleaned files
